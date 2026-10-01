@@ -1,0 +1,1 @@
+window.ECLAT_VISUALS=window.ECLAT_VISUALS||{};

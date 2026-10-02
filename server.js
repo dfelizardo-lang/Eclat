@@ -37,7 +37,7 @@ app.get('/api/passages/:id', (req, res) => {
   res.status(404).json({error: 'Extrait introuvable'});
 });
 app.get('/api/reading-catalog.js', (req, res) => {
-  res.set('Cache-Control', 'public, max-age=3600').type('application/javascript').send('window.ECLAT_READING_CATALOG=' + JSON.stringify(readingCatalog).replace(/</g, '\\u003c') + ';');
+  res.set('Cache-Control', 'no-cache').type('application/javascript').send('window.ECLAT_READING_CATALOG=' + JSON.stringify(readingCatalog).replace(/</g, '\\u003c') + ';');
 });
 const LIBRARIES_CSV = "https://www.data.gouv.fr/api/1/datasets/r/806a8aa1-952f-404d-9857-3f27b7c0ca86";
 let libraryCache = { at: 0, rows: [] };

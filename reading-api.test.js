@@ -6,7 +6,7 @@ test('HTTP catalogue, passages and browser bundle agree',async()=>{
  try {
   await new Promise((resolve,reject)=>{child.stdout.once('data',resolve);child.once('error',reject);child.once('exit',code=>reject(new Error('server exit '+code)));});
   const base='http://127.0.0.1:3031';const c=await(await fetch(base+'/api/catalogue')).json();
-  assert.equal(c.works.length,20);
+  assert.equal(c.works.length,require('./reading-catalog').works.length);
   for(const w of c.works.filter(w=>!w.legacy))for(const p of w.passages){
    const response=await fetch(base+'/api/passages/'+p.id);assert.equal(response.status,200);
    const live=await response.json();assert.equal(live.text,p.text);assert.equal(live.workId,w.id);

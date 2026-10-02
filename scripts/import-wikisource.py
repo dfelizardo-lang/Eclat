@@ -50,7 +50,7 @@ def extract(spec):
     if not edition: raise ValueError(title+': missing edition scan')
     revision=re.search(r'"wgCurRevisionId":(\d+)',html).group(1)
     Path('sources/'+slug+'.html').write_text(html)
-    return dict(id=slug,title=title,author=author,audience=audience,year=year,tags=tags,genre=tags[0],source=url,edition=edition.group(1),rights={'status':'public-domain','territory':'France','authorDeathYear':death,'basis':'Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.','authorSource':'https://fr.wikisource.org/wiki/Auteur:'+urllib.parse.quote(author.replace(' ','_')),'verifiedAt':'2026-10-02'},sourceRevision=revision,passages=groups,text=groups[0]['text'])
+    return dict(id=slug,title=title,author=author,audience=audience,year=year,tags=tags,genre=tags[0],source=url,edition=edition.group(1),rights={'status':'pending-review','territory':'France','authorDeathYear':death,'basis':'Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.','authorSource':'https://fr.wikisource.org/wiki/Auteur:'+urllib.parse.quote(author.replace(' ','_')),'verifiedAt':'2026-10-02'},sourceRevision=revision,passages=groups,text=groups[0]['text'])
 
 SPECS=[
 ('gautier-roman-momie','Le Roman de la momie','Théophile Gautier',1872,'adult','1858',['roman historique','amour','étrange','voyage'],'Le_Roman_de_la_momie/Chapitre_7','Lorsque le jour parut'),
@@ -63,6 +63,7 @@ SPECS=[
 ('perrault-riquet','Riquet à la houppe','Charles Perrault',1703,'child','1697',['conte','magie','royaume','merveilleux'],'Contes_de_Perrault_(éd._1902)/Riquet_à_la_Houppe','Il était une fois une reine'),
 ]
 if __name__=='__main__':
+    Path('sources').mkdir(exist_ok=True)
     works=[]
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         futures={pool.submit(extract,s):s[0] for s in SPECS}

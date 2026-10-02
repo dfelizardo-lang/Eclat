@@ -1,0 +1,162 @@
+[
+  [
+    "malot-sans-famille",
+    "Sans famille",
+    "Hector Malot",
+    1907,
+    "child",
+    "1878",
+    [
+      "roman jeunesse",
+      "famille",
+      "aventure",
+      "courage"
+    ],
+    "Sans_famille/Dentu,_1887/Première_partie/1",
+    "Je suis un enfant trouvé"
+  ],
+  [
+    "dumas-trois-mousquetaires",
+    "Les Trois Mousquetaires",
+    "Alexandre Dumas",
+    1870,
+    "child",
+    "1844",
+    [
+      "roman historique",
+      "aventure",
+      "amitié",
+      "courage"
+    ],
+    "Les_Trois_Mousquetaires/Chapitre_1",
+    "Le premier lundi"
+  ],
+  [
+    "daudet-contes-lundi",
+    "Contes du lundi",
+    "Alphonse Daudet",
+    1897,
+    "child",
+    "1873",
+    [
+      "récit",
+      "école",
+      "émotion",
+      "mémoire"
+    ],
+    "Les_Contes_du_lundi/La_Dernière_classe",
+    "Ce matin-là"
+  ],
+  [
+    "sand-contes-grandmere",
+    "Contes d’une grand’mère",
+    "George Sand",
+    1876,
+    "child",
+    "1873",
+    [
+      "conte",
+      "nature",
+      "merveilleux",
+      "animaux"
+    ],
+    "Le_Chêne_parlant",
+    "Il y avait"
+  ],
+  [
+    "verne-ile-mysterieuse",
+    "L’Île mystérieuse",
+    "Jules Verne",
+    1905,
+    "child",
+    "1874",
+    [
+      "aventure",
+      "science",
+      "île",
+      "courage"
+    ],
+    "L’Île_mystérieuse/Partie_1/Chapitre_1",
+    "Remontons"
+  ],
+  [
+    "dumas-monte-cristo",
+    "Le Comte de Monte-Cristo",
+    "Alexandre Dumas",
+    1870,
+    "adult",
+    "1844",
+    [
+      "roman",
+      "aventure",
+      "justice",
+      "vengeance"
+    ],
+    "Le_Comte_de_Monte-Cristo/Chapitre_1",
+    "Le 24 février"
+  ],
+  [
+    "loti-pecheur-islande",
+    "Pêcheur d’Islande",
+    "Pierre Loti",
+    1923,
+    "adult",
+    "1886",
+    [
+      "roman",
+      "mer",
+      "amour",
+      "voyage"
+    ],
+    "Pêcheur_d’Islande,_1886/I",
+    "Ils étaient cinq"
+  ],
+  [
+    "balzac-peau-chagrin",
+    "La Peau de chagrin",
+    "Honoré de Balzac",
+    1850,
+    "adult",
+    "1831",
+    [
+      "roman",
+      "fantastique",
+      "désir",
+      "société"
+    ],
+    "La_Peau_de_chagrin/1855/Chapitre_1",
+    "Vers la fin du mois"
+  ],
+  [
+    "zola-germinal",
+    "Germinal",
+    "Émile Zola",
+    1902,
+    "adult",
+    "1885",
+    [
+      "roman",
+      "société",
+      "travail",
+      "solidarité"
+    ],
+    "Germinal/Partie_I/Chapitre_1",
+    "Dans la plaine rase"
+  ],
+  [
+    "sand-indiana",
+    "Indiana",
+    "George Sand",
+    1876,
+    "adult",
+    "1832",
+    [
+      "roman",
+      "amour",
+      "liberté",
+      "société"
+    ],
+    "Indiana/Texte_entier",
+    "Par une soirée"
+  ]
+]

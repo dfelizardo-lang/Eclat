@@ -1384,6 +1384,568 @@
       "editionSource": "https://fr.wikisource.org/wiki/Livre:Beaumont_-_Contes_moraux%2C_tome_1%2C_Barba%2C_1806.djvu",
       "editorialStatus": "reviewed-disjoint-source-paragraphs",
       "sourceHtmlSha256": "fe303c4378e38f624b88827aea4167740892b209f8e78b004c0e74503f01f808"
+    },
+    {
+      "id": "balzac-peau-chagrin",
+      "title": "La Peau de chagrin",
+      "author": "Honoré de Balzac",
+      "audience": "adult",
+      "year": "1831",
+      "tags": [
+        "roman",
+        "fantastique",
+        "désir",
+        "société"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855/Chapitre_1",
+      "edition": "Livre:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 14.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1850,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Honor%C3%A9_de_Balzac",
+        "verifiedAt": "2026-10-03"
+      },
+      "sourceRevision": "14944417",
+      "passages": [
+        {
+          "id": "balzac-peau-chagrin-p01",
+          "text": "Vers la fin du mois d’octobre dernier, un jeune homme entra dans le Palais-Royal au moment où les maisons de jeu s’ouvraient, conformément à la loi qui protège une passion essentiellement imposable. Sans trop hésiter, il monta l’escalier du tripot désigné sous le nom de numéro 36.\n\n— Monsieur, votre chapeau, s’il vous plaît ? lui cria d’une voix sèche et grondeuse un petit vieillard blême accroupi dans l’ombre, protégé par une barricade, et qui se leva soudain en montrant une figure moulée sur un type ignoble.",
+          "startParagraph": 0,
+          "endParagraph": 1,
+          "source": "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855/Chapitre_1",
+          "sha256": "c6ab11b87edb64b9cdf64c58acb383b17e2c69c29938f19493a4bbfe82291e8b"
+        },
+        {
+          "id": "balzac-peau-chagrin-p02",
+          "text": "— Quoi ? dit un autre.\n\n— Le crime…\n\n— Voilà un mot qui a toute la hauteur d’une potence et toute la profondeur de la Seine, répliqua Raphaël.\n\n— Oh ! tu ne m’entends pas. Je parle des crimes politiques. Depuis ce matin je n’envie qu’une existence, celle des conspirateurs. Demain, je ne sais si ma fantaisie durera toujours ; mais ce soir la vie pâle de notre civilisation, unie comme la rainure d’un chemin de fer, fait bondir mon cœur de dégoût ! Je suis épris de passion pour les malheurs de la déroute de Moscou, pour les émotions du Corsaire rouge et pour l’existence des contrebandiers. Puisqu’il n’y a plus de Chartreux en France, je voudrais au moins un Botany-Bay, une espèce d’infirmerie destinée aux petits lords Byrons, qui, après avoir chiffonné la vie comme une serviette après dîner, n’ont plus rien à faire qu’à incendier leur pays, se  brûler la cervelle, conspirer pour la république, ou demander la guerre…\n\n— Émile, dit avec feu le voisin de Raphaël à l’interlocuteur, foi d’homme, sans la révolution de juillet, je me faisais prêtre pour aller mener une vie animale au fond de quelque campagne, et…\n\n— Et tu aurais lu le bréviaire tous les jours ?\n\n— Tu es un fat.\n\n— Nous lisons bien les journaux.\n\n— Pas mal ! pour un journaliste. Mais, tais-toi, nous marchons au milieu d’une masse d’abonnés. Le journalisme, vois-tu, c’est la religion des sociétés modernes, et il y a progrès.\n\n— Comment ?\n\n— Les pontifes ne sont pas tenus de croire, ni le peuple non plus…\n\nEn devisant ainsi, comme de braves gens qui savaient le De Viris illustribus depuis longues années, ils arrivèrent à un hôtel de la rue Joubert.\n\nÉmile était un journaliste qui avait conquis plus de gloire à ne rien faire que les autres n’en recueillent de leurs succès. Critique hardi, plein de verve et de mordant, il possédait toutes les qualités que comportaient ses défauts. Franc et rieur, il disait en face mille épigrammes à un ami, qu’absent, il défendait avec courage et loyauté. Il se moquait de tout, même de son avenir. Toujours dépourvu d’argent, il restait, comme tous les hommes de quelque portée, plongé dans une inexprimable paresse, jetant un livre dans un mot au nez de gens qui ne savaient pas mettre un mot dans leurs livres. Prodigue de promesses qu’il ne réalisait jamais, il s’était fait de sa fortune et de sa gloire un coussin pour dormir, courant ainsi la chance de se réveiller vieux à l’hôpital. D’ailleurs, ami jusqu’à l’échafaud, fanfaron de cynisme et simple comme un enfant, il ne travaillait que par boutade ou par nécessité.",
+          "startParagraph": 96,
+          "endParagraph": 108,
+          "source": "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855/Chapitre_1",
+          "sha256": "157344f939b44186ec25c3a92e0a9ec966de46294aed229e9e872f53f4746e23"
+        },
+        {
+          "id": "balzac-peau-chagrin-p03",
+          "text": "— L’avez-vous embrassé en juillet ?\n\n— Alors taisez-vous, sceptique.\n\n— Les sceptiques sont les hommes les plus consciencieux.\n\n— Ils n’ont pas de conscience.\n\n— Que dites-vous ? ils en ont au moins deux.\n\n— Escompter le ciel ! monsieur, voilà une idée vraiment commerciale. Les religions antiques n’étaient qu’un heureux développement du plaisir physique ; mais nous autres nous avons développé l’âme et l’espérance ; il y a eu progrès.\n\n— Hé ! mes bons amis, que pouvez-vous attendre d’un siècle repu de politique ? dit Nathan. Quel a été le sort de Smarra, la plus ravissante conception…..\n\n— Smarra ! cria le jugeur d’un bout de la table à l’autre. Ce sont des phrases tirées au hasard dans un chapeau. Véritable ouvrage écrit pour Charenton.\n\n— Vous êtes un sot !\n\n— Vous êtes un drôle !\n\n— Oh ! oh !\n\n— Ah ! ah !\n\n— Ils se battront.\n\n— À demain, monsieur.\n\n— À l’instant, répondit Nathan.\n\n— Allons ! allons ! vous êtes deux braves.\n\n— Vous en êtes un autre ! dit le provocateur.\n\n— Ils ne peuvent seulement pas se mettre debout.\n\n— Ah ! je ne me tiens pas droit, peut-être ! reprit le belliqueux Nathan en se dressant comme un cerf-volant indécis. Il jeta sur la table un regard hébété, puis comme exténué par cet effort, il retomba sur sa chaise, pencha la tête et resta muet.\n\n— Ne serait-il pas plaisant, dit le jugeur à son voisin, de me battre pour un ouvrage que je n’ai jamais vu ni lu !\n\n— Émile, prends garde à ton habit, ton voisin pâlit, dit Bixiou.\n\n— Kant, monsieur. Encore un ballon lancé pour amuser les niais ! Le matérialisme et le spiritualisme sont deux jolies raquettes avec lesquelles des charlatans en robe font aller le même volant. Que Dieu soit en tout selon Spinosa, ou que tout vienne de Dieu selon saint Paul… Imbéciles ! ouvrir ou fermer une porte, n’est-ce pas le même mouvement ? L’œuf vient-il de la poule ou la poule de l’œuf ? (Passez-moi du canard !) Voilà toute la science.",
+          "startParagraph": 192,
+          "endParagraph": 213,
+          "source": "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855/Chapitre_1",
+          "sha256": "699544004163524af4062a13881f2979d9bd8b33aa0c549c6ca34c38a842f3d2"
+        }
+      ],
+      "text": "Vers la fin du mois d’octobre dernier, un jeune homme entra dans le Palais-Royal au moment où les maisons de jeu s’ouvraient, conformément à la loi qui protège une passion essentiellement imposable. Sans trop hésiter, il monta l’escalier du tripot désigné sous le nom de numéro 36.\n\n— Monsieur, votre chapeau, s’il vous plaît ? lui cria d’une voix sèche et grondeuse un petit vieillard blême accroupi dans l’ombre, protégé par une barricade, et qui se leva soudain en montrant une figure moulée sur un type ignoble.",
+      "editionYear": 1855,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Balzac_-_%C5%92uvres_compl%C3%A8tes,_%C3%A9d._Houssiaux,_1874,_tome_14.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "44ba6a3601b25c3cf96aa80d7c69be1db6738537a904b31852a12c6c8d12f197",
+      "editionNote": "Année relevée dans la notice du fac-similé; le nom de fichier historique porte une autre année."
+    },
+    {
+      "id": "daudet-contes-lundi",
+      "title": "Contes du lundi",
+      "author": "Alphonse Daudet",
+      "audience": "child",
+      "year": "1873",
+      "tags": [
+        "récit",
+        "école",
+        "émotion",
+        "mémoire"
+      ],
+      "genre": "récit",
+      "source": "https://fr.wikisource.org/wiki/Les_Contes_du_lundi/La_Derni%C3%A8re_classe",
+      "edition": "Livre:Daudet - Contes du lundi, Lemerre, 1880.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1897,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Alphonse_Daudet",
+        "verifiedAt": "2026-10-03"
+      },
+      "sourceRevision": "10790647",
+      "passages": [
+        {
+          "id": "daudet-contes-lundi-p01",
+          "text": "Ce matin-là, j’étais très en retard pour aller à l’école, et j’avais grand-peur d’être grondé, d’autant que M. Hamel nous avait dit qu’il nous interrogerait sur les participes, et je n’en savais pas le premier mot. Un moment l’idée me vint de manquer la classe et de prendre ma course à travers champs.\n\nLe temps était si chaud, si clair !\n\nOn entendait les merles siffler à la lisière du bois, et dans le pré Rippert, derrière la scierie, les Prussiens qui faisaient l’exercice. \nTout cela me tentait bien plus que la règle des participes ; mais j’eus la force de résister, et je courus bien vite vers l’école.\n\nEn passant devant la mairie, je vis qu’il y avait du monde arrêté près du petit grillage aux affiches. Depuis deux ans, c’est de là que nous sont venues toutes les mauvaises nouvelles, les batailles perdues, les réquisitions, les ordres de la commandature ; et je pensai sans m’arrêter :\n\n« Qu’est-ce qu’il y a encore ? »\n\nAlors, comme je traversais la place en courant, le forgeron Wachter, qui était là avec son apprenti en train de lire l’affiche, me cria :\n\n« Ne te dépêche pas tant, petit ; tu y arriveras toujours assez tôt à ton école ! »\n\nJe crus qu’il se moquait de moi, et j’entrai tout essoufflé dans la petite cour de M. Hamel.\n\nD’ordinaire, au commencement de la classe, il se faisait un grand tapage qu’on entendait jusque dans la rue : les pupitres ouverts, fermés, les leçons qu’on répétait très haut, tous ensemble, en se bouchant les oreilles pour mieux apprendre, et la grosse règle du maître qui tapait sur les tables :\n\n« Un peu de silence ! »\n\nJe comptais sur tout ce train pour gagner mon banc sans être vu ; mais, justement, ce jour-là, tout était tranquille, comme un matin de dimanche. Par la fenêtre ouverte, je voyais mes camarades déjà rangés à leurs places, et M. Hamel, qui passait et repassait avec la terrible règle en fer sous le bras. Il fallut ouvrir la porte et entrer au milieu de ce grand calme. Vous pensez, si j’étais rouge et si j’avais peur !",
+          "startParagraph": 0,
+          "endParagraph": 10,
+          "source": "https://fr.wikisource.org/wiki/Les_Contes_du_lundi/La_Derni%C3%A8re_classe",
+          "sha256": "ed3fd1bd87b050899542d60e0939cb08eddcb1c4e840c099d5fb350b92f00630"
+        },
+        {
+          "id": "daudet-contes-lundi-p02",
+          "text": "Eh bien, non ! M. Hamel me regarda sans colère et me dit très doucement :\n\n« Va vite à ta place, mon petit Franz ; nous allions commencer sans toi. »\n\nJ’enjambai le banc et je m’assis tout de suite à mon pupitre. Alors seulement, un peu remis de ma frayeur, je remarquai que notre maître avait sa belle redingote verte, son jabot plissé fin et la calotte de soie noire brodée qu’il ne mettait que les jours d’inspection ou de distribution de prix. Du reste, toute la classe avait quelque chose d’extraordinaire et de solennel. Mais ce qui me surprit le plus, ce fut de voir au fond de la salle, sur les bancs qui restaient vides d’habitude, des gens du village assis et silencieux comme nous : le vieux Hauser avec son tricorne, l’ancien maire, l’ancien facteur, et puis d’autres personnes encore. Tout ce monde-là paraissait triste ; et Hauser avait apporté un vieil abécédaire mangé aux bords, qu’il tenait grand ouvert sur ses genoux, avec ses grosses lunettes posées en travers des pages.\n\nPendant que je m’étonnais de tout cela, M. Hamel était monté dans sa chaire, et de la même voix douce et grave dont il m’avait reçu, il nous dit :\n\n« Mes enfants, c’est la dernière fois que je vous fais la classe. L’ordre est venu de Berlin de ne plus enseigner que l’allemand dans les écoles de l’Alsace et de la Lorraine… Le nouveau maître arrive demain. Aujourd’hui, c’est votre dernière leçon de français. Je vous prie d’être bien attentifs. »\n\nCes quelques paroles me bouleversèrent. Ah ! les misérables, voilà ce qu’ils avaient affiché à la mairie.\n\nMa dernière leçon de français !…\n\nEt moi qui savais à peine écrire ! Je n’apprendrais donc jamais ! Il faudrait donc en rester là ! Comme je m’en voulais maintenant du temps perdu, des classes manquées à courir les nids ou à faire des glissades sur la Saar ! Mes livres que tout à l’heure encore je trouvais si ennuyeux, si lourds à porter, ma grammaire, mon histoire sainte, me semblaient à présent de vieux amis qui me feraient beaucoup de peine à quitter. C’est comme M. Hamel. L’idée qu’il allait partir, que je ne le verrais plus, me faisait oublier les punitions, les coups de règle.",
+          "startParagraph": 11,
+          "endParagraph": 18,
+          "source": "https://fr.wikisource.org/wiki/Les_Contes_du_lundi/La_Derni%C3%A8re_classe",
+          "sha256": "6513537121c6f348e3d9a2d45c351d79dc7827c954d9d318bd314d8b2d25f52b"
+        },
+        {
+          "id": "daudet-contes-lundi-p03",
+          "text": "« Vos parents n’ont pas assez tenu à vous voir instruits. Ils aimaient mieux vous envoyer travailler à la terre ou aux filatures pour avoir quelques sous de plus. Moi-même, n’ai-je rien à me reprocher ? Est-ce que je ne vous ai pas souvent fait arroser mon jardin au lieu de travailler ? Et quand je voulais aller pêcher des truites, est-ce que je me gênais pour vous donner congé ?… »\n\nAlors, d’une chose à l’autre, M. Hamel se mit à nous parler de la langue française, disant que c’était la plus belle langue du monde, la plus claire, la plus solide : qu’il fallait la garder entre nous et ne jamais l’oublier, parce que, quand un peuple tombe esclave, tant qu’il tient bien sa langue, c’est comme s’il tenait la clef de sa prison… Puis il prit une grammaire et nous lut notre leçon. J’étais étonné de voir comme je comprenais. Tout ce qu’il disait me semblait facile, facile. Je crois aussi que je n’avais jamais si bien écouté, et que lui, non plus, n’avait jamais mis autant de patience à ses explications. On aurait dit qu’avant de s’en aller le pauvre homme voulait nous donner tout son savoir, nous le faire entrer dans la tête d’un seul coup.\n\nLa leçon finie, on passa à l’écriture. Pour ce jour-là, M. Hamel nous avait préparé des exemples tout neufs, sur lesquels était écrit en belle ronde : France, Alsace, France, Alsace. Cela faisait comme des petits drapeaux qui flottaient tout autour de la classe, pendus à la tringle de nos pupitres. Il fallait voir comme chacun s’appliquait, et quel silence ! On n’entendait rien que le grincement des plumes sur le papier. Un moment des hannetons entrèrent ; mais personne n’y fit attention, pas même les tout petits qui s’appliquaient à tracer leurs bâtons, avec un cœur, une conscience, comme si cela encore était du français… Sur la toiture de l’école, des pigeons roucoulaient tout bas, et je me disais en les écoutant :\n\n« Est-ce qu’on ne va pas les obliger à chanter en allemand, eux aussi ? »",
+          "startParagraph": 23,
+          "endParagraph": 26,
+          "source": "https://fr.wikisource.org/wiki/Les_Contes_du_lundi/La_Derni%C3%A8re_classe",
+          "sha256": "cf31fb69c7badcc289e79c34c99a93833edbfe6987e3e411e73aa5009d403f00"
+        }
+      ],
+      "text": "Ce matin-là, j’étais très en retard pour aller à l’école, et j’avais grand-peur d’être grondé, d’autant que M. Hamel nous avait dit qu’il nous interrogerait sur les participes, et je n’en savais pas le premier mot. Un moment l’idée me vint de manquer la classe et de prendre ma course à travers champs.\n\nLe temps était si chaud, si clair !\n\nOn entendait les merles siffler à la lisière du bois, et dans le pré Rippert, derrière la scierie, les Prussiens qui faisaient l’exercice. \nTout cela me tentait bien plus que la règle des participes ; mais j’eus la force de résister, et je courus bien vite vers l’école.\n\nEn passant devant la mairie, je vis qu’il y avait du monde arrêté près du petit grillage aux affiches. Depuis deux ans, c’est de là que nous sont venues toutes les mauvaises nouvelles, les batailles perdues, les réquisitions, les ordres de la commandature ; et je pensai sans m’arrêter :\n\n« Qu’est-ce qu’il y a encore ? »\n\nAlors, comme je traversais la place en courant, le forgeron Wachter, qui était là avec son apprenti en train de lire l’affiche, me cria :\n\n« Ne te dépêche pas tant, petit ; tu y arriveras toujours assez tôt à ton école ! »\n\nJe crus qu’il se moquait de moi, et j’entrai tout essoufflé dans la petite cour de M. Hamel.\n\nD’ordinaire, au commencement de la classe, il se faisait un grand tapage qu’on entendait jusque dans la rue : les pupitres ouverts, fermés, les leçons qu’on répétait très haut, tous ensemble, en se bouchant les oreilles pour mieux apprendre, et la grosse règle du maître qui tapait sur les tables :\n\n« Un peu de silence ! »\n\nJe comptais sur tout ce train pour gagner mon banc sans être vu ; mais, justement, ce jour-là, tout était tranquille, comme un matin de dimanche. Par la fenêtre ouverte, je voyais mes camarades déjà rangés à leurs places, et M. Hamel, qui passait et repassait avec la terrible règle en fer sous le bras. Il fallut ouvrir la porte et entrer au milieu de ce grand calme. Vous pensez, si j’étais rouge et si j’avais peur !",
+      "editionYear": 1880,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Daudet_-_Contes_du_lundi,_Lemerre,_1880.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "b6fd97ac7d776360f6afb379909f4fad6cada09cf8e8348a73af6e22a125bb29"
+    },
+    {
+      "id": "dumas-monte-cristo",
+      "title": "Le Comte de Monte-Cristo",
+      "author": "Alexandre Dumas",
+      "audience": "adult",
+      "year": "1844",
+      "tags": [
+        "roman",
+        "aventure",
+        "justice",
+        "vengeance"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Le_Comte_de_Monte-Cristo/Chapitre_1",
+      "edition": "Livre:Dumas - Le Comte de Monte-Cristo (1889) Tome 1.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1870,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Alexandre_Dumas",
+        "verifiedAt": "2026-10-03"
+      },
+      "sourceRevision": "4642213",
+      "passages": [
+        {
+          "id": "dumas-monte-cristo-p01",
+          "text": "Le 24 février 1815, la vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, Trieste et Naples.\n\nComme d’habitude, un pilote côtier partit aussitôt du port, rasa le château d’If, et alla aborder le navire entre le cap de Morgion et l’île de Rion.\n\nAussitôt, comme d’habitude encore, la plate-forme du fort Saint-Jean s’était couverte de curieux ; car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment, surtout quand ce bâtiment, comme le Pharaon, a été construit, gréé, arrimé sur les chantiers de la vieille Phocée, et appartient à un armateur de la ville.\n\nCependant ce bâtiment s’avançait ; il avait heureusement franchi le détroit que quelque secousse volcanique a creusé entre l’île de Calasareigne et l’île de Jaros ; il avait doublé Pomègue, et il s’avançait sous ses trois huniers, son grand foc et sa brigantine, mais si lentement et d’une allure si triste, que les curieux, avec cet instinct qui pressent un malheur, se demandaient quel accident pouvait être arrivé à bord. Néanmoins les experts en navigation reconnaissaient que si un accident était arrivé, ce ne pouvait être au bâtiment lui-même ; car il s’avançait dans toutes les conditions d’un navire parfaitement gouverné : son ancre était en mouillage, ses haubans de beaupré décrochés ; et près du pilote, qui s’apprêtait à diriger le Pharaon par l’étroite entrée du port de Marseille, était un jeune homme au geste rapide et à l’œil actif, qui surveillait chaque mouvement du navire et répétait chaque ordre du pilote.\n\nLa vague inquiétude qui planait sur la foule avait particulièrement atteint un des spectateurs de l’esplanade de Saint-Jean, de sorte qu’il ne put attendre l’entrée du bâtiment dans le port ; il sauta dans une petite barque et ordonna de ramer au-devant du Pharaon, qu’il atteignit en face de l’anse de la Réserve.",
+          "startParagraph": 0,
+          "endParagraph": 4,
+          "source": "https://fr.wikisource.org/wiki/Le_Comte_de_Monte-Cristo/Chapitre_1",
+          "sha256": "ad15253cf33b658144e8c93a13f8a81acbcf1ae312456fbaeae3bddc6858f2ea"
+        },
+        {
+          "id": "dumas-monte-cristo-p02",
+          "text": "— Dame ! pourquoi ne le laisserions-nous pas à ce poste ? dit l’armateur. Il est jeune, je le sais bien, mais il me paraît tout à la chose, et fort expérimenté dans son état.\n\nUn nuage passa sur le front de Danglars.\n\n— Pardon, monsieur Morrel, dit Dantès en s’approchant ; maintenant que le navire est mouillé, me voilà tout à vous : vous m’avez appelé, je crois ?\n\nDanglars fit un pas en arrière.\n\n— Je voulais vous demander pourquoi vous vous étiez arrêté à l’île d’Elbe ?\n\n— Je l’ignore, Monsieur ; c’était pour accomplir un dernier ordre du capitaine Leclère, qui, en mourant, m’avait remis un paquet pour le grand maréchal Bertrand.\n\n— L’avez-vous donc vu, Edmond ?\n\n— Le grand maréchal ?\n\nMorrel regarda autour de lui, et tira Dantès à part.\n\n— Et comment va l’empereur ? demanda-t-il vivement.\n\n— Bien, autant que j’ai pu en juger par mes yeux.\n\n— Vous avez donc vu l’empereur aussi ?\n\n— Il est entré chez le maréchal pendant que j’y étais.\n\n— Et vous lui avez parlé ?\n\n— C’est-à-dire que c’est lui qui m’a parlé, Monsieur, dit Dantès en souriant.\n\n— Et que vous a-t-il dit ?\n\n— Il m’a fait des questions sur le bâtiment, sur l’époque de son départ pour Marseille, sur la route qu’il avait suivie et sur la cargaison qu’il portait. Je crois que s’il eût été vide, et que j’en eusse été le maître, son intention eût été de l’acheter ; mais je lui ai dit que je n’étais que simple second, et que le bâtiment appartenait à la maison Morrel et fils.\n— Ah ! ah ! a-t-il dit, je la connais. Les Morrel sont armateurs de père en fils, et il y avait un Morrel qui servait dans le même régiment que moi lorsque j’étais en garnison à Valence.\n\n— C’est pardieu vrai ! s’écria l’armateur tout joyeux ; c’était Policar Morrel, mon oncle, qui est devenu capitaine. Dantès, vous direz à mon oncle que l’empereur s’est souvenu de lui, et vous le verrez pleurer, le vieux grognard. Allons, allons, continua l’armateur en frappant amicalement sur l’épaule du jeune homme, vous avez bien fait, Dantès, de suivre les instructions du capitaine Leclère et de vous arrêter à l’île d’Elbe, quoique, si l’on savait que vous avez remis un paquet au maréchal et causé avec l’empereur, cela pourrait vous compromettre.",
+          "startParagraph": 45,
+          "endParagraph": 62,
+          "source": "https://fr.wikisource.org/wiki/Le_Comte_de_Monte-Cristo/Chapitre_1",
+          "sha256": "e7f0c0531bc7e6eb2c1ab0a94e80ab3b075badc276acc85bd7b0757f4d92af1b"
+        },
+        {
+          "id": "dumas-monte-cristo-p03",
+          "text": "— C’est juste, Dantès, c’est juste. Je sais que vous êtes bon fils.\n\n— Et… demanda Dantès avec une certaine hésitation, et il se porte bien, que vous sachiez, mon père ?\n\n— Mais je crois que oui, mon cher Edmond, quoique je ne l’aie pas aperçu.\n\n— Oui, il se tient enfermé dans sa petite chambre.\n\n— Cela prouve au moins qu’il n’a manqué de rien pendant votre absence.\n\nDantès sourit.\n\n— Mon père est fier, monsieur, et, eût-il manqué de tout, je doute qu’il eût demandé quelque chose à qui que ce soit au monde, excepté à Dieu.\n\n— Eh bien, après cette première visite, nous comptons sur vous.\n\n— Excusez-moi encore, monsieur Morrel ; mais, après cette première visite, j’en ai une seconde qui ne me tient pas moins au cœur.\n\n— Ah ! c’est vrai, Dantès ; j’oubliais qu’il y a aux Catalans quelqu’un qui doit vous attendre avec non moins d’impatience que votre père : c’est la belle Mercédès.\n\nDantès sourit.\n\n— Ah ! ah ! dit l’armateur, cela ne m’étonne plus, qu’elle soit venue trois fois me demander des nouvelles du Pharaon. Peste ! Edmond, vous n’êtes point à plaindre, et vous avez là une jolie maîtresse !\n\n— Ce n’est point ma maîtresse, monsieur, dit gravement le jeune marin : c’est ma fiancée.\n\n— C’est quelquefois tout un, dit l’armateur en riant.\n\n— Pas pour nous, Monsieur, répondit Dantès.\n\n— Allons, allons, mon cher Edmond, continua l’armateur, que je ne vous retienne pas ; vous avez assez bien fait mes affaires pour que je vous donne tout loisir de faire les vôtres. Avez-vous besoin d’argent ?\n\n— Non, Monsieur ; j’ai tous mes appointements du voyage, c’est-à-dire près de trois mois de solde.\n\n— Vous êtes un garçon rangé, Edmond.\n\n— Ajoutez que j’ai un père pauvre, Monsieur Morrel.\n\n— Oui, oui, je sais que vous êtes un bon fils. Allez donc voir votre père : j’ai un fils aussi, et j’en voudrais fort à celui qui, après un voyage de trois mois, le retiendrait loin de moi.",
+          "startParagraph": 91,
+          "endParagraph": 110,
+          "source": "https://fr.wikisource.org/wiki/Le_Comte_de_Monte-Cristo/Chapitre_1",
+          "sha256": "ae2f27ea096e03dba296b769bc9689b95b55f56d3e2a3cd18ee7f30ad4af2aad"
+        }
+      ],
+      "text": "Le 24 février 1815, la vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, Trieste et Naples.\n\nComme d’habitude, un pilote côtier partit aussitôt du port, rasa le château d’If, et alla aborder le navire entre le cap de Morgion et l’île de Rion.\n\nAussitôt, comme d’habitude encore, la plate-forme du fort Saint-Jean s’était couverte de curieux ; car c’est toujours une grande affaire à Marseille que l’arrivée d’un bâtiment, surtout quand ce bâtiment, comme le Pharaon, a été construit, gréé, arrimé sur les chantiers de la vieille Phocée, et appartient à un armateur de la ville.\n\nCependant ce bâtiment s’avançait ; il avait heureusement franchi le détroit que quelque secousse volcanique a creusé entre l’île de Calasareigne et l’île de Jaros ; il avait doublé Pomègue, et il s’avançait sous ses trois huniers, son grand foc et sa brigantine, mais si lentement et d’une allure si triste, que les curieux, avec cet instinct qui pressent un malheur, se demandaient quel accident pouvait être arrivé à bord. Néanmoins les experts en navigation reconnaissaient que si un accident était arrivé, ce ne pouvait être au bâtiment lui-même ; car il s’avançait dans toutes les conditions d’un navire parfaitement gouverné : son ancre était en mouillage, ses haubans de beaupré décrochés ; et près du pilote, qui s’apprêtait à diriger le Pharaon par l’étroite entrée du port de Marseille, était un jeune homme au geste rapide et à l’œil actif, qui surveillait chaque mouvement du navire et répétait chaque ordre du pilote.\n\nLa vague inquiétude qui planait sur la foule avait particulièrement atteint un des spectateurs de l’esplanade de Saint-Jean, de sorte qu’il ne put attendre l’entrée du bâtiment dans le port ; il sauta dans une petite barque et ordonna de ramer au-devant du Pharaon, qu’il atteignit en face de l’anse de la Réserve.",
+      "editionYear": 1889,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Dumas_-_Le_Comte_de_Monte-Cristo_(1889)_Tome_1.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "4c9bd50d601078e7bfcb6be4e4911523c310f937ef02e2fb3476c58e1a268b86"
+    },
+    {
+      "id": "dumas-trois-mousquetaires",
+      "title": "Les Trois Mousquetaires",
+      "author": "Alexandre Dumas",
+      "audience": "child",
+      "year": "1844",
+      "tags": [
+        "roman historique",
+        "aventure",
+        "amitié",
+        "courage"
+      ],
+      "genre": "roman historique",
+      "source": "https://fr.wikisource.org/wiki/Les_Trois_Mousquetaires/Chapitre_1",
+      "edition": "Livre:Dumas - Les Trois Mousquetaires - 1849.pdf",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1870,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Alexandre_Dumas",
+        "verifiedAt": "2026-10-03"
+      },
+      "sourceRevision": "13417011",
+      "passages": [
+        {
+          "id": "dumas-trois-mousquetaires-p01",
+          "text": "Le premier lundi du mois d’avril 1626, le bourg de Meung, où naquit l’auteur du Roman de la Rose, semblait être dans une révolution aussi entière que si les huguenots en fussent venus faire une seconde Rochelle. Plusieurs bourgeois, voyant s’enfuir les femmes le long de la grande rue, entendant les enfants crier sur le seuil des portes, se hâtaient d’endosser la cuirasse, et appuyant leur contenance quelque peu incertaine d’un mousquet ou d’une pertuisane, se dirigeaient vers l’hôtellerie du Franc-Meunier, devant laquelle s’empressait, en grossissant de minute en minute, un groupe compacte, bruyant et plein de curiosité.\n\nEn ce temps-là les paniques étaient fréquentes, et peu de jours se passaient sans qu’une ville ou l’autre enregistrât sur ses archives quelque événement de ce genre. Il y avait les seigneurs qui guerroyaient entre eux ; il y avait le cardinal qui faisait la guerre au roi et aux seigneurs ; il y avait l’Espagnol qui faisait la guerre aux seigneurs, au cardinal et au roi. Puis, outre ces guerres sourdes ou publiques, secrètes ou patentes, il y avait encore les voleurs, les mendiants, les huguenots, les loups et les laquais, qui faisaient la guerre à tout le monde. Les bourgeois s’armaient toujours contre les voleurs, contre les loups, contre les laquais ; — souvent contre les seigneurs et les huguenots ; — quelquefois contre le roi ; — mais jamais contre le cardinal et l’Espagnol. Il résulta donc de ces habitudes prises, que ce susdit premier lundi du mois d’avril 1626, les bourgeois  entendant du bruit, et ne voyant ni le guidon jaune et rouge, ni la livrée du duc de Richelieu, se précipitèrent du côté de l’hôtel du Franc-Meunier.\n\nArrivé là, chacun put reconnaître la cause de cette rumeur.\n\nUn jeune homme… — traçons son portrait d’un seul trait de plume : — figurez-vous don Quichotte à dix-huit ans ; don Quichotte décorcelé, sans haubert et sans cuissard ; don Quichotte revêtu d’un pourpoint de laine, dont la couleur bleue s’était transformée en une nuance insaisissable de lie de vin et d’azur céleste. Visage long et brun ; la pommette des joues saillante, signe d’astuce ; les muscles maxillaires énormément développés, indice infaillible où l’on reconnaît le Gascon, même sans béret, et notre jeune homme portait un béret orné d’une espèce de plume ; l’œil ouvert et intelligent ; le nez crochu, mais finement dessiné ; trop grand pour un adolescent, trop petit pour un homme fait, et qu’un œil exercé eût pris pour un fils de fermier en voyage, sans la longue épée qui, pendue à un baudrier de peau, battait les mollets de son propriétaire, quand il était à pied, et le poil hérissé de sa monture quand il était à cheval.",
+          "startParagraph": 0,
+          "endParagraph": 3,
+          "source": "https://fr.wikisource.org/wiki/Les_Trois_Mousquetaires/Chapitre_1",
+          "sha256": "4c884c21b629ec6602b21ea8cdfe694ab71342b1115e6de9bf129224dadf0d71"
+        },
+        {
+          "id": "dumas-trois-mousquetaires-p02",
+          "text": "— Mais c’est donc le diable en personne, que ce gaillard-là, s’écria l’inconnu.\n\n— Oh ! non, Votre Excellence ; ce n’est pas le diable, reprit l’hôte avec une grimace de mépris, car pendant son évanouissement nous l’avons fouillé, et il n’a dans son paquet qu’une chemise, et dans sa bourse que onze écus, ce qui ne l’a pas empêché de dire en s’évanouissant que si pareille chose était arrivée à\n\nParis, vous vous en repentiriez tout de suite, tandis que, la chose étant arrivée ici, vous ne vous en repentirez que plus tard.\n\n— Alors, dit froidement l’inconnu, c’est quelque prince du sang déguisé.\n\n— Je vous dis cela, mon gentilhomme, reprit l’hôte, afin que, si besoin est, vous vous teniez sur vos gardes.\n\n— Et il n’a nommé personne dans sa colère ?\n\n— Si fait, il frappait sur sa poche, et il disait : — Nous verrons ce que M. de Tréville pensera de cette insulte faite à son protégé.\n\n— M. de Tréville, dit l’inconnu en devenant attentif ; il frappait sur sa poche en prononçant le nom de M. de Tréville !… Voyons, mon cher hôte, pendant que votre jeune homme était évanoui, vous n’avez pas été, j’en suis bien sûr, sans regarder aussi dans cette poche-là. Qu’y avait-il ?\n\n— Une lettre adressée à M. de Tréville, capitaine des mousquetaires.\n\n— En vérité ?\n\n— C’est comme j’ai l’honneur de vous le dire, Excellence.\n\nL’hôte, qui n’était pas doué d’une grande perspicacité, ne remarqua point l’expression que ses paroles avaient donnée à la physionomie de l’inconnu. Celui-ci quitta le rebord de la croisée sur lequel il était toujours resté appuyé du bout du coude, et fronça le sourcil en homme inquiet.\n\n— Diable ! murmura-t-il entre ses dents ; Tréville m’aurait-il envoyé ce gascon. Il est bien jeune ! Mais un coup d’épée est un coup d’épée, quel que soit l’âge de celui qui le donne, et l’on se défie moins d’un enfant que de tout autre ; il suffit parfois d’un faible obstacle pour contrarier un grand dessein.",
+          "startParagraph": 42,
+          "endParagraph": 54,
+          "source": "https://fr.wikisource.org/wiki/Les_Trois_Mousquetaires/Chapitre_1",
+          "sha256": "bde8810a9f2f398a3c7953968a5b73833cefb4beca37a5f1220356ab3b4012c7"
+        },
+        {
+          "id": "dumas-trois-mousquetaires-p03",
+          "text": "Et saluant la dame d’un signe de tête, il s’élança sur son cheval tandis que le cocher du carrosse fouettait vigoureusement son attelage. Les deux interlocuteurs partirent donc au galop, s’éloignant chacun par un côté opposé de la rue.\n\n— Eh ! votre dépense, vociféra l’hôte, dont l’affection pour son voyageur se changeait en un profond dédain en voyant qu’il s’éloignait sans solder ses comptes.\n\n— Paie, maroufle, s’écria le voyageur toujours galopant, à son laquais, lequel jeta aux pieds de l’hôte deux ou trois pièces d’argent et se mit à galoper après son maître.\n\n— Ah ! lâche, ah ! misérable, ah ! faux gentilhomme ! cria d’Artagnan s’élançant à son tour après le laquais.\n\nMais le blessé était trop faible encore pour supporter une pareille secousse. À peine eut-il fait dix pas que ses oreilles tintèrent, qu’un éblouissement le prit, qu’un nuage de sang passa sur ses yeux et qu’il tomba au milieu de la rue en criant encore :\n\n— Lâche ! lâche ! lâche !\n\n— Il est, en effet, bien lâche, murmura l’hôte en s’approchant de d’Artagnan, et essayant par cette flatterie de se raccommoder avec le pauvre gascon, comme le héron de la fable avec son limaçon du soir.\n\n— Oui, bien lâche, murmura d’Artagnan, mais elle, bien belle !\n\n— Qui elle ? demanda l’hôte.\n\n— Milady, balbutia d’Artagnan qui avait entendu le gentilhomme prononcer ce nom, et il s’évanouit une seconde fois.\n\n— C’est égal, dit l’hôte, j’en perds deux, mais il me reste celui-là, que je suis sûr de conserver au moins quelques jours. C’est toujours onze écus de gagnés.\n\nOn sait que onze écus faisaient juste la somme qui restait dans la bourse de d’Artagnan.\n\nL’hôte avait compté, comme on voit, sur onze jours de maladie à un écu par jour ; mais il avait compté sans son voyageur. Le lendemain, dès cinq heures du matin, d’Artagnan se leva, descendit lui-même à la cuisine, demanda, outre quelques autres ingrédients dont la liste n’est pas parvenue jusqu’à nous, du vin, de l’huile, du romarin, et, la recette de sa mère à la main, se composa un baume dont il oignit ses nombreuses blessures, renouvelant ses compresses lui-même et ne voulant admettre l’adjonction d’aucun médecin. Grâce sans doute à l’efficacité du baume de Bohême, et peut-être aussi grâce à l’absence de tout docteur, d’Artagnan se trouva sur pied dès le soir même, et à peu près guéri le lendemain.",
+          "startParagraph": 84,
+          "endParagraph": 96,
+          "source": "https://fr.wikisource.org/wiki/Les_Trois_Mousquetaires/Chapitre_1",
+          "sha256": "867b312aa03577fa88adb7ded65a591938712f26f00b30b99a1a0fff149d516a"
+        }
+      ],
+      "text": "Le premier lundi du mois d’avril 1626, le bourg de Meung, où naquit l’auteur du Roman de la Rose, semblait être dans une révolution aussi entière que si les huguenots en fussent venus faire une seconde Rochelle. Plusieurs bourgeois, voyant s’enfuir les femmes le long de la grande rue, entendant les enfants crier sur le seuil des portes, se hâtaient d’endosser la cuirasse, et appuyant leur contenance quelque peu incertaine d’un mousquet ou d’une pertuisane, se dirigeaient vers l’hôtellerie du Franc-Meunier, devant laquelle s’empressait, en grossissant de minute en minute, un groupe compacte, bruyant et plein de curiosité.\n\nEn ce temps-là les paniques étaient fréquentes, et peu de jours se passaient sans qu’une ville ou l’autre enregistrât sur ses archives quelque événement de ce genre. Il y avait les seigneurs qui guerroyaient entre eux ; il y avait le cardinal qui faisait la guerre au roi et aux seigneurs ; il y avait l’Espagnol qui faisait la guerre aux seigneurs, au cardinal et au roi. Puis, outre ces guerres sourdes ou publiques, secrètes ou patentes, il y avait encore les voleurs, les mendiants, les huguenots, les loups et les laquais, qui faisaient la guerre à tout le monde. Les bourgeois s’armaient toujours contre les voleurs, contre les loups, contre les laquais ; — souvent contre les seigneurs et les huguenots ; — quelquefois contre le roi ; — mais jamais contre le cardinal et l’Espagnol. Il résulta donc de ces habitudes prises, que ce susdit premier lundi du mois d’avril 1626, les bourgeois  entendant du bruit, et ne voyant ni le guidon jaune et rouge, ni la livrée du duc de Richelieu, se précipitèrent du côté de l’hôtel du Franc-Meunier.\n\nArrivé là, chacun put reconnaître la cause de cette rumeur.\n\nUn jeune homme… — traçons son portrait d’un seul trait de plume : — figurez-vous don Quichotte à dix-huit ans ; don Quichotte décorcelé, sans haubert et sans cuissard ; don Quichotte revêtu d’un pourpoint de laine, dont la couleur bleue s’était transformée en une nuance insaisissable de lie de vin et d’azur céleste. Visage long et brun ; la pommette des joues saillante, signe d’astuce ; les muscles maxillaires énormément développés, indice infaillible où l’on reconnaît le Gascon, même sans béret, et notre jeune homme portait un béret orné d’une espèce de plume ; l’œil ouvert et intelligent ; le nez crochu, mais finement dessiné ; trop grand pour un adolescent, trop petit pour un homme fait, et qu’un œil exercé eût pris pour un fils de fermier en voyage, sans la longue épée qui, pendue à un baudrier de peau, battait les mollets de son propriétaire, quand il était à pied, et le poil hérissé de sa monture quand il était à cheval.",
+      "editionYear": 1849,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Dumas_-_Les_Trois_Mousquetaires_-_1849.pdf",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "c0836b1db14b3a4f955acbcc17c2b160e3649c9284dadfa453b13e7164350bb7"
+    },
+    {
+      "id": "loti-pecheur-islande",
+      "title": "Pêcheur d’Islande",
+      "author": "Pierre Loti",
+      "audience": "adult",
+      "year": "1886",
+      "tags": [
+        "roman",
+        "mer",
+        "amour",
+        "voyage"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/P%C3%AAcheur_d%E2%80%99Islande,_1886/I",
+      "edition": "Livre:Loti - Pêcheur d Islande.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1923,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Pierre_Loti",
+        "verifiedAt": "2026-10-03"
+      },
+      "sourceRevision": "15007157",
+      "passages": [
+        {
+          "id": "loti-pecheur-islande-p01",
+          "text": "Ils étaient cinq, aux carrures terribles, accoudés à boire, dans une sorte de logis sombre qui sentait la saumure et la mer. Le gîte, trop bas pour leurs tailles, s’effilait par un bout, comme l’intérieur d’une grande mouette vidée ; il oscillait faiblement, en rendant une plainte monotone, avec une lenteur de sommeil.\n\nDehors, ce devait être la mer et la nuit, mais on n’en savait trop rien : une seule ouverture coupée dans le plafond était fermée par un couvercle en bois, et c’était une vieille lampe suspendue qui les éclairait en vacillant.\n\nIl y avait du feu dans un fourneau ; leurs vêtements mouillés séchaient, en répandant de la vapeur qui se mêlait aux fumées de leurs pipes de terre.\n\nLeur table massive occupait toute leur demeure ; elle en prenait très exactement la forme, et il restait juste de quoi se couler autour pour s’asseoir sur des caissons étroits scellés aux murailles de chêne. De grosses poutres passaient au-dessus d’eux, presque à toucher leurs têtes ; et, derrière leurs dos, des couchettes qui semblaient creusées dans l’épaisseur de la charpente s’ouvraient comme les niches d’un caveau pour mettre les morts. Toutes ces boiseries étaient grossières et frustes, imprégnées d’humidité et de sel ; usées, polies par les frottements de leurs mains.\n\nIls avaient bu, dans leurs écuelles, du vin et du cidre, aussi la joie de vivre éclairait leurs figures, qui étaient franches et braves. Maintenant ils restaient attablés et devisaient, en breton, sur des questions de femmes et de mariages.\n\nContre un panneau du fond, une sainte vierge en faïence était fixée sur une planchette, à une place d’honneur. Elle était un peu ancienne, la patronne de ces marins, et peinte avec un art encore naïf. Mais les personnages en faïence se conservent beaucoup plus longtemps que les vrais hommes ; aussi sa robe rouge et bleue faisait encore l’effet d’une petite chose très fraîche au milieu de tous les gris sombres de cette pauvre maison de bois. Elle avait dû écouter plus d’une ardente prière, à des heures d’angoisses ; on avait cloué à ses pieds deux bouquets de fleurs artificielles et un chapelet.",
+          "startParagraph": 0,
+          "endParagraph": 5,
+          "source": "https://fr.wikisource.org/wiki/P%C3%AAcheur_d%E2%80%99Islande,_1886/I",
+          "sha256": "b8b458588c846ce353e24fd0d8b3fda808c0dfe8b6832ead7a3dbacb47371018"
+        },
+        {
+          "id": "loti-pecheur-islande-p02",
+          "text": "Sa coiffe était en forme de coquille, descendait bas sur le front, s’y appliquant presque comme un bandeau, puis se relevant beaucoup des deux côtés, laissant voir d’épaisses nattes de cheveux roulées en colimaçon au-dessus des oreilles — coiffure conservée des temps très anciens et qui donne encore un air d’autrefois aux femmes paimpolaises.\n\nOn sentait qu’elle avait été élevée autrement que cette pauvre vieille à qui elle prêtait le nom de grand’mère, mais qui, de fait, n’était qu’une grand’tante éloignée, ayant eu des malheurs.\n\nElle était la fille de M. Mével, un ancien  Islandais, un peu forban, enrichi par des entreprises audacieuses sur mer.\n\nCette belle chambre où la lettre venait de s’écrire était la sienne : un lit tout neuf à la mode des villes avec des rideaux en mousseline, une dentelle au bord ; et, sur les épaisses murailles, un papier de couleur claire atténuant les irrégularités du granit. Au plafond, une couche de chaux blanche recouvrait des solives énormes qui révélaient l’ancienneté du logis ; – c’était une vraie maison de bourgeois aisés, et les fenêtres donnaient sur cette vieille place grise de Paimpol où se tiennent les marchés et les pardons.\n\n— C’est fini, grand’mère Yvonne ? Vous n’avez plus rien à lui dire ?\n\n— Non, ma fille, ajoute seulement, je te prie, le bonjour de ma part au fils Gaos.\n\nLe fils Gaos !… autrement dit Yann… Elle était devenue très rouge, la belle jeune fille fière, en écrivant ce nom-là.\n\nDès que ce fut ajouté au bas de la page d’une écriture courue, elle se leva en détournant la tête, comme pour regarder dehors quelque chose de très intéressant sur la place.\n\nDebout elle était un peu grande ; sa taille était moulée comme celle d’une élégante dans un corsage ajusté ne faisant pas de plis. Malgré sa coiffe, elle avait un air de demoiselle. Même ses mains, sans avoir cette excessive petitesse étiolée qui est devenue une beauté par convention, étaient fines et blanches, n’ayant jamais travaillé à de grossiers ouvrages.",
+          "startParagraph": 84,
+          "endParagraph": 92,
+          "source": "https://fr.wikisource.org/wiki/P%C3%AAcheur_d%E2%80%99Islande,_1886/I",
+          "sha256": "d2e0cfa83436eeb6e9fb3837aa9435118fa5e173907796ea6461d0d23782eb9a"
+        },
+        {
+          "id": "loti-pecheur-islande-p03",
+          "text": "Gaud avait passé bien de soirées à cette fenêtre, regardant cette place mélancolique, songeant aux Islandais qui étaient partis, et toujours à ce même bal…\n\n… Il faisait très chaud sur la fin de ces noces, et beaucoup de têtes de valseurs commençaient à tourner. Elle se le rappelait, lui, dansant avec d’autres, des filles ou des femmes dont il avait dû être plus ou moins l’amant ; elle se rappelait sa condescendance dédaigneuse pour répondre à leurs appels… Comme il était différent avec celles-là !…\n\nIl était un charmant danseur, droit comme un chêne de futaie, et tournant avec une grâce à la fois légère et noble, la tête rejetée en arrière. Ses cheveux bruns, qui étaient en boucles, retombaient un peu sur son front et remuaient au vent des danses ; Gaud, qui était assez grande, en sentait le frôlement sur sa coiffe, quand il se penchait vers elle pour mieux la tenir pendant les valses rapides.\n\nDe temps en temps, il lui montrait d’un signe sa petite sœur Marie et Sylvestre, les deux fiancés, qui dansaient ensemble. Il riait, d’un air très bon, en les voyant tous deux si jeunes, si réservés l’un près de l’autre, se faisant des révérences, prenant des figures timides pour se dire bien bas des choses sans doute très aimables. Il n’aurait pas permis qu’il en fût autrement, bien sûr ; mais c’est égal, il s’amusait, lui, coureur et entreprenant qu’il était devenu, de les trouver si naïfs ; il échangeait alors avec Gaud des sourires d’intelligence intime qui disaient : « Comme ils sont gentils et drôles à regarder, nos deux petits frères !… »\n\nOn s’embrassait beaucoup à la fin de la nuit : baisers de cousins, baisers de fiancés, baisers d’amants, qui conservaient malgré tout un bon air franc et honnête, là, à pleine bouche, et devant tout le monde. Lui ne l’avait pas embrassée, entendu ; on ne se permettait pas cela avec la fille de monsieur Mével ; peut-être seulement la serrait-il un peu plus contre sa poitrine, pendant ces valses de la fin, et elle, confiante, ne résistait pas, s’appuyait au contraire, s’étant donnée de toute son âme. Dans ce vertige subit, profond, délicieux, qui l’entraînait tout entière vers lui, ses sens de vingt ans étaient bien pour quelque chose, mais c’était son cœur qui avait commencé le mouvement.",
+          "startParagraph": 169,
+          "endParagraph": 173,
+          "source": "https://fr.wikisource.org/wiki/P%C3%AAcheur_d%E2%80%99Islande,_1886/I",
+          "sha256": "d4a721c6e521d25581f75eae42ab575997afdc85dfbb3352007d76532f536126"
+        }
+      ],
+      "text": "Ils étaient cinq, aux carrures terribles, accoudés à boire, dans une sorte de logis sombre qui sentait la saumure et la mer. Le gîte, trop bas pour leurs tailles, s’effilait par un bout, comme l’intérieur d’une grande mouette vidée ; il oscillait faiblement, en rendant une plainte monotone, avec une lenteur de sommeil.\n\nDehors, ce devait être la mer et la nuit, mais on n’en savait trop rien : une seule ouverture coupée dans le plafond était fermée par un couvercle en bois, et c’était une vieille lampe suspendue qui les éclairait en vacillant.\n\nIl y avait du feu dans un fourneau ; leurs vêtements mouillés séchaient, en répandant de la vapeur qui se mêlait aux fumées de leurs pipes de terre.\n\nLeur table massive occupait toute leur demeure ; elle en prenait très exactement la forme, et il restait juste de quoi se couler autour pour s’asseoir sur des caissons étroits scellés aux murailles de chêne. De grosses poutres passaient au-dessus d’eux, presque à toucher leurs têtes ; et, derrière leurs dos, des couchettes qui semblaient creusées dans l’épaisseur de la charpente s’ouvraient comme les niches d’un caveau pour mettre les morts. Toutes ces boiseries étaient grossières et frustes, imprégnées d’humidité et de sel ; usées, polies par les frottements de leurs mains.\n\nIls avaient bu, dans leurs écuelles, du vin et du cidre, aussi la joie de vivre éclairait leurs figures, qui étaient franches et braves. Maintenant ils restaient attablés et devisaient, en breton, sur des questions de femmes et de mariages.\n\nContre un panneau du fond, une sainte vierge en faïence était fixée sur une planchette, à une place d’honneur. Elle était un peu ancienne, la patronne de ces marins, et peinte avec un art encore naïf. Mais les personnages en faïence se conservent beaucoup plus longtemps que les vrais hommes ; aussi sa robe rouge et bleue faisait encore l’effet d’une petite chose très fraîche au milieu de tous les gris sombres de cette pauvre maison de bois. Elle avait dû écouter plus d’une ardente prière, à des heures d’angoisses ; on avait cloué à ses pieds deux bouquets de fleurs artificielles et un chapelet.",
+      "editionYear": 1886,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Loti_-_P%C3%AAcheur_d_Islande.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "e6b48caeebea618bf66bfa4a66e5b9cce5ef2ece03f5bf756f3009b1c4e0dde7"
+    },
+    {
+      "id": "malot-sans-famille",
+      "title": "Sans famille",
+      "author": "Hector Malot",
+      "audience": "child",
+      "year": "1878",
+      "tags": [
+        "roman jeunesse",
+        "famille",
+        "aventure",
+        "courage"
+      ],
+      "genre": "roman jeunesse",
+      "source": "https://fr.wikisource.org/wiki/Sans_famille/Dentu,_1887/Premi%C3%A8re_partie/1",
+      "edition": "Livre:Malot - Sans famille, 1887, tome 1.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1907,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Hector_Malot",
+        "verifiedAt": "2026-10-03"
+      },
+      "sourceRevision": "5070999",
+      "passages": [
+        {
+          "id": "malot-sans-famille-p01",
+          "text": "Je suis un enfant trouvé.\n\nMais jusqu’à huit ans j’ai cru que, comme tous les autres enfants, j’avais une mère, car lorsque je pleurais, il y avait une femme qui me serrait si doucement dans ses bras, en me berçant, que mes larmes s’arrêtaient de couler.\n\nJamais je ne me couchais dans mon lit, sans qu’une femme vînt m’embrasser, et, quand le vent de décembre collait la neige contre les vitres blanchies, elle me prenait les pieds entre ses deux mains et elle restait à me les réchauffer en me chantant une chanson, dont je retrouve encore dans ma mémoire l’air et quelques paroles.\n\nQuand je gardais notre vache le long des chemins herbus ou dans les brandes, et que j’étais surpris par une pluie d’orage, elle accourait au-devant de moi et me forçait à m’abriter sous son jupon de laine relevé qu’elle me ramenait sur la tête et sur les épaules.\n\nEnfin quand j’avais une querelle avec un de mes camarades, elle me faisait conter mes chagrins, et presque toujours elle trouvait de bonnes paroles pour me consoler ou me donner raison.\n\nPar tout cela et par bien d’autres choses encore, par la façon dont elle me parlait, par la façon dont elle me regardait, par ses caresses, par la douceur qu’elle mettait dans ses gronderies, je croyais qu’elle était ma mère.\n\nVoici comment j’appris qu’elle n’était que ma nourrice.\n\nMon village, ou pour parler plus justement, le village où j’ai été élevé, car je n’ai pas eu de village à moi, pas de lieu de naissance, pas plus que je n’ai eu de père et de mère, le village enfin où j’ai passé mon enfance se nomme Chavanon ; c’est l’un des plus pauvres du centre de la France.\n\nCette pauvreté, il la doit non à l’apathie ou à la paresse de ses habitants, mais à sa situation même dans une contrée peu fertile. Le sol n’a pas de profondeur, et pour produire de bonnes récoltes il lui faudrait des engrais ou des amendements qui manquent dans le pays. Aussi ne rencontre-t-on (ou tout au moins ne rencontrait-on à l’époque dont je parle) que peu de champs cultivés, tandis qu’on voit partout de vastes étendues de brandes dans lesquelles ne croissent que des bruyères et des genêts. Là où les brandes cessent, les landes commencent ; et sur ces landes élevées les vents âpres rabougrissent les maigres bouquets d’arbres qui dressent çà et là leurs branches tordues et tourmentées.",
+          "startParagraph": 0,
+          "endParagraph": 8,
+          "source": "https://fr.wikisource.org/wiki/Sans_famille/Dentu,_1887/Premi%C3%A8re_partie/1",
+          "sha256": "b66631614051e9a76cec08322ff46ddef721aeb9267ed4ca99ad0923fafd2680"
+        },
+        {
+          "id": "malot-sans-famille-p02",
+          "text": "— Un procès, cela coûte gros.\n\n— Oui, mais quand on le gagne !\n\nMère Barberin aurait voulu aller à Paris, mais c’était une terrible affaire qu’un voyage si long et si coûteux.\n\nLe lendemain matin nous descendîmes au village pour consulter le curé. Celui-ci ne voulut pas la laisser partir sans savoir avant si elle pouvait être utile à son mari. Il écrivit à l’aumônier de l’hôpital où Barberin était soigné, et quelques jours après il reçut une réponse, disant que mère Barberin ne devait pas se mettre en route, mais qu’elle devait envoyer une certaine somme d’argent à son mari, parce que celui-ci allait faire un procès à l’entrepreneur chez lequel il avait été blessé.\n\nLes journées, les semaines s’écoulèrent et de temps en temps il arriva des lettres qui toutes demandaient de nouveaux envois d’argent ; la dernière, plus pressante que les autres, disait que s’il n’y avait plus d’argent, il fallait vendre la vache pour s’en procurer.\n\nCeux-là seuls qui ont vécu à la campagne avec les paysans savent ce qu’il y a de détresses et de douleurs dans ces trois mots : « vendre la vache. »\n\nPour le naturaliste, la vache est un animal ruminant ; pour le promeneur, c’est une bête qui fait bien dans le paysage lorsqu’elle lève au-dessus des herbes son mufle noir humide de rosée ; pour l’enfant des villes, c’est la source du café au lait et du fromage à la crème ; mais pour le paysan, c’est bien plus et bien mieux encore. Si pauvre qu’il puisse être et si nombreuse que soit sa famille, il est assuré de ne pas souffrir de la faim tant qu’il a une vache dans son étable. Avec une longe ou même avec une simple hart nouée autour des cornes, un enfant promène la vache le long des chemins herbus, là où la pâture n’appartient à personne, et le soir la famille entière a du beurre dans sa soupe et du lait pour mouiller ses pommes de terre : le père, la mère, les enfants, les grands comme les petits, tout le monde vit de la vache.",
+          "startParagraph": 29,
+          "endParagraph": 35,
+          "source": "https://fr.wikisource.org/wiki/Sans_famille/Dentu,_1887/Premi%C3%A8re_partie/1",
+          "sha256": "b80f59e412657261f8fe6d81a3bfc9aaa8dd311c7646d0743bd543b437829874"
+        },
+        {
+          "id": "malot-sans-famille-p03",
+          "text": "— Dame… Je ne sais pas.\n\n— Si, tu sais bien. Mais comme tu es un bon petit garçon, tu n’oses pas le dire. Tu sais que c’est aujourd’hui mardi gras, le jour des crêpes et des beignets. Mais comme tu sais aussi que nous n’avons ni beurre, ni lait, tu n’oses pas en parler. C’est vrai ça ?\n\n— Oh ! mère Barberin.\n\n— Comme d’avance j’avais deviné tout cela, je me suis arrangée pour que mardi gras ne te fasse pas vilaine figure. Regarde dans la huche.\n\nLe couvercle levé, et il le fut vivement, j’aperçus le lait, le beurre, des œufs et trois pommes.\n\n— Donne-moi les œufs, me dit-elle, et, pendant que je les casse, pèle les pommes.\n\nPendant que je coupais les pommes en tranches, elle cassa les œufs dans la farine et se mit à battre le tout, en versant dessus, de temps en temps, une cuillerée de lait.\n\nQuand la pâte fut délayée, mère Barberin posa la terrine sur les cendres chaudes, et il n’y eut plus qu’à attendre le soir, car c’était à notre souper que nous devions manger les crêpes et les beignets.\n\nPour être franc, je dois avouer que la journée me parut longue et que plus d’une fois j’allai soulever le linge qui recouvrait la terrine.\n\n— Tu vas faire prendre froid à la pâte, disait mère Barberin, et elle lèvera mal.\n\nMais elle levait bien, et de place en place se montraient des renflements, des sortes de bouillons qui venaient crever à la surface. De toute la pâte en fermentation se dégageait une bonne odeur d’œufs et de lait.\n\n— Casse de la bourrée, me disait-elle ; il nous faut un bon feu clair, sans fumée.\n\nEnfin, la chandelle fut allumée.\n\n— Mets du bois au feu ! me dit-elle.\n\nIl ne fut pas nécessaire de me répéter deux fois \ncette parole que j’attendais avec tant d’impatience. Bientôt une grande flamme monta dans la cheminée et sa lueur vacillante emplit la cuisine.\n\nAlors mère Barberin décrocha de la muraille la poêle à frire et la posa au-dessus de la flamme.",
+          "startParagraph": 59,
+          "endParagraph": 74,
+          "source": "https://fr.wikisource.org/wiki/Sans_famille/Dentu,_1887/Premi%C3%A8re_partie/1",
+          "sha256": "50c476ec21ccefac3b304c3cbff762bb1dadadd7077b9b0a7249008cd4435c09"
+        }
+      ],
+      "text": "Je suis un enfant trouvé.\n\nMais jusqu’à huit ans j’ai cru que, comme tous les autres enfants, j’avais une mère, car lorsque je pleurais, il y avait une femme qui me serrait si doucement dans ses bras, en me berçant, que mes larmes s’arrêtaient de couler.\n\nJamais je ne me couchais dans mon lit, sans qu’une femme vînt m’embrasser, et, quand le vent de décembre collait la neige contre les vitres blanchies, elle me prenait les pieds entre ses deux mains et elle restait à me les réchauffer en me chantant une chanson, dont je retrouve encore dans ma mémoire l’air et quelques paroles.\n\nQuand je gardais notre vache le long des chemins herbus ou dans les brandes, et que j’étais surpris par une pluie d’orage, elle accourait au-devant de moi et me forçait à m’abriter sous son jupon de laine relevé qu’elle me ramenait sur la tête et sur les épaules.\n\nEnfin quand j’avais une querelle avec un de mes camarades, elle me faisait conter mes chagrins, et presque toujours elle trouvait de bonnes paroles pour me consoler ou me donner raison.\n\nPar tout cela et par bien d’autres choses encore, par la façon dont elle me parlait, par la façon dont elle me regardait, par ses caresses, par la douceur qu’elle mettait dans ses gronderies, je croyais qu’elle était ma mère.\n\nVoici comment j’appris qu’elle n’était que ma nourrice.\n\nMon village, ou pour parler plus justement, le village où j’ai été élevé, car je n’ai pas eu de village à moi, pas de lieu de naissance, pas plus que je n’ai eu de père et de mère, le village enfin où j’ai passé mon enfance se nomme Chavanon ; c’est l’un des plus pauvres du centre de la France.\n\nCette pauvreté, il la doit non à l’apathie ou à la paresse de ses habitants, mais à sa situation même dans une contrée peu fertile. Le sol n’a pas de profondeur, et pour produire de bonnes récoltes il lui faudrait des engrais ou des amendements qui manquent dans le pays. Aussi ne rencontre-t-on (ou tout au moins ne rencontrait-on à l’époque dont je parle) que peu de champs cultivés, tandis qu’on voit partout de vastes étendues de brandes dans lesquelles ne croissent que des bruyères et des genêts. Là où les brandes cessent, les landes commencent ; et sur ces landes élevées les vents âpres rabougrissent les maigres bouquets d’arbres qui dressent çà et là leurs branches tordues et tourmentées.",
+      "editionYear": 1887,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Malot_-_Sans_famille,_1887,_tome_1.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "19a6b48ede1cb96f23adab2d0be1ed31bbeba306f2d0351a77041098069eaa56"
+    },
+    {
+      "id": "sand-contes-grandmere",
+      "title": "Contes d’une grand’mère",
+      "author": "George Sand",
+      "audience": "child",
+      "year": "1876",
+      "tags": [
+        "conte",
+        "nature",
+        "merveilleux",
+        "animaux"
+      ],
+      "genre": "conte",
+      "source": "https://fr.wikisource.org/wiki/Le_Ch%C3%AAne_parlant",
+      "edition": "Livre:Sand - Contes d’une grand’mère, 1906.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1876,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:George_Sand",
+        "verifiedAt": "2026-10-03"
+      },
+      "sourceRevision": "9270786",
+      "passages": [
+        {
+          "id": "sand-contes-grandmere-p01",
+          "text": "Il y avait autrefois en la forêt de Cernas un gros vieux chêne qui pouvait bien avoir cinq cents ans. La foudre l’avait frappé plusieurs fois, et il avait dû se faire une tête nouvelle, un peu écrasée, mais épaisse et verdoyante.\n\nLongtemps ce chêne avait eu une mauvaise réputation. Les plus vieilles gens du village voisin disaient encore que, dans leur jeunesse, ce chêne parlait et menaçait ceux qui voulaient se reposer sous son ombrage. Ils racontaient que deux voyageurs, y cherchant un abri, avaient été foudroyés. L’un d’eux était mort sur le coup ; l’autre s’était éloigné à temps et n’avait été qu’étourdi, parce qu’il avait été averti par une voix qui lui criait :\n\n— Va-t’en vite !\n\nL’histoire était si ancienne qu’on n’y croyait plus guère, et, bien que cet arbre portât encore le nom de chêne parlant, les pâtours s’en approchaient sans trop de crainte. Pourtant le moment vint où il fut plus que jamais réputé sorcier après l’aventure d’Emmi.\n\nEmmi était un pauvre petit gardeur de cochons, orphelin et très-malheureux, non-seulement parce qu’il était mal logé, mal nourri et mal vêtu, mais encore parce qu’il détestait les bêtes que la misère le forçait à soigner. Il en avait peur, et ces animaux, qui sont plus fins qu’ils n’en ont l’air, sentaient bien qu’il n’était pas le maître avec eux. Il s’en allait dès le matin, les conduisant à la glandée, dans la forêt. Le soir, il les ramenait à la ferme, et c’était pitié de le voir, couvert de méchants haillons, la tête nue, ses cheveux  hérissés par le vent, sa pauvre petite figure pâle, maigre, terreuse, l’air triste, effrayé, souffrant, chassant devant lui ce troupeau de bêtes criardes, au regard oblique, à la tête baissée, toujours menaçante. À le voir ainsi courir à leur suite sur les sombres bruyères, dans la vapeur rouge du premier crépuscule, on eût dit d’un follet des landes chassé par une rafale.",
+          "startParagraph": 0,
+          "endParagraph": 4,
+          "source": "https://fr.wikisource.org/wiki/Le_Ch%C3%AAne_parlant",
+          "sha256": "274984cdfe3ce7a0793a48276dae78744a6a61ceb63173152c1b5f30bed0ac1e"
+        },
+        {
+          "id": "sand-contes-grandmere-p02",
+          "text": "— La grand’Nanette est remariée, et, si tu retournes chez elle, elle tâchera de te faire mourir pour se débarrasser de toi.\n\n— Parlez-vous raisonnablement ? dit Emmi, et me dites-vous la vérité ?\n\n— Je te dis la vérité. Tu n’as plus qu’à te rendre à ton maître pour vivre avec les cochons, ou à chercher ton pain avec moi, ce qui te vaudrait mieux que tu ne penses. Tu ne pourras pas toujours vivre dans la forêt. Elle est vendue, et sans doute on va abattre les vieux arbres. Ton chêne y passera comme les autres. Crois-moi, petit. On ne peut vivre nulle part sans gagner de l’argent. Viens avec moi, tu m’aideras à en gagner beaucoup, et, quand je mourrai, je te laisserai celui que j’ai.\n\nEmmi était si étonné d’entendre causer et raisonner l’idiote, qu’il regarda son arbre et prêta l’oreille comme s’il lui demandait conseil.\n\n— Laisse donc cette vieille bûche tranquille, reprit la Catiche. Ne sois pas si sot et viens avec moi.\n\nComme l’arbre ne disait mot, Emmi suivit la vieille, qui, chemin faisant, lui révéla son secret.\n\n« — Je suis venue au monde loin d’ici, pauvre comme toi et orpheline. J’ai été élevée dans la misère et les coups. J’ai gardé aussi les cochons, et, comme toi, j’en avais peur. Comme toi, je me suis sauvée ; mais, en traversant une rivière sur un vieux pont décrépit, je suis tombée à l’eau d’où on m’a retirée comme morte. Un bon médecin chez qui on m’a portée m’a fait revenir à la vie ; mais j’étais idiote, sourde, et ne pouvant presque plus parler. Il m’a gardée par charité, et, comme il n’était pas riche, le curé de l’endroit a fait des quêtes pour moi, et les dames m’ont apporté des habits, du vin, des douceurs, tout ce qu’il me fallait. Je commençais à me porter mieux, j’étais si bien soignée ! Je mangeais de la bonne viande, je buvais du bon vin sucré, j’avais l’hiver du feu dans ma chambre, j’étais comme une princesse, et le médecin était content. Il disait :\n\n» — La voilà qui entend ce qu’on lui dit. Elle retrouve les mots pour parler. Dans deux ou trois mois d’ici, elle pourra travailler et gagner honnêtement sa vie.",
+          "startParagraph": 63,
+          "endParagraph": 70,
+          "source": "https://fr.wikisource.org/wiki/Le_Ch%C3%AAne_parlant",
+          "sha256": "0c8fd108eee342e4429481254e07eb12f79e3107513cba876029ed6d20fdf3f4"
+        },
+        {
+          "id": "sand-contes-grandmere-p03",
+          "text": "La Catiche s’enfuit, et le gendarme s’éloigna. Emmi, qui avait eu encore plus peur de lui que de la vieille, tenait toujours la blouse du père Vincent. C’était le nom du paysan qui s’était trouvé là pour le protéger, et qui avait une bonne figure douce et gaie.\n\n— Ah çà ! petit, dit ce bonhomme à Emmi, tu vas me lâcher à la fin ? Tu n’as plus rien à craindre ; qu’est-ce que tu veux de moi ? cherches-tu ta vie ? veux-tu un sou ?\n\n— Non, merci, dit Emmi, mais j’ai peur à présent de tout ce monde où me voilà seul sans savoir de quel côté me tourner.\n\n— Et où voudrais-tu aller ?\n\n— Je voudrais retourner dans ma forêt de Cernas sans passer par Oursines-les-Bois.\n\n— Tu demeures à Cernas ? C’est bien aisé de t’y mener, puisque de ce pas je m’en vas dans la forêt. Tu n’auras qu’à me suivre ; j’entre souper sous la ramée, attends-moi au pied de cette croix, je reviendrai te prendre.\n\nEmmi trouva que la croix du village était encore trop près de la baraque des saltimbanques ; il aima mieux suivre le père Vincent sous la ramée, d’autant plus qu’il avait besoin de se restaurer avant de se mettre en route.\n\n— Si vous n’avez pas honte de moi, lui dit-il, permettez-moi de manger mon pain et mon fromage à côté de vous. J’ai de quoi payer ma dépense : tenez, voilà ma bourse, vous payerez pour nous deux, car je souhaite payer aussi votre dîner.\n\n— Diable ! s’écria en riant le père Vincent, voilà un gars bien honnête et bien généreux ; mais j’ai l’estomac creux, et ta bourse n’est guère remplie. Viens, et mets-toi là. Reprends ton argent, petit, j’en ai assez pour nous deux.\n\nTout en mangeant ensemble, Vincent fit raconter à Emmi toute son histoire. Quand ce fut terminé, il lui dit :\n\n— Je vois que tu as bonne tête et bon cœur, puisque tu ne t’es pas laissé tenter par les louis d’or de cette Catiche, et que pourtant tu n’as pas voulu l’envoyer en prison. Oublie-la et ne quitte plus ta forêt, puisque tu y es bien. Il ne tient qu’à toi de ne plus y être tout à fait seul. Tu sauras que j’y vais pour préparer les logements d’une vingtaine d’ouvriers qui se disposent à abattre le taillis entre Cernas et la Planchette.",
+          "startParagraph": 126,
+          "endParagraph": 136,
+          "source": "https://fr.wikisource.org/wiki/Le_Ch%C3%AAne_parlant",
+          "sha256": "ad9d4950252a9c0f11b628352dd769c0258ab7a509c7644ec18d711850c5a936"
+        }
+      ],
+      "text": "Il y avait autrefois en la forêt de Cernas un gros vieux chêne qui pouvait bien avoir cinq cents ans. La foudre l’avait frappé plusieurs fois, et il avait dû se faire une tête nouvelle, un peu écrasée, mais épaisse et verdoyante.\n\nLongtemps ce chêne avait eu une mauvaise réputation. Les plus vieilles gens du village voisin disaient encore que, dans leur jeunesse, ce chêne parlait et menaçait ceux qui voulaient se reposer sous son ombrage. Ils racontaient que deux voyageurs, y cherchant un abri, avaient été foudroyés. L’un d’eux était mort sur le coup ; l’autre s’était éloigné à temps et n’avait été qu’étourdi, parce qu’il avait été averti par une voix qui lui criait :\n\n— Va-t’en vite !\n\nL’histoire était si ancienne qu’on n’y croyait plus guère, et, bien que cet arbre portât encore le nom de chêne parlant, les pâtours s’en approchaient sans trop de crainte. Pourtant le moment vint où il fut plus que jamais réputé sorcier après l’aventure d’Emmi.\n\nEmmi était un pauvre petit gardeur de cochons, orphelin et très-malheureux, non-seulement parce qu’il était mal logé, mal nourri et mal vêtu, mais encore parce qu’il détestait les bêtes que la misère le forçait à soigner. Il en avait peur, et ces animaux, qui sont plus fins qu’ils n’en ont l’air, sentaient bien qu’il n’était pas le maître avec eux. Il s’en allait dès le matin, les conduisant à la glandée, dans la forêt. Le soir, il les ramenait à la ferme, et c’était pitié de le voir, couvert de méchants haillons, la tête nue, ses cheveux  hérissés par le vent, sa pauvre petite figure pâle, maigre, terreuse, l’air triste, effrayé, souffrant, chassant devant lui ce troupeau de bêtes criardes, au regard oblique, à la tête baissée, toujours menaçante. À le voir ainsi courir à leur suite sur les sombres bruyères, dans la vapeur rouge du premier crépuscule, on eût dit d’un follet des landes chassé par une rafale.",
+      "editionYear": 1906,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Sand_-_Contes_d%E2%80%99une_grand%E2%80%99m%C3%A8re,_1906.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "f89c45790636d1be0b6cdb5b9afa017c8668235c5c5fa90c4b03092f38eb0da5"
+    },
+    {
+      "id": "sand-indiana",
+      "title": "Indiana",
+      "author": "George Sand",
+      "audience": "adult",
+      "year": "1832",
+      "tags": [
+        "roman",
+        "amour",
+        "liberté",
+        "société"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Indiana/Texte_entier",
+      "edition": "Livre:Sand - Œuvres illustrées de George Sand, 1855.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1876,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:George_Sand",
+        "verifiedAt": "2026-10-03"
+      },
+      "sourceRevision": "2946771",
+      "passages": [
+        {
+          "id": "sand-indiana-p01",
+          "text": "Par une soirée d’automne pluvieuse et fraîche, trois personnes rêveuses étaient gravement occupées, au fond d’un petit castel de la Brie, à regarder brûler les tisons du foyer et cheminer lentement l’aiguille de la pendule. Deux de ces hôtes silencieux semblaient s’abandonner en toute soumission au vague ennui qui pesait sur eux ; mais le troisième donnait des marques de rébellion ouverte : il s’agitait sur son siège, étouffait à demi haut quelques bâillements mélancoliques, et frappait la pincette sur les bûches pétillantes, avec l’intention marquée de lutter contre l’ennemi commun.\n\nCe personnage, beaucoup plus âgé que les deux autres, était le maître de la maison, le colonel Delmare, vieille bravoure en demi-solde, homme jadis beau, maintenant épais, au front chauve, à la moustache grise, à l’œil terrible ; excellent maître devant qui tout tremblait, femme, serviteurs, chevaux et chiens.\n\nIl quitta enfin sa chaise, évidemment impatienté de ne savoir comment rompre le silence, et se prit à marcher pesamment dans toute la longueur du salon, sans perdre un instant la raideur convenable à tous les mouvements d’un ancien militaire, s’appuyant sur les reins et se tournant tout d’une pièce, avec ce contentement perpétuel de soi-même qui caractérise l’homme de parade et l’officier-modèle.\n\nMais ils étaient passés, ces jours d’éclat où le lieutenant Delmare respirait le triomphe avec l’air des camps ; l’officier supérieur en retraite, oublié maintenant de la patrie ingrate, se voyait condamné à subir toutes les conséquences du mariage. Il était l’époux d’une jeune et jolie femme, le propriétaire d’un commode manoir avec ses dépendances, et, de plus, un industriel heureux dans ses spéculations ; en conséquence de quoi, le colonel avait de l’humeur, et ce soir-là surtout ; car le temps était humide, et le colonel avait des rhumatismes.",
+          "startParagraph": 0,
+          "endParagraph": 3,
+          "source": "https://fr.wikisource.org/wiki/Indiana/Texte_entier",
+          "sha256": "61314032f0ade66ad971e569d2dfd1aab3ca545b413723a2f68793e3d65afb11"
+        },
+        {
+          "id": "sand-indiana-p02",
+          "text": "En descendant de son tilbury dans la cour du Lagny, Raymon sentit le cœur lui manquer. Il allait donc rencontrer sous ce toit qui lui rappelait de si terribles souvenirs ! Ses raisonnements, d’accord avec ses passions, pouvaient lui faire surmonter les mouvements de son cœur, mais non les étouffer, et dans cet instant la sensation du remords était aussi vive que celle du désir.\n\nLa première figure qui vint à sa rencontre fut celle de sir Ralph Brown, et il crut, en l’apercevant dans son éternel habit de chasse, flanqué de ses chiens, et grave comme un laird écossais, voir marcher le portrait qu’il avait découvert dans la chambre de madame Delmare. Peu d’instants après vint le colonel, et l’on servit le déjeuner sans qu’Indiana eût paru. Raymon, en traversant le vestibule, en passant devant la salle de billard, en reconnaissant ces lieux qu’il avait aperçus dans des circonstances si différentes, se sentait si mal qu’il se rappelait à peine dans quels desseins il y venait maintenant.\n\n« Décidément, madame Delmare ne veut pas descendre ? dit le colonel à son factotum Lelièvre avec quelque aigreur.\n\n— Madame a mal dormi, répondit Lelièvre, et mademoiselle Noun… (allons, toujours ce diable de nom qui me revient !) mademoiselle Fanny, veux-je dire, m’a répondu que madame reposait maintenant.\n\n— Comment se fait-il donc que je viens de la voir à sa fenêtre ? Fanny s’est trompée. Allez avertir madame que le déjeuner est servi… ; ou plutôt, sir Ralph, mon cher parent, veuillez monter, et voir vous-même si votre cousine est malade pour tout de bon. »\n\nSi le nom malheureux échappé par habitude au domestique avait fait passer un frisson douloureux dans les nerfs de Raymon, l’expédient du colonel leur communiqua une étrange sensation de colère et de jalousie.\n\n« Dans sa chambre ! pensa-t-il. Il ne se borne pas à y placer son portrait, il l’y envoie en personne. Cet Anglais a ici des droits que le mari lui-même semble n’oser pas s’attribuer. »",
+          "startParagraph": 425,
+          "endParagraph": 431,
+          "source": "https://fr.wikisource.org/wiki/Indiana/Texte_entier",
+          "sha256": "c8d0de3bda76538a9899efd990ba09edace8123dc419b5d0ae27034dc0ca2bf3"
+        },
+        {
+          "id": "sand-indiana-p03",
+          "text": "— Je l’espère, » dit Indiana en regardant le ciel.\n\nMadame de Ramière voulut au moins envoyer chercher une voiture ; mais Indiana s’y opposa. Elle voulait rentrer seule et sans bruit. En vain la mère de Raymon s’effraya de la voir, si affaiblie et si bouleversée, entreprendre à pied cette longue course.\n\n« J’ai de la force, lui répondit-elle ; une parole de Raymon a suffi pour m’en donner. »\n\nElle s’enveloppa dans son manteau, baissa son voile de dentelle noire, et sortit de l’hôtel par une issue dérobée dont madame de Ramière lui montra le chemin. Aux premiers pas qu’elle fit dans la rue, elle sentit ses jambes tremblantes prêtes à lui refuser le service ; il lui semblait à chaque instant sentir la rude main de son mari furieux la saisir, la renverser et la traîner dans le ruisseau. Bientôt le bruit du dehors, l’insouciance des figures qui se croisaient autour d’elle, et le froid pénétrant du matin, lui rendirent la force et la tranquillité, mais une force douloureuse, et une tranquillité morne, semblable à celle qui s’étend sur les eaux de la mer, et dont le matelot clairvoyant s’effraie plus que des soulèvements de la tempête. Elle descendit le quai depuis l’Institut jusqu’au Corps-Législatif ; mais elle oublia de traverser le pont, et continua à longer la rivière, absorbée dans une rêverie stupide, dans une méditation sans idées, et poursuivant l’action sans but de marcher devant elle.\n\nInsensiblement elle se trouva au bord de l’eau, qui charriait des glaçons à ses pieds et les brisait avec un bruit sec et froid sur les pierres de la rive. Cette eau verdâtre exerçait une force attractive sur les sens d’Indiana. On s’accoutume aux idées terribles ; à force de les admettre, on s’y plaît. Il y avait si longtemps que l’exemple du suicide de Noun apaisait les heures de son désespoir, qu’elle s’était fait du suicide une sorte de volupté tentatrice. Une seule pensée, une pensée religieuse, l’avait empêchée de s’y arrêter définitivement ; mais dans cet instant aucune pensée complète ne gouvernait plus son cerveau épuisé. Elle se rappelait à peine que Dieu existât, que Raymon eût existé, et elle marchait, se rapprochant toujours de la rive, obéissant à l’instinct du malheur et au magnétisme de la souffrance.",
+          "startParagraph": 851,
+          "endParagraph": 855,
+          "source": "https://fr.wikisource.org/wiki/Indiana/Texte_entier",
+          "sha256": "2473fcefe88e53a09063b2cf80f3f0057c8cd89495c22b2e08ae92e5e420f509"
+        }
+      ],
+      "text": "Par une soirée d’automne pluvieuse et fraîche, trois personnes rêveuses étaient gravement occupées, au fond d’un petit castel de la Brie, à regarder brûler les tisons du foyer et cheminer lentement l’aiguille de la pendule. Deux de ces hôtes silencieux semblaient s’abandonner en toute soumission au vague ennui qui pesait sur eux ; mais le troisième donnait des marques de rébellion ouverte : il s’agitait sur son siège, étouffait à demi haut quelques bâillements mélancoliques, et frappait la pincette sur les bûches pétillantes, avec l’intention marquée de lutter contre l’ennemi commun.\n\nCe personnage, beaucoup plus âgé que les deux autres, était le maître de la maison, le colonel Delmare, vieille bravoure en demi-solde, homme jadis beau, maintenant épais, au front chauve, à la moustache grise, à l’œil terrible ; excellent maître devant qui tout tremblait, femme, serviteurs, chevaux et chiens.\n\nIl quitta enfin sa chaise, évidemment impatienté de ne savoir comment rompre le silence, et se prit à marcher pesamment dans toute la longueur du salon, sans perdre un instant la raideur convenable à tous les mouvements d’un ancien militaire, s’appuyant sur les reins et se tournant tout d’une pièce, avec ce contentement perpétuel de soi-même qui caractérise l’homme de parade et l’officier-modèle.\n\nMais ils étaient passés, ces jours d’éclat où le lieutenant Delmare respirait le triomphe avec l’air des camps ; l’officier supérieur en retraite, oublié maintenant de la patrie ingrate, se voyait condamné à subir toutes les conséquences du mariage. Il était l’époux d’une jeune et jolie femme, le propriétaire d’un commode manoir avec ses dépendances, et, de plus, un industriel heureux dans ses spéculations ; en conséquence de quoi, le colonel avait de l’humeur, et ce soir-là surtout ; car le temps était humide, et le colonel avait des rhumatismes.",
+      "editionYear": 1853,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Sand_-_%C5%92uvres_illustr%C3%A9es_de_George_Sand,_1855.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "1cb898262e98dbce13b9f1f721586e52216429f02cc7b547aff9c06c868271a4",
+      "editionNote": "Année relevée dans la notice du fac-similé; le nom de fichier historique porte une autre année."
+    },
+    {
+      "id": "verne-ile-mysterieuse",
+      "title": "L’Île mystérieuse",
+      "author": "Jules Verne",
+      "audience": "child",
+      "year": "1874–1875",
+      "tags": [
+        "aventure",
+        "science",
+        "île",
+        "courage"
+      ],
+      "genre": "aventure",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%8Ele_myst%C3%A9rieuse/Partie_1/Chapitre_1",
+      "edition": "Livre:Jules Verne - L’Île mystérieuse.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1905,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Jules_Verne",
+        "verifiedAt": "2026-10-03"
+      },
+      "sourceRevision": "11450936",
+      "passages": [
+        {
+          "id": "verne-ile-mysterieuse-p01",
+          "text": "« Remontons-nous ?\n\n— Non ! Au contraire ! Nous descendons !\n\n— Pis que cela, monsieur Cyrus ! Nous tombons !\n\n— Pour Dieu ! Jetez du lest !\n\n— Voilà le dernier sac vidé !\n\n— Le ballon se relève-t-il ?\n\n— J’entends comme un clapotement de vagues !\n\n— La mer est sous la nacelle !\n\n— Elle ne doit pas être à cinq cents pieds de nous ! »\n\nAlors une voix puissante déchira l’air, et ces mots retentirent :\n\n« Dehors tout ce qui pèse !… tout ! et à la grâce de Dieu ! »\n\nTelles sont les paroles qui éclataient en l’air, au-dessus de ce vaste désert d’eau du Pacifique, vers quatre heures du soir, dans la journée du 23 mars 1865.\n\nPersonne n’a sans doute oublié le terrible coup de vent de nord-est qui se déchaîna au milieu de l’équinoxe de cette année, et pendant lequel le baromètre tomba à sept cent dix millimètres. Ce fut un ouragan, sans intermittence, qui dura du 18 au 26 mars. Les ravages qu’il produisit furent immenses en Amérique, en Europe, en Asie, sur une zone large de dix-huit cents milles, qui se dessinait obliquement à l’équateur, depuis le trente-cinquième parallèle nord jusqu’au quarantième parallèle sud ! Villes renversées, forêts déracinées, rivages dévastés par des montagnes d’eau qui se précipitaient comme des mascarets, navires jetés à la côte, que les relevés du Bureau-Veritas chiffrèrent par centaines, territoires entiers nivelés par des trombes qui broyaient tout sur leur passage, plusieurs milliers de personnes écrasées sur terre ou englouties en mer : tels furent les témoignages de sa fureur, qui furent laissés après lui par ce formidable ouragan. Il dépassait en désastres ceux qui ravagèrent si épouvantablement la Havane et la Guadeloupe, l’un le 25 octobre 1810, l’autre le 26 juillet 1825.\n\nOr, au moment même où tant de catastrophes s’accomplissaient sur terre et sur mer, un drame, non moins saisissant, se jouait dans les airs bouleversés.",
+          "startParagraph": 0,
+          "endParagraph": 13,
+          "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%8Ele_myst%C3%A9rieuse/Partie_1/Chapitre_1",
+          "sha256": "83ac766135d9cc36aa9cd92aaed387319b8461d88e7c37f21e1704a5f1d0a8dd"
+        },
+        {
+          "id": "verne-ile-mysterieuse-p02",
+          "text": "Mais, vers cette heure-là aussi, on eût pu constater, de nouveau, que le ballon s’abaissait lentement, par un mouvement continu, dans les couches inférieures de l’air. Il semblait même qu’il se dégonflait peu à peu, et que son enveloppe s’allongeait en se distendant, passant de la forme sphérique à la forme ovoïde.\n\nVers midi, l’aérostat ne planait plus qu’à une hauteur de deux mille pieds au-dessus de la mer. Il jaugeait cinquante mille pieds cubes, et, grâce à sa capacité, il avait évidemment pu se maintenir longtemps dans l’air, soit qu’il eût atteint de grandes altitudes, soit qu’il se fût déplacé suivant une direction horizontale.\n\nEn ce moment, les passagers jetèrent les derniers objets qui alourdissaient encore la nacelle, les quelques vivres qu’ils avaient conservés, tout, jusqu’aux menus ustensiles qui garnissaient leurs poches, et l’un d’eux, s’étant hissé sur le cercle auquel se réunissaient les cordes du filet, chercha à lier solidement l’appendice inférieur de l’aérostat.\n\nIl était évident que les passagers ne pouvaient plus maintenir le ballon dans les zones élevées, et que le gaz leur manquait !\n\nIls étaient donc perdus !\n\nEn effet, ce n’était ni un continent, ni même une île, qui s’étendait au-dessous d’eux. L’espace n’offrait pas un seul point d’atterrissement, pas une surface solide sur laquelle leur ancre pût mordre.\n\nC’était l’immense mer, dont les flots se heurtaient encore avec une incomparable violence ! C’était l’Océan sans limites visibles, même pour eux, qui le dominaient de haut et dont les regards s’étendaient alors sur un rayon de quarante milles ! C’était cette plaine liquide, battue sans merci, fouettée par l’ouragan, qui devait leur apparaître comme une chevauchée de lames échevelées, sur lesquelles eût été jeté un vaste réseau de crêtes blanches ! Pas une terre en vue, pas un navire !",
+          "startParagraph": 21,
+          "endParagraph": 27,
+          "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%8Ele_myst%C3%A9rieuse/Partie_1/Chapitre_1",
+          "sha256": "b3ab018b086406807db487dfaca45232554968eb44c16e974a201cd2abbfe419"
+        },
+        {
+          "id": "verne-ile-mysterieuse-p03",
+          "text": "— Accrochons-nous au filet ! et à la mer la nacelle ! »\n\nC’était, en effet, le seul et dernier moyen d’alléger l’aérostat. Les cordes qui rattachaient la nacelle au cercle furent coupées, et l’aérostat, après sa chute, remonta de deux mille pieds.\n\nLes cinq passagers s’étaient hissés dans le filet, au-dessus du cercle, et se tenaient dans le réseau des mailles, regardant l’abîme.\n\nOn sait de quelle sensibilité statique sont doués les aérostats. Il suffit de jeter l’objet le plus léger pour provoquer un déplacement dans le sens vertical. L’appareil, flottant dans l’air, se comporte comme une balance d’une justesse mathématique. On comprend donc que, lorsqu’il est délesté d’un poids relativement considérable, son déplacement soit important et brusque. C’est ce qui arriva dans cette occasion.\n\nMais, après s’être un instant équilibré dans les zones supérieures, l’aérostat commença à redescendre. Le gaz fuyait par la déchirure, qu’il était impossible de réparer.\n\nLes passagers avaient fait tout ce qu’ils pouvaient faire. Aucun moyen humain ne pouvait les sauver désormais. Ils n’avaient plus à compter que sur l’aide de Dieu.\n\nÀ quatre heures, le ballon n’était plus qu’à cinq cents pieds de la surface des eaux.\n\nUn aboiement sonore se fit entendre. Un chien accompagnait les passagers et se tenait accroché près de son maître dans les mailles du filet.\n\n« Top a vu quelque chose ! » s’écria l’un des passagers.\n\nPuis, aussitôt, une voix forte se fit entendre :\n\n« Terre ! terre ! »\n\nLe ballon, que le vent ne cessait d’entraîner vers le sud-ouest, avait, depuis l’aube, franchi une distance considérable, qui se chiffrait par centaines de milles, et une terre assez élevée venait, en effet, d’apparaître dans cette direction.\n\nMais cette terre se trouvait encore à trente milles sous le vent. Il ne fallait pas moins d’une grande heure pour l’atteindre, et encore à la condition de ne pas dériver. Une heure ! Le ballon ne se serait-il pas auparavant vidé de tout ce qu’il avait gardé de son fluide ?",
+          "startParagraph": 42,
+          "endParagraph": 54,
+          "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%8Ele_myst%C3%A9rieuse/Partie_1/Chapitre_1",
+          "sha256": "8090609d198c1aea0b18d5d91dd97dd452b8b605941e5d68b20836a3ea844b70"
+        }
+      ],
+      "text": "« Remontons-nous ?\n\n— Non ! Au contraire ! Nous descendons !\n\n— Pis que cela, monsieur Cyrus ! Nous tombons !\n\n— Pour Dieu ! Jetez du lest !\n\n— Voilà le dernier sac vidé !\n\n— Le ballon se relève-t-il ?\n\n— J’entends comme un clapotement de vagues !\n\n— La mer est sous la nacelle !\n\n— Elle ne doit pas être à cinq cents pieds de nous ! »\n\nAlors une voix puissante déchira l’air, et ces mots retentirent :\n\n« Dehors tout ce qui pèse !… tout ! et à la grâce de Dieu ! »\n\nTelles sont les paroles qui éclataient en l’air, au-dessus de ce vaste désert d’eau du Pacifique, vers quatre heures du soir, dans la journée du 23 mars 1865.\n\nPersonne n’a sans doute oublié le terrible coup de vent de nord-est qui se déchaîna au milieu de l’équinoxe de cette année, et pendant lequel le baromètre tomba à sept cent dix millimètres. Ce fut un ouragan, sans intermittence, qui dura du 18 au 26 mars. Les ravages qu’il produisit furent immenses en Amérique, en Europe, en Asie, sur une zone large de dix-huit cents milles, qui se dessinait obliquement à l’équateur, depuis le trente-cinquième parallèle nord jusqu’au quarantième parallèle sud ! Villes renversées, forêts déracinées, rivages dévastés par des montagnes d’eau qui se précipitaient comme des mascarets, navires jetés à la côte, que les relevés du Bureau-Veritas chiffrèrent par centaines, territoires entiers nivelés par des trombes qui broyaient tout sur leur passage, plusieurs milliers de personnes écrasées sur terre ou englouties en mer : tels furent les témoignages de sa fureur, qui furent laissés après lui par ce formidable ouragan. Il dépassait en désastres ceux qui ravagèrent si épouvantablement la Havane et la Guadeloupe, l’un le 25 octobre 1810, l’autre le 26 juillet 1825.\n\nOr, au moment même où tant de catastrophes s’accomplissaient sur terre et sur mer, un drame, non moins saisissant, se jouait dans les airs bouleversés.",
+      "editionYear": 1875,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Jules_Verne_-_L%E2%80%99%C3%8Ele_myst%C3%A9rieuse.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "2450876a18c93f4cbea3b41c40dc79a54f219c6ae245e9964a994d707fc4ed5e"
+    },
+    {
+      "id": "zola-germinal",
+      "title": "Germinal",
+      "author": "Émile Zola",
+      "audience": "adult",
+      "year": "1885",
+      "tags": [
+        "roman",
+        "société",
+        "travail",
+        "solidarité"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Germinal/Partie_I/Chapitre_1",
+      "edition": "Livre:Zola - Germinal.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1902,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:%C3%89mile_Zola",
+        "verifiedAt": "2026-10-03"
+      },
+      "sourceRevision": "12123441",
+      "passages": [
+        {
+          "id": "zola-germinal-p01",
+          "text": "Dans la plaine rase, sous la nuit sans étoiles, d’une obscurité et d’une épaisseur d’encre, un homme suivait seul la grande route de Marchiennes à Montsou, dix kilomètres de pavé coupant tout droit, à travers les champs de betteraves. Devant lui, il ne voyait même pas le sol noir, et il n’avait la sensation de l’immense horizon plat que par les souffles du vent de mars, des rafales larges comme sur une mer, glacées d’avoir balayé des lieues de marais et de terres nues. Aucune ombre d’arbre ne tachait le ciel, le pavé se déroulait avec la rectitude d’une jetée, au milieu de l’embrun aveuglant des ténèbres.\n\nL’homme était parti de Marchiennes vers deux heures. Il marchait d’un pas allongé, grelottant sous le coton aminci de sa veste et de son pantalon de velours. Un petit paquet, noué dans un mouchoir à carreaux, le gênait beaucoup ; et il le serrait contre ses flancs, tantôt d’un coude, tantôt de l’autre, pour glisser au fond de ses poches les deux mains à la fois, des mains gourdes que les lanières du vent d’est faisaient saigner. Une seule idée occupait sa tête vide d’ouvrier sans travail et sans gîte, l’espoir que le froid serait moins vif après le lever du jour. Depuis une heure, il avançait ainsi, lorsque sur la gauche, à deux kilomètres de Montsou, il aperçut des feux rouges, trois brasiers brûlant au plein air, et comme suspendus. D’abord, il hésita, pris de crainte ; puis, il ne put résister au besoin douloureux de se chauffer un instant les mains.\n\nUn chemin creux s’enfonçait. Tout disparut. L’homme avait à droite une palissade, quelque mur de grosses planches fermant une voie ferrée ; tandis qu’un talus d’herbe s’élevait à gauche, surmonté de pignons confus, d’une vision de village aux toitures basses et uniformes. Il fit environ deux cents pas. Brusquement, à un coude du chemin, les feux reparurent près de lui, sans qu’il comprît davantage comment ils brûlaient si haut dans le ciel mort, pareils à des lunes fumeuses. Mais, au ras du sol, un autre spectacle venait de l’arrêter. C’était une masse lourde, un tas écrasé de constructions, d’où se dressait la silhouette d’une cheminée d’usine ; de rares lueurs sortaient des fenêtres encrassées, cinq ou six lanternes tristes étaient pendues dehors, à des charpentes dont les bois noircis alignaient vaguement des profils de tréteaux gigantesques ; et, de cette apparition fantastique, noyée de nuit et de fumée, une seule voix montait, la respiration grosse et longue d’un échappement de vapeur, qu’on ne voyait point.",
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "source": "https://fr.wikisource.org/wiki/Germinal/Partie_I/Chapitre_1",
+          "sha256": "e81e1e73ebd42b8a8fd4c9360d7be0d148f483696f3a4e2f801f3a07b2058266"
+        },
+        {
+          "id": "zola-germinal-p02",
+          "text": "— C’est vrai, si l’on avait du pain seulement !\n\nLeurs voix se perdaient, des bourrasques emportaient les mots dans un hurlement mélancolique.\n\n— Tenez ! reprit très haut le charretier en se tournant vers le midi, Montsou est là…\n\nEt, de sa main tendue de nouveau, il désigna dans les ténèbres des points invisibles, à mesure qu’il les nommait. Là-bas, à Montsou, la sucrerie Fauvelle marchait encore, mais la sucrerie Hoton venait de réduire son personnel ; il n’y avait guère que la minoterie Dutilleul et la corderie Bleuze pour les câbles de mine, qui tinssent le coup. Puis, d’un geste large, il indiqua, au nord, toute une moitié de l’horizon : les ateliers de construction Sonneville n’avaient pas reçu les deux tiers de leurs commandes habituelles ; sur les trois hauts fourneaux des Forges de Marchiennes, deux seulement étaient allumés ; enfin, à la verrerie Gagebois, une grève menaçait, car on parlait d’une réduction de salaire.\n\n— Je sais, je sais, répétait le jeune homme à chaque indication. J’en viens.\n\n— Nous autres, ça va jusqu’à présent, ajouta le charretier. Les fosses ont pourtant diminué leur extraction. Et regardez, en face, à la Victoire, il n’y a aussi que deux batteries de fours à coke qui flambent.\n\nIl cracha, il repartit derrière son cheval somnolent, après l’avoir attelé aux berlines vides.\n\nMaintenant, Étienne dominait le pays entier. Les ténèbres demeuraient profondes, mais la main du vieillard les avait comme emplies de grandes misères, que le jeune homme, inconsciemment, sentait à cette heure autour de lui, partout, dans l’étendue sans bornes. N’était-ce pas un cri de famine que roulait le vent de mars, au travers de cette campagne nue ? Les rafales s’étaient enragées, elles semblaient apporter la mort du travail, une disette qui tuerait beaucoup d’hommes. Et, les yeux errants, il s’efforçait de percer les ombres, tourmenté du désir et de la peur de voir. Tout s’anéantissait au fond de l’inconnu des nuits obscures, il n’apercevait, très loin, que les hauts fourneaux et les fours à coke. Ceux-ci, des batteries de cent cheminées, plantées obliquement, alignaient des rampes de flammes rouges ; tandis que les deux tours, plus à gauche, brûlaient toutes bleues en plein ciel, comme des torches géantes. C’était d’une tristesse d’incendie, il n’y avait d’autres levers d’astres, à l’horizon menaçant, que ces feux nocturnes des pays de la houille et du fer.",
+          "startParagraph": 25,
+          "endParagraph": 32,
+          "source": "https://fr.wikisource.org/wiki/Germinal/Partie_I/Chapitre_1",
+          "sha256": "59677c110dfa82ac2fd7eaa5cecc6af7a7e399e41739941648d02625e94f7700"
+        },
+        {
+          "id": "zola-germinal-p03",
+          "text": "— Non, non, je me suis enrhumé, l’autre mois. Jamais je ne toussais, à présent je ne peux plus me débarrasser… Et le drôle, c’est que je crache, c’est que je crache…\n\nUn raclement monta de sa gorge, il cracha noir.\n\n— Est-ce que c’est du sang ? demanda Étienne, osant enfin le questionner.\n\nLentement, Bonnemort s’essuyait la bouche d’un revers de main.\n\n— C’est du charbon… J’en ai dans la carcasse de quoi me chauffer jusqu’à la fin de mes jours. Et voilà cinq ans que je ne remets pas les pieds au fond. J’avais ça en magasin, paraît-il, sans même m’en douter. Bah ! ça conserve !\n\nIl y eut un silence, le marteau lointain battait à coups réguliers dans la fosse, le vent passait avec sa plainte, comme un cri de faim et de lassitude venu des profondeurs de la nuit. Devant les flammes qui s’effaraient, le vieux continuait plus bas, remâchant des souvenirs. Ah ! bien sûr, ce n’était pas d’hier que lui et les siens tapaient à la veine ! La famille travaillait pour la Compagnie des mines de Montsou, depuis la création ; et cela datait de loin, il y avait déjà cent six ans. Son aïeul, Guillaume Maheu, un gamin de quinze ans alors, avait trouvé le charbon gras à Réquillart, la première fosse de la Compagnie, une vieille fosse aujourd’hui abandonnée, là-bas, près de la sucrerie Fauvelle. Tout le pays le savait, à preuve que la veine découverte s’appelait la veine Guillaume, du prénom de son grand-père. Il ne l’avait pas connu, un gros à ce qu’on racontait, très fort, mort de vieillesse à soixante ans. Puis, son père, Nicolas Maheu dit le Rouge, âgé de quarante ans à peine, était resté dans le Voreux, que l’on fonçait en ce temps-là : un éboulement, un aplatissement complet, le sang bu et les os avalés par les roches. Deux de ses oncles et ses trois frères, plus tard, y avaient aussi laissé leur peau. Lui, Vincent Maheu, qui en était sorti à peu près entier, les jambes mal d’aplomb seulement, passait pour un malin. Quoi faire, d’ailleurs ? Il fallait travailler. On faisait ça de père en fils, comme on aurait fait autre chose. Son fils, Toussaint Maheu, y crevait maintenant, et ses petits-fils, et tout son monde, qui logeait en face, dans le coron. Cent six ans d’abattage, les mioches après les vieux, pour le même patron : hein ? beaucoup de bourgeois n’auraient pas su dire si bien leur histoire !",
+          "startParagraph": 51,
+          "endParagraph": 56,
+          "source": "https://fr.wikisource.org/wiki/Germinal/Partie_I/Chapitre_1",
+          "sha256": "310ca851f41b25a5ad00a15b8e327962b581861a8978a973e38263dffcfb9b3b"
+        }
+      ],
+      "text": "Dans la plaine rase, sous la nuit sans étoiles, d’une obscurité et d’une épaisseur d’encre, un homme suivait seul la grande route de Marchiennes à Montsou, dix kilomètres de pavé coupant tout droit, à travers les champs de betteraves. Devant lui, il ne voyait même pas le sol noir, et il n’avait la sensation de l’immense horizon plat que par les souffles du vent de mars, des rafales larges comme sur une mer, glacées d’avoir balayé des lieues de marais et de terres nues. Aucune ombre d’arbre ne tachait le ciel, le pavé se déroulait avec la rectitude d’une jetée, au milieu de l’embrun aveuglant des ténèbres.\n\nL’homme était parti de Marchiennes vers deux heures. Il marchait d’un pas allongé, grelottant sous le coton aminci de sa veste et de son pantalon de velours. Un petit paquet, noué dans un mouchoir à carreaux, le gênait beaucoup ; et il le serrait contre ses flancs, tantôt d’un coude, tantôt de l’autre, pour glisser au fond de ses poches les deux mains à la fois, des mains gourdes que les lanières du vent d’est faisaient saigner. Une seule idée occupait sa tête vide d’ouvrier sans travail et sans gîte, l’espoir que le froid serait moins vif après le lever du jour. Depuis une heure, il avançait ainsi, lorsque sur la gauche, à deux kilomètres de Montsou, il aperçut des feux rouges, trois brasiers brûlant au plein air, et comme suspendus. D’abord, il hésita, pris de crainte ; puis, il ne put résister au besoin douloureux de se chauffer un instant les mains.\n\nUn chemin creux s’enfonçait. Tout disparut. L’homme avait à droite une palissade, quelque mur de grosses planches fermant une voie ferrée ; tandis qu’un talus d’herbe s’élevait à gauche, surmonté de pignons confus, d’une vision de village aux toitures basses et uniformes. Il fit environ deux cents pas. Brusquement, à un coude du chemin, les feux reparurent près de lui, sans qu’il comprît davantage comment ils brûlaient si haut dans le ciel mort, pareils à des lunes fumeuses. Mais, au ras du sol, un autre spectacle venait de l’arrêter. C’était une masse lourde, un tas écrasé de constructions, d’où se dressait la silhouette d’une cheminée d’usine ; de rares lueurs sortaient des fenêtres encrassées, cinq ou six lanternes tristes étaient pendues dehors, à des charpentes dont les bois noircis alignaient vaguement des profils de tréteaux gigantesques ; et, de cette apparition fantastique, noyée de nuit et de fumée, une seule voix montait, la respiration grosse et longue d’un échappement de vapeur, qu’on ne voyait point.",
+      "editionYear": 1885,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Zola_-_Germinal.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "4d91080776999e10aabe0906cc2a6de439f98ad8f84a0beee9b551d8111c610a"
     }
   ]
 }

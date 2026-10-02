@@ -1,0 +1,35 @@
+{
+  "id": "/",
+  "name": "Éclat — Lecture et bibliothèque",
+  "short_name": "Éclat",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff5df",
+  "theme_color": "#fff5df",
+  "icons": [
+    {
+      "src": "/icons/eclat-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/eclat-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Emprunts en bibliothèque",
+      "url": "/emprunts.html"
+    },
+    {
+      "name": "Le coin des mini-aventuriers",
+      "url": "/emprunts-enfants.html"
+    }
+  ]
+}

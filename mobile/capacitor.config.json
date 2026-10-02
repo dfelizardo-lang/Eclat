@@ -1,0 +1,19 @@
+{
+  "appId": "io.github.dfelizardo.eclat.test",
+  "appName": "\u00c9clat \u2014 Test",
+  "webDir": "www",
+  "backgroundColor": "#fff5df",
+  "zoomEnabled": true,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "loggingBehavior": "debug"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

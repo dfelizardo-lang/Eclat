@@ -1,0 +1,9 @@
+node_modules/
+sources/
+__pycache__/
+mobile/android/
+mobile/www/
+*.apk
+*.aab
+*.jks
+*.keystore

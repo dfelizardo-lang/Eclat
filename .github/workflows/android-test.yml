@@ -1,0 +1,43 @@
+name: APK Android de test
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['mobile/**', '.github/workflows/android-test.yml']
+permissions:
+  contents: read
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: mobile/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: android-actions/setup-android@v3
+      - name: Préparer et contrôler le client
+        working-directory: mobile
+        run: |
+          npm ci
+          npm test
+          npm run prepare:android
+      - name: Compiler le fichier installable
+        working-directory: mobile/android
+        run: ./gradlew assembleDebug --no-daemon
+      - name: Conserver l’APK et son empreinte
+        run: |
+          mkdir -p apk
+          cp mobile/android/app/build/outputs/apk/debug/app-debug.apk apk/eclat-test.apk
+          sha256sum apk/eclat-test.apk > apk/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eclat-android-test
+          path: apk/
+          retention-days: 30

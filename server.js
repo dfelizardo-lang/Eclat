@@ -33,36 +33,19 @@ async function getLibraries(){
   const rows=matrix.map(values=>Object.fromEntries(headers.map((h,i)=>[h,values[i]||""])));
   libraryCache={at:Date.now(),rows}; return rows;
 }
-
 app.get("/api/bibliotheques", async (req,res)=>{
   const cp=String(req.query.cp||"").replace(/\D/g,"").slice(0,5);
   if(!/^\d{5}$/.test(cp)) return res.status(400).json({error:"Entrez un code postal à 5 chiffres."});
   try{
-    const rows=await getLibraries();
-    const seen=new Set();
-    const results=[];
+    const rows=await getLibraries(); const seen=new Set(); const results=[];
     for(const r of rows){
-      const postal=pick(r,[/^cp$/,/codepostal/,/postal/]).replace(/\D/g,"").slice(0,5);
-      if(postal!==cp) continue;
-      const item={
-        name:pick(r,[/nom.*etablissement/,/nombibliotheque/,/^nom$/,/libelle/])||"Bibliothèque",
-        address:pick(r,[/^adresse$/,/adresse1/,/adresse/]),
-        postalCode:postal,
-        city:pick(r,[/^commune$/,/ville/]),
-        website:pick(r,[/siteinternet/,/siteweb/,/^url$/,/website/])
-      };
+      const postal=pick(r,[/^cp$/,/codepostal/,/postal/]).replace(/\D/g,"").slice(0,5); if(postal!==cp) continue;
+      const item={name:pick(r,[/nom.*etablissement/,/nombibliotheque/,/^nom$/,/libelle/])||"Bibliothèque",address:pick(r,[/^adresse$/,/adresse1/,/adresse/]),postalCode:postal,city:pick(r,[/^commune$/,/ville/]),website:pick(r,[/siteinternet/,/siteweb/,/^url$/,/website/])};
       const key=norm(`${item.name}|${item.address}|${item.city}`); if(seen.has(key)) continue; seen.add(key); results.push(item);
     }
-    res.set("Cache-Control","public, max-age=300");
-    res.json({postalCode:cp,count:results.length,results,source:"Ministère de la Culture / data.gouv.fr"});
+    res.set("Cache-Control","public, max-age=300"); res.json({postalCode:cp,count:results.length,results,source:"Ministère de la Culture / data.gouv.fr"});
   }catch(e){ console.error(e); res.status(502).json({error:"La recherche des bibliothèques est momentanément indisponible."}); }
 });
-
-const V1_PATCH = `<style>#eclat-version-v1{position:fixed;right:12px;bottom:8px;z-index:9999;font:600 11px/1 system-ui,sans-serif;letter-spacing:.04em;opacity:.38;pointer-events:none}</style><div id="eclat-version-v1" aria-label="Version 1.0">v1.0</div><script>(function(){function patch(){const i=document.getElementById('libraryPostal');if(i){i.value='';i.placeholder='Entrez votre code postal';i.setAttribute('autocomplete','postal-code');i.setAttribute('inputmode','numeric');}}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',patch);else patch();})();<\/script>`;
-function sendApp(req,res){
-  fs.readFile(V73,"utf8",(err,html)=>{ if(err)return res.status(500).send("Éclat indisponible"); const at=html.toLowerCase().lastIndexOf("</body>"); res.type("html").send(at>=0?html.slice(0,at)+V1_PATCH+html.slice(at):html+V1_PATCH); });
-}
-app.get(["/","/index.html"],sendApp);
-app.use(express.static(__dirname,{index:false}));
-app.use((req,res,next)=>{ if(req.method==="GET"&&req.accepts("html"))return sendApp(req,res); next(); });
-app.listen(PORT,()=>console.log(`Éclat v1.0 disponible sur http://localhost:${PORT}`));
+const V1_PATCH = `<style>#eclat-version-v1{position:fixed;right:12px;bottom:8px;z-index:9999;font:600 11px/1 system-ui,sans-serif;letter-spacing:.04em;opacity:.38;pointer-events:none}</style><div id="eclat-version-v1" aria-label="Version 1.0">v1.0</div><script>(function(){function patch(){const i=document.getElementById('libraryPostal');if(i){i.value='';i.placeholder='Votre code postal';i.setAttribute('autocomplete','postal-code');i.setAttribute('inputmode','numeric');}}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',patch);else patch();})();<\/script>`;
+function sendApp(req,res){fs.readFile(V73,"utf8",(err,html)=>{if(err)return res.status(500).send("Éclat indisponible");const at=html.toLowerCase().lastIndexOf("</body>");res.type("html").send(at>=0?html.slice(0,at)+V1_PATCH+html.slice(at):html+V1_PATCH);});}
+app.get(["/","/index.html"],sendApp); app.use(express.static(__dirname,{index:false})); app.use((req,res,next)=>{if(req.method==="GET"&&req.accepts("html"))return sendApp(req,res);next();}); app.listen(PORT,()=>console.log(`Éclat v1.0 disponible sur http://localhost:${PORT}`));

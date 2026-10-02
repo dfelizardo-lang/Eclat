@@ -1,0 +1,59 @@
+/* Shared palette: all informational text targets >4.5:1, including large text. */
+body,body.kids{--accent:#a33423!important;--accent2:#a33423!important}
+header nav,.hero p,.back,.field-hint,.section-heading p,.empty,.save-hint,
+.reader-author,.reader-workline,.reader-workline #readerWork,.reader-actions a,
+.reader-biblio span,.reader-biblio strong,.reader-tags span,.reader-workline .sep,
+.listen-stop,.listen-speed,.listen-voice,.listen-status,.audio-settings-toggle,
+.audio-settings-head,.audio-settings-panel .listen-voice,.audio-settings-panel .listen-speed,
+.source-popover-kicker,.source-popover #sourcePopoverMeta,.saved-item span,
+.library-panel-kicker,.library-panel-intro,.library-search-form label,.library-status,
+.library-data-note,.library-result p,.library-result-copy p,.library-result-copy small,
+.library-results-head span,.library-results-title p,.library-empty p,
+footer,.photo-input{color:#61594f!important}
+body.kids .reader-workline #readerAuthor{color:#173b48!important}
+.library-inline-results .library-result-copy p{color:#61594f!important}
+.library-child-view cite,.source-popover-kicker,body.kids .source-popover-kicker,
+.kicker,h1 em,.logo span,.logo i,.photo-card button{color:#a33423!important}
+.mood h2,.mood h2 em{color:#fffdf8!important}
+.mood .result,footer{color:#fffdf8!important}
+body>footer{background:#171713!important;color:#fffdf8!important}
+/* The loan form has its own light footer. */
+body:has(#loansForm)>footer{background:#f4efe5!important;color:#61594f!important}
+.continuous-copy small,.continuous-home-copy small,.continuous-home[aria-pressed=true] #continuousMeta,
+.library-copy small,.mode-switch button small,.saved-item:after{opacity:1!important}
+/* Bound the brightest possible image backdrop with a dark overlay. */
+.desire:before,.desire.final-card:before,.desire.abstract-card:before,
+body.kids .desire:before,body.kids .desire.final-card:before,body.kids .desire.abstract-card:before{
+ background:linear-gradient(180deg,rgba(8,10,12,.72),rgba(8,10,12,.83) 48%,rgba(8,10,12,.93))!important;opacity:1!important
+}
+.desire strong,.desire.final-card strong,.desire.abstract-card strong{color:#fff!important}
+.desire .icon,body.kids .desire .icon{background:#173b48!important;color:#fff!important;border-color:#fffdf8!important}
+.desire .go,.desire.final-card .go,.desire.abstract-card .go,
+body.kids .desire .go,body.kids .desire.abstract-card .go{background:#173b48!important;color:#fff!important;border-color:#fffdf8!important}
+body.kids .desire.abstract-card .go{color:transparent!important}
+body.kids .desire.abstract-card .go:after{color:#fff!important}
+body.kids .desire.abstract-card:hover .go{background:#214d5b!important}
+/* Decorative ghost words convey no information; don't present them as faint text. */
+.desire .scene-word{display:none!important}
+.shuffle{border-color:#fffdf8!important}
+.shuffle:hover{background:#a33423!important;color:#fff!important}
+body.kids .shuffle,body.kids .shuffle:hover{background:#ffd45f!important;color:#173b48!important}
+body.kids .shuffle .shuffle-icon,.audience-spark,.audience-spark .spark-mini,
+body.kids .audience-spark,body.kids .audience-spark .spark-mini{background:#173b48!important;color:#fff!important}
+body.kids #anotherText,body.kids .reader-actions button,body.kids .listen-main{background:#173b48!important;color:#fff!important}
+.header-reading-tools #savedOpen,.library-loans-link{background:#fffdf8!important;color:#25231d!important;border-color:#61594f!important}
+.header-reading-tools #savedOpen>span:first-child,.library-loans-link>span:first-child{color:#a33423!important}
+.header-reading-tools #savedOpen:hover,.library-loans-link:hover{background:#eee6d9!important;border-color:#61594f!important}
+.header-reading-tools #savedOpen small{background:#eee6d9!important;color:#25231d!important}
+.audience-switch{border-color:#61594f!important}
+input,select,textarea,.reader-action,body.kids .reader-action,.reader-tags span,
+.library-search-row input,.library-retry,.form-card{border-color:#61594f!important}
+input::placeholder,textarea::placeholder,#libraryPostal::placeholder{color:#61594f!important;opacity:1!important}
+.photo-button{background:#eee6d9!important;color:#25231d!important;border:1px solid #61594f!important}
+.photo-button:hover{background:#e3d8c7!important}
+.save-button:hover{background:#a33423!important;color:#fff!important}
+input,textarea,select{caret-color:#25231d!important}
+button:disabled,[aria-disabled=true]{opacity:1!important;background:#e6dfd1!important;color:#514a42!important;border-color:#61594f!important}
+.status.error{color:#a33423!important}
+:where(a,button,input,textarea,select,[tabindex]):focus-visible{outline:3px solid #171713!important;outline-offset:3px!important;box-shadow:0 0 0 3px #fffdf8!important}
+#eclat-version-v1{opacity:1!important;background:#fffdf8!important;color:#61594f!important;padding:3px 6px;border-radius:5px}

@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
+require('./kids-books-api').install(app,express);
 const PORT = process.env.PORT || 3000;
 const V73 = path.join(__dirname, "eclat_v73_deployable.html");
 const { DAY, loadCatalog, createRotation } = require('./daily-themes');

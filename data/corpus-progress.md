@@ -46,3 +46,5 @@ Aucune interface, rotation, donnée utilisateur ou infrastructure modifiée.
 | Germinal — Émile Zola | adult | 1885 | 3 |
 
 Reprise : diversifier poésie, théâtre, récits et auteurs; vérifier les 12 titres historiques; objectif 200 titres/600 extraits encore non atteint.
+
+Validation production le 3 octobre 2026 à 00 h 09 (Paris) : déploiement 38683f67489639eef2a5859cac3169a3bd617563 SUCCESS; /api/catalogue identique au fichier intégré, 42 titres (21 par public), 90 extraits éditoriaux vérifiés; les 30 nouveaux /api/passages/:id contrôlés individuellement par SHA-256. Aucun blocage technique constaté pour ce lot.

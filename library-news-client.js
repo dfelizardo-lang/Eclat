@@ -1,6 +1,6 @@
 (() => {
  const panel=document.getElementById('libraryPanel'),open=document.getElementById('libraryWatchOpen'),form=document.getElementById('libraryUrlForm'),input=document.getElementById('libraryUrl'),status=document.getElementById('libraryNewsStatus'),results=document.getElementById('libraryNewsResults'),savedList=document.getElementById('libraryWantedList');
- const key='eclat-library-watch-v1';let state={url:'',favorites:[],snapshot:null},busy=false,requestNumber=0,loadedAt=0;
+ const key='eclat-library-watch-v1';let state={url:'',favorites:[],snapshot:null},busy=false,requestNumber=0,loadedAt=0,controller=null;
  try{const stored=JSON.parse(localStorage.getItem(key)||'null');if(stored && Array.isArray(stored.favorites))state=stored;}catch{status.textContent='Vos préférences de bibliothèque ne peuvent pas être chargées sur cet appareil.';}
  const safe=value=>{try{const u=new URL(value);return u.protocol==='https:'?u.href:'';}catch{return '';}};
  function persist(next){localStorage.setItem(key,JSON.stringify(next));state=next;}
@@ -15,7 +15,7 @@
  }
  function render(){
   results.replaceChildren();savedList.replaceChildren();const snapshot=state.snapshot;
-  if(snapshot && snapshot.url){const source=node('a','Ouvrir ma bibliothèque');source.href=safe(snapshot.url);source.target='_blank';source.rel='noopener noreferrer';results.append(source);}
+  if(state.url){const source=node('a','Ouvrir ma bibliothèque');source.href=safe(state.url);source.target='_blank';source.rel='noopener noreferrer';results.append(source);}
   for(const [kind,title] of [['book','Les nouveautés de votre bibliothèque'],['news','Les actualités']]){
    const items=(snapshot?.items||[]).filter(i=>i.kind===kind && safe(i.url));results.append(node('h3',title));
    if(!items.length){results.append(node('p',kind==='book'?'Aucune nouveauté de livre lisible sur cette page pour le moment.':'Aucune actualité lisible sur cette page pour le moment.','field-hint'));continue;}
@@ -24,15 +24,15 @@
   for(const item of state.favorites.filter(i=>safe(i.url)))savedList.append(card(item,true));
   if(!state.favorites.length)savedList.append(node('p','Touchez un cœur pour garder un titre à demander lors de votre prochaine visite.','field-hint'));
  }
- async function refresh(){
-  if(!state.url || busy)return;busy=true;const number=++requestNumber;document.getElementById('libraryRefresh').disabled=true;status.textContent='Consultation de votre bibliothèque…';
-  try{const r=await fetch('/api/library-news?refresh=1&url='+encodeURIComponent(state.url),{cache:'no-store',signal:AbortSignal.timeout(45000)});const data=await r.json();if(!r.ok)throw new Error(data.error||'Le site est indisponible.');if(number!==requestNumber)return;const previous=state.snapshot?.items;const known=new Set((previous||[]).map(i=>i.id));data.items=data.items.map(i=>({...i,isNew:!!previous && !known.has(i.id)}));const next={...state,snapshot:data};try{persist(next);}catch{state=next;}loadedAt=Date.now();render();status.textContent=(data.message?data.message+' ':'')+'Vérifié le '+new Date(data.checkedAt).toLocaleString('fr-FR')+'. Actualisation toutes les cinq minutes pendant que ce panneau est ouvert.';}
-  catch(e){status.textContent=(e.message||'Le site est momentanément indisponible.')+(state.snapshot?' Les derniers résultats conservés restent affichés.':'');}finally{busy=false;document.getElementById('libraryRefresh').disabled=false;}
+ async function refresh({replace=false}={}){
+  if(!state.url || (busy && !replace))return;if(replace)controller?.abort();controller=new AbortController();busy=true;const number=++requestNumber;const activeController=controller;const timer=setTimeout(()=>activeController.abort(),45000);document.getElementById('libraryRefresh').disabled=true;status.textContent='Consultation de votre bibliothèque…';
+  try{const r=await fetch('/api/library-news?refresh=1&url='+encodeURIComponent(state.url),{cache:'no-store',signal:activeController.signal});const data=await r.json();if(!r.ok)throw new Error(data.error||'Le site est indisponible.');if(number!==requestNumber)return;const previous=state.snapshot?.items;const known=new Set((previous||[]).map(i=>i.id));data.items=data.items.map(i=>({...i,isNew:!!previous && !known.has(i.id)}));const next={...state,snapshot:data};try{persist(next);}catch{state=next;}loadedAt=Date.now();render();status.textContent=(data.message?data.message+' ':'')+'Vérifié le '+new Date(data.checkedAt).toLocaleString('fr-FR')+'. Actualisation toutes les cinq minutes pendant que ce panneau est ouvert.';}
+  catch(e){if(number!==requestNumber)return;status.textContent=(e.message||'Le site est momentanément indisponible.')+(state.snapshot?.items?.length?' Les derniers résultats conservés restent affichés.':'');}finally{clearTimeout(timer);if(number===requestNumber){busy=false;document.getElementById('libraryRefresh').disabled=false;}}
  }
- open.addEventListener('click',()=>{panel.hidden=!panel.hidden;open.setAttribute('aria-expanded',String(!panel.hidden));if(!panel.hidden){input.value=state.url||'';render();input.focus();if(!loadedAt)refresh();}});
- document.getElementById('libraryPanelClose').addEventListener('click',()=>{panel.hidden=true;open.setAttribute('aria-expanded','false');open.focus();});
+ open.addEventListener('click',()=>{EclatLoanViews.show('library');input.value=state.url||'';render();document.getElementById('libraryPanelTitle').setAttribute('tabindex','-1');document.getElementById('libraryPanelTitle').focus();if(!loadedAt)refresh();});
+ document.getElementById('libraryPanelClose').addEventListener('click',()=>{EclatLoanViews.show('list');open.focus();});
  document.getElementById('libraryRefresh').addEventListener('click',refresh);
- form.addEventListener('submit',event=>{event.preventDefault();const url=safe(input.value.trim());if(!url){status.textContent='Entrez une adresse HTTPS valide.';return;}if(busy){status.textContent='La consultation est en cours. Réessayez dans un instant.';return;}try{persist({...state,url,snapshot:state.url===url?state.snapshot:null});render();refresh();}catch{status.textContent='L’adresse n’a pas pu être enregistrée sur cet appareil.';}});
+ form.addEventListener('submit',event=>{event.preventDefault();const url=safe(input.value.trim());if(!url){status.textContent='Entrez une adresse HTTPS valide.';return;}try{persist({...state,url,snapshot:state.url===url?state.snapshot:null});loadedAt=0;render();refresh({replace:true});}catch{status.textContent='L’adresse n’a pas pu être enregistrée sur cet appareil.';}});
  if(state.url)refresh();
  setInterval(()=>{if(!panel.hidden && !document.hidden)refresh();},300000);
 })();

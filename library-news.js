@@ -27,7 +27,10 @@ async function download(input,redirects=0){
 }
 function safeLink(value,base){try{const u=new URL(value,base);if(u.protocol!=='https:' || u.username || u.password)return '';u.hash='';return u.href;}catch{return '';}}
 function parsePage(body,url){
- const $=cheerio.load(body);$('script,style,noscript,.sr-only,.visually-hidden').remove();
+ const $=cheerio.load(body);
+ const title=$('title').text();
+ if($('altcha-widget').length || (/vérification de sécurité|security verification|just a moment/i.test(title) && /robot|captcha|altcha|human/i.test(body))){const error=new Error('Ce site exige une vérification humaine et bloque la récupération automatique. Ouvrez votre bibliothèque pour consulter ses nouveautés.');error.code='SITE_HUMAN_VERIFICATION';throw error;}
+ $('script,style,noscript,.sr-only,.visually-hidden').remove();
  const clean=node=>$(node).text().replace(/\s+/g,' ').trim();const items=[];const seen=new Set();
  function add(title,href,kind,author='',type='',date=''){
   const source=safeLink(href,url);title=title.replace(/\s+/g,' ').trim().slice(0,250);if(!title || !source)return;

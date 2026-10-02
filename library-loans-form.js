@@ -13,7 +13,7 @@
   const overview = document.getElementById('loansOverview');
   const overviewStatus = document.getElementById('overviewStatus');
   const newLoan = document.getElementById('newLoan');
-  function showOverview() { form.hidden = true; overview.hidden = false; newLoan.focus(); }
+  function showOverview() { EclatLoanViews.show('list'); newLoan.focus(); }
   const reminderToggle = document.getElementById('weeklyReminder');
   function toggleReminderFields(){const enabled=reminderToggle.checked;document.getElementById('reminderFields').hidden=!enabled;for(const id of ['returnDate','reminderTime'])document.getElementById(id).required=enabled;}
   reminderToggle.addEventListener('change',()=>{toggleReminderFields();changed();});
@@ -26,9 +26,9 @@
     reminderToggle.checked = !!record?.reminder?.enabled;
     document.getElementById('reminderTime').value=record?.reminder?.time || '09:00';toggleReminderFields();
     renderPhotos(); message(photoStatus, ''); message(status, '');
-    overview.hidden = true; form.hidden = false; document.getElementById('formHeading').focus();
+    EclatLoanViews.show('form'); document.getElementById('formHeading').focus();
   }
-  newLoan.addEventListener('click', () => openForm(null));
+  newLoan.addEventListener('click', () => {if(!busy)openForm(null);});
   document.getElementById('cancelLoan').addEventListener('click', () => { if (!busy) showOverview(); });
   function renderRecords() {
     listUrls.forEach(url => URL.revokeObjectURL(url)); listUrls = [];

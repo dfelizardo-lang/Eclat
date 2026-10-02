@@ -23,3 +23,8 @@ test('the novelty list never exceeds twenty books',()=>{
  const cards=Array.from({length:35},(_,i)=>'<article><h3><a href="/book/'+i+'">Livre '+i+'</a></h3></article>').join('');
  const parsed=parsePage('<main><section><h2>Nouveautés</h2>'+cards+'</section></main>','https://bibliotheque.fr/');assert.equal(parsed.items.filter(i=>i.kind==='book').length,20);
 });
+
+test('a human verification page is a blocked source rather than an empty catalogue',()=>{
+ assert.throws(()=>parsePage('<title>Vérification de sécurité</title><altcha-widget></altcha-widget><p>Je ne suis pas un robot</p>','https://bibliotheque.fr/'),e=>e.code==='SITE_HUMAN_VERIFICATION');
+ const ordinary=parsePage('<title>Aucune nouveauté</title><main>Aucun livre</main>','https://bibliotheque.fr/');assert.equal(ordinary.items.length,0);
+});

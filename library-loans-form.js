@@ -46,15 +46,22 @@
       const actions=document.createElement('div');actions.className='loan-actions';actions.append(button);
       if(record.reminder?.enabled && !record.closedAt){
         const note=document.createElement('p');note.className='field-hint';note.textContent='Rappel hebdomadaire préparé · '+record.reminder.time;copy.append(note);
+        if(EclatLoanGoogle.enabled){
+          const sync=document.createElement('button');sync.type='button';sync.className='photo-button';sync.textContent=record.googleCalendar?'Actualiser le rappel Google':'Connecter mon Google Agenda';
+          sync.addEventListener('click',async()=>{if(busy)return;busy=true;sync.disabled=true;try{const linked=await EclatLoanGoogle.save(record);const updated={...record,googleCalendar:linked};await writeNotebook(updated);records[records.findIndex(r=>r.id===record.id)]=updated;renderRecords();message(overviewStatus,'Rappel enregistré dans votre Google Agenda avec une alerte hebdomadaire.');}catch(e){message(overviewStatus,e.message,true);}finally{busy=false;sync.disabled=false;}});actions.append(sync);
+          if(record.googleCalendar){const linked=document.createElement('p');linked.className='field-hint';linked.textContent='Agenda connecté : '+record.googleCalendar.ownerEmail;copy.append(linked);}
+        }
+        if(!record.googleCalendar){
         const googleButton=document.createElement('a');googleButton.className='photo-button';googleButton.textContent='Ajouter à Google Agenda';googleButton.href=EclatLoanCalendar.googleCalendarUrl(record);googleButton.target='_blank';googleButton.rel='noopener noreferrer';googleButton.setAttribute('aria-label','Ajouter le rappel de cet emprunt à Google Agenda (nouvel onglet)');
         googleButton.addEventListener('click',()=>message(overviewStatus,'Dans Google Agenda, vérifiez la répétition chaque semaine et ajoutez une notification, puis cliquez sur Enregistrer. Ajoutez cette série une seule fois. Pour arrêter le rappel, supprimez toute la série dans Google Agenda.'));actions.append(googleButton);
         const guidance=document.createElement('p');guidance.className='field-hint';guidance.textContent='Google Agenda : vérifiez la notification, puis Enregistrer. Le rappel reste actif jusqu’à la suppression de la série dans votre agenda.';copy.append(guidance);
         const calendarButton=document.createElement('button');calendarButton.type='button';calendarButton.className='photo-button';calendarButton.textContent='Autre calendrier (.ics)';
         calendarButton.addEventListener('click',()=>{try{const blob=new Blob([EclatLoanCalendar.calendar(record)],{type:'text/calendar;charset=utf-8'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='eclat-emprunt-'+record.id+'.ics';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);message(overviewStatus,'Rappel téléchargé. Ouvrez le fichier dans votre calendrier pour ajouter la série hebdomadaire. Importez-le une seule fois. Pour arrêter les alertes, supprimez toute la série dans votre calendrier.');}catch{message(overviewStatus,'Le rappel n’a pas pu être préparé.',true);}});actions.append(calendarButton);
+        }
       }
       if(record.closedAt){const badge=document.createElement('p');badge.className='loan-closed';badge.textContent='Livres rendus le '+new Date(record.closedAt).toLocaleDateString('fr-FR');copy.append(badge);}
       const closeButton=document.createElement('button');closeButton.type='button';closeButton.className='photo-button';closeButton.textContent=record.closedAt?'Rouvrir l’emprunt':'Livres rendus';
-      closeButton.addEventListener('click',async()=>{if(busy)return;busy=true;closeButton.disabled=true;const closed=!record.closedAt;const updated={...record,closedAt:closed?new Date().toISOString():null,updatedAt:new Date().toISOString()};try{await writeNotebook(updated);records[records.findIndex(item=>item.id===record.id)]=updated;renderRecords();message(overviewStatus,closed?'Emprunt clôturé. Il reste dans votre historique.'+(record.reminder?.enabled?' Si le rappel a été ajouté à votre calendrier, supprimez toute sa série pour arrêter les alertes.':''):'Emprunt rouvert.');newLoan.focus();}catch{message(overviewStatus,'L’emprunt n’a pas pu être mis à jour. Réessayez.',true);closeButton.disabled=false;}finally{busy=false;}});actions.append(closeButton);
+      closeButton.addEventListener('click',async()=>{if(busy)return;busy=true;closeButton.disabled=true;const closed=!record.closedAt;const updated={...record,closedAt:closed?new Date().toISOString():null,updatedAt:new Date().toISOString()};try{if(closed && record.googleCalendar){await EclatLoanGoogle.remove(record);delete updated.googleCalendar;}await writeNotebook(updated);records[records.findIndex(item=>item.id===record.id)]=updated;renderRecords();message(overviewStatus,closed?'Emprunt clôturé. Il reste dans votre historique.'+(record.googleCalendar?' Le rappel Google Agenda a été arrêté.':record.reminder?.enabled?' Si le rappel a été ajouté manuellement, supprimez toute sa série dans votre calendrier.':''):'Emprunt rouvert.');newLoan.focus();}catch(e){message(overviewStatus,e.message || 'L’emprunt n’a pas pu être mis à jour. Réessayez.',true);closeButton.disabled=false;}finally{busy=false;}});actions.append(closeButton);
       row.append(copy,actions); container.append(row);
     });
   }
@@ -147,15 +154,16 @@
     const savedRevision = revision;
     const list = id => document.getElementById(id).value.split('\n').map(line => line.trim()).filter(Boolean);
     // Versioned local record: dates, lists and stable photo IDs can be reused by a mobile client.
-    const record = {id: currentId, version: 4, closedAt:records.find(item=>item.id===currentId)?.closedAt || null, createdAt: records.find(item => item.id === currentId)?.createdAt || records.find(item => item.id === currentId)?.updatedAt || new Date().toISOString(), updatedAt: new Date().toISOString(), returnDate: document.getElementById('returnDate').value, borrowAgain: list('borrowAgain'), reserveBooks: list('reserveBooks'), reminder: {enabled:reminderToggle.checked,date:document.getElementById('returnDate').value,time:document.getElementById('reminderTime').value}, photos};
-    try { await writeNotebook(record); const index = records.findIndex(item => item.id === record.id); if (index < 0) records.push(record); else records[index] = record; renderRecords(); if (revision === savedRevision) { showOverview(); message(overviewStatus, 'Votre emprunt est enregistré.'); } else message(status, 'Modifications à enregistrer.'); }
-    catch { message(status, 'Le carnet n’a pas pu être enregistré. Libérez de l’espace sur cet appareil, puis réessayez.', true); }
+    const record = {...records.find(item=>item.id===currentId), id: currentId, version: 4, closedAt:records.find(item=>item.id===currentId)?.closedAt || null, createdAt: records.find(item => item.id === currentId)?.createdAt || records.find(item => item.id === currentId)?.updatedAt || new Date().toISOString(), updatedAt: new Date().toISOString(), returnDate: document.getElementById('returnDate').value, borrowAgain: list('borrowAgain'), reserveBooks: list('reserveBooks'), reminder: {enabled:reminderToggle.checked,date:document.getElementById('returnDate').value,time:document.getElementById('reminderTime').value}, photos};
+    try { if(record.googleCalendar){if(record.reminder.enabled && !record.closedAt)record.googleCalendar=await EclatLoanGoogle.save(record);else{await EclatLoanGoogle.remove(record);delete record.googleCalendar;}} await writeNotebook(record); const index = records.findIndex(item => item.id === record.id); if (index < 0) records.push(record); else records[index] = record; renderRecords(); if (revision === savedRevision) { showOverview(); message(overviewStatus, 'Votre emprunt est enregistré.'); } else message(status, 'Modifications à enregistrer.'); }
+    catch (e) { message(status, e.message || 'Le carnet n’a pas pu être enregistré. Réessayez.', true); }
     finally { busy = false; saveButton.disabled = false; enablePhotoControls(true); }
   });
   (async () => {
     try {
       db = await openDatabase();
       records = await readNotebook();
+      EclatLoanGoogle.ready.then(()=>renderRecords());
       renderRecords(); renderPhotos(); saveButton.disabled = false; enablePhotoControls(true); newLoan.disabled = false;
       message(overviewStatus, records.length ? '' : 'Aucun emprunt pour le moment. Ajoutez votre premier emprunt.');
     } catch {

@@ -3,6 +3,11 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
+app.get('/api/google-calendar/config',(req,res)=>{
+  const clientId=process.env.GOOGLE_CALENDAR_CLIENT_ID || '';
+  const enabled=/^[a-zA-Z0-9._-]+\.apps\.googleusercontent\.com$/.test(clientId);
+  res.set('Cache-Control','no-store').json({enabled,...(enabled?{clientId}:{})});
+});
 const PORT = process.env.PORT || 3000;
 const V73 = path.join(__dirname, "eclat_v73_deployable.html");
 const { DAY, loadCatalog, createRotation } = require('./daily-themes');

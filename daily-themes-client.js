@@ -1,9 +1,17 @@
 (function () {
   let daily = null;
   let timer;
+  let manualRefresh = false;
+  // Keep the existing on-demand discovery button available between daily rotations.
+  document.addEventListener('click', event => {
+    if (event.target.closest?.('#shuffleBtn')) manualRefresh = true;
+  }, true);
   const fallback = buildGuaranteedBatch;
   buildGuaranteedBatch = function () {
-    if (!daily) return fallback();
+    if (!daily || manualRefresh) {
+      manualRefresh = false;
+      return fallback();
+    }
     const audience = mode === 'child' ? 'child' : 'adult';
     const history = passageHistory();
     const pool = PASSAGES.filter(p => p.audience === audience && p.text && p.text.length >= 80 && !history[p.id]);

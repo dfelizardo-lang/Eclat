@@ -8,6 +8,11 @@ app.get('/api/google-calendar/config',(req,res)=>{
   const enabled=/^[a-zA-Z0-9._-]+\.apps\.googleusercontent\.com$/.test(clientId);
   res.set('Cache-Control','no-store').json({enabled,...(enabled?{clientId}:{})});
 });
+const {getNews}=require('./library-news');
+app.get('/api/library-news',async(req,res)=>{
+  try{const input=String(req.query.url||'');res.set('Cache-Control','no-store').json(await getNews(input));}
+  catch(e){res.status(400).json({error:e.message || 'Les actualités sont momentanément indisponibles.'});}
+});
 const PORT = process.env.PORT || 3000;
 const V73 = path.join(__dirname, "eclat_v73_deployable.html");
 const { DAY, loadCatalog, createRotation } = require('./daily-themes');

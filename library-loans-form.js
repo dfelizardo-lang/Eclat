@@ -14,11 +14,17 @@
   const overviewStatus = document.getElementById('overviewStatus');
   const newLoan = document.getElementById('newLoan');
   function showOverview() { form.hidden = true; overview.hidden = false; newLoan.focus(); }
+  const reminderToggle = document.getElementById('weeklyReminder');
+  function toggleReminderFields(){const enabled=reminderToggle.checked;document.getElementById('reminderFields').hidden=!enabled;for(const id of ['returnDate','reminderTime'])document.getElementById(id).required=enabled;}
+  reminderToggle.addEventListener('change',()=>{toggleReminderFields();changed();});
+  document.getElementById('reminderTime').addEventListener('input',changed);
   function openForm(record) {
     currentId = record ? record.id : crypto.randomUUID();
     for (const id of fields) document.getElementById(id).value = record ? (Array.isArray(record[id]) ? record[id].join('\n') : record[id] || '') : '';
     photos = record && Array.isArray(record.photos) ? record.photos.slice(0,1) : [];
     document.getElementById('formHeading').textContent = record ? 'Votre emprunt' : 'Nouvel emprunt';
+    reminderToggle.checked = !!record?.reminder?.enabled;
+    document.getElementById('reminderTime').value=record?.reminder?.time || '09:00';toggleReminderFields();
     renderPhotos(); message(photoStatus, ''); message(status, '');
     overview.hidden = true; form.hidden = false; document.getElementById('formHeading').focus();
   }
@@ -37,7 +43,16 @@
       const due = document.createElement('p'); due.textContent = record.returnDate ? 'Retour le ' + new Date(record.returnDate + 'T12:00:00').toLocaleDateString('fr-FR') : 'Date de retour à préciser'; copy.append(due);
       for (const [key,label] of [['borrowAgain','À réemprunter'],['reserveBooks','À réserver']]) { if (record[key] && record[key].length) { const p = document.createElement('p'); p.textContent = label + ' : ' + record[key].join(' · '); copy.append(p); } }
       const button = document.createElement('button'); button.type = 'button'; button.className = 'photo-button'; button.textContent = 'Voir / modifier'; button.setAttribute('aria-label', 'Voir ou modifier ' + title.textContent.toLowerCase()); button.addEventListener('click', () => openForm(record));
-      row.append(copy,button); container.append(row);
+      const actions=document.createElement('div');actions.className='loan-actions';actions.append(button);
+      if(record.reminder?.enabled && !record.closedAt){
+        const note=document.createElement('p');note.className='field-hint';note.textContent='Rappel hebdomadaire préparé · '+record.reminder.time;copy.append(note);
+        const calendarButton=document.createElement('button');calendarButton.type='button';calendarButton.className='photo-button';calendarButton.textContent='Ajouter au calendrier';
+        calendarButton.addEventListener('click',()=>{try{const blob=new Blob([EclatLoanCalendar.calendar(record)],{type:'text/calendar;charset=utf-8'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='eclat-emprunt-'+record.id+'.ics';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);message(overviewStatus,'Rappel téléchargé. Ouvrez le fichier dans votre calendrier pour ajouter la série hebdomadaire. Importez-le une seule fois. Pour arrêter les alertes, supprimez toute la série dans votre calendrier.');}catch{message(overviewStatus,'Le rappel n’a pas pu être préparé.',true);}});actions.append(calendarButton);
+      }
+      if(record.closedAt){const badge=document.createElement('p');badge.className='loan-closed';badge.textContent='Livres rendus le '+new Date(record.closedAt).toLocaleDateString('fr-FR');copy.append(badge);}
+      const closeButton=document.createElement('button');closeButton.type='button';closeButton.className='photo-button';closeButton.textContent=record.closedAt?'Rouvrir l’emprunt':'Livres rendus';
+      closeButton.addEventListener('click',async()=>{if(busy)return;busy=true;closeButton.disabled=true;const closed=!record.closedAt;const updated={...record,closedAt:closed?new Date().toISOString():null,updatedAt:new Date().toISOString()};try{await writeNotebook(updated);records[records.findIndex(item=>item.id===record.id)]=updated;renderRecords();message(overviewStatus,closed?'Emprunt clôturé. Il reste dans votre historique.'+(record.reminder?.enabled?' Si le rappel a été ajouté à votre calendrier, supprimez toute sa série pour arrêter les alertes.':''):'Emprunt rouvert.');newLoan.focus();}catch{message(overviewStatus,'L’emprunt n’a pas pu être mis à jour. Réessayez.',true);closeButton.disabled=false;}finally{busy=false;}});actions.append(closeButton);
+      row.append(copy,actions); container.append(row);
     });
   }
   fileInput.disabled = true;
@@ -129,7 +144,7 @@
     const savedRevision = revision;
     const list = id => document.getElementById(id).value.split('\n').map(line => line.trim()).filter(Boolean);
     // Versioned local record: dates, lists and stable photo IDs can be reused by a mobile client.
-    const record = {id: currentId, version: 3, createdAt: records.find(item => item.id === currentId)?.createdAt || records.find(item => item.id === currentId)?.updatedAt || new Date().toISOString(), updatedAt: new Date().toISOString(), returnDate: document.getElementById('returnDate').value, borrowAgain: list('borrowAgain'), reserveBooks: list('reserveBooks'), photos};
+    const record = {id: currentId, version: 4, closedAt:records.find(item=>item.id===currentId)?.closedAt || null, createdAt: records.find(item => item.id === currentId)?.createdAt || records.find(item => item.id === currentId)?.updatedAt || new Date().toISOString(), updatedAt: new Date().toISOString(), returnDate: document.getElementById('returnDate').value, borrowAgain: list('borrowAgain'), reserveBooks: list('reserveBooks'), reminder: {enabled:reminderToggle.checked,date:document.getElementById('returnDate').value,time:document.getElementById('reminderTime').value}, photos};
     try { await writeNotebook(record); const index = records.findIndex(item => item.id === record.id); if (index < 0) records.push(record); else records[index] = record; renderRecords(); if (revision === savedRevision) { showOverview(); message(overviewStatus, 'Votre emprunt est enregistré.'); } else message(status, 'Modifications à enregistrer.'); }
     catch { message(status, 'Le carnet n’a pas pu être enregistré. Libérez de l’espace sur cet appareil, puis réessayez.', true); }
     finally { busy = false; saveButton.disabled = false; enablePhotoControls(true); }

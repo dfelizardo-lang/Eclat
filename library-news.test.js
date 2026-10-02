@@ -13,3 +13,13 @@ test('RSS and Atom keep source links and reject executable URLs',()=>{
  const rss='<rss><channel><item><title>Une actualité</title><link>https://bibliotheque.fr/news</link><pubDate>2026-10-03</pubDate></item><item><title>Piège</title><link>javascript:alert(1)</link></item></channel></rss>';assert.equal(parseFeed(rss,'https://bibliotheque.fr/').length,1);
  const atom='<feed><entry><title>Rencontre</title><link href="https://bibliotheque.fr/agenda"/><updated>2026-10-03</updated></entry></feed>';assert.equal(parseFeed(atom,'https://bibliotheque.fr/')[0].url,'https://bibliotheque.fr/agenda');
 });
+
+test('any public portal can expose novelty sections with distinct query-based notices',()=>{
+ const page='<main><section><h2>Nos nouveautés</h2><article><h3><a href="/?notice=1">Premier livre</a></h3><p class="author">Autrice A</p></article><article><h3><a href="/?notice=2">Deuxième livre</a></h3><p class="auteur">Auteur B</p></article></section><section><h2>Actualités</h2><article><h3><a href="/rencontre">Rencontre lecture</a></h3></article></section></main>';
+ const x=parsePage(page,'https://autre-bibliotheque.fr/');assert.equal(x.items.filter(i=>i.kind==='book').length,2);assert.equal(x.items.find(i=>i.title==='Premier livre').author,'Autrice A');assert.equal(x.items.find(i=>i.title==='Rencontre lecture').kind,'news');assert.notEqual(x.items[0].id,x.items[1].id);
+});
+
+test('the novelty list never exceeds twenty books',()=>{
+ const cards=Array.from({length:35},(_,i)=>'<article><h3><a href="/book/'+i+'">Livre '+i+'</a></h3></article>').join('');
+ const parsed=parsePage('<main><section><h2>Nouveautés</h2>'+cards+'</section></main>','https://bibliotheque.fr/');assert.equal(parsed.items.filter(i=>i.kind==='book').length,20);
+});

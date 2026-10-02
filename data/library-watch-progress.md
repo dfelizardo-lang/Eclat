@@ -7,3 +7,7 @@ Adaptateur AFI/Orphée testé sur le site du Pays de Meaux fourni : déduplicati
 Requêtes serveur HTTPS bornées : hôtes publics, résolution DNS vérifiée et adresse épinglée, redirections vérifiées, limites temps/taille/concurrence/cache. Aucun accès aux adresses locales, métadonnées cloud ou sites exigeant une connexion.
 
 Tests : 14 tests Node réussis (corpus, rotation, calendrier, Google simulé, parseur, liens et adresses). DNS externe interdit dans le runtime local Node; contrôle réel prévu après déploiement Railway. Google OAuth prêt côté code mais désactivé faute de GOOGLE_CALENDAR_CLIENT_ID; ce blocage est indépendant du suivi de bibliothèque.
+
+Extension : tout domaine public HTTPS accepté; détection de rubriques Nouveautés/Actualités dans le HTML de portails différents, titres et auteurs quand fournis. Les paramètres de notice restent dans les identifiants (seuls les paramètres de suivi sont retirés). Les nouveautés apparues depuis la précédente consultation sont signalées; premier chargement sans faux marquage. Source Meaux vérifiée par API Railway : 2 livres papier et 12 actualités, le 3 octobre à 00 h 33 Paris.
+
+Demandes finales : relecture automatique du site enregistré à chaque arrivée sur Emprunts, même panneau fermé; appel refresh=1 contournant le cache de 5 minutes. Maximum 20 nouveautés de livres, actualités séparées et cœurs conservés indépendamment de la limite. Détection générique de rubriques Nouveautés/Actualités testée sur un second format HTML et des notices différenciées par paramètres d’URL.

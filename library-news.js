@@ -31,24 +31,40 @@ function parsePage(body,url){
  const clean=node=>$(node).text().replace(/\s+/g,' ').trim();const items=[];const seen=new Set();
  function add(title,href,kind,author='',type='',date=''){
   const source=safeLink(href,url);title=title.replace(/\s+/g,' ').trim().slice(0,250);if(!title || !source)return;
-  const key=source.replace(/\/tri\/.*$/,'').split('?')[0];if(seen.has(key))return;seen.add(key);
+  const canonical=new URL(source);canonical.pathname=canonical.pathname.replace(/\/tri\/.*$/,'');for(const key of [...canonical.searchParams.keys()])if(/^(utm_|fbclid$|gclid$)/i.test(key))canonical.searchParams.delete(key);canonical.searchParams.sort();const key=canonical.href;if(seen.has(key))return;seen.add(key);
   items.push({id:crypto.createHash('sha256').update(key).digest('hex'),title,author:author.slice(0,160),kind,type:type.slice(0,80),date:date.slice(0,100),url:source});
  }
  // AFI/Orphée portals publish explicit novelty cards, including duplicate carousels.
  const cards=$('.card_template[data-novelties]').toArray().filter(c=>/^(oui|yes|true|1)$/i.test($(c).attr('data-novelties')||''));
  cards.sort((a,b)=>Number($(b).attr('data-typedoc')==='1')-Number($(a).attr('data-typedoc')==='1'));
- for(const card of cards){const c=$(card),type=clean(c.find('.record_doctype'));if(!/livre|texte|bande dessin|roman/i.test(type))continue;const a=c.find('.card_title a').first();add(clean(a),a.attr('href'),'book',clean(c.find('.card_subtitle')),type);if(items.filter(i=>i.kind==='book').length>=30)break;}
+ for(const card of cards){const c=$(card),type=clean(c.find('.record_doctype'));if(!/livre|texte|bande dessin|roman/i.test(type))continue;const a=c.find('.card_title a').first();add(clean(a),a.attr('href'),'book',clean(c.find('.card_subtitle')),type);if(items.filter(i=>i.kind==='book').length>=20)break;}
  $('.card_template[class*="Wrapper_Article"]').each((_,card)=>{const c=$(card),widget=c.closest('.widget'),heading=clean(widget.children('.widget-header'));if(heading && !/actualit|agenda|animation/i.test(heading))return;const a=c.find('.card_title a').first();add(clean(a),a.attr('href'),'news','', '',clean(c.find('.article_event_description')));});
+ // Other portals: use explicit novelty/news section headings rather than guessing
+ // that every navigation link is a new book.
+ $('h1,h2,h3,[role="heading"]').each((_,heading)=>{
+  const label=clean(heading);if(label.length>100 || !/nouveaut|nouveaux livres|dernières acquisitions|actualit|latest books|new books/i.test(label))return;
+  const kind=/nouveaut|nouveaux livres|acquisitions|latest books|new books/i.test(label)?'book':'news';
+  let group=$(heading).parent();for(let depth=0;depth<3 && !group.find('article,.book,.book-card,.news-card,.item,.card,li,h3 a,h4 a').length;depth++)group=group.parent();
+  const nodes=group.find('article,.book,.book-card,.news-card,.item,.card,li').toArray();
+  if(!nodes.length)nodes.push(...group.find('h3,h4').toArray());
+  for(const entry of nodes.slice(0,60)){
+   const c=$(entry);const a=c.find('h2 a,h3 a,h4 a,.title a,.entry-title a,a.title,a[itemprop="url"]').first();const link=a.length?a:c.is('a')?c:c.find('a[href]').first();
+   const title=clean(c.find('h2,h3,h4,.title,.entry-title,[itemprop="name"]').first())||clean(link);
+   if(title===label || /^(voir tout|en savoir|lire la suite|réserver|connexion)$/i.test(title))continue;
+   add(title,link.attr('href'),kind,clean(c.find('.author,.auteur,.book-author,[itemprop="author"]').first()),kind==='book'?'Livre':'',c.find('time').first().attr('datetime')||clean(c.find('time').first()));
+  }
+ });
  if(!items.some(i=>i.kind==='news'))$('main article, .actualites article, .news-item, .news-card').each((_,card)=>{const c=$(card),a=c.find('h2 a,h3 a,.entry-title a').first();add(clean(a),a.attr('href'),'news','','',c.find('time').first().attr('datetime')||clean(c.find('time').first()));});
+ if(!items.length)$('main h2 a,main h3 a,main .entry-title a').slice(0,20).each((_,a)=>add(clean(a),$(a).attr('href'),'news'));
  const feeds=[];$('link[rel="alternate"]').each((_,node)=>{const n=$(node);if(/rss|atom/.test(n.attr('type')||'')){const link=safeLink(n.attr('href'),url);if(link && new URL(link).origin===new URL(url).origin)feeds.push(link);}});
- return {name:clean($('title').first()).slice(0,180)||new URL(url).hostname,items:items.filter(i=>i.kind==='book').slice(0,30).concat(items.filter(i=>i.kind==='news').slice(0,12)),feeds:[...new Set(feeds)].slice(0,2)};
+ return {name:clean($('title').first()).slice(0,180)||new URL(url).hostname,items:items.filter(i=>i.kind==='book').slice(0,20).concat(items.filter(i=>i.kind==='news').slice(0,12)),feeds:[...new Set(feeds)].slice(0,2)};
 }
 function parseFeed(body,url){
  const $=cheerio.load(body,{xmlMode:true});const items=[];const text=node=>cheerio.load('<div>'+$(node).text()+'</div>')('div').text().replace(/\s+/g,' ').trim();
  $('item,entry').slice(0,12).each((_,node)=>{const n=$(node),title=text(n.find('title').first()).slice(0,250),a=n.find('link').first(),link=safeLink(a.attr('href')||a.text(),url);if(title && link)items.push({id:crypto.createHash('sha256').update(link).digest('hex'),title,author:'',kind:'news',type:'',date:n.find('pubDate,published,updated').first().text().slice(0,100),url:link});});return items;
 }
-async function getNews(input){
- const url=checkedUrl(input).href;const cached=cache.get(url);if(cached && Date.now()-cached.at<300000)return cached.value;
+async function getNews(input,{refresh=false}={}){
+ const url=checkedUrl(input).href;const cached=cache.get(url);if(!refresh && cached && Date.now()-cached.at<300000)return cached.value;
  if(inFlight>=4)throw new Error('Plusieurs bibliothèques sont en cours de consultation. Réessayez dans un instant.');inFlight++;
  try{const page=await download(url),parsed=parsePage(page.body,page.url);if(/<(rss|feed)[\s>]/i.test(page.body))parsed.items=parseFeed(page.body,page.url);
   if(!parsed.items.length)for(const feed of parsed.feeds){try{const f=await download(feed);parsed.items.push(...parseFeed(f.body,f.url));}catch{/* Keep the home page and its source link available. */}}

@@ -10,7 +10,7 @@ app.get('/api/google-calendar/config',(req,res)=>{
 });
 const {getNews}=require('./library-news');
 app.get('/api/library-news',async(req,res)=>{
-  try{const input=String(req.query.url||'');res.set('Cache-Control','no-store').json(await getNews(input));}
+  try{const input=String(req.query.url||'');res.set('Cache-Control','no-store').json(await getNews(input,{refresh:req.query.refresh==='1'}));}
   catch(e){res.status(400).json({error:e.message || 'Les actualités sont momentanément indisponibles.'});}
 });
 const PORT = process.env.PORT || 3000;

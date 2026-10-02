@@ -1366,102 +1366,10 @@ body.kids .library-results-head{background:#fff9dc}
   </div>
 </div>
 
+<script src="/api/reading-catalog.js"></script>
 <script>
 
-const WORKS=[
-{
- audience:"adult",title:"Le Horla",author:"Guy de Maupassant",year:"1887",chapter:"Entrée du 8 mai",page:"Pagination variable selon l’édition",edition:"Extrait du texte de 1887",tags:["gothique","fantastique","frisson","étrange","nature"],
- source:"https://fr.wikisource.org/wiki/Le_Horla_(nouvelle)",
- text:`8 mai. — Quelle journée admirable ! J’ai passé toute la matinée étendu sur l’herbe, devant ma maison, sous l’énorme platane qui la couvre, l’abrite et l’ombrage tout entière.
-
-J’aime ce pays, et j’aime y vivre parce que j’y ai mes racines, ces profondes et délicates racines, qui attachent un homme à la terre où sont nés et morts ses aïeux, qui l’attachent à ce qu’on pense et à ce qu’on mange, aux usages comme aux nourritures, aux locutions locales, aux intonations des paysans, aux odeurs du sol, des villages et de l’air lui-même.`
-},
-{
- audience:"adult",title:"Amour",author:"Guy de Maupassant",year:"1886",chapter:"Nouvelle « Amour »",page:"Pagination variable selon l’édition",edition:"Recueil Le Horla, édition Ollendorff",tags:["amour","passion","bouleversante","nature","contemplatif"],
- source:"https://fr.wikisource.org/wiki/Le_Horla_(recueil,_Ollendorff_1895)/Amour",
- text:`… Je viens de lire dans un fait divers de journal un drame de passion. Il l’a tuée, puis il s’est tué, donc il l’aimait. Qu’importent Il et Elle ? Leur amour seul importe ; et il ne m’intéresse point parce qu’il m’attendrit ou parce qu’il m’étonne, ou parce qu’il m’émeut ou parce qu’il me fait songer, mais parce qu’il me rappelle un souvenir de ma jeunesse, un étrange souvenir de chasse où m’est apparu l’Amour comme apparaissaient aux premiers chrétiens des croix au milieu du ciel.
-
-Je suis né avec tous les instincts et les sens de l’homme primitif, tempérés par des raisonnements et des émotions de civilisé.`
-},
-{
- audience:"adult",title:"Le Diable",author:"Guy de Maupassant",year:"1886",chapter:"Nouvelle « Le Diable »",page:"Pagination variable selon l’édition",edition:"Texte de Guy de Maupassant",tags:["sombre","personnages","société","court","réfléchir"],
- source:"https://fr.wikisource.org/wiki/Le_Diable_(Maupassant)",
- text:`Le paysan restait debout en face du médecin, devant le lit de la mourante. La vieille, calme, résignée, lucide, regardait les deux hommes et les écoutait causer. Elle allait mourir ; elle ne se révoltait pas, son temps était fini, elle avait quatre-vingt-douze ans.
-
-Par la fenêtre et la porte ouvertes, le soleil de juillet entrait à flots, jetait sa flamme chaude sur le sol de terre brune, onduleux et battu par les sabots de quatre générations de rustres. Les odeurs des champs venaient aussi, poussées par la brise cuisante, odeurs des herbes, des blés, des feuilles, brûlés sous la chaleur de midi.`
-},
-{
- audience:"adult",title:"Vingt mille lieues sous les mers",author:"Jules Verne",year:"1870",chapter:"Première partie · Chapitre II",page:"Pagination variable selon l’édition",edition:"Vingt mille lieues sous les mers",tags:["aventure","voyage","exploration","vite","science"],
- source:"https://fr.wikisource.org/wiki/Vingt_mille_lieues_sous_les_mers/Partie_1/Chapitre_2",
- text:`À l’époque où ces événements se produisirent, je revenais d’une exploration scientifique entreprise dans les mauvaises terres du Nébraska, aux États-Unis.
-
-En ma qualité de professeur-suppléant au Muséum d’histoire naturelle de Paris, le gouvernement français m’avait joint à cette expédition.
-
-Après six mois passés dans le Nébraska, chargé de précieuses collections, j’arrivai à New York vers la fin de mars. Mon départ pour la France était fixé aux premiers jours de mai. Je m’occupais donc, en attendant, de classer mes richesses minéralogiques, botaniques et zoologiques, quand arriva l’incident du Scotia.`
-},
-{
- audience:"child",title:"Le Petit Chaperon rouge",author:"Charles Perrault",year:"1697",chapter:"Conte « Le Petit Chaperon rouge »",page:"Pagination variable selon l’édition",edition:"Histoires ou contes du temps passé",tags:["conte","frisson","animaux","aventure","forêt"],
- source:"https://fr.wikisource.org/wiki/Œuvres_choisies_de_Charles_Perrault,_édition_1826/Contes_de_ma_mère_l’Oye/Le_Petit_Chaperon_Rouge",
- text:`Il était une fois une petite fille de village, la plus éveillée qu’on eût su voir : sa mère en était folle, et sa mère-grand plus folle encore.
-
-Cette bonne femme lui fit faire un petit chaperon rouge, qui lui seyait si bien, que partout on l’appelait le petit Chaperon rouge.
-
-Un jour, sa mère, ayant fait des galettes, lui dit : « Va voir comment se porte ta mère-grand ; car on m’a dit qu’elle était malade : porte-lui une galette et ce petit pot de beurre. »
-
-Le petit Chaperon rouge partit aussitôt pour aller chez sa mère-grand, qui demeurait dans un autre village. En passant dans un bois, elle rencontra compère le Loup, qui eut bien envie de la manger.`
-},
-{
- audience:"child",title:"L’Ourse",author:"Charles Deulin",year:"1874",chapter:"Conte « L’Ourse »",page:"Pagination variable selon l’édition",edition:"Charles Deulin",tags:["conte","merveilleux","magie","royaume","aventure"],
- source:"https://fr.wikisource.org/wiki/L’Ourse",
- text:`Il était une fois le roi de l’Apre-Roche qui avait pour femme l’idéal de la beauté.
-
-Or, au milieu de la carrière de l’âge, la reine tomba de la cavale de la santé et se cassa les reins. Au moment où l’éteignoir des ans allait être posé sur la chandelle de l’existence, elle fit appeler son mari.
-
-— Je sais que tu m’as toujours aimée de tout ton cœur ; c’est pourquoi, à l’approche de ma fin, je désire que tu me montres le dessus du panier de ton amour.`
-}
-];
-
-
-WORKS.push(
-{audience:"child",title:"Cendrillon",author:"Charles Perrault",year:"1697",tags:["conte","royaume","magie","aventure"],
-source:"https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Cendrillon_ou_la_petite_Pantoufle_de_verre",
-text:`Il était une fois un gentilhomme qui épousa, en secondes noces, une femme, la plus hautaine et la plus fière qu’on eût jamais vue. Elle avait deux filles de son humeur, et qui lui ressemblaient en toutes choses.
-
-Le mari avait, de son côté, une jeune fille, mais d’une douceur et d’une bonté sans exemple : elle tenait cela de sa mère, qui était la meilleure personne du monde.
-
-Les noces ne furent pas plus tôt faites que la belle-mère fit éclater sa mauvaise humeur : elle ne put souffrir les bonnes qualités de cette jeune enfant. Elle la chargea des plus viles occupations de la maison.`},
-{audience:"child",title:"Le Petit Poucet",author:"Charles Perrault",year:"1697",tags:["conte","aventure","forêt","frisson","héros"],
-source:"https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Le_Petit_Poucet",
-text:`Il était une fois un bûcheron et une bûcheronne qui avaient sept enfants, tous garçons.
-
-Ils étaient fort pauvres, et leurs sept enfants les incommodaient beaucoup, parce qu’aucun d’eux ne pouvait encore gagner sa vie. Ce qui les chagrinait encore, c’est que le plus jeune était fort délicat et ne disait mot : prenant pour bêtise ce qui était une marque de la bonté de son esprit.
-
-Il était fort petit, et, quand il vint au monde, il n’était guère plus gros que le pouce, ce qui fit qu’on l’appela le Petit Poucet.`},
-{audience:"child",title:"La Belle au bois dormant",author:"Charles Perrault",year:"1697",tags:["conte","magie","fées","royaume","merveilleux"],
-source:"https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/La_Belle_au_Bois_dormant",
-text:`Il était une fois un roi et une reine qui étaient si fâchés de n’avoir point d’enfants, si fâchés qu’on ne saurait dire. Enfin, pourtant il leur naquit une fille.
-
-On fit un beau baptême ; on donna pour marraine à la petite princesse toutes les fées qu’on put trouver dans le pays, afin que, chacune d’elles lui faisant un don, comme c’était la coutume des fées en ce temps-là, la princesse eût, par ce moyen, toutes les perfections imaginables.`},
-{audience:"child",title:"Les Fées",author:"Charles Perrault",year:"1697",tags:["conte","magie","fées","merveilleux"],
-source:"https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Les_Fées",
-text:`Il était une fois une veuve qui avait deux filles : l’aînée lui ressemblait si fort d’humeur et de visage, que, qui la voyait, voyait la mère.
-
-Elles étaient toutes deux si désagréables et si orgueilleuses, qu’on ne pouvait vivre avec elles. La cadette était le vrai portrait de son père pour la douceur et l’honnêteté.
-
-Comme on aime naturellement son semblable, cette mère était folle de sa fille aînée et, en même temps, avait une aversion effroyable pour la cadette.`},
-{audience:"adult",title:"La Cafetière",author:"Théophile Gautier",year:"1831",tags:["fantastique","étrange","gothique","frisson"],
-source:"https://fr.wikisource.org/wiki/Contes_humoristiques/La_Cafetière",
-text:`L’année dernière, je fus invité, ainsi que deux de mes camarades d’atelier, Arrigo Cohic et Pedrino Borgnioli, à passer quelques jours dans une terre au fond de la Normandie.
-
-Le temps, qui, à notre départ, promettait d’être superbe, s’avisa de changer tout à coup, et il tomba tant de pluie, que les chemins creux où nous marchions étaient comme le lit d’un torrent.
-
-Nous enfoncions dans la bourbe jusqu’aux genoux, une couche épaisse de terre grasse s’était attachée aux semelles de nos bottes.`},
-{audience:"adult",title:"Carmen",author:"Prosper Mérimée",year:"1845",tags:["passion","voyage","aventure","étrange"],
-source:"https://fr.wikisource.org/wiki/Carmen_(Mérimée)/Carmen",
-text:`J’avais toujours soupçonné les géographes de ne savoir ce qu’ils disent lorsqu’ils placent le champ de bataille de Munda dans le pays des Bastuli-Pœni, près de la moderne Monda, à quelque deux lieues au nord de Marbella.
-
-D’après mes propres conjectures sur le texte de l’anonyme, auteur du Bellum Hispaniense, et quelques renseignements recueillis dans l’excellente bibliothèque du duc d’Ossuna, je pensais qu’il fallait chercher aux environs de Montilla le lieu mémorable où, pour la dernière fois, César joua quitte ou double contre les champions de la république.`}
-);
+const WORKS=window.ECLAT_READING_CATALOG?.works || [];
 
 const DESIRE_TAGS={
  "Une ambiance gothique":["gothique","frisson","étrange"],"Des personnages inoubliables":["personnages","société"],
@@ -1511,8 +1419,8 @@ function buildPassageIndex(){
    // Preserve author paragraphing. We only group contiguous source paragraphs.
    const paras=work.text.split(/\n\n+/).map(x=>x.trim()).filter(Boolean);
    if(!paras.length)return;
-   const windows=[];
-   for(let i=0;i<paras.length;i++){
+   const windows=work.passages ? work.passages.map(p=>({id:p.id,start:p.startParagraph,end:p.endParagraph,text:p.text})) : [];
+   for(let i=0;!work.passages && i<paras.length;i++){
      let txt="",j=i;
      while(j<paras.length && (txt.length+paras[j].length+2)<=5000){
        txt+=(txt?"\n\n":"")+paras[j]; j++;
@@ -1536,7 +1444,7 @@ function buildPassageIndex(){
        if(tags.some(t=>themes.includes(t)))themes.push(macro);
      });
      out.push({
-       id:passageId(work,i),workTitle:work.title,author:work.author,audience:work.audience,
+       id:w.id || passageId(work,i),workId:work.id,edition:work.edition,rights:work.rights,genre:work.genre,workTitle:work.title,author:work.author,audience:work.audience,
        themes:[...new Set(themes)],text:w.text,source:work.source,
        startParagraph:w.start,endParagraph:w.end,length:w.text.length
      });

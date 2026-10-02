@@ -8,27 +8,31 @@
   }, true);
   const fallback = buildGuaranteedBatch;
   buildGuaranteedBatch = function () {
+    let desires;
     if (!daily || manualRefresh) {
       manualRefresh = false;
-      return fallback();
+      const freshBatch = fallback();
+      if (freshBatch) return freshBatch;
+      desires = pick6();
     }
     const audience = mode === 'child' ? 'child' : 'adult';
+    desires = desires || daily[audience];
     const history = passageHistory();
-    const pool = PASSAGES.filter(p => p.audience === audience && p.text && p.text.length >= 80 && !history[p.id]);
-    if (pool.length < 6) return null;
+    const pool = PASSAGES.filter(p => p.audience === audience && p.text && p.text.length >= 80);
+    if (!pool.length) return null;
     const used = new Set(), texts = new Set(), authors = new Set(), works = new Set();
     const assignments = new Map();
-    for (const item of daily[audience]) {
+    for (const item of desires) {
       const wanted = wantedThemes(item[1]);
-      const ranked = pool.filter(p => !used.has(p.id) && !texts.has(p.text.replace(/\s+/g,' ').trim())).map(p => ({p,score:p.themes.filter(t=>wanted.has(t)).length*20 + (authors.has(p.author)?0:8) + (works.has(p.workTitle)?0:12)})).sort((a,b)=>b.score-a.score);
-      if (!ranked.length) return null;
+      const ranked = pool.filter(p => !used.has(p.id) && !texts.has(p.text.replace(/\s+/g,' ').trim())).map(p => ({p,score:p.themes.filter(t=>wanted.has(t)).length*20 + (authors.has(p.author)?0:8) + (works.has(p.workTitle)?0:12)})).sort((a,b)=>Number(!!history[a.p.id])-Number(!!history[b.p.id]) || b.score-a.score || (history[a.p.id]||0)-(history[b.p.id]||0));
+      if (!ranked.length) break;
       const p = ranked[0].p;
       used.add(p.id); texts.add(p.text.replace(/\s+/g,' ').trim()); authors.add(p.author); works.add(p.workTitle);
       assignments.set(item[1],p);
     }
     passageAssignments.clear();
     for (const [label,p] of assignments) passageAssignments.set(label,p);
-    return daily[audience];
+    return desires.filter(item=>assignments.has(item[1]));
   };
   async function refresh() {
     clearTimeout(timer);

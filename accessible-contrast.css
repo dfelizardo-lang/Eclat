@@ -57,3 +57,9 @@ button:disabled,[aria-disabled=true]{opacity:1!important;background:#e6dfd1!impo
 .status.error{color:#a33423!important}
 :where(a,button,input,textarea,select,[tabindex]):focus-visible{outline:3px solid #171713!important;outline-offset:3px!important;box-shadow:0 0 0 3px #fffdf8!important}
 #eclat-version-v1{opacity:1!important;background:#fffdf8!important;color:#61594f!important;padding:3px 6px;border-radius:5px}
+/* Reserve the audience badge's width so its stars never overlap the label. */
+.audience-switch .aud{display:inline-flex!important;align-items:center;justify-content:center;gap:10px!important}
+.audience-switch .audience-icon{display:inline-grid;place-items:center;flex:0 0 30px;width:30px!important;height:30px!important;position:relative;line-height:1}
+.audience-switch .audience-spark{transform:none!important;border-radius:10px}
+.audience-switch .audience-spark .spark-mini{position:absolute!important;right:0!important;top:0!important;width:12px!important;height:12px!important;display:grid;place-items:center;border-radius:50%;font-size:8px;line-height:1}
+.audience-switch .aud b{line-height:1.25;white-space:nowrap}

@@ -10,7 +10,7 @@ test('client uses server themes while excluding read and duplicate passages',()=
   const context = {
     mode:'adult', PASSAGES:Array.from({length:10},(_,i)=>({id:String(i),audience:'adult',text:(i===8?'duplicate':String(i)).repeat(100),author:String(i),workTitle:String(i),themes:['nature']})),
     passageHistory:()=>({'0':1}), wantedThemes:()=>new Set(['nature']), passageAssignments:new Map(),
-    buildGuaranteedBatch:()=>null,render:()=>rendered++,document:{addEventListener:()=>{}},
+    buildGuaranteedBatch:()=>null,pick6:()=>selected.adult,render:()=>rendered++,document:{addEventListener:()=>{}},
     fetch:()=>new Promise(()=>{}),AbortSignal,setTimeout:()=>1,clearTimeout:()=>{},console,
   };
   // Load the real client with a resolved service response, then exercise its batch builder.
@@ -20,7 +20,16 @@ test('client uses server themes while excluding read and duplicate passages',()=
   assert.equal(context.passageAssignments.size,6);
   assert.ok([...context.passageAssignments.values()].every(p=>p.id!=='0'));
   assert.equal(new Set([...context.passageAssignments.values()].map(p=>p.text)).size,6);
+  context.passageHistory=()=>Object.fromEntries(context.PASSAGES.map(p=>[p.id,1]));
+  assert.equal(context.buildGuaranteedBatch().length,6);
+  assert.equal(new Set([...context.passageAssignments.values()].map(p=>p.text)).size,6);
   context.PASSAGES.length=3;
+  assert.equal(context.buildGuaranteedBatch().length,3);
+  assert.equal(context.passageAssignments.size,3);
+  context.passageHistory=()=>Object.fromEntries(context.PASSAGES.map(p=>[p.id,1]));
+  assert.equal(context.buildGuaranteedBatch().length,3);
+  assert.equal(context.passageAssignments.size,3);
+  context.PASSAGES.length=0;
   assert.equal(context.buildGuaranteedBatch(),null);
 });
 test('stable for 24 hours and across restarts; changes at the boundary',()=>{

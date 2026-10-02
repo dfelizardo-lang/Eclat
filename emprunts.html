@@ -11,8 +11,9 @@
 <script src="/library-loans-form.js" defer></script>
 </head>
 <body>
-<header><a class="logo" href="/" aria-label="Éclat, accueil">ÉCLAT<span>.</span></a><a class="back" href="/">← Retour à Éclat</a></header>
+<header><a class="logo" href="/" aria-label="Éclat, accueil">ÉCLAT<span>.</span></a></header>
 <main>
+<div style="display:flex;justify-content:flex-end;margin:0 0 32px"><a class="back photo-button" href="/" style="text-decoration:none">← Retour à l’Accueil</a></div>
 <div class="intro"><p class="kicker">VOTRE CARNET DE BIBLIOTHÈQUE</p><h1>Emprunt en<br><em>bibliothèque</em></h1><p>Préparez votre prochaine visite et gardez vos emprunts à portée de main.</p></div>
 <section id="loansOverview"><div class="overview-heading"><h2>Mes emprunts</h2><button id="newLoan" class="save-button" type="button" disabled>Nouveaux Emprunts</button></div><p id="overviewStatus" class="status" role="status">Chargement des emprunts…</p><div id="loansList"></div></section>
 <form id="loansForm" hidden><div class="overview-heading"><h2 id="formHeading" tabindex="-1">Nouvel emprunt</h2><button id="cancelLoan" class="gallery-button" type="button">Retour aux emprunts</button></div>

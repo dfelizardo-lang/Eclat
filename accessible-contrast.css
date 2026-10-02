@@ -63,3 +63,6 @@ button:disabled,[aria-disabled=true]{opacity:1!important;background:#e6dfd1!impo
 .audience-switch .audience-spark{transform:none!important;border-radius:10px}
 .audience-switch .audience-spark .spark-mini{position:absolute!important;right:0!important;top:0!important;width:12px!important;height:12px!important;display:grid;place-items:center;border-radius:50%;font-size:8px;line-height:1}
 .audience-switch .aud b{line-height:1.25;white-space:nowrap}
+/* Plain stars: no coloured badge or glow behind the audience icon. */
+.audience-switch .audience-spark,.audience-switch .audience-spark .spark-mini,
+body.kids .audience-switch .audience-spark,body.kids .audience-switch .audience-spark .spark-mini{background:transparent!important;box-shadow:none!important;color:inherit!important;border:0!important}

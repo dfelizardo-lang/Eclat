@@ -5,6 +5,25 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3000;
 const V73 = path.join(__dirname, "eclat_v73_deployable.html");
+const { DAY, loadCatalog, createRotation } = require('./daily-themes');
+const rotation = createRotation(loadCatalog(fs.readFileSync(V73, 'utf8')));
+let dailyThemes = rotation();
+function refreshThemes() {
+  const next = rotation();
+  if (next.period !== dailyThemes.period) {
+    dailyThemes = next;
+    console.log(`Éclat : propositions thématiques renouvelées (${next.period})`);
+  }
+  return dailyThemes;
+}
+function scheduleThemes() {
+  refreshThemes();
+  setTimeout(scheduleThemes, DAY - (Date.now() % DAY) + 10).unref();
+}
+scheduleThemes();
+app.get('/api/propositions-thematiques', (req, res) => {
+  res.set('Cache-Control', 'no-store').json(refreshThemes());
+});
 const LIBRARIES_CSV = "https://www.data.gouv.fr/api/1/datasets/r/806a8aa1-952f-404d-9857-3f27b7c0ca86";
 let libraryCache = { at: 0, rows: [] };
 
@@ -47,5 +66,5 @@ app.get("/api/bibliotheques", async (req,res)=>{
   }catch(e){ console.error(e); res.status(502).json({error:"La recherche des bibliothèques est momentanément indisponible."}); }
 });
 const V1_PATCH = `<style>#eclat-version-v1{position:fixed;right:12px;bottom:8px;z-index:9999;font:600 11px/1 system-ui,sans-serif;letter-spacing:.04em;opacity:.38;pointer-events:none}</style><div id="eclat-version-v1" aria-label="Version 1.0">v1.0</div><script>(function(){function patch(){const i=document.getElementById('libraryPostal');if(i){i.value='';i.placeholder='Votre code postal';i.setAttribute('autocomplete','postal-code');i.setAttribute('inputmode','numeric');}}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',patch);else patch();})();<\/script>`;
-function sendApp(req,res){fs.readFile(V73,"utf8",(err,html)=>{if(err)return res.status(500).send("Éclat indisponible");const at=html.toLowerCase().lastIndexOf("</body>");res.type("html").send(at>=0?html.slice(0,at)+V1_PATCH+html.slice(at):html+V1_PATCH);});}
+function sendApp(req,res){fs.readFile(V73,"utf8",(err,html)=>{if(err)return res.status(500).send("Éclat indisponible");const patch=V1_PATCH+'<script src="/daily-themes-client.js"></script>';const at=html.toLowerCase().lastIndexOf("</body>");res.type("html").send(at>=0?html.slice(0,at)+patch+html.slice(at):html+patch);});}
 app.get(["/","/index.html"],sendApp); app.use(express.static(__dirname,{index:false})); app.use((req,res,next)=>{if(req.method==="GET"&&req.accepts("html"))return sendApp(req,res);next();}); app.listen(PORT,()=>console.log(`Éclat v1.0 disponible sur http://localhost:${PORT}`));

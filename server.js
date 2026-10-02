@@ -1,65 +1,68 @@
 const express = require("express");
+const fs = require("fs");
 const path = require("path");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const DATASET = "adresses-des-bibliotheques-publiques";
-const CULTURE_API = "https://data.culture.gouv.fr/api/records/1.0/search/";
 const V73 = path.join(__dirname, "eclat_v73_deployable.html");
+const LIBRARIES_CSV = "https://www.data.gouv.fr/api/1/datasets/r/806a8aa1-952f-404d-9857-3f27b7c0ca86";
+let libraryCache = { at: 0, rows: [] };
 
-function first(fields, keys, regexes=[]) {
-  for (const k of keys) if (fields[k]) return String(fields[k]);
-  const found = Object.keys(fields).find(k => regexes.some(rx => rx.test(k)));
-  return found ? String(fields[found] || "") : "";
-}
-
-function normalize(record, requestedCp) {
-  const f = record.fields || {};
-  const postalCode = first(f, ["cp","code_postal","codepostal"], [/postal/i, /^cp$/i])
-    .replace(/\D/g,"").slice(0,5) || requestedCp;
-  return {
-    name: first(f,["nom_de_l_etablissement","nom","nom_bibliotheque","libelle"],[/nom.*etab/i,/nom.*bibli/i,/^nom$/i,/libell/i]) || "Bibliothèque",
-    address: first(f,["adresse","adresse1","adresse_1","voie"],[/adresse/i,/voie/i]),
-    postalCode,
-    city: first(f,["commune","ville"],[/commune/i,/ville/i]),
-    website: first(f,["site_internet","site_web","url","website"],[/site.*internet/i,/site.*web/i,/url/i,/website/i])
-  };
-}
-
-app.get("/api/bibliotheques", async (req,res) => {
-  const cp = String(req.query.cp || "").replace(/\D/g,"").slice(0,5);
-  if (!/^\d{5}$/.test(cp)) return res.status(400).json({error:"Code postal invalide."});
-
-  const url = new URL(CULTURE_API);
-  url.searchParams.set("dataset", DATASET);
-  url.searchParams.set("rows", "100");
-  url.searchParams.set("refine.cp", cp);
-
-  try {
-    const response = await fetch(url, {headers:{"Accept":"application/json","User-Agent":"Eclat/1.0"}, signal:AbortSignal.timeout(12000)});
-    if (!response.ok) throw new Error(`Culture API ${response.status}`);
-    const payload = await response.json();
-    const records = Array.isArray(payload.records) ? payload.records : [];
-    const seen = new Set();
-    const results = records.map(r=>normalize(r,cp)).filter(x=>{
-      const key=`${x.name}|${x.address}|${x.city}`.toLowerCase();
-      if(seen.has(key)) return false;
-      seen.add(key); return true;
-    });
-    res.set("Cache-Control","public, max-age=300");
-    res.json({postalCode:cp,count:results.length,results,source:"Ministère de la Culture — bibliothèques des collectivités territoriales"});
-  } catch(e) {
-    console.error(e);
-    res.status(502).json({error:"Le service officiel des bibliothèques ne répond pas actuellement. Réessayez dans un instant."});
+function norm(s="") { return String(s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,""); }
+function parseCSV(text) {
+  const firstLine = text.slice(0, text.indexOf("\n"));
+  const sep = (firstLine.match(/;/g)||[]).length >= (firstLine.match(/,/g)||[]).length ? ";" : ",";
+  const rows=[]; let row=[], field="", quoted=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(c==='"') { if(quoted && text[i+1]==='"'){field+='"';i++;} else quoted=!quoted; }
+    else if(c===sep && !quoted){row.push(field);field="";}
+    else if((c==='\n'||c==='\r') && !quoted){ if(c==='\r'&&text[i+1]==='\n') i++; row.push(field); field=""; if(row.some(v=>v!=="")) rows.push(row); row=[]; }
+    else field+=c;
   }
+  if(field||row.length){row.push(field);rows.push(row);}
+  return rows;
+}
+function pick(obj, patterns){ const key=Object.keys(obj).find(k=>patterns.some(p=>p.test(norm(k)))); return key ? String(obj[key]||"").trim() : ""; }
+async function getLibraries(){
+  if(libraryCache.rows.length && Date.now()-libraryCache.at < 3600000) return libraryCache.rows;
+  const r=await fetch(LIBRARIES_CSV,{headers:{"User-Agent":"Eclat/1.0"},signal:AbortSignal.timeout(20000)});
+  if(!r.ok) throw new Error(`data.gouv.fr ${r.status}`);
+  const matrix=parseCSV(await r.text());
+  const headers=matrix.shift()||[];
+  const rows=matrix.map(values=>Object.fromEntries(headers.map((h,i)=>[h,values[i]||""])));
+  libraryCache={at:Date.now(),rows}; return rows;
+}
+
+app.get("/api/bibliotheques", async (req,res)=>{
+  const cp=String(req.query.cp||"").replace(/\D/g,"").slice(0,5);
+  if(!/^\d{5}$/.test(cp)) return res.status(400).json({error:"Entrez un code postal à 5 chiffres."});
+  try{
+    const rows=await getLibraries();
+    const seen=new Set();
+    const results=[];
+    for(const r of rows){
+      const postal=pick(r,[/^cp$/,/codepostal/,/postal/]).replace(/\D/g,"").slice(0,5);
+      if(postal!==cp) continue;
+      const item={
+        name:pick(r,[/nom.*etablissement/,/nombibliotheque/,/^nom$/,/libelle/])||"Bibliothèque",
+        address:pick(r,[/^adresse$/,/adresse1/,/adresse/]),
+        postalCode:postal,
+        city:pick(r,[/^commune$/,/ville/]),
+        website:pick(r,[/siteinternet/,/siteweb/,/^url$/,/website/])
+      };
+      const key=norm(`${item.name}|${item.address}|${item.city}`); if(seen.has(key)) continue; seen.add(key); results.push(item);
+    }
+    res.set("Cache-Control","public, max-age=300");
+    res.json({postalCode:cp,count:results.length,results,source:"Ministère de la Culture / data.gouv.fr"});
+  }catch(e){ console.error(e); res.status(502).json({error:"La recherche des bibliothèques est momentanément indisponible."}); }
 });
 
-// V73 monolithique : le fichier validé devient directement la page d'accueil.
-app.get(["/", "/index.html"], (req,res) => res.sendFile(V73));
-app.use(express.static(__dirname, {index:false}));
-app.use((req,res,next) => {
-  if (req.method === "GET" && req.accepts("html")) return res.sendFile(V73);
-  next();
-});
-
-app.listen(PORT, () => console.log(`Éclat V73 disponible sur http://localhost:${PORT}`));
+const V1_PATCH = `<style>#eclat-version-v1{position:fixed;right:12px;bottom:8px;z-index:9999;font:600 11px/1 system-ui,sans-serif;letter-spacing:.04em;opacity:.38;pointer-events:none}</style><div id="eclat-version-v1" aria-label="Version 1.0">v1.0</div><script>(function(){function patch(){const i=document.getElementById('libraryPostal');if(i){i.value='';i.placeholder='Entrez votre code postal';i.setAttribute('autocomplete','postal-code');i.setAttribute('inputmode','numeric');}}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',patch);else patch();})();<\/script>`;
+function sendApp(req,res){
+  fs.readFile(V73,"utf8",(err,html)=>{ if(err)return res.status(500).send("Éclat indisponible"); const at=html.toLowerCase().lastIndexOf("</body>"); res.type("html").send(at>=0?html.slice(0,at)+V1_PATCH+html.slice(at):html+V1_PATCH); });
+}
+app.get(["/","/index.html"],sendApp);
+app.use(express.static(__dirname,{index:false}));
+app.use((req,res,next)=>{ if(req.method==="GET"&&req.accepts("html"))return sendApp(req,res); next(); });
+app.listen(PORT,()=>console.log(`Éclat v1.0 disponible sur http://localhost:${PORT}`));

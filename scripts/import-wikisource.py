@@ -1,6 +1,7 @@
 """Generate candidates, never modify the active catalogue. Run from a scratch directory with sources/; verify author, edition and rights before merging."""
-import concurrent.futures, hashlib, json, re, subprocess, urllib.parse
+import argparse, concurrent.futures, hashlib, json, re, subprocess, urllib.parse
 from html.parser import HTMLParser
+from lxml import html as html_tree
 from pathlib import Path
 
 class Paragraphs(HTMLParser):
@@ -20,6 +21,14 @@ class Paragraphs(HTMLParser):
     def handle_data(self,s):
         if self.buf is not None and not self.skip: self.buf.append(s)
 
+def clean_source(source):
+    tree=html_tree.fromstring(source)
+    # Illustrations may interrupt a paragraph and repeat the narrative as a caption.
+    # Remove presentation blocks, preserving the author's surrounding text.
+    for node in tree.xpath('//figure | //span[contains(@style,"page-break-inside:avoid") and .//img] | //sup[contains(@class,"reference")]'):
+        if node.getparent() is not None: node.drop_tree()
+    return html_tree.tostring(tree,encoding='unicode')
+
 def fetch(page):
     url='https://fr.wikisource.org/wiki/'+urllib.parse.quote(page.replace(' ','_'),safe='/(),_')
     p=subprocess.run(['curl','-fLsS','--max-time','50',url],capture_output=True)
@@ -31,7 +40,7 @@ def extract(spec):
     url='https://fr.wikisource.org/wiki/'+urllib.parse.quote(page.replace(' ','_'),safe='/(),_')
     cached=Path('sources/'+slug+'.html')
     html=cached.read_text() if cached.exists() else fetch(page)[1]
-    parser=Paragraphs(); parser.feed(re.sub(r'<sup[^>]*class="reference".*?</sup>', '', html, flags=re.S))
+    parser=Paragraphs(); parser.feed(clean_source(html))
     start=next(i for i,p in enumerate(parser.paras) if incipit in p)
     paras=parser.paras[start:]
     for i,p in enumerate(paras):
@@ -63,10 +72,14 @@ SPECS=[
 ('perrault-riquet','Riquet à la houppe','Charles Perrault',1703,'child','1697',['conte','magie','royaume','merveilleux'],'Contes_de_Perrault_(éd._1902)/Riquet_à_la_Houppe','Il était une fois une reine'),
 ]
 if __name__=='__main__':
+    args=argparse.ArgumentParser()
+    args.add_argument('--spec-file', help='JSON array of source specifications')
+    options=args.parse_args()
+    specs=json.loads(Path(options.spec_file).read_text()) if options.spec_file else SPECS
     Path('sources').mkdir(exist_ok=True)
     works=[]
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        futures={pool.submit(extract,s):s[0] for s in SPECS}
+        futures={pool.submit(extract,s):s[0] for s in specs}
         for f in concurrent.futures.as_completed(futures):
             try:
                 w=f.result(); works.append(w); print(w['id'],w['edition'],[(len(p['text']),p['text'][:100]) for p in w['passages']],flush=True)

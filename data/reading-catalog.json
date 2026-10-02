@@ -712,6 +712,678 @@
       "editionSource": "https://fr.wikisource.org/wiki/Livre:Verne_-_Voyage_au_centre_de_la_Terre.djvu",
       "editionYear": 1867,
       "sourceHtmlSha256": "b7c57c25d547a26c0f8b99950acecb5260e9b33445b95ffd87c7e31bb0cb92de"
+    },
+    {
+      "id": "sand-mare-diable",
+      "title": "La Mare au diable",
+      "author": "George Sand",
+      "audience": "adult",
+      "year": "1846",
+      "tags": [
+        "roman champêtre",
+        "nature",
+        "amour",
+        "contemplatif"
+      ],
+      "genre": "roman champêtre",
+      "source": "https://fr.wikisource.org/wiki/La_Mare_au_diable/Texte_entier",
+      "edition": "Livre:Sand - La Mare au Diable.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1876,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:George_Sand",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "15471771",
+      "passages": [
+        {
+          "id": "sand-mare-diable-p01",
+          "text": "Je venais de regarder longtemps et avec une profonde mélancolie le laboureur d’Holbein, et je me promenais dans la campagne, rêvant à la vie des champs et à la destinée du cultivateur. Sans doute il est lugubre de consumer ses forces et ses jours à fendre le sein de cette terre jalouse, qui se fait arracher les trésors de sa fécondité, lorsqu’un morceau de pain le plus noir et le plus grossier est, à la fin de la journée, l’unique récompense et l’unique profit attachés à un si dur labeur. Ces richesses qui couvrent le sol, ces  moissons, ces fruits, ces bestiaux orgueilleux qui s’engraissent dans les longues herbes, sont la propriété de quelques-uns et les instruments de la fatigue et de l’esclavage du plus grand nombre. L’homme de loisir n’aime en général pour eux-mêmes, ni les champs, ni les prairies, ni le spectacle de la nature, ni les animaux superbes qui doivent se convertir en pièces d’or pour son usage. L’homme de loisir vient chercher un peu d’air et de santé dans le séjour de la campagne, puis il retourne dépenser dans les grandes villes le fruit du travail de ses vassaux.\n\nDe son côté, l’homme du travail est trop accablé, trop malheureux et trop effrayé de l’avenir, pour jouir de la beauté des campagnes et des charmes de la vie rustique. Pour lui aussi les champs dorés, les belles prairies, les animaux superbes, représentent des sacs d’écus dont il n’aura qu’une faible part, insuffisante à ses besoins, et que, pourtant, il faut remplir, chaque année, ces sacs maudits, pour satisfaire le maître et payer le droit de vivre parcimonieusement et misérablement sur son domaine.\n\nEt pourtant, la nature est éternellement jeune, belle et généreuse. Elle verse la poésie et la beauté à tous les êtres, à toutes les plantes, qu’on laisse s’y développer à souhait. Elle possède le secret du bonheur, et nul n’a su le lui ravir. Le plus heureux des hommes serait celui qui, possédant la science de son labeur et travaillant de ses mains, puisant le bien-être et la liberté dans l’exercice de sa force intelligente, aurait le temps de vivre par le cœur et par le cerveau, de comprendre son œuvre et d’aimer celle de Dieu. L’artiste a des jouissances de ce genre, dans la contemplation et la reproduction des beautés de la nature ; mais, en voyant la douleur des hommes qui peuplent ce paradis de la terre, l’artiste au cœur droit et humain est troublé au milieu de sa jouissance. Le bonheur serait là où l’esprit, le cœur et les bras, travaillant de concert sous l’œil de la Providence, une sainte harmonie existerait entre la munificence de Dieu et les ravissements de l’âme humaine. C’est alors qu’au lieu de la piteuse et affreuse Mort, marchant dans son sillon, le fouet à la main, le peintre d’allégories pourrait placer à ses côtés un ange radieux, semant à pleines mains le blé béni sur le sillon fumant.",
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "source": "https://fr.wikisource.org/wiki/La_Mare_au_diable/Texte_entier",
+          "sha256": "043d02e7438595283a9bdc5028cae1a0f3143f99ebae65b4ab9dba1add9c8566"
+        },
+        {
+          "id": "sand-mare-diable-p02",
+          "text": "— Que veux-tu qu’on dise ? on sait bien que je suis vieux et que je ne peux pas t’épouser. Alors on ne supposerait pas que je… que tu…\n\n— Dites donc, laboureur ! voilà votre enfant qui se réveille, dit la petite Marie.\n\nPetit-Pierre s’était soulevé et regardait autour de lui d’un air tout pensif.\n\n— Ah ! il n’en fait jamais d’autre quand il entend manger, celui-là ! dit Germain : le bruit du canon ne le réveillerait pas ; mais quand on remue les mâchoires auprès de lui, il ouvre les yeux tout de suite.\n\n— Vous avez dû être comme ça à son âge, dit la petite Marie avec un sourire malin. Allons, mon petit Pierre, tu cherches ton ciel de lit ? Il est fait de verdure, ce soir, mon enfant ; mais ton père n’en soupe pas moins. Veux-tu souper avec lui ? Je n’ai pas mangé ta part ; je me doutais bien que tu la réclamerais !\n\n— Marie, je veux que tu manges, s’écria le laboureur, je ne mangerai plus. Je suis un vorace, un grossier ; toi, tu te prives pour nous, ce n’est pas juste ; j’en ai honte. Tiens, ça m’ôte la faim ; je ne veux pas que mon fils soupe, si tu ne soupes pas.\n\n— Laissez-nous tranquilles, répondit la petite Marie, vous n’avez pas la clef de nos appétits. Le mien est fermé aujourd’hui, mais celui de votre Pierre est ouvert comme celui d’un petit loup. Tenez, voyez comme il s’y prend ! Oh ! ce sera aussi un rude laboureur !\n\nEn effet, Petit-Pierre montra bientôt de qui il était fils, et à peine éveillé, ne comprenant ni où il était ni comment il y était venu, il se mit à dévorer. Puis, quand il n’eut plus faim, se trouvant excité comme il arrive aux enfants qui rompent leurs habitudes, il eut plus d’esprit, plus de curiosité et plus de raisonnement qu’à l’ordinaire. Il se fit expliquer où il était, et quand il sut que c’était au milieu d’un bois, il eut un peu peur.",
+          "startParagraph": 221,
+          "endParagraph": 228,
+          "source": "https://fr.wikisource.org/wiki/La_Mare_au_diable/Texte_entier",
+          "sha256": "e2b7eb646721cc343fc6d11014440cb78bde4bee28f2fe59f50f54ad24334a7a"
+        },
+        {
+          "id": "sand-mare-diable-p03",
+          "text": "— Je m’en doutais bien, dit Germain à demi-voix ; mais c’est égal, Marie… écoute ce qu’il a à te dire… car, moi, je suis curieux de le savoir. Tu me le diras après ; j’ai mes raisons pour ça. Va auprès de son cheval… je ne te perds pas de vue.\n\nMarie fit trois pas vers le fermier qui lui dit, en se penchant sur le pommeau de sa selle et en baissant la voix :\n\n— Petite, voilà un beau louis d’or pour toi ! tu ne diras rien, entends-tu ? Je dirai que je t’ai trouvée trop faible pour l’ouvrage de ma ferme… Et qu’il ne soit plus question de ça… Je repasserai par chez vous un de ces jours ; et si tu n’as rien dit, je te donnerai encore quelque chose… Et puis, si tu es plus raisonnable, tu n’as qu’à parler : je te ramènerai chez moi, ou bien, j’irai causer avec toi à la brune dans les prés. Quel cadeau veux-tu que je te porte ?\n\n— Voilà, monsieur, le cadeau que je vous fais, moi ! répondit à haute voix la petite Marie, en lui jetant son louis d’or au visage et même assez rudement. Je vous remercie beaucoup et vous prie, quand vous repasserez par chez nous, de me faire avertir : tous les garçons de mon endroit iront vous recevoir, parce que chez nous, on aime fort les bourgeois qui veulent en conter aux pauvres filles ! Vous verrez ça, on vous attendra.\n\n— Vous êtes une menteuse et une sotte langue ! dit le fermier courroucé, en levant son bâton d’un air de menace. Vous voudriez faire croire ce qui n’est point, mais vous ne me tirerez pas d’argent : on connaît vos pareilles !\n\nMarie s’était reculée, effrayée ; mais Germain s’était élancé à la bride du cheval du fermier et, le secouant avec force :\n\n— C’est entendu, maintenant ! dit-il, et nous voyons assez de quoi il retourne… À terre ! mon homme ! à terre ! et causons tous les deux !\n\nLe fermier ne se souciait pas d’engager la partie : il éperonna son cheval pour se dégager et voulut frapper de son bâton les mains du laboureur pour lui faire lâcher prise ; mais Germain esquiva le coup et, lui prenant la jambe, il le désarçonna et le fit tomber sur la fougère où il le terrassa, quoique le fermier se fût remis sur ses pieds et se défendît vigoureusement. Quand il le tint sous lui :",
+          "startParagraph": 442,
+          "endParagraph": 449,
+          "source": "https://fr.wikisource.org/wiki/La_Mare_au_diable/Texte_entier",
+          "sha256": "83901a5ce2d1e7dfd9f32f935e9c022e9a499386fd0507eb8b0da4ad4b0e6b70"
+        }
+      ],
+      "text": "Je venais de regarder longtemps et avec une profonde mélancolie le laboureur d’Holbein, et je me promenais dans la campagne, rêvant à la vie des champs et à la destinée du cultivateur. Sans doute il est lugubre de consumer ses forces et ses jours à fendre le sein de cette terre jalouse, qui se fait arracher les trésors de sa fécondité, lorsqu’un morceau de pain le plus noir et le plus grossier est, à la fin de la journée, l’unique récompense et l’unique profit attachés à un si dur labeur. Ces richesses qui couvrent le sol, ces  moissons, ces fruits, ces bestiaux orgueilleux qui s’engraissent dans les longues herbes, sont la propriété de quelques-uns et les instruments de la fatigue et de l’esclavage du plus grand nombre. L’homme de loisir n’aime en général pour eux-mêmes, ni les champs, ni les prairies, ni le spectacle de la nature, ni les animaux superbes qui doivent se convertir en pièces d’or pour son usage. L’homme de loisir vient chercher un peu d’air et de santé dans le séjour de la campagne, puis il retourne dépenser dans les grandes villes le fruit du travail de ses vassaux.\n\nDe son côté, l’homme du travail est trop accablé, trop malheureux et trop effrayé de l’avenir, pour jouir de la beauté des campagnes et des charmes de la vie rustique. Pour lui aussi les champs dorés, les belles prairies, les animaux superbes, représentent des sacs d’écus dont il n’aura qu’une faible part, insuffisante à ses besoins, et que, pourtant, il faut remplir, chaque année, ces sacs maudits, pour satisfaire le maître et payer le droit de vivre parcimonieusement et misérablement sur son domaine.\n\nEt pourtant, la nature est éternellement jeune, belle et généreuse. Elle verse la poésie et la beauté à tous les êtres, à toutes les plantes, qu’on laisse s’y développer à souhait. Elle possède le secret du bonheur, et nul n’a su le lui ravir. Le plus heureux des hommes serait celui qui, possédant la science de son labeur et travaillant de ses mains, puisant le bien-être et la liberté dans l’exercice de sa force intelligente, aurait le temps de vivre par le cœur et par le cerveau, de comprendre son œuvre et d’aimer celle de Dieu. L’artiste a des jouissances de ce genre, dans la contemplation et la reproduction des beautés de la nature ; mais, en voyant la douleur des hommes qui peuplent ce paradis de la terre, l’artiste au cœur droit et humain est troublé au milieu de sa jouissance. Le bonheur serait là où l’esprit, le cœur et les bras, travaillant de concert sous l’œil de la Providence, une sainte harmonie existerait entre la munificence de Dieu et les ravissements de l’âme humaine. C’est alors qu’au lieu de la piteuse et affreuse Mort, marchant dans son sillon, le fouet à la main, le peintre d’allégories pourrait placer à ses côtés un ange radieux, semant à pleines mains le blé béni sur le sillon fumant.",
+      "editionYear": 1889,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Sand_-_La_Mare_au_Diable.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "0e9dc2c6d4d2f87d9e9ea070cb752b941293720effbdb2ebfabba1929e613513"
+    },
+    {
+      "id": "balzac-pere-goriot",
+      "title": "Le Père Goriot",
+      "author": "Honoré de Balzac",
+      "audience": "adult",
+      "year": "1835",
+      "tags": [
+        "roman",
+        "société",
+        "famille",
+        "ambition"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Le_P%C3%A8re_Goriot_(1855)",
+      "edition": "Livre:Œuvres complètes de H. de Balzac, IX.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1850,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Honor%C3%A9_de_Balzac",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "15018283",
+      "passages": [
+        {
+          "id": "balzac-pere-goriot-p01",
+          "text": "Madame Vauquer, née de Coflans, est une vieille femme qui, depuis quarante ans, tient à Paris une pension bourgeoise établie rue Neuve-Sainte-Geneviève, entre le quartier latin et le faubourg Saint-Marceau. Cette pension, connue sous le nom de la Maison Vauquer, admet également des hommes et des femmes, des jeunes gens et des vieillards, sans que jamais la médisance ait attaqué les mœurs de ce respectable établissement. Mais aussi depuis trente ans ne s’y était-il jamais vu de jeune personne, et pour qu’un jeune homme y demeure, sa famille doit-elle lui faire une bien maigre pension. Néanmoins, en 1819, époque à laquelle ce drame commence, il s’y trouvait une pauvre jeune fille. En quelque discrédit que soit tombé le mot drame par la manière abusive et tortionnaire dont il a été prodigué dans ces temps de douloureuse littérature, il est nécessaire de l’employer ici : non que cette histoire soit dramatique dans le sens vrai du mot ; mais, l’œuvre accomplie, peut-être aura-t-on versé quelques larmes intra muros et extra. Sera-t-elle comprise au delà de Paris ? le doute est permis. Les particularités de cette scène pleine d’observations et de couleurs locales ne peuvent être appréciées qu’entre les buttes de Montmartre et les hauteurs de Montrouge, dans cette illustre vallée de plâtras incessamment près de tomber et de ruisseaux noirs de boue ; vallée remplie de souffrances réelles, de joies souvent fausses, et si terriblement agitée qu’il faut je ne sais quoi d’exorbitant pour y produire une sensation de quelque durée. Cependant il s’y rencontre çà et là des douleurs que l’agglomération des vices et des vertus rend grandes et solennelles : à leur aspect, les égoïsmes, les intérêts, s’arrêtent et s’apitoient ; mais l’impression qu’ils en reçoivent est comme un fruit savoureux promptement dévoré. Le char de la civilisation, semblable à celui de l’idole de Jaggernat, à peine retardé par un cœur moins facile à broyer que les autres et qui enraye sa roue, l’a brisé bientôt et continue sa marche glorieuse. Ainsi ferez-vous, vous qui tenez ce livre d’une main blanche, vous qui vous enfoncez dans un moelleux fauteuil en vous disant : Peut-être ceci va-t-il m’amuser. Après avoir lu les secrètes infortunes du père Goriot, vous dînerez avec appétit en mettant votre insensibilité sur le compte de l’auteur, en le taxant d’exagération, en l’accusant de poésie. Ah ! sachez-le : ce drame n’est ni une fiction, ni un roman. All is true, il est si véritable, que chacun peut en reconnaître les éléments chez soi, dans son cœur peut-être.",
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "source": "https://fr.wikisource.org/wiki/Le_P%C3%A8re_Goriot_(1855)",
+          "sha256": "6129fa1ed3261e70e7bf613e2e688ec9ab332d01bcc628c4bf1d30261875d279"
+        },
+        {
+          "id": "balzac-pere-goriot-p02",
+          "text": "— Que feriez-vous donc, vous, en pareil cas ?\n\n— Moi, je souffrirais en silence.\n\nEn ce moment le marquis d’Adjuda se présenta dans la loge de madame de Beauséant.\n\n— J’ai mal fait mes affaires afin de venir vous retrouver, dit-il, et je vous en instruis pour que ce ne soit pas un sacrifice.\n\nLes rayonnements du visage de la vicomtesse apprirent à Eugène à reconnaître les expressions d’un véritable amour, et à ne pas les confondre avec les simagrées de coquetterie parisienne. Il admira sa cousine, devint muet et céda sa place à monsieur d’Adjuda en soupirant. « Quelle noble, quelle sublime créature est une femme qui aime ainsi ! se dit-il. Et cet homme la trahirait pour une poupée comment peut-on la trahir ? » Il se sentit au cœur une rage d’enfant. Il aurait voulu se rouler aux pieds de madame de Beauséant, il souhaitait le pouvoir des démons afin de l’emporter dans son cœur, comme un aigle enlève de la plaine dans son aire une jeune chèvre blanche qui tette encore. Il était humilié d’être dans ce grand Musée de la beauté sans son tableau, sans une maîtresse à lui. « Avoir une maîtresse et une position quasi royale, se disait-il, c’est le signe de la puissance ! » Et il regarda madame de Nucingen comme un homme insulté regarde son adversaire. La vicomtesse se retourna vers lui pour lui adresser sur sa discrétion mille remercîments dans un clignement d’yeux. Le premier acte était fini.\n\n— Vous connaissez assez madame de Nucingen pour lui présenter monsieur de Rastignac ? dit-elle au marquis d’Adjuda.\n\n— Mais elle sera charmée de voir monsieur, dit le marquis.\n\nLe beau Portugais se prit le bras de l’étudiant, qui en un clin d’œil se trouva auprès de madame de Nucingen.\n\n— Madame la baronne, dit le marquis, j’ai l’honneur de vous présenter le chevalier Eugène de Rastignac, un cousin de la vicomtesse de Beauséant. Vous faites une si vive impression sur lui, que j’ai voulu compléter son bonheur en le rapprochant de son idole.",
+          "startParagraph": 517,
+          "endParagraph": 525,
+          "source": "https://fr.wikisource.org/wiki/Le_P%C3%A8re_Goriot_(1855)",
+          "sha256": "cf39320723bfb8f7891e9f26461f6171da760769b079c2b9d0aefb14b49ca9c9"
+        },
+        {
+          "id": "balzac-pere-goriot-p03",
+          "text": "Les pensionnaires se mirent sur deux files dans le plus grand silence. Poiret regarda si tendrement mademoiselle Michonneau, il se montra si naïvement indécis, sans savoir s’il devait la suivre ou rester, que les pensionnaires, heureux du départ de mademoiselle Michonneau, se mirent à rire en se regardant .\n\n— Xi, xi, xi, Poiret, lui cria le peintre. Allons, houpe là, haoup !\n\nL’employé au Muséum se mit à chanter comiquement ce début d’une romance connue :\n\nPartant pour la Syrte, \n\nLe jeune et beau Dunois…\n\n— Allez donc, vous en mourez d’envie, trahit sua quemque voluptas, dit Bianchon.\n\n— Chacun suit sa particulière traduction libre de Virgile, dit le répétiteur.\n\nMademoiselle Michonneau ayant fait le geste de prendre le bras de Poiret en le regardant, il ne put résister à cet appel, et vint donner son appui à la vieille. Des applaudissements éclatèrent, et il y eut une explosion de rires. — Bravo, Poiret ! — Ce vieux Poiret ! — Apollon-Poiret. — Mars-Poiret. — Courageux Poiret !\n\nEn ce moment, un commissionnaire entra, remit une lettre à madame Vauquer, qui se laissa couler sur sa chaise, après l’avoir lue.\n\n— Mais il n’y a plus qu’à brûler ma maison, le tonnerre y tombe. Le fils Taillefer est mort à trois heures. Je suis bien punie d’avoir souhaité du bien à ces dames au détriment de ce pauvre jeune homme. Madame Couture et Victorine me redemandent leurs effets, et vont demeurer chez son père. Monsieur Taillefer permet à sa fille de garder la veuve Couture comme demoiselle de compagnie. Quatre appartements vacants, cinq pensionnaires de moins ! Elle s’assit et parut près de pleurer. Le malheur est entré chez moi, s’écria-t-elle.\n\nLe roulement d’une voiture qui s’arrêtait retentit tout à coup dans la rue.\n\n— Encore quelque chape-chute, dit Sylvie.\n\nGoriot montra soudain une physionomie brillante et colorée de bonheur, qui pouvait faire croire à sa régénération.",
+          "startParagraph": 1034,
+          "endParagraph": 1045,
+          "source": "https://fr.wikisource.org/wiki/Le_P%C3%A8re_Goriot_(1855)",
+          "sha256": "6f2f64d924fa4d2e762e5b6007d4186cb0280707bfaeb68bb74687eacf72e200"
+        }
+      ],
+      "text": "Madame Vauquer, née de Coflans, est une vieille femme qui, depuis quarante ans, tient à Paris une pension bourgeoise établie rue Neuve-Sainte-Geneviève, entre le quartier latin et le faubourg Saint-Marceau. Cette pension, connue sous le nom de la Maison Vauquer, admet également des hommes et des femmes, des jeunes gens et des vieillards, sans que jamais la médisance ait attaqué les mœurs de ce respectable établissement. Mais aussi depuis trente ans ne s’y était-il jamais vu de jeune personne, et pour qu’un jeune homme y demeure, sa famille doit-elle lui faire une bien maigre pension. Néanmoins, en 1819, époque à laquelle ce drame commence, il s’y trouvait une pauvre jeune fille. En quelque discrédit que soit tombé le mot drame par la manière abusive et tortionnaire dont il a été prodigué dans ces temps de douloureuse littérature, il est nécessaire de l’employer ici : non que cette histoire soit dramatique dans le sens vrai du mot ; mais, l’œuvre accomplie, peut-être aura-t-on versé quelques larmes intra muros et extra. Sera-t-elle comprise au delà de Paris ? le doute est permis. Les particularités de cette scène pleine d’observations et de couleurs locales ne peuvent être appréciées qu’entre les buttes de Montmartre et les hauteurs de Montrouge, dans cette illustre vallée de plâtras incessamment près de tomber et de ruisseaux noirs de boue ; vallée remplie de souffrances réelles, de joies souvent fausses, et si terriblement agitée qu’il faut je ne sais quoi d’exorbitant pour y produire une sensation de quelque durée. Cependant il s’y rencontre çà et là des douleurs que l’agglomération des vices et des vertus rend grandes et solennelles : à leur aspect, les égoïsmes, les intérêts, s’arrêtent et s’apitoient ; mais l’impression qu’ils en reçoivent est comme un fruit savoureux promptement dévoré. Le char de la civilisation, semblable à celui de l’idole de Jaggernat, à peine retardé par un cœur moins facile à broyer que les autres et qui enraye sa roue, l’a brisé bientôt et continue sa marche glorieuse. Ainsi ferez-vous, vous qui tenez ce livre d’une main blanche, vous qui vous enfoncez dans un moelleux fauteuil en vous disant : Peut-être ceci va-t-il m’amuser. Après avoir lu les secrètes infortunes du père Goriot, vous dînerez avec appétit en mettant votre insensibilité sur le compte de l’auteur, en le taxant d’exagération, en l’accusant de poésie. Ah ! sachez-le : ce drame n’est ni une fiction, ni un roman. All is true, il est si véritable, que chacun peut en reconnaître les éléments chez soi, dans son cœur peut-être.",
+      "editionYear": 1855,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:%C5%92uvres_compl%C3%A8tes_de_H._de_Balzac%2C_IX.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "b56edb920107fc98dce9858e8dfb894d06cb04c7c33415bfd6010329ee81cd6e"
+    },
+    {
+      "id": "zola-bonheur-dames",
+      "title": "Au Bonheur des Dames",
+      "author": "Émile Zola",
+      "audience": "adult",
+      "year": "1883",
+      "tags": [
+        "roman",
+        "société",
+        "amour",
+        "personnages"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Au_bonheur_des_dames/Texte_entier",
+      "edition": "Livre:Emile Zola - Au bonheur des dames.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1902,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:%C3%89mile_Zola",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "12156776",
+      "passages": [
+        {
+          "id": "zola-bonheur-dames-p01",
+          "text": "Denise était venue à pied de la gare Saint-Lazare, où un train de Cherbourg l’avait débarquée avec ses deux frères, après une nuit passée sur la dure banquette d’un wagon de troisième classe. Elle tenait par la main Pépé, et Jean la suivait, tous les trois brisés du voyage, effarés et perdus au milieu du vaste Paris, le nez levé sur les maisons, demandant à chaque carrefour la rue de la Michodière, dans laquelle leur oncle Baudu demeurait. Mais, comme elle débouchait enfin sur la place Gaillon, la jeune fille s’arrêta net de surprise.\n\n— Oh ! dit-elle, regarde un peu, Jean !\n\nEt ils restèrent plantés, serrés les uns contre les autres, tout en noir, achevant les vieux vêtements du deuil de leur père. Elle, chétive pour ses vingt ans, l’air pauvre, portait un léger paquet ; tandis que, de l’autre côté, le petit frère, âgé de cinq ans, se pendait à son bras, et que, derrière son épaule, le grand frère, dont les seize ans superbes florissaient, était debout, les mains ballantes.\n\n— Ah bien ! reprit-elle après un silence, en voilà un magasin !\n\nC’était, à l’encoignure de la rue de la Michodière et de la rue Neuve-Saint-Augustin, un magasin de nouveautés dont les étalages éclataient en notes vives, dans la douce et pâle journée d’octobre. Huit heures sonnaient à Saint-Roch, il n’y avait sur les trottoirs que le Paris matinal, les employés filant à leurs bureaux et les ménagères courant les boutiques. Devant la porte, deux commis, montés sur une échelle double, finissaient de pendre des lainages, tandis que, dans une vitrine de la rue Neuve-Saint-Augustin, un autre commis, agenouillé et le dos tourné, plissait délicatement une pièce de soie bleue. Le magasin, vide encore de clientes, et où le personnel arrivait à peine, bourdonnait à l’intérieur comme une ruche qui s’éveille.\n\n— Fichtre ! dit Jean. Ça enfonce Valognes… Le tien n’était pas si beau.",
+          "startParagraph": 0,
+          "endParagraph": 5,
+          "source": "https://fr.wikisource.org/wiki/Au_bonheur_des_dames/Texte_entier",
+          "sha256": "0eb65f766f6cca43d318e7e30d43766d9834927637d1255e13601e31462e7f3a"
+        },
+        {
+          "id": "zola-bonheur-dames-p02",
+          "text": "— En tout cas, dit Pauline d’un air pincé, elle est joliment laide, celle-là, avec ses cheveux carotte… Vrai, je ne sais où monsieur Hutin les ramasse, mais elles sont toutes plus sales les unes que les autres.\n\nDenise avait pâli. C’était en elle un froid de glace, comme si, goutte à goutte, le sang de son cœur se fût retiré. Déjà, sur la berge, devant l’yole rapide, elle avait senti un premier frisson ; et, maintenant, elle ne pouvait douter, cette fille était bien avec Hutin. La gorge serrée, les mains tremblantes, elle ne mangeait plus.\n\n— Qu’avez-vous ? demanda son amie.\n\n— Rien, balbutia-t-elle, il fait un peu chaud.\n\nMais la table de Hutin était voisine, et quand il eut aperçu Baugé, qu’il connaissait, il engagea la conversation d’une voix aiguë, pour continuer à occuper la salle.\n\n— Dites donc, cria-t-il, êtes-vous toujours vertueux, au Bon Marché ?\n\n— Pas tant que ça, répondit l’autre très rouge.\n\n— Laissez donc ! ils ne prennent que des vierges, et ils ont un confessionnal en permanence pour les vendeurs qui les regardent… Une maison où l’on fait des mariages, merci !\n\nDes rires s’élevèrent. Liénard, qui était de l’équipe, ajouta :\n\n— Ce n’est pas comme au Louvre… Il y a une accoucheuse attachée au comptoir des confections. Parole d’honneur !\n\nLa gaieté redoubla. Pauline elle-même éclatait, tellement l’accoucheuse lui semblait drôle. Mais Baugé restait vexé des plaisanteries sur l’innocence de sa maison. Il se lança tout d’un coup.\n\n— Avec ça que vous êtes bien, au Bonheur des Dames ! Flanqués à la porte pour un mot ! et un patron qui a l’air de raccrocher ses clientes !\n\nHutin ne l’écoutait plus, entamait l’éloge de la Place Clichy. Il y connaissait une jeune fille, qui était si convenable, que les acheteuses n’osaient s’adresser à elle, de peur de l’humilier. Ensuite, il rapprocha son couvert, il raconta qu’il avait fait cent quinze francs pendant la semaine ; oh ! une semaine épatante, Favier laissé à cinquante-deux francs, tout le tableau de ligne roulé ; et ça se voyait, n’est-ce pas ? il bouffait la monnaie, il ne se coucherait pas avant d’avoir liquidé les cent quinze francs. Puis, comme il se grisait, il tomba sur Robineau, ce gringalet de second qui affectait de se tenir à part, au point de ne pas vouloir, dans la rue, marcher avec un de ses vendeurs.",
+          "startParagraph": 995,
+          "endParagraph": 1007,
+          "source": "https://fr.wikisource.org/wiki/Au_bonheur_des_dames/Texte_entier",
+          "sha256": "862b0e5c4fd4c492005b51bbf0d6e336a164c342b661ff09a057c9457ee4ec48"
+        },
+        {
+          "id": "zola-bonheur-dames-p03",
+          "text": "— S’il est permis d’enfermer le monde par ce temps superbe ! Pas de danger qu’il pleuve, un jour  d’inventaire !… Et l’on vous tient sous les verrous comme des galériens, lorsque tout Paris se promène !\n\nIl passa la pièce à Hutin. Sur l’étiquette, le métrage était porté, diminué à chaque vente de la quantité vendue ; ce qui simplifiait beaucoup le travail. Le second cria :\n\n— Soie de fantaisie, petits carreaux, vingt et un mètres, à six francs cinquante !\n\nEt la soie alla grossir le tas, par terre. Puis, il continua une conversation commencée, en disant à Favier :\n\n— Alors, il a voulu vous battre ?\n\n— Mais oui. Je buvais tranquillement mon bock… Ça valait bien la peine de me démentir, la petite vient de recevoir une lettre du patron, qui l’invite à dîner… Toute la boîte en cause.\n\n— Comment ! ce n’était pas fait !\n\nFavier lui tendait une nouvelle pièce.\n\n— N’est-ce pas ? on en aurait mis la main au feu. Ça semblait déjà un vieux collage.\n\n— Idem, vingt-cinq mètres ! lança Hutin.\n\nOn entendit le coup sourd de la pièce, tandis qu’il ajoutait plus bas :\n\n— Vous savez qu’elle a fait la vie chez ce vieux toqué de Bourras.\n\nMaintenant, tout le rayon s’égayait, sans que la besogne en fût interrompue pourtant. On se murmurait le nom de la jeune fille, les dos s’enflaient, les nez tournaient à la friandise. Bouthemont lui-même, que les histoires gaillardes épanouissaient, ne put se tenir de lâcher une plaisanterie, dont le mauvais goût le fit éclater d’aise. Albert, réveillé, jura avoir vu la seconde des confections entre deux militaires, au Gros-Caillou. Justement, Mignot descendait, avec les vingt francs qu’il venait d’emprunter ; et il s’était arrêté, il coulait dix francs dans la main d’Albert, en lui donnant rendez-vous pour le soir, une noce projetée, entravée par le manque d’argent, possible enfin, malgré la médiocrité de la somme. Mais le beau Mignot, lorsqu’il apprit l’envoi de la lettre, eut une réflexion si grossière, que Bouthemont se vit forcé d’intervenir.",
+          "startParagraph": 1990,
+          "endParagraph": 2002,
+          "source": "https://fr.wikisource.org/wiki/Au_bonheur_des_dames/Texte_entier",
+          "sha256": "5c52eb624bb0571bdf7ca6bb8b214dc2f3f86dc340d7c401beeb42d631b4693d"
+        }
+      ],
+      "text": "Denise était venue à pied de la gare Saint-Lazare, où un train de Cherbourg l’avait débarquée avec ses deux frères, après une nuit passée sur la dure banquette d’un wagon de troisième classe. Elle tenait par la main Pépé, et Jean la suivait, tous les trois brisés du voyage, effarés et perdus au milieu du vaste Paris, le nez levé sur les maisons, demandant à chaque carrefour la rue de la Michodière, dans laquelle leur oncle Baudu demeurait. Mais, comme elle débouchait enfin sur la place Gaillon, la jeune fille s’arrêta net de surprise.\n\n— Oh ! dit-elle, regarde un peu, Jean !\n\nEt ils restèrent plantés, serrés les uns contre les autres, tout en noir, achevant les vieux vêtements du deuil de leur père. Elle, chétive pour ses vingt ans, l’air pauvre, portait un léger paquet ; tandis que, de l’autre côté, le petit frère, âgé de cinq ans, se pendait à son bras, et que, derrière son épaule, le grand frère, dont les seize ans superbes florissaient, était debout, les mains ballantes.\n\n— Ah bien ! reprit-elle après un silence, en voilà un magasin !\n\nC’était, à l’encoignure de la rue de la Michodière et de la rue Neuve-Saint-Augustin, un magasin de nouveautés dont les étalages éclataient en notes vives, dans la douce et pâle journée d’octobre. Huit heures sonnaient à Saint-Roch, il n’y avait sur les trottoirs que le Paris matinal, les employés filant à leurs bureaux et les ménagères courant les boutiques. Devant la porte, deux commis, montés sur une échelle double, finissaient de pendre des lainages, tandis que, dans une vitrine de la rue Neuve-Saint-Augustin, un autre commis, agenouillé et le dos tourné, plissait délicatement une pièce de soie bleue. Le magasin, vide encore de clientes, et où le personnel arrivait à peine, bourdonnait à l’intérieur comme une ruche qui s’éveille.\n\n— Fichtre ! dit Jean. Ça enfonce Valognes… Le tien n’était pas si beau.",
+      "editionYear": 1883,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Emile_Zola_-_Au_bonheur_des_dames.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "0f03bfdd91edb13fe191109e27bd2dabaf8a4c9512eafca22a9ed42ab4d725d0"
+    },
+    {
+      "id": "hugo-miserables",
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "audience": "adult",
+      "year": "1862",
+      "tags": [
+        "roman",
+        "société",
+        "émotion",
+        "courage"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Les_Mis%C3%A9rables/Tome_1/Livre_1/01",
+      "edition": "Livre:Hugo - Les Misérables Tome I (1890).djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1885,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Victor_Hugo",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "7060042",
+      "passages": [
+        {
+          "id": "hugo-miserables-p01",
+          "text": "En 1815, M. Charles-François-Bienvenu Myriel était évêque de Digne. C’était un vieillard d’environ soixante-quinze ans ; il occupait le siége de Digne depuis 1806.\n\nQuoique ce détail ne touche en aucune manière au fond même de ce que nous avons à raconter, il n’est peut-être pas inutile, ne fût-ce que pour être exact en tout, d’indiquer ici les bruits et les propos qui avaient couru sur son compte au moment où il était arrivé dans le diocèse. Vrai ou faux, ce qu’on dit des hommes tient souvent autant de place dans leur vie et souvent dans leur destinée que ce qu’ils font. M. Myriel était fils d’un conseiller au parlement d’Aix ; noblesse de robe. On contait que son père, le réservant pour hériter de sa charge, l’avait marié de fort bonne heure, à dix-huit ou vingt ans, suivant un usage assez répandu dans les familles parlementaires. Charles Myriel, nonobstant ce mariage, avait, disait-on, beaucoup fait parler de lui. Il était bien fait de sa personne, quoique d’assez petite taille, élégant, gracieux, spirituel ; toute la première partie de sa vie avait été donnée au monde et aux galanteries.\n\nLa révolution survint, les événements se précipitèrent ; les familles parlementaires, décimées, chassées, traquées, se dispersèrent. M. Charles Myriel, dès les premiers jours de la révolution, émigra en Italie. Sa femme y mourut d’une maladie de poitrine dont elle était atteinte depuis longtemps. Ils n’avaient point d’enfants. Que se passa-t-il ensuite dans la destinée de M. Myriel ? L’écroulement de l’ancienne société française, la chute de sa propre famille, les tragiques spectacles de 93, plus effrayants encore peut-être pour les émigrés qui les voyaient de loin avec le grossissement de l’épouvante, firent-ils germer en lui des idées de renoncement et de solitude ? Fut-il, au milieu d’une de ces distractions et de ces affections qui occupaient sa vie, subitement atteint d’un de ces coups mystérieux et terribles qui viennent quelquefois renverser, en le frappant au cœur, l’homme que les catastrophes publiques n’ébranleraient pas en le frappant dans son existence et dans sa fortune ? Nul n’aurait pu le dire ; tout ce qu’on savait, c’est que, lorsqu’il revint d’Italie, il était prêtre.",
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "source": "https://fr.wikisource.org/wiki/Les_Mis%C3%A9rables/Tome_1/Livre_1/01",
+          "sha256": "c04aa9bdd184366c868dc4f586766de1095a409070ed2b691fd21dea6564a838"
+        },
+        {
+          "id": "hugo-miserables-p02",
+          "text": "— Quel est ce bonhomme qui me regarde ?\n\n— Sire, dit M. Myriel, vous regardez un bonhomme, et moi je regarde un grand homme. Chacun de nous peut profiter.\n\nL’empereur, le soir même, demanda au cardinal le nom de ce curé, et quelque temps après M. Myriel fut tout surpris d’apprendre qu’il était nommé évêque de Digne.\n\nQu’y avait-il de vrai, du reste, dans les récits qu’on faisait sur la première partie de la vie de M. Myriel ? Personne ne le savait. Peu de familles avaient connu la famille Myriel avant la révolution.\n\nM. Myriel devait subir le sort de tout nouveau venu dans une petite ville où il y a beaucoup de bouches qui parlent et fort peu de têtes qui pensent. Il devait le subir, quoiqu’il fût évêque et parce qu’il était évêque. Mais, après tout, les propos auxquels on mêlait son nom n’étaient peut-être que des propos ; du bruit, des mots, des paroles, moins que des paroles, des palabres, comme dit l’énergique langue du midi.\n\nQuoi qu’il en fût, après neuf ans d’épiscopat et de résidence à Digne, tous ces racontages, sujets de conversation qui occupent dans le premier moment les petites villes et les petites gens, étaient tombés dans un oubli profond. Personne n’eût osé en parler, personne n’eût osé s’en souvenir.\n\nM. Myriel était arrivé à Digne accompagné d’une vieille fille, mademoiselle Baptistine, qui était sa sœur et qui avait dix ans de moins que lui.\n\nIls avaient pour tout domestique une servante du même âge que mademoiselle Baptistine, et appelée madame Magloire, laquelle, après avoir été la servante de M. le curé, prenait maintenant le double titre de femme de chambre de mademoiselle et femme de charge de monseigneur.\n\nMademoiselle Baptistine était une personne longue, pâle, mince, douce ; elle réalisait l’idéal de ce qu’exprime le mot « respectable » ; car il semble qu’il soit nécessaire qu’une femme soit mère pour être vénérable. Elle n’avait jamais été jolie ; toute sa vie, qui n’avait été qu’une suite de saintes œuvres, avait fini par mettre sur elle une sorte de blancheur et de clarté, et, en vieillissant, elle avait gagné ce qu’on pourrait appeler la beauté de la bonté. Ce qui avait été de la maigreur dans sa jeunesse était devenu, dans sa maturité, de la transparence ; et cette diaphanéité laissait voir l’ange. C’était une âme plus encore que ce n’était une vierge. Sa personne semblait faite d’ombre ; à peine assez de corps pour qu’il y eût là un sexe ; un peu de matière contenant une lueur ; de grands yeux toujours baissés ; un prétexte pour qu’une âme reste sur la terre.",
+          "startParagraph": 5,
+          "endParagraph": 13,
+          "source": "https://fr.wikisource.org/wiki/Les_Mis%C3%A9rables/Tome_1/Livre_1/01",
+          "sha256": "f802fe72678e17f177b0834399e78adb327542b01177fd12c951e568c254cf64"
+        },
+        {
+          "id": "hugo-miserables-p03",
+          "text": "Madame Magloire était une petite vieille, blanche, grasse, replète, affairée, toujours haletante, à cause de son activité d’abord, ensuite à cause d’un asthme.\n\nÀ son arrivée, on installa M. Myriel en son palais épiscopal avec les honneurs voulus par les décrets impériaux qui classent l’évêque immédiatement après le maréchal de camp. Le maire et le président lui firent la première visite, et lui de son côté fit la première visite au général et au préfet.\n\nL’installation terminée, la ville attendit son évêque à l’œuvre.",
+          "startParagraph": 14,
+          "endParagraph": 16,
+          "source": "https://fr.wikisource.org/wiki/Les_Mis%C3%A9rables/Tome_1/Livre_1/01",
+          "sha256": "832b9ad8c6bdc5e123350a2f4240aee0d6abbcad4caa95508bd9a18e01a5653a"
+        }
+      ],
+      "text": "En 1815, M. Charles-François-Bienvenu Myriel était évêque de Digne. C’était un vieillard d’environ soixante-quinze ans ; il occupait le siége de Digne depuis 1806.\n\nQuoique ce détail ne touche en aucune manière au fond même de ce que nous avons à raconter, il n’est peut-être pas inutile, ne fût-ce que pour être exact en tout, d’indiquer ici les bruits et les propos qui avaient couru sur son compte au moment où il était arrivé dans le diocèse. Vrai ou faux, ce qu’on dit des hommes tient souvent autant de place dans leur vie et souvent dans leur destinée que ce qu’ils font. M. Myriel était fils d’un conseiller au parlement d’Aix ; noblesse de robe. On contait que son père, le réservant pour hériter de sa charge, l’avait marié de fort bonne heure, à dix-huit ou vingt ans, suivant un usage assez répandu dans les familles parlementaires. Charles Myriel, nonobstant ce mariage, avait, disait-on, beaucoup fait parler de lui. Il était bien fait de sa personne, quoique d’assez petite taille, élégant, gracieux, spirituel ; toute la première partie de sa vie avait été donnée au monde et aux galanteries.\n\nLa révolution survint, les événements se précipitèrent ; les familles parlementaires, décimées, chassées, traquées, se dispersèrent. M. Charles Myriel, dès les premiers jours de la révolution, émigra en Italie. Sa femme y mourut d’une maladie de poitrine dont elle était atteinte depuis longtemps. Ils n’avaient point d’enfants. Que se passa-t-il ensuite dans la destinée de M. Myriel ? L’écroulement de l’ancienne société française, la chute de sa propre famille, les tragiques spectacles de 93, plus effrayants encore peut-être pour les émigrés qui les voyaient de loin avec le grossissement de l’épouvante, firent-ils germer en lui des idées de renoncement et de solitude ? Fut-il, au milieu d’une de ces distractions et de ces affections qui occupaient sa vie, subitement atteint d’un de ces coups mystérieux et terribles qui viennent quelquefois renverser, en le frappant au cœur, l’homme que les catastrophes publiques n’ébranleraient pas en le frappant dans son existence et dans sa fortune ? Nul n’aurait pu le dire ; tout ce qu’on savait, c’est que, lorsqu’il revint d’Italie, il était prêtre.",
+      "editionYear": 1890,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Hugo_-_Les_Mis%C3%A9rables_Tome_I_%281890%29.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "058bd4a22f9d994b3eb6f2c380756b0afa83e2c4f3d64522feac27417a582aa4"
+    },
+    {
+      "id": "stendhal-rouge-noir",
+      "title": "Le Rouge et le Noir",
+      "author": "Stendhal",
+      "audience": "adult",
+      "year": "1830",
+      "tags": [
+        "roman",
+        "passion",
+        "ambition",
+        "société"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Le_Rouge_et_le_Noir/Texte_entier",
+      "edition": "Livre:Le Rouge et le Noir.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1842,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Stendhal",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "14174932",
+      "passages": [
+        {
+          "id": "stendhal-rouge-noir-p01",
+          "text": "La petite ville de Verrières peut passer pour l’une des plus jolies de la Franche-Comté. Ses maisons blanches avec leurs toits pointus de tuiles rouges, s’étendent sur la pente d’une colline, dont des touffes de vigoureux châtaigniers marquent les moindres sinuosités. Le Doubs coule à quelques centaines de pieds au-dessous de ses fortifications, bâties jadis par les Espagnols, et maintenant ruinées.\n\nVerrières est abritée du côté du nord par une haute montagne, c’est une des branches du Jura. Les cimes brisées du Verra se couvrent de neige dès les premiers froids d’octobre. Un torrent, qui se précipite de la montagne, traverse Verrières avant de se jeter dans le Doubs, et donne le mouvement à un grand nombre de scies à bois ; c’est une industrie fort simple et qui procure un certain bien-être à la majeure partie des habitants plus paysans que bourgeois. Ce ne sont pas cependant les scies à bois qui ont enrichi cette petite ville. C’est à la fabrique des toiles peintes, dites de Mulhouse, que l’on doit l’aisance générale qui, depuis la chute de Napoléon, a fait rebâtir les façades de presque toutes les maisons de Verrières.\n\nÀ peine entre-t-on dans la ville que l’on est étourdi par le fracas d’une machine bruyante et terrible en apparence. Vingt marteaux pesants, et retombant avec un bruit qui fait trembler le pavé, sont élevés par une roue que l’eau du torrent fait mouvoir. Chacun de ces marteaux fabrique, chaque jour, je ne sais combien de milliers de clous. Ce sont de jeunes filles fraîches et jolies qui présentent aux coups de ces marteaux énormes les petits morceaux de fer qui sont rapidement transformés en clous. Ce travail, si rude en apparence, est un de ceux qui étonnent le plus le voyageur qui pénètre pour la première fois dans les montagnes qui séparent la France de l’Helvétie. Si, en entrant à Verrières, le voyageur demande à qui appartient cette belle fabrique de clous qui assourdit les gens qui montent la grande rue, on lui répond avec un accent traînard : Eh ! elle est à M. le maire.",
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "source": "https://fr.wikisource.org/wiki/Le_Rouge_et_le_Noir/Texte_entier",
+          "sha256": "faf7ec9f84fecb2a2c72138ee786bc9fe45967fe1a1808cbc05cf918305ee593"
+        },
+        {
+          "id": "stendhal-rouge-noir-p02",
+          "text": "« Amanda Binet, au café de la Girafe, avant huit heures. Dire que l’on est de Genlis, et le cousin de ma mère. »\n\nJulien vit l’immensité du danger ; la police de l’abbé Castanède lui avait volé cette adresse.\n\n— Le jour où j’entrai ici, répondit-il en regardant le front de l’abbé Pirard, car il ne pouvait supporter son œil terrible, j’étais tremblant : M. Chélan m’avait dit que c’était un lieu plein de délations et de méchancetés de tous les genres ; l’espionnage et la dénonciation entre camarades y sont encouragés. Le ciel le veut ainsi, pour montrer la vie telle qu’elle est, aux jeunes prêtres, et leur inspirer le dégoût du monde et de ses pompes.\n\n— Et c’est à moi que vous faites des phrases, dit l’abbé Pirard furieux. Petit coquin !\n\n— À Verrières, reprit froidement Julien, mes frères me battaient lorsqu’ils avaient sujet d’être jaloux de moi…\n\n— Au fait ! au fait ! s’écria M. Pirard, presque hors de lui.\n\nSans être le moins du monde intimidé, Julien reprit sa narration.\n\n— Le jour de mon arrivée à Besançon, vers midi, j’avais faim, j’entrai dans un café. Mon cœur était rempli de répugnance pour un lieu si profane ; mais je pensai que mon déjeuner me coûterait moins cher là qu’à l’auberge. Une dame, qui paraissait la maîtresse de la boutique, eut pitié de mon air novice. Besançon est rempli de mauvais sujets, me dit-elle, je crains pour vous, monsieur. S’il vous arrivait quelque mauvaise affaire, ayez recours à moi, envoyez chez moi avant huit heures. Si les portiers du séminaire refusent de faire votre commission, dites que vous êtes mon cousin, et natif de Genlis…\n\n— Tout ce bavardage va être vérifié, s’écria l’abbé Pirard, qui, ne pouvant rester en place, se promenait dans la chambre.\n\nQu’on se rende dans sa cellule.\n\nL’abbé suivit Julien et l’enferma à clé. Celui-ci se mit aussitôt à visiter sa malle, au fond de laquelle la fatale carte était précieusement cachée. Rien ne manquait dans la malle, mais il y avait plusieurs dérangements ; cependant la clef ne le quittait jamais. Quel bonheur, se dit Julien, que, pendant le temps de mon aveuglement, je n’aie jamais accepté la permission de sortir, que M. Castanède m’offrait si souvent avec une bonté que je comprends maintenant. Peut-être j’aurais eu la faiblesse de changer d’habits et d’aller voir la belle Amanda, je me serais perdu. Quand on a désespéré de tirer parti du renseignement de cette manière, pour ne pas le perdre, on en a fait une dénonciation.",
+          "startParagraph": 1149,
+          "endParagraph": 1159,
+          "source": "https://fr.wikisource.org/wiki/Le_Rouge_et_le_Noir/Texte_entier",
+          "sha256": "c2cc66585701894f51587b3b8c14d45eb2aa4492335e2798aa59ecb662aa3af6"
+        },
+        {
+          "id": "stendhal-rouge-noir-p03",
+          "text": "Rien ne saurait exprimer les angoisses de Julien. Il écoutait les confidences détaillées de l’amour éprouvé pour d’autres dans cette même allée de tilleuls où si peu de jours auparavant il attendait que une heure sonnât pour pénétrer dans sa chambre. Un être humain ne peut soutenir le malheur à un plus haut degré.\n\nCe genre d’intimité cruelle dura huit grands jours. Mathilde tantôt semblait rechercher, tantôt ne fuyait pas les occasions de lui parler ; et le sujet de conversation, auquel ils semblaient tous deux revenir avec une sorte de volupté cruelle, c’était le récit des sentiments qu’elle avait éprouvés pour d’autres : elle lui racontait les lettres qu’elle avait écrites, elle lui en rappelait jusqu’aux paroles, elle lui récitait des phrases entières. Les derniers jours elle semblait contempler Julien avec une sorte de joie maligne. Ses douleurs étaient une vive jouissance pour elle.\n\nOn voit que Julien n’avait aucune expérience de la vie, il n’avait pas même lu de romans ; s’il eût été un peu moins gauche et qu’il eût dit avec quelque sang-froid à cette jeune fille, par lui si adorée et qui lui faisait des confidences si étranges : Convenez que quoique je ne vaille pas tous ces messieurs, c’est pourtant moi que vous aimez…\n\nPeut-être eût-elle été heureuse d’être devinée ; du moins le succès eût-il dépendu entièrement de la grâce avec laquelle Julien eût exprimé cette idée, et du moment qu’il eût choisi. Dans tous les cas, il sortait bien, et avec avantage pour lui, d’une situation qui allait devenir monotone aux yeux de Mathilde.\n\n— Et vous ne m’aimez plus, moi qui vous adore !  lui dit un jour Julien éperdu d’amour et de malheur. Cette sottise était à peu près la plus grande qu’il pût commettre.\n\nCe mot détruisit en un clin d’œil tout le plaisir que  mademoiselle de La Mole trouvait à lui parler de l’état de son cœur. Elle commençait à s’étonner qu’après ce qui s’était passé il ne s’offensât pas de ses récits ; elle allait jusqu’à s’imaginer, au moment où il lui tint ce sot propos, que peut-être il ne l’aimait plus. La fierté a sans doute éteint son amour, se disait-elle. Il n’est pas homme à se voir impunément préférer des êtres comme Caylus, de Luz, Croisenois, qu’il avoue lui être tellement supérieurs. Non, je ne le verrai plus à mes pieds !",
+          "startParagraph": 2298,
+          "endParagraph": 2303,
+          "source": "https://fr.wikisource.org/wiki/Le_Rouge_et_le_Noir/Texte_entier",
+          "sha256": "fe029045c206ecc5dccc5075922ece932a29aa3c32754967b30674f2c85f7997"
+        }
+      ],
+      "text": "La petite ville de Verrières peut passer pour l’une des plus jolies de la Franche-Comté. Ses maisons blanches avec leurs toits pointus de tuiles rouges, s’étendent sur la pente d’une colline, dont des touffes de vigoureux châtaigniers marquent les moindres sinuosités. Le Doubs coule à quelques centaines de pieds au-dessous de ses fortifications, bâties jadis par les Espagnols, et maintenant ruinées.\n\nVerrières est abritée du côté du nord par une haute montagne, c’est une des branches du Jura. Les cimes brisées du Verra se couvrent de neige dès les premiers froids d’octobre. Un torrent, qui se précipite de la montagne, traverse Verrières avant de se jeter dans le Doubs, et donne le mouvement à un grand nombre de scies à bois ; c’est une industrie fort simple et qui procure un certain bien-être à la majeure partie des habitants plus paysans que bourgeois. Ce ne sont pas cependant les scies à bois qui ont enrichi cette petite ville. C’est à la fabrique des toiles peintes, dites de Mulhouse, que l’on doit l’aisance générale qui, depuis la chute de Napoléon, a fait rebâtir les façades de presque toutes les maisons de Verrières.\n\nÀ peine entre-t-on dans la ville que l’on est étourdi par le fracas d’une machine bruyante et terrible en apparence. Vingt marteaux pesants, et retombant avec un bruit qui fait trembler le pavé, sont élevés par une roue que l’eau du torrent fait mouvoir. Chacun de ces marteaux fabrique, chaque jour, je ne sais combien de milliers de clous. Ce sont de jeunes filles fraîches et jolies qui présentent aux coups de ces marteaux énormes les petits morceaux de fer qui sont rapidement transformés en clous. Ce travail, si rude en apparence, est un de ceux qui étonnent le plus le voyageur qui pénètre pour la première fois dans les montagnes qui séparent la France de l’Helvétie. Si, en entrant à Verrières, le voyageur demande à qui appartient cette belle fabrique de clous qui assourdit les gens qui montent la grande rue, on lui répond avec un accent traînard : Eh ! elle est à M. le maire.",
+      "editionYear": 1854,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Le_Rouge_et_le_Noir.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "625756a374da7701178d60cf059d721c871f92e812283632222b6f473dff88e4"
+    },
+    {
+      "id": "voltaire-candide",
+      "title": "Candide, ou l’Optimisme",
+      "author": "Voltaire",
+      "audience": "adult",
+      "year": "1759",
+      "tags": [
+        "conte philosophique",
+        "réfléchir",
+        "société",
+        "drôle"
+      ],
+      "genre": "conte philosophique",
+      "source": "https://fr.wikisource.org/wiki/Candide,_ou_l%E2%80%99Optimisme/Garnier_1877/Chapitre_1",
+      "edition": "Livre:Voltaire - Œuvres complètes Garnier tome21.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1778,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Voltaire",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "12770179",
+      "passages": [
+        {
+          "id": "voltaire-candide-p01",
+          "text": "Il y avait en Vestphalie, dans le château de M. le baron de Thunder-ten-tronckh, un jeune garçon à qui la nature avait donné les mœurs les plus douces. Sa physionomie annonçait son âme. Il avait le jugement assez droit, avec l’esprit le plus simple ; c’est, je crois, pour cette raison qu’on le nommait Candide. Les anciens domestiques de la maison soupçonnaient qu’il était fils de la sœur de monsieur le baron et d’un bon et honnête gentilhomme du voisinage, que cette demoiselle ne voulut jamais épouser parce qu’il n’avait pu prouver que soixante et onze quartiers, et que le reste de son arbre généalogique avait été perdu par l’injure du temps.\n\nMonsieur le baron était un des plus puissants seigneurs de la Vestphalie, car son château avait une porte et des fenêtres. Sa grande salle même était ornée d’une tapisserie. Tous les chiens de ses basses-cours composaient une meute dans le besoin ; ses palefreniers étaient ses piqueurs ; le vicaire du village était son grand aumônier. Ils l’appelaient tous Monseigneur, et ils riaient quand il faisait des contes.\n\nMadame la baronne, qui pesait environ trois cent cinquante livres, s’attirait par là une très-grande considération, et faisait les honneurs de la maison avec une dignité qui la rendait encore plus respectable. Sa fille Cunégonde, âgée de dix-sept ans, était haute en couleur, fraîche, grasse, appétissante. Le fils du baron paraissait en tout digne de son père. Le précepteur Pangloss était l’oracle de la maison, et le petit Candide écoutait ses leçons avec toute la bonne foi de son âge et de son caractère.\n\nPangloss enseignait la métaphysico-théologo-cosmolo-nigologie. Il prouvait admirablement qu’il n’y a point d’effet sans cause, et que, dans ce meilleur des mondes possibles, le château de monseigneur le baron était le plus beau des châteaux, et madame la meilleure des baronnes possibles.",
+          "startParagraph": 0,
+          "endParagraph": 3,
+          "source": "https://fr.wikisource.org/wiki/Candide,_ou_l%E2%80%99Optimisme/Garnier_1877/Chapitre_1",
+          "sha256": "f6c54e5e78cab7431096fe6a5eccc24536ef0633d9c85a712b2acdb57b561420"
+        },
+        {
+          "id": "voltaire-candide-p02",
+          "text": "« Il est démontré, disait-il, que les choses ne peuvent être autrement : car tout étant fait pour une fin, tout est nécessairement pour la meilleure fin. Remarquez bien que les nez ont été faits pour porter des lunettes ; aussi avons-nous des lunettes. Les jambes sont visiblement instituées pour être chaussées, et nous avons des chausses. Les pierres ont été formées pour être taillées et pour en faire des châteaux ; aussi monseigneur a un très-beau château : le plus grand baron de la province doit être le mieux logé ; et les cochons étant faits pour être mangés, nous mangeons du porc toute l’année. Par conséquent, ceux qui ont avancé que tout est bien ont dit une sottise : il fallait dire que tout est au mieux. »\n\nCandide écoutait attentivement, et croyait innocemment : car il trouvait Mlle Cunégonde extrêmement belle, quoiqu’il ne prît jamais la hardiesse de le lui dire. Il concluait qu’après le bonheur d’être né baron de Thunder-ten-tronckh, le second degré de bonheur était d’être Mlle Cunégonde ; le troisième, de la voir tous les jours ; et le quatrième, d’entendre maître Pangloss, le plus grand philosophe de la province, et par conséquent de toute la terre.\n\nUn jour, Cunégonde, en se promenant auprès du château, dans le petit bois qu’on appelait parc, vit entre des broussailles le docteur Pangloss qui donnait une leçon de physique expérimentale à la femme de chambre de sa mère, petite brune très-jolie et très-docile. Comme Mlle Cunégonde avait beaucoup de disposition pour les sciences, elle observa, sans souffler, les expériences réitérées dont elle fut témoin ; elle vit clairement la raison suffisante du docteur, les effets et les causes, et s’en retourna tout agitée, toute pensive, toute remplie du désir d’être savante, songeant qu’elle pourrait bien être la raison suffisante du jeune Candide, qui pouvait aussi être la sienne.",
+          "startParagraph": 4,
+          "endParagraph": 6,
+          "source": "https://fr.wikisource.org/wiki/Candide,_ou_l%E2%80%99Optimisme/Garnier_1877/Chapitre_1",
+          "sha256": "148e017b87a72e874273b180a0dd86bd2b3abc0e829128ab6d104ef571b966d5"
+        },
+        {
+          "id": "voltaire-candide-p03",
+          "text": "Elle rencontra Candide en revenant au château, et rougit ; Candide rougit aussi.  Elle lui dit bonjour d’une voix entrecoupée ; et Candide lui parla sans savoir ce qu’il disait.  Le lendemain, après le dîner, comme on sortait de table, Cunégonde et Candide se trouvèrent derrière un paravent ; Cunégonde laissa tomber son mouchoir, Candide le ramassa ; elle lui prit innocemment la main ; le jeune homme baisa innocemment la main de la jeune demoiselle avec une vivacité, une sensibilité, une grâce toute particulière ; leurs bouches se rencontrèrent, leurs yeux s’enflammèrent, leurs genoux tremblèrent, leurs mains s’égarèrent. M. le baron de Thunder-ten-tronckh passa auprès du paravent, et, voyant cette cause et cet effet, chassa Candide du château à grands coups de pied dans le derrière. Cunégonde s’évanouit : elle fut souffletée par madame la baronne dès qu’elle fut revenue à elle-même ; et tout fut consterné dans le plus beau et le plus agréable des châteaux possibles.",
+          "startParagraph": 7,
+          "endParagraph": 7,
+          "source": "https://fr.wikisource.org/wiki/Candide,_ou_l%E2%80%99Optimisme/Garnier_1877/Chapitre_1",
+          "sha256": "40a99efab97b351b39633c73522299bad2477876c63dec45ad3c94352155511c"
+        }
+      ],
+      "text": "Il y avait en Vestphalie, dans le château de M. le baron de Thunder-ten-tronckh, un jeune garçon à qui la nature avait donné les mœurs les plus douces. Sa physionomie annonçait son âme. Il avait le jugement assez droit, avec l’esprit le plus simple ; c’est, je crois, pour cette raison qu’on le nommait Candide. Les anciens domestiques de la maison soupçonnaient qu’il était fils de la sœur de monsieur le baron et d’un bon et honnête gentilhomme du voisinage, que cette demoiselle ne voulut jamais épouser parce qu’il n’avait pu prouver que soixante et onze quartiers, et que le reste de son arbre généalogique avait été perdu par l’injure du temps.\n\nMonsieur le baron était un des plus puissants seigneurs de la Vestphalie, car son château avait une porte et des fenêtres. Sa grande salle même était ornée d’une tapisserie. Tous les chiens de ses basses-cours composaient une meute dans le besoin ; ses palefreniers étaient ses piqueurs ; le vicaire du village était son grand aumônier. Ils l’appelaient tous Monseigneur, et ils riaient quand il faisait des contes.\n\nMadame la baronne, qui pesait environ trois cent cinquante livres, s’attirait par là une très-grande considération, et faisait les honneurs de la maison avec une dignité qui la rendait encore plus respectable. Sa fille Cunégonde, âgée de dix-sept ans, était haute en couleur, fraîche, grasse, appétissante. Le fils du baron paraissait en tout digne de son père. Le précepteur Pangloss était l’oracle de la maison, et le petit Candide écoutait ses leçons avec toute la bonne foi de son âge et de son caractère.\n\nPangloss enseignait la métaphysico-théologo-cosmolo-nigologie. Il prouvait admirablement qu’il n’y a point d’effet sans cause, et que, dans ce meilleur des mondes possibles, le château de monseigneur le baron était le plus beau des châteaux, et madame la meilleure des baronnes possibles.",
+      "editionYear": 1877,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Voltaire_-_%C5%92uvres_compl%C3%A8tes_Garnier_tome21.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "2d62060a9936606ccde75b66d33e53bbbd7a3fbe52ef1a57500f6ded5861ae83"
+    },
+    {
+      "id": "segur-malheurs-sophie",
+      "title": "Les Malheurs de Sophie",
+      "author": "Comtesse de Ségur",
+      "audience": "child",
+      "year": "1858",
+      "tags": [
+        "roman jeunesse",
+        "famille",
+        "nature",
+        "aventure"
+      ],
+      "genre": "roman jeunesse",
+      "source": "https://fr.wikisource.org/wiki/Les_Malheurs_de_Sophie/Texte_entier",
+      "edition": "Livre:Ségur - Les Malheurs de Sophie.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1874,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Comtesse_de_S%C3%A9gur",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "13142260",
+      "passages": [
+        {
+          "id": "segur-malheurs-sophie-p01",
+          "text": "« Ma bonne, ma bonne, dit un jour Sophie en accourant dans sa chambre, venez vite ouvrir une caisse que papa m’a envoyée de Paris ; je crois que c’est une poupée de cire, car il m’en a promis une.\n\nOù est la caisse ?\n\nDans l’antichambre : venez vite, ma bonne, je vous en supplie. »\n\nLa bonne posa son ouvrage et suivit Sophie à l’antichambre. Une caisse de bois blanc était posée sur une chaise ; la bonne l’ouvrit. Sophie aperçut la tête blonde et frisée d’une jolie poupée de cire ; elle poussa un cri de joie et voulut saisir la poupée, qui était encore couverte d’un papier d’emballage.\n\nPrenez garde ! ne tirez pas encore ; vous allez tout casser. La poupée tient par des cordons.\n\nCassez-les, arrachez-les ; vite, ma bonne, que j’aie ma poupée.\n\nLa bonne, au lieu de tirer et d’arracher, prit ses ciseaux, coupa les cordons, enleva les papiers, et Sophie put prendre la plus jolie poupée qu’elle eût jamais vue. Les joues étaient roses avec de petites fossettes ; les yeux bleus et brillants ; le cou, la poitrine, les bras en cire, charmants et potelés. La toilette était très simple : une robe de percale festonnée, une ceinture bleue, des bas de coton et des brodequins noirs en peau vernie.\n\nSophie l’embrassa plus de vingt fois, et, la tenant dans ses bras, elle se mit à sauter et à danser. Son cousin Paul, qui avait cinq ans, et qui était en visite chez Sophie, accourut aux cris de joie qu’elle poussait.\n\n« Paul, regarde quelle jolie poupée m’a envoyée papa ! s’écria Sophie.\n\nDonne-la-moi, que je la voie mieux.\n\nNon, tu la casserais.\n\nJe t’assure que j’y prendrai bien garde ; je te la rendrai tout de suite. »\n\nSophie donna la poupée à son cousin, en lui recommandant encore de prendre bien garde de la faire tomber. Paul la retourna, la regarda de tous les côtés, puis la remit à Sophie en secouant la tête.",
+          "startParagraph": 0,
+          "endParagraph": 12,
+          "source": "https://fr.wikisource.org/wiki/Les_Malheurs_de_Sophie/Texte_entier",
+          "sha256": "3e5b744c17230a5aad1a60dc9598cf0f447cd44184fa0911f89aba60652acc95"
+        },
+        {
+          "id": "segur-malheurs-sophie-p02",
+          "text": "Elle prit la théière, alla dans le jardin, cueillit quelques feuilles de trèfle, qu’elle mit dans la théière ; ensuite elle alla prendre de l’eau dans l’assiette où on en mettait pour le chien de sa maman, et elle versa cette eau dans la théière.\n\n« Là ! voilà le thé, dit-elle d’un air enchanté ; à présent je vais faire la crème. » Elle alla prendre un morceau de blanc qui servait pour nettoyer l’argenterie ; elle en racla un peu avec son petit couteau, le versa dans le pot à crème, qu’elle remplit de l’eau du chien, mêla bien avec une petite cuiller, et, quand l’eau fut bien blanche, elle replaça le pot sur la table. Il ne lui restait plus que le sucrier à remplir ; elle reprit la craie à argenterie, en cassa de petits morceaux avec son couteau, remplit le sucrier, qu’elle posa sur la table, et regarda le tout d’un air enchanté.\n\n« Là ! dit-elle en se frottant les mains, voilà un superbe thé ; j’espère que j’ai de l’esprit ! Je parie que Paul ni aucune de mes amies n’auraient eu une si bonne invention… »\n\nSophie attendit ses amies encore une demi-heure, mais elle ne s’ennuya pas ; elle était si contente de son thé, qu’elle ne voulait pas s’en  éloigner ; elle se promenait autour de la table, le regardant d’un air joyeux, se frottait les mains et répétait :\n\n« Dieu ! que j’ai de l’esprit ! que j’ai de l’esprit ! » Enfin Paul et les amies arrivèrent. Sophie\n\ncourut au-devant d’eux, les embrassa tous et les emmena bien vite dans le petit salon pour leur montrer ses belles choses. La boîte à couleurs les attrapa d’abord comme elle avait attrapé Sophie et sa bonne. Ils trouvèrent le thé charmant et voulaient tout de suite commencer le repas, mais Sophie leur demanda d’attendre jusqu’à trois heures. Ils se mirent donc tous à peindre les images des petits livres : chacun avait le sien. Quand on se fut bien amusé avec la boîte à couleurs et qu’on eut tout rangé soigneusement :",
+          "startParagraph": 386,
+          "endParagraph": 391,
+          "source": "https://fr.wikisource.org/wiki/Les_Malheurs_de_Sophie/Texte_entier",
+          "sha256": "5ebef89828bd320e2c9e73994cf3289b31c3e9943400a9de1ec9a6a38e16b1e3"
+        },
+        {
+          "id": "segur-malheurs-sophie-p03",
+          "text": "Quand le bon, l’honnête petit Paul apprit ce qu’avait fait Sophie, il en fut si indigné qu’il fut huit jours sans vouloir aller chez elle. Mais, quand il sut combien elle était affligée et repentante, et combien elle était honteuse d’être appelée voleuse, son bon cœur souffrit pour elle ; il alla la voir ; au lieu de la gronder, il la consola et lui dit :\n\n« Sais-tu, ma pauvre Sophie, le moyen de faire oublier ton vol ? C’est d’être si honnête, qu’on ne puisse pas même te soupçonner à l’avenir. »\n\nSophie lui promit d’être très honnête, et elle tint parole.\n\nSophie avait été très sage depuis quinze jours ; elle n’avait pas fait une seule grosse faute ; Paul disait qu’elle ne s’était pas mise en colère depuis longtemps ; la bonne disait qu’elle était devenue obéissante. La maman trouvait qu’elle n’était plus ni gourmande, ni menteuse, ni paresseuse, elle voulait récompenser Sophie, mais elle ne savait pas ce qui pourrait lui faire plaisir.\n\nUn jour qu’elle travaillait, sa fenêtre ouverte, pendant que Sophie et Paul jouaient devant la maison, elle entendit une conversation qui lui apprit ce que désirait Sophie.\n\nQue j’ai chaud, que j’ai chaud ! Je suis en nage.\n\nEt moi donc ! Et pourtant nous n’avons pas fait beaucoup d’ouvrage.\n\nC’est que nos brouettes sont si petites !\n\nSi nous prenions les grosses brouettes du potager, nous irions plus vite.\n\nNous n’aurions pas la force de les traîner : j’ai voulu un jour en mener une ; j’ai eu de la peine à l’enlever, et, quand j’ai voulu avancer, le poids de la brouette m’a entraîné, et j’ai versé toute la terre qui était dedans.\n\nMais notre jardin ne sera jamais fini ; avant de le bêcher et de le planter, nous devons y traîner plus de cent brouettes de bonne terre. Et il y a si loin pour l’aller chercher !\n\nQue veux-tu ? Ce sera long, mais nous finirons par le faire.",
+          "startParagraph": 772,
+          "endParagraph": 783,
+          "source": "https://fr.wikisource.org/wiki/Les_Malheurs_de_Sophie/Texte_entier",
+          "sha256": "3948ff5f804e9faf38e20b531f0f14d155747eb6aad5372e8e7334f22b298350"
+        }
+      ],
+      "text": "« Ma bonne, ma bonne, dit un jour Sophie en accourant dans sa chambre, venez vite ouvrir une caisse que papa m’a envoyée de Paris ; je crois que c’est une poupée de cire, car il m’en a promis une.\n\nOù est la caisse ?\n\nDans l’antichambre : venez vite, ma bonne, je vous en supplie. »\n\nLa bonne posa son ouvrage et suivit Sophie à l’antichambre. Une caisse de bois blanc était posée sur une chaise ; la bonne l’ouvrit. Sophie aperçut la tête blonde et frisée d’une jolie poupée de cire ; elle poussa un cri de joie et voulut saisir la poupée, qui était encore couverte d’un papier d’emballage.\n\nPrenez garde ! ne tirez pas encore ; vous allez tout casser. La poupée tient par des cordons.\n\nCassez-les, arrachez-les ; vite, ma bonne, que j’aie ma poupée.\n\nLa bonne, au lieu de tirer et d’arracher, prit ses ciseaux, coupa les cordons, enleva les papiers, et Sophie put prendre la plus jolie poupée qu’elle eût jamais vue. Les joues étaient roses avec de petites fossettes ; les yeux bleus et brillants ; le cou, la poitrine, les bras en cire, charmants et potelés. La toilette était très simple : une robe de percale festonnée, une ceinture bleue, des bas de coton et des brodequins noirs en peau vernie.\n\nSophie l’embrassa plus de vingt fois, et, la tenant dans ses bras, elle se mit à sauter et à danser. Son cousin Paul, qui avait cinq ans, et qui était en visite chez Sophie, accourut aux cris de joie qu’elle poussait.\n\n« Paul, regarde quelle jolie poupée m’a envoyée papa ! s’écria Sophie.\n\nDonne-la-moi, que je la voie mieux.\n\nNon, tu la casserais.\n\nJe t’assure que j’y prendrai bien garde ; je te la rendrai tout de suite. »\n\nSophie donna la poupée à son cousin, en lui recommandant encore de prendre bien garde de la faire tomber. Paul la retourna, la regarda de tous les côtés, puis la remit à Sophie en secouant la tête.",
+      "editionYear": 1929,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:S%C3%A9gur_-_Les_Malheurs_de_Sophie.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "e12214ca8c7660312ef3b024fd4f71db4284a86140a0b424e2ba610e56195451"
+    },
+    {
+      "id": "segur-petites-filles",
+      "title": "Les Petites Filles modèles",
+      "author": "Comtesse de Ségur",
+      "audience": "child",
+      "year": "1858",
+      "tags": [
+        "roman jeunesse",
+        "famille",
+        "amitié",
+        "nature"
+      ],
+      "genre": "roman jeunesse",
+      "source": "https://fr.wikisource.org/wiki/Les_Petites_Filles_mod%C3%A8les/Texte_entier",
+      "edition": "Livre:Ségur - Les petites filles modèles.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1874,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Comtesse_de_S%C3%A9gur",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "14174981",
+      "passages": [
+        {
+          "id": "segur-petites-filles-p01",
+          "text": "Mme de Fleurville était la mère de deux petites filles, bonnes, gentilles, aimables, et qui avaient l’une pour l’autre le plus tendre attachement. On voit souvent des frères et des sœurs se quereller, se contredire et venir se plaindre à leurs parents après s’être disputés de manière qu’il soit impossible de démêler de quel côté vient le premier tort. Jamais on n’entendait une discussion entre Camille et Madeleine. Tantôt l’une, tantôt l’autre cédait au désir exprimé par sa sœur.\n\nPourtant leurs goûts n’étaient pas exactement les mêmes. Camille, plus âgée d’un an que  Madeleine, avait huit ans. Plus vive, plus étourdie, préférant les jeux bruyants aux jeux tranquilles, elle aimait à courir, à faire et à entendre du tapage. Jamais elle ne s’amusait autant que lorsqu’il y avait une grande réunion d’enfants, qui lui permettait de se livrer sans réserve à ses jeux favoris.\n\nMadeleine préférait au contraire à tout ce joyeux tapage les soins qu’elle donnait à sa poupée et à celle de Camille, qui, sans Madeleine, eût risqué souvent de passer la nuit sur une chaise et de ne changer de linge et de robe que tous les trois ou quatre jours.\n\nMais la différence de leurs goûts n’empêchait pas leur parfaite union. Madeleine abandonnait avec plaisir son livre ou sa poupée dès que sa sœur exprimait le désir de se promener ou de courir ; Camille, de son côté, sacrifiait son amour pour la promenade et pour la chasse aux papillons dès que Madeleine témoignait l’envie de se livrer à des amusements plus calmes.\n\nElles étaient parfaitement heureuses, ces bonnes petites sœurs, et leur maman les aimait tendrement ; toutes les personnes qui les connaissaient les aimaient aussi et cherchaient à leur faire plaisir.\n\nUn jour, Madeleine peignait sa poupée ; Camille lui présentait les peignes, rangeait les robes, les souliers, changeait de place les lits de poupée, transportait les armoires, les commodes, les chaises, les tables. Elle voulait, disait-elle, faire leur déménagement : car ces dames (les poupées) avaient changé de maison.",
+          "startParagraph": 0,
+          "endParagraph": 5,
+          "source": "https://fr.wikisource.org/wiki/Les_Petites_Filles_mod%C3%A8les/Texte_entier",
+          "sha256": "253f1177e3dbf0dbac213adcced287ee94b2f7c17a5500ad54d18482319a5383"
+        },
+        {
+          "id": "segur-petites-filles-p02",
+          "text": "Elle assit la poupée au pied de l’arbre, sauta de joie d’en être débarrassée, et cueillit des fraises avec ardeur.\n\nAu bout d’un quart d’heure, Mme de Fleurville leva les yeux, regarda le ciel qui se couvrait de nuages, mit son livre dans sa poche, se leva et appela les enfants.\n\n« Vite, vite, mes petites, retournons à la maison : voilà un orage qui s’approche ; tâchons de rentrer avant que la pluie commence. »\n\nLes trois petites accoururent avec leurs fraises et en offrirent à Mme de Fleurville.\n\nNous n’avons pas le temps de nous régaler de fraises, mes enfants ; emportez-les avec vous. Voyez comme le ciel devient noir ; on entend déjà le tonnerre.\n\nAh ! mon Dieu ! j’ai peur.\n\nDe quoi as-tu peur, Marguerite ?\n\nDu tonnerre. J’ai peur qu’il ne tombe sur moi.\n\nD’abord, quand le tonnerre tombe, c’est généralement sur les arbres ou sur les cheminées, qui sont plus élevés et présentent une pointe aux nuages ; ensuite le tonnerre ne te ferait aucun mal quand même il tomberait sur toi, parce que tu as un fichu de soie et des rubans de soie à ton chapeau.\n\nComment ? la soie chasse le tonnerre ?\n\nOui, le tonnerre ne touche jamais aux personnes qui ont sur elles quelque objet en soie. L’été dernier, un de mes amis qui demeure à Paris, rue de Varenne, revenait chez lui par un orage épouvantable ; le tonnerre est tombé sur lui, a fondu sa montre, sa chaîne, les boucles de son gilet, les clefs qui étaient dans sa poche, les boutons d’or de son habit, sans lui faire aucun mal, sans même l’étourdir, parce qu’il avait une ceinture de soie qu’il porte pour se préserver de l’humidité.\n\nAh ! que je suis contente de savoir cela ! je n’aurai plus peur du tonnerre.\n\nVoilà le vent d’orage qui s’élève ; courons vite, dans dix minutes la pluie tombera à torrents.\n\nLes trois enfants se mirent à courir.",
+          "startParagraph": 572,
+          "endParagraph": 585,
+          "source": "https://fr.wikisource.org/wiki/Les_Petites_Filles_mod%C3%A8les/Texte_entier",
+          "sha256": "5b6b1e2263e9e911e4d7640c0768817460daf7d92281ee70bb25e297fc071668"
+        },
+        {
+          "id": "segur-petites-filles-p03",
+          "text": "Le maître d’école est venu m’en parler il y a peu de jours ; il en est très mécontent ; elle ne travaille pas, ne l’écoute pas ; elle cherche à entraîner les autres petites filles à mal faire. Ce qui est pis encore, c’est qu’elle vole tout ce qu’elle peut attraper ; les mouchoirs de ses petites compagnes, leurs provisions, les plumes, le papier, tout ce qui est à sa portée.\n\nMais comment sait-on que c’est Jeannette qui vole ? Les petites filles perdent peut-être elles-mêmes leurs affaires.\n\nOn l’a surprise déjà trois fois pendant qu’elle volait, ou qu’elle emportait sous ses jupons les objets qu’elle avait volés ! Depuis ce temps, la maîtresse d’école la fouille tous les soirs avant de la laisser partir.\n\nEt sa mère, qui l’a tant fouettée l’année dernière pour la poupée, ne la punit donc pas ?\n\nSa mère l’a fouettée sévèrement pour la poupée parce que ce vol lui avait fait perdre les présents que je devais lui donner ; mais il paraît qu’elle l’élève très mal, et qu’elle lui donne de mauvais exemples.\n\nEst-ce que sa mère vole aussi ?\n\nElle vole dans un autre genre que sa fille ; ainsi quand on lui apporte du grain à moudre, elle en cache une partie. Elle va la nuit avec son mari voler du bois dans la forêt qui m’appartient ; elle vole du poisson de mes étangs et elle va le vendre au marché. Jeannette voit tout cela, et elle fait comme ses parents. C’est un grand malheur : le bon Dieu les punira un jour, et personne ne les plaindra. »\n\nLa promenade fut très agréable. On suivit un chemin qui entrait dans le bois ; les enfants virent de loin Jeannette qui se sauva dans le moulin aussitôt qu’elle les aperçut.\n\nRegarde, Sophie ; vois-tu la tête de Jeannette qui passe par la lucarne du grenier ?\n\nAh ! elle la rentre ! la voici qui reparaît à l’autre bout du grenier.\n\nPrenez garde, Jeannette nous lance des pierres !",
+          "startParagraph": 1145,
+          "endParagraph": 1155,
+          "source": "https://fr.wikisource.org/wiki/Les_Petites_Filles_mod%C3%A8les/Texte_entier",
+          "sha256": "6c1e7cfd6f34dca7bd1498f3fc7718124a5abea4f5384b6aba21b6aa2d109f50"
+        }
+      ],
+      "text": "Mme de Fleurville était la mère de deux petites filles, bonnes, gentilles, aimables, et qui avaient l’une pour l’autre le plus tendre attachement. On voit souvent des frères et des sœurs se quereller, se contredire et venir se plaindre à leurs parents après s’être disputés de manière qu’il soit impossible de démêler de quel côté vient le premier tort. Jamais on n’entendait une discussion entre Camille et Madeleine. Tantôt l’une, tantôt l’autre cédait au désir exprimé par sa sœur.\n\nPourtant leurs goûts n’étaient pas exactement les mêmes. Camille, plus âgée d’un an que  Madeleine, avait huit ans. Plus vive, plus étourdie, préférant les jeux bruyants aux jeux tranquilles, elle aimait à courir, à faire et à entendre du tapage. Jamais elle ne s’amusait autant que lorsqu’il y avait une grande réunion d’enfants, qui lui permettait de se livrer sans réserve à ses jeux favoris.\n\nMadeleine préférait au contraire à tout ce joyeux tapage les soins qu’elle donnait à sa poupée et à celle de Camille, qui, sans Madeleine, eût risqué souvent de passer la nuit sur une chaise et de ne changer de linge et de robe que tous les trois ou quatre jours.\n\nMais la différence de leurs goûts n’empêchait pas leur parfaite union. Madeleine abandonnait avec plaisir son livre ou sa poupée dès que sa sœur exprimait le désir de se promener ou de courir ; Camille, de son côté, sacrifiait son amour pour la promenade et pour la chasse aux papillons dès que Madeleine témoignait l’envie de se livrer à des amusements plus calmes.\n\nElles étaient parfaitement heureuses, ces bonnes petites sœurs, et leur maman les aimait tendrement ; toutes les personnes qui les connaissaient les aimaient aussi et cherchaient à leur faire plaisir.\n\nUn jour, Madeleine peignait sa poupée ; Camille lui présentait les peignes, rangeait les robes, les souliers, changeait de place les lits de poupée, transportait les armoires, les commodes, les chaises, les tables. Elle voulait, disait-elle, faire leur déménagement : car ces dames (les poupées) avaient changé de maison.",
+      "editionYear": 1918,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:S%C3%A9gur_-_Les_petites_filles_mod%C3%A8les.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "87661d4b8795fa7ebceb1366b12f2d8e4b2c464c391e3c8987a5f727cce932b2"
+    },
+    {
+      "id": "segur-bon-petit-diable",
+      "title": "Un bon petit diable",
+      "author": "Comtesse de Ségur",
+      "audience": "child",
+      "year": "1865",
+      "tags": [
+        "roman jeunesse",
+        "courage",
+        "famille",
+        "drôle"
+      ],
+      "genre": "roman jeunesse",
+      "source": "https://fr.wikisource.org/wiki/Un_bon_petit_diable/1",
+      "edition": "Livre:Ségur - Un bon petit diable.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1874,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Comtesse_de_S%C3%A9gur",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "2033031",
+      "passages": [
+        {
+          "id": "segur-bon-petit-diable-p01",
+          "text": "Dans une petite ville d’Écosse, dans la petite rue des Combats, vivait une veuve d’une cinquantaine d’années, Mme Mac’Miche. Elle avait l’air dur et repoussant. Elle ne voyait personne, de peur de se trouver entraînée dans quelque dépense, car elle était d’une avarice extrême. Sa maison était vieille, sale et triste ; elle tricotait un jour dans une chambre du premier étage, simplement, presque misérablement meublée. Elle jetait de temps en temps un coup d’œil à la fenêtre et paraissait attendre quelqu’un ; après avoir donné divers \nsignes d’impatience, elle s’écria :\n\n« Ce misérable enfant ! Toujours en retard ! Détestable \nsujet ! Il finira par la prison et la corde, \nsi je ne parviens à le corriger ! »\n\nÀ peine avait-elle achevé ces mots que la porte \nvitrée qui faisait face à la croisée s’ouvrit ; un \njeune garçon de douze ans entra et s’arrêta devant \nle regard courroucé de la femme. Il y avait, dans \nla physionomie et dans toute l’attitude de l’enfant, \nun mélange prononcé de crainte et de décision.\n\nD’où viens-tu ? Pourquoi rentres-tu si tard, paresseux ?\n\nMa cousine, j’ai été retenu un quart d’heure par \nJuliette, qui m’a demandé de la ramener chez elle, \nparce qu’elle s’ennuyait chez M. le juge de paix.\n\nQuel besoin avais-tu de la ramener ? Quelqu’un \nde chez le juge de paix ne pouvait-il s’en charger ? \nTu fais toujours l’aimable, l’officieux ; tu sais pourtant \nque j’ai besoin de toi. Mais tu t’en repentiras, \nmauvais garnement !… Suis-moi. »\n\nCharles, combattu entre le désir de résister à sa \ncousine et la crainte qu’elle lui inspirait, hésita un \ninstant ; la cousine se retourna, et, le voyant encore \nimmobile, elle le saisit par l’oreille et l’entraîna \nvers un cabinet noir dans lequel elle le poussa violemment.\n\n« Une heure de cabinet et du pain et de l’eau  pour dîner ; et une autre fois ce sera bien autre \nchose.",
+          "startParagraph": 0,
+          "endParagraph": 7,
+          "source": "https://fr.wikisource.org/wiki/Un_bon_petit_diable/1",
+          "sha256": "2e877923947705b5115fa90a7401b3cb9d353e2893d515d7a62c798206d7515f"
+        },
+        {
+          "id": "segur-bon-petit-diable-p02",
+          "text": "Charles ne fit qu’un saut et se trouva dans le \njardin, du côté opposé à la chambre où travaillait \nsa cousine. Betty le suivit des yeux en souriant.\n\n« Mauvaise tête, dit-elle, mais bon cœur ! S’il \nétait mené moins rudement, le bon l’emporterait \nsur le mauvais… Pourvu qu’il revienne !… Ça me \nferait une belle affaire !\n\n— Betty ! cria la cousine d’une voix aigre.\n\n— Madame ! répondit Betty en entrant.\n\nN’oublie pas d’ouvrir la prison de ce mauvais sujet dans une demi-heure, et qu’il apporte \nNicolas Nickleby ; il lira haut jusqu’au dîner pendant \nque je travaillerai.\n\nOui, Madame ; je n’y manquerai pas. »\n\nAu bout d’une demi-heure, Betty alla dans sa \nchambre ; elle n’y trouva personne. Charles n’était pas rentré ; elle regarda à la fenêtre,… personne !\n\n« J’en étais sûre ! Me voilà dans de beaux draps, \nà présent ! Qu’est-ce que je dirai ? Comment expliquer \n?… Ah ! une idée ! Elle est bonne pour Madame, \nqui croit aux fées et qui en a une peur \neffroyable. On lui fait croire tout ce qu’on veut en \nlui parlant fées. Je crois donc que mon idée est \nbonne ; avec tout autre, ça n’irait pas.\n\n— Betty, Betty ! cria la voix aigre.\n\nVoici, Madame.\n\nEh bien ? Charles ? envoie-le-moi.\n\nJe l’aurais déjà envoyé à Madame, si j’avais la \nclef du cabinet ; mais je ne peux pas la trouver.\n\nElle est à la porte, je l’y ai laissée.\n\nElle n’y est pas, Madame ; j’y ai regardé.\n\nC’est impossible ; il ne pouvait pas ouvrir par \ndedans.\n\nQue Madame vienne voir. »\n\nMme Mac’Miche se leva, alla voir et ne trouva \npas la clef.\n\nC’est incroyable ! je suis sûre de l’avoir laissée \nà la porte. Charles !… Charles !… Veux-tu répondre, \npolisson ! »\n\nPas de réponse. Le visage de Mme Mac’Miche \ncommença à exprimer l’inquiétude.\n\nQue vais-je faire ? Je n’ai plus que lui pour me \nlire haut pendant que je tricote. Mais cherche \ndonc, Betty ! Tu restes là comme un constable, \nsans me venir en aide.",
+          "startParagraph": 30,
+          "endParagraph": 49,
+          "source": "https://fr.wikisource.org/wiki/Un_bon_petit_diable/1",
+          "sha256": "7537a43d6f771e3a695c49a958e01cafecd8a7a04563c0345019ca3bcafa8ef3"
+        },
+        {
+          "id": "segur-bon-petit-diable-p03",
+          "text": "L’air épanoui et triomphant de Betty fit naître \ndes soupçons dans l’esprit méfiant de Mme Mac’Miche, \nqui ne pouvait comprendre qu’on n’eût pas \npeur des fées.\n\n« Vous êtes sortie d’ici après moi, dit-elle en \nregardant Betty fixement et sévèrement.\n\nJe suivais Madame ; bien certainement, je n’aurais \npas passé devant Madame.\n\nAllez ouvrir le cabinet et amenez-moi Charles, \nqui mérite une punition pour n’avoir pas répondu \nquand je l’ai appelé. »\n\nBetty sortit, et, après quelques instants, \nrentra précipitamment en feignant une grande \nfrayeur.\n\n« Madame ! Madame ! Charlot est tué,… étendu \nmort sur le plancher ! Quand je disais ! les fées \nl’ont étranglé. »\n\nMme Mac’Miche se dirigea avec épouvante vers \nle cabinet, et aperçut en effet Charles étendu par \nterre sans mouvement, le visage blanc comme un \nmarbre. Elle voulut l’approcher, le toucher ; mais \nCharles, qui n’était pas tout à fait mort, fut pris \nde convulsions et détacha à sa cousine force coups  \nde poing et coups de pied dans le visage et la \npoitrine. Betty, de son côté, fut prise d’un rire convulsif \nqui augmentait à chaque coup de pied que \nrecevait la cousine et à chaque cri qu’elle poussait ; \nla frayeur tenait Mme Mac’Miche clouée à sa place, \net Charles avait beau jeu pour se laisser aller à \nses mouvements désordonnés. Un coup de poing \nbien appliqué sur la bouche de sa cousine fit \ntomber ses fausses dents avant qu’elle eût pu les \nsaisir, et pendant qu’elle était encore baissée, \nCharles se roula, saisit les faux cheveux de \nMme Mac’Miche, les arracha, toujours par des \nmouvements convulsifs, les chiffonna de ses doigts \ncrispés, ouvrit les yeux, se roula vers Betty, et, \nlui saisissant les mains comme pour se relever, \nlui glissa les dents de sa cousine.\n\n« Dans sa soupe », dit-il tout bas.\n\nLes convulsions de Charles avaient cessé ; son \nvisage si blanc avait repris sa teinte rose  accoutumée ; les sourcils seuls étaient restés pâles \net comme imprégnés de poudre blanche, probablement \ncelle que les fées avaient répandue \nsur son visage, et que l’agitation des convulsions \navait fait partir. Betty, moins heureuse que \nCharles, ne pouvait encore dominer son rire nerveux. \nMme Mac’Miche ne savait trop que penser \nde cette scène ; après avoir promené ses regards \ncourroucés de Charles à la bonne, elle tira les \ncheveux du premier pour l’aider à se relever, \net donna un coup de pied à Betty pour amener \nune détente nerveuse ; le moyen réussit : Charles \nsauta sur ses pieds et s’y maintint très ferme, \nBetty reprit son calme et une attitude plus digne.",
+          "startParagraph": 60,
+          "endParagraph": 68,
+          "source": "https://fr.wikisource.org/wiki/Un_bon_petit_diable/1",
+          "sha256": "0155d86b3e45f6fc60cd43f4e2c41a10d3480bc68e7333f8378144f1842a5948"
+        }
+      ],
+      "text": "Dans une petite ville d’Écosse, dans la petite rue des Combats, vivait une veuve d’une cinquantaine d’années, Mme Mac’Miche. Elle avait l’air dur et repoussant. Elle ne voyait personne, de peur de se trouver entraînée dans quelque dépense, car elle était d’une avarice extrême. Sa maison était vieille, sale et triste ; elle tricotait un jour dans une chambre du premier étage, simplement, presque misérablement meublée. Elle jetait de temps en temps un coup d’œil à la fenêtre et paraissait attendre quelqu’un ; après avoir donné divers \nsignes d’impatience, elle s’écria :\n\n« Ce misérable enfant ! Toujours en retard ! Détestable \nsujet ! Il finira par la prison et la corde, \nsi je ne parviens à le corriger ! »\n\nÀ peine avait-elle achevé ces mots que la porte \nvitrée qui faisait face à la croisée s’ouvrit ; un \njeune garçon de douze ans entra et s’arrêta devant \nle regard courroucé de la femme. Il y avait, dans \nla physionomie et dans toute l’attitude de l’enfant, \nun mélange prononcé de crainte et de décision.\n\nD’où viens-tu ? Pourquoi rentres-tu si tard, paresseux ?\n\nMa cousine, j’ai été retenu un quart d’heure par \nJuliette, qui m’a demandé de la ramener chez elle, \nparce qu’elle s’ennuyait chez M. le juge de paix.\n\nQuel besoin avais-tu de la ramener ? Quelqu’un \nde chez le juge de paix ne pouvait-il s’en charger ? \nTu fais toujours l’aimable, l’officieux ; tu sais pourtant \nque j’ai besoin de toi. Mais tu t’en repentiras, \nmauvais garnement !… Suis-moi. »\n\nCharles, combattu entre le désir de résister à sa \ncousine et la crainte qu’elle lui inspirait, hésita un \ninstant ; la cousine se retourna, et, le voyant encore \nimmobile, elle le saisit par l’oreille et l’entraîna \nvers un cabinet noir dans lequel elle le poussa violemment.\n\n« Une heure de cabinet et du pain et de l’eau  pour dîner ; et une autre fois ce sera bien autre \nchose.",
+      "editionYear": 1898,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:S%C3%A9gur_-_Un_bon_petit_diable.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "66dbc5264a369af479f6c8adb5be5efd28e81c13ed29f5bfe59d702eb492a8fa"
+    },
+    {
+      "id": "aulnoy-oiseau-bleu",
+      "title": "L’Oiseau bleu",
+      "author": "Marie-Catherine d’Aulnoy",
+      "audience": "child",
+      "year": "1697",
+      "tags": [
+        "conte",
+        "magie",
+        "royaume",
+        "merveilleux"
+      ],
+      "genre": "conte",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/L%E2%80%99Oiseau_bleu",
+      "edition": "Livre:Aulnoy - Contes de Madame d'Aulnoy, 1882.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1705,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Marie-Catherine_d%E2%80%99Aulnoy",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "13172820",
+      "passages": [
+        {
+          "id": "aulnoy-oiseau-bleu-p01",
+          "text": "Il la reçut mieux que les autres : il l’entretint des belles qualités de sa chère défunte, et elle renchérit celles de son cher défunt : ils causèrent tant et tant, qu’ils ne savaient plus que dire sur leur douleur. Quand la fine veuve vit la matière presque épuisée, elle leva un peu ses voiles, et le roi affligé se récréa la vue à regarder cette pauvre affligée, qui tournait et retournait fort à propos deux grands jeux bleus, bordés de longues paupières noires ; son teint était assez fleuri. Le roi la considéra avec beaucoup d’attention ; peu à peu il parla moins de sa femme, puis il n’en parla plus du tout. La veuve disait qu’elle voulait toujours pleurer son mari, le roi la pria de ne point immortaliser son chagrin. Pour conclusion, l’on fut tout étonné qu’il l’épousât, et que le noir se changeât en vert et en couleur de rose : il suffit très souvent de connaître le faible des gens pour entrer dans leur cœur et pour en faire tout ce que l’on veut.\n\nLe roi n’avait eu qu’une fille de son premier mariage, qui passait pour la huitième merveille du monde ; on la nommait Florine, parce qu’elle ressemblait à Flore, tant elle était fraîche, jeune et belle. On ne lui voyait guère d’habits magnifiques ; elle aimait les robes de taffetas volant, avec quelques agrafes de pierreries et force guirlandes de fleurs, qui faisaient un effet admirable quand elles étaient placées dans ses beaux cheveux. Elle n’avait que quinze ans lorsque le roi se remaria.\n\nLa nouvelle reine envoya quérir sa fille, qui avait été nourrie chez sa marraine, la fée Soussio ; mais elle n’en était ni plus gracieuse ni plus belle : Soussio y avait voulu travailler, et n’avait rien gagné ; elle ne laissait pas de l’aimer chèrement : on l’appelait Truitonne, car son visage avait autant de taches de rousseur qu’une truite ; ses cheveux noirs étaient si gras et si crasseux que l’on n’y pouvait toucher, et sa peau jaune distillait de l’huile. La reine ne laissait pas de l’aimer à la folie, elle ne parlait que de la charmante Truitonne ; et comme Florine avait toutes sortes d’avantages au-dessus d’elle, la reine s’en désespérait ; elle cherchait tous les moyens possibles de la mettre mal auprès du roi : il n’y avait point de jour que la reine et Truitonne ne fissent quelque pièce à Florine. La princesse, qui était douce et spirituelle, tâchait de se mettre au-dessus de ce mauvais procédé.",
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/L%E2%80%99Oiseau_bleu",
+          "sha256": "977e055b54574687b4776a86a8cbcae26018ba6cb79a47b51e29b4c668125860"
+        },
+        {
+          "id": "aulnoy-oiseau-bleu-p02",
+          "text": "Le lendemain l’Oiseau bleu retourna dans son royaume ; il fut à son palais, il entra dans son cabinet par la vitre rompue, et il en apporta les plus riches bracelets que l’on eût encore vus : ils étaient d’une seule émeraude, taillés en facettes creuses par le milieu, pour y passer la main et le bras. « Pensez-vous, lui dit la princesse, que mes sentiments pour vous aient besoin d’être cultivés par des présents ? Ah ! que vous me connaîtriez mal. — Non, madame, répliquait-il, je ne crois pas que les bagatelles que je vous offre soient nécessaires pour me conserver votre tendresse ; mais la mienne serait blessée si je négligeais aucune occasion de vous marquer mon attention ; et, quand vous ne me voyez point, ces petits bijoux me rappellent à votre souvenir. » Florine lui dit là-dessus mille choses obligeantes, auxquelles il répondit par mille autres qui ne l’étaient pas moins.\n\nLa nuit suivante, l’Oiseau amoureux ne manqua pas d’apporter à sa belle une montre d’une grandeur raisonnable, qui était dans une perle : l’excellence du travail surpassait celle de la matière. « Il est inutile de me régaler d’une montre, dit-elle galamment ; quand vous êtes éloigné de moi, les heures me paraissent sans fin ; quand vous êtes avec moi, elles passent comme un songe : ainsi je ne puis leur donner une juste mesure. — Hélas ! ma princesse, s’écria l’Oiseau bleu, j’en ai la même opinion que vous, et je suis persuadé que je renchéris encore sur la délicatesse. — Après ce que vous souffrez pour me conserver votre cœur, répliqua-t-elle, je suis en état de croire que vous avez porté l’amitié et l’estime aussi loin qu’elles peuvent aller. »\n\nDès que le jour paraissait, l’Oiseau volait dans le fond de son arbre, où des fruits lui servaient de nourriture. Quelquefois encore il chantait de beaux airs, sa voix ravissait les passants, ils l’entendaient et ne voyaient personne, aussi il était conclu que c’étaient des esprits. Cette opinion devint si commune, que l’on n’osait entrer dans le bois : on rapportait mille aventures fabuleuses qui s’y étaient passées, et la terreur générale fit la sûreté particulière de l’Oiseau bleu.",
+          "startParagraph": 30,
+          "endParagraph": 32,
+          "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/L%E2%80%99Oiseau_bleu",
+          "sha256": "52499a8b95057abb5e67c34aac99c574647fffd79aa9da4cd21b908717305270"
+        },
+        {
+          "id": "aulnoy-oiseau-bleu-p03",
+          "text": "La reine et Truitonne triomphaient ; la vengeance leur faisait plus de plaisir que l’offense ne leur avait fait de peine. Et, au fond, de quelle offense s’agissait-il ? Le roi Charmant n’avait pas voulu épouser un petit monstre qu’il avait mille sujets de haïr. Cependant le père de Florine, qui devenait vieux, tomba malade et mourut. La fortune de la méchante reine et sa fille changea de face : elles étaient regardées comme des favorites qui avaient abusé de leur faveur ; le peuple mutiné courut au palais demander la princesse Florine, la reconnaissant pour souveraine. La reine irritée voulut traiter l’affaire avec hauteur ; elle parut sur un balcon et menaça les mutins. En même temps la sédition devint générale, on enfonce les portes de son appartement, on le pille, et on l’assomme à coups de pierres. Truitonne s’enfuit chez sa marraine la fée Soussio ; elle ne courait pas moins de dangers que sa mère.\n\nLes grands du royaume s’assemblèrent promptement et montèrent à la tour où la princesse était fort malade : elle ignorait la mort de son père et le supplice de son ennemie. Quand elle entendit tant de bruit, elle ne douta pas qu’on ne vînt la prendre pour la faire mourir, elle n’en fut point effrayée : la vie lui était odieuse depuis qu’elle avait perdu l’Oiseau bleu. Mais ses sujets s’étant jetés à ses pieds, lui apprirent le changement qui venait d’arriver à sa fortune : elle n’en fut point émue. Ils la portèrent dans son palais et la couronnèrent.\n\nLes soins infinis que l’on prit de sa santé, et l’envie qu’elle avait d’aller chercher l’Oiseau bleu, contribuèrent beaucoup à la rétablir, et lui donnèrent bientôt assez de force pour nommer un Conseil, afin d’avoir soin de son royaume en son absence ; de plus elle prit pour des mille millions de pierreries, et elle partit une nuit toute seule, sans que personne sût où elle allait.",
+          "startParagraph": 60,
+          "endParagraph": 62,
+          "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/L%E2%80%99Oiseau_bleu",
+          "sha256": "79f3ae171c7d9b5a25a97d3585a309aa6bb1d21d967d2ea57793190673b2cc07"
+        }
+      ],
+      "text": "Il la reçut mieux que les autres : il l’entretint des belles qualités de sa chère défunte, et elle renchérit celles de son cher défunt : ils causèrent tant et tant, qu’ils ne savaient plus que dire sur leur douleur. Quand la fine veuve vit la matière presque épuisée, elle leva un peu ses voiles, et le roi affligé se récréa la vue à regarder cette pauvre affligée, qui tournait et retournait fort à propos deux grands jeux bleus, bordés de longues paupières noires ; son teint était assez fleuri. Le roi la considéra avec beaucoup d’attention ; peu à peu il parla moins de sa femme, puis il n’en parla plus du tout. La veuve disait qu’elle voulait toujours pleurer son mari, le roi la pria de ne point immortaliser son chagrin. Pour conclusion, l’on fut tout étonné qu’il l’épousât, et que le noir se changeât en vert et en couleur de rose : il suffit très souvent de connaître le faible des gens pour entrer dans leur cœur et pour en faire tout ce que l’on veut.\n\nLe roi n’avait eu qu’une fille de son premier mariage, qui passait pour la huitième merveille du monde ; on la nommait Florine, parce qu’elle ressemblait à Flore, tant elle était fraîche, jeune et belle. On ne lui voyait guère d’habits magnifiques ; elle aimait les robes de taffetas volant, avec quelques agrafes de pierreries et force guirlandes de fleurs, qui faisaient un effet admirable quand elles étaient placées dans ses beaux cheveux. Elle n’avait que quinze ans lorsque le roi se remaria.\n\nLa nouvelle reine envoya quérir sa fille, qui avait été nourrie chez sa marraine, la fée Soussio ; mais elle n’en était ni plus gracieuse ni plus belle : Soussio y avait voulu travailler, et n’avait rien gagné ; elle ne laissait pas de l’aimer chèrement : on l’appelait Truitonne, car son visage avait autant de taches de rousseur qu’une truite ; ses cheveux noirs étaient si gras et si crasseux que l’on n’y pouvait toucher, et sa peau jaune distillait de l’huile. La reine ne laissait pas de l’aimer à la folie, elle ne parlait que de la charmante Truitonne ; et comme Florine avait toutes sortes d’avantages au-dessus d’elle, la reine s’en désespérait ; elle cherchait tous les moyens possibles de la mettre mal auprès du roi : il n’y avait point de jour que la reine et Truitonne ne fissent quelque pièce à Florine. La princesse, qui était douce et spirituelle, tâchait de se mettre au-dessus de ce mauvais procédé.",
+      "editionYear": 1882,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Aulnoy_-_Contes_de_Madame_d%27Aulnoy%2C_1882.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "d6d2173b76b8be8e80f7316548eb0b15db46db1aa96c37c0d50dc772ec141076"
+    },
+    {
+      "id": "aulnoy-belle-cheveux",
+      "title": "La Belle aux cheveux d’or",
+      "author": "Marie-Catherine d’Aulnoy",
+      "audience": "child",
+      "year": "1697",
+      "tags": [
+        "conte",
+        "royaume",
+        "animaux",
+        "aventure"
+      ],
+      "genre": "conte",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/La_Belle_aux_cheveux_d%E2%80%99or",
+      "edition": "Livre:Aulnoy - Contes de Madame d'Aulnoy, 1882.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1705,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Marie-Catherine_d%E2%80%99Aulnoy",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "13172821",
+      "passages": [
+        {
+          "id": "aulnoy-belle-cheveux-p01",
+          "text": "Il y avait un jeune roi de ses voisins qui n’était point \nmarié, et qui était bien fait et bien riche. Quand il eut \nappris tout ce qu’on disait de la Belle aux cheveux d’or, \nbien qu’il ne l’eût point encore vue, il se prit à l’aimer si \nfort, qu’il en perdait le boire et le manger, et il se résolut \nde lui envoyer un ambassadeur pour la demander en mariage. \nIl fit faire un carrosse magnifique à son ambassadeur, \nil lui donna plus de cent chevaux et cent laquais, et \nlui recommanda bien de lui amener la princesse.\n\nQuand il eut pris congé du roi et qu’il fut parti, toute la \ncour ne parlait d’autre chose ; et le roi, qui ne doutait pas \nque la Belle aux cheveux d’or ne consentît à ce qu’il souhaitait, \nlui faisait déjà faire de belles robes et des meubles \nadmirables. Pendant que les ouvriers étaient occupés \nà travailler, l’ambassadeur, arrivé chez la Belle aux cheveux \nd’or, lui fit son petit message ; mais soit qu’elle ne \nfût pas ce jour-là de bonne humeur, ou que le compliment \nne lui semblât pas à son gré, elle répondit à l’ambassadeur \nqu’elle remerciait le roi, mais qu’elle n’avait point \nenvie de se marier.\n\nL’ambassadeur partit de la cour de cette princesse, bien \ntriste de ne la pas amener avec lui ; il rapporta tous les \nprésents qu’il lui avait portés de la part du roi, car elle \nétait fort sage, et savait bien qu’il ne faut pas que les filles \nreçoivent rien des garçons ; aussi elle ne voulut jamais \naccepter les beaux diamants et le reste ; et pour ne pas \nmécontenter le roi, elle prit seulement un quarteron d’épingles \nd’Angleterre.\n\nQuand l’ambassadeur arriva à la grande ville du roi, où \nil était attendu si impatiemment, chacun s’affligea de ce \nqu’il n’amenait point la Belle aux cheveux d’or, et le roi \nse mit à pleurer comme un enfant : on le consolait sans \nen pouvoir venir à bout.",
+          "startParagraph": 0,
+          "endParagraph": 3,
+          "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/La_Belle_aux_cheveux_d%E2%80%99or",
+          "sha256": "27f3ad6a677713fdd53204ce97675f064b2d8a5e57ab2b11ba1fc444a96f0b80"
+        },
+        {
+          "id": "aulnoy-belle-cheveux-p02",
+          "text": "Voilà les trois plus considérables aventures qui arrivèrent à Avenant dans son voyage : il était si pressé d’arriver, qu’il ne tarda pas à se rendre au palais de la Belle aux cheveux d’or. Tout y était admirable ; l’on y voyait les diamants entassés comme des pierres, les beaux habits, le bonbon, l’argent, c’étaient des choses merveilleuses ; et il pensait en lui-même que si elle quittait tout cela pour venir chez le roi son maître, il faudrait qu’il jouât bien de bonheur. Il prit un habit de brocart, des plumes incarnates et blanches ; il se peigna, se poudra, se lava le visage ; il mit une riche écharpe toute brodée à son cou, avec un petit panier, et dedans un beau petit chien, qu’il avait acheté en passant à Bologne. Avenant était si bien fait, si aimable, il faisait toutes choses avec tant de grâce, que lorsqu’il se présenta à la porte du palais, tous les gardes lui firent une grande révérence ; et l’on courut dire à la Belle aux cheveux d’or qu’Avenant, ambassadeur du roi son plus proche voisin, demandait à la voir.\n\nSur ce nom d’Avenant, la princesse dit : « Cela me porte bonne signification ; je gagerais qu’il est joli, et qu’il plaît à tout le monde. — Vraiment oui, madame, lui dirent toutes ses filles d’honneur, nous l’avons vu du grenier où nous accommodions votre filasse ; et tant qu’il est demeuré sous les fenêtres nous n’avons pu rien faire. — Voilà qui est beau, répliqua la Belle aux cheveux d’or, de vous amuser à regarder les garçons ! çà que l’on me donne ma grande robe de satin bleu brodée, et que l’on éparpille bien mes blonds cheveux ; que l’on me fasse des guirlandes de fleurs nouvelles, que l’on me donne mes souliers hauts et mon éventail ; que l’on balaye ma chambre et mon trône ; car je veux qu’il dise partout que je suis vraiment la Belle aux cheveux d’or. »",
+          "startParagraph": 12,
+          "endParagraph": 13,
+          "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/La_Belle_aux_cheveux_d%E2%80%99or",
+          "sha256": "2ab1e9731ab32d43056abcd9d09a0b8df225102aab4456f809191560a3bcb6bf"
+        },
+        {
+          "id": "aulnoy-belle-cheveux-p03",
+          "text": "Les rimes n’étaient pas bien régulières mais il fit la chanson fort vite, et c’est même un miracle comme il ne la fît pas plus mal ; car il avait horriblement peur. Quand Galifron entendit ces paroles, il regarda de tous côtés, et il aperçut Avenant l’épée à la main, qui lui dit deux ou trois injures pour l’irriter. Il n’en fallut pas tant, il se mit dans une colère effroyable ; et prenant une massue toute de fer, il aurait assommé du premier coup le gentil Avenant, sans un corbeau qui vint se mettre sur le haut de sa tête, et avec son bec lui donna si juste dans les yeux, qu’il les creva ; son sang coulait sur son visage, il était comme un désespéré, frappant de tous côtés. Avenant l’évitait, et lui portait de grands coups d’épée qu’il enfonçait jusqu’à la garde, et qui lui faisaient mille blessures, par où il perdit tant de sang, qu’il tomba. Aussitôt Avenant lui coupa la tête, bien ravi d’avoir été si heureux ; et le corbeau, qui s’était perché sur un arbre, lui dit : « Je n’ai pas oublié le service que vous me rendîtes en tuant l’aigle qui me poursuivait ; je vous promis de m’en acquitter : je crois l’avoir fait aujourd’hui. — C’est moi qui vous dois tout, monsieur du corbeau, répliqua Avenant ; je demeure votre serviteur. » Il monta aussitôt à cheval, chargé de l’épouvantable tête de Galifron.\n\nQuand il arriva dans la ville, tout le monde le suivait, et criait : « Voici le brave Avenant qui vient de tuer le monstre, » de sorte que la princesse, qui entendit bien du bruit, et qui tremblait qu’on ne lui vînt apprendre la mort d’Avenant, n’osait demander ce qui lui était arrivé ; mais elle vit entrer Avenant avec la tête du géant, qui ne laissa pas de lui faire encore peur, bien qu’il n’y eût plus rien à craindre. « Madame, lui dit-il, votre ennemi est mort, j’espère que vous ne refuserez plus le roi mon maître ? — Ah ! si fait, dit la Belle aux cheveux d’or, je le refuserai si vous ne trouvez moyen, avant mon départ, de m’apporter de l’eau de la grotte ténébreuse.",
+          "startParagraph": 25,
+          "endParagraph": 26,
+          "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/La_Belle_aux_cheveux_d%E2%80%99or",
+          "sha256": "82d11cf63ff9c3c543cd3dbb3b6c62bbaa54e33f61df0c63bc94279e708d5410"
+        }
+      ],
+      "text": "Il y avait un jeune roi de ses voisins qui n’était point \nmarié, et qui était bien fait et bien riche. Quand il eut \nappris tout ce qu’on disait de la Belle aux cheveux d’or, \nbien qu’il ne l’eût point encore vue, il se prit à l’aimer si \nfort, qu’il en perdait le boire et le manger, et il se résolut \nde lui envoyer un ambassadeur pour la demander en mariage. \nIl fit faire un carrosse magnifique à son ambassadeur, \nil lui donna plus de cent chevaux et cent laquais, et \nlui recommanda bien de lui amener la princesse.\n\nQuand il eut pris congé du roi et qu’il fut parti, toute la \ncour ne parlait d’autre chose ; et le roi, qui ne doutait pas \nque la Belle aux cheveux d’or ne consentît à ce qu’il souhaitait, \nlui faisait déjà faire de belles robes et des meubles \nadmirables. Pendant que les ouvriers étaient occupés \nà travailler, l’ambassadeur, arrivé chez la Belle aux cheveux \nd’or, lui fit son petit message ; mais soit qu’elle ne \nfût pas ce jour-là de bonne humeur, ou que le compliment \nne lui semblât pas à son gré, elle répondit à l’ambassadeur \nqu’elle remerciait le roi, mais qu’elle n’avait point \nenvie de se marier.\n\nL’ambassadeur partit de la cour de cette princesse, bien \ntriste de ne la pas amener avec lui ; il rapporta tous les \nprésents qu’il lui avait portés de la part du roi, car elle \nétait fort sage, et savait bien qu’il ne faut pas que les filles \nreçoivent rien des garçons ; aussi elle ne voulut jamais \naccepter les beaux diamants et le reste ; et pour ne pas \nmécontenter le roi, elle prit seulement un quarteron d’épingles \nd’Angleterre.\n\nQuand l’ambassadeur arriva à la grande ville du roi, où \nil était attendu si impatiemment, chacun s’affligea de ce \nqu’il n’amenait point la Belle aux cheveux d’or, et le roi \nse mit à pleurer comme un enfant : on le consolait sans \nen pouvoir venir à bout.",
+      "editionYear": 1882,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Aulnoy_-_Contes_de_Madame_d%27Aulnoy%2C_1882.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "68266dedfc47143558613da454c948d4571a950fc4a830232f76e1197505ab65"
+    },
+    {
+      "id": "beaumont-belle-bete",
+      "title": "La Belle et la Bête",
+      "author": "Jeanne Marie Leprince de Beaumont",
+      "audience": "child",
+      "year": "1756",
+      "tags": [
+        "conte",
+        "merveilleux",
+        "magie",
+        "courage"
+      ],
+      "genre": "conte",
+      "source": "https://fr.wikisource.org/wiki/Contes_moraux_pour_l%E2%80%99instruction_de_la_jeunesse/La_Belle_et_la_B%C3%AAte",
+      "edition": "Livre:Beaumont - Contes moraux, tome 1, Barba, 1806.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1776,
+        "basis": "Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Jeanne_Marie_Leprince_de_Beaumont",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceRevision": "13172823",
+      "passages": [
+        {
+          "id": "beaumont-belle-bete-p01",
+          "text": "Il y avait une fois un marchand qui était extrêmement riche. Il avait six enfans, trois garçons et trois filles ; et, comme ce marchand était un homme d’esprit, il n’épargna rien pour l’éducation de ses enfants, et leur donna toutes sortes de maîtres. Ses filles étaient  très-belles ; mais la cadette, sur-tout, se faisait admirer, et on ne l’appelait, quand elle était petite, que La belle enfant ; en sorte que le nom lui en resta ; ce qui donna beaucoup de jalousie à ses sœurs.\nCette cadette, qui était plus belle que ses sœurs, était aussi meilleure qu’elles. Les deux aînées avaient beaucoup d’orgueil, parce qu’elles étaient riches ; elles faisaient les dames, et ne voulaient pas recevoir les visites des autres filles de marchands ; il leur fallait des gens de qualité pour leur compagnie. Elles allaient tous les jours au bal, à la comédie, à la promenade, et se moquaient de leur cadette, qui employait la plus grande partie de son temps à lire de bons livres. Comme on savait que ces filles étaient fort riches, plusieurs gros marchands les demandèrent en mariage ; mais les deux aînées répondirent qu’elles ne se marieraient jamais, à moins qu’elles ne trouvassent un duc, ou tout au moins un comte. La Belle (car je vous ai dit que c’était le nom de la plus jeune), la Belle, dis-je, remercia bien honnêtement ceux qui voulaient l’épouser ; mais elle leur dit : qu’elle était trop jeune, et qu’elle souhaitait de tenir compagnie à son père pendant quelques années. Tout d’un coup le marchand perdit son bien, et il ne lui resta qu’une petite maison de campagne, bien loin de la ville.\n\nIl dit en pleurant, à ses enfans, qu’il fallait aller demeurer dans cette maison, et, qu’en travaillant comme des paysans, ils y pourraient vivre. Ses deux filles aînées répondirent qu’elles ne voulaient pas quitter la ville, et qu’elles avaient plusieurs amans qui seraient trop heureux de les épouser, quoiqu’elles n’eussent plus de fortune : les bonnes demoiselles se trompaient ; leurs amans ne voulurent plus les regarder, quand elles furent pauvres. Comme personne ne les aimait à cause de leur fierté, on disait : « elles ne méritent pas qu’on les plaigne, nous sommes bien aises de voir leur orgueil abaissé ; qu’elles aillent faire les dames en gardant les moutons ». Mais en même tems, tout le monde disait : « pour la Belle, nous sommes bien fâchés de son malheur ; c’est une si bonne fille ; elle parlait aux pauvres gens avec tant de bonté ; elle était si douce, si honnête ». Il y eut même plusieurs gentilshommes qui voulurent l’épouser, quoiqu’elle n’eût pas un sou ; mais elle leur dit : qu’elle ne pouvait pas se résoudre à abandonner son pauvre père dans son malheur, et qu’elle le suivrait à la campagne, pour le consoler et lui aider à travailler. La pauvre Belle avait été bien affligée d’abord de perdre sa fortune ; mais elle s’était dit à elle-même : quand je pleurerai bien fort, mes larmes ne me rendront pas mon bien ; il faut tâcher d’être heureuse sans fortune.",
+          "startParagraph": 0,
+          "endParagraph": 1,
+          "source": "https://fr.wikisource.org/wiki/Contes_moraux_pour_l%E2%80%99instruction_de_la_jeunesse/La_Belle_et_la_B%C3%AAte",
+          "sha256": "a9f54980e2002941ad262af154016b505b717b0d480ae445649cfc179f9e04d2"
+        },
+        {
+          "id": "beaumont-belle-bete-p02",
+          "text": "Il y avait un an que cette famille vivait dans la solitude, lorsque le marchand reçut une lettre, par laquelle on lui marquait qu’un vaisseau, sur lequel il avait des marchandises, venait d’arriver heureusement. Cette nouvelle pensa tourner la tête à ses deux aînées, qui pensaient qu’à la fin elles pourraient quitter cette campagne, où elles s’ennuyaient tant ; et quand elles virent leur père prêt à partir, elles le prièrent de leur apporter des robes, des palatines, des coiffures, et toutes sortes de bagatelles. La Belle ne lui demandait rien ; car elle pensait en elle-même, que tout l’argent des marchandises ne suffirait pas pour acheter ce que ses sœurs souhaitaient. Tu ne me pries pas de t’acheter quelque chose, lui dit son père. Puisque vous avez la bonté de penser à moi, lui dit-elle, je vous prie de m’apporter une rose, car il n’en vient point ici. Ce n’est pas que la Belle se souciât d’une rose ; mais elle ne voulait pas condamner, par son exemple, la conduite de ses sœurs, qui auraient dit, que c’était pour se distinguer qu’elle ne demandait rien. Le bon homme partit ; mais quand il fut arrivé, on lui fit un procès pour ses marchandises, et, après avoir eu beaucoup de peine, il revint aussi pauvre qu’il était auparavant. Il n’avait plus que trente milles pour arriver à sa maison, et il se réjouissait déjà du plaisir de voir ses enfans ; mais, comme il fallait passer un grand bois, avant de trouver sa maison, il se perdit. Il neigeait horriblement ; le vent était si grand, qu’il le jeta deux fois en bas de son cheval, et, la nuit étant venue, il pensa qu’il mourrait de faim ou de froid, ou qu’il serait mangé des loups, qu’il entendait hurler autour de lui. Tout d’un coup, en regardant au bout d’une longue allée d’arbres, il vit une grande lumière, mais qui paraissait bien éloignée. Il marcha de ce côté-là, et vit que cette lumière sortait d’un grand palais qui était tout illuminé. Le marchand remercia Dieu du secours qu’il lui envoyait, et se hâta d’arriver à ce château ; mais il fut bien surpris de ne trouver personne dans les cours. Son cheval, qui le suivait, voyant une grande écurie ouverte, entra dedans ; et, ayant trouvé du foin et de l’avoine, le pauvre animal, qui mourait de faim, se jeta dessus avec beaucoup d’avidité. Le marchand l’attacha dans l’écurie, et marcha vers la maison, où il ne trouva personne ; mais, étant entré dans une grande salle, il y trouva un bon feu, et une table chargée de viande, où il n’y avait qu’un couvert. Comme la pluie et la neige l’avaient mouillé jusqu’aux os, il s’approcha du feu pour se sécher, et disait en lui-même : le maître de la maison ou ses domestiques me pardonneront la liberté que j’ai prise, et sans doute ils viendront bientôt. Il attendit pendant un tems considérable ; mais onze heures ayant sonné, sans qu’il vît personne, il ne put résister à la faim, et prit un poulet qu’il mangea en deux bouchées, et en tremblant. Il but aussi quelques coups de vin, et, devenu plus hardi, il sortit de la salle, et traversa plusieurs grands appartemens, magnifiquement meublés. À la fin il trouva une chambre où il y avait un bon lit, et comme il était minuit passé, et qu’il était las, il prit le parti de fermer la porte et de se coucher.",
+          "startParagraph": 3,
+          "endParagraph": 3,
+          "source": "https://fr.wikisource.org/wiki/Contes_moraux_pour_l%E2%80%99instruction_de_la_jeunesse/La_Belle_et_la_B%C3%AAte",
+          "sha256": "9e8735aeb8ea563a8cfea5edadff0d21ffb3042ee23edd2a754adb6f0128fa34"
+        },
+        {
+          "id": "beaumont-belle-bete-p03",
+          "text": "Lorsqu’il fut parti, la Belle s’assit dans la grande salle, et se mit à pleurer aussi ; mais, comme elle avait beaucoup de courage, elle se recommanda à Dieu, et résolut de ne point se chagriner, pour le peu de temps qu’elle avait à vivre ; car elle croyait fermement que la Bête la mangerait le soir. Elle résolut de se promener en attendant, et de visiter ce beau château. Elle ne pouvait s’empêcher d’en admirer la beauté. Mais elle fut bien surprise de trouver une porte, sur laquelle il y avait écrit : Appartement de la Belle. Elle ouvrit cette porte avec précipitation, et elle fut éblouie de la magnificence qui y régnait ; mais ce qui frappa le plus sa vue fut une grande bibliothèque, un clavecin, et plusieurs livres de musique. On ne veut pas que je m’ennuie, dit-elle, tout bas ; elle pensa ensuite, si je n’avais qu’un jour à demeurer ici, on ne m’aurait pas fait une telle provision. Cette pensée ranima son courage. Elle ouvrit la bibliothèque, et vit un livre où il y avait écrit en lettres d’or : Souhaitez, commandez ; vous êtes ici la reine et la maîtresse. Hélas ! dit-elle, en soupirant, je ne souhaite rien que de voir mon pauvre père, et de savoir ce qu’il fait à présent : elle avait dit cela en elle-même. Quelle fut sa surprise ! en jetant les yeux sur un grand miroir, d’y voir sa maison, où son père arrivait avec un visage extrêmement triste. Ses sœurs venaient au-devant de lui, et, malgré les grimaces qu’elles faisaient pour paraître affligées, la joie qu’elles avaient de la perte de leur sœur paraissait sur leur visage. Un moment après, tout cela disparut, et la Belle ne put s’empêcher de penser que la Bête était bien complaisante, qu’elle n’avait rien à craindre d’elle. À midi, elle trouva la table mise, et, pendant son dîner elle entendit un excellent concert, quoiqu’elle ne vît personne. Le soir, comme elle allait se mettre à table, elle entendit le bruit que faisait la Bête, et ne put s’empêcher de frémir. La Belle, lui dit ce monstre, voulez-vous bien que je vous voie souper ? — Vous êtes le maître, répondit la Belle en tremblant. — Non, répondit la Bête, il n’y a ici de maîtresse que vous. Vous n’avez qu’à me dire de m’en aller si je vous ennuie ; je sortirai tout de suite. Dites-moi, n’est-ce pas que vous me trouvez bien laid ? — Cela est vrai, dit la Belle, car je ne sais pas mentir ; mais je crois que vous êtes fort bon. — Vous avez raison, dit le monstre, mais, outre que je suis laid, je n’ai point d’esprit : je sais bien que je ne suis qu’une Bête. — On n’est pas Bête, reprit la Belle, quand on croit n’avoir point d’esprit : un sot n’a jamais su cela. — Mangez donc, la Belle, lui dit le monstre ; et tâchez de ne vous point ennuyer dans votre maison, car tout ceci est à vous ; et j’aurais du chagrin, si vous n’étiez pas contente. — Vous avez bien de la bonté, lui dit la Belle. Je vous avoue que je suis bien contente de votre cœur ; quand j’y pense, vous ne me paraissez plus si laid. — Oh dame, oui, répondit la Bête, j’ai le cœur bon, mais je suis un monstre. — Il y a bien des hommes qui sont plus monstres que vous, dit la Belle ; et je vous aime mieux avec votre figure que ceux qui, avec la figure d’hommes, cachent un cœur faux, corrompu, ingrat. — Si j’avais de l’esprit, reprit la Bête, je vous ferais un grand compliment pour vous remercier ; mais je suis un stupide, et tout ce que je puis vous dire, c’est que je vous suis bien obligé.",
+          "startParagraph": 6,
+          "endParagraph": 6,
+          "source": "https://fr.wikisource.org/wiki/Contes_moraux_pour_l%E2%80%99instruction_de_la_jeunesse/La_Belle_et_la_B%C3%AAte",
+          "sha256": "d529e1387741e1bd6a7c3f61dded8f5052b749a17422093b41a284d8fe69be80"
+        }
+      ],
+      "text": "Il y avait une fois un marchand qui était extrêmement riche. Il avait six enfans, trois garçons et trois filles ; et, comme ce marchand était un homme d’esprit, il n’épargna rien pour l’éducation de ses enfants, et leur donna toutes sortes de maîtres. Ses filles étaient  très-belles ; mais la cadette, sur-tout, se faisait admirer, et on ne l’appelait, quand elle était petite, que La belle enfant ; en sorte que le nom lui en resta ; ce qui donna beaucoup de jalousie à ses sœurs.\nCette cadette, qui était plus belle que ses sœurs, était aussi meilleure qu’elles. Les deux aînées avaient beaucoup d’orgueil, parce qu’elles étaient riches ; elles faisaient les dames, et ne voulaient pas recevoir les visites des autres filles de marchands ; il leur fallait des gens de qualité pour leur compagnie. Elles allaient tous les jours au bal, à la comédie, à la promenade, et se moquaient de leur cadette, qui employait la plus grande partie de son temps à lire de bons livres. Comme on savait que ces filles étaient fort riches, plusieurs gros marchands les demandèrent en mariage ; mais les deux aînées répondirent qu’elles ne se marieraient jamais, à moins qu’elles ne trouvassent un duc, ou tout au moins un comte. La Belle (car je vous ai dit que c’était le nom de la plus jeune), la Belle, dis-je, remercia bien honnêtement ceux qui voulaient l’épouser ; mais elle leur dit : qu’elle était trop jeune, et qu’elle souhaitait de tenir compagnie à son père pendant quelques années. Tout d’un coup le marchand perdit son bien, et il ne lui resta qu’une petite maison de campagne, bien loin de la ville.\n\nIl dit en pleurant, à ses enfans, qu’il fallait aller demeurer dans cette maison, et, qu’en travaillant comme des paysans, ils y pourraient vivre. Ses deux filles aînées répondirent qu’elles ne voulaient pas quitter la ville, et qu’elles avaient plusieurs amans qui seraient trop heureux de les épouser, quoiqu’elles n’eussent plus de fortune : les bonnes demoiselles se trompaient ; leurs amans ne voulurent plus les regarder, quand elles furent pauvres. Comme personne ne les aimait à cause de leur fierté, on disait : « elles ne méritent pas qu’on les plaigne, nous sommes bien aises de voir leur orgueil abaissé ; qu’elles aillent faire les dames en gardant les moutons ». Mais en même tems, tout le monde disait : « pour la Belle, nous sommes bien fâchés de son malheur ; c’est une si bonne fille ; elle parlait aux pauvres gens avec tant de bonté ; elle était si douce, si honnête ». Il y eut même plusieurs gentilshommes qui voulurent l’épouser, quoiqu’elle n’eût pas un sou ; mais elle leur dit : qu’elle ne pouvait pas se résoudre à abandonner son pauvre père dans son malheur, et qu’elle le suivrait à la campagne, pour le consoler et lui aider à travailler. La pauvre Belle avait été bien affligée d’abord de perdre sa fortune ; mais elle s’était dit à elle-même : quand je pleurerai bien fort, mes larmes ne me rendront pas mon bien ; il faut tâcher d’être heureuse sans fortune.",
+      "editionYear": 1806,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Beaumont_-_Contes_moraux%2C_tome_1%2C_Barba%2C_1806.djvu",
+      "editorialStatus": "reviewed-disjoint-source-paragraphs",
+      "sourceHtmlSha256": "fe303c4378e38f624b88827aea4167740892b209f8e78b004c0e74503f01f808"
     }
   ]
 }

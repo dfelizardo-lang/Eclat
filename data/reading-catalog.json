@@ -1976,6 +1976,446 @@
       "editorialStatus": "reviewed-disjoint-complete-paragraphs-max-1000",
       "sourceHtmlSha256": "4d91080776999e10aabe0906cc2a6de439f98ad8f84a0beee9b551d8111c610a",
       "lengthReviewedAt": "2026-10-03"
+    },
+    {
+      "id": "segur-vacances",
+      "title": "Les Vacances",
+      "author": "Comtesse de Ségur",
+      "audience": "child",
+      "year": "1859",
+      "tags": [
+        "roman",
+        "amitié",
+        "aventure"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Les_Vacances/1",
+      "edition": "Livre:Ségur - Les vacances.djvu",
+      "editionYear": 1884,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:S%C3%A9gur_-_Les_vacances.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1874,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Comtesse_de_S%C3%A9gur",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "9233087",
+      "sourceHtmlSha256": "70cc7499635c82ed6d7422abce43fe93d00261bac0ba0fc02bba2b3ddcacdf13",
+      "passages": [
+        {
+          "id": "segur-vacances-p01",
+          "text": "Toi, cours avec Madeleine chercher de la mousse pour cacher les queues des fleurs. Moi je vais laver les vases à la cuisine, et j’y mettrai de l’eau.\n\nSophie courut au potager et rapporta un grand panier rempli de beaux dahlias et de réséda qui embaumait.\n\nMarguerite et Madeleine ramenèrent une brouette de mousse.\n\nCamille apporta quatre vases bien lavés, bien essuyés et pleins d’eau.\n\nLes quatre petites se mirent à l’ouvrage avec une telle activité, qu’un quart d’heure après, les vases étaient pleins de fleurs gracieusement arrangées ; les dahlias étaient entremêlés de branches de réséda. Elles en portèrent deux dans la chambre destinée à leurs cousins Léon et Jean de Rugès, et deux dans la chambre du petit cousin Jacques de Traypi.",
+          "startParagraph": 10,
+          "endParagraph": 14,
+          "source": "https://fr.wikisource.org/wiki/Les_Vacances/1",
+          "sha256": "84e27a840dd5bd2f1f92388ca19465812ae950778ecc7124d784933b64e9ea67"
+        },
+        {
+          "id": "segur-vacances-p02",
+          "text": "« Oh ! que nous allons nous amuser ! » s’écrièrent-ils ensemble en s’embrassant pour la vingtième fois.\n\nSophie seule restait à l’écart ; on l’avait embrassée en descendant de voiture ; mais elle sentait que, ne faisant pas partie de la famille, n’ayant été admise à Fleurville que par suite de l’abandon de sa belle-mère, elle ne devait pas se mêler indiscrètement à la joie générale. Jean s’aperçut le premier de l’isolement de la pauvre Sophie, et, s’approchant d’elle, il lui prit les mains en lui disant avec affection :\n\n« Ma chère Sophie, je me suis toujours souvenu de ta complaisance pour moi lors de mon dernier séjour à Fleurville ; j’étais alors un petit garçon ; maintenant que je suis plus grand, c’est moi qui te rendrai des services à mon tour.",
+          "startParagraph": 37,
+          "endParagraph": 39,
+          "source": "https://fr.wikisource.org/wiki/Les_Vacances/1",
+          "sha256": "bb00bb26a1b9109bd7e9df79cbd2d659722b26d8ad2a4f820e2b5e90d5743c5d"
+        },
+        {
+          "id": "segur-vacances-p03",
+          "text": "Vous êtes déjà cinq ! Laissez-moi ma chère Marguerite \npour m’aider à arranger mes papillons…\n\nÉcoute Jacques. Je t’aiderai pendant une heure ; ensuite nous irons pécher avec Léon.\n\nJacques grogna un peu, Léon et Jean se moquèrent de lui, Camille et Madeleine l’embrassèrent et lui firent comprendre qu’il ne fallait pas être égoïste, qu’il fallait être bon camarade et sacrifier quelquefois son plaisir à celui des autres. Jacques avoua qu’il avait tort, et il promit de faire tout ce que voudrait sa petite amie Marguerite.\n\nLe goûter était fini ; les enfants demandèrent la permission d’aller se promener, et partirent en courant à qui arriverait le plus vite au jardin de Camille et de Madeleine. Ils le trouvèrent plein de fleurs, très-bien bêché et bien cultivé.",
+          "startParagraph": 61,
+          "endParagraph": 64,
+          "source": "https://fr.wikisource.org/wiki/Les_Vacances/1",
+          "sha256": "2c1aa2a3fd99c6b5f7729f24c14298cbf637ada2e7811c54fc32598c142b279f"
+        }
+      ],
+      "text": "Toi, cours avec Madeleine chercher de la mousse pour cacher les queues des fleurs. Moi je vais laver les vases à la cuisine, et j’y mettrai de l’eau.\n\nSophie courut au potager et rapporta un grand panier rempli de beaux dahlias et de réséda qui embaumait.\n\nMarguerite et Madeleine ramenèrent une brouette de mousse.\n\nCamille apporta quatre vases bien lavés, bien essuyés et pleins d’eau.\n\nLes quatre petites se mirent à l’ouvrage avec une telle activité, qu’un quart d’heure après, les vases étaient pleins de fleurs gracieusement arrangées ; les dahlias étaient entremêlés de branches de réséda. Elles en portèrent deux dans la chambre destinée à leurs cousins Léon et Jean de Rugès, et deux dans la chambre du petit cousin Jacques de Traypi.",
+      "editorialStatus": "verified-complete-source-paragraphs"
+    },
+    {
+      "id": "segur-auberge",
+      "title": "L’Auberge de l’Ange Gardien",
+      "author": "Comtesse de Ségur",
+      "audience": "child",
+      "year": "1863",
+      "tags": [
+        "roman",
+        "entraide",
+        "aventure"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99Auberge_de_l%E2%80%99Ange_Gardien/1",
+      "edition": "Livre:Ségur - L’auberge de l’ange gardien.djvu",
+      "editionYear": 1888,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:S%C3%A9gur_-_L%E2%80%99auberge_de_l%E2%80%99ange_gardien.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1874,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Comtesse_de_S%C3%A9gur",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "12858174",
+      "sourceHtmlSha256": "f62d6253600bd57d6edc1d127be828d9ceac56362247de5719bc344e40f0856e",
+      "passages": [
+        {
+          "id": "segur-auberge-p01",
+          "text": "« Pauvres enfants ! dit l’homme à mi-voix ; ils vont  périr de froid et de faim, car je ne vois rien près d’eux, ni paquets ni provisions. Comment a-t-on laissé de pauvres petits êtres si jeunes, seuls, sur une grande route ? Que faire ? Les laisser ici, c’est vouloir leur mort. Les emmener ? J’ai loin à aller et je suis à pied : ils ne pourraient me suivre. »\n\nPendant que l’homme réfléchissait, le chien s’impatientait ; il commençait à aboyer ; ce bruit réveilla le frère aîné ; il ouvrit les yeux, regarda le voyageur d’un air étonné et suppliant, puis le chien qu’il caressa en lui disant :\n\n« Oh ! tais-toi, tais-toi, je t’en prie ; ne fais pas de bruit, n’éveille pas le pauvre Paul qui dort et qui ne souffre pas. Je l’ai bien couvert, tu vois ; il a bien chaud.",
+          "startParagraph": 6,
+          "endParagraph": 8,
+          "source": "https://fr.wikisource.org/wiki/L%E2%80%99Auberge_de_l%E2%80%99Ange_Gardien/1",
+          "sha256": "bc5aaff0e4c1147af3baca1587040ebdaa372d58b225f1f71ffad243a976c2f7"
+        },
+        {
+          "id": "segur-auberge-p02",
+          "text": "Mais Paul est fatigué ; il ne pourra pas marcher aussi vite que vous.\n\nJe le mettrai sur le dos de Capitaine ; tu vas voir. »\n\nLe voyageur souleva doucement le petit Paul toujours endormi, le plaça à cheval sur le dos du chien en appuyant sa tête sur le cou de Capitaine. Ensuite, il ôta sa blouse, qui couvrait sa veste militaire, en enveloppa le petit comme d’une couverture, et, pour l’empêcher de tomber, noua les manches sous le ventre du chien.\n\n« Tiens, voilà ta veste, dit-il à Jacques en la lui rendant ; remets-la sur tes pauvres épaules glacées, et partons. »\n\nJacques se leva, chancela et retomba à terre ; de grosses larmes roulèrent de ses yeux ; il se sentait faible et glacé, et il comprit que lui non plus ne pourrait pas marcher.",
+          "startParagraph": 27,
+          "endParagraph": 31,
+          "source": "https://fr.wikisource.org/wiki/L%E2%80%99Auberge_de_l%E2%80%99Ange_Gardien/1",
+          "sha256": "ce3838d8af49760e676ded94bebb24f3f3feb97ccad4e92141aa97c618c1782e"
+        },
+        {
+          "id": "segur-auberge-p03",
+          "text": "« Nous irons plus vite ainsi, dit-il.\n\nMais je suis lourd ; vous allez vous fatiguer, mon bon monsieur.\n\nNon, mon petit, ne te tourmente pas. J’ai porté plus lourd que toi, quand j’étais soldat et en campagne.\n\nVous avez été soldat ; mais pas gendarme ?\n\nNon, pas gendarme ; je rentre au pays après avoir fait mon temps.\n\nComment vous appelez-vous ?\n\nJe m’appelle Moutier.\n\nJe n’oublierai jamais votre nom, monsieur Moutier.\n\nJe n’oublierai pas non plus le tien, mon petit Jacques ; tu es un brave enfant, un bon frère. »\n\nDepuis que Jacques était sur les épaules de Moutier, celui-ci marchait beaucoup plus vite. Ils ne tardèrent pas à arriver dans un village à l’entrée duquel il aperçut une bonne auberge. Moutier s’arrêta à la porte.",
+          "startParagraph": 48,
+          "endParagraph": 57,
+          "source": "https://fr.wikisource.org/wiki/L%E2%80%99Auberge_de_l%E2%80%99Ange_Gardien/1",
+          "sha256": "e8871a1be87f456ee43ac8479da1bea3714a4414d97e47f51d0c3a45a4b64902"
+        }
+      ],
+      "text": "« Pauvres enfants ! dit l’homme à mi-voix ; ils vont  périr de froid et de faim, car je ne vois rien près d’eux, ni paquets ni provisions. Comment a-t-on laissé de pauvres petits êtres si jeunes, seuls, sur une grande route ? Que faire ? Les laisser ici, c’est vouloir leur mort. Les emmener ? J’ai loin à aller et je suis à pied : ils ne pourraient me suivre. »\n\nPendant que l’homme réfléchissait, le chien s’impatientait ; il commençait à aboyer ; ce bruit réveilla le frère aîné ; il ouvrit les yeux, regarda le voyageur d’un air étonné et suppliant, puis le chien qu’il caressa en lui disant :\n\n« Oh ! tais-toi, tais-toi, je t’en prie ; ne fais pas de bruit, n’éveille pas le pauvre Paul qui dort et qui ne souffre pas. Je l’ai bien couvert, tu vois ; il a bien chaud.",
+      "editorialStatus": "verified-complete-source-paragraphs"
+    },
+    {
+      "id": "verne-terre-lune",
+      "title": "De la Terre à la Lune",
+      "author": "Jules Verne",
+      "audience": "child",
+      "year": "1865",
+      "tags": [
+        "aventure",
+        "science",
+        "exploration"
+      ],
+      "genre": "aventure",
+      "source": "https://fr.wikisource.org/wiki/De_la_Terre_%C3%A0_la_Lune/Chapitre_1",
+      "edition": "Livre:Verne - De la Terre à la lune.djvu",
+      "editionYear": 1868,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Verne_-_De_la_Terre_%C3%A0_la_lune.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1905,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Jules_Verne",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "15598150",
+      "sourceHtmlSha256": "49632960afd7801b94fbcb73e6403990ae25a3fb3aef9382866f9a1a61d5d511",
+      "passages": [
+        {
+          "id": "verne-terre-lune-p01",
+          "text": "Mais ces vaillants artilleurs n’y regardaient pas de si près, et ils se sentaient fiers à bon droit, quand le bulletin d’une bataille relevait un nombre de victimes décuple de la quantité de projectiles dépensés.\n\nUn jour, pourtant, triste et lamentable jour, la paix fut signée par les survivants de la guerre, les détonations cessèrent peu à peu, les mortiers se turent, les obusiers muselés pour longtemps et les canons, la tête basse, rentrèrent aux arsenaux, les boulets s’empilèrent dans les parcs, les souvenirs sanglants s’effacèrent, les cotonniers poussèrent magnifiquement sur les champs largement engraissés, les vêtements de deuil achevèrent de s’user avec les douleurs, et le Gun-Club demeura plongé dans un désœuvrement profond.",
+          "startParagraph": 14,
+          "endParagraph": 15,
+          "source": "https://fr.wikisource.org/wiki/De_la_Terre_%C3%A0_la_Lune/Chapitre_1",
+          "sha256": "139961eb127a42d84aa3862c26d83eab42b41accaec8e67f6921ea5459266397"
+        },
+        {
+          "id": "verne-terre-lune-p02",
+          "text": "— Eh bien ! il y aurait peut-être quelque chose à tenter là-bas, et si l’on acceptait nos services…\n\n— Y pensez-vous ? s’écria Bilsby. Faire de la balistique au profit des étrangers !\n\n— Cela vaudrait mieux que de n’en pas faire du tout, riposta le colonel.\n\n— Sans doute, dit J.-T. Maston, cela vaudrait mieux, mais il ne faut même pas songer à cet expédient.\n\n— Et pourquoi cela ? demanda le colonel.\n\n— Parce qu’ils ont dans le vieux monde des idées sur l’avancement qui contrarieraient toutes nos habitudes américaines. Ces gens-là ne s’imaginent pas qu’on puisse devenir général en chef avant d’avoir servi comme sous-lieutenant, ce qui reviendrait à dire qu’on ne saurait être bon pointeur à moins d’avoir fondu le canon soi-même ! Or, c’est tout simplement…",
+          "startParagraph": 26,
+          "endParagraph": 31,
+          "source": "https://fr.wikisource.org/wiki/De_la_Terre_%C3%A0_la_Lune/Chapitre_1",
+          "sha256": "e5a5eae80c447fc26267ffb6e1903294e94380a73da99895a551867bc5e301a2"
+        },
+        {
+          "id": "verne-terre-lune-p03",
+          "text": "— Par ma foi, s’écria J.-T. Maston, aux prochaines élections il n’a que faire de compter sur ma voix !\n\n— Ni sur les nôtres, répondirent d’un commun accord ces belliqueux invalides.\n\n— En attendant, reprit J.-T. Maston, et pour conclure, si l’on ne me fournit pas l’occasion d’essayer mon nouveau mortier sur un vrai champ de bataille, je donne ma démission de membre du Gun-Club, et je cours m’enterrer dans les savanes de l’Arkansas !\n\n— Nous vous y suivrons », répondirent les interlocuteurs de l’audacieux J.-T. Maston.\n\nOr, les choses en étaient là, les esprits se montaient de plus en plus, et le club était menacé d’une dissolution prochaine, quand un événement inattendu vint empêcher cette regrettable catastrophe.",
+          "startParagraph": 43,
+          "endParagraph": 47,
+          "source": "https://fr.wikisource.org/wiki/De_la_Terre_%C3%A0_la_Lune/Chapitre_1",
+          "sha256": "34db9fe5a8124536a8e987ae0a45273e098166150fbfe5243993f7f5b14d7c88"
+        }
+      ],
+      "text": "Mais ces vaillants artilleurs n’y regardaient pas de si près, et ils se sentaient fiers à bon droit, quand le bulletin d’une bataille relevait un nombre de victimes décuple de la quantité de projectiles dépensés.\n\nUn jour, pourtant, triste et lamentable jour, la paix fut signée par les survivants de la guerre, les détonations cessèrent peu à peu, les mortiers se turent, les obusiers muselés pour longtemps et les canons, la tête basse, rentrèrent aux arsenaux, les boulets s’empilèrent dans les parcs, les souvenirs sanglants s’effacèrent, les cotonniers poussèrent magnifiquement sur les champs largement engraissés, les vêtements de deuil achevèrent de s’user avec les douleurs, et le Gun-Club demeura plongé dans un désœuvrement profond.",
+      "editorialStatus": "verified-complete-source-paragraphs"
+    },
+    {
+      "id": "verne-strogoff",
+      "title": "Michel Strogoff",
+      "author": "Jules Verne",
+      "audience": "child",
+      "year": "1876",
+      "tags": [
+        "aventure",
+        "voyage",
+        "courage"
+      ],
+      "genre": "aventure",
+      "source": "https://fr.wikisource.org/wiki/Michel_Strogoff/Partie_1/Chapitre_1",
+      "edition": "Livre:Verne - Michel Strogoff - Un drame au Mexique, 1905.djvu",
+      "editionYear": 1905,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Verne_-_Michel_Strogoff_-_Un_drame_au_Mexique,_1905.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1905,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Jules_Verne",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "12398492",
+      "sourceHtmlSha256": "1760b52559fe45b63ee74e969d18d7e1f0e10150c0e62b710ae6cddd6c0c77a2",
+      "passages": [
+        {
+          "id": "verne-strogoff-p01",
+          "text": "— Quant aux gouvernements de l’Yeniseisk, d’Omsk, de Sémipalatinsk, de Tobolsk, nous sommes toujours en communication directe avec eux depuis le début de l’invasion ?\n\n— Oui, sire, nos dépêches leur parviennent, et nous avons la certitude, à l’heure qu’il est, que les Tartares ne se sont pas avancés au delà de l’Irtyche et de l’Obi.\n\n— Et du traître Ivan Ogareff, on n’a aucune nouvelle ?\n\n— Aucune, répondit le général Kissoff. Le directeur de la police ne saurait affirmer s’il a passé ou non la frontière.\n\n— Que son signalement soit immédiatement envoyé à Nijni-Novgorod, à Perm, à Ékaterinbourg, à Kassimow, à Tioumen, à Ichim, à Omsk, à Élamsk, à Kolyvan, à Tomsk, à tous les postes télégraphiques avec lesquels le fil correspond encore !",
+          "startParagraph": 21,
+          "endParagraph": 25,
+          "source": "https://fr.wikisource.org/wiki/Michel_Strogoff/Partie_1/Chapitre_1",
+          "sha256": "0e5e8e8d72c95508f90debecd7dba9387a2650aa13d12d94e9eaf124cbac495f"
+        },
+        {
+          "id": "verne-strogoff-p02",
+          "text": "— Précisément.\n\n— Vous rappelez-vous, monsieur Blount, dit Alcide Jolivet, ce qui s’est passé à Zakret en 1812 ?\n\n— Je me le rappelle comme si j’y avais été, monsieur, répondit le correspondant anglais.\n\n— Alors, reprit Alcide Jolivet, vous savez qu’au milieu d’une fête donnée en son honneur, on annonça à l’empereur Alexandre que Napoléon venait de passer le Niémen avec l’avant-garde française. Cependant, l’empereur ne quitta pas la fête, et, malgré l’extrême gravité d’une nouvelle qui pouvait lui coûter l’empire, il ne laissa pas percer plus d’inquiétude…\n\n— Que ne vient d’en montrer notre hôte, lorsque le général Kissoff lui a appris que les fils télégraphiques venaient d’être coupés entre la frontière et le gouvernement d’Irkoutsk.",
+          "startParagraph": 52,
+          "endParagraph": 56,
+          "source": "https://fr.wikisource.org/wiki/Michel_Strogoff/Partie_1/Chapitre_1",
+          "sha256": "fe1abd1547b5c0720eb1c0747d940bd66d9116988e7d208d677d3763eebff58f"
+        },
+        {
+          "id": "verne-strogoff-p03",
+          "text": "À cet instant, le général Kissoff, qui venait de rentrer, s’approcha rapidement de l’officier des chasseurs de la garde.\n\n« Eh bien ? lui demanda vivement celui-ci, ainsi qu’il avait fait la première fois.\n\n— Les télégrammes ne passent plus Tomsk, sire.\n\n— Un courrier à l’instant ! »\n\nL’officier quitta le grand salon et entra dans une vaste pièce y attenant. C’était un cabinet de travail, \ntrès-simplement meublé en vieux chêne, et situé à l’angle du Palais-Neuf. Quelques tableaux, entre autres plusieurs toiles signées d’Horace Vernet, étaient suspendus au mur.\n\nL’officier ouvrit vivement la fenêtre, comme si l’oxygène eût manqué à ses poumons, et il vint respirer, sur un large balcon, cet air pur que distillait une belle nuit de juillet.",
+          "startParagraph": 75,
+          "endParagraph": 80,
+          "source": "https://fr.wikisource.org/wiki/Michel_Strogoff/Partie_1/Chapitre_1",
+          "sha256": "1067b6eb478057b8fba15a94b8f992541079aa70987d897d4dbee6d9fc4c416f"
+        }
+      ],
+      "text": "— Quant aux gouvernements de l’Yeniseisk, d’Omsk, de Sémipalatinsk, de Tobolsk, nous sommes toujours en communication directe avec eux depuis le début de l’invasion ?\n\n— Oui, sire, nos dépêches leur parviennent, et nous avons la certitude, à l’heure qu’il est, que les Tartares ne se sont pas avancés au delà de l’Irtyche et de l’Obi.\n\n— Et du traître Ivan Ogareff, on n’a aucune nouvelle ?\n\n— Aucune, répondit le général Kissoff. Le directeur de la police ne saurait affirmer s’il a passé ou non la frontière.\n\n— Que son signalement soit immédiatement envoyé à Nijni-Novgorod, à Perm, à Ékaterinbourg, à Kassimow, à Tioumen, à Ichim, à Omsk, à Élamsk, à Kolyvan, à Tomsk, à tous les postes télégraphiques avec lesquels le fil correspond encore !",
+      "editorialStatus": "verified-complete-source-paragraphs"
+    },
+    {
+      "id": "flaubert-bovary",
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "audience": "adult",
+      "year": "1857",
+      "tags": [
+        "roman",
+        "société",
+        "amour"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Madame_Bovary/Premi%C3%A8re_partie/1",
+      "edition": "Livre:Flaubert - Madame Bovary, Conard, 1910.djvu",
+      "editionYear": 1910,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Flaubert_-_Madame_Bovary,_Conard,_1910.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1880,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Gustave_Flaubert",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "10429205",
+      "sourceHtmlSha256": "62725c04665d3d8e4919668a42914db61e4fa8042bca3d9fc7231ce3743ae118",
+      "passages": [
+        {
+          "id": "flaubert-bovary-p01",
+          "text": "— Débarrassez-vous donc de votre casque, dit le professeur, qui était un homme d’esprit.\n\nIl y eut un rire éclatant des écoliers qui décontenança le pauvre garçon, si bien qu’il ne savait s’il fallait garder sa casquette à la main, la laisser par terre ou la mettre sur sa tête. Il se rassit et la posa sur ses genoux.\n\n— Levez-vous, reprit le professeur, et dites-moi votre nom.\n\nLe nouveau articula, d’une voix bredouillante, un nom inintelligible.\n\n— Répétez !\n\nLe même bredouillement de syllabes se fit entendre, couvert par les huées de la classe.\n\n— Plus haut ! cria le maître, plus haut !\n\nLe nouveau, prenant alors une résolution extrême, ouvrit une bouche démesurée et lança à pleins poumons, comme pour appeler quelqu’un, ce mot : Charbovari.",
+          "startParagraph": 10,
+          "endParagraph": 17,
+          "source": "https://fr.wikisource.org/wiki/Madame_Bovary/Premi%C3%A8re_partie/1",
+          "sha256": "2163d6f56d25a357140c6c5c96de9370e79dbff1e4bcd29142bce84d89c947b9"
+        },
+        {
+          "id": "flaubert-bovary-p02",
+          "text": "— Cinq cents vers à toute la classe ! exclamé d’une voix furieuse, arrêta, comme le Quos ego, une bourrasque nouvelle. — Restez donc tranquilles ! continuait le professeur indigné, et s’essuyant le front avec son mouchoir qu’il venait de prendre dans sa toque. Quant à vous, le nouveau, vous me copierez vingt fois le verbe ridiculus sum.\n\nPuis, d’une voix plus douce :\n\n— Eh ! vous la retrouverez, votre casquette ; on ne vous l’a pas volée !\n\nTout reprit son calme. Les têtes se courbèrent sur les cartons, et le nouveau resta pendant deux heures dans une tenue exemplaire, quoiqu’il y eût bien, de temps à autre, quelque boulette de papier lancée d’un bec de plume qui vînt s’éclabousser sur sa figure. Mais il s’essuyait avec la main, et demeurait immobile, les yeux baissés.",
+          "startParagraph": 22,
+          "endParagraph": 25,
+          "source": "https://fr.wikisource.org/wiki/Madame_Bovary/Premi%C3%A8re_partie/1",
+          "sha256": "c6f985269d660e44faa6ddf484b408ac5d15aa0a1791e8b259349cb8ecdd476d"
+        },
+        {
+          "id": "flaubert-bovary-p03",
+          "text": "Dans les beaux soirs d’été, à l’heure où les rues tièdes sont vides, quand les servantes jouent au volant sur le seuil des portes, il ouvrait sa fenêtre et s’accoudait. La rivière, qui fait de ce quartier de Rouen comme une ignoble petite Venise, coulait en bas, sous lui, jaune, violette ou bleue entre ses ponts et ses grilles. Des ouvriers, accroupis au bord, lavaient leurs bras dans l’eau. Sur des perches partant du haut des greniers, des écheveaux de coton séchaient à l’air. En face, au delà des toits, le grand ciel pur s’étendait, avec le soleil rouge se couchant. Qu’il devait faire bon là-bas ! Quelle fraîcheur sous la hétraie ! Et il ouvrait les narines pour aspirer les bonnes odeurs de la campagne, qui ne venaient pas jusqu’à lui.",
+          "startParagraph": 42,
+          "endParagraph": 42,
+          "source": "https://fr.wikisource.org/wiki/Madame_Bovary/Premi%C3%A8re_partie/1",
+          "sha256": "854151050951848f5eddf8d5770c776907d905c000c495715164be87368d0f75"
+        }
+      ],
+      "text": "— Débarrassez-vous donc de votre casque, dit le professeur, qui était un homme d’esprit.\n\nIl y eut un rire éclatant des écoliers qui décontenança le pauvre garçon, si bien qu’il ne savait s’il fallait garder sa casquette à la main, la laisser par terre ou la mettre sur sa tête. Il se rassit et la posa sur ses genoux.\n\n— Levez-vous, reprit le professeur, et dites-moi votre nom.\n\nLe nouveau articula, d’une voix bredouillante, un nom inintelligible.\n\n— Répétez !\n\nLe même bredouillement de syllabes se fit entendre, couvert par les huées de la classe.\n\n— Plus haut ! cria le maître, plus haut !\n\nLe nouveau, prenant alors une résolution extrême, ouvrit une bouche démesurée et lança à pleins poumons, comme pour appeler quelqu’un, ce mot : Charbovari.",
+      "editorialStatus": "verified-complete-source-paragraphs"
+    },
+    {
+      "id": "flaubert-salammbo",
+      "title": "Salammbô",
+      "author": "Gustave Flaubert",
+      "audience": "adult",
+      "year": "1862",
+      "tags": [
+        "roman historique",
+        "voyage",
+        "antiquité"
+      ],
+      "genre": "roman historique",
+      "source": "https://fr.wikisource.org/wiki/Salammb%C3%B4/Le_Festin",
+      "edition": "Livre:Flaubert - Salammbô.djvu",
+      "editionYear": 1910,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Flaubert_-_Salammb%C3%B4.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1880,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Gustave_Flaubert",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "14072784",
+      "sourceHtmlSha256": "f06226ab5611e21bfd18b42085e806abe7a483f203c1c8d2c791346ffba90214",
+      "passages": [
+        {
+          "id": "flaubert-salammbo-p01",
+          "text": "— Qu’on les réveille ! répondirent les Mercenaires.\n\nAprès une seconde démarche, on leur expliqua qu’elles étaient enfermées dans un temple.\n\n— Qu’on l’ouvre ! répliquèrent-ils.\n\nEt quand les esclaves, en tremblant, eurent avoué qu’elles étaient entre les mains du général Giscon, ils s’écrièrent :\n\n— Qu’il les apporte !\n\nGiscon, bientôt, apparut au fond du jardin, dans une escorte de la Légion sacrée. Son ample manteau noir, retenu sur sa tête à une mitre d’or constellée de pierres précieuses, et qui pendait tout à l’entour jusqu’aux sabots de son cheval, se confondait, de loin, avec la couleur de la nuit. On n’apercevait que sa barbe blanche, les rayonnements de sa coiffure et son triple collier à larges plaques bleues qui lui battait sur la poitrine.",
+          "startParagraph": 24,
+          "endParagraph": 29,
+          "source": "https://fr.wikisource.org/wiki/Salammb%C3%B4/Le_Festin",
+          "sha256": "565ad007c7a9ffb5e39422c5491a522181cf81c63b2c4d34e0ee0a7cbbccce15"
+        },
+        {
+          "id": "flaubert-salammbo-p02",
+          "text": "Sa chevelure, poudrée d’un sable violet, et réunie en forme de tour selon la mode des vierges chananéennes, la faisait paraître plus grande. Des tresses de perles attachées à ses tempes descendaient jusqu’aux coins de sa bouche, rose comme une grenade entr’ouverte. Il y avait sur sa poitrine un assemblage de pierres lumineuses, imitant par leur bigarrure les écailles d’une murène. Ses bras, garnis de diamants, sortaient nus de sa tunique sans manches, étoilée de fleurs rouges sur un fond tout noir. Elle portait entre les chevilles une chaînette d’or pour régler sa marche, et son grand manteau de pourpre sombre, taillé dans une étoffe inconnue, traînait derrière elle, faisant à chacun de ses pas comme une large vague qui la suivait.",
+          "startParagraph": 47,
+          "endParagraph": 47,
+          "source": "https://fr.wikisource.org/wiki/Salammb%C3%B4/Le_Festin",
+          "sha256": "e4b9f1bd0d78df124ef4776ca7a9f0efdad7b5a6c7e7fd5f02a27abaf626dc2f"
+        },
+        {
+          "id": "flaubert-salammbo-p03",
+          "text": "On le vit courir entre les proues des galères, puis réapparaître le long des trois escaliers jusqu’à la porte rouge qu’il heurta de tout son corps. En haletant, il s’appuya contre le mur pour ne pas tomber.\n\nUn homme l’avait suivi, et, à travers les ténèbres, car les lueurs du festin étaient cachées par l’angle du palais, il reconnut Spendius.\n\n— Va-t’en ! dit-il.\n\nL’esclave, sans répondre, se mit avec ses dents à déchirer sa tunique ; puis s’agenouillant auprès de Mâtho il lui prit le bras délicatement, et il le palpait dans l’ombre pour découvrir la blessure.\n\nSous un rayon de la lune qui glissait entre les nuages, Spendius aperçut au milieu du bras une plaie béante. Il roula tout autour le morceau d’étoffe ; mais l’autre, s’irritant, disait :",
+          "startParagraph": 81,
+          "endParagraph": 85,
+          "source": "https://fr.wikisource.org/wiki/Salammb%C3%B4/Le_Festin",
+          "sha256": "5fbbd796f53b6ff39123ba0f960f112aa7989b0f9123628bc3b7c80ef51d6d47"
+        }
+      ],
+      "text": "— Qu’on les réveille ! répondirent les Mercenaires.\n\nAprès une seconde démarche, on leur expliqua qu’elles étaient enfermées dans un temple.\n\n— Qu’on l’ouvre ! répliquèrent-ils.\n\nEt quand les esclaves, en tremblant, eurent avoué qu’elles étaient entre les mains du général Giscon, ils s’écrièrent :\n\n— Qu’il les apporte !\n\nGiscon, bientôt, apparut au fond du jardin, dans une escorte de la Légion sacrée. Son ample manteau noir, retenu sur sa tête à une mitre d’or constellée de pierres précieuses, et qui pendait tout à l’entour jusqu’aux sabots de son cheval, se confondait, de loin, avec la couleur de la nuit. On n’apercevait que sa barbe blanche, les rayonnements de sa coiffure et son triple collier à larges plaques bleues qui lui battait sur la poitrine.",
+      "editorialStatus": "verified-complete-source-paragraphs"
+    },
+    {
+      "id": "sand-fadette",
+      "title": "La Petite Fadette",
+      "author": "George Sand",
+      "audience": "adult",
+      "year": "1849",
+      "tags": [
+        "roman",
+        "nature",
+        "amour"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/La_Petite_Fadette/1",
+      "edition": "Livre:Sand - La Petite Fadette, Calmann-Lévy.djvu",
+      "editionYear": 1926,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Sand_-_La_Petite_Fadette,_Calmann-L%C3%A9vy.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1876,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:George_Sand",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "14050835",
+      "sourceHtmlSha256": "439be060d72126af8606763b17a7ef87eba4a43c72881de1db72f2eb1cd6790e",
+      "passages": [
+        {
+          "id": "sand-fadette-p01",
+          "text": "— Tu travailles si bien, ma femme, lui\ndit-il, que ça doit me donner du courage.\nVoilà deux enfants de plus à nourrir, dont\nnous n’avions pas absolument besoin ; ça veut\ndire qu’il ne faut pas que je me repose de  cultiver nos terres et d’élever nos bestiaux. Sois\ntranquille ; on travaillera ; mais ne m’en donne\npas trois la prochaine fois, car ça serait trop.\n\nLa mère Barbeau se prit à pleurer, dont le\npère Barbeau se mit fort en peine.\n\n— Bellement, bellement, dit-il, il ne faut te\nchagriner, ma bonne femme. Ce n’est pas par\nmanière de reproche que je t’ai dit cela, mais\npar manière de remerciement, bien au contraire. \nCes deux enfants-là sont beaux et bien\nfaits ; ils n’ont point de défauts sur le corps,\net j’en suis content.",
+          "startParagraph": 6,
+          "endParagraph": 8,
+          "source": "https://fr.wikisource.org/wiki/La_Petite_Fadette/1",
+          "sha256": "fd9db6f4e7d6fe808787897dd39956178b77a2cf54370c232eb926ecf471749d"
+        },
+        {
+          "id": "sand-fadette-p02",
+          "text": "La mère Sagette parlait d’or et on la crut.\nOn lui promit de faire comme elle disait, et\non lui fit un beau présent avant de la renvoyer. \nPuis comme elle avait bien recommandé \nque les bessons ne fussent point\nnourris du même lait, on s’enquit vitement\nd’une nourrice.\n\nMais il ne s’en trouva point dans l’endroit.\nLa mère Barbeau, qui n’avait pas compté sur\ndeux enfants, et qui avait nourri elle-même\ntous les autres, n’avait pas pris ses précautions\nà l’avance. Il fallut que le père Barbeau partît\npour chercher cette nourrice dans les environs ; et pendant ce temps, comme la mère ne\npouvait pas laisser pâtir ses petits, elle leur\ndonna le sein à l’un comme à l’autre.",
+          "startParagraph": 15,
+          "endParagraph": 16,
+          "source": "https://fr.wikisource.org/wiki/La_Petite_Fadette/1",
+          "sha256": "dd3ea0e39d92def5a8bb7402fc5437b86bcc4a0d0ec13e0963651aee425a5ff3"
+        },
+        {
+          "id": "sand-fadette-p03",
+          "text": "— N’ayez peur, dit la Barbeaude, je me sens d’aussi bon appétit que si j’avais quinze ans, et\nd’ailleurs, si je sentais que je m’épuise, je vous\npromets que je ne vous le cacherais pas, et il\nserait toujours temps de mettre un de ces\npauvres enfants hors de chez nous.\n\nLe père Barbeau se rendit, d’autant plus\nqu’il aimait bien autant ne pas faire de dépense\ninutile. La mère Barbeau nourrit ses bessons\nsans se plaindre et sans souffrir, et même elle\nétait d’un si beau naturel que, deux ans après\nle sevrage de ses petits, elle mit au monde une\njolie petite fille qui eut nom Nanette, et qu’elle\nnourrit aussi elle-même. Mais c’était un peu\ntrop, et elle eût eu peine à en venir à bout, si\nsa fille aînée, qui était à son premier enfant,\nne l’eût soulagée de temps en temps, en donnant \nle sein à sa petite sœur.",
+          "startParagraph": 22,
+          "endParagraph": 23,
+          "source": "https://fr.wikisource.org/wiki/La_Petite_Fadette/1",
+          "sha256": "056497f0c591bb3a1f65a01d4f64423096fabc30b6132063f62496cac21e523a"
+        }
+      ],
+      "text": "— Tu travailles si bien, ma femme, lui\ndit-il, que ça doit me donner du courage.\nVoilà deux enfants de plus à nourrir, dont\nnous n’avions pas absolument besoin ; ça veut\ndire qu’il ne faut pas que je me repose de  cultiver nos terres et d’élever nos bestiaux. Sois\ntranquille ; on travaillera ; mais ne m’en donne\npas trois la prochaine fois, car ça serait trop.\n\nLa mère Barbeau se prit à pleurer, dont le\npère Barbeau se mit fort en peine.\n\n— Bellement, bellement, dit-il, il ne faut te\nchagriner, ma bonne femme. Ce n’est pas par\nmanière de reproche que je t’ai dit cela, mais\npar manière de remerciement, bien au contraire. \nCes deux enfants-là sont beaux et bien\nfaits ; ils n’ont point de défauts sur le corps,\net j’en suis content.",
+      "editorialStatus": "verified-complete-source-paragraphs"
+    },
+    {
+      "id": "sand-champi",
+      "title": "François le Champi",
+      "author": "George Sand",
+      "audience": "adult",
+      "year": "1848",
+      "tags": [
+        "roman",
+        "nature",
+        "solidarité"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Fran%C3%A7ois_le_Champi/Chapitre_1",
+      "edition": "Livre:Sand - Œuvres illustrées de George Sand, 1855.djvu",
+      "editionYear": 1853,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Sand_-_%C5%92uvres_illustr%C3%A9es_de_George_Sand,_1855.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1876,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:George_Sand",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "10214059",
+      "sourceHtmlSha256": "53f95c5f3b42eda645a27e876abe7372eb0d214aa588b632a1cf7031bfba9728",
+      "passages": [
+        {
+          "id": "sand-champi-p01",
+          "text": "— Ah ! je sais, reprit Madeleine, c’est la femme qui est venue demeurer ici, qui est emménagée d’hier soir ?\n\n— Oui, répondit l’enfant.\n\n— Et vous demeuriez à Mers !\n\n— Je ne sais pas.\n\n— Tu es un garçon peu savant. Sais-tu le nom de ta mère, au moins ?\n\n— Oui, c’est la Zabelle.\n\n— Isabelle qui ? tu ne lui connais pas d’autre nom ?\n\n— Ma foi non, allez !\n\n— Ce que tu sais ne te fatiguera pas la cervelle, dit Madeleine en souriant et en commençant à battre son linge.\n\n— Comment dites-vous ? reprit le petit François.\n\nMadeleine le regarda encore ; c’était un bel enfant, il avait des yeux magnifiques. C’est dommage, pensa-t-elle, qu’il ait l’air si niais. Quel âge as-tu ? reprit-elle. Peut-être que tu ne le sais pas non plus.",
+          "startParagraph": 13,
+          "endParagraph": 23,
+          "source": "https://fr.wikisource.org/wiki/Fran%C3%A7ois_le_Champi/Chapitre_1",
+          "sha256": "0ecf053c4bf8fab02e32753ba2462343b1ec0a7d06628c7da4dca1585096d4f5"
+        },
+        {
+          "id": "sand-champi-p02",
+          "text": "Quand elle ouvrit la porte de sa maison, elle entendit sur le petit pont de l’écluse un bruit de sabots qui courait après elle, et, en se virant, elle vit le champi qui l’avait rattrapée et qui lui apportait son battoir, son savon, le reste de son linge et son chéret de laine.\n\n— Oh ! oh ! dit-elle en lui mettant la main sur l’épaule, tu n’es pas si bête que je croyais, toi, car tu es serviable, et celui qui a bon cœur n’est jamais sot. Entre, mon enfant, viens te reposer. Voyez ce pauvre petit ! il porte plus lourd que lui-même !\n\n— Tenez, mère, dit-elle à la vieille meunière qui lui présentait son enfant bien frais et tout souriant, voilà un pauvre champi qui a l’air malade. Vous qui vous connaissez à la fièvre, il faudrait tâcher de le guérir.",
+          "startParagraph": 36,
+          "endParagraph": 38,
+          "source": "https://fr.wikisource.org/wiki/Fran%C3%A7ois_le_Champi/Chapitre_1",
+          "sha256": "f703e5e30e4d2239833cadcb5c6c32dac9732b29dc0ee4e63c71f770f234e2d8"
+        },
+        {
+          "id": "sand-champi-p03",
+          "text": "— Croyez-vous ? dit la Zabelle ; ça serait une peine pour moi, car cet enfant-là, voyez-vous, est d’un cœur comme on n’en trouve guère ; ça ne se plaint jamais, et c’est aussi soumis qu’un enfant de famille ; c’est tout le contraire des autres champis, qui sont terribles et tabâtres, et qui ont toujours l’esprit tourné à la malice.\n\n— Parce qu’on les rebute et parce qu’on les maltraite. Si celui-là est bon, c’est que vous êtes bonne pour lui, soyez-en assurée.\n\n— C’est la vérité, reprit la Zabelle ; les enfants ont plus de connaissance qu’on ne croit. Tenez, celui-là n’est pas malin, et pourtant il sait très bien se rendre utile. Une fois que j’étais malade, l’an passé (il n’avait que cinq ans), il m’a soignée comme ferait une personne.",
+          "startParagraph": 46,
+          "endParagraph": 48,
+          "source": "https://fr.wikisource.org/wiki/Fran%C3%A7ois_le_Champi/Chapitre_1",
+          "sha256": "6ec1ba1f906e1eaa2a2c02acda6ddabc1362c3a6110a1c522069861529dbd72d"
+        }
+      ],
+      "text": "— Ah ! je sais, reprit Madeleine, c’est la femme qui est venue demeurer ici, qui est emménagée d’hier soir ?\n\n— Oui, répondit l’enfant.\n\n— Et vous demeuriez à Mers !\n\n— Je ne sais pas.\n\n— Tu es un garçon peu savant. Sais-tu le nom de ta mère, au moins ?\n\n— Oui, c’est la Zabelle.\n\n— Isabelle qui ? tu ne lui connais pas d’autre nom ?\n\n— Ma foi non, allez !\n\n— Ce que tu sais ne te fatiguera pas la cervelle, dit Madeleine en souriant et en commençant à battre son linge.\n\n— Comment dites-vous ? reprit le petit François.\n\nMadeleine le regarda encore ; c’était un bel enfant, il avait des yeux magnifiques. C’est dommage, pensa-t-elle, qu’il ait l’air si niais. Quel âge as-tu ? reprit-elle. Peut-être que tu ne le sais pas non plus.",
+      "editorialStatus": "verified-complete-source-paragraphs"
     }
   ]
 }

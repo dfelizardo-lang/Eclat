@@ -68,3 +68,13 @@ Compteurs inchangés : 42 titres (21 par public), 90 passages validés (45 par p
 32 fenêtres historiques exclues du compteur éditorial. Contrôle de production après commit.
 L'APK déjà téléchargé embarque l'ancien catalogue : ce correctif met d'abord à jour
 le site et l'API, pas rétroactivement les fichiers installés sur un téléphone.
+
+## Lot équilibré — 4 octobre 2026
+
+Base main inspectée : 9ab3222d88f9e2da12d080fed7061feed63e193d.
+8 œuvres supplémentaires intégrées, 4 par public ; 24 passages éditoriaux complets et distincts, 675 à 815 caractères, espaces compris.
+Enfants : Les Vacances (Ségur, édition 1884), L’Auberge de l’Ange Gardien (Ségur, 1888), De la Terre à la Lune (Verne, 1868), Michel Strogoff (Verne, 1905).
+Adultes : Madame Bovary et Salammbô (Flaubert, 1910), La Petite Fadette (Sand, 1926), François le Champi (Sand, 1853).
+Textes français originaux ; auteurs décédés en 1874, 1905, 1880 et 1876, dates contrôlées sur leurs pages Wikisource. Éditions historiques et scans référencés. Pas de préfaces ni illustrations importées. Empreintes et coordonnées des paragraphes conservées.
+Catalogue local : 50 titres, 25 par public ; 114 extraits éditoriaux vérifiés, 57 par public. Les 12 titres historiques et leurs 32 fenêtres ne sont toujours pas comptés comme nouveaux extraits validés.
+Objectif restant : 150 œuvres supplémentaires, audit des 12 historiques et 486 passages validés pour atteindre 200/600. Cible non atteinte. Tests catalogue/API/rotation/build Android ; vérification de production après commit.

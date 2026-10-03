@@ -46,20 +46,30 @@ def extract(spec):
     for i,p in enumerate(paras):
         if 'Ce texte est dans le domaine public' in p or 'La dernière modification' in p:
             paras=paras[:i]; break
-    # Three spaced, disjoint groups of intact paragraphs. No rewriting or truncation.
+    # Three spaced groups of complete paragraphs. Never split an oversized paragraph.
+    policy=json.loads(Path(__file__).resolve().parents[1].joinpath('data/catalogue-policy.json').read_text())
+    maximum=policy['maxPassageCharacters']; minimum=policy['minPassageCharacters']
     groups=[]; previous_end=0
-    for n in range(3):
-        i=max(previous_end, len(paras)*n//3); j=i; text=''
-        while j<len(paras) and len(text)+len(paras[j])+2<=3500:
-            text+=('\n\n' if text else '')+paras[j]; j+=1
-            if len(text)>=1800: break
-        if len(text)<200: raise ValueError(f'{title}: passage too short at {i}')
-        groups.append({'id':slug+f'-p{n+1:02}','text':text,'startParagraph':i,'endParagraph':j-1,'source':url}); previous_end=j
+    for n in range(policy['passagesPerWork']):
+        low=max(previous_end,len(paras)*n//3); high=max(low+1,len(paras)*(n+1)//3)
+        candidates=[]
+        for i in range(low,min(high,len(paras))):
+            j=i; text=''
+            while j<len(paras):
+                joined=text+('\n\n' if text else '')+paras[j]
+                if len(joined.encode('utf-16-le'))//2>maximum: break
+                text=joined;j+=1
+                if len(text)>=maximum*0.6:break
+            if minimum<=len(text.encode('utf-16-le'))//2<=maximum:
+                candidates.append((abs(len(text)-maximum*0.75),i,j,text))
+        if not candidates: raise ValueError(f'{title}: no complete paragraphs under {maximum} in selection {n+1}')
+        _,i,j,text=min(candidates)
+        groups.append({'id':slug+f'-p{n+1:02}','text':text,'startParagraph':start+i,'endParagraph':start+j-1,'source':url}); previous_end=j
     edition=re.search(r'"prpSourceIndexPage":"([^"]+)"',html)
     if not edition: raise ValueError(title+': missing edition scan')
     revision=re.search(r'"wgCurRevisionId":(\d+)',html).group(1)
     Path('sources/'+slug+'.html').write_text(html)
-    return dict(id=slug,title=title,author=author,audience=audience,year=year,tags=tags,genre=tags[0],source=url,edition=edition.group(1),rights={'status':'pending-review','territory':'France','authorDeathYear':death,'basis':'Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.','authorSource':'https://fr.wikisource.org/wiki/Auteur:'+urllib.parse.quote(author.replace(' ','_')),'verifiedAt':'2026-10-02'},sourceRevision=revision,passages=groups,text=groups[0]['text'])
+    return dict(id=slug,title=title,author=author,audience=audience,year=year,tags=tags,genre=tags[0],source=url,edition=edition.group(1),rights={'status':'pending-review','territory':'France','authorDeathYear':death,'basis':'Texte français original; auteur décédé depuis plus de 70 ans; édition historique antérieure à 1930.','authorSource':'https://fr.wikisource.org/wiki/Auteur:'+urllib.parse.quote(author.replace(' ','_')),'verifiedAt':__import__('datetime').datetime.now().date().isoformat()},sourceRevision=revision,passages=groups,text=groups[0]['text'])
 
 SPECS=[
 ('gautier-roman-momie','Le Roman de la momie','Théophile Gautier',1872,'adult','1858',['roman historique','amour','étrange','voyage'],'Le_Roman_de_la_momie/Chapitre_7','Lorsque le jour parut'),

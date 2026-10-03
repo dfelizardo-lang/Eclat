@@ -1,0 +1,542 @@
+[
+  {
+    "id": "daudet-lettres-moulin-p01",
+    "before": 2328,
+    "after": 852,
+    "previousSha256": "377538a28aeca56dbf1597b93f429919a47d155dc3c103706ae0d1a6c43716de"
+  },
+  {
+    "id": "daudet-lettres-moulin-p02",
+    "before": 1653,
+    "after": 564,
+    "previousSha256": "08009a8de39e84d1a7d2d4cdfdeff9e5dcec3521ecaa64e5f02c5230b9790d26"
+  },
+  {
+    "id": "daudet-lettres-moulin-p03",
+    "before": 2346,
+    "after": 802,
+    "previousSha256": "de29764de4ee2ce7e401fa4ad37f6c5bcf0adbb6aa89ab252e6149283754390b"
+  },
+  {
+    "id": "flaubert-trois-contes-p01",
+    "before": 2330,
+    "after": 750,
+    "previousSha256": "febd8b7a5300be76a5b931b01c8e5cafff6ea0879f0e91bc58a6b94672c7eab7"
+  },
+  {
+    "id": "flaubert-trois-contes-p02",
+    "before": 1858,
+    "after": 752,
+    "previousSha256": "ac7448b99ad89fbfc4a77461211d68058f19a51dce78365c3d51ff51380d9116"
+  },
+  {
+    "id": "flaubert-trois-contes-p03",
+    "before": 1947,
+    "after": 752,
+    "previousSha256": "dc6981c25dab641050a94ca0ac251fdfc935aac95649d3d32f6b61c8979598a2"
+  },
+  {
+    "id": "gautier-roman-momie-p01",
+    "before": 2553,
+    "after": 753,
+    "previousSha256": "d6a022ef1d07a374a389cb62fae9fc20adc2b07c101215b78a224ca14babe9c0"
+  },
+  {
+    "id": "gautier-roman-momie-p02",
+    "before": 1957,
+    "after": 698,
+    "previousSha256": "a00d65a2dd27c260aca792fc7c647376eb8fe4872dc22accd7dc89096989a767"
+  },
+  {
+    "id": "gautier-roman-momie-p03",
+    "before": 1891,
+    "after": 741,
+    "previousSha256": "ca33802c3e26ba81c1f9e52166afc34fcb7dfe4b5c3447e6896f37881d86c20a"
+  },
+  {
+    "id": "nerval-main-enchantee-p01",
+    "before": 1961,
+    "after": 747,
+    "previousSha256": "7ee71a67d093a2b47f6566ed85411d12e4a70eec5749b7044c337c984f21fe61"
+  },
+  {
+    "id": "nerval-main-enchantee-p02",
+    "before": 2770,
+    "after": 763,
+    "previousSha256": "39418d24acfcf16fa7a1d1e2efb7ae5839a733d75fe885efc8259e3754c282fd"
+  },
+  {
+    "id": "nerval-main-enchantee-p03",
+    "before": 2983,
+    "after": 733,
+    "previousSha256": "dbf8880bfb55f0528e7768d47052f9aeefeb8e02b256eb89b599a1a2151d5aeb"
+  },
+  {
+    "id": "perrault-riquet-p01",
+    "before": 1901,
+    "after": 725,
+    "previousSha256": "4709836f995fd35011338822d1e7b5c7035199bc8225ecd6097ec490762d8231"
+  },
+  {
+    "id": "perrault-riquet-p02",
+    "before": 2114,
+    "after": 643,
+    "previousSha256": "4d5e4213cad463585ca321566af4b653acae9d473f42decf4f058de5bbec2d7e"
+  },
+  {
+    "id": "perrault-riquet-p03",
+    "before": 2711,
+    "after": 736,
+    "previousSha256": "3cd1c87bc4b228493f94103999b3b7468ebe22c71e70995c561b24bde88acc87"
+  },
+  {
+    "id": "verne-cinq-semaines-p01",
+    "before": 2099,
+    "after": 750,
+    "previousSha256": "08e91b9fac89922357b193dd7e8a8538895733f25e27d5ef354db20203ea9fc5"
+  },
+  {
+    "id": "verne-cinq-semaines-p02",
+    "before": 1825,
+    "after": 749,
+    "previousSha256": "895665c80934293760b0c5a80c6a1866f858ae0f3bfd8bedab6893a8451c815e"
+  },
+  {
+    "id": "verne-cinq-semaines-p03",
+    "before": 1861,
+    "after": 750,
+    "previousSha256": "431bee92964fd8841d9c412f6e6c8a1384e7213954aaff70b76845870c8dcf1c"
+  },
+  {
+    "id": "verne-tour-monde-p01",
+    "before": 2016,
+    "after": 751,
+    "previousSha256": "a54392c716030500b2e8b0bfadef088faa0c3f12b6d7305002b30d8115db0d0f"
+  },
+  {
+    "id": "verne-tour-monde-p02",
+    "before": 2003,
+    "after": 750,
+    "previousSha256": "612ec1471a65f4f59c334e60d610e7a6b1993e3019bf6598e80e863051289522"
+  },
+  {
+    "id": "verne-tour-monde-p03",
+    "before": 1912,
+    "after": 750,
+    "previousSha256": "5d6b57eaa800b664af9259c4eddd9a47391ecf75866a73731238008498b7788e"
+  },
+  {
+    "id": "verne-voyage-centre-p01",
+    "before": 1909,
+    "after": 749,
+    "previousSha256": "a9bc91e1eaae3ca47f2abb2b613a61648df96f4bd5904d6da93865024c70d3a1"
+  },
+  {
+    "id": "verne-voyage-centre-p02",
+    "before": 2800,
+    "after": 750,
+    "previousSha256": "99ff5e0e519e7aec1291acb56dddae570e6cd97a57f4833b630c2db8e5a8890a"
+  },
+  {
+    "id": "verne-voyage-centre-p03",
+    "before": 1817,
+    "after": 749,
+    "previousSha256": "c6c6d04b0bc427fba6f2e5b9bc95e1d44fea5d55a7c5a607d6fc51fbcbca36bc"
+  },
+  {
+    "id": "sand-mare-diable-p01",
+    "before": 2835,
+    "after": 752,
+    "previousSha256": "043d02e7438595283a9bdc5028cae1a0f3143f99ebae65b4ab9dba1add9c8566"
+  },
+  {
+    "id": "sand-mare-diable-p02",
+    "before": 1800,
+    "after": 749,
+    "previousSha256": "e2b7eb646721cc343fc6d11014440cb78bde4bee28f2fe59f50f54ad24334a7a"
+  },
+  {
+    "id": "sand-mare-diable-p03",
+    "before": 2160,
+    "after": 749,
+    "previousSha256": "83901a5ce2d1e7dfd9f32f935e9c022e9a499386fd0507eb8b0da4ad4b0e6b70"
+  },
+  {
+    "id": "balzac-pere-goriot-p01",
+    "before": 2560,
+    "after": 750,
+    "previousSha256": "6129fa1ed3261e70e7bf613e2e688ec9ab332d01bcc628c4bf1d30261875d279"
+  },
+  {
+    "id": "balzac-pere-goriot-p02",
+    "before": 1955,
+    "after": 750,
+    "previousSha256": "cf39320723bfb8f7891e9f26461f6171da760769b079c2b9d0aefb14b49ca9c9"
+  },
+  {
+    "id": "balzac-pere-goriot-p03",
+    "before": 1895,
+    "after": 750,
+    "previousSha256": "6f2f64d924fa4d2e762e5b6007d4186cb0280707bfaeb68bb74687eacf72e200"
+  },
+  {
+    "id": "zola-bonheur-dames-p01",
+    "before": 1872,
+    "after": 751,
+    "previousSha256": "0eb65f766f6cca43d318e7e30d43766d9834927637d1255e13601e31462e7f3a"
+  },
+  {
+    "id": "zola-bonheur-dames-p02",
+    "before": 2309,
+    "after": 750,
+    "previousSha256": "862b0e5c4fd4c492005b51bbf0d6e336a164c342b661ff09a057c9457ee4ec48"
+  },
+  {
+    "id": "zola-bonheur-dames-p03",
+    "before": 1995,
+    "after": 750,
+    "previousSha256": "5c52eb624bb0571bdf7ca6bb8b214dc2f3f86dc340d7c401beeb42d631b4693d"
+  },
+  {
+    "id": "hugo-miserables-p01",
+    "before": 2212,
+    "after": 575,
+    "previousSha256": "c04aa9bdd184366c868dc4f586766de1095a409070ed2b691fd21dea6564a838"
+  },
+  {
+    "id": "hugo-miserables-p02",
+    "before": 2537,
+    "after": 714,
+    "previousSha256": "f802fe72678e17f177b0834399e78adb327542b01177fd12c951e568c254cf64"
+  },
+  {
+    "id": "hugo-miserables-p03",
+    "before": 524,
+    "after": 877,
+    "previousSha256": "832b9ad8c6bdc5e123350a2f4240aee0d6abbcad4caa95508bd9a18e01a5653a"
+  },
+  {
+    "id": "stendhal-rouge-noir-p01",
+    "before": 2032,
+    "after": 750,
+    "previousSha256": "faf7ec9f84fecb2a2c72138ee786bc9fe45967fe1a1808cbc05cf918305ee593"
+  },
+  {
+    "id": "stendhal-rouge-noir-p02",
+    "before": 2453,
+    "after": 750,
+    "previousSha256": "c2cc66585701894f51587b3b8c14d45eb2aa4492335e2798aa59ecb662aa3af6"
+  },
+  {
+    "id": "stendhal-rouge-noir-p03",
+    "before": 2291,
+    "after": 750,
+    "previousSha256": "fe029045c206ecc5dccc5075922ece932a29aa3c32754967b30674f2c85f7997"
+  },
+  {
+    "id": "voltaire-candide-p01",
+    "before": 1868,
+    "after": 650,
+    "previousSha256": "f6c54e5e78cab7431096fe6a5eccc24536ef0633d9c85a712b2acdb57b561420"
+  },
+  {
+    "id": "voltaire-candide-p02",
+    "before": 1864,
+    "after": 722,
+    "previousSha256": "148e017b87a72e874273b180a0dd86bd2b3abc0e829128ab6d104ef571b966d5"
+  },
+  {
+    "id": "voltaire-candide-p03",
+    "before": 981,
+    "after": 683,
+    "previousSha256": "40a99efab97b351b39633c73522299bad2477876c63dec45ad3c94352155511c"
+  },
+  {
+    "id": "segur-malheurs-sophie-p01",
+    "before": 1828,
+    "after": 750,
+    "previousSha256": "3e5b744c17230a5aad1a60dc9598cf0f447cd44184fa0911f89aba60652acc95"
+  },
+  {
+    "id": "segur-malheurs-sophie-p02",
+    "before": 1902,
+    "after": 750,
+    "previousSha256": "5ebef89828bd320e2c9e73994cf3289b31c3e9943400a9de1ec9a6a38e16b1e3"
+  },
+  {
+    "id": "segur-malheurs-sophie-p03",
+    "before": 1834,
+    "after": 750,
+    "previousSha256": "3948ff5f804e9faf38e20b531f0f14d155747eb6aad5372e8e7334f22b298350"
+  },
+  {
+    "id": "segur-petites-filles-p01",
+    "before": 2039,
+    "after": 749,
+    "previousSha256": "253f1177e3dbf0dbac213adcced287ee94b2f7c17a5500ad54d18482319a5383"
+  },
+  {
+    "id": "segur-petites-filles-p02",
+    "before": 1807,
+    "after": 749,
+    "previousSha256": "5b6b1e2263e9e911e4d7640c0768817460daf7d92281ee70bb25e297fc071668"
+  },
+  {
+    "id": "segur-petites-filles-p03",
+    "before": 1838,
+    "after": 750,
+    "previousSha256": "6c1e7cfd6f34dca7bd1498f3fc7718124a5abea4f5384b6aba21b6aa2d109f50"
+  },
+  {
+    "id": "segur-bon-petit-diable-p01",
+    "before": 1861,
+    "after": 733,
+    "previousSha256": "2e877923947705b5115fa90a7401b3cb9d353e2893d515d7a62c798206d7515f"
+  },
+  {
+    "id": "segur-bon-petit-diable-p02",
+    "before": 1897,
+    "after": 738,
+    "previousSha256": "7537a43d6f771e3a695c49a958e01cafecd8a7a04563c0345019ca3bcafa8ef3"
+  },
+  {
+    "id": "segur-bon-petit-diable-p03",
+    "before": 2567,
+    "after": 733,
+    "previousSha256": "0155d86b3e45f6fc60cd43f4e2c41a10d3480bc68e7333f8378144f1842a5948"
+  },
+  {
+    "id": "aulnoy-oiseau-bleu-p01",
+    "before": 2385,
+    "after": 793,
+    "previousSha256": "977e055b54574687b4776a86a8cbcae26018ba6cb79a47b51e29b4c668125860"
+  },
+  {
+    "id": "aulnoy-oiseau-bleu-p02",
+    "before": 2138,
+    "after": 755,
+    "previousSha256": "52499a8b95057abb5e67c34aac99c574647fffd79aa9da4cd21b908717305270"
+  },
+  {
+    "id": "aulnoy-oiseau-bleu-p03",
+    "before": 1861,
+    "after": 698,
+    "previousSha256": "79f3ae171c7d9b5a25a97d3585a309aa6bb1d21d967d2ea57793190673b2cc07"
+  },
+  {
+    "id": "aulnoy-belle-cheveux-p01",
+    "before": 1835,
+    "after": 798,
+    "previousSha256": "27f3ad6a677713fdd53204ce97675f064b2d8a5e57ab2b11ba1fc444a96f0b80"
+  },
+  {
+    "id": "aulnoy-belle-cheveux-p02",
+    "before": 1813,
+    "after": 774,
+    "previousSha256": "2ab1e9731ab32d43056abcd9d09a0b8df225102aab4456f809191560a3bcb6bf"
+  },
+  {
+    "id": "aulnoy-belle-cheveux-p03",
+    "before": 2001,
+    "after": 742,
+    "previousSha256": "82d11cf63ff9c3c543cd3dbb3b6c62bbaa54e33f61df0c63bc94279e708d5410"
+  },
+  {
+    "id": "beaumont-belle-bete-p01",
+    "before": 2992,
+    "after": 712,
+    "previousSha256": "a9f54980e2002941ad262af154016b505b717b0d480ae445649cfc179f9e04d2"
+  },
+  {
+    "id": "beaumont-belle-bete-p02",
+    "before": 3240,
+    "after": 735,
+    "previousSha256": "9e8735aeb8ea563a8cfea5edadff0d21ffb3042ee23edd2a754adb6f0128fa34"
+  },
+  {
+    "id": "beaumont-belle-bete-p03",
+    "before": 3418,
+    "after": 701,
+    "previousSha256": "d529e1387741e1bd6a7c3f61dded8f5052b749a17422093b41a284d8fe69be80"
+  },
+  {
+    "id": "balzac-peau-chagrin-p01",
+    "before": 515,
+    "after": 762,
+    "previousSha256": "c6ab11b87edb64b9cdf64c58acb383b17e2c69c29938f19493a4bbfe82291e8b"
+  },
+  {
+    "id": "balzac-peau-chagrin-p02",
+    "before": 2545,
+    "after": 752,
+    "previousSha256": "157344f939b44186ec25c3a92e0a9ec966de46294aed229e9e872f53f4746e23"
+  },
+  {
+    "id": "balzac-peau-chagrin-p03",
+    "before": 1916,
+    "after": 757,
+    "previousSha256": "699544004163524af4062a13881f2979d9bd8b33aa0c549c6ca34c38a842f3d2"
+  },
+  {
+    "id": "daudet-contes-lundi-p01",
+    "before": 1998,
+    "after": 744,
+    "previousSha256": "ed3fd1bd87b050899542d60e0939cb08eddcb1c4e840c099d5fb350b92f00630"
+  },
+  {
+    "id": "daudet-contes-lundi-p02",
+    "before": 2139,
+    "after": 696,
+    "previousSha256": "6513537121c6f348e3d9a2d45c351d79dc7827c954d9d318bd314d8b2d25f52b"
+  },
+  {
+    "id": "daudet-contes-lundi-p03",
+    "before": 1954,
+    "after": 764,
+    "previousSha256": "cf31fb69c7badcc289e79c34c99a93833edbfe6987e3e411e73aa5009d403f00"
+  },
+  {
+    "id": "dumas-monte-cristo-p01",
+    "before": 1859,
+    "after": 740,
+    "previousSha256": "ad15253cf33b658144e8c93a13f8a81acbcf1ae312456fbaeae3bddc6858f2ea"
+  },
+  {
+    "id": "dumas-monte-cristo-p02",
+    "before": 2198,
+    "after": 746,
+    "previousSha256": "e7f0c0531bc7e6eb2c1ab0a94e80ab3b075badc276acc85bd7b0757f4d92af1b"
+  },
+  {
+    "id": "dumas-monte-cristo-p03",
+    "before": 1893,
+    "after": 750,
+    "previousSha256": "ae2f27ea096e03dba296b769bc9689b95b55f56d3e2a3cd18ee7f30ad4af2aad"
+  },
+  {
+    "id": "dumas-trois-mousquetaires-p01",
+    "before": 2678,
+    "after": 750,
+    "previousSha256": "4c884c21b629ec6602b21ea8cdfe694ab71342b1115e6de9bf129224dadf0d71"
+  },
+  {
+    "id": "dumas-trois-mousquetaires-p02",
+    "before": 1926,
+    "after": 744,
+    "previousSha256": "bde8810a9f2f398a3c7953968a5b73833cefb4beca37a5f1220356ab3b4012c7"
+  },
+  {
+    "id": "dumas-trois-mousquetaires-p03",
+    "before": 2345,
+    "after": 749,
+    "previousSha256": "867b312aa03577fa88adb7ded65a591938712f26f00b30b99a1a0fff149d516a"
+  },
+  {
+    "id": "loti-pecheur-islande-p01",
+    "before": 2126,
+    "after": 750,
+    "previousSha256": "b8b458588c846ce353e24fd0d8b3fda808c0dfe8b6832ead7a3dbacb47371018"
+  },
+  {
+    "id": "loti-pecheur-islande-p02",
+    "before": 1998,
+    "after": 748,
+    "previousSha256": "d2e0cfa83436eeb6e9fb3837aa9435118fa5e173907796ea6461d0d23782eb9a"
+  },
+  {
+    "id": "loti-pecheur-islande-p03",
+    "before": 2260,
+    "after": 750,
+    "previousSha256": "d4a721c6e521d25581f75eae42ab575997afdc85dfbb3352007d76532f536126"
+  },
+  {
+    "id": "malot-sans-famille-p01",
+    "before": 2319,
+    "after": 756,
+    "previousSha256": "b66631614051e9a76cec08322ff46ddef721aeb9267ed4ca99ad0923fafd2680"
+  },
+  {
+    "id": "malot-sans-famille-p02",
+    "before": 1935,
+    "after": 752,
+    "previousSha256": "b80f59e412657261f8fe6d81a3bfc9aaa8dd311c7646d0743bd543b437829874"
+  },
+  {
+    "id": "malot-sans-famille-p03",
+    "before": 1892,
+    "after": 697,
+    "previousSha256": "50c476ec21ccefac3b304c3cbff762bb1dadadd7077b9b0a7249008cd4435c09"
+  },
+  {
+    "id": "sand-contes-grandmere-p01",
+    "before": 1881,
+    "after": 755,
+    "previousSha256": "274984cdfe3ce7a0793a48276dae78744a6a61ceb63173152c1b5f30bed0ac1e"
+  },
+  {
+    "id": "sand-contes-grandmere-p02",
+    "before": 2074,
+    "after": 743,
+    "previousSha256": "0c8fd108eee342e4429481254e07eb12f79e3107513cba876029ed6d20fdf3f4"
+  },
+  {
+    "id": "sand-contes-grandmere-p03",
+    "before": 2131,
+    "after": 742,
+    "previousSha256": "ad9d4950252a9c0f11b628352dd769c0258ab7a509c7644ec18d711850c5a936"
+  },
+  {
+    "id": "sand-indiana-p01",
+    "before": 1859,
+    "after": 751,
+    "previousSha256": "61314032f0ade66ad971e569d2dfd1aab3ca545b413723a2f68793e3d65afb11"
+  },
+  {
+    "id": "sand-indiana-p02",
+    "before": 1962,
+    "after": 750,
+    "previousSha256": "c8d0de3bda76538a9899efd990ba09edace8123dc419b5d0ae27034dc0ca2bf3"
+  },
+  {
+    "id": "sand-indiana-p03",
+    "before": 2242,
+    "after": 750,
+    "previousSha256": "2473fcefe88e53a09063b2cf80f3f0057c8cd89495c22b2e08ae92e5e420f509"
+  },
+  {
+    "id": "verne-ile-mysterieuse-p01",
+    "before": 1886,
+    "after": 756,
+    "previousSha256": "83ac766135d9cc36aa9cd92aaed387319b8461d88e7c37f21e1704a5f1d0a8dd"
+  },
+  {
+    "id": "verne-ile-mysterieuse-p02",
+    "before": 1848,
+    "after": 719,
+    "previousSha256": "b3ab018b086406807db487dfaca45232554968eb44c16e974a201cd2abbfe419"
+  },
+  {
+    "id": "verne-ile-mysterieuse-p03",
+    "before": 2013,
+    "after": 743,
+    "previousSha256": "8090609d198c1aea0b18d5d91dd97dd452b8b605941e5d68b20836a3ea844b70"
+  },
+  {
+    "id": "zola-germinal-p01",
+    "before": 2510,
+    "after": 756,
+    "previousSha256": "e81e1e73ebd42b8a8fd4c9360d7be0d148f483696f3a4e2f801f3a07b2058266"
+  },
+  {
+    "id": "zola-germinal-p02",
+    "before": 2408,
+    "after": 739,
+    "previousSha256": "59677c110dfa82ac2fd7eaa5cecc6af7a7e399e41739941648d02625e94f7700"
+  },
+  {
+    "id": "zola-germinal-p03",
+    "before": 2323,
+    "after": 762,
+    "previousSha256": "310ca851f41b25a5ad00a15b8e327962b581861a8978a973e38263dffcfb9b3b"
+  }
+]

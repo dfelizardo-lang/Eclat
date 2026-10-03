@@ -1503,22 +1503,7 @@ function passageScore(p,desire,recent){
 function passageHistoryKey(){return "eclat_passage_history_"+(mode==="child"?"child":"adult")}
 const PASSAGE_EMBARGO_MS=30*24*60*60*1000;
 
-try{
- if(localStorage.getItem("eclat_v24_clean_start")!=="1"){
-   localStorage.removeItem("eclat_passage_history_adult");
-   localStorage.removeItem("eclat_passage_history_child");
-   localStorage.setItem("eclat_v24_clean_start","1");
- }
-}catch(e){}
-
-
-try{
- if(localStorage.getItem("eclat_history_migration_v23")!=="1"){
-   ["eclat_passage_history_adult","eclat_passage_history_child"].forEach(k=>localStorage.removeItem(k));
-   localStorage.setItem("eclat_history_migration_v23","1");
- }
-}catch(e){}
-
+// Historical migrations must never erase a reader’s passage history.
 
 function passageHistory(){
  try{

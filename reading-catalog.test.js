@@ -28,3 +28,10 @@ test('legacy reader IDs and paragraph windows are preserved',()=>{
   const current=reader(html,catalog).passages;
   for(const p of old){const same=current.find(q=>q.id===p.id);assert.ok(same);assert.equal(same.text,p.text);}
 });
+
+test('all active readings respect the shared short-passage limit without clearing history',()=>{
+ const policy=require('./data/catalogue-policy.json');const result=reader(html,catalog);
+ for(const p of result.passages)assert.ok(p.text.length<=policy.maxPassageCharacters,p.id+': '+p.text.length);
+ assert.ok(!/localStorage\.removeItem\("eclat_passage_history_/.test(html));
+ assert.ok(!/\["eclat_passage_history_adult","eclat_passage_history_child"\]\.forEach\(k=>localStorage\.removeItem/.test(html));
+});

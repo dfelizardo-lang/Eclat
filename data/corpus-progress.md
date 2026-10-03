@@ -48,3 +48,23 @@ Aucune interface, rotation, donnée utilisateur ou infrastructure modifiée.
 Reprise : diversifier poésie, théâtre, récits et auteurs; vérifier les 12 titres historiques; objectif 200 titres/600 extraits encore non atteint.
 
 Validation production le 3 octobre 2026 à 00 h 09 (Paris) : déploiement 38683f67489639eef2a5859cac3169a3bd617563 SUCCESS; /api/catalogue identique au fichier intégré, 42 titres (21 par public), 90 extraits éditoriaux vérifiés; les 30 nouveaux /api/passages/:id contrôlés individuellement par SHA-256. Aucun blocage technique constaté pour ce lot.
+
+## Correction de longueur — 3 octobre 2026
+
+Base inspectée : f9d0882ad0b2f298cbb512e1587d666edcb62f73.
+Après le retour utilisateur sur des lectures trop longues, plafond maximal confirmé par l’utilisateur
+à 2 000 caractères (espaces et séparateurs compris). Politique partagée dans
+`data/catalogue-policy.json`, appliquée au serveur et à l'importeur.
+Les 90 passages éditoriaux déjà raccourcis ont été resélectionnés en paragraphes sources entiers :
+minimum 564, moyenne 742, maximum 877 caractères. Identifiants inchangés ; traces
+des empreintes précédentes dans `data/reading-batches/2026-10-03-length-audit.json`.
+Pour La Belle et la Bête, l'édition de 1806 regroupe des paragraphes trop longs :
+remplacement par celle de 1883, Le Monde enchanté, Firmin-Didot, avec son scan et
+sa source conservés. Aucune coupe de phrase, aucune réécriture.
+Les 12 textes historiques restent à auditer ; leurs 32 fenêtres sont déjà sous ce plafond.
+Les anciens blocs de migration qui effaçaient l'historique ont été retirés.
+Tests : sept contrôles catalogue/API/rotation/identifiants/limite/historique réussis.
+Compteurs inchangés : 42 titres (21 par public), 90 passages validés (45 par public),
+32 fenêtres historiques exclues du compteur éditorial. Contrôle de production après commit.
+L'APK déjà téléchargé embarque l'ancien catalogue : ce correctif met d'abord à jour
+le site et l'API, pas rétroactivement les fichiers installés sur un téléphone.

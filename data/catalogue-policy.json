@@ -1,0 +1,7 @@
+{
+  "maxPassageCharacters": 2000,
+  "minPassageCharacters": 200,
+  "passagesPerWork": 3,
+  "unit": "UTF-16 code units, including spaces and paragraph separators",
+  "selection": "Contiguous complete source paragraphs only; no rewriting or sentence truncation."
+}

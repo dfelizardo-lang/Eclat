@@ -23,3 +23,15 @@ body[data-comfort-theme] .comfort-dialog .comfort-kicker{color:#a33423!important
 body[data-comfort-theme] :is(.photo-button,.library-loans-link,.comfort-open){background:#eee6d9!important;color:#25231d!important}
 body[data-comfort-theme] .shuffle{background:#173b48!important;color:#fff!important}
 body[data-comfort-theme] .shuffle :is(strong,small,span){color:#fff!important}
+/* Visible focus and comfortable touch targets throughout both audiences. */
+:where(button,a[href],input,select,textarea,[role=button]){scroll-margin-block:24px}
+:where(button,[role=button],a.photo-button){min-height:44px;min-width:44px}
+.saved-item:focus-visible{outline:3px solid #171713!important;outline-offset:3px!important;box-shadow:0 0 0 3px #fffdf8!important}
+[role=dialog] h2[tabindex='-1']:focus{outline:2px solid #61594f;outline-offset:5px}
+.accessible-mobile-nav{display:none}
+@media(max-width:760px),(pointer:coarse){
+ body{padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
+ .accessible-mobile-nav{position:fixed;inset:auto 0 0;z-index:45;display:flex;align-items:stretch;gap:6px;padding:10px 8px calc(10px + env(safe-area-inset-bottom,0px));background:#fffdf8;color:#25231d;border-top:2px solid #61594f;box-shadow:0 -4px 16px #17171322}
+ .accessible-mobile-nav :is(a,button){flex:1;min-width:0;min-height:52px;display:flex;align-items:center;justify-content:center;padding:8px 4px;border:1px solid #61594f;border-radius:10px;background:#fffdf8;color:#25231d!important;font:700 13px/1.4 Arial,sans-serif;text-align:center;text-decoration:none;white-space:normal}
+ .accessible-mobile-nav [aria-current=page]{background:#173b48;color:#fff!important}
+}

@@ -35,3 +35,5 @@ body[data-comfort-theme] .shuffle :is(strong,small,span){color:#fff!important}
  .accessible-mobile-nav :is(a,button){flex:1;min-width:0;min-height:52px;display:flex;align-items:center;justify-content:center;padding:8px 4px;border:1px solid #61594f;border-radius:10px;background:#fffdf8;color:#25231d!important;font:700 13px/1.4 Arial,sans-serif;text-align:center;text-decoration:none;white-space:normal}
  .accessible-mobile-nav [aria-current=page]{background:#173b48;color:#fff!important}
 }
+.child-narrator{max-width:690px;margin:0 auto 28px;padding:18px;border:1px solid #61594f;border-radius:16px;background:#fffdf8;color:#173b48;font:15px/1.6 Arial,sans-serif}
+.child-narrator legend{font-weight:700;padding-inline:8px}.child-narrator label{display:block;font-weight:700;margin:10px 0 6px}.child-narrator select{width:100%;min-height:44px;padding:10px;border:1px solid #61594f;border-radius:10px;background:#fff;color:#25231d;font:inherit}.child-narrator-note{font-size:13px;color:#61594f!important;margin:12px 0 0}

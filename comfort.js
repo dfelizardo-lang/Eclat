@@ -1,5 +1,6 @@
 (() => {
  'use strict';
+ const narrator=document.createElement('script');narrator.src='/child-narrator.js';document.head.append(narrator);
  const nav=document.createElement('script');nav.src='/accessible-navigation.js';document.head.append(nav);
  const key='eclat-comfort-v1',defaults={size:'100',spacing:false,simple:false,motion:false,theme:'paper'};
  let settings={...defaults};try{settings={...defaults,...JSON.parse(localStorage.getItem(key)||'{}')}}catch{}

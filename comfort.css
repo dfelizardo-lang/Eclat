@@ -1,0 +1,25 @@
+.comfort-open{font:700 14px/1.4 Arial,sans-serif!important;min-height:44px;padding:10px 16px!important;border:1px solid #61594f!important;background:#fffdf8!important;color:#25231d!important;white-space:normal!important;cursor:pointer}
+.comfort-skip{position:fixed;top:8px;left:8px;z-index:20000;padding:12px;background:#171713;color:#fff;transform:translateY(-160%)}.comfort-skip:focus{transform:none}
+.comfort-dialog{width:min(540px,calc(100% - 24px));max-height:90dvh;overflow:auto;border:1px solid #61594f;border-radius:22px;padding:28px;background:#fffdf8;color:#25231d;font:16px/1.6 Arial,sans-serif}.comfort-dialog::backdrop{background:#171713aa}.comfort-dialog h2{font:36px/1.15 Georgia,serif;margin:8px 0 18px}.comfort-dialog h3{font-size:19px}.comfort-heading{display:flex;justify-content:space-between;align-items:center;gap:12px}.comfort-kicker{font-size:12px;font-weight:bold;letter-spacing:.1em;color:#a33423}.comfort-dialog button{border:1px solid #61594f;border-radius:12px;background:#eee6d9;color:#25231d;font:700 14px/1.4 Arial,sans-serif;min-height:44px;padding:10px 14px;cursor:pointer}.comfort-field{display:grid;gap:8px;font-weight:bold;margin:20px 0}.comfort-field select{width:100%;padding:12px;border:1px solid #61594f;border-radius:10px;background:#fff;color:#25231d;font:inherit}.comfort-check{display:flex;align-items:center;gap:12px;margin:18px 0;cursor:pointer}.comfort-check input{width:22px!important;height:22px!important;min-height:22px!important;margin:0!important;flex:0 0 22px;accent-color:#173b48}.comfort-audio{border-block:1px solid #61594f;margin:24px 0;padding:8px 0}.comfort-buttons{display:flex;flex-wrap:wrap;gap:8px}
+/* Scale the content without enlarging the dialog that controls it. */
+body main{zoom:var(--comfort-scale,1)}
+body .reader-shell,body .saved-shell{zoom:var(--comfort-scale,1)}
+body.comfort-spacing main p,body.comfort-spacing .reader-text{line-height:2!important;letter-spacing:.04em!important;word-spacing:.12em!important}
+body.comfort-spacing main p{margin-block:1.5em!important}
+body.comfort-simple .hero-art,body.comfort-simple .art-orbit,body.comfort-simple .art-grain{display:none!important}
+body.comfort-simple .hero{grid-template-columns:minmax(0,1fr)!important;min-height:0!important}
+body.comfort-simple .desire{background:#173b48!important;border-radius:12px!important;box-shadow:none!important;transform:none!important}
+body.comfort-simple .desire:before,body.comfort-simple .desire:after{display:none!important}
+body.comfort-motion *,body.comfort-motion *::before,body.comfort-motion *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+body[data-comfort-theme=light],body[data-comfort-theme=dark]{--comfort-bg:#fff;--comfort-fg:#171713}
+body[data-comfort-theme=dark]{--comfort-bg:#171713;--comfort-fg:#fffdf8}
+body[data-comfort-theme=light] :is(header,main,section,.form-card,.reader-shell,.saved-shell,footer),body[data-comfort-theme=dark] :is(header,main,section,.form-card,.reader-shell,.saved-shell,footer){background:var(--comfort-bg)!important;color:var(--comfort-fg)!important}
+body[data-comfort-theme=light] :is(h1,h2,h3,h4,p,label,legend,em,a,.reader-text,.reader-workline span),body[data-comfort-theme=dark] :is(h1,h2,h3,h4,p,label,legend,em,a,.reader-text,.reader-workline span){color:var(--comfort-fg)!important}
+body[data-comfort-theme=light] .desire,body[data-comfort-theme=dark] .desire{background:#173b48!important;color:#fff!important}
+@media(max-width:480px){.comfort-open{width:100%}.comfort-dialog{padding:20px}.comfort-dialog h2{font-size:30px}}
+body[data-comfort-theme] .comfort-dialog :is(h2,h3,p,label){color:#25231d!important}
+body[data-comfort-theme] .comfort-dialog .comfort-kicker{color:#a33423!important}
+body[data-comfort-theme] :is(.photo-button,.library-loans-link,.comfort-open){background:#eee6d9!important;color:#25231d!important}
+body[data-comfort-theme] .shuffle{background:#173b48!important;color:#fff!important}
+body[data-comfort-theme] .shuffle :is(strong,small,span){color:#fff!important}

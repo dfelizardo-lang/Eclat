@@ -5,11 +5,11 @@ const out=path.resolve(__dirname,'../www');
 const API='https://eclat-v1-sync-production.up.railway.app';
 function build(){
  fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
- const assets=['responsive.css','accessible-contrast.css','library-loans.css','kids-loans.css','daily-themes-client.js','library-loans-client.js','library-loans-calendar.js','library-loans-navigation.js','library-news-client.js','library-loans-google.js','library-loans-form.js','kids-loans.js'];
+ const assets=['comfort.js','comfort.css','responsive.css','accessible-contrast.css','library-loans.css','kids-loans.css','daily-themes-client.js','library-loans-client.js','library-loans-calendar.js','library-loans-navigation.js','library-news-client.js','library-loans-google.js','library-loans-form.js','kids-loans.js'];
  for(const name of assets)fs.copyFileSync(path.join(root,name),path.join(out,name));
  const catalog=JSON.parse(fs.readFileSync(path.join(root,'data/reading-catalog.json'),'utf8'));
  fs.writeFileSync(path.join(out,'catalogue-snapshot.js'),'window.ECLAT_READING_CATALOG='+JSON.stringify(catalog).replace(/</g,'\\u003c')+';');
- const head='<script src="/mobile-runtime.js"></script>';
+ const head='<script src="/comfort.js" defer></script><script src="/mobile-runtime.js"></script>';
  let home=fs.readFileSync(path.join(root,'eclat_v73_deployable.html'),'utf8').replace('/api/reading-catalog.js','/catalogue-snapshot.js');
  home=home.replace(/<\/head>/i,'<link rel="stylesheet" href="/accessible-contrast.css">'+head+'</head>');
  home=home.replace(/<\/body>/i,'<script src="/daily-themes-client.js"></script><script src="/library-loans-client.js"></script></body>');

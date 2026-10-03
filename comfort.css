@@ -37,3 +37,6 @@ body[data-comfort-theme] .shuffle :is(strong,small,span){color:#fff!important}
 }
 .child-narrator{max-width:690px;margin:0 auto 28px;padding:18px;border:1px solid #61594f;border-radius:16px;background:#fffdf8;color:#173b48;font:15px/1.6 Arial,sans-serif}
 .child-narrator legend{font-weight:700;padding-inline:8px}.child-narrator label{display:block;font-weight:700;margin:10px 0 6px}.child-narrator select{width:100%;min-height:44px;padding:10px;border:1px solid #61594f;border-radius:10px;background:#fff;color:#25231d;font:inherit}.child-narrator-note{font-size:13px;color:#61594f!important;margin:12px 0 0}
+.narrator-switch{display:flex;gap:4px;padding:4px;border:1px solid #61594f;border-radius:999px;background:#eee6d9;max-width:360px}
+.narrator-switch button{flex:1;min-width:0;min-height:48px;border:0;border-radius:999px;padding:10px 16px;background:transparent;color:#173b48;font:700 16px/1.4 Arial,sans-serif;cursor:pointer}
+.narrator-switch button[aria-pressed=true]{background:#173b48;color:#fff!important;box-shadow:0 2px 5px #173b4822}

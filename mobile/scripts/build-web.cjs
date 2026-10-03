@@ -5,7 +5,7 @@ const out=path.resolve(__dirname,'../www');
 const API='https://eclat-v1-sync-production.up.railway.app';
 function build(){
  fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
- const assets=['accessible-contrast.css','library-loans.css','kids-loans.css','daily-themes-client.js','library-loans-client.js','library-loans-calendar.js','library-loans-navigation.js','library-news-client.js','library-loans-google.js','library-loans-form.js','kids-loans.js'];
+ const assets=['responsive.css','accessible-contrast.css','library-loans.css','kids-loans.css','daily-themes-client.js','library-loans-client.js','library-loans-calendar.js','library-loans-navigation.js','library-news-client.js','library-loans-google.js','library-loans-form.js','kids-loans.js'];
  for(const name of assets)fs.copyFileSync(path.join(root,name),path.join(out,name));
  const catalog=JSON.parse(fs.readFileSync(path.join(root,'data/reading-catalog.json'),'utf8'));
  fs.writeFileSync(path.join(out,'catalogue-snapshot.js'),'window.ECLAT_READING_CATALOG='+JSON.stringify(catalog).replace(/</g,'\\u003c')+';');

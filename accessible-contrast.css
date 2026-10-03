@@ -1,3 +1,4 @@
+@import url("/responsive.css");
 /* Shared palette: all informational text targets >4.5:1, including large text. */
 body,body.kids{--accent:#a33423!important;--accent2:#a33423!important}
 header nav,.hero p,.back,.field-hint,.section-heading p,.empty,.save-hint,

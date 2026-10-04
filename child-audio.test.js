@@ -1,11 +1,11 @@
 const test=require('node:test');const assert=require('node:assert/strict');
 const create=require('./child-audio');
-function setup(loader){
- const audios=[],states=[],finished=[];let token=1;
+function setup(loader,rejectOnce=false){
+ const audios=[],states=[],finished=[];let token=1,failure=rejectOnce;
  class Audio{
   constructor(url){this.url=url;this.listeners={};audios.push(this)}
   addEventListener(name,fn){this.listeners[name]=fn}
-  async play(){this.playing=true}
+  async play(){if(failure){failure=false;throw Object.assign(new Error('Autoplay blocked'),{name:'NotAllowedError'})}this.playing=true}
   pause(){this.playing=false}
   removeAttribute(){this.url=''}
   load(){}
@@ -32,6 +32,11 @@ test('closing a reader or changing passage prevents stale asynchronous playback'
 test('missing recording has an explicit error and remains retryable',async()=>{
  const s=setup();await s.audio.start(1,{id:'absent'},'female',1);assert.equal(s.states.at(-1),'error');assert.equal(s.audio.active,false);
  await s.audio.start(1,{id:'p'},'male',1);assert.equal(s.states.at(-1),'playing');
+});
+test('a mobile autoplay restriction offers continuation and retries on the next tap',async()=>{
+ const s=setup(undefined,true);await s.audio.start(1,{id:'p'},'female',1);
+ assert.equal(s.states.at(-1),'ready');assert.equal(s.audio.active,true);
+ s.audio.toggle();await Promise.resolve();assert.equal(s.states.at(-1),'playing');
 });
 test('every child reader entry has a stable content-dependent audio identifier',()=>{
  const input=require('./scripts/narration-input.cjs').inputs();assert.ok(input.length>=75);

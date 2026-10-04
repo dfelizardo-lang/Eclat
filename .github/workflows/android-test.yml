@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['mobile/**', '.github/workflows/android-test.yml']
+    paths: ['mobile/**', '.github/workflows/android-test.yml', 'child-audio.js', 'child-narrator.js', 'comfort.js', 'comfort.css', 'eclat_v73_deployable.html', 'data/reading-catalog.json', 'narration-credits.html']
 permissions:
   contents: read
 jobs:

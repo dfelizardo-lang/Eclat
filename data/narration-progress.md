@@ -46,3 +46,20 @@ Pause, reprise, arrêt et vitesse disponibles. Changer de voix relance le passag
 avec une seule lecture active. Les réglages de voix restent sur l'appareil ; les
 favoris, carnets et historiques ne sont pas effacés. La douceur est subjective,
 ces voix synthétiques ne sont pas assimilées à un enregistrement humain.
+
+Vérification en production le 4 octobre 2026 : commit
+`274ac9c7b81c0e2e1fb60966738cd20bbefc73e1`, déploiement Railway
+`770b0204-e21b-474d-8ca8-6b03900a5140` SUCCESS. Les 75 IDs du manifeste
+correspondent aux lectures enfants actives. Les 150 MP3 ont été téléchargés
+depuis la production : 42 775 470 octets, tailles et SHA-256 conformes ; les
+150 fichiers sont décodables par ffprobe. Lecture Conteuse, changement vers
+Conteur et pause vérifiés dans le navigateur public. La qualité subjective et
+les différents appareils mobiles restent à tester par l'utilisateur.
+
+Contrôles locaux : 14 tests de narration, restriction d'autoplay mobile,
+catalogue/API, rotation, conservation des anciens IDs et bundle Android passent.
+La dernière finition ajoute la pause/reprise sur Histoire du soir, les libellés
+accessibles des commandes audio et la vitesse côté enfants sans liste de voix
+du système. Les fichiers de corpus n'ont pas changé : 50 titres actifs,
+114 extraits éditoriaux vérifiés, plus les 32 fenêtres historiques exclues de
+ce compteur. Historique et favoris conservés.

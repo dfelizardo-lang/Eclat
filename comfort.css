@@ -44,5 +44,3 @@ body[data-comfort-theme] .shuffle :is(strong,small,span){color:#fff!important}
 .bedtime-audio-controls{margin:12px 0;display:flex;justify-content:center}
 .bedtime-audio-controls[hidden]{display:none}
 .bedtime-audio-controls button{min-height:48px;padding:10px 24px;border:2px solid #173b48;border-radius:999px;background:#173b48;color:#fff;font:700 1rem system-ui;cursor:pointer}
-body.kids .audio-settings{display:inline-flex!important}
-body.kids .audio-settings .listen-voice{display:none!important}

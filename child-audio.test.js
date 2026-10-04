@@ -38,8 +38,8 @@ test('a mobile autoplay restriction offers continuation and retries on the next 
  assert.equal(s.states.at(-1),'ready');assert.equal(s.audio.active,true);
  s.audio.toggle();await Promise.resolve();assert.equal(s.states.at(-1),'playing');
 });
-test('every child reader entry has a stable content-dependent audio identifier',()=>{
- const input=require('./scripts/narration-input.cjs').inputs();assert.ok(input.length>=75);
+test('every adult and child reader entry has a stable content-dependent audio identifier',()=>{
+ const input=require('./scripts/narration-input.cjs').inputs();assert.ok(input.filter(p=>p.audience==='child').length>=75);assert.ok(input.filter(p=>p.audience==='adult').length>=71);
  assert.equal(new Set(input.map(p=>p.id)).size,input.length);
  for(const p of input){assert.match(p.digest,/^[a-f0-9]{64}$/);assert.match(p.text,/Ce passage est extrait de/)}
 });

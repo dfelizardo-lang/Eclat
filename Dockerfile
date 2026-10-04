@@ -9,7 +9,7 @@ WORKDIR /app
 COPY scripts/narration-input.cjs scripts/build-narration.py ./scripts/
 COPY data/reading-catalog.json ./data/reading-catalog.json
 COPY eclat_v73_deployable.html ./
-RUN python3 scripts/build-narration.py
+RUN NARRATION_SEED_URL=https://eclat-v1-sync-production.up.railway.app python3 scripts/build-narration.py
 
 FROM node:22-bookworm-slim
 WORKDIR /app

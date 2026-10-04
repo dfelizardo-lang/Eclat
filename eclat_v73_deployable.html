@@ -1318,27 +1318,7 @@ body.kids .library-results-head{background:#fff9dc}
     <span class="listen-icon" id="listenIcon">▶</span>
     <span id="listenLabel">Écouter</span>
   </button>
-  <button class="listen-stop" id="listenStop" type="button" aria-label="Arrêter la lecture">■</button><div class="audio-settings">
-  <button class="audio-settings-toggle" id="audioSettingsToggle" type="button" aria-expanded="false" aria-label="Réglages de lecture">
-    <span class="settings-glyph">•••</span>
-    <span class="settings-label">Réglages</span>
-  </button>
-  <div class="audio-settings-panel" id="audioSettingsPanel">
-    <div class="audio-settings-head">Lecture</div>
-    <label class="listen-voice" aria-label="Voix de lecture">
-    <span>Voix</span>
-    <select id="listenVoice"><option value="">Voix française</option></select>
-  </label><label class="listen-speed" aria-label="Vitesse de lecture">
-    <span>Vitesse</span>
-    <select id="listenRate">
-      <option value="0.85">0,85×</option>
-      <option value="1" selected>1× · normal</option>
-      <option value="1.15">1,15×</option>
-      <option value="1.3">1,3×</option>
-    </select>
-  </label>
-  </div>
-</div>
+  <button class="listen-stop" id="listenStop" type="button" aria-label="Arrêter la lecture">■</button>
   
   
 </div>
@@ -1901,7 +1881,7 @@ function speakCurrent(token){
  else if(continuousMode)scheduleNextContinuous();
  return
 }
- if(window.eclatCurrentPassage?.audience==="child" && window.EclatChildAudio?.start(token,window.eclatCurrentPassage))return;
+ if(window.EclatChildAudio?.start(token,window.eclatCurrentPassage))return;
  const u=new SpeechSynthesisUtterance(speechQueue[speechIndex]);
  u.lang="fr-FR";
  u.rate=parseFloat(document.getElementById("listenRate")?.value||"1");
@@ -1926,7 +1906,7 @@ function speakCurrent(token){
  }
 }
 function startReading(fromIndex=0){
- if(!("speechSynthesis" in window)&&!(window.eclatCurrentPassage?.audience==="child"&&window.EclatChildAudio)){
+ if(!("speechSynthesis" in window)&&!(window.EclatChildAudio)){
    const st=document.getElementById("listenStatus");if(st)st.textContent="La lecture audio n’est pas disponible dans ce navigateur.";return;
  }
  const el=document.getElementById("readerText"), text=el?.innerText?.trim()||el?.textContent?.trim()||"";
@@ -1949,7 +1929,7 @@ function startReading(fromIndex=0){
  speakCurrent(token);
 }
 function applySpeechSettingLive(){
- if(window.eclatCurrentPassage?.audience==="child"&&window.EclatChildAudio){window.EclatChildAudio.settings();return}
+ if(window.EclatChildAudio){window.EclatChildAudio.settings();return}
  if(!speechUtterance||!speechQueue.length)return;
  const resumeAt=speechIndex;
  speechToken++; window.speechSynthesis?.cancel(); speechUtterance=null; speechPaused=false;
@@ -2038,7 +2018,7 @@ function openContinuousPassage(p){
 }
 
 function startContinuousReading(p,w){
- if(!("speechSynthesis" in window)&&!(p.audience==="child"&&window.EclatChildAudio)){continuousMode=false;return}
+ if(!("speechSynthesis" in window)&&!(window.EclatChildAudio)){continuousMode=false;return}
  speechToken++;
  const token=speechToken;
  window.speechSynthesis?.cancel();

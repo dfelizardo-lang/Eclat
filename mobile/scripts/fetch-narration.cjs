@@ -20,7 +20,7 @@ async function download(){
   const folder=path.join(out,audio.sha256);fs.mkdirSync(folder,{recursive:true});fs.writeFileSync(path.join(folder,kind+'.mp3'),bytes);
  }
  fs.writeFileSync(path.join(out,'manifest.json'),JSON.stringify(manifest));
- console.log('Android : deux voix locales pour '+expected.length+' lectures enfants');
+ console.log('Android : deux voix locales pour '+expected.length+' lectures enfants et adultes');
 }
 if(require.main===module)download().catch(e=>{console.error(e);process.exitCode=1});
 module.exports={download};

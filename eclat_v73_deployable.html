@@ -1887,9 +1887,10 @@ function resetSpeechUI(){
  if(st)st.textContent="";
 }
 function stopReading(){
+ window.EclatChildAudio?.stop();
  if(continuousNextTimer){clearTimeout(continuousNextTimer);continuousNextTimer=null}
  speechToken++; speechQueue=[]; speechIndex=0; speechUtterance=null;
- if("speechSynthesis" in window)window.speechSynthesis.cancel();
+ if("speechSynthesis" in window)window.speechSynthesis?.cancel();
  resetSpeechUI();
 }
 function speakCurrent(token){
@@ -1900,6 +1901,7 @@ function speakCurrent(token){
  else if(continuousMode)scheduleNextContinuous();
  return
 }
+ if(window.eclatCurrentPassage?.audience==="child" && window.EclatChildAudio?.start(token,window.eclatCurrentPassage))return;
  const u=new SpeechSynthesisUtterance(speechQueue[speechIndex]);
  u.lang="fr-FR";
  u.rate=parseFloat(document.getElementById("listenRate")?.value||"1");
@@ -1924,13 +1926,13 @@ function speakCurrent(token){
  }
 }
 function startReading(fromIndex=0){
- if(!("speechSynthesis" in window)){
+ if(!("speechSynthesis" in window)&&!(window.eclatCurrentPassage?.audience==="child"&&window.EclatChildAudio)){
    const st=document.getElementById("listenStatus");if(st)st.textContent="La lecture audio n’est pas disponible dans ce navigateur.";return;
  }
  const el=document.getElementById("readerText"), text=el?.innerText?.trim()||el?.textContent?.trim()||"";
  if(!text)return;
  speechToken++; const token=speechToken;
- window.speechSynthesis.cancel();
+ window.speechSynthesis?.cancel();
  speechQueue=splitForSpeech(text);
  const p=window.eclatCurrentPassage;
  if(p){
@@ -1947,13 +1949,15 @@ function startReading(fromIndex=0){
  speakCurrent(token);
 }
 function applySpeechSettingLive(){
+ if(window.eclatCurrentPassage?.audience==="child"&&window.EclatChildAudio){window.EclatChildAudio.settings();return}
  if(!speechUtterance||!speechQueue.length)return;
  const resumeAt=speechIndex;
- speechToken++; window.speechSynthesis.cancel(); speechUtterance=null; speechPaused=false;
+ speechToken++; window.speechSynthesis?.cancel(); speechUtterance=null; speechPaused=false;
  const token=speechToken; speechIndex=resumeAt;
  setTimeout(()=>speakCurrent(token),35);
 }
 document.getElementById("listenToggle")?.addEventListener("click",()=>{
+ if(window.EclatChildAudio?.toggle())return;
  if(!speechUtterance){startReading();return}
  if(speechPaused){
    window.speechSynthesis.resume();speechPaused=false;
@@ -2034,10 +2038,10 @@ function openContinuousPassage(p){
 }
 
 function startContinuousReading(p,w){
- if(!("speechSynthesis" in window)){continuousMode=false;return}
+ if(!("speechSynthesis" in window)&&!(p.audience==="child"&&window.EclatChildAudio)){continuousMode=false;return}
  speechToken++;
  const token=speechToken;
- window.speechSynthesis.cancel();
+ window.speechSynthesis?.cancel();
  const body=splitForSpeech((p.text||"").trim());
  const title=p.workTitle||w?.title||"";
  const author=p.author||w?.author||"";
@@ -2151,7 +2155,7 @@ let bedtimeMode=false,bedtimeSeen=new Set(),bedtimeTimer=null;
 function nextBedtimeStory(){
  if(!bedtimeMode)return;let pool=PASSAGES.filter(p=>p.audience==="child"&&p.text&&!bedtimeSeen.has(p.id));if(!pool.length){bedtimeSeen.clear();pool=PASSAGES.filter(p=>p.audience==="child"&&p.text)}if(!pool.length)return;
  const p=pool[Math.floor(Math.random()*pool.length)];bedtimeSeen.add(p.id);window.eclatCurrentPassage=p;const w=WORKS.find(x=>x.title===p.workTitle&&x.author===p.author)||WORKS.find(x=>x.title===p.workTitle),t=document.getElementById("bedtimeTitle"),m=document.getElementById("bedtimeMeta");if(t)t.textContent=p.workTitle;if(m)m.textContent=[p.author,w?.year||p.year].filter(Boolean).join(" · ");
- speechToken++;const token=speechToken;window.speechSynthesis.cancel();speechQueue=splitForSpeech(p.text);speechQueue.push("Cette histoire est extraite de "+p.workTitle+". "+(p.author?"De "+p.author+". ":"")+(w?.year||p.year?"Publié en "+(w?.year||p.year)+".":""));speechIndex=0;speechPaused=false;speakCurrent(token);
+ speechToken++;const token=speechToken;window.speechSynthesis?.cancel();speechQueue=splitForSpeech(p.text);speechQueue.push("Cette histoire est extraite de "+p.workTitle+". "+(p.author?"De "+p.author+". ":"")+(w?.year||p.year?"Publié en "+(w?.year||p.year)+".":""));speechIndex=0;speechPaused=false;speakCurrent(token);
 }
 document.getElementById("bedtimeStory")?.addEventListener("click",()=>{bedtimeMode=!bedtimeMode;const b=document.getElementById("bedtimeStory");b.setAttribute("aria-pressed",bedtimeMode?"true":"false");if(bedtimeMode){continuousMode=false;bedtimeSeen.clear();nextBedtimeStory()}else{stopReading();document.getElementById("bedtimeTitle").textContent="Histoire du soir";document.getElementById("bedtimeMeta").textContent="Une histoire rien que pour maintenant"}});
 

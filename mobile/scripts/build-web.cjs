@@ -5,7 +5,7 @@ const out=path.resolve(__dirname,'../www');
 const API='https://eclat-v1-sync-production.up.railway.app';
 function build(){
  fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
- const assets=['child-narrator.js','accessible-navigation.js','comfort.js','comfort.css','responsive.css','accessible-contrast.css','library-loans.css','kids-loans.css','daily-themes-client.js','library-loans-client.js','library-loans-calendar.js','library-loans-navigation.js','library-news-client.js','library-loans-google.js','library-loans-form.js','kids-loans.js'];
+ const assets=['narration-credits.html','child-audio.js','child-narrator.js','accessible-navigation.js','comfort.js','comfort.css','responsive.css','accessible-contrast.css','library-loans.css','kids-loans.css','daily-themes-client.js','library-loans-client.js','library-loans-calendar.js','library-loans-navigation.js','library-news-client.js','library-loans-google.js','library-loans-form.js','kids-loans.js'];
  for(const name of assets)fs.copyFileSync(path.join(root,name),path.join(out,name));
  const catalog=JSON.parse(fs.readFileSync(path.join(root,'data/reading-catalog.json'),'utf8'));
  fs.writeFileSync(path.join(out,'catalogue-snapshot.js'),'window.ECLAT_READING_CATALOG='+JSON.stringify(catalog).replace(/</g,'\\u003c')+';');
@@ -14,7 +14,7 @@ function build(){
  home=home.replace(/<\/head>/i,'<link rel="stylesheet" href="/accessible-contrast.css">'+head+'</head>');
  home=home.replace(/<\/body>/i,'<script src="/daily-themes-client.js"></script><script src="/library-loans-client.js"></script></body>');
  fs.writeFileSync(path.join(out,'index.html'),home);
- for(const name of ['emprunts.html','emprunts-enfants.html'])fs.writeFileSync(path.join(out,name),fs.readFileSync(path.join(root,name),'utf8').replace(/<\/head>/i,head+'</head>'));
+ for(const name of ['emprunts.html','emprunts-enfants.html'])fs.writeFileSync(path.join(out,name),fs.readFileSync(path.join(root,name),'utf8').replace(/<script src="\/comfort.js" defer><\/script>/g,'').replace(/<\/head>/i,head+'</head>'));
  fs.copyFileSync(path.resolve(__dirname,'../mobile-runtime.js'),path.join(out,'mobile-runtime.js'));
  fs.writeFileSync(path.join(out,'build-info.json'),JSON.stringify({version:require('../package.json').version,api:API,catalogueWorks:catalog.works.length}));
  return out;

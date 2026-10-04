@@ -36,6 +36,19 @@ app.get('/api/propositions-thematiques', (req, res) => {
 });
 // Structured server-owned passages shared by the web reader and future mobile clients.
 const readingCatalog = require('./reading-catalog');
+// Public, immutable recordings generated with the corpus during the image build.
+const narrationRoot=path.join(__dirname,'narration');
+app.get('/api/narration',(req,res)=>{
+ res.set('Access-Control-Allow-Origin','*');res.set('Cache-Control','no-cache');
+ if(!fs.existsSync(path.join(narrationRoot,'manifest.json')))return res.status(503).json({error:'Narration en préparation'});
+ res.sendFile(path.join(narrationRoot,'manifest.json'));
+});
+app.get('/api/narration/audio/:digest/:voice',(req,res)=>{
+ res.set('Access-Control-Allow-Origin','*');
+ if(!/^[a-f0-9]{64}$/.test(req.params.digest)||! /^(female|male)\.mp3$/.test(req.params.voice))return res.sendStatus(404);
+ res.set('Cache-Control','public, max-age=31536000, immutable');
+ res.sendFile(path.join(narrationRoot,req.params.digest,req.params.voice));
+});
 app.get('/api/catalogue', (req, res) => {
   res.set('Cache-Control', 'public, max-age=3600').json(readingCatalog);
 });

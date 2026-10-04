@@ -1,0 +1,10 @@
+.git
+node_modules
+sources
+narration
+mobile/node_modules
+mobile/android
+mobile/www
+__pycache__
+*.apk
+*.aab

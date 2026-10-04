@@ -1,5 +1,6 @@
 const fs=require('node:fs');const path=require('node:path');const {execFileSync}=require('node:child_process');
 const root=path.resolve(__dirname,'..');process.chdir(root);
+execFileSync(process.execPath,[path.join(root,'scripts/fetch-narration.cjs')],{stdio:'inherit'});
 const cap=path.join(root,'node_modules/@capacitor/cli/bin/capacitor');
 if(!fs.existsSync('android'))execFileSync(process.execPath,[cap,'add','android'],{stdio:'inherit'});
 execFileSync(process.execPath,[cap,'sync','android'],{stdio:'inherit'});

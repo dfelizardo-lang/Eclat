@@ -1,14 +1,26 @@
 (() => {
- const bar=document.getElementById('listenBar');if(!bar)return;
- const field=document.createElement('fieldset');field.className='child-narrator';field.innerHTML='<legend>Qui te raconte l’histoire ?</legend><div class="narrator-switch" role="group" aria-label="Choisir la voix du récit"><button type="button" data-kind="female" aria-pressed="true">Conteuse</button><button type="button" data-kind="male" aria-pressed="false">Conteur</button></div><p class="child-narrator-note" role="status" aria-live="polite"></p>';bar.after(field);
- const note=field.querySelector('p');let kind='female';try{const saved=JSON.parse(localStorage.getItem('eclat-child-narrator')||'null');if(saved?.kind==='male')kind='male'}catch{}
- function gender(v){const n=v.name.toLowerCase();if(/audrey|aurélie|aurelie|amélie|amelie|hortense|julie|denise|sylvie|céline|celine|léa|lea|female|woman|fémin/.test(n))return 'female';if(/thomas|henri|paul|mathieu|antoine|nicolas|\bmale\b|\bman\b|mascul/.test(n))return 'male';return 'unknown'}
- function score(v){let s=voiceNaturalScore(v);if(/soft|warm|gentle|douce|natural|neural|premium|enhanced/i.test(v.name))s+=20;return s}
- function voices(){return [...(window.speechSynthesis?.getVoices()||[])].filter(v=>/^fr(?:[-_]|$)/i.test(v.lang)).sort((a,b)=>score(b)-score(a))}
- function selected(){const all=voices();return all.find(v=>gender(v)===kind)||all.find(v=>gender(v)==='unknown')||null}
- function refresh(){for(const b of field.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.dataset.kind===kind));const all=voices();note.textContent=!all.length?'La voix française n’est pas disponible sur cet appareil.':!all.some(v=>gender(v)===kind)?'Ce choix dépend des voix disponibles sur ton appareil.':'';note.hidden=!note.textContent}
- const original=window.selectedFrenchVoice;window.selectedFrenchVoice=function(){return document.body.classList.contains('kids')?selected():original()};
- field.addEventListener('click',e=>{const b=e.target.closest('[data-kind]');if(!b)return;kind=b.dataset.kind;try{localStorage.setItem('eclat-child-narrator',JSON.stringify({kind}))}catch{}refresh();if(typeof applySpeechSettingLive==='function')applySpeechSettingLive()});
- let wasChild=false;function audience(){const child=document.body.classList.contains('kids');field.hidden=!child;if(child&&!wasChild){const rate=document.getElementById('listenRate');if(rate)rate.value='0.85';refresh()}wasChild=child}
- new MutationObserver(audience).observe(document.body,{attributes:true,attributeFilter:['class']});window.speechSynthesis?.addEventListener('voiceschanged',refresh);refresh();audience();
+ const bar=document.getElementById('listenBar');if(!bar||window.EclatChildAudio)return;
+ const field=document.createElement('fieldset');field.className='child-narrator';field.innerHTML='<legend>Qui te raconte l’histoire ?</legend><div class="narrator-switch" role="group" aria-label="Choisir la voix du récit"><button type="button" data-kind="female" aria-pressed="true">Conteuse</button><button type="button" data-kind="male" aria-pressed="false">Conteur</button></div><p class="child-narrator-note" role="status" aria-live="polite">Deux voix françaises pour te raconter les histoires.</p>';bar.after(field);
+ let kind='female';try{if(JSON.parse(localStorage.getItem('eclat-child-narrator')||'null')?.kind==='male')kind='male'}catch{}
+ const native=!!window.Capacitor?.isNativePlatform?.();
+ const credit=document.createElement('a');credit.href='/narration-credits.html';credit.target='_blank';credit.rel='noopener';credit.textContent='Voix et crédits';field.append(credit);
+ const rate=()=>parseFloat(document.getElementById('listenRate')?.value||'1');
+ function refresh(){for(const b of field.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.dataset.kind===kind))}
+ function notify(state){
+  const icon=document.getElementById('listenIcon'),label=document.getElementById('listenLabel'),status=document.getElementById('listenStatus');
+  if(icon)icon.textContent=state==='playing'?'Ⅱ':'▶';
+  if(label)label.textContent=state==='playing'?'Pause':state==='paused'||state==='ready'?'Continuer':'Raconte-moi';
+  if(status)status.textContent=({loading:'Ton histoire se prépare…',playing:'Lecture en cours',paused:'Lecture en pause',ready:'Appuie sur Continuer pour écouter.',error:'Cette voix est momentanément indisponible. Réessaie.'})[state]||'';
+ }
+ const audio=createEclatChildAudio({Audio:window.Audio,
+  loadManifest:async()=>{const response=await fetch(native?'/narration/manifest.json':'/api/narration');if(!response.ok)throw new Error('Narration indisponible');return response.json()},
+  resolveURL:url=>native?url.replace('/api/narration/audio/','/narration/'):url,
+  notify,currentToken:()=>speechToken,
+  finish:token=>{if(token===speechToken){speechIndex=speechQueue.length;speakCurrent(token)}}});
+ window.EclatChildAudio={
+  start(token,passage){if(!passage||passage.audience!=='child')return false;audio.start(token,passage,kind,rate());return true},
+  stop:audio.stop,toggle:audio.toggle,settings:()=>audio.settings(kind,rate())};
+ field.addEventListener('click',e=>{const b=e.target.closest('[data-kind]');if(!b)return;kind=b.dataset.kind;try{localStorage.setItem('eclat-child-narrator',JSON.stringify({kind}))}catch{}refresh();audio.settings(kind,rate())});
+ function audience(){field.hidden=!document.body.classList.contains('kids');if(field.hidden)audio.stop()}
+ new MutationObserver(audience).observe(document.body,{attributes:true,attributeFilter:['class']});refresh();audience();
 })();

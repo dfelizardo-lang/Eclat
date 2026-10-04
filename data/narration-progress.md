@@ -1,13 +1,15 @@
-# Narration enfants — 4 octobre 2026
+# Narration enfants et adultes — 4 octobre 2026
 
-Deux voix françaises Piper : Conteuse (Siwis, choix initial) et Conteur (Tom).
+Deux voix françaises Piper : Siwis (choix initial) et Tom. Les adultes choisissent
+Narratrice / Narrateur ; les enfants gardent Conteuse / Conteur.
 Les enregistrements sont fabriqués au build Docker, puis servis depuis le service
 Railway existant. Aucun abonnement vocal, clé API, appel à un fournisseur de synthèse
 ou génération à chaque écoute. Les ressources de l'hébergement existant restent
 nécessaires : logiciel gratuit ne signifie pas hébergement gratuit.
 
-Le build utilise les 75 entrées réellement lisibles côté enfants (57 extraits
-éditoriaux et 18 fenêtres historiques déjà présentes). Les 150 enregistrements
+Le build utilise les 146 entrées réellement lisibles : 71 adultes et 75 enfants
+(114 extraits éditoriaux et 32 fenêtres historiques déjà présentes). Les
+292 enregistrements
 ne constituent pas de nouveaux extraits ni une validation des droits historiques.
 Chaque fichier contient le texte exact et sa référence. Le manifeste conserve ID,
 empreinte du texte, source, modèle, durée et empreinte du fichier. Les prochains
@@ -42,7 +44,8 @@ SHA-256. Ils n'ont pas besoin d'une application de voix tierce. Un ancien APK
 déjà installé ne reçoit pas ces nouveaux fichiers automatiquement. La lecture
 web demande une connexion ; aucune promesse de cache web hors ligne intégral.
 
-Pause, reprise, arrêt et vitesse disponibles. Changer de voix relance le passage
+Lecture, pause, reprise et arrêt disponibles ; débit fixe. Les menus de voix
+du système et de vitesse ont été retirés du lecteur. Changer de voix relance le passage
 avec une seule lecture active. Les réglages de voix restent sur l'appareil ; les
 favoris, carnets et historiques ne sont pas effacés. La douceur est subjective,
 ces voix synthétiques ne sont pas assimilées à un enregistrement humain.
@@ -56,10 +59,24 @@ depuis la production : 42 775 470 octets, tailles et SHA-256 conformes ; les
 Conteur et pause vérifiés dans le navigateur public. La qualité subjective et
 les différents appareils mobiles restent à tester par l'utilisateur.
 
-Contrôles locaux : 14 tests de narration, restriction d'autoplay mobile,
+Contrôles locaux : 15 tests Node et 1 test Python de narration, restriction d'autoplay mobile,
 catalogue/API, rotation, conservation des anciens IDs et bundle Android passent.
 La dernière finition ajoute la pause/reprise sur Histoire du soir, les libellés
-accessibles des commandes audio et la vitesse côté enfants sans liste de voix
-du système. Les fichiers de corpus n'ont pas changé : 50 titres actifs,
+accessibles des commandes audio. L’extension adulte retire les menus de voix
+et de vitesse pour les deux publics et garde un switch adapté à chaque public. Les fichiers de corpus n'ont pas changé : 50 titres actifs,
 114 extraits éditoriaux vérifiés, plus les 32 fenêtres historiques exclues de
 ce compteur. Historique et favoris conservés.
+
+Extension adulte vérifiée le 4 octobre 2026 : commit
+`be546be1612faeaf3919c18a355332c2d6de6b4b`, déploiement Railway
+`bdbbb6bf-045e-4397-ba40-13b1cd186f6f` SUCCESS. Manifeste actif :
+146 entrées (71 adultes, 75 enfants), deux voix chacune. Les 292 fichiers
+ont été contrôlés par taille, SHA-256 et décodage ffprobe : 84 486 180 octets.
+La Narratrice et le Narrateur démarrent dans le lecteur public ; la pause
+et l’absence des anciens menus ont été contrôlées. Les 150 enregistrements
+enfants antérieurs ont été vérifiés puis réutilisés, sans nouvelle génération.
+
+Dernière finition : changer de voix pendant une pause conserve la pause ;
+le libellé accessible du bouton est remis à l’état initial à la fin du passage.
+Les préférences adultes et enfants sont mémorisées séparément. Aucun ajout
+de titre ou d’extrait dans cette livraison, aucun service Railway créé.

@@ -26,7 +26,7 @@
   loadManifest:async()=>{const response=await fetch(native?'/narration/manifest.json':'/api/narration');if(!response.ok)throw new Error('Narration indisponible');return response.json()},
   resolveURL:url=>native?url.replace('/api/narration/audio/','/narration/'):url,
   notify,currentToken:()=>speechToken,
-  finish:token=>{if(token===speechToken){speechIndex=speechQueue.length;speakCurrent(token)}}});
+  finish:token=>{if(token===speechToken){notify('stopped');speechIndex=speechQueue.length;speakCurrent(token)}}});
  window.EclatChildAudio={
   start(token,passage){if(!passage)return false;audio.start(token,passage,kind,rate());return true},
   stop(){audio.stop();notify('stopped');bedtimeControls.hidden=true},toggle:audio.toggle,settings:()=>audio.settings(kind,rate())};

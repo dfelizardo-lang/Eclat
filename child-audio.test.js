@@ -38,6 +38,12 @@ test('a mobile autoplay restriction offers continuation and retries on the next 
  assert.equal(s.states.at(-1),'ready');assert.equal(s.audio.active,true);
  s.audio.toggle();await Promise.resolve();assert.equal(s.states.at(-1),'playing');
 });
+test('switching voice during a pause preserves the pause',async()=>{
+ const s=setup();await s.audio.start(1,{id:'p'},'female',1);s.audio.toggle();
+ s.audio.settings('male',1);await new Promise(r=>setImmediate(r));
+ assert.equal(s.states.at(-1),'paused');assert.ok(!s.audios[1].playing);
+ s.audio.toggle();await Promise.resolve();assert.equal(s.audios[1].playing,true);
+});
 test('every adult and child reader entry has a stable content-dependent audio identifier',()=>{
  const input=require('./scripts/narration-input.cjs').inputs();assert.ok(input.filter(p=>p.audience==='child').length>=75);assert.ok(input.filter(p=>p.audience==='adult').length>=71);
  assert.equal(new Set(input.map(p=>p.id)).size,input.length);

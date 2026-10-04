@@ -9,8 +9,8 @@
    try{await s.audio.play();if(valid(s)){s.paused=false;notify('playing')}}
    catch(e){if(!valid(s))return;s.paused=true;notify(e.name==='NotAllowedError'?'ready':'error')}
   }
-  async function start(token,passage,kind,rate){
-   stop();const s={token,passage,kind,rate,generation,paused:false,audio:null};session=s;notify('loading');
+  async function start(token,passage,kind,rate,startPaused=false){
+   stop();const s={token,passage,kind,rate,generation,paused:startPaused,audio:null};session=s;notify('loading');
    try{
     if(!manifestPromise)manifestPromise=loadManifest().catch(e=>{manifestPromise=null;throw e});
     const manifest=await manifestPromise;if(!valid(s))return;
@@ -19,7 +19,7 @@
     s.audio=new Audio(resolveURL(item.url));s.audio.preload='auto';s.audio.playbackRate=rate;
     s.audio.addEventListener('ended',()=>{if(valid(s)){session=null;finish(token)}});
     s.audio.addEventListener('error',()=>{if(valid(s)){manifestPromise=null;session=null;notify('error')}});
-    await play(s);
+    if(startPaused)notify('paused');else await play(s);
    }catch(e){if(valid(s)){session=null;notify('error')}}
   }
   function toggle(){if(!session)return false;const s=session;
@@ -28,7 +28,7 @@
    return true;
   }
   function settings(kind,rate){if(!session)return;const s=session;
-   if(s.kind!==kind){void start(s.token,s.passage,kind,rate);return}
+   if(s.kind!==kind){void start(s.token,s.passage,kind,rate,s.paused);return}
    s.rate=rate;if(s.audio)s.audio.playbackRate=rate;
   }
   return {start,stop,toggle,settings,get active(){return !!session}};

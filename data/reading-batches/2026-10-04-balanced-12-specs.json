@@ -1,0 +1,182 @@
+[
+  [
+    "merimee-colomba",
+    "Colomba",
+    "Prosper Mérimée",
+    1870,
+    "adult",
+    "1840",
+    [
+      "roman",
+      "voyage",
+      "famille"
+    ],
+    "Colomba_et_autres_contes_et_nouvelles/Colomba",
+    "Dans les premiers jours"
+  ],
+  [
+    "balzac-eugenie",
+    "Eugénie Grandet",
+    "Honoré de Balzac",
+    1850,
+    "adult",
+    "1833",
+    [
+      "roman",
+      "famille",
+      "société"
+    ],
+    "Eugénie_Grandet",
+    "Il se trouve"
+  ],
+  [
+    "zola-therese",
+    "Thérèse Raquin",
+    "Émile Zola",
+    1902,
+    "adult",
+    "1867",
+    [
+      "roman",
+      "ville",
+      "société"
+    ],
+    "Thérèse_Raquin/1",
+    "Au bout de"
+  ],
+  [
+    "hugo-condamne",
+    "Le Dernier Jour d’un condamné",
+    "Victor Hugo",
+    1885,
+    "adult",
+    "1829",
+    [
+      "roman",
+      "justice",
+      "émotion"
+    ],
+    "Le_Dernier_Jour_d’un_Condamné/éd._1910/01",
+    "Condamné à mort"
+  ],
+  [
+    "audoux-marie-claire",
+    "Marie-Claire",
+    "Marguerite Audoux",
+    1937,
+    "adult",
+    "1910",
+    [
+      "roman",
+      "enfance",
+      "mémoire"
+    ],
+    "Marie-Claire/Texte_entier",
+    "Un jour, il vint"
+  ],
+  [
+    "france-sylvestre",
+    "Le Crime de Sylvestre Bonnard",
+    "Anatole France",
+    1924,
+    "adult",
+    "1881",
+    [
+      "roman",
+      "livres",
+      "humour"
+    ],
+    "Le_Crime_de_Sylvestre_Bonnard_(éditions_Calmann-Lévy,_1896)/La_Bûche",
+    "J’avais chaussé"
+  ],
+  [
+    "segur-nouveaux-contes",
+    "Nouveaux Contes de fées",
+    "Comtesse de Ségur",
+    1874,
+    "child",
+    "1857",
+    [
+      "conte",
+      "magie",
+      "entraide"
+    ],
+    "Nouveaux_Contes_de_fées/Le_Bon_Petit_Henri",
+    "Il y avait une fois"
+  ],
+  [
+    "verne-deux-ans",
+    "Deux Ans de vacances",
+    "Jules Verne",
+    1905,
+    "child",
+    "1888",
+    [
+      "aventure",
+      "mer",
+      "entraide"
+    ],
+    "Deux_Ans_de_vacances/Chapitre_1",
+    "Pendant la nuit"
+  ],
+  [
+    "malot-en-famille",
+    "En famille",
+    "Hector Malot",
+    1907,
+    "child",
+    "1893",
+    [
+      "roman",
+      "famille",
+      "courage"
+    ],
+    "En_famille/Chapitre_I",
+    "Comme cela arrive"
+  ],
+  [
+    "aulnoy-chatte",
+    "La Chatte blanche",
+    "Marie-Catherine d’Aulnoy",
+    1705,
+    "child",
+    "1698",
+    [
+      "conte",
+      "magie",
+      "animaux"
+    ],
+    "Contes_des_fées_(Aulnoy,_1825)/La_Chatte_blanche",
+    "Il était une fois"
+  ],
+  [
+    "nodier-feves",
+    "Trésor des Fèves et Fleur des Pois",
+    "Charles Nodier",
+    1844,
+    "child",
+    "1833",
+    [
+      "conte",
+      "magie",
+      "entraide"
+    ],
+    "Trésor_des_Fèves_et_Fleur_des_Pois",
+    "Il y avait une fois"
+  ],
+  [
+    "moreau-souliers",
+    "Les Petits Souliers",
+    "Hégésippe Moreau",
+    1838,
+    "child",
+    "1836",
+    [
+      "conte",
+      "mer",
+      "amitié"
+    ],
+    "Les_Petits_Souliers_(Moreau)",
+    "Le 6 janvier"
+  ]
+]

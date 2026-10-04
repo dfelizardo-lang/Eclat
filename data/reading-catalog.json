@@ -2416,6 +2416,654 @@
       ],
       "text": "— Ah ! je sais, reprit Madeleine, c’est la femme qui est venue demeurer ici, qui est emménagée d’hier soir ?\n\n— Oui, répondit l’enfant.\n\n— Et vous demeuriez à Mers !\n\n— Je ne sais pas.\n\n— Tu es un garçon peu savant. Sais-tu le nom de ta mère, au moins ?\n\n— Oui, c’est la Zabelle.\n\n— Isabelle qui ? tu ne lui connais pas d’autre nom ?\n\n— Ma foi non, allez !\n\n— Ce que tu sais ne te fatiguera pas la cervelle, dit Madeleine en souriant et en commençant à battre son linge.\n\n— Comment dites-vous ? reprit le petit François.\n\nMadeleine le regarda encore ; c’était un bel enfant, il avait des yeux magnifiques. C’est dommage, pensa-t-elle, qu’il ait l’air si niais. Quel âge as-tu ? reprit-elle. Peut-être que tu ne le sais pas non plus.",
       "editorialStatus": "verified-complete-source-paragraphs"
+    },
+    {
+      "id": "merimee-colomba",
+      "title": "Colomba",
+      "author": "Prosper Mérimée",
+      "audience": "adult",
+      "year": "1840",
+      "tags": [
+        "roman",
+        "voyage",
+        "famille"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Colomba_et_autres_contes_et_nouvelles/Colomba",
+      "edition": "Livre:Mérimée - Colomba et autres contes et nouvelles.djvu",
+      "editionYear": 1845,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:M%C3%A9rim%C3%A9e_-_Colomba_et_autres_contes_et_nouvelles.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1870,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Prosper_M%C3%A9rim%C3%A9e",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "13177444",
+      "sourceHtmlSha256": "0452c7a69466a58b2d22a035729245195e28041b530b89b45491a338599e6ec4",
+      "passages": [
+        {
+          "id": "merimee-colomba-p01",
+          "text": "Dans les premiers jours du mois d’octobre 181., le colonel sir Thomas Nevil, Irlandais, officier distingué de l’armée anglaise, descendit avec sa fille à l’hôtel Beauveau, à Marseille, au retour d’un voyage en Italie. L’admiration continue des voyageurs enthousiastes a produit une réaction, et, pour se singulariser, beaucoup de touristes aujourd’hui prennent pour devise le nil admirari d’Horace. C’est à cette classe de voyageurs mécontents qu’appartenait miss Lydia, fille unique du colonel. La Transfiguration lui avait paru médiocre, le Vésuve en éruption à peine supérieur aux cheminées des usines de Birmingham. En somme, sa grande objection contre l’Italie était que ce pays manquait de couleur locale, de caractère. Explique qui pourra le sens de ces mots, que je comprenais fort bien il y a quelques années, et que je n’entends plus aujourd’hui. D’abord, miss Lydia s’était flattée de trouver au-delà des Alpes des choses que personne n’aurait vues avant elle, et dont elle pouvait parler « avec les honnêtes gens », comme dit M. Jourdain. Mais bientôt, partout devancée par ses compatriotes, et désespérant de rencontrer rien d’inconnu, elle se jeta dans le parti de l’opposition. Il est bien désagréable, en effet, de ne pouvoir parler des merveilles de l’Italie sans que quelqu’un ne vous dise : « Vous connaissez sans doute ce Raphaël du palais ***, à *** ? C’est ce qu’il y a de plus beau en Italie. » — Et c’est justement ce qu’on a négligé de voir. Comme il est trop long de tout voir, le plus simple c’est de tout condamner de parti pris.",
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "source": "https://fr.wikisource.org/wiki/Colomba_et_autres_contes_et_nouvelles/Colomba",
+          "sha256": "6e79f1041cb7e317bce0600da7d7a17527f29e625c6d4bd8b3e452a996cb7241"
+        },
+        {
+          "id": "merimee-colomba-p02",
+          "text": "— Que de belles choses ! s’écria Colomba. Je vais bien vite les serrer de peur qu’elles ne se gâtent. Je les garderai pour ma noce, ajouta-t-elle avec un sourire triste, car maintenant je suis en deuil. Et elle baisa la main de son frère.\n\n— Il y a de l’affectation, ma sœur, à garder le deuil si longtemps.\n\n— Je l’ai juré, dit Colomba d’un ton ferme. Je ne quitterai le deuil… Et elle regardait par la fenêtre la maison des Barricini.\n\n— Que le jour où tu te marieras ? dit Orso cherchant à éviter la fin de la phrase.\n\n— Je ne me marierai, dit Colomba, qu’à un homme qui aura fait trois choses… Et elle contemplait toujours d’un air sinistre la maison ennemie.\n\n— Jolie comme tu es, Colomba, je m’étonne que tu ne sois pas déjà mariée. Allons, tu me diras qui te fait la cour. D’ailleurs j’entendrai bien les sérénades. Il faut qu’elles soient belles pour plaire à une grande vocératrice comme toi.",
+          "startParagraph": 324,
+          "endParagraph": 329,
+          "source": "https://fr.wikisource.org/wiki/Colomba_et_autres_contes_et_nouvelles/Colomba",
+          "sha256": "ed88275c21c3ee63f46a7afae5ca6bc0b4dd08171e89d1f3675959a4958b4c52"
+        },
+        {
+          "id": "merimee-colomba-p03",
+          "text": "— Au bras ! ce n’est rien. Et l’autre ?\n\n— Je crois l’avoir touché.\n\nBrandolaccio, suivant son chien, courut à l’enclos le plus proche et se pencha pour regarder de l’autre côté du mur. Là, ôtant son bonnet :\n\n— Salut au seigneur Orlanduccio, dit-il. Puis, se tournant du côté d’Orso, il le salua à son tour d’un air grave : — Voilà, dit-il, ce que j’appelle un homme proprement accommodé.\n\n— Vit-il encore ? demanda Orso respirant avec peine.\n\n— Oh ! il s’en garderait ; il a trop de chagrin de la balle que vous lui avez mise dans l’œil. Sang de la Madone, quel trou ! Bon fusil, ma foi ! Quel calibre ! Ça vous  écarbouille une cervelle ! Dites donc, Ors’ Anton’, quand j’ai entendu d’abord pif ! pif ! je me suis dit : Sacrebleu ! ils escofient mon lieutenant. Puis j’entends boum ! boum ! Ah ! je dis, voilà le fusil anglais qui parle : il riposte… Mais, Brusco, qu’est-ce que tu me veux donc ?",
+          "startParagraph": 658,
+          "endParagraph": 663,
+          "source": "https://fr.wikisource.org/wiki/Colomba_et_autres_contes_et_nouvelles/Colomba",
+          "sha256": "001f5475411d690939ba4ce497f7a22b730974757f8c19217d37a00304e073c0"
+        }
+      ],
+      "text": "Dans les premiers jours du mois d’octobre 181., le colonel sir Thomas Nevil, Irlandais, officier distingué de l’armée anglaise, descendit avec sa fille à l’hôtel Beauveau, à Marseille, au retour d’un voyage en Italie. L’admiration continue des voyageurs enthousiastes a produit une réaction, et, pour se singulariser, beaucoup de touristes aujourd’hui prennent pour devise le nil admirari d’Horace. C’est à cette classe de voyageurs mécontents qu’appartenait miss Lydia, fille unique du colonel. La Transfiguration lui avait paru médiocre, le Vésuve en éruption à peine supérieur aux cheminées des usines de Birmingham. En somme, sa grande objection contre l’Italie était que ce pays manquait de couleur locale, de caractère. Explique qui pourra le sens de ces mots, que je comprenais fort bien il y a quelques années, et que je n’entends plus aujourd’hui. D’abord, miss Lydia s’était flattée de trouver au-delà des Alpes des choses que personne n’aurait vues avant elle, et dont elle pouvait parler « avec les honnêtes gens », comme dit M. Jourdain. Mais bientôt, partout devancée par ses compatriotes, et désespérant de rencontrer rien d’inconnu, elle se jeta dans le parti de l’opposition. Il est bien désagréable, en effet, de ne pouvoir parler des merveilles de l’Italie sans que quelqu’un ne vous dise : « Vous connaissez sans doute ce Raphaël du palais ***, à *** ? C’est ce qu’il y a de plus beau en Italie. » — Et c’est justement ce qu’on a négligé de voir. Comme il est trop long de tout voir, le plus simple c’est de tout condamner de parti pris."
+    },
+    {
+      "id": "balzac-eugenie",
+      "title": "Eugénie Grandet",
+      "author": "Honoré de Balzac",
+      "audience": "adult",
+      "year": "1833",
+      "tags": [
+        "roman",
+        "famille",
+        "société"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Eug%C3%A9nie_Grandet",
+      "edition": "Livre:Balzac - Œuvres complètes Tome 5 (1855).djvu",
+      "editionYear": 1855,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Balzac_-_%C5%92uvres_compl%C3%A8tes_Tome_5_(1855).djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1850,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Honor%C3%A9_de_Balzac",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "11990888",
+      "sourceHtmlSha256": "266ce4baee60d0eca1840ce003b72d59ceb49adeae1be570849e5ce633446fac",
+      "passages": [
+        {
+          "id": "balzac-eugenie-p01",
+          "text": "Il offrit un gros bouquet de fleurs rares à Saumur ; puis, serrant l’héritière par les coudes, il l’embrassa des deux côtés du cou, avec une complaisance qui rendit Eugénie honteuse. Le président, qui ressemblait à un grand clou rouillé, croyait ainsi faire sa cour.\n\n— Ne vous gênez pas, dit Grandet en rentrant. Comme vous y allez les jours de fête, monsieur le président !\n\n— Mais, avec mademoiselle, répondit l’abbé Cruchot armé de son bouquet, tous les jours seraient pour mon neveu des jours de fête.\n\nL’abbé baisa la main d’Eugénie. Quant à maître Cruchot, il embrassa la jeune fille tout bonnement sur les deux joues, et dit : — Comme ça nous pousse, ça ! Tous les ans douze mois.\n\nEn replaçant la lumière devant le cartel, Grandet, qui ne quittait jamais une plaisanterie et la répétait à satiété quand elle lui semblait drôle, dit : — Puisque c’est la fête d’Eugénie, allumons les flambeaux !",
+          "startParagraph": 35,
+          "endParagraph": 39,
+          "source": "https://fr.wikisource.org/wiki/Eug%C3%A9nie_Grandet",
+          "sha256": "0c649d03180ecad1517eb69460c5337b6737bc1e6f0b97d7cf37bab9d14ee7ef"
+        },
+        {
+          "id": "balzac-eugenie-p02",
+          "text": "— Qu’est-ce que c’est que cela ? dit le bonhomme dont les yeux s’animèrent à la vue d’une poignée d’or que lui montra Charles.\n\n— Monsieur, j’ai réuni mes boutons, mes anneaux, toutes les superfluités que je possède et qui pouvaient avoir quelque valeur ; mais, ne connaissant personne à Saumur, je voulais vous prier ce matin de…\n\n— De vous acheter cela ? dit Grandet en l’interrompant.\n\n— Non, mon oncle, de m’indiquer un honnête homme qui…\n\n— Donnez-moi cela, mon neveu ; j’irai vous estimer cela là-haut, et je reviendrai vous dire ce que cela vaut, à un centime près. Or de bijou, dit-il en examinant une longue chaîne, dix-huit à dix-neuf carats.\n\nLe bonhomme tendit sa large main et emporta la masse d’or.\n\n— Ma cousine, dit Charles, permettez-moi de vous offrir ces deux boutons qui pourront vous servir à attacher des rubans à vos poignets. Cela fait un bracelet fort à la mode en ce moment.",
+          "startParagraph": 734,
+          "endParagraph": 740,
+          "source": "https://fr.wikisource.org/wiki/Eug%C3%A9nie_Grandet",
+          "sha256": "4e12ea1daaed510090a1d2cb2720567ae74d00612a38526099970b229475f83a"
+        },
+        {
+          "id": "balzac-eugenie-p03",
+          "text": "— Je ferai tout ce qu’il vous plaira, mon père.\n\n— Mademoiselle, dit le notaire, il est de mon devoir de vous faire observer que vous vous dépouillez…\n\n— Eh ! mon Dieu, dit-elle, qu’est-ce que cela me fait ?\n\n— Tais-toi, Cruchot. C’est dit, c’est dit, s’écria Grandet en prenant la main de sa fille et y frappant avec la sienne. Eugénie, tu ne te dédiras point, tu es une honnête fille, hein ?\n\n— Oh ! mon père ?…\n\nIl l’embrassa avec effusion, la serra dans ses bras à l’étouffer.\n\n— Va, mon enfant, tu donnes la vie à ton père ; mais tu lui rends ce qu’il t’a donné : nous sommes quittes. Voilà comment doivent se faire les affaires. La vie est une affaire. Je te bénis ! Tu es une vertueuse fille, qui aime bien son papa. Fais ce que tu voudras maintenant. À demain donc, Cruchot, dit-il en regardant le notaire épouvanté. Vous verrez à bien préparer l’acte de renonciation au greffe du tribunal.",
+          "startParagraph": 1017,
+          "endParagraph": 1023,
+          "source": "https://fr.wikisource.org/wiki/Eug%C3%A9nie_Grandet",
+          "sha256": "dcaad7dd42e7c6ef35490d4fc591322915a5dfeee45959ea75c6f7542eab584e"
+        }
+      ],
+      "text": "Il offrit un gros bouquet de fleurs rares à Saumur ; puis, serrant l’héritière par les coudes, il l’embrassa des deux côtés du cou, avec une complaisance qui rendit Eugénie honteuse. Le président, qui ressemblait à un grand clou rouillé, croyait ainsi faire sa cour.\n\n— Ne vous gênez pas, dit Grandet en rentrant. Comme vous y allez les jours de fête, monsieur le président !\n\n— Mais, avec mademoiselle, répondit l’abbé Cruchot armé de son bouquet, tous les jours seraient pour mon neveu des jours de fête.\n\nL’abbé baisa la main d’Eugénie. Quant à maître Cruchot, il embrassa la jeune fille tout bonnement sur les deux joues, et dit : — Comme ça nous pousse, ça ! Tous les ans douze mois.\n\nEn replaçant la lumière devant le cartel, Grandet, qui ne quittait jamais une plaisanterie et la répétait à satiété quand elle lui semblait drôle, dit : — Puisque c’est la fête d’Eugénie, allumons les flambeaux !"
+    },
+    {
+      "id": "zola-therese",
+      "title": "Thérèse Raquin",
+      "author": "Émile Zola",
+      "audience": "adult",
+      "year": "1867",
+      "tags": [
+        "roman",
+        "ville",
+        "société"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Th%C3%A9r%C3%A8se_Raquin/1",
+      "edition": "Livre:Zola - Thérèse Raquin, Lacroix, 1868.djvu",
+      "editionYear": 1868,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Zola_-_Th%C3%A9r%C3%A8se_Raquin,_Lacroix,_1868.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1902,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:%C3%89mile_Zola",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "15685741",
+      "sourceHtmlSha256": "33e094b9d241938f29e41226afdcb4abdc6537e9710478bb4832a7ddd4f82861",
+      "passages": [
+        {
+          "id": "zola-therese-p01",
+          "text": "À gauche, se creusent des boutiques obscures, basses, écrasées, laissant échapper des souffles froids de caveau. Il y a là des bouquinistes, des marchands de jouets d’enfant, des cartonniers, dont les étalages gris de poussière dorment vaguement dans l’ombre ; les vitrines, faites de petits carreaux, moirent étrangement les marchandises de reflets verdâtres ; au-delà, derrière les étalages, les boutiques pleines de ténèbres sont autant de trous lugubres dans lesquels s’agitent des formes bizarres.\n\nÀ droite, sur toute la longueur du passage, s’étend une muraille contre laquelle les boutiquiers d’en face ont plaqué d’étroites armoires ; des objets sans nom, des marchandises oubliées là depuis vingt ans s’y étalent le long de minces planches peintes d’une horrible couleur brune. Une marchande de bijoux faux s’est établie dans une des armoires ; elle y vend des bagues de quinze sous, délicatement posées sur un lit de velours bleu, au fond d’une boîte en acajou.",
+          "startParagraph": 2,
+          "endParagraph": 3,
+          "source": "https://fr.wikisource.org/wiki/Th%C3%A9r%C3%A8se_Raquin/1",
+          "sha256": "654feb88756d34d4f677603391d3970c12294fc444d2374442799cbf5003e055"
+        },
+        {
+          "id": "zola-therese-p02",
+          "text": "Vers midi, en été, lorsque le soleil brûlait les places et les rues de rayons fauves, on distinguait, derrière les bonnets de l’autre vitrine, un profil pâle et grave de jeune femme. Ce profil sortait vaguement des ténèbres qui régnaient dans la boutique. Au front bas et sec s’attachait un nez long, étroit, effilé ; les lèvres étaient deux minces traits d’un rose pâle, et le menton, court et nerveux, tenait au cou par une ligne souple et grasse. On ne voyait pas le corps, qui se perdait dans l’ombre ; le profil seul apparaissait, d’une blancheur mate, troué d’un œil noir largement ouvert, et comme écrasé sous une épaisse chevelure sombre. Il était là, pendant des heures, immobile et paisible, entre deux bonnets sur lesquels les tringles humides avaient laissé des bandes de rouille.",
+          "startParagraph": 11,
+          "endParagraph": 11,
+          "source": "https://fr.wikisource.org/wiki/Th%C3%A9r%C3%A8se_Raquin/1",
+          "sha256": "3b4190d668bd4d97520016309b190894735575aea33105b4d6230a902276ec65"
+        },
+        {
+          "id": "zola-therese-p03",
+          "text": "Le soir, lorsque la lampe était allumée, on voyait l’intérieur de la boutique. Elle était plus longue que profonde ; à l’un des bouts, se trouvait un petit comptoir ; à l’autre bout, un escalier en forme de vis menait aux chambres du premier étage. Contre les murs étaient plaquées des vitrines, des armoires, des rangées de cartons verts ; quatre chaises et une table complétaient le mobilier. La pièce paraissait nue, glaciale ; les marchandises, empaquetées, serrées dans des coins, ne traînaient pas çà et là avec leur joyeux tapage de couleurs.\n\nD’ordinaire, il y avait deux femmes assises derrière le comptoir : la jeune femme au profil grave et une vieille dame qui souriait en sommeillant. Cette dernière avait environ soixante ans ; son visage gras et placide blanchissait sous les clartés de la lampe. Un gros chat tigré, accroupi sur un angle du comptoir, la regardait dormir.",
+          "startParagraph": 12,
+          "endParagraph": 13,
+          "source": "https://fr.wikisource.org/wiki/Th%C3%A9r%C3%A8se_Raquin/1",
+          "sha256": "b946c46bb16e88523afe9f71b845352c162c3f804f18836d805e242fb5972b3f"
+        }
+      ],
+      "text": "À gauche, se creusent des boutiques obscures, basses, écrasées, laissant échapper des souffles froids de caveau. Il y a là des bouquinistes, des marchands de jouets d’enfant, des cartonniers, dont les étalages gris de poussière dorment vaguement dans l’ombre ; les vitrines, faites de petits carreaux, moirent étrangement les marchandises de reflets verdâtres ; au-delà, derrière les étalages, les boutiques pleines de ténèbres sont autant de trous lugubres dans lesquels s’agitent des formes bizarres.\n\nÀ droite, sur toute la longueur du passage, s’étend une muraille contre laquelle les boutiquiers d’en face ont plaqué d’étroites armoires ; des objets sans nom, des marchandises oubliées là depuis vingt ans s’y étalent le long de minces planches peintes d’une horrible couleur brune. Une marchande de bijoux faux s’est établie dans une des armoires ; elle y vend des bagues de quinze sous, délicatement posées sur un lit de velours bleu, au fond d’une boîte en acajou."
+    },
+    {
+      "id": "hugo-condamne",
+      "title": "Le Dernier Jour d’un condamné",
+      "author": "Victor Hugo",
+      "audience": "adult",
+      "year": "1829",
+      "tags": [
+        "roman",
+        "justice",
+        "émotion"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Le_Dernier_Jour_d%E2%80%99un_Condamn%C3%A9/%C3%A9d._1910/01",
+      "edition": "Livre:Hugo - Œuvres complètes, Impr. nat., Roman, tome I.djvu",
+      "editionYear": 1910,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Hugo_-_%C5%92uvres_compl%C3%A8tes,_Impr._nat.,_Roman,_tome_I.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1885,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Victor_Hugo",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "16005484",
+      "sourceHtmlSha256": "0383c2d109434d1f2f842bcec4a62686d433f5aff786ef4baa03c1d36893cf44",
+      "passages": [
+        {
+          "id": "hugo-condamne-p01",
+          "text": "Condamné à mort !\n\nVoilà cinq semaines que j’habite avec cette pensée, toujours seul avec \nelle, toujours glacé de sa présence, toujours courbé sous son poids !\n\nAutrefois, car il me semble qu’il y a plutôt des années que des semaines,\nj’étais un homme comme un autre homme. Chaque jour, chaque heure,\nchaque minute avait son idée. Mon esprit, jeune et riche, était plein de \nfantaisies. Il s’amusait à me les dérouler les unes après les autres, sans ordre \net sans fin, brodant d’inépuisables arabesques cette rude et mince étoffe \nde la vie. C’étaient des jeunes filles, de splendides chapes d’évêque, des \nbatailles gagnées, des théâtres pleins de bruit et de lumière, et puis encore \ndes jeunes filles et de sombres promenades la nuit sous les larges bras des marronniers. C’était toujours fête dans mon imagination. Je pouvais penser \nà ce que je voulais, j’étais libre.",
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "source": "https://fr.wikisource.org/wiki/Le_Dernier_Jour_d%E2%80%99un_Condamn%C3%A9/%C3%A9d._1910/01",
+          "sha256": "743149fc9ad6caf62f69939d73bf9219a79844e1395cbfebe1e387ce289c9b63"
+        },
+        {
+          "id": "hugo-condamne-p02",
+          "text": "Maintenant je suis captif. Mon corps est aux fers dans un cachot, mon \nesprit est en prison dans une idée. Une horrible, une sanglante, une implacable \nidée ! Je n’ai plus qu’une pensée, qu’une conviction, qu’une certitude :\ncondamné à mort !\n\nQuoi que je fasse, elle est toujours là, cette pensée infernale, comme un \nspectre de plomb à mes côtés, seule et jalouse, chassant toute distraction,\nface à face avec moi misérable, et me secouant de ses deux mains de glace \nquand je veux détourner la tête ou fermer les yeux. Elle se glisse sous toutes \nles formes où mon esprit voudrait la fuir, se mêle comme un refrain horrible \nà toutes les paroles qu’on m’adresse, se colle avec moi aux grilles hideuses de \nmon cachot ; m’obsède éveillé, épie mon sommeil convulsif, et reparaît \ndans mes rêves sous la forme d’un couteau.",
+          "startParagraph": 3,
+          "endParagraph": 4,
+          "source": "https://fr.wikisource.org/wiki/Le_Dernier_Jour_d%E2%80%99un_Condamn%C3%A9/%C3%A9d._1910/01",
+          "sha256": "bfa666df73b9558cfbe2aeb4a1c4fcd7ebc57564520b4e45faac687dcc047240"
+        },
+        {
+          "id": "hugo-condamne-p03",
+          "text": "Je viens de m’éveiller en sursaut, poursuivi par elle et me disant : – Ah !\nce n’est qu’un rêve ! – Hé bien ! avant même que mes yeux lourds aient eu le \ntemps de s’entr’ouvrir assez pour voir cette fatale pensée écrite dans l’horrible réalité qui m’entoure, sur la dalle mouillée et suante de ma cellule, dans les \nrayons pâles de ma lampe de nuit, dans la trame grossière de la toile de mes \nvêtements, sur la sombre figure du soldat de garde dont la giberne reluit \nà travers la grille du cachot, il me semble que déjà une voix a murmuré à \nmon oreille : – Condamné à mort !",
+          "startParagraph": 5,
+          "endParagraph": 5,
+          "source": "https://fr.wikisource.org/wiki/Le_Dernier_Jour_d%E2%80%99un_Condamn%C3%A9/%C3%A9d._1910/01",
+          "sha256": "bea619ba6d803994b5715a7032c008a853c2e9922ec7f522b1e4c7fcf5e39eb9"
+        }
+      ],
+      "text": "Condamné à mort !\n\nVoilà cinq semaines que j’habite avec cette pensée, toujours seul avec \nelle, toujours glacé de sa présence, toujours courbé sous son poids !\n\nAutrefois, car il me semble qu’il y a plutôt des années que des semaines,\nj’étais un homme comme un autre homme. Chaque jour, chaque heure,\nchaque minute avait son idée. Mon esprit, jeune et riche, était plein de \nfantaisies. Il s’amusait à me les dérouler les unes après les autres, sans ordre \net sans fin, brodant d’inépuisables arabesques cette rude et mince étoffe \nde la vie. C’étaient des jeunes filles, de splendides chapes d’évêque, des \nbatailles gagnées, des théâtres pleins de bruit et de lumière, et puis encore \ndes jeunes filles et de sombres promenades la nuit sous les larges bras des marronniers. C’était toujours fête dans mon imagination. Je pouvais penser \nà ce que je voulais, j’étais libre."
+    },
+    {
+      "id": "audoux-marie-claire",
+      "title": "Marie-Claire",
+      "author": "Marguerite Audoux",
+      "audience": "adult",
+      "year": "1910",
+      "tags": [
+        "roman",
+        "enfance",
+        "mémoire"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Marie-Claire/Texte_entier",
+      "edition": "Livre:Audoux - Marie-Claire.djvu",
+      "editionYear": 1911,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Audoux_-_Marie-Claire.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1937,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Marguerite_Audoux",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "14172432",
+      "sourceHtmlSha256": "9e7902f212b87a99c81ed38aa29fc7074392b69afc262928f686eb672b48277e",
+      "passages": [
+        {
+          "id": "audoux-marie-claire-p01",
+          "text": "Le soir même, les verges disparurent du petit dortoir, et au réfectoire la salade fut retournée avec de longues spatules. À part cela, rien ne fut changé. Nous allions en classe de neuf heures à midi, et l’après-midi nous épluchions des noix pour un marchand d’huiles.\n\nLes plus grandes les cassaient avec un marteau, et les plus petites les séparaient des coquilles. Il était bien défendu d’en manger, et surtout ce n’était pas facile : il s’en trouvait toujours une pour vous dénoncer, par jalousie de gourmandise.\n\nC’était Bonne Esther qui nous regardait dans la bouche. Quelquefois, elle s’attardait à une incorrigible gourmande. Alors, elle lui faisait les gros yeux, puis elle lui disait en la renvoyant d’une taloche :\n\n— J’ai l’œil sur toi.\n\nNous étions quelques-unes en qui elle avait grande confiance. Elle nous faisait pivoter en faisant semblant de nous regarder, et elle disait en riant :\n\n— Ferme ton bec.",
+          "startParagraph": 111,
+          "endParagraph": 116,
+          "source": "https://fr.wikisource.org/wiki/Marie-Claire/Texte_entier",
+          "sha256": "5e8f5577959890aa6a97d4f9c69268f1f6de99e62aa319412759a43f5d4ad05f"
+        },
+        {
+          "id": "audoux-marie-claire-p02",
+          "text": "Sœur Marie-Aimée disait que sa conscience \nétait aussi blanche que son front.\n\nChemineau la Bête était de moitié plus\nhaute que sa sœur ; ses cheveux rudes rejoignaient \npresque ses sourcils ; elle était carrée\ndes épaules et large des hanches ; nous l’appelions \nle chien de garde de sa sœur.\n\nEt tout là-bas, à l’autre bout du dortoir, il\ny avait Colette.\n\nElle croyait toujours que j’allais chez\nMlle Maximilienne. Elle était persuadée que je\nme marierais très jeune, et elle m’avait fait\npromettre de venir la chercher aussitôt que je\nserais mariée.\n\nMa pensée tourna longtemps autour d’elle.\nPuis je regardai vers la fenêtre : les ombres\ndes tilleuls s’allongeaient de mon côté. J’imaginais \nqu’ils venaient me dire adieu, et je leur\nsouriais.\n\nDe l’autre côté des tilleuls, j’apercevais\nl’infirmerie ; elle paraissait se reculer, et ses\npetites fenêtres me faisaient penser à des yeux\nmalades.",
+          "startParagraph": 502,
+          "endParagraph": 507,
+          "source": "https://fr.wikisource.org/wiki/Marie-Claire/Texte_entier",
+          "sha256": "aac3a6e0a3d45286ec3b2bd5daae5ede6d15915d361b04284b354aaff4f8b347"
+        },
+        {
+          "id": "audoux-marie-claire-p03",
+          "text": "Je retins longtemps ma respiration pour\nécouter la sienne ; puis, j’aspirai longuement,\ncomme si mon souffle devait en même temps\nentrer dans sa poitrine.\n\nMais en la regardant de plus près, je compris \nque le dernier souffle était déjà sorti\nd’elle. Ses yeux grands ouverts semblaient\nregarder un rayon de soleil qui s’avançait\ncomme une longue flèche.\n\nDes hirondelles passaient et repassaient\ndevant la fenêtre en poussant des cris comme\nles petites filles, et des bruits que je n’avais\njamais entendus m’emplissaient les oreilles.\n\nJe levai la tête vers les fenêtres des dortoirs, \ndans l’espoir que quelqu’un pourrait\nentendre ce que j’avais à dire.\n\nMais mon regard ne rencontra que le cadran\nde la grosse horloge, qui semblait regarder\ndans la chambre par-dessus les tilleuls : il\nmarquait cinq heures ; alors je ramenai les\ncouvertures sur sœur Désirée-des-Anges et\nje sortis sonner le réveil.",
+          "startParagraph": 1295,
+          "endParagraph": 1299,
+          "source": "https://fr.wikisource.org/wiki/Marie-Claire/Texte_entier",
+          "sha256": "ffb1782d66e958901b4eb85bfd1d6c6f799cab7595de6734bfb85feae1fbf0e5"
+        }
+      ],
+      "text": "Le soir même, les verges disparurent du petit dortoir, et au réfectoire la salade fut retournée avec de longues spatules. À part cela, rien ne fut changé. Nous allions en classe de neuf heures à midi, et l’après-midi nous épluchions des noix pour un marchand d’huiles.\n\nLes plus grandes les cassaient avec un marteau, et les plus petites les séparaient des coquilles. Il était bien défendu d’en manger, et surtout ce n’était pas facile : il s’en trouvait toujours une pour vous dénoncer, par jalousie de gourmandise.\n\nC’était Bonne Esther qui nous regardait dans la bouche. Quelquefois, elle s’attardait à une incorrigible gourmande. Alors, elle lui faisait les gros yeux, puis elle lui disait en la renvoyant d’une taloche :\n\n— J’ai l’œil sur toi.\n\nNous étions quelques-unes en qui elle avait grande confiance. Elle nous faisait pivoter en faisant semblant de nous regarder, et elle disait en riant :\n\n— Ferme ton bec."
+    },
+    {
+      "id": "france-sylvestre",
+      "title": "Le Crime de Sylvestre Bonnard",
+      "author": "Anatole France",
+      "audience": "adult",
+      "year": "1881",
+      "tags": [
+        "roman",
+        "livres",
+        "humour"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/Le_Crime_de_Sylvestre_Bonnard_(%C3%A9ditions_Calmann-L%C3%A9vy,_1896)/La_B%C3%BBche",
+      "edition": "Livre:Anatole France - Le Crime de Sylvestre Bonnard, 1896.djvu",
+      "editionYear": 1896,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Anatole_France_-_Le_Crime_de_Sylvestre_Bonnard,_1896.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1924,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Anatole_France",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "9473694",
+      "sourceHtmlSha256": "85eaae162aceca78324784c9c15beff1952776a0c39d2787fab726e57a305a7a",
+      "passages": [
+        {
+          "id": "france-sylvestre-p01",
+          "text": "Pourtant je me sens aujourd’hui un peu plus imprégné que jamais de cette vague tristesse que distille la vie. L’économie de mon intelligence (je n’ose me l’avouer à moi-même) est troublée depuis l’heure caractéristique à laquelle l’existence du manuscrit du clerc Alexandre m’a été révélée.\n\nIl est étrange que, pour quelques feuillets de vieux parchemin, j’aie perdu le repos, mais rien n’est plus vrai. Le pauvre sans désirs possède le plus grand des trésors ; il se possède lui-même. Le riche qui convoite n’est qu’un esclave misérable. Je suis cet esclave-là. Les plaisirs les plus doux, celui de causer avec un homme d’un esprit fin et modéré, celui de dîner avec un ami ne me font pas oublier le manuscrit, qui me manque depuis que je sais qu’il existe. Il me manque le jour, il me manque la nuit ; il me manque dans la joie et dans la tristesse ; il me manque dans le travail et dans le repos.",
+          "startParagraph": 78,
+          "endParagraph": 79,
+          "source": "https://fr.wikisource.org/wiki/Le_Crime_de_Sylvestre_Bonnard_(%C3%A9ditions_Calmann-L%C3%A9vy,_1896)/La_B%C3%BBche",
+          "sha256": "5bb384634130cc8e52b0c4789187b56b2559765fb47a74719f675a51d77987c2"
+        },
+        {
+          "id": "france-sylvestre-p02",
+          "text": "Ses façons m’avaient choqué. Je la laissai s’arranger dans sa lettica et je m’installai de mon mieux dans la mienne. Ces voitures, sans roues, sont portées par deux mules, l’une à l’avant et l’autre à l’arrière. Cette sorte de litière ou de chaise est d’un usage ancien. J’en vis bien souvent de semblables figurées sur des manuscrits français du quatorzième siècle. Je ne savais pas alors qu’une de ces voitures serait un jour à mon usage. Il ne faut jurer de rien.\n\nPendant trois heures, les mules firent sonner leurs clochettes et battirent du sabot un sol calciné. À nos côtés défilaient lentement les formes arides et monstrueuses d’une nature africaine.\n\nNous nous arrêtâmes à moitié route pour laisser souffler nos bêtes.\n\nMadame Trépof vint à moi sur la route, me prit le bras et m’entraîna quelques pas en avant. Puis, tout à coup, elle me dit d’une voix que je ne lui connaissais pas :\n\n— Ne croyez pas que je sois une méchante femme. Mon Georges sait bien que je suis une bonne mère.\n\nNous marchâmes un instant en silence. Elle leva la tête et je vis qu’elle pleurait.",
+          "startParagraph": 220,
+          "endParagraph": 225,
+          "source": "https://fr.wikisource.org/wiki/Le_Crime_de_Sylvestre_Bonnard_(%C3%A9ditions_Calmann-L%C3%A9vy,_1896)/La_B%C3%BBche",
+          "sha256": "69da4ecc90098d0c7a490b6cd656042064d10ff2018692fa25c2cd37b8fce5b8"
+        },
+        {
+          "id": "france-sylvestre-p03",
+          "text": "Je descends quelques marches, je me penche sur la rampe et je vois le petit chapeau tournoyer dans la spirale de l’escalier comme une plume au vent. Bonjour, mon petit garçon ! J’aurais été bien aise de lui parler. Mais que lui aurais-je demandé ? Il n’est pas délicat de questionner les enfants. D’ailleurs le paquet m’instruira mieux que le messager.\n\nC’est un très gros paquet, mais pas très lourd. Je défais dans ma bibliothèque les faveurs et le papier qui l’entourent et je trouve… quoi ? une bûche, une maîtresse bûche, une vraie bûche de Noël, mais si légère que je la crois creuse. Je découvre en effet qu’elle est composée de deux morceaux qui sont joints par des crochets et s’ouvrent sur charnières. Je tourne les crochets et me voilà inondé de violettes. Il en coule sur ma table, sur mes genoux, sur mon tapis. Il s’en glisse dans mon gilet, dans mes manches. J’en suis tout parfumé.",
+          "startParagraph": 343,
+          "endParagraph": 344,
+          "source": "https://fr.wikisource.org/wiki/Le_Crime_de_Sylvestre_Bonnard_(%C3%A9ditions_Calmann-L%C3%A9vy,_1896)/La_B%C3%BBche",
+          "sha256": "00316324dcd08c5896a2c34c1ba3cf72d4e97d4d22a047068fd266059276ff73"
+        }
+      ],
+      "text": "Pourtant je me sens aujourd’hui un peu plus imprégné que jamais de cette vague tristesse que distille la vie. L’économie de mon intelligence (je n’ose me l’avouer à moi-même) est troublée depuis l’heure caractéristique à laquelle l’existence du manuscrit du clerc Alexandre m’a été révélée.\n\nIl est étrange que, pour quelques feuillets de vieux parchemin, j’aie perdu le repos, mais rien n’est plus vrai. Le pauvre sans désirs possède le plus grand des trésors ; il se possède lui-même. Le riche qui convoite n’est qu’un esclave misérable. Je suis cet esclave-là. Les plaisirs les plus doux, celui de causer avec un homme d’un esprit fin et modéré, celui de dîner avec un ami ne me font pas oublier le manuscrit, qui me manque depuis que je sais qu’il existe. Il me manque le jour, il me manque la nuit ; il me manque dans la joie et dans la tristesse ; il me manque dans le travail et dans le repos."
+    },
+    {
+      "id": "segur-nouveaux-contes",
+      "title": "Nouveaux Contes de fées",
+      "author": "Comtesse de Ségur",
+      "audience": "child",
+      "year": "1857",
+      "tags": [
+        "conte",
+        "magie",
+        "entraide"
+      ],
+      "genre": "conte",
+      "source": "https://fr.wikisource.org/wiki/Nouveaux_Contes_de_f%C3%A9es/Le_Bon_Petit_Henri",
+      "edition": "Livre:Ségur - Nouveaux contes de fées.djvu",
+      "editionYear": 1896,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:S%C3%A9gur_-_Nouveaux_contes_de_f%C3%A9es.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1874,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Comtesse_de_S%C3%A9gur",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "5095072",
+      "sourceHtmlSha256": "c003a06584bda171272db0551472344bb3c23b771cdc9fde4c45f69bae69a828",
+      "passages": [
+        {
+          "id": "segur-nouveaux-contes-p01",
+          "text": "Henri était reposé ; il se leva et continua à marcher.\n\nQuand il eut fait encore un bon bout de chemin, il vit une pauvre Grenouille qui allait être dévorée par un Serpent.\n\nLa Grenouille tremblait et ne bougeait pas, paralysée par la peur ; le Serpent avançait rapidement vers elle, la gueule béante. Henri saisit une grosse pierre et la lança si habilement dans la gueule du Serpent, au moment où celui-ci allait dévorer la Grenouille, que la pierre entra dans la gorge du Serpent et l’étouffa ; la Grenouille s’éloigna en sautant, et cria à Henri :\n\n« Grand merci, mon brave Henri, je te le revaudrai ! »\n\nHenri, qui avait déjà entendu parler le Corbeau et le Coq, ne s’étonna plus d’entendre parler la Grenouille et continua sa route.\n\nPeu après il arriva au pied de la montagne mais il vit qu’il y avait une rivière large et profonde qui coulait au pied, si large qu’on voyait à peine l’autre bord.",
+          "startParagraph": 22,
+          "endParagraph": 27,
+          "source": "https://fr.wikisource.org/wiki/Nouveaux_Contes_de_f%C3%A9es/Le_Bon_Petit_Henri",
+          "sha256": "2d49623830736ea66526a1b23ace3e7e4d502f72c4fe3032350424a7e6e19de7"
+        },
+        {
+          "id": "segur-nouveaux-contes-p02",
+          "text": "Henri regarda autour de lui ; à perte de vue s’étendaient les vignes du Géant.\n\n« J’ai bien ramassé tous les blés du petit Vieillard, se dit Henri, je pourrai bien cueillir les raisins du Géant ; ce sera un travail moins long et moins difficile de mettre le raisin en vin que de mettre le blé en pains. »\n\nHenri ôta sa veste, ramassa une serpette qu’il trouva à ses pieds, et se mit à couper les grappes et à les jeter dans des cuves. Il fut trente jours à faire la récolte. Quand tout fut cueilli, il écrasa le raisin et en versa le jus dans des tonneaux, qu’il rangeait dans des caves à mesure qu’il les remplissait ; il fut quatre-vingt-dix jours à faire le vin. Lorsque tout le vin fut prêt, les tonneaux bien mis en ordre, les caves bien  arrangées, Henri appela le Géant, qui apparut immédiatement, examina les tonneaux, goûta le vin du premier et du dernier, se tourna vers Henri et lui dit :\n\n« Tu es un brave petit homme, et je veux te payer de ta peine ; il ne sera pas dit que tu aies travaillé gratis pour le Géant de la montagne. »\n\nIl tira de sa poche un chardon, le donna à Henri et lui dit :\n\n« Quand tu seras revenu chez toi, chaque fois que tu désireras quelque chose, sens ton chardon. »\n\nHenri trouva que le présent n’était pas généreux, mais il le reçut en souriant d’un air aimable.",
+          "startParagraph": 59,
+          "endParagraph": 65,
+          "source": "https://fr.wikisource.org/wiki/Nouveaux_Contes_de_f%C3%A9es/Le_Bon_Petit_Henri",
+          "sha256": "791401705b9395f29b72bab399cee04551ecd7f1b82cc4f81fb329322a99e583"
+        },
+        {
+          "id": "segur-nouveaux-contes-p03",
+          "text": "Il s’enfonça dans le jardin botanique, où Henri eut quelque peine à le suivre, parce qu’il disparaissait entièrement sous les tiges ; enfin ils arrivèrent près d’une plante isolée : le petit Docteur tira une petite serpette de sa petite poche, en coupa une tige et la donna à Henri en lui disant :\n\n« Voici, faites-en l’usage que vous a prescrit la fée ; mais ne la laissez pas sortir de vos mains, car si vous la posez n’importe où, elle vous échappera sans que vous puissiez jamais la ravoir. »\n\nHenri voulut le remercier, mais le petit homme avait déjà disparu au milieu de ses herbes médicinales, et Henri se trouva seul.\n\n« Comment ferai-je maintenant pour arriver vite à la maison ? Si en descendant je rencontre les mêmes obstacles qu’en montant, je risque de perdre ma plante, ma chère plante qui doit rendre la vie à ma pauvre maman. »\n\nIl se ressouvint heureusement du bâton que lui avait donné le Loup.\n\n« Voyons, dit-il, s’il a vraiment le pouvoir de me transporter dans ma maison. »\n\nEn disant ces mots, il se mit à cheval sur le bâton en souhaitant d’être chez lui. Au même moment il se sentit enlever dans les airs, qu’il fendit avec la rapidité de l’éclair, et il se trouva près du lit de sa maman.",
+          "startParagraph": 120,
+          "endParagraph": 126,
+          "source": "https://fr.wikisource.org/wiki/Nouveaux_Contes_de_f%C3%A9es/Le_Bon_Petit_Henri",
+          "sha256": "1f67ad6bb19a3029bc7f7f9cc7b512514efad01b715f67c39d797e3f71117a89"
+        }
+      ],
+      "text": "Henri était reposé ; il se leva et continua à marcher.\n\nQuand il eut fait encore un bon bout de chemin, il vit une pauvre Grenouille qui allait être dévorée par un Serpent.\n\nLa Grenouille tremblait et ne bougeait pas, paralysée par la peur ; le Serpent avançait rapidement vers elle, la gueule béante. Henri saisit une grosse pierre et la lança si habilement dans la gueule du Serpent, au moment où celui-ci allait dévorer la Grenouille, que la pierre entra dans la gorge du Serpent et l’étouffa ; la Grenouille s’éloigna en sautant, et cria à Henri :\n\n« Grand merci, mon brave Henri, je te le revaudrai ! »\n\nHenri, qui avait déjà entendu parler le Corbeau et le Coq, ne s’étonna plus d’entendre parler la Grenouille et continua sa route.\n\nPeu après il arriva au pied de la montagne mais il vit qu’il y avait une rivière large et profonde qui coulait au pied, si large qu’on voyait à peine l’autre bord."
+    },
+    {
+      "id": "verne-deux-ans",
+      "title": "Deux Ans de vacances",
+      "author": "Jules Verne",
+      "audience": "child",
+      "year": "1888",
+      "tags": [
+        "aventure",
+        "mer",
+        "entraide"
+      ],
+      "genre": "aventure",
+      "source": "https://fr.wikisource.org/wiki/Deux_Ans_de_vacances/Chapitre_1",
+      "edition": "Livre:Verne - Deux Ans de vacances, Hetzel, 1909.djvu",
+      "editionYear": 1909,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Verne_-_Deux_Ans_de_vacances,_Hetzel,_1909.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1905,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Jules_Verne",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "5641105",
+      "sourceHtmlSha256": "0ff1b43a92cb6f662cf37b93d78a3b496b8c914561bb1bca66dae8ee355ed5cc",
+      "passages": [
+        {
+          "id": "verne-deux-ans-p01",
+          "text": "Pendant la nuit du 9 mars 1860, les nuages, se confondant avec la mer, limitaient à quelques brasses la portée de la vue.\n\nSur cette mer démontée, dont les lames déferlaient en projetant des lueurs livides, un léger bâtiment fuyait presque à sec de toile.\n\nC’était un yacht de cent tonneaux, – un schooner, – nom que portent les goélettes en Angleterre et en Amérique.\n\nCe schooner se nommait le Sloughi, et vainement eût-on cherché à lire ce nom sur son tableau d’arrière, qu’un accident, – coup de mer ou collision, – avait en partie arraché au-dessous du couronnement.\n\nIl était onze heures du soir. Sous cette latitude, au commencement du mois de mars, les nuits sont courtes encore. Les premières blancheurs du jour ne devaient apparaître que vers cinq heures du matin. Mais les dangers qui menaçaient le Sloughi seraient-ils moins grands lorsque le soleil éclairerait l’espace ? Le frêle bâtiment ne resterait-il pas toujours à la merci des lames ? Assurément, et l’apaisement de la houle, l’accalmie de la rafale, pouvaient seuls le sauver du plus affreux des naufrages, – celui qui se produit en plein Océan, loin de toute terre sur laquelle les survivants trouveraient le salut peut-être !",
+          "startParagraph": 1,
+          "endParagraph": 5,
+          "source": "https://fr.wikisource.org/wiki/Deux_Ans_de_vacances/Chapitre_1",
+          "sha256": "bd52293ec56485892b78b65a5dc208f858fac89233b7a9dcfb8bae4233c6375a"
+        },
+        {
+          "id": "verne-deux-ans-p02",
+          "text": "Briant rassura ses camarades en repassant à travers le salon, et, un peu moins inquiet, revint prendre sa place au gouvernail. Le schooner, très solidement construit, nouvellement caréné d’une bonne doublure de cuivre, ne faisait point d’eau et devait être en état de résister aux coups de mer.\n\nIl était alors une heure du matin. À ce moment de la nuit, rendue plus obscure encore par l’épaisseur des nuages, la bourrasque se déchaînait furieusement. Le yacht naviguait comme s’il eût été plongé tout entier en un milieu liquide. Des cris aigus de pétrels déchiraient les airs. De leur apparition pouvait-on conclure que la terre fût proche ? Non, car on les rencontre souvent à plusieurs centaines de lieues des côtes. D’ailleurs, impuissants à lutter contre le courant aérien, ces oiseaux des tempêtes le suivaient comme le schooner, dont aucune force humaine n’aurait pu enrayer la vitesse.",
+          "startParagraph": 64,
+          "endParagraph": 65,
+          "source": "https://fr.wikisource.org/wiki/Deux_Ans_de_vacances/Chapitre_1",
+          "sha256": "6263003292887ae609fabb881bd3d0f62632cf544fb2527876393cd5404bdce9"
+        },
+        {
+          "id": "verne-deux-ans-p03",
+          "text": "Cependant, au prix des plus grands efforts, Briant était parvenu à atteindre le capot du poste.\n\nAucune réponse.\n\nMoko avait-il donc été enlevé par un nouveau coup de mer depuis qu’il avait jeté son dernier cri ? En ce cas, le malheureux enfant devait être loin maintenant, bien loin au vent, car la houle n’aurait pu le transporter avec une vitesse égale à celle du schooner. Et alors, il était perdu…\n\nNon ! Un cri plus faible arriva jusqu’à Briant, qui se précipita vers le guindeau dans le montant duquel s’encastrait le pied du beaupré. Là, ses mains rencontrèrent un corps qui se débattait…\n\nC’était le mousse, engagé dans l’angle que formaient les pavois en se rejoignant à la proue. Une drisse, que ses efforts tendaient de plus en plus, le serrait à la gorge. Après avoir été retenu par cette drisse, au moment où l’énorme lame allait l’emporter, devait-il ensuite périr par strangulation ?…\n\nBriant ouvrit son couteau, et, non sans peine, parvint à couper le cordage qui retenait le mousse.\n\nMoko fut alors ramené à l’arrière, et dès qu’il eut retrouvé la force de parler :\n\n« Merci, monsieur Briant, merci ! » dit-il.",
+          "startParagraph": 83,
+          "endParagraph": 90,
+          "source": "https://fr.wikisource.org/wiki/Deux_Ans_de_vacances/Chapitre_1",
+          "sha256": "2dc77ce2b58cbed598c2b7e9af11871edd9561b20afb17b6a112290940359d08"
+        }
+      ],
+      "text": "Pendant la nuit du 9 mars 1860, les nuages, se confondant avec la mer, limitaient à quelques brasses la portée de la vue.\n\nSur cette mer démontée, dont les lames déferlaient en projetant des lueurs livides, un léger bâtiment fuyait presque à sec de toile.\n\nC’était un yacht de cent tonneaux, – un schooner, – nom que portent les goélettes en Angleterre et en Amérique.\n\nCe schooner se nommait le Sloughi, et vainement eût-on cherché à lire ce nom sur son tableau d’arrière, qu’un accident, – coup de mer ou collision, – avait en partie arraché au-dessous du couronnement.\n\nIl était onze heures du soir. Sous cette latitude, au commencement du mois de mars, les nuits sont courtes encore. Les premières blancheurs du jour ne devaient apparaître que vers cinq heures du matin. Mais les dangers qui menaçaient le Sloughi seraient-ils moins grands lorsque le soleil éclairerait l’espace ? Le frêle bâtiment ne resterait-il pas toujours à la merci des lames ? Assurément, et l’apaisement de la houle, l’accalmie de la rafale, pouvaient seuls le sauver du plus affreux des naufrages, – celui qui se produit en plein Océan, loin de toute terre sur laquelle les survivants trouveraient le salut peut-être !"
+    },
+    {
+      "id": "malot-en-famille",
+      "title": "En famille",
+      "author": "Hector Malot",
+      "audience": "child",
+      "year": "1893",
+      "tags": [
+        "roman",
+        "famille",
+        "courage"
+      ],
+      "genre": "roman",
+      "source": "https://fr.wikisource.org/wiki/En_famille/Chapitre_I",
+      "edition": "Livre:Malot - En famille, 1893.djvu",
+      "editionYear": 1893,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Malot_-_En_famille,_1893.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1907,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Hector_Malot",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "5786991",
+      "sourceHtmlSha256": "bba2f4ba587c0f89de01e208ce8967f3cd0c777da1ef5f06ec429b1f19525d20",
+      "passages": [
+        {
+          "id": "malot-en-famille-p01",
+          "text": "Comme cela arrive souvent le samedi vers trois heures, les abords de la porte de Bercy étaient encombrés, et sur le quai, en quatre files, les voitures s’entassaient à la queue leu leu : haquets chargés de fûts, tombereaux de charbon ou de matériaux, \ncharrettes de foin ou de paille, qui tous, sous un \nclair et chaud soleil de juin, attendaient la visite de l’octroi, pressés d’entrer dans Paris à la veille du dimanche.\n\nParmi ces voitures, et assez loin de la barrière, on en voyait une d’aspect bizarre avec quelque chose de misérablement comique, sorte de roulotte de forains mais plus simple encore, formée d’un léger châssis tendu d’une grosse toile, avec un toit en carton bitumé, le tout porté sur quatre roues basses.\n\nAutrefois la toile avait dû être bleue, mais elle était si déteinte, salie, usée, qu’on ne pouvait s’en tenir qu’à des probabilités à cet égard, de même qu’il fallait se contenter d’à peu près si l’on voulait déchiffrer les inscriptions effacées qui couvraient ses quatre faces : l’une, en caractères grecs, ne laissait plus deviner qu’un commencement de mot : φωτογ ; celle au-dessous semblait être de l’allemand : 𝔤𝔯𝔞𝔭𝔥𝔦𝔢 ; une autre de l’italien fia ; enfin, la plus fraîche et française, celle-là : photographie, était évidemment la traduction de toutes les autres, indiquant ainsi, comme une feuille de route, les divers pays par lesquels la pauvre guimbarde avait roulé avant d’entrer en France et d’arriver enfin aux portes de Paris.",
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "source": "https://fr.wikisource.org/wiki/En_famille/Chapitre_I",
+          "sha256": "c2d556bb1401d6b84c3b8bb0e6578f15a85d09ddf6ada92fcc49e2ec53865b4a"
+        },
+        {
+          "id": "malot-en-famille-p02",
+          "text": "Comme tout cela était curieux, nouveau, et elle s’y intéressait si bien, que le temps passait, sans qu’elle en eût conscience.\n\nDéjà un gamin d’une douzaine d’années qui avait tout \nl’air d’un clown, et appartenait sûrement à une caravane de forains dont les roulottes avaient pris la queue, tournait autour d’elle depuis dix longues minutes, sans qu’elle eût fait attention à lui, lorsqu’il se décida à l’interpeller :\n\n« V’là un bel âne ! »\n\nElle ne dit rien.\n\n« Est-ce que c’est un âne de notre pays ? Ça m’étonnerait joliment. »\n\nElle l’avait regardé, et voyant qu’après tout il avait l’air bon garçon, elle voulut bien répondre :\n\n« Il vient de Grèce.\n\n— De Grèce !\n\n— C’est pour cela qu’il s’appelle Palikare.\n\n— Ah ! c’est pour cela ! »\n\nMais malgré son sourire entendu, il n’était pas du tout certain qu’il eût très bien compris pourquoi un âne qui venait de Grèce pouvait s’appeler Palikare.",
+          "startParagraph": 34,
+          "endParagraph": 44,
+          "source": "https://fr.wikisource.org/wiki/En_famille/Chapitre_I",
+          "sha256": "1d5c6b3e043871a9c8b2b78fef0286ce410944fdbb428769840522baa11cdef1"
+        },
+        {
+          "id": "malot-en-famille-p03",
+          "text": "— Eh bien, c’est là. »\n\nIl étendit le bras devant lui dans la direction du nord.\n\n« Une fois que vous avez passé la barrière, vous tournez tout de suite à droite, et vous suivez le boulevard le long des fortifications pendant une petite demi-heure ; quand vous avez traversé le cours de Vincennes, qui est une large avenue, vous prenez sur la gauche et vous demandez ; tout le monde connaît le Champ Guillot.\n\n— Je vous remercie ; je vais en parler à maman ; et même, si vous vouliez rester auprès de Palikare deux minutes, je lui en parlerais tout de suite.\n\n— Je veux bien ; je vas lui demander de m’apprendre \nle grec.\n\n— Empêchez-le, je vous prie, de prendre du foin. »\n\nPerrine entra dans la voiture et répéta à sa mère, ce que le jeune clown venait de lui dire.\n\n« S’il en est ainsi il n’y a pas à hésiter, il faut aller à Charonne ; mais trouveras-tu ton chemin ? Pense que nous serons dans Paris.\n\n— Il paraît que c’est très facile. »",
+          "startParagraph": 80,
+          "endParagraph": 88,
+          "source": "https://fr.wikisource.org/wiki/En_famille/Chapitre_I",
+          "sha256": "01e05578b659a9e0b171c3469b22315ea3835332c07efeb6cfdb73d0484c66a1"
+        }
+      ],
+      "text": "Comme cela arrive souvent le samedi vers trois heures, les abords de la porte de Bercy étaient encombrés, et sur le quai, en quatre files, les voitures s’entassaient à la queue leu leu : haquets chargés de fûts, tombereaux de charbon ou de matériaux, \ncharrettes de foin ou de paille, qui tous, sous un \nclair et chaud soleil de juin, attendaient la visite de l’octroi, pressés d’entrer dans Paris à la veille du dimanche.\n\nParmi ces voitures, et assez loin de la barrière, on en voyait une d’aspect bizarre avec quelque chose de misérablement comique, sorte de roulotte de forains mais plus simple encore, formée d’un léger châssis tendu d’une grosse toile, avec un toit en carton bitumé, le tout porté sur quatre roues basses.\n\nAutrefois la toile avait dû être bleue, mais elle était si déteinte, salie, usée, qu’on ne pouvait s’en tenir qu’à des probabilités à cet égard, de même qu’il fallait se contenter d’à peu près si l’on voulait déchiffrer les inscriptions effacées qui couvraient ses quatre faces : l’une, en caractères grecs, ne laissait plus deviner qu’un commencement de mot : φωτογ ; celle au-dessous semblait être de l’allemand : 𝔤𝔯𝔞𝔭𝔥𝔦𝔢 ; une autre de l’italien fia ; enfin, la plus fraîche et française, celle-là : photographie, était évidemment la traduction de toutes les autres, indiquant ainsi, comme une feuille de route, les divers pays par lesquels la pauvre guimbarde avait roulé avant d’entrer en France et d’arriver enfin aux portes de Paris."
+    },
+    {
+      "id": "aulnoy-chatte",
+      "title": "La Chatte blanche",
+      "author": "Marie-Catherine d’Aulnoy",
+      "audience": "child",
+      "year": "1698",
+      "tags": [
+        "conte",
+        "magie",
+        "animaux"
+      ],
+      "genre": "conte",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Chatte_blanche",
+      "edition": "Livre:Aulnoy - Contes des Fées (éd. Corbet), 1825.djvu",
+      "editionYear": 1825,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Aulnoy_-_Contes_des_F%C3%A9es_(%C3%A9d._Corbet),_1825.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1705,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Marie-Catherine_d%E2%80%99Aulnoy",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "13174098",
+      "sourceHtmlSha256": "507b59c56c416d3f640e403af2cda4fa9fb9feff47a96cd6cfff89180ea1ac73",
+      "passages": [
+        {
+          "id": "aulnoy-chatte-p01",
+          "text": "Il était une fois un roi qui avait trois fils bien faits et courageux ; il eut peur que l’envie\nde régner ne leur prit avant sa mort ; il\ncourait même certains bruits qu’ils cherchaient\nà s’acquérir des créatures et que c’était pour\nlui ôter son royaume. Le roi se sentait vieux ;\nmais son esprit et sa capacité n’ayant point diminué,\nil n’avait pas envie de leur céder une\nplace qu’il remplissait dignement ; il pensa donc\nque le meilleur moyen de vivre en repos, c’était\nde les amuser par des promesses dont il\nsaurait toujours éluder l’effet.",
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Chatte_blanche",
+          "sha256": "228425dff2339a4a86febd41436a975399d1d74209887b8f9b09e6233e5c40bb"
+        },
+        {
+          "id": "aulnoy-chatte-p02",
+          "text": "Le prince ne savait pour qui ces deux couverts\nétaient mis, lorsqu’il vit des chats qui se\nplacèrent dans un petit orchestre ménagé exprès :\nl’un tenait un livre avec des notes les\nplus extraordinaires du monde ; l’autre, un \nrouleau de papier dont il battait la mesure et les autres avaient de petites guitares. Tout\nd’un coup chacun d’eux se mit à miauler sur\ndifférens tons, et à gratter les cordes des guitares \navec leurs ongles ; c’était la plus étrange\nmusique que l’on ait jamais entendue. Le prince\nse serait cru en enfer, s’il n’avait pas trouvé ce\npalais trop merveilleux pour donner dans une\npensée si peu vraisemblable ; mais il se bouchait\nles oreilles, et riait de toute sa force, de voir\nles différentes postures et les grimaces de ces\nnouveaux musiciens.\n\nIl rêvait aux différentes choses qui lui étaient\ndéjà arrivées dans ce château, lorsqu’il vit entrer \nune petite figure qui n’avait pas une coudée\nde haut. Cette bamboche se couvrait d’un long\nvoile d’un crêpe noir. Deux chats la menaient ;\nils étaient vêtus de deuil, en manteau, et l’épée\nau côté ; un nombreux cortége de chats venaient \naprès ; les uns portaient des ratières\npleines de rats, et les autres des souris dans des\ncages.",
+          "startParagraph": 14,
+          "endParagraph": 15,
+          "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Chatte_blanche",
+          "sha256": "ddb523e5fe7c262c02de37b8f99dbbf9ee91f3dfcd98e769317e713e8cb7e19b"
+        },
+        {
+          "id": "aulnoy-chatte-p03",
+          "text": "Les mains parurent, elles portaient des\nflambeaux, et le prince les suivant avec Chatte\nBlanche, entra dans une magnifique galerie qui\nrégnait le long d’une grande rivière, sur laquelle \non tira un feu d’artifice surprenant. L’on\nу devait brûler quatre chats, dont le procès était\nfait dans toutes les formes. Ils étaient accusés\nd’avoir mangé le rôti du souper de la Chatte\nBlanche, son fromage, son lait, d’avoir même\nconspiré contre sa personne avec Martafax et\nl’Ermite, fameux rats de la contrée, et tenus\npour tels par La Fontaine, auteur très-véritable ;\nmais avec tout cela l’on savait qu’il y avait\nbeaucoup de cabale dans cette affaire, et que\nla plupart des témoins étaient subornés. Quoi\nqu’il en soit, le prince obtint leur grâce. Le\nfeu d’artifice ne fit mal à personne, et l’on n’a\nencore jamais vu de si belles fusées.",
+          "startParagraph": 32,
+          "endParagraph": 32,
+          "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Chatte_blanche",
+          "sha256": "f7117877d0d6751bd50c29d8816ed54393ab19860e480f804faaf25f43f958ef"
+        }
+      ],
+      "text": "Il était une fois un roi qui avait trois fils bien faits et courageux ; il eut peur que l’envie\nde régner ne leur prit avant sa mort ; il\ncourait même certains bruits qu’ils cherchaient\nà s’acquérir des créatures et que c’était pour\nlui ôter son royaume. Le roi se sentait vieux ;\nmais son esprit et sa capacité n’ayant point diminué,\nil n’avait pas envie de leur céder une\nplace qu’il remplissait dignement ; il pensa donc\nque le meilleur moyen de vivre en repos, c’était\nde les amuser par des promesses dont il\nsaurait toujours éluder l’effet."
+    },
+    {
+      "id": "nodier-feves",
+      "title": "Trésor des Fèves et Fleur des Pois",
+      "author": "Charles Nodier",
+      "audience": "child",
+      "year": "1833",
+      "tags": [
+        "conte",
+        "magie",
+        "entraide"
+      ],
+      "genre": "conte",
+      "source": "https://fr.wikisource.org/wiki/Tr%C3%A9sor_des_F%C3%A8ves_et_Fleur_des_Pois",
+      "edition": "Livre:Nodier - Trésor-des-Fèves et Fleur-des-Pois, 1894.djvu",
+      "editionYear": 1894,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:Nodier_-_Tr%C3%A9sor-des-F%C3%A8ves_et_Fleur-des-Pois,_1894.djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1844,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Charles_Nodier",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "11814178",
+      "sourceHtmlSha256": "4bb3ba7cacc66a3b4e4e49106bc3394515dd9411c51f8a5e8061d439e5d51632",
+      "passages": [
+        {
+          "id": "nodier-feves-p01",
+          "text": "Le hibou s'abattit dessus, le saisit des serres et du bec, et d'un tire-d'aile il l'emporta sur son arbre.\n\n− Oh ! que vous partez donc vite ! reprit Trésor des Fèves. Oserais−je vous demander, monsieur du hibou, si je suis encore loin du monde où ma mère m'envoie ?\n\n− Vous y entrez, mon ami, dit le hibou ; et il alla se percher ailleurs.\n\nTrésor des Fèves se remit donc en chemin, allégé d'un de ses litrons, et comme sûr qu'il ne tarderait pas d'arriver ;\nmais il n'avait pas fait cent pas qu'il s'entendit appeler encore.\n\n− Béé−é, béé−é, béé−é, bekki ! arrêtez ci, monsieur Trésor des Fèves, on vous en prie.\n\n− Je crois connaître cette voix, dit Trésor des Fèves en se retournant. Eh ! oui, vraiment, c'est cette mièvre effrontée de chevrette de montagne, qui rôdait toujours avec ses six petits autour de mon champ pour me rafler quelque bonne lippée. Vous voilà donc, madame la maraudeuse !",
+          "startParagraph": 22,
+          "endParagraph": 27,
+          "source": "https://fr.wikisource.org/wiki/Tr%C3%A9sor_des_F%C3%A8ves_et_Fleur_des_Pois",
+          "sha256": "e2b9e748197f289584367901740ab08faa12bdd1887f2e016d0e446c9a09cf2b"
+        },
+        {
+          "id": "nodier-feves-p02",
+          "text": "− Eh ! vraiment, Madame, je n'ai point coutume de regarder à ce qu'il m'en coûtera pour obliger ! Vous pouvez\ndisposer de ma fortune et de mon bien, continua−t−il, à l'exception de ces trois litrons de fèves que je porte pendus à mon bâton, parce qu'ils ne m'appartiennent pas, mais à mon père et à ma mère, et que j'ai donné tout à l'heure ceux qui étaient miens à un vénérable hibou, à un saint homme de loup qui prêche comme un ermite, et à la plus intéressante des chevrettes de montagne. Il ne me reste pas une seule fève que j'aie licence de vous offrir.\n\n− Vous vous moquez ! reprit Fleur des Pois un peu piquée. Qui vous parle de vos fèves, seigneur ? Je n'ai que faire de vos fèves, grâce à Dieu ; et on ne sait ce que c'est dans mon office. Le service que je vous demande, c'est de mettre le doigt sur le bouton de ma calèche pour en relever la capote, sous laquelle je suis près d'étouffer.",
+          "startParagraph": 51,
+          "endParagraph": 52,
+          "source": "https://fr.wikisource.org/wiki/Tr%C3%A9sor_des_F%C3%A8ves_et_Fleur_des_Pois",
+          "sha256": "2042d2334b258a9cf80e45d84a508cb67afc0323d12e09f5716b0543e8330a34"
+        },
+        {
+          "id": "nodier-feves-p03",
+          "text": "− Bon ! repartit Fleur des Pois, sans avoir l'air de prendre garde à cette dernière partie du discours de Trésor des Fèves, qui tirait fort à conséquence ; bon ! ma calèche n'a ni cocher, ni brancards, ni attelage : elle marche à la vapeur, et il n'y a pas d'heure où elle ne fasse aisément cinquante mille lieues. Je te demande si tu seras en peine de retourner chez toi quand cela te conviendra. Il suffira que tu retiennes bien le geste et le mot dont je me servirai pour la mettre en route. − Le porte-manteau contient différents objets qui peuvent te servir en voyage, et qui t'appartiennent sans réserve. En l'ouvrant à la manière dont tu ouvrirais une gousse de pois verts, tu y trouveras trois écrins de la forme et de la juste grosseur d'un pois, suspendu chacun d'un fil léger qui les soutient dans leur étui comme des pois en cosse, de telle façon qu'il ne puisse se heurter dommageablement dans les déménagements et le transport : c'est un travail merveilleux. Ils céderont à la pression de ton doigt comme le soufflet de ma calèche, et tu n'auras plus qu'à en semer le contenu en terre dans un trou fait à la pointe de ta serfouette, pour voir poindre, trésir, éclore tout ce que tu auras souhaité. N'est−ce pas miracle, cela ? Retiens bien seulement que, le troisième épuisé, il ne me reste rien à t'offrir, car je n'ai à moi que trois pois verts, comme tu n'avais que trois litrons de fèves, et la plus belle fille du monde ne peut donner que ce qu'elle a. − Es−tu disposé à te mettre en route maintenant ?",
+          "startParagraph": 73,
+          "endParagraph": 73,
+          "source": "https://fr.wikisource.org/wiki/Tr%C3%A9sor_des_F%C3%A8ves_et_Fleur_des_Pois",
+          "sha256": "0c5eaa112d1433cbc2ef6683724599adafca4555d04a69540945c2dc307f5c82"
+        }
+      ],
+      "text": "Le hibou s'abattit dessus, le saisit des serres et du bec, et d'un tire-d'aile il l'emporta sur son arbre.\n\n− Oh ! que vous partez donc vite ! reprit Trésor des Fèves. Oserais−je vous demander, monsieur du hibou, si je suis encore loin du monde où ma mère m'envoie ?\n\n− Vous y entrez, mon ami, dit le hibou ; et il alla se percher ailleurs.\n\nTrésor des Fèves se remit donc en chemin, allégé d'un de ses litrons, et comme sûr qu'il ne tarderait pas d'arriver ;\nmais il n'avait pas fait cent pas qu'il s'entendit appeler encore.\n\n− Béé−é, béé−é, béé−é, bekki ! arrêtez ci, monsieur Trésor des Fèves, on vous en prie.\n\n− Je crois connaître cette voix, dit Trésor des Fèves en se retournant. Eh ! oui, vraiment, c'est cette mièvre effrontée de chevrette de montagne, qui rôdait toujours avec ses six petits autour de mon champ pour me rafler quelque bonne lippée. Vous voilà donc, madame la maraudeuse !"
+    },
+    {
+      "id": "moreau-souliers",
+      "title": "Les Petits Souliers",
+      "author": "Hégésippe Moreau",
+      "audience": "child",
+      "year": "1836",
+      "tags": [
+        "conte",
+        "mer",
+        "amitié"
+      ],
+      "genre": "conte",
+      "source": "https://fr.wikisource.org/wiki/Les_Petits_Souliers_(Moreau)",
+      "edition": "Livre:Œuvres de Hégésippe Moreau (Garnier, 1864).djvu",
+      "editionYear": 1864,
+      "editionSource": "https://fr.wikisource.org/wiki/Livre:%C5%92uvres_de_H%C3%A9g%C3%A9sippe_Moreau_(Garnier,_1864).djvu",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1838,
+        "basis": "Texte français original ; auteur décédé depuis plus de 70 ans ; édition historique numérisée antérieure à 1930. Texte de l’auteur uniquement, sans préface ni illustrations.",
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:H%C3%A9g%C3%A9sippe_Moreau",
+        "verifiedAt": "2026-10-04"
+      },
+      "sourceRevision": "14757658",
+      "sourceHtmlSha256": "1d84eefeb537f5ee0f331b239294c2dd2bae90f50ee27f3b7dd10e7d104ff5d8",
+      "passages": [
+        {
+          "id": "moreau-souliers-p01",
+          "text": "Mais il est un âge où toutes les douleurs passent légères et fugitives, où la mélancolie du soir sèche au matin comme la rosée ; et Marie-Rose avait cet âge. Le lendemain, elle  dansait encore ; les jours, les semaines s’écoulèrent sans user cette gaieté pétulante ; mais il n’en fut pas de même de ses petits souliers. Le dernier bond d’une farandole en emporta les derniers lambeaux. Par malheur, la garde-robe de ces dames était légère ; elles allaient à Paris, et avaient cru devoir, pour la remonter, attendre les conseils de la Mode dans son empire. Bientôt Marie-Rose fut réduite à s’asseoir immobile à côté de sa tante, cachant ses pieds nus sous sa robe, remuant la tête et le corps dans un besoin fébrile du mouvement, mais n’osant risquer un pas, semblable à cette Daphné des Tuileries dont le buste est vivant encore quand ses pieds ont déjà pris racine. La petite reine pleurait là, captive comme dans une tour enchantée, en attendant qu’un chevalier, passant, la délivrât.",
+          "startParagraph": 16,
+          "endParagraph": 16,
+          "source": "https://fr.wikisource.org/wiki/Les_Petits_Souliers_(Moreau)",
+          "sha256": "643b7ba952a35537c1e5380fba7e38da7b9c3a236011cc1f1c70025a7f1ed79f"
+        },
+        {
+          "id": "moreau-souliers-p02",
+          "text": "Enfin, après une longue traversée, la vigie cria : Terre ! Et ce fut, je vous assure, une scène vraiment touchante que celle du matelot et de la jeune créole. « Je penserai toujours à vous, et je garderai vos souliers comme un souvenir, comme une relique, disait Marie-Rose pour consoler Pierre Hello, qui passait sur ses yeux humides le revers de sa main calleuse. — Oh !  répondait-il en secouant la tête, vous allez à Paris, où de nouveaux amis vous feront perdre le souvenir du pauvre Hello qui ne vous occupera guère. — Toujours ! » répéta-t-elle, entraînée par sa tante. Il la suivit longtemps des yeux : elle se retourna souvent, et il ne pouvait déjà plus l’entendre qu’elle répétait encore en agitant son mouchoir : « Toujours, Hello, toujours ! »",
+          "startParagraph": 19,
+          "endParagraph": 19,
+          "source": "https://fr.wikisource.org/wiki/Les_Petits_Souliers_(Moreau)",
+          "sha256": "b534a10a425ac7a92bacce94dddc4fcc15bfdb4c094a5d31b2f809516871d216"
+        },
+        {
+          "id": "moreau-souliers-p03",
+          "text": "Et, précédant le jeune et fol essaim, elle entra dans sa garde-robe. Toutes les jeunes filles ouvrirent alors des yeux émerveillés, comme le fils du bûcheron descendu pour la première fois dans la caverne d’Ali-Baba. Il y avait là des gazes si légères, qu’elles se fussent envolées comme les fils de la Vierge, n’eût été le poids des pierreries qui les bordaient ; il y avait là des mantilles espagnoles, des mezzaros italiens, des peignoirs d’odalisques, tout imprégnés encore des parfums du harem et de la poudre d’Aboukir, et enfin, des robes de madone si belles, que la Vierge de Lorette elle-même ne les eût mises autrefois que le jour de l’Assomption.\n\n« Prenez, enfants, dit la bonne impératrice, et amusez-vous bien. Je vous abandonne toutes ces belles choses qui vous font ouvrir de si grands yeux, toutes, hormis une seule, car celle-là m’est trop précieuse et trop sacrée pour qu’on y touche. »\n\nPuis, voyant à ces mots la curiosité étincelante sous toutes les paupières : « Je puis cependant vous faire voir ce trésor », ajouta-t-elle.\n\nJe vous laisse à penser, ma sœur, si l’imagination, cette folle du logis, qui en est la maîtresse à quinze ans, prit ses ébats dans toutes ces têtes enfantines.\n\nQu’était-ce donc que cette merveille qu’il était défendu de toucher quand on froissait à loisir tant de merveilles ?\n\nUne robe couleur du temps, de la lune ou du soleil, comme dans Peau d’Ane ? Cet œuf d’oiseau qui, suivant les contes arabes, est un diamant et peut rendre invisible ? Un éventail fait avec les ailes d’un génie de l’Alhambra ? Le voile d’une fée, ou bien quelque ouvrage plus précieux encore commandé par l’empereur à l’un de ses démons familiers, le petit homme rouge ou le petit homme vert ?  Qu’était-ce donc ?",
+          "startParagraph": 31,
+          "endParagraph": 36,
+          "source": "https://fr.wikisource.org/wiki/Les_Petits_Souliers_(Moreau)",
+          "sha256": "6be1f59de522674040a06bec2708b270f009bc32f9610e5e66cd3e553ba6cc32"
+        }
+      ],
+      "text": "Mais il est un âge où toutes les douleurs passent légères et fugitives, où la mélancolie du soir sèche au matin comme la rosée ; et Marie-Rose avait cet âge. Le lendemain, elle  dansait encore ; les jours, les semaines s’écoulèrent sans user cette gaieté pétulante ; mais il n’en fut pas de même de ses petits souliers. Le dernier bond d’une farandole en emporta les derniers lambeaux. Par malheur, la garde-robe de ces dames était légère ; elles allaient à Paris, et avaient cru devoir, pour la remonter, attendre les conseils de la Mode dans son empire. Bientôt Marie-Rose fut réduite à s’asseoir immobile à côté de sa tante, cachant ses pieds nus sous sa robe, remuant la tête et le corps dans un besoin fébrile du mouvement, mais n’osant risquer un pas, semblable à cette Daphné des Tuileries dont le buste est vivant encore quand ses pieds ont déjà pris racine. La petite reine pleurait là, captive comme dans une tour enchantée, en attendant qu’un chevalier, passant, la délivrât."
     }
   ]
 }

@@ -78,3 +78,30 @@ Adultes : Madame Bovary et Salammbô (Flaubert, 1910), La Petite Fadette (Sand, 
 Textes français originaux ; auteurs décédés en 1874, 1905, 1880 et 1876, dates contrôlées sur leurs pages Wikisource. Éditions historiques et scans référencés. Pas de préfaces ni illustrations importées. Empreintes et coordonnées des paragraphes conservées.
 Catalogue local : 50 titres, 25 par public ; 114 extraits éditoriaux vérifiés, 57 par public. Les 12 titres historiques et leurs 32 fenêtres ne sont toujours pas comptés comme nouveaux extraits validés.
 Objectif restant : 150 œuvres supplémentaires, audit des 12 historiques et 486 passages validés pour atteindre 200/600. Cible non atteinte. Tests catalogue/API/rotation/build Android ; vérification de production après commit.
+
+## Lot équilibré de 12 œuvres — 4 octobre 2026, après intégration des voix adultes
+
+Base main inspectée avant écriture : a772c3efbd6ffaff5ac2e8eeeac2f264945e5ee8.
+12 nouvelles œuvres françaises originales, six par public ; 36 passages éditoriaux relus, complets et disjoints, de 545 à 1 741 caractères, espaces compris.
+Éditions Wikisource et fac-similés : 1825–1911. Décès vérifiés sur les pages auteurs : 1705–1937. Aucun traducteur, préfacier ou illustrateur moderne importé. Les métadonnées, révisions, empreintes et coordonnées des paragraphes sont conservées dans le catalogue et le lot.
+Les sélections jeunesse ont été relues : les paragraphes retenus privilégient magie, aventure, entraide et amitié ; les sélections automatiques inadéquates ont été remplacées par d'autres paragraphes authentiques entiers.
+
+Catalogue après intégration : 62 titres actifs (31 Adultes, 31 Enfants), dont 50 œuvres auditées et 150 extraits éditoriaux vérifiés (75 par public). Les 12 titres historiques et leurs 32 fenêtres chevauchantes sont préservés et restent exclus du compteur des extraits éditoriaux vérifiés. Total technique attendu : 182 entrées lecteur, 89 Adultes et 93 Enfants.
+Objectif restant : 138 titres supplémentaires et audit des 12 historiques ; 450 passages éditoriaux validés manquent pour atteindre 600. Aucun fichier de pistes n'est compté.
+Les passages sont effectivement intégrés au JSON actif, à WORKS/PASSAGES et à l'API ; les 72 nouveaux enregistrements des deux voix sont générés à la construction de l'image, avec réutilisation vérifiée des 292 existants. Interface, rotation quotidienne et données utilisateur inchangées.
+Validation locale : 15 tests Node (catalogue, API HTTP, rotation, identifiants historiques, plafond et intégration Android/audio) et les deux tests Python (paragraphes et cache audio) réussis. Contrôle production à compléter après le déploiement.
+
+| Œuvre | Auteur | Public | Édition | Passages |
+|---|---|---|---:|---:|
+| Colomba | Prosper Mérimée | Adultes | 1845 | 3 |
+| Eugénie Grandet | Honoré de Balzac | Adultes | 1855 | 3 |
+| Thérèse Raquin | Émile Zola | Adultes | 1868 | 3 |
+| Le Dernier Jour d’un condamné | Victor Hugo | Adultes | 1910 | 3 |
+| Marie-Claire | Marguerite Audoux | Adultes | 1911 | 3 |
+| Le Crime de Sylvestre Bonnard | Anatole France | Adultes | 1896 | 3 |
+| Nouveaux Contes de fées | Comtesse de Ségur | Enfants | 1896 | 3 |
+| Deux Ans de vacances | Jules Verne | Enfants | 1909 | 3 |
+| En famille | Hector Malot | Enfants | 1893 | 3 |
+| La Chatte blanche | Marie-Catherine d’Aulnoy | Enfants | 1825 | 3 |
+| Trésor des Fèves et Fleur des Pois | Charles Nodier | Enfants | 1894 | 3 |
+| Les Petits Souliers | Hégésippe Moreau | Enfants | 1864 | 3 |

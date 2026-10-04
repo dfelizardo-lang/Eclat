@@ -105,3 +105,5 @@ Validation locale : 15 tests Node (catalogue, API HTTP, rotation, identifiants h
 | La Chatte blanche | Marie-Catherine d’Aulnoy | Enfants | 1825 | 3 |
 | Trésor des Fèves et Fleur des Pois | Charles Nodier | Enfants | 1894 | 3 |
 | Les Petits Souliers | Hégésippe Moreau | Enfants | 1864 | 3 |
+
+Contrôle de production du 4 octobre 2026 : déploiement f9d53f98-0757-4177-8327-2c955cb3da5a, commit 9f0889b6fb9459c7de3eff296de5404f6ddbaf23, SUCCESS. Le catalogue public est strictement identique au JSON intégré ; le HTML et le bundle réellement servis chargent 62 œuvres et 182 entrées lecteur, dont 150 extraits éditoriaux vérifiés (75 par public). Les 36 nouveaux endpoints /api/passages/:id restituent exactement les textes et empreintes attendus. Le manifeste audio correspond aux 182 entrées actives ; les 364 fichiers MP3 ont été contrôlés par taille, SHA-256 et durée décodable. Les 292 enregistrements antérieurs gardent leur empreinte ; 72 nouveaux audios ont été ajoutés. Aucun blocage technique constaté pour ce lot. Les 12 titres historiques restent à auditer ; objectif 200 titres / 600 extraits non atteint.

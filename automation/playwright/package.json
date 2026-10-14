@@ -1,0 +1,10 @@
+{
+  "name": "eclat-playwright",
+  "private": true,
+  "scripts": {
+    "test": "playwright test tests/accueil.spec.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  }
+}

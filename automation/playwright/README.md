@@ -1,4 +1,10 @@
-# Premier test Playwright Éclat
+# Tests Playwright Éclat
+
+La suite répertorie 96 cas Squash. Une référence listée ne signifie pas que le
+test est codé ou réussi. Voir [COVERAGE.md](COVERAGE.md) pour les scénarios codés,
+précontrôles partiels et cas non implémentés, puis [OPERATIONS.md](OPERATIONS.md)
+pour les commandes d’installation, d’exécution et de rattachement en masse.
+Les sections ci-dessous décrivent le test d’accueil initial et son accès Sites.
 
 Cas Squash : ECL-TC-001 Charger accueil.
 Technologie : Playwright.

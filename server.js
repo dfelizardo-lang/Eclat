@@ -107,5 +107,6 @@ const V1_PATCH = `<style>#eclat-version-v1{position:fixed;right:12px;bottom:8px;
 function sendApp(req,res){fs.readFile(V73,"utf8",(err,html)=>{if(err)return res.status(500).send("Éclat indisponible");html=html.replace(/<\/head>/i,'<link rel="stylesheet" href="/accessible-contrast.css"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#fff5df"></head>');const patch='<script src="/comfort.js"></script>'+V1_PATCH+'<script src="/daily-themes-client.js"></script><script src="/library-loans-client.js"></script>';const at=html.toLowerCase().lastIndexOf("</body>");res.type("html").send(at>=0?html.slice(0,at)+patch+html.slice(at):html+patch);});}
 // Keep the existing .html links canonical and preserve query strings.
 app.get(['/emprunts','/emprunts-enfants','/migration','/narration-credits'],(req,res)=>res.redirect(308,req.path.replace(/\/$/,'')+'.html'+req.url.slice(req.path.length)));
-app.get('/index.html',(req,res)=>res.redirect(308,'/'+req.url.slice(req.path.length)));
+app.get(/^\/(emprunts|emprunts-enfants|migration|narration-credits)\.html\/$/,(req,res)=>res.redirect(308,req.path.slice(0,-1)+req.url.slice(req.path.length)));
+app.get(['/index.html','/index.html/'],(req,res)=>res.redirect(308,'/'+req.url.slice(req.path.length)));
 app.get('/',sendApp); app.use(express.static(__dirname,{index:false})); app.use((req,res,next)=>{if(req.method==="GET"&&req.accepts("html"))return sendApp(req,res);next();}); app.listen(PORT,()=>console.log(`Éclat v1.0 disponible sur http://localhost:${PORT}`));

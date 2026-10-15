@@ -2099,7 +2099,7 @@ function updateSavedUI(){
 function directPassage(p,label){
  if(!p)return;stopReading();rememberPassages([p]);document.getElementById("workExhausted")?.remove();window.eclatCurrentPassage=p;syncSaveButtonForPassage(p);const acts=document.getElementById("readerDiscovery");if(acts){acts.style.pointerEvents="auto";acts.removeAttribute("aria-hidden")}const w=WORKS.find(x=>x.title===p.workTitle&&x.author===p.author)||WORKS.find(x=>x.title===p.workTitle);
  const t=document.getElementById("readerTitle"),a=document.getElementById("readerAuthor"),tx=document.getElementById("readerText"),src=document.getElementById("readerSource"),ov=document.getElementById("readerOverlay");
- if(t)t.textContent=label;if(a)a.textContent=[p.author,p.workTitle,w?.year||p.year].filter(Boolean).join(" · ");if(tx)tx.innerHTML=p.text.split(/\n\n+/).map(x=>`<p>${x.replace(/\n/g,"<br>")}</p>`).join("");if(src)src.href=p.source||w?.source||"#";if(ov){ov.classList.add("open");ov.setAttribute("aria-hidden","false");document.body.style.overflow="hidden"}updateSavedUI();
+ if(t)t.textContent=label;if(a)a.textContent=p.author||"";const work=document.getElementById("readerWork"),year=document.getElementById("readerYear");if(work)work.textContent=p.workTitle||"";if(year)year.textContent=w?.year||p.year||"";if(tx)tx.innerHTML=p.text.split(/\n\n+/).map(x=>`<p>${x.replace(/\n/g,"<br>")}</p>`).join("");if(src)src.href=p.source||w?.source||"#";if(ov){ov.classList.add("open");ov.setAttribute("aria-hidden","false");document.body.style.overflow="hidden"}updateSavedUI();
 
 document.getElementById("savedList")?.addEventListener("keydown",e=>{
  if(e.key!=="Enter"&&e.key!==" ")return;

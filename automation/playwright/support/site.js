@@ -27,6 +27,7 @@ async function go(page, path = "/") {
   });
   expect(response).not.toBeNull();
   expect(response.status()).toBe(200);
+  return response;
 }
 async function home(page, audience = "adult") {
   await go(page);

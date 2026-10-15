@@ -144,3 +144,7 @@ La vérification `scripts/link-workspace-runner.test.cjs` reproduit la commande 
 Le fournisseur attend `playwright-report/pw_junit_report.xml` sous le workspace. Lorsque ses variables `PLAYWRIGHT_HTML_REPORT` et `PLAYWRIGHT_JUNIT_OUTPUT_NAME` sont présentes, la configuration définit un chemin JUnit absolu correspondant. Les destinations `PLAYWRIGHT_JUNIT_OUTPUT_FILE` ou `PLAYWRIGHT_JUNIT_OUTPUT_DIR` explicitement fournies sont conservées. Un test d’intégration vérifie le fichier réellement écrit avec les reporters `html,junit` du fournisseur.
 
 La remontée JUnit gère aussi un nom contenant déjà `playwright-report/`, les variables HTML modernes et le lancement depuis le parent sans variables de rapport. Des essais réels sans navigateur vérifient les fichiers XML et HTML dans les quatre dispositions ; le chemin n’est pas préfixé deux fois.
+
+## Extension de couverture du 15 octobre
+
+Le rattachement sélectionne maintenant 81 scénarios codés, dont 23 nouveaux. Les cas mixtes et prérequis ne sont pas rattachés comme s’ils étaient intégralement automatisés. Les précontrôles mesurables d’accessibilité tournent avec le 085 ; le repli caméra avec le 054. Voir [REMAINING.md](REMAINING.md). Après mise à jour, séparer 035/088/090/093 et 092 de la suite standard pour les relances rapides.

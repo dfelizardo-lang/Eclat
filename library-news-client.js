@@ -17,7 +17,7 @@
   results.replaceChildren();savedList.replaceChildren();const snapshot=state.snapshot;
   if(state.url){const source=node('a','Ouvrir ma bibliothèque');source.href=safe(state.url);source.target='_blank';source.rel='noopener noreferrer';results.append(source);}
   for(const [kind,title] of [['book','Les nouveautés de votre bibliothèque'],['news','Les actualités']]){
-   const items=(snapshot?.items||[]).filter(i=>i.kind===kind && safe(i.url));results.append(node('h3',title));
+   const items=(snapshot?.items||[]).filter(i=>i.kind===kind && safe(i.url)).slice(0,kind==='book'?20:12);results.append(node('h3',title));
    if(!items.length){results.append(node('p',kind==='book'?'Aucune nouveauté de livre lisible sur cette page pour le moment.':'Aucune actualité lisible sur cette page pour le moment.','field-hint'));continue;}
    const grid=node('div',null,'library-news-grid');for(const item of items)grid.append(card(item));results.append(grid);
   }

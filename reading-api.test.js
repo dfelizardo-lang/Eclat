@@ -9,8 +9,10 @@ test('HTTP catalogue, passages and browser bundle agree',async()=>{
   for(const route of ['emprunts','emprunts-enfants','migration','narration-credits']){
    const redirect=await fetch(base+'/'+route+'?test=1',{redirect:'manual'});assert.equal(redirect.status,308);assert.equal(redirect.headers.get('location'),'/'+route+'.html?test=1');
    const slash=await fetch(base+'/'+route+'/?test=1',{redirect:'manual'});assert.equal(slash.headers.get('location'),'/'+route+'.html?test=1');
+   const htmlSlash=await fetch(base+'/'+route+'.html/?test=1',{redirect:'manual'});assert.equal(htmlSlash.status,308);assert.equal(htmlSlash.headers.get('location'),'/'+route+'.html?test=1');
    const page=await fetch(base+'/'+route);assert.equal(page.status,200);assert.equal(new URL(page.url).pathname,'/'+route+'.html');
   }
+for(const route of ['/index.html','/index.html/']){const redirect=await fetch(base+route+'?test=1',{redirect:'manual'});assert.equal(redirect.status,308);assert.equal(redirect.headers.get('location'),'/?test=1');}
 const c=await(await fetch(base+'/api/catalogue')).json();
   assert.equal(c.works.length,require('./reading-catalog').works.length);
   for(const w of c.works.filter(w=>!w.legacy))for(const p of w.passages){

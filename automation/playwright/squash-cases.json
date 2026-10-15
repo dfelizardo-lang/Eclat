@@ -10,7 +10,8 @@
     "file": "accueil.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#accueil.spec.js#ECL-TC-001",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 2,
@@ -18,12 +19,13 @@
     "name": "Liens internes",
     "squashId": 16,
     "uuid": "c6e4407b-be05-45aa-95df-b91f387d62cf",
-    "status": "partial",
-    "reason": "Page accessibilité reportée par décision produit ; routes existantes couvertes.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-002",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 3,
@@ -31,12 +33,13 @@
     "name": "URL directe",
     "squashId": 17,
     "uuid": "ccb8de17-ff98-499c-bc3a-0426ba7e5ab2",
-    "status": "partial",
-    "reason": "Page accessibilité reportée par décision produit ; routes existantes couvertes.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-003",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 4,
@@ -49,7 +52,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-004",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 5,
@@ -62,7 +66,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-005",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 6,
@@ -75,7 +80,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-006",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 7,
@@ -88,7 +94,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-007",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 8,
@@ -101,7 +108,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-008",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 9,
@@ -109,12 +117,13 @@
     "name": "Métadonnées lecteur",
     "squashId": 7,
     "uuid": "612b5625-dabe-4a66-8e39-bf249086926b",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-009",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 10,
@@ -122,12 +131,14 @@
     "name": "Authenticité extraits",
     "squashId": 8,
     "uuid": "502de9fb-790e-4bb3-9d09-b26c43f82f10",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Sources éditoriales et échantillon approuvé à fournir.",
+    "status": "partial",
+    "reason": "Comparaison automatique prête ; fournir ECLAT_EDITORIAL_REFERENCE avec textes, sources et approbation indépendants du catalogue.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-010",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Précontrôle codé ; ne constitue pas un succès intégral du cas.",
+    "suite": "Standard",
+    "automatedPrecheckVia": "ECL-TC-011 si ECLAT_EDITORIAL_REFERENCE est fourni"
   },
   {
     "number": 11,
@@ -135,12 +146,13 @@
     "name": "Intégrité corpus",
     "squashId": 9,
     "uuid": "f8120ec1-1b9c-46c8-a354-1226e4afe43b",
-    "status": "pending",
-    "reason": "Contrôle de données / API avec outillage complémentaire. Manifeste de référence versionné à fournir.",
+    "status": "implemented",
+    "reason": "Intégrité par manifeste technique versionné de 182 passages ; authenticité éditoriale traitée séparément par ECL-TC-010.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-011",
     "mode": "Contrôle de données / API avec outillage complémentaire",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 12,
@@ -153,7 +165,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-012",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 13,
@@ -166,7 +179,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-013",
     "mode": "Playwright",
-    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise."
+    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise.",
+    "suite": "Standard"
   },
   {
     "number": 14,
@@ -179,7 +193,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-014",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 15,
@@ -192,7 +207,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-015",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 16,
@@ -205,7 +221,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-016",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 17,
@@ -213,12 +230,13 @@
     "name": "Qualité écoute",
     "squashId": 99,
     "uuid": "d350142f-863b-42a4-bab1-038a7f46d765",
-    "status": "pending",
-    "reason": "Vérification humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "manual",
+    "reason": "Écoute humaine : intelligibilité, prononciation et concordance avec les transcriptions approuvées.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-017",
     "mode": "Vérification humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Intervention humaine requise.",
+    "suite": "Standard"
   },
   {
     "number": 18,
@@ -231,7 +249,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-018",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 19,
@@ -239,12 +258,13 @@
     "name": "Pause et reprise",
     "squashId": 101,
     "uuid": "f50b28b1-09ce-401f-a1f2-0f32eff09141",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-019",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 20,
@@ -257,7 +277,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-020",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 21,
@@ -270,7 +291,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-021",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 22,
@@ -283,7 +305,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-022",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 23,
@@ -296,7 +319,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-023",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 24,
@@ -309,7 +333,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-024",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 25,
@@ -322,7 +347,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-025",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise.",
+    "suite": "Standard"
   },
   {
     "number": 26,
@@ -330,12 +356,13 @@
     "name": "Interrompre continu",
     "squashId": 108,
     "uuid": "540fb4fc-6eac-4b76-a8aa-6342fc1007ed",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-026",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 27,
@@ -348,7 +375,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-027",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 28,
@@ -361,7 +389,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-028",
     "mode": "Playwright",
-    "validation": "Choix B validé : enchaînement naturel puis arrêt explicite ; à exécuter sur Ubuntu."
+    "validation": "Choix B validé : enchaînement naturel puis arrêt explicite ; à exécuter sur Ubuntu.",
+    "suite": "Standard"
   },
   {
     "number": 29,
@@ -374,7 +403,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-029",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise.",
+    "suite": "Standard"
   },
   {
     "number": 30,
@@ -387,7 +417,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-030",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 31,
@@ -395,12 +426,13 @@
     "name": "Réseau interrompu",
     "squashId": 113,
     "uuid": "12c6a453-bc41-4242-a998-eb00b2d24efc",
-    "status": "pending",
-    "reason": "Playwright. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-031",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 32,
@@ -413,7 +445,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-032",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 33,
@@ -426,7 +459,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-033",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 34,
@@ -439,7 +473,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-034",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 35,
@@ -447,12 +482,13 @@
     "name": "Taille 200 pour cent",
     "squashId": 29,
     "uuid": "8e6a9e80-5dce-4583-b968-a8ffee39cd76",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-035",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "F12 approfondi"
   },
   {
     "number": 36,
@@ -465,7 +501,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-036",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 37,
@@ -478,7 +515,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-037",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 38,
@@ -486,12 +524,14 @@
     "name": "Modes contraste",
     "squashId": 32,
     "uuid": "c0c9fb3a-eda2-4001-bb62-55fe21fec58e",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Référentiel et seuils applicables à fournir.",
+    "status": "partial",
+    "reason": "Mesures axe des contrastes codées ; revue humaine des images, superpositions, focus et résultats incomplets nécessaire.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-038",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Précontrôle codé ; ne constitue pas un succès intégral du cas.",
+    "suite": "Standard",
+    "automatedPrecheckVia": "ECL-TC-085"
   },
   {
     "number": 39,
@@ -504,7 +544,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-039",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec"
+    "validation": "Premier essai Ubuntu : Échec",
+    "suite": "Standard"
   },
   {
     "number": 40,
@@ -512,12 +553,13 @@
     "name": "Animations réduites",
     "squashId": 34,
     "uuid": "bb7b9a72-e69f-4212-9cb8-6e57158ce564",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-040",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 41,
@@ -525,12 +567,13 @@
     "name": "Synthèse page",
     "squashId": 35,
     "uuid": "2003dce6-8902-4ef9-9a7e-74132b49d0e8",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-041",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 42,
@@ -543,7 +586,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-042",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 43,
@@ -556,7 +600,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-043",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 44,
@@ -569,7 +614,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-044",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise.",
+    "suite": "Standard"
   },
   {
     "number": 45,
@@ -582,7 +628,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-045",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 46,
@@ -595,7 +642,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-046",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise.",
+    "suite": "Standard"
   },
   {
     "number": 47,
@@ -608,7 +656,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-047",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 48,
@@ -616,12 +665,13 @@
     "name": "Permissions",
     "squashId": 23,
     "uuid": "6c2b0c08-321a-4934-b06f-cc2c92678f21",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-048",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 49,
@@ -634,7 +684,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-049",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 50,
@@ -647,7 +698,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-050",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec"
+    "validation": "Premier essai Ubuntu : Échec",
+    "suite": "Standard"
   },
   {
     "number": 51,
@@ -660,7 +712,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-051",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise.",
+    "suite": "Standard"
   },
   {
     "number": 52,
@@ -673,7 +726,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-052",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 53,
@@ -686,7 +740,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-053",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 54,
@@ -699,7 +754,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-054",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 55,
@@ -712,7 +768,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-055",
     "mode": "Playwright",
-    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise."
+    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise.",
+    "suite": "Standard"
   },
   {
     "number": 56,
@@ -720,12 +777,14 @@
     "name": "Caméra mobile",
     "squashId": 54,
     "uuid": "22ff1255-1202-426a-8116-c11afc37c78b",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "partial",
+    "reason": "Sélecteur capture, annulation et repli galerie codés ; permission et prise de photo natives nécessitent un appareil Android et son pilote.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-056",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Précontrôle codé ; ne constitue pas un succès intégral du cas.",
+    "suite": "Standard",
+    "automatedPrecheckVia": "ECL-TC-054"
   },
   {
     "number": 57,
@@ -738,7 +797,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-057",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 58,
@@ -746,12 +806,13 @@
     "name": "Notice rappel",
     "squashId": 49,
     "uuid": "b37e5960-0d34-4652-a83e-8f3bd16c7b14",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-058",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 59,
@@ -759,12 +820,13 @@
     "name": "Rappel réel",
     "squashId": 50,
     "uuid": "775eecbe-d5bf-483d-86ba-1fd34d3eba56",
-    "status": "pending",
-    "reason": "Vérification humaine. Compte Agenda de test et fenêtre d’observation à fournir.",
+    "status": "blocked",
+    "reason": "Compte Agenda de test, calendrier dédié et observation réelle de la notification attendus ; récurrence et création/suppression déjà contrôlées par tests API simulés.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-059",
     "mode": "Vérification humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Prérequis technique ou référence externe manquant.",
+    "suite": "Standard"
   },
   {
     "number": 60,
@@ -772,12 +834,13 @@
     "name": "Veille nominale",
     "squashId": 24,
     "uuid": "6c0dd246-3673-4779-b3c1-99aa526a2e6e",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-060",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 61,
@@ -785,12 +848,13 @@
     "name": "Favoris veille",
     "squashId": 25,
     "uuid": "c41434d2-52c2-4182-af07-bda44e76c2d2",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-061",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 62,
@@ -798,12 +862,13 @@
     "name": "URL dangereuse",
     "squashId": 26,
     "uuid": "ab3b9552-a54d-4a0a-8268-aab51f47fcde",
-    "status": "pending",
-    "reason": "Contrôle de données / API avec outillage complémentaire. Instrumentation serveur et politique des redirections requises.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-062",
     "mode": "Contrôle de données / API avec outillage complémentaire",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 63,
@@ -811,12 +876,13 @@
     "name": "Veille indisponible",
     "squashId": 27,
     "uuid": "9bd5052a-cccc-4e0a-9ee9-dee369364efa",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-063",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 64,
@@ -829,7 +895,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-064",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 65,
@@ -842,7 +909,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-065",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 66,
@@ -855,7 +923,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-066",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 67,
@@ -868,7 +937,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-067",
     "mode": "Playwright",
-    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise."
+    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise.",
+    "suite": "Standard"
   },
   {
     "number": 68,
@@ -876,12 +946,13 @@
     "name": "Exporter données fictives",
     "squashId": 81,
     "uuid": "372d4e0e-858c-4428-a42a-912bfa70e09f",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-068",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 69,
@@ -894,7 +965,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-069",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 70,
@@ -907,7 +979,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-070",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 71,
@@ -915,12 +988,13 @@
     "name": "Import valide",
     "squashId": 84,
     "uuid": "b60fc658-a0eb-43ae-9c09-12092fd0951b",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-071",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 72,
@@ -933,7 +1007,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-072",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 73,
@@ -946,7 +1021,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-073",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 74,
@@ -959,7 +1035,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-074",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 75,
@@ -972,7 +1049,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-075",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 76,
@@ -980,12 +1058,13 @@
     "name": "Stockage saturé",
     "squashId": 95,
     "uuid": "21a0966c-aa51-4bf7-8990-18efab02c876",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-076",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 77,
@@ -998,7 +1077,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-077",
     "mode": "Playwright",
-    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise."
+    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise.",
+    "suite": "Standard"
   },
   {
     "number": 78,
@@ -1006,12 +1086,13 @@
     "name": "Crédits disponibles",
     "squashId": 56,
     "uuid": "72c02948-ca31-4a60-97a0-279eef47d289",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-078",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 79,
@@ -1019,12 +1100,13 @@
     "name": "Liens crédits",
     "squashId": 57,
     "uuid": "b375e1b0-0f74-4a43-aa19-54e4a1b3458e",
-    "status": "pending",
-    "reason": "Contrôle de données / API avec outillage complémentaire. Inventaire des liens attendu à fournir.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-079",
     "mode": "Contrôle de données / API avec outillage complémentaire",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 80,
@@ -1032,12 +1114,13 @@
     "name": "État publié",
     "squashId": 69,
     "uuid": "1eea81e0-2350-4eac-b3fc-6661aee2e9c7",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Justificatifs d’audit éventuels à fournir.",
+    "status": "blocked",
+    "reason": "Page accessibilité et justificatifs de statut non fournis ; page différée par décision produit.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-080",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Prérequis technique ou référence externe manquant.",
+    "suite": "Standard"
   },
   {
     "number": 81,
@@ -1045,12 +1128,13 @@
     "name": "Contact responsable",
     "squashId": 70,
     "uuid": "8f7d6c4e-90f9-470f-bfba-07e691cf4f4c",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Responsable et contact approuvés à fournir.",
+    "status": "blocked",
+    "reason": "Page accessibilité, identité et canal de contact approuvés non fournis.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-081",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Prérequis technique ou référence externe manquant.",
+    "suite": "Standard"
   },
   {
     "number": 82,
@@ -1063,7 +1147,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-082",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 83,
@@ -1071,12 +1156,14 @@
     "name": "Fenêtres clavier",
     "squashId": 72,
     "uuid": "d6576453-5db6-49ff-afe4-11e3aea8b857",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "partial",
+    "reason": "Confinement et restitution du focus au clavier codés ; appréciation humaine de la visibilité et de l’ordre logique.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-083",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Précontrôle codé ; ne constitue pas un succès intégral du cas.",
+    "suite": "Standard",
+    "automatedPrecheckVia": "ECL-TC-085"
   },
   {
     "number": 84,
@@ -1084,12 +1171,14 @@
     "name": "Parcours clavier complet",
     "squashId": 73,
     "uuid": "845c2752-871e-4792-91a5-0a6cee12d240",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "partial",
+    "reason": "Parcours clavier des pages existantes codé ; revue humaine de l’ordre logique et page accessibilité différée.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-084",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Précontrôle codé ; ne constitue pas un succès intégral du cas.",
+    "suite": "Standard",
+    "automatedPrecheckVia": "ECL-TC-085"
   },
   {
     "number": 85,
@@ -1102,7 +1191,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-085",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Standard"
   },
   {
     "number": 86,
@@ -1110,12 +1200,13 @@
     "name": "NVDA et VoiceOver",
     "squashId": 75,
     "uuid": "eb5fb4f2-ee2c-4f2c-b848-ce30f1117cc2",
-    "status": "pending",
-    "reason": "Vérification humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "manual",
+    "reason": "Validation des annonces et des parcours sur postes NVDA/Windows et VoiceOver/macOS réels.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-086",
     "mode": "Vérification humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Intervention humaine requise.",
+    "suite": "Standard"
   },
   {
     "number": 87,
@@ -1123,12 +1214,13 @@
     "name": "TalkBack",
     "squashId": 76,
     "uuid": "9df60f46-f8af-4e7e-b4a0-48d9805e04ba",
-    "status": "pending",
-    "reason": "Vérification humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "manual",
+    "reason": "Validation des annonces et gestes TalkBack sur Android réel.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-087",
     "mode": "Vérification humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Intervention humaine requise.",
+    "suite": "Standard"
   },
   {
     "number": 88,
@@ -1141,7 +1233,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-088",
     "mode": "Playwright et revue humaine",
-    "validation": "98 profils/modes F12 codés, lancement via Squash et validation agent requis."
+    "validation": "98 profils/modes F12 codés, lancement via Squash et validation agent requis.",
+    "suite": "F12 approfondi"
   },
   {
     "number": 89,
@@ -1149,12 +1242,13 @@
     "name": "Zoom 200 et 400",
     "squashId": 78,
     "uuid": "1db39355-ba65-43aa-9c05-84e68de7bcd8",
-    "status": "pending",
-    "reason": "Vérification humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "blocked",
+    "reason": "Agent actuel sans commande de zoom navigateur réel vérifiée ; viewport ou zoom CSS ne constituent pas cette preuve.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-089",
     "mode": "Vérification humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Prérequis technique ou référence externe manquant.",
+    "suite": "Standard"
   },
   {
     "number": 90,
@@ -1167,7 +1261,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-090",
     "mode": "Playwright et revue humaine",
-    "validation": "98 profils/modes F12 codés, lancement via Squash et validation agent requis."
+    "validation": "98 profils/modes F12 codés, lancement via Squash et validation agent requis.",
+    "suite": "F12 approfondi"
   },
   {
     "number": 91,
@@ -1175,12 +1270,13 @@
     "name": "Entrées HTML",
     "squashId": 3,
     "uuid": "abecfed2-46dc-4f16-99d7-0252c8606916",
-    "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-091",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "suite": "Standard"
   },
   {
     "number": 92,
@@ -1193,7 +1289,8 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-092",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Réussi"
+    "validation": "Premier essai Ubuntu : Réussi",
+    "suite": "Navigateurs"
   },
   {
     "number": 93,
@@ -1201,12 +1298,14 @@
     "name": "Performance",
     "squashId": 5,
     "uuid": "686a7796-a0ab-49c8-b2dc-2a2f04493875",
-    "status": "pending",
-    "reason": "Playwright. Profil de mesure et budgets à convenir.",
+    "status": "implemented",
+    "reason": "Collecte de mesures F12 ; aucun verdict de performance sans budgets validés.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-093",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Scénario complété ; exécution navigateur Squash requise.",
+    "resultKind": "measurement",
+    "suite": "F12 approfondi"
   },
   {
     "number": 94,
@@ -1214,12 +1313,13 @@
     "name": "Installer et mettre à jour",
     "squashId": 59,
     "uuid": "49c182af-1f67-4f91-8559-074576937c4f",
-    "status": "pending",
-    "reason": "Appium / appareil Android. Deux paquets signés et appareil à fournir.",
+    "status": "blocked",
+    "reason": "Deux APK successifs de même identité/signature, appareil ou émulateur Android et pilote natif requis.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-094",
     "mode": "Appium / appareil Android",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Prérequis technique ou référence externe manquant.",
+    "suite": "Standard"
   },
   {
     "number": 95,
@@ -1227,12 +1327,13 @@
     "name": "Audio hors connexion",
     "squashId": 60,
     "uuid": "1067179a-1a40-475a-8d85-138417ffbed7",
-    "status": "pending",
-    "reason": "Appium / appareil Android. Build embarquant les médias à fournir.",
+    "status": "blocked",
+    "reason": "APK embarquant les deux voix, appareil Android isolé et pilote permettant le mode avion requis.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-095",
     "mode": "Appium / appareil Android",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Prérequis technique ou référence externe manquant.",
+    "suite": "Standard"
   },
   {
     "number": 96,
@@ -1240,11 +1341,12 @@
     "name": "Export Android",
     "squashId": 61,
     "uuid": "4401945d-c907-4a97-a01b-0999a51d47f0",
-    "status": "pending",
-    "reason": "Appium / appareil Android. Build et accès aux dialogues natifs requis.",
+    "status": "blocked",
+    "reason": "APK, appareil Android et pilote des dialogues natifs de partage/import requis.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-096",
     "mode": "Appium / appareil Android",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Prérequis technique ou référence externe manquant.",
+    "suite": "Standard"
   }
 ]

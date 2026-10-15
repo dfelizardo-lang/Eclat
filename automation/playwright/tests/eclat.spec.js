@@ -808,7 +808,7 @@ async function news(page, mode = "ok") {
               json: {
                 checkedAt: "2030-01-01T12:00:00Z",
                 items: [
-                  ...Array.from({ length: 20 }, (_, i) => ({
+                  ...Array.from({ length: 21 }, (_, i) => ({
                     id: "book-" + i,
                     kind: "book",
                     title: "Livre fixture " + i,
@@ -895,6 +895,7 @@ add(65, async ({ page }) => {
   await page.locator('input[name=rating][value="3"]').check();
   await text(page, "bookComment").fill("Très bien");
   await text(page, "saveBook").click();
+  await expect(text(page, "bookForm")).toBeHidden();
   await page.reload();
   await expect(page.locator("#savedBooks article")).toHaveCount(1);
   await expect(text(page, "savedBooks")).toContainText("Livre ECL-065");
@@ -1116,6 +1117,7 @@ add(91, async ({ page }) => {
   for (const id of ["bookTitle", "bookAuthor", "bookComment"])
     await text(page, id).fill(value);
   await text(page, "saveBook").click();
+  await expect(text(page, "bookForm")).toBeHidden();
   await page.reload();
   await expect(text(page, "savedBooks")).toContainText(value);
   await expect(page.locator("[data-ecl-test]")).toHaveCount(0);
@@ -1259,6 +1261,8 @@ add(90,async({browser},info)=>everyF12(browser,info,async(page,device)=>{
   const size=await text(page,'listenToggle').boundingBox();expect(size.width).toBeGreaterThanOrEqual(44);expect(size.height).toBeGreaterThanOrEqual(44);
   await text(page,'listenStop').click();await stopped(page);
 }));
+
+require('../support/remaining').install(checks);
 
 for (const c of catalog) {
   if (c.number === 1) continue; // Kept in accueil.spec.js to preserve its existing reference.

@@ -25,3 +25,20 @@ test('a foreign workspace runner is refused without overwriting its files',()=>f
  const dir=path.join(workspace,'node_modules/playwright');await fs.mkdir(dir,{recursive:true});const file=path.join(dir,'package.json');const content='{"name":"playwright","version":"0.0.0"}';await fs.writeFile(file,content);
  assert.throws(()=>linkWorkspaceRunner(project),/autre Playwright/);assert.equal(await fs.readFile(file,'utf8'),content);
 }));
+test('the provider receives JUnit at the expected workspace report path',()=>fixture(async(workspace,project)=>{
+ linkWorkspaceRunner(project);
+ await fs.writeFile(path.join(project,'tests/report-probe.spec.js'),"const {test,expect}=require('@playwright/test');test('REPORT-PROBE',()=>expect(1).toBe(1));\n");
+ const env={...process.env,PLAYWRIGHT_JUNIT_OUTPUT_NAME:'pw_junit_report.xml',PLAYWRIGHT_HTML_REPORT:'playwright-report',PW_TEST_HTML_REPORT_OPEN:'never',PLAYWRIGHT_HTML_OPEN:'never'};
+ delete env.PLAYWRIGHT_JUNIT_OUTPUT_FILE;delete env.PLAYWRIGHT_JUNIT_OUTPUT_DIR;
+ const run=spawnSync(process.execPath,[path.join(workspace,'node_modules/playwright/cli.js'),'test','--config=Eclat/automation/playwright/playwright.config.js','--grep=REPORT-PROBE','--reporter=html,junit'],{cwd:workspace,encoding:'utf8',timeout:30000,env});
+ assert.equal(run.status,0,run.stdout+run.stderr);
+ const xml=await fs.readFile(path.join(workspace,'playwright-report/pw_junit_report.xml'),'utf8');
+ assert.match(xml,/REPORT-PROBE/);assert.match(xml,/failures="0"/);
+}));
+test('an explicit JUnit output destination is preserved',()=>{
+ const {configureSquashReports}=require('../support/report-env.cjs');
+ const a={PLAYWRIGHT_JUNIT_OUTPUT_FILE:'/custom/report.xml',PLAYWRIGHT_JUNIT_OUTPUT_NAME:'pw.xml',PLAYWRIGHT_HTML_REPORT:'html'};
+ configureSquashReports(a,'/workspace');assert.equal(a.PLAYWRIGHT_JUNIT_OUTPUT_FILE,'/custom/report.xml');
+ const b={PLAYWRIGHT_JUNIT_OUTPUT_DIR:'/custom',PLAYWRIGHT_JUNIT_OUTPUT_NAME:'pw.xml',PLAYWRIGHT_HTML_REPORT:'html'};
+ configureSquashReports(b,'/workspace');assert.equal(b.PLAYWRIGHT_JUNIT_OUTPUT_FILE,undefined);
+});

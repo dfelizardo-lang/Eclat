@@ -1,20 +1,5 @@
 const { test: base, expect } = require("@playwright/test");
-const production = "https://eclat-lecture.dfelizardo680502.chatgpt.site";
-function target() {
-  const value =
-    process.env.DS_BASE_URL || process.env.ECLAT_BASE_URL || production;
-  const url = new URL(value);
-  const local =
-    process.env.ECLAT_LOCAL_TEST === "1" &&
-    ["localhost", "127.0.0.1", "[::1]"].includes(url.hostname);
-  if (url.origin !== production && !local)
-    throw new Error(
-      "BASE_URL doit désigner Éclat ou un serveur local explicitement autorisé par ECLAT_LOCAL_TEST=1.",
-    );
-  if (url.origin === production && !process.env.ECLAT_SITES_TOKEN)
-    throw new Error("ECLAT_SITES_TOKEN absent.");
-  return url.origin;
-}
+const {production,target}=require("./target.cjs");
 async function secure(context) {
   const origin = target();
   await context.route("**/*", async (route) => {

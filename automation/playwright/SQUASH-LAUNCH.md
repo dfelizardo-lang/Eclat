@@ -39,9 +39,9 @@ Sur le compte système qui exécute l’agent, l’administrateur prépare Node,
 
 ## Choisir l’application testée
 
-Le paramètre du jeu de données **BASE_URL** devient `DS_BASE_URL` et prime sur `ECLAT_BASE_URL`.
+En mode normal, le paramètre du jeu de données **BASE_URL** devient `DS_BASE_URL` et prime sur `ECLAT_BASE_URL`. Le mode local explicite ci-dessous permet de cibler toute la campagne sans modifier chaque jeu de données.
 
-- Pour l’application locale mise à jour : serveur Éclat lancé sur l’agent Ubuntu, jeu de données `BASE_URL=http://127.0.0.1:3000`, variable serveur **ECLAT_LOCAL_TEST=1**.
+- Pour l’application locale mise à jour : serveur Éclat lancé sur l’agent Ubuntu, variables projet **ECLAT_LOCAL_TEST=1** et **ECLAT_BASE_URL=http://127.0.0.1:3000**. Ce choix explicite prime sur les jeux de données `Site_public` et n’accepte que les adresses loopback.
 - Pour le site publié : jeu de données avec son adresse publique et secret **ECLAT_SITES_TOKEN** disponible sur l’agent. Les changements de cette branche doivent d’abord être déployés sur le site.
 
 `localhost` désigne la machine de l’agent, pas le conteneur Squash. Le secret Sites doit être injecté séparément, jamais dans le classeur.

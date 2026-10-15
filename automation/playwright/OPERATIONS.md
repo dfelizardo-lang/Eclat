@@ -52,7 +52,7 @@ npm test
 unset ECLAT_SITES_TOKEN
 ```
 
-`DS_BASE_URL` fourni par Squash est prioritaire sur `ECLAT_BASE_URL`. Traces et
+En mode normal, `DS_BASE_URL` fourni par Squash est prioritaire sur `ECLAT_BASE_URL`. En mode explicitement local (`ECLAT_LOCAL_TEST=1`), `ECLAT_BASE_URL` devient prioritaire pour toute la campagne et vaut par défaut `http://127.0.0.1:3000`. Seules les adresses loopback sont acceptées dans ce mode. Traces et
 vidéos sont désactivées. Le jeton est envoyé uniquement à l’origine Éclat. Ne
 pas enregistrer de secrets dans Git ou dans les rapports.
 
@@ -138,3 +138,7 @@ Le journal du 15 octobre 2026 signalait `Playwright Test did not expect test.use
 Le hook prépare maintenant les dépendances du projet puis expose cette même installation dans le dossier parent du checkout, d’où le fournisseur lance `npx`. Le contrôle compare les chemins réels des paquets et refuse de remplacer une installation étrangère. Le `test.use()` des tests est conservé.
 
 La vérification `scripts/link-workspace-runner.test.cjs` reproduit la commande `npx --no-install playwright test` depuis un workspace isolé, avec la référence et la configuration Squash. Elle vérifie le cas 001 et les 96 cas sans lancer de navigateur. La validation du scénario complet reste à effectuer depuis Squash.
+
+## Rapport JUnit avec Playwright récent
+
+Le fournisseur attend `playwright-report/pw_junit_report.xml` sous le workspace. Lorsque ses variables `PLAYWRIGHT_HTML_REPORT` et `PLAYWRIGHT_JUNIT_OUTPUT_NAME` sont présentes, la configuration définit un chemin JUnit absolu correspondant. Les destinations `PLAYWRIGHT_JUNIT_OUTPUT_FILE` ou `PLAYWRIGHT_JUNIT_OUTPUT_DIR` explicitement fournies sont conservées. Un test d’intégration vérifie le fichier réellement écrit avec les reporters `html,junit` du fournisseur.

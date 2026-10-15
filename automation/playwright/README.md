@@ -28,7 +28,7 @@ npm test
 
 Le script exige ce secret et échoue explicitement s'il est absent. Le secret est envoyé seulement au domaine Éclat ; aucun secret ne doit être ajouté dans Git. La session ChatGPT et le jeton Orchestrator ne sont pas ce jeton Sites.
 
-Le paramètre Squash DS_BASE_URL est pris en compte. Il doit conserver le domaine autorisé.
+Le paramètre Squash DS_BASE_URL est pris en compte en mode normal. Pour toute une campagne locale, définir ECLAT_LOCAL_TEST=1 et ECLAT_BASE_URL=http://127.0.0.1:3000 sur le projet Squash. Cette sélection explicite prime sur les jeux de données publics, sans envoyer de jeton Sites.
 
 ## Orchestrator
 

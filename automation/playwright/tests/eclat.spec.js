@@ -25,7 +25,7 @@ const png = {
   name: "test.png",
   mimeType: "image/png",
   buffer: Buffer.from(
-    "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a9AAAAABJRU5ErkJggg==",
+    "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4z8DwHwAFAAH/iZk9HQAAAABJRU5ErkJggg==",
     "base64",
   ),
 };
@@ -718,6 +718,7 @@ add(52, async ({ page }) => {
   await text(page, "borrowAgain").fill("Livre A modifié");
   await text(page, "returnDate").fill("2030-02-01");
   await text(page, "saveButton").click();
+  await expect(text(page, "loansForm")).toBeHidden();
   await page.reload();
   await expect(rows).toHaveCount(2);
   await expect(rows.filter({ hasText: "Livre A modifié" })).toContainText(
@@ -750,6 +751,7 @@ add(54, async ({ page }) => {
   await text(page, "galleryPhoto").setInputFiles(png);
   await expect(page.locator("#photoList img")).toBeVisible();
   await text(page, "saveButton").click();
+  await expect(text(page, "loansForm")).toBeHidden();
   await page.reload();
   await expect
     .poll(() =>
@@ -764,6 +766,7 @@ add(54, async ({ page }) => {
   await text(page, "bookTitle").fill("Photo");
   await text(page, "bookAuthor").fill("Test");
   await text(page, "saveBook").click();
+  await expect(text(page, "savedBooks")).toContainText("Photo");
   await page.reload();
   await expect
     .poll(() =>
@@ -1123,6 +1126,7 @@ add(91, async ({ page }) => {
   await text(page, "borrowAgain").fill(value);
   await text(page, "reserveBooks").fill(value);
   await text(page, "saveButton").click();
+  await expect(text(page, "loansForm")).toBeHidden();
   await page.reload();
   await expect(text(page, "loansList")).toContainText(value);
   await expect(page.locator("[data-ecl-test]")).toHaveCount(0);
@@ -1131,6 +1135,7 @@ add(92, async (_args, info) => {
   info.setTimeout(120000);
   const engines = require("playwright");
   for (const name of ["chromium", "firefox", "webkit"]) {
+    await test.step("Navigateur : " + name, async () => {
     const browser = await engines[name].launch();
     try {
       const context = await browser.newContext({
@@ -1160,6 +1165,7 @@ add(92, async (_args, info) => {
     } finally {
       await browser.close();
     }
+    });
   }
 });
 

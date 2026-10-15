@@ -65,7 +65,7 @@ async function childForm(page) {
 async function createLoan(page, label = "Livre A") {
   await page.locator("#newLoan").click();
   await page.locator("#returnDate").fill("2030-01-15");
-  await page.locator('#galleryPhoto').setInputFiles({name:'loan.png',mimeType:'image/png',buffer:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a9AAAAABJRU5ErkJggg==','base64')});
+  await page.locator('#galleryPhoto').setInputFiles({name:'loan.png',mimeType:'image/png',buffer:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4z8DwHwAFAAH/iZk9HQAAAABJRU5ErkJggg==','base64')});
   await expect(page.locator('#photoList img')).toBeVisible();
   await page.locator("#borrowAgain").fill(label);
   await page.locator("#reserveBooks").fill("Réserve fixture");

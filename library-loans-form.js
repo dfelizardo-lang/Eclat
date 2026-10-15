@@ -15,7 +15,7 @@
   const newLoan = document.getElementById('newLoan');
   function showOverview() { EclatLoanViews.show('list'); newLoan.focus(); }
   const reminderToggle = document.getElementById('weeklyReminder');
-  function toggleReminderFields(){const enabled=reminderToggle.checked;document.getElementById('reminderFields').hidden=!enabled;for(const id of ['returnDate','reminderTime'])document.getElementById(id).required=enabled;}
+  function toggleReminderFields(){const enabled=reminderToggle.checked;document.getElementById('reminderFields').hidden=!enabled;document.getElementById('returnDate').required=true;document.getElementById('reminderTime').required=enabled;}
   reminderToggle.addEventListener('change',()=>{toggleReminderFields();changed();});
   document.getElementById('reminderTime').addEventListener('input',changed);
   function openForm(record) {
@@ -115,7 +115,7 @@
     });
   }
   async function preparePhoto(file) {
-    if (!file.type.startsWith('image/')) throw new Error('Unsupported image');
+    if (!['image/jpeg','image/png','image/webp'].includes(file.type)) throw new Error('Unsupported image');
     const url = URL.createObjectURL(file);
     try {
       const img = await new Promise((resolve, reject) => { const image = new Image(); image.onload = () => resolve(image); image.onerror = reject; image.src = url; });
@@ -140,15 +140,17 @@
       const photo = await preparePhoto(input.files[0]);
       photos = [photo]; renderPhotos(); changed();
       message(photoStatus, 'Votre photo d’ensemble est prête à être enregistrée.');
-    } catch { message(photoStatus, 'Cette photo n’a pas pu être ouverte. Essayez une image JPEG ou PNG.', true); }
+    } catch { message(photoStatus, 'Cette photo n’a pas pu être ouverte. Essayez une image JPEG, PNG ou WebP.', true); }
     finally { input.value = ''; busy = false; saveButton.disabled = !db; enablePhotoControls(!!db); }
   }
   fileInput.addEventListener('change', addOverviewPhoto);
   galleryInput.addEventListener('change', addOverviewPhoto);
   fields.forEach(id => document.getElementById(id).addEventListener('input', changed));
+  form.addEventListener('invalid', () => message(status, 'Indiquez une date de retour. Une date passée est autorisée.', true), true);
   form.addEventListener('submit', async event => {
     event.preventDefault();
     if (!db || busy) return;
+    if (!document.getElementById('returnDate').value || photos.length !== 1) { message(status, 'Ajoutez une photo d’ensemble et une date de retour pour enregistrer cet emprunt.', true); return; }
     busy = true; saveButton.disabled = true; enablePhotoControls(false);
     message(status, 'Enregistrement…');
     const savedRevision = revision;

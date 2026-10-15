@@ -1265,7 +1265,7 @@ body.kids .library-results-head{background:#fff9dc}
     <h1 id="heroTitle">Les mots sont déjà là.<br><em>À nous de vous y conduire.</em></em></h1>
     <p id="heroCopy">Éclat remet les grands textes à portée de main. Chaque extrait est choisi dans une œuvre du domaine public, présenté sans réécriture et relié à sa source. Notre envie&nbsp;: préserver les mots, respecter les œuvres et faire naître, dès maintenant, l’envie de lire.</p>
   </div>
-  <div class="hero-art" aria-hidden="true">
+  <div class="hero-art">
     <div class="hero-library-cta"><button class="library-home library-icon-only" id="libraryNearby" type="button"
  aria-label="Trouver les bibliothèques proches" data-tooltip="Trouver une bibliothèque près de moi">
  <span class="library-mark" aria-hidden="true">
@@ -1276,7 +1276,7 @@ body.kids .library-results-head{background:#fff9dc}
 </svg>
 </span>
 </button></div>
-<div class="hero-visual" id="heroVisual"></div>
+<div class="hero-visual" id="heroVisual" aria-hidden="true"></div>
   </div>
 </section>
 
@@ -1490,7 +1490,7 @@ function passageHistory(){
    const raw=JSON.parse(localStorage.getItem(passageHistoryKey())||"{}");
    const now=Date.now(), clean={};
    Object.entries(raw).forEach(([id,ts])=>{
-     if(Number.isFinite(ts) && now-ts<PASSAGE_EMBARGO_MS) clean[id]=ts;
+     if(Number.isFinite(ts) && ts>0) clean[id]=ts;
    });
    localStorage.setItem(passageHistoryKey(),JSON.stringify(clean));
    return clean;
@@ -1548,6 +1548,7 @@ function assignUniquePassages(desires){
 }
 
 function showAssignedPassage(desire){
+ document.getElementById("workExhausted")?.remove();
  stopReading();
  const passage=passageAssignments.get(desire);
  if(!passage || !passage.text) return;
@@ -1948,7 +1949,14 @@ document.getElementById("listenToggle")?.addEventListener("click",()=>{
    document.getElementById("listenLabel").textContent=mode==="child"?"Continuer":"Reprendre";
  }
 });
-document.getElementById("listenStop")?.addEventListener("click",stopReading);
+function stopAutomaticReading(){
+ continuousMode=false;bedtimeMode=false;
+ document.getElementById('continuousListen')?.setAttribute('aria-pressed','false');
+ document.getElementById('bedtimeStory')?.setAttribute('aria-pressed','false');
+ if(bedtimeTimer){clearTimeout(bedtimeTimer);bedtimeTimer=null}
+ stopReading();
+}
+document.getElementById("listenStop")?.addEventListener("click",stopAutomaticReading);
 document.getElementById("listenVoice")?.addEventListener("change",applySpeechSettingLive);
 document.getElementById("listenRate")?.addEventListener("change",applySpeechSettingLive);
 if("speechSynthesis" in window){
@@ -2045,6 +2053,9 @@ continuousButton?.addEventListener("click",()=>{
  continuousMode=!continuousMode;
  continuousButton.setAttribute("aria-pressed",continuousMode?"true":"false");
  if(continuousMode){
+   bedtimeMode=false;
+   document.getElementById('bedtimeStory')?.setAttribute('aria-pressed','false');
+   if(bedtimeTimer){clearTimeout(bedtimeTimer);bedtimeTimer=null}
    continuousSeen.clear();
    nextContinuousPassage();
  }else{
@@ -2086,9 +2097,9 @@ function updateSavedUI(){
  if(b&&p)syncSaveButtonForPassage(p);
 }
 function directPassage(p,label){
- if(!p)return;stopReading();window.eclatCurrentPassage=p;syncSaveButtonForPassage(p);const acts=document.getElementById("readerDiscovery");if(acts){acts.style.pointerEvents="auto";acts.removeAttribute("aria-hidden")}const w=WORKS.find(x=>x.title===p.workTitle&&x.author===p.author)||WORKS.find(x=>x.title===p.workTitle);
+ if(!p)return;stopReading();rememberPassages([p]);document.getElementById("workExhausted")?.remove();window.eclatCurrentPassage=p;syncSaveButtonForPassage(p);const acts=document.getElementById("readerDiscovery");if(acts){acts.style.pointerEvents="auto";acts.removeAttribute("aria-hidden")}const w=WORKS.find(x=>x.title===p.workTitle&&x.author===p.author)||WORKS.find(x=>x.title===p.workTitle);
  const t=document.getElementById("readerTitle"),a=document.getElementById("readerAuthor"),tx=document.getElementById("readerText"),src=document.getElementById("readerSource"),ov=document.getElementById("readerOverlay");
- if(t)t.textContent=label;if(a)a.textContent=[p.author,p.workTitle,w?.year||p.year].filter(Boolean).join(" · ");if(tx)tx.innerHTML=p.text.split(/\n\n+/).map(x=>`<p>${x.replace(/\n/g,"<br>")}</p>`).join("");if(src)src.href=p.source||w?.source||"#";if(ov){ov.classList.add("open");ov.setAttribute("aria-hidden","false");document.body.style.overflow="hidden"}updateSavedUI();
+ if(t)t.textContent=label;if(a)a.textContent=p.author||"";const work=document.getElementById("readerWork"),year=document.getElementById("readerYear");if(work)work.textContent=p.workTitle||"";if(year)year.textContent=w?.year||p.year||"";if(tx)tx.innerHTML=p.text.split(/\n\n+/).map(x=>`<p>${x.replace(/\n/g,"<br>")}</p>`).join("");if(src)src.href=p.source||w?.source||"#";if(ov){ov.classList.add("open");ov.setAttribute("aria-hidden","false");document.body.style.overflow="hidden"}updateSavedUI();
 
 document.getElementById("savedList")?.addEventListener("keydown",e=>{
  if(e.key!=="Enter"&&e.key!==" ")return;
@@ -2099,7 +2110,7 @@ document.getElementById("savedList")?.addEventListener("keydown",e=>{
 });
 
 }
-function alternate(kind){const p=window.eclatCurrentPassage;if(!p)return null;let q=PASSAGES.filter(x=>x.id!==p.id&&x.audience===p.audience&&x.text);q=q.filter(x=>kind==="work"?x.workTitle===p.workTitle:x.author===p.author);return q.length?q[Math.floor(Math.random()*q.length)]:null}
+function alternate(kind){const p=window.eclatCurrentPassage;if(!p)return null;let q=PASSAGES.filter(x=>x.id!==p.id&&x.audience===p.audience&&x.text);q=q.filter(x=>kind==="work"?x.workTitle===p.workTitle&&x.author===p.author&&!passageHistory()[x.id]:x.author===p.author);return q.length?q[Math.floor(Math.random()*q.length)]:null}
 document.getElementById("saveExcerpt")?.addEventListener("click",()=>{const p=window.eclatCurrentPassage;if(!p)return;let a=savedIds();a=a.includes(p.id)?a.filter(x=>x!==p.id):[p.id,...a];localStorage.setItem(SAVED_KEY,JSON.stringify(a));updateSavedUI();syncSaveButtonForPassage(p)});
 
 
@@ -2134,10 +2145,10 @@ updateSavedUI();
 let bedtimeMode=false,bedtimeSeen=new Set(),bedtimeTimer=null;
 function nextBedtimeStory(){
  if(!bedtimeMode)return;let pool=PASSAGES.filter(p=>p.audience==="child"&&p.text&&!bedtimeSeen.has(p.id));if(!pool.length){bedtimeSeen.clear();pool=PASSAGES.filter(p=>p.audience==="child"&&p.text)}if(!pool.length)return;
- const p=pool[Math.floor(Math.random()*pool.length)];bedtimeSeen.add(p.id);window.eclatCurrentPassage=p;const w=WORKS.find(x=>x.title===p.workTitle&&x.author===p.author)||WORKS.find(x=>x.title===p.workTitle),t=document.getElementById("bedtimeTitle"),m=document.getElementById("bedtimeMeta");if(t)t.textContent=p.workTitle;if(m)m.textContent=[p.author,w?.year||p.year].filter(Boolean).join(" · ");
+ const p=pool[Math.floor(Math.random()*pool.length)];bedtimeSeen.add(p.id);rememberPassages([p]);window.eclatCurrentPassage=p;const w=WORKS.find(x=>x.title===p.workTitle&&x.author===p.author)||WORKS.find(x=>x.title===p.workTitle),t=document.getElementById("bedtimeTitle"),m=document.getElementById("bedtimeMeta");if(t)t.textContent=p.workTitle;if(m)m.textContent=[p.author,w?.year||p.year].filter(Boolean).join(" · ");
  speechToken++;const token=speechToken;window.speechSynthesis?.cancel();speechQueue=splitForSpeech(p.text);speechQueue.push("Cette histoire est extraite de "+p.workTitle+". "+(p.author?"De "+p.author+". ":"")+(w?.year||p.year?"Publié en "+(w?.year||p.year)+".":""));speechIndex=0;speechPaused=false;speakCurrent(token);
 }
-document.getElementById("bedtimeStory")?.addEventListener("click",()=>{bedtimeMode=!bedtimeMode;const b=document.getElementById("bedtimeStory");b.setAttribute("aria-pressed",bedtimeMode?"true":"false");if(bedtimeMode){continuousMode=false;bedtimeSeen.clear();nextBedtimeStory()}else{stopReading();document.getElementById("bedtimeTitle").textContent="Histoire du soir";document.getElementById("bedtimeMeta").textContent="Une histoire rien que pour maintenant"}});
+document.getElementById("bedtimeStory")?.addEventListener("click",()=>{bedtimeMode=!bedtimeMode;const b=document.getElementById("bedtimeStory");b.setAttribute("aria-pressed",bedtimeMode?"true":"false");if(bedtimeMode){continuousMode=false;document.getElementById('continuousListen')?.setAttribute('aria-pressed','false');if(continuousNextTimer){clearTimeout(continuousNextTimer);continuousNextTimer=null}bedtimeSeen.clear();nextBedtimeStory()}else{if(bedtimeTimer){clearTimeout(bedtimeTimer);bedtimeTimer=null}stopReading();document.getElementById("bedtimeTitle").textContent="Histoire du soir";document.getElementById("bedtimeMeta").textContent="Une histoire rien que pour maintenant"}});
 
 document.addEventListener("keydown",(e)=>{
  if(e.key==="Escape"&&document.getElementById("savedPanel")?.classList.contains("open"))closeSavedPanel();
@@ -2166,6 +2177,13 @@ document.addEventListener("click",function(e){
    e.preventDefault(); e.stopPropagation();
    const p=alternate("work");
    if(p)directPassage(p,"Encore un passage de cette œuvre");
+   else if(!document.getElementById('workExhausted')){
+     const notice=document.createElement('div');notice.id='workExhausted';
+     const message=document.createElement('p');message.setAttribute('role','status');message.textContent='Tous les passages disponibles de cette œuvre ont été lus.';
+     const next=document.createElement('button');next.type='button';next.textContent='Découvrir une autre œuvre';
+     next.addEventListener('click',()=>{const current=window.eclatCurrentPassage;const pool=PASSAGES.filter(x=>x.audience===current.audience&&x.text&&(x.workTitle!==current.workTitle||x.author!==current.author));if(pool.length)directPassage(pool[Math.floor(Math.random()*pool.length)],'Une autre œuvre');else message.textContent='Aucune autre œuvre disponible pour le moment.';});
+     notice.append(message,next);work.after(notice);
+   }
    return;
  }
  const author=e.target.closest("#sameAuthor");
@@ -2493,7 +2511,7 @@ document.addEventListener("keydown",function(e){
 
     try{
       const response=await fetch("/api/bibliotheques?cp="+encodeURIComponent(cp),{
-        headers:{"Accept":"application/json"}
+        headers:{"Accept":"application/json"},signal:AbortSignal.timeout(15000)
       });
       const data=await response.json().catch(()=>({}));
       if(!response.ok) throw new Error(data.error||"Service momentanément indisponible.");
@@ -2515,7 +2533,7 @@ document.addEventListener("keydown",function(e){
         : '<div class="library-empty"><strong>Aucun résultat</strong><p>Essayez un code postal voisin.</p></div>';
     }catch(err){
       if(st)st.textContent="";
-      out.innerHTML='<div class="library-empty"><strong>Recherche indisponible</strong><p>Le service des bibliothèques ne répond pas pour le moment.</p></div>';
+      out.innerHTML='<div class="library-empty"><strong>Recherche indisponible</strong><p>Le service des bibliothèques ne répond pas pour le moment.</p></div>';if(button)button.textContent='Réessayer';
     }finally{
       if(button){button.disabled=false;button.removeAttribute("aria-busy");}
     }

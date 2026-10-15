@@ -6,6 +6,13 @@
  let settings={...defaults};try{settings={...defaults,...JSON.parse(localStorage.getItem(key)||'{}')}}catch{}
  const link=document.createElement('link');link.rel='stylesheet';link.href='/comfort.css';document.head.append(link);
  const skip=document.createElement('a');skip.className='comfort-skip';skip.href='#eclat-main';skip.textContent='Aller au contenu';document.body.prepend(skip);
+ // Visible field lengths help readers understand the notebook limits before saving.
+ document.querySelectorAll('.notebook-page input[maxlength],.notebook-page textarea[maxlength]').forEach(input=>{
+  const count=document.createElement('span');count.className='field-count';count.id=input.id+'Count';
+  const update=()=>count.textContent=input.value.length+' / '+input.maxLength+' caractères';
+  input.after(count);input.setAttribute('aria-describedby',[input.getAttribute('aria-describedby'),count.id].filter(Boolean).join(' '));
+  input.addEventListener('input',update);input.form?.addEventListener('reset',()=>setTimeout(update,0));update();
+ });
  const main=document.querySelector('main');if(main){main.id='eclat-main';main.tabIndex=-1}
  const button=document.createElement('button');button.type='button';button.className='comfort-open';button.textContent='Aa · Confort de lecture';button.setAttribute('aria-haspopup','dialog');document.querySelector('header')?.append(button);
  const dialog=document.createElement('dialog');dialog.className='comfort-dialog';dialog.setAttribute('aria-labelledby','comfort-title');

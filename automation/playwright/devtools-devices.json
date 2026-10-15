@@ -1,0 +1,1086 @@
+{
+  "source": "https://github.com/ChromeDevTools/devtools-frontend/blob/main/front_end/models/emulation/EmulatedDevices.ts",
+  "retrievedAt": "2026-10-15",
+  "sourceSha256": "8b4f3c0040758ef09b419162508e40e0a3af06ca214209ea180ba4cd45c7d41c",
+  "deviceCount": 46,
+  "profiles": [
+    {
+      "name": "iPhone SE / vertical",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone SE / horizontal",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone XR / vertical",
+      "viewport": {
+        "width": 414,
+        "height": 896
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone XR / horizontal",
+      "viewport": {
+        "width": 896,
+        "height": 414
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 12 Pro / vertical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 12 Pro / horizontal",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 14 / vertical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 14 / horizontal",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 14 Plus / vertical",
+      "viewport": {
+        "width": 428,
+        "height": 926
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 14 Plus / horizontal",
+      "viewport": {
+        "width": 926,
+        "height": 428
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 14 Pro / vertical",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 14 Pro / horizontal",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 14 Pro Max / vertical",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 14 Pro Max / horizontal",
+      "viewport": {
+        "width": 932,
+        "height": 430
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 15 / vertical",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 15 / horizontal",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 15 Plus / vertical",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 15 Plus / horizontal",
+      "viewport": {
+        "width": 932,
+        "height": 430
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 15 Pro / vertical",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 15 Pro / horizontal",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 15 Pro Max / vertical",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 15 Pro Max / horizontal",
+      "viewport": {
+        "width": 932,
+        "height": 430
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 16e / vertical",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 16e / horizontal",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 16 / vertical",
+      "viewport": {
+        "width": 393,
+        "height": 852
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 16 / horizontal",
+      "viewport": {
+        "width": 852,
+        "height": 393
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 16 Plus / vertical",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 16 Plus / horizontal",
+      "viewport": {
+        "width": 932,
+        "height": 430
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 16 Pro / vertical",
+      "viewport": {
+        "width": 402,
+        "height": 874
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 16 Pro / horizontal",
+      "viewport": {
+        "width": 874,
+        "height": 402
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 16 Pro Max / vertical",
+      "viewport": {
+        "width": 440,
+        "height": 956
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPhone 16 Pro Max / horizontal",
+      "viewport": {
+        "width": 956,
+        "height": 440
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "Pixel 7 / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 7 / horizontal",
+      "viewport": {
+        "width": 915,
+        "height": 412
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 8 / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 8 / horizontal",
+      "viewport": {
+        "width": 915,
+        "height": 412
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 8 Pro / vertical",
+      "viewport": {
+        "width": 448,
+        "height": 997
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 8 Pro / horizontal",
+      "viewport": {
+        "width": 997,
+        "height": 448
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 8a / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 8a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 8a / horizontal",
+      "viewport": {
+        "width": 915,
+        "height": 412
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 8a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 9 / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 924
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 9 / horizontal",
+      "viewport": {
+        "width": 924,
+        "height": 412
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 9 Pro / vertical",
+      "viewport": {
+        "width": 427,
+        "height": 952
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 9 Pro / horizontal",
+      "viewport": {
+        "width": 952,
+        "height": 427
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 9 Pro XL / vertical",
+      "viewport": {
+        "width": 448,
+        "height": 997
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 9 Pro XL / horizontal",
+      "viewport": {
+        "width": 997,
+        "height": 448
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 10 / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 924
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 16; Pixel 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 10 / horizontal",
+      "viewport": {
+        "width": 924,
+        "height": 412
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 16; Pixel 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Samsung Galaxy S8+ / vertical",
+      "viewport": {
+        "width": 360,
+        "height": 740
+      },
+      "deviceScaleFactor": 4,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Samsung Galaxy S8+ / horizontal",
+      "viewport": {
+        "width": 740,
+        "height": 360
+      },
+      "deviceScaleFactor": 4,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Samsung Galaxy S20 Ultra / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "deviceScaleFactor": 3.5,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Samsung Galaxy S20 Ultra / horizontal",
+      "viewport": {
+        "width": 915,
+        "height": 412
+      },
+      "deviceScaleFactor": 3.5,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Surface Pro 7 / vertical",
+      "viewport": {
+        "width": 912,
+        "height": 1368
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "Surface Pro 7 / horizontal",
+      "viewport": {
+        "width": 1368,
+        "height": 912
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "iPad Mini / vertical",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPad Mini / horizontal",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "name": "iPad Pro 13 / vertical",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"
+    },
+    {
+      "name": "iPad Pro 13 / horizontal",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"
+    },
+    {
+      "name": "Surface Pro 10 / vertical",
+      "viewport": {
+        "width": 960,
+        "height": 1440
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "Surface Pro 10 / horizontal",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "Surface Duo / vertical",
+      "viewport": {
+        "width": 540,
+        "height": 720
+      },
+      "deviceScaleFactor": 2.5,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 11.0; Surface Duo) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Surface Duo / horizontal",
+      "viewport": {
+        "width": 720,
+        "height": 540
+      },
+      "deviceScaleFactor": 2.5,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 11.0; Surface Duo) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Surface Duo / vertical-spanned",
+      "viewport": {
+        "width": 1114,
+        "height": 720
+      },
+      "deviceScaleFactor": 2.5,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 11.0; Surface Duo) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Surface Duo / horizontal-spanned",
+      "viewport": {
+        "width": 720,
+        "height": 1114
+      },
+      "deviceScaleFactor": 2.5,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 11.0; Surface Duo) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Samsung Galaxy A55 / vertical",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "deviceScaleFactor": 2.25,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-A556B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Samsung Galaxy A55 / horizontal",
+      "viewport": {
+        "width": 800,
+        "height": 360
+      },
+      "deviceScaleFactor": 2.25,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-A556B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 9 Pro Fold / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 922
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro Fold) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 9 Pro Fold / horizontal",
+      "viewport": {
+        "width": 922,
+        "height": 412
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro Fold) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 9 Pro Fold / vertical-spanned",
+      "viewport": {
+        "width": 836,
+        "height": 842
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro Fold) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Pixel 9 Pro Fold / horizontal-spanned",
+      "viewport": {
+        "width": 842,
+        "height": 836
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro Fold) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Galaxy Z Fold 6 / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 968
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-F956U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Galaxy Z Fold 6 / horizontal",
+      "viewport": {
+        "width": 968,
+        "height": 412
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-F956U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Galaxy Z Fold 6 / vertical-spanned",
+      "viewport": {
+        "width": 744,
+        "height": 860
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-F956U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Galaxy Z Fold 6 / horizontal-spanned",
+      "viewport": {
+        "width": 860,
+        "height": 744
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-F956U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Galaxy Z Fold 5 / vertical",
+      "viewport": {
+        "width": 344,
+        "height": 882
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Galaxy Z Fold 5 / horizontal",
+      "viewport": {
+        "width": 882,
+        "height": 344
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Galaxy Z Fold 5 / vertical-spanned",
+      "viewport": {
+        "width": 690,
+        "height": 829
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Galaxy Z Fold 5 / horizontal-spanned",
+      "viewport": {
+        "width": 829,
+        "height": 690
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Asus Zenbook Fold / vertical",
+      "viewport": {
+        "width": 853,
+        "height": 1280
+      },
+      "deviceScaleFactor": 1.5,
+      "isMobile": false,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "Asus Zenbook Fold / horizontal",
+      "viewport": {
+        "width": 1280,
+        "height": 853
+      },
+      "deviceScaleFactor": 1.5,
+      "isMobile": false,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "Asus Zenbook Fold / vertical-spanned",
+      "viewport": {
+        "width": 1706,
+        "height": 1280
+      },
+      "deviceScaleFactor": 1.5,
+      "isMobile": false,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "Asus Zenbook Fold / horizontal-spanned",
+      "viewport": {
+        "width": 1280,
+        "height": 1706
+      },
+      "deviceScaleFactor": 1.5,
+      "isMobile": false,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "Samsung Galaxy A51/71 / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 914
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Samsung Galaxy A51/71 / horizontal",
+      "viewport": {
+        "width": 914,
+        "height": 412
+      },
+      "deviceScaleFactor": 2.625,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Nest Hub Max / horizontal",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 CrKey/1.54.250320"
+    },
+    {
+      "name": "Galaxy Tab S4 / vertical",
+      "viewport": {
+        "width": 712,
+        "height": 1138
+      },
+      "deviceScaleFactor": 2.25,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 8.1.0; SM-T837A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "Galaxy Tab S4 / horizontal",
+      "viewport": {
+        "width": 1138,
+        "height": 712
+      },
+      "deviceScaleFactor": 2.25,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 8.1.0; SM-T837A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "JioPhone 2 / vertical",
+      "viewport": {
+        "width": 240,
+        "height": 320
+      },
+      "deviceScaleFactor": 1,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Mobile; LYF/F300B/LYF-F300B-001-01-15-130718-i;Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
+    },
+    {
+      "name": "JioPhone 2 / horizontal",
+      "viewport": {
+        "width": 320,
+        "height": 240
+      },
+      "deviceScaleFactor": 1,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Mobile; LYF/F300B/LYF-F300B-001-01-15-130718-i;Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
+    },
+    {
+      "name": "Laptop with touch / horizontal",
+      "viewport": {
+        "width": 1280,
+        "height": 950
+      },
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": true,
+      "userAgent": ""
+    },
+    {
+      "name": "Laptop with HiDPI screen / horizontal",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "isMobile": false,
+      "hasTouch": false,
+      "userAgent": ""
+    },
+    {
+      "name": "Laptop with MDPI screen / horizontal",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false,
+      "userAgent": ""
+    },
+    {
+      "name": "Moto G4 / vertical",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Moto G4 / horizontal",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Moto G Power / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 823
+      },
+      "deviceScaleFactor": 1.75,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Moto G Power / horizontal",
+      "viewport": {
+        "width": 823,
+        "height": 412
+      },
+      "deviceScaleFactor": 1.75,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "name": "Facebook on Android / vertical",
+      "viewport": {
+        "width": 412,
+        "height": 892
+      },
+      "deviceScaleFactor": 3.5,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 12; Pixel 6 Build/SQ3A.220705.004; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/140.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/407.0.0.0.65;]"
+    },
+    {
+      "name": "Facebook on Android / horizontal",
+      "viewport": {
+        "width": 892,
+        "height": 412
+      },
+      "deviceScaleFactor": 3.5,
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 12; Pixel 6 Build/SQ3A.220705.004; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/140.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/407.0.0.0.65;]"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-require("./support/report-env.cjs").configureSquashReports();
+require("./support/report-env.cjs").configureSquashReports(process.env, process.cwd(), __dirname);
 const { defineConfig } = require("@playwright/test");
 module.exports = defineConfig({
   testDir: __dirname + "/tests",

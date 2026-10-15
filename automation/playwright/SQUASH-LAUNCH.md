@@ -55,3 +55,11 @@ ECL-TC-088 et ECL-TC-090 exécutent les profils F12 depuis ce même lancement et
 Si Squash n’affiche qu’un seul test automatisé, vérifier les références individuelles et la branche SCM : le classeur de scénario ne remplace pas le rattachement aux scripts.
 
 Références officielles : [Playwright dans Squash TM 14](https://tm-fr.doc.squashtest.com/v14/user-guide/gestion-tests-automatises/techno/playwright.html), [hooks OpenTestFactory](https://opentestfactory.org/impl/reference/hooks.html), [fournisseur Playwright](https://opentestfactory.org/providers/playwright.html).
+
+## Réduire le temps d’attente
+
+Un seul agent `eclat-ubuntu` est disponible. Les workflows supplémentaires attendent qu’il soit libéré. Éviter de relancer la même campagne pendant qu’une exécution occupe cet agent ; annuler les lancements en doublon depuis le tableau Workflows.
+
+Pour les vérifications fréquentes, créer une suite Squash **Fonctionnel** avec les 56 scénarios rattachables hors ECL-TC-088 et ECL-TC-090. Placer ces deux contrôles de toute la matrice F12 dans une suite **Appareils F12** et les exécuter séparément. Les deux suites gardent ensemble les 58 cas automatisés ; cette organisation ne change ni les références ni la couverture attendue.
+
+Le hook vérifie désormais si les exécutables des navigateurs existent avant de rappeler leur installation. Les dépendances npm sont déjà réutilisées entre les cas d’un même checkout.

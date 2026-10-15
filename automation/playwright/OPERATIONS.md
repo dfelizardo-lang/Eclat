@@ -142,3 +142,5 @@ La vérification `scripts/link-workspace-runner.test.cjs` reproduit la commande 
 ## Rapport JUnit avec Playwright récent
 
 Le fournisseur attend `playwright-report/pw_junit_report.xml` sous le workspace. Lorsque ses variables `PLAYWRIGHT_HTML_REPORT` et `PLAYWRIGHT_JUNIT_OUTPUT_NAME` sont présentes, la configuration définit un chemin JUnit absolu correspondant. Les destinations `PLAYWRIGHT_JUNIT_OUTPUT_FILE` ou `PLAYWRIGHT_JUNIT_OUTPUT_DIR` explicitement fournies sont conservées. Un test d’intégration vérifie le fichier réellement écrit avec les reporters `html,junit` du fournisseur.
+
+La remontée JUnit gère aussi un nom contenant déjà `playwright-report/`, les variables HTML modernes et le lancement depuis le parent sans variables de rapport. Des essais réels sans navigateur vérifient les fichiers XML et HTML dans les quatre dispositions ; le chemin n’est pas préfixé deux fois.

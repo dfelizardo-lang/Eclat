@@ -42,3 +42,21 @@ test('an explicit JUnit output destination is preserved',()=>{
  const b={PLAYWRIGHT_JUNIT_OUTPUT_DIR:'/custom',PLAYWRIGHT_JUNIT_OUTPUT_NAME:'pw.xml',PLAYWRIGHT_HTML_REPORT:'html'};
  configureSquashReports(b,'/workspace');assert.equal(b.PLAYWRIGHT_JUNIT_OUTPUT_FILE,undefined);
 });
+test('Squash report layouts work with modern, filename-only and absent provider variables',()=>fixture(async(workspace,project)=>{
+ linkWorkspaceRunner(project);
+ await fs.writeFile(path.join(project,'tests/report-probe.spec.js'),"const {test}=require('@playwright/test');test('REPORT-PROBE',()=>{});\n");
+ for(const variant of [
+  {PLAYWRIGHT_JUNIT_OUTPUT_NAME:'playwright-report/pw_junit_report.xml',PLAYWRIGHT_HTML_OUTPUT_DIR:'playwright-report'},
+  {PLAYWRIGHT_JUNIT_OUTPUT_NAME:'pw_junit_report.xml'},
+  {}
+ ]){
+  await fs.rm(path.join(workspace,'playwright-report'),{recursive:true,force:true});
+  const env={...process.env,PLAYWRIGHT_HTML_OPEN:'never'};
+  for(const key of ['PLAYWRIGHT_HTML_REPORT','PLAYWRIGHT_HTML_OUTPUT_DIR','PLAYWRIGHT_JUNIT_OUTPUT_NAME','PLAYWRIGHT_JUNIT_OUTPUT_FILE','PLAYWRIGHT_JUNIT_OUTPUT_DIR'])delete env[key];
+  Object.assign(env,variant);
+  const run=spawnSync(process.execPath,[path.join(workspace,'node_modules/playwright/cli.js'),'test','--config=Eclat/automation/playwright/playwright.config.js','--grep=REPORT-PROBE','--reporter=html,junit'],{cwd:workspace,encoding:'utf8',timeout:30000,env});
+  assert.equal(run.status,0,run.stdout+run.stderr);
+  assert.match(await fs.readFile(path.join(workspace,'playwright-report/pw_junit_report.xml'),'utf8'),/REPORT-PROBE/);
+  assert.ok((await fs.stat(path.join(workspace,'playwright-report/index.html'))).size>0);
+ }
+}));

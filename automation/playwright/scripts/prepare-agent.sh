@@ -14,4 +14,8 @@ fi
 # Share this exact installation there to avoid a second Playwright runner.
 node "$script_dir/link-workspace-runner.cjs"
 # OS browser dependencies must be prepared once by the administrator.
-node node_modules/playwright/cli.js install chromium firefox webkit
+if node -e 'const fs=require("node:fs"),p=require("playwright");process.exit([p.chromium,p.firefox,p.webkit].every(b=>fs.existsSync(b.executablePath()))?0:1)'; then
+  printf '%s\n' 'Navigateurs Playwright déjà disponibles : installation ignorée.'
+else
+  node node_modules/playwright/cli.js install chromium firefox webkit
+fi

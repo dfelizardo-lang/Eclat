@@ -6,7 +6,7 @@ body main{zoom:var(--comfort-scale,1)}
 body .reader-shell,body .saved-shell{zoom:var(--comfort-scale,1)}
 body.comfort-spacing main p,body.comfort-spacing .reader-text{line-height:2!important;letter-spacing:.04em!important;word-spacing:.12em!important}
 body.comfort-spacing main p{margin-block:1.5em!important}
-body.comfort-simple .hero-art,body.comfort-simple .art-orbit,body.comfort-simple .art-grain{display:none!important}
+body.comfort-simple .hero-visual,body.comfort-simple .art-orbit,body.comfort-simple .art-grain{display:none!important}
 body.comfort-simple .hero{grid-template-columns:minmax(0,1fr)!important;min-height:0!important}
 body.comfort-simple .desire{background:#173b48!important;border-radius:12px!important;box-shadow:none!important;transform:none!important}
 body.comfort-simple .desire:before,body.comfort-simple .desire:after{display:none!important}
@@ -44,3 +44,60 @@ body[data-comfort-theme] .shuffle :is(strong,small,span){color:#fff!important}
 .bedtime-audio-controls{margin:12px 0;display:flex;justify-content:center}
 .bedtime-audio-controls[hidden]{display:none}
 .bedtime-audio-controls button{min-height:48px;padding:10px 24px;border:2px solid #173b48;border-radius:999px;background:#173b48;color:#fff;font:700 1rem system-ui;cursor:pointer}
+
+body.comfort-simple .hero-art{height:100px!important;min-height:0!important}
+/* Reflow for narrow and folded DevTools viewports; content remains scrollable vertically. */
+@media(max-width:650px){
+ header{height:auto!important;min-height:66px;flex-wrap:wrap;gap:12px;padding-top:14px!important;padding-bottom:14px!important}
+ header nav{flex-wrap:wrap;gap:12px;min-width:0;max-width:100%}
+ main,.hero>div,.mood-head,.mood-actions,.form-card,.lists>*,.dates>*,.reader-shell{min-width:0}
+ .mood-actions{max-width:100%}
+ .shuffle,.continuous-home,.photo-button,.save-button{max-width:100%!important;min-width:0!important;white-space:normal!important;overflow-wrap:anywhere}
+ .reader-actions,.listen-controls,.photo-actions{flex-wrap:wrap}
+ h1,h2,h3,.desire strong,.reader-text,p{overflow-wrap:anywhere}
+ input:not([type=checkbox]):not([type=radio]),textarea,select{min-width:0;max-width:100%}
+}
+@media(max-width:360px){
+ main{padding-left:16px!important;padding-right:16px!important}
+ .form-card{padding:16px}
+ .mood-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .desire{padding:18px 12px!important}
+ .comfort-heading{flex-wrap:wrap}
+}
+/* Shared notebook presentation keeps Éclat's paper, terracotta and blue palette. */
+.notebook-page{--notebook-accent:#983b26;--notebook-soft:#f6e8df;--notebook-border:#d9cdbf}
+.notebook-page.kids-loans{--notebook-accent:#173b48;--notebook-soft:#eaf2ee;--notebook-border:#bdcec7}
+.notebook-page main{max-width:1080px}
+.notebook-page .intro{max-width:760px;margin-bottom:32px}
+.notebook-page .intro>p:last-child{font-size:16px;line-height:1.75;color:#5a534a}
+.notebook-page :is(.form-card,.loan-row,.child-book){border-color:var(--notebook-border);box-shadow:0 5px 22px #3b2f1f08}
+.notebook-page :is(.form-card,.loan-row,.child-book):focus-within{border-color:var(--notebook-accent)}
+.notebook-page :is(.photo-button,.save-button,.gallery-button){min-height:48px;font-size:14px;line-height:1.4}
+.notebook-page .save-button{background:var(--notebook-accent);color:#fff;box-shadow:0 3px 10px #17171312}
+.notebook-page .save-button:hover{filter:brightness(.92)}
+.notebook-page .photo-button{background:var(--notebook-soft);color:var(--notebook-accent)}
+.notebook-page .photo-card{border:1px solid var(--notebook-border);background:#f8f3eb}
+.notebook-page .photo-card img{background:#efe8dd}
+.notebook-page label{line-height:1.5}
+.notebook-page :is(input:not([type=checkbox]):not([type=radio]):not([type=file]),textarea){border-color:#9a8e80;background:#fffefb;line-height:1.5}
+.notebook-page :is(input,textarea):user-invalid{border:2px solid #9b2d20}
+.notebook-page .field-hint{color:#62594e;line-height:1.6}
+.notebook-page .field-count{display:block;margin:7px 0 0;color:#62594e;font-size:12px;text-align:right;font-variant-numeric:tabular-nums}
+.notebook-page .status:not(:empty){padding:12px 14px;border-left:3px solid #376247;border-radius:4px;background:#eef4ed;color:#294a34;line-height:1.6}
+.notebook-page .status.error:not(:empty){border-color:#9b2d20;background:#fff0e9;color:#812819}
+.notebook-page .save-row{padding-top:22px;border-top:1px solid var(--notebook-border)}
+.notebook-page :is(button,a,input,textarea):focus-visible{outline:3px solid var(--notebook-accent);outline-offset:4px}
+.notebook-page .photo-overview:empty+.empty{padding:24px;border:1px dashed #9a8e80;border-radius:14px;background:#faf7f1;line-height:1.7}
+body.comfort-simple :is(.form-card,.loan-row,.child-book){box-shadow:none;border-radius:12px}
+body[data-comfort-theme=dark] .notebook-page,body.notebook-page[data-comfort-theme=dark]{--notebook-border:#c4baac}
+body.notebook-page[data-comfort-theme=dark] .field-count{color:#fffdf8}
+@media(max-width:650px){
+ .notebook-page .intro{margin-bottom:24px}
+ .notebook-page h1{font-size:clamp(38px,10vw,58px)}
+ .notebook-page .save-row>div,.notebook-page .save-row>.save-button{width:100%}
+ .notebook-page .photo-actions{gap:10px}
+ .notebook-page .photo-actions>button{flex:1 1 150px;white-space:normal}
+ .notebook-page .overview-tools{align-items:stretch}
+}
+
+@media(pointer:coarse){#listenToggle,#listenStop{min-height:44px!important;min-width:44px!important}}

@@ -34,7 +34,6 @@ const routes = [
   ["/emprunts.html", "Emprunt"],
   ["/emprunts-enfants.html", "livres"],
   ["/migration.html", "Éclat"],
-  ["/accessibilite", "Éclat"],
   ["/narration-credits.html", "Éclat"],
 ];
 add(2, async ({ page }) => {
@@ -48,7 +47,7 @@ add(2, async ({ page }) => {
   await expect(page).toHaveURL(/emprunts-enfants\.html$/);
   await page.getByRole("link", { name: /Retour à l’Accueil/ }).click();
   await expect(page.locator("body")).toHaveClass(/kids/);
-  for (const path of ["/migration.html", "/accessibilite"]) {
+  for (const path of ["/migration.html"]) {
     await go(page, path);
     const link = page.getByRole("link", { name: /accueil/i }).first();
     await expect(link).toBeVisible();
@@ -63,14 +62,11 @@ add(3, async ({ page }) => {
     ["/emprunts", "#loansOverview"],
     ["/emprunts-enfants", "#bookOverview"],
     ["/migration", "#exportData"],
-    ["/accessibilite", "h1"],
     ["/narration-credits", "h1"],
   ];
   for (const [path, selector] of expected) {
     await go(page, path);
     await expect(page.locator(selector)).toBeVisible();
-    if (path === "/accessibilite")
-      await expect(page.locator("h1")).toContainText(/accessibilit/i);
     if (path === "/narration-credits")
       await expect(page.locator("h1")).toContainText(/voix/i);
     const r = await page.reload();
@@ -370,19 +366,15 @@ add(28, async ({ page }) => {
   await home(page, "child");
   await text(page, "bedtimeStory").click();
   await playing(page);
-  await expect
-    .poll(() => page.evaluate(() => window.__media[0].ended))
-    .toBe(true);
-  expect((await page.evaluate(() => window.eclatCurrentPassage)).audience).toBe(
-    "child",
-  );
-  // Explicitly stop the requested bedtime mode. This is only a precheck:
-  // the product's end/continuation policy still requires review.
+  const first = await page.evaluate(() => window.eclatCurrentPassage.id);
+  await expect.poll(() => page.evaluate(() => window.eclatCurrentPassage.id)).not.toBe(first);
+  await playing(page);
   await text(page, "bedtimeStory").click();
-  await expect(text(page, "bedtimeStory")).toHaveAttribute(
-    "aria-pressed",
-    "false",
-  );
+  await stopped(page);
+  await expect(text(page, "bedtimeStory")).toHaveAttribute("aria-pressed", "false");
+  const last=await page.evaluate(() => window.eclatCurrentPassage.id);
+  await page.waitForTimeout(2500);
+  expect(await page.evaluate(() => window.eclatCurrentPassage.id)).toBe(last);
   await stopped(page);
 });
 add(29, async ({ page }) => {
@@ -678,7 +670,12 @@ add(50, async ({ page }) => {
   ).toBeVisible();
   await expect(page.locator(".loan-row")).toHaveCount(0);
   await expect(text(page, "loansForm")).toBeVisible();
-  await text(page, "weeklyReminder").check();
+  await text(page, "returnDate").fill("2020-01-01");
+  await text(page, "saveButton").click();
+  await expect(text(page, "saveStatus")).toContainText('photo');
+  await expect(text(page, "loansForm")).toBeVisible();
+  await text(page, "galleryPhoto").setInputFiles(png);
+  await expect(page.locator('#photoList img')).toBeVisible();
   await text(page, "returnDate").fill("");
   await text(page, "saveButton").click();
   expect(
@@ -747,6 +744,9 @@ add(53, async ({ page }) => {
 });
 add(54, async ({ page }) => {
   await adultForm(page);
+  await text(page, 'returnDate').fill('2030-01-15');
+  await text(page, 'galleryPhoto').setInputFiles(png);
+  await expect(page.locator('#photoList img')).toBeVisible();
   await text(page, "galleryPhoto").setInputFiles(png);
   await expect(page.locator("#photoList img")).toBeVisible();
   await text(page, "saveButton").click();
@@ -775,6 +775,9 @@ add(54, async ({ page }) => {
 });
 add(57, async ({ page }) => {
   await adultForm(page);
+  await text(page, 'returnDate').fill('2030-01-15');
+  await text(page, 'galleryPhoto').setInputFiles(png);
+  await expect(page.locator('#photoList img')).toBeVisible();
   await text(page, "returnDate").fill("2030-01-15");
   await text(page, "weeklyReminder").check();
   await text(page, "reminderTime").fill("09:30");
@@ -1114,6 +1117,9 @@ add(91, async ({ page }) => {
   await expect(text(page, "savedBooks")).toContainText(value);
   await expect(page.locator("[data-ecl-test]")).toHaveCount(0);
   await adultForm(page);
+  await text(page, 'returnDate').fill('2030-01-15');
+  await text(page, 'galleryPhoto').setInputFiles(png);
+  await expect(page.locator('#photoList img')).toBeVisible();
   await text(page, "borrowAgain").fill(value);
   await text(page, "reserveBooks").fill(value);
   await text(page, "saveButton").click();
@@ -1156,6 +1162,97 @@ add(92, async (_args, info) => {
     }
   }
 });
+
+add(13, async ({ page }) => {
+  const p=await setupPassage(page,'work');
+  await page.evaluate(p=>{
+    const h=passageHistory();
+    for(const q of PASSAGES.filter(q=>q.audience===p.audience&&q.workTitle===p.workTitle&&q.author===p.author))h[q.id]=Date.now();
+    localStorage.setItem(passageHistoryKey(),JSON.stringify(h));
+  },p);
+  await text(page,'sameWork').click();
+  await expect(text(page,'workExhausted')).toContainText('Tous les passages disponibles');
+  expect(await page.evaluate(()=>window.eclatCurrentPassage.id)).toBe(p.id);
+  await page.getByRole('button',{name:'Découvrir une autre œuvre'}).click();
+  expect(await page.evaluate(()=>window.eclatCurrentPassage.workTitle)).not.toBe(p.workTitle);
+});
+add(55, async ({page},info)=>{
+  info.setTimeout(90000);
+  await adultForm(page);
+  for(const type of ['image/jpeg','image/png','image/webp']){
+    const data=await page.evaluate(type=>{const canvas=document.createElement('canvas');canvas.width=2;canvas.height=2;return canvas.toDataURL(type).split(',')[1]},type);
+    await text(page,'galleryPhoto').setInputFiles({name:'image',mimeType:type,buffer:Buffer.from(data,'base64')});
+    await expect(page.locator('#photoList img')).toHaveCount(1);
+    await expect(text(page,'photoStatus')).toContainText('prête');
+  }
+  await text(page,'galleryPhoto').setInputFiles({name:'unsupported.gif',mimeType:'image/gif',buffer:Buffer.from('GIF89a')});
+  await expect(text(page,'photoStatus')).toContainText('JPEG, PNG ou WebP');
+  await expect(page.locator('#photoList img')).toHaveCount(1);
+  await text(page,'galleryPhoto').setInputFiles({...png,buffer:Buffer.concat([png.buffer,Buffer.alloc(11*1024*1024)])});
+  await expect(text(page,'photoStatus')).toContainText('prête');
+  await childForm(page);
+  await text(page,'galleryPhotos').setInputFiles(Array.from({length:50},(_,i)=>({...png,name:i+'.png'})));
+  await expect(page.locator('#bookPhotos img')).toHaveCount(50);
+  await text(page,'galleryPhotos').setInputFiles(png);
+  await expect(text(page,'photoMessage')).toContainText('50 photos');
+  await expect(page.locator('#bookPhotos img')).toHaveCount(50);
+});
+add(67, async ({page})=>{
+  await childForm(page);
+  for(const id of ['bookTitle','bookAuthor'])await expect(text(page,id)).toHaveAttribute('maxlength','250');
+  await expect(text(page,'bookComment')).toHaveAttribute('maxlength','2000');
+  await text(page,'bookTitle').fill('Titre');await text(page,'bookAuthor').fill('Auteur');
+  await text(page,'bookComment').evaluate(e=>e.value='x'.repeat(2001));
+  await text(page,'saveBook').click();await expect(text(page,'bookSaveMessage')).toContainText('2 000');
+  await expect(text(page,'bookForm')).toBeVisible();
+  await text(page,'bookTitle').fill('T'.repeat(250));await text(page,'bookAuthor').fill('A'.repeat(250));await text(page,'bookComment').fill('C'.repeat(2000));
+  await text(page,'saveBook').click();await expect(text(page,'bookForm')).toBeHidden();
+  await expect(text(page,'savedBooks')).toContainText('T'.repeat(250));
+});
+add(77, async ({page})=>{
+  await home(page);
+  const result=await page.evaluate(()=>{
+    const p=PASSAGES.find(p=>p.audience==='adult'&&p.text);
+    const old=Date.now()-400*24*60*60*1000;
+    localStorage.setItem(passageHistoryKey(),JSON.stringify({[p.id]:old}));
+    const retained=passageHistory()[p.id]===old;
+    rememberPassages([p]);rememberPassages([p]);
+    return {retained,id:p.id,last:passageHistory()[p.id],count:Object.keys(passageHistory()).length};
+  });
+  expect(result.retained).toBe(true);expect(result.count).toBe(1);expect(result.last).toBeGreaterThan(Date.now()-10000);
+  await page.reload();
+  expect(await page.evaluate(id=>passageHistory()[id],result.id)).toBe(result.last);
+});
+
+async function everyF12(browser,info,check){
+  const profiles=require('../devtools-devices.json').profiles;
+  info.setTimeout(1800000);
+  const failures=[];
+  for(const {name,...device} of profiles){
+    const context=await browser.newContext({...device,locale:'fr-FR',timezoneId:'Europe/Paris',serviceWorkers:'block'});
+    try{
+      await s.secure(context);
+      const page=await context.newPage();page.setDefaultTimeout(10000);page.setDefaultNavigationTimeout(15000);
+      await test.step(name,()=>check(page,device));
+    }catch(error){failures.push({profile:name,error:error.message});}
+    finally{await context.close();}
+  }
+  await info.attach('profils-F12.json',{body:Buffer.from(JSON.stringify({profiles:profiles.length,failures},null,2)),contentType:'application/json'});
+  expect(failures,'Profils F12 en échec : '+failures.map(x=>x.profile).join(', ')).toEqual([]);
+}
+add(88,async({browser},info)=>everyF12(browser,info,page=>require('../support/responsive').checkResponsive(page,info)));
+add(90,async({browser},info)=>everyF12(browser,info,async(page,device)=>{
+  await childForm(page);await text(page,'bookTitle').fill('Brouillon conservé');await text(page,'bookAuthor').fill('Auteur');
+  await page.setViewportSize({width:device.viewport.height,height:device.viewport.width});
+  await expect(text(page,'bookTitle')).toHaveValue('Brouillon conservé');
+  await expect(text(page,'saveBook')).toBeVisible();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+  await text(page,'saveBook').click();await expect(text(page,'bookForm')).toBeHidden();
+  await audioFixture(page);await reader(page);await text(page,'listenToggle').click();await playing(page);
+  await page.setViewportSize(device.viewport);await playing(page);
+  const size=await text(page,'listenToggle').boundingBox();expect(size.width).toBeGreaterThanOrEqual(44);expect(size.height).toBeGreaterThanOrEqual(44);
+  await text(page,'listenStop').click();await stopped(page);
+}));
 
 for (const c of catalog) {
   if (c.number === 1) continue; // Kept in accueil.spec.js to preserve its existing reference.

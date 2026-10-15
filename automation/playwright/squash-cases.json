@@ -19,7 +19,7 @@
     "squashId": 16,
     "uuid": "c6e4407b-be05-45aa-95df-b91f387d62cf",
     "status": "partial",
-    "reason": "Couverture partielle : voir matrice des scénarios et compléter avant rattachement.",
+    "reason": "Page accessibilité reportée par décision produit ; routes existantes couvertes.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-002",
     "mode": "Playwright",
@@ -31,8 +31,8 @@
     "name": "URL directe",
     "squashId": 17,
     "uuid": "ccb8de17-ff98-499c-bc3a-0426ba7e5ab2",
-    "status": "implemented",
-    "reason": "",
+    "status": "partial",
+    "reason": "Page accessibilité reportée par décision produit ; routes existantes couvertes.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-003",
     "mode": "Playwright",
@@ -161,12 +161,12 @@
     "name": "Épuisement passages",
     "squashId": 11,
     "uuid": "8067ea92-4300-466e-a2ff-73887b57f627",
-    "status": "pending",
-    "reason": "Playwright. Politique de fin ou rebouclage à confirmer.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-013",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise."
   },
   {
     "number": 14,
@@ -356,12 +356,12 @@
     "name": "Fin histoire",
     "squashId": 110,
     "uuid": "775c8236-2094-44d7-af7e-12ac011e61b2",
-    "status": "partial",
-    "reason": "Précontrôle de fin naturelle du premier média et arrêt explicite du mode. Politique de continuation à confirmer.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-028",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
+    "validation": "Choix B validé : enchaînement naturel puis arrêt explicite ; à exécuter sur Ubuntu."
   },
   {
     "number": 29,
@@ -707,12 +707,12 @@
     "name": "Fichier invalide",
     "squashId": 53,
     "uuid": "fa8362cb-9d17-413b-908c-9aa17214bc0a",
-    "status": "pending",
-    "reason": "Playwright. Formats et limite de taille à fournir.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-055",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise."
   },
   {
     "number": 56,
@@ -863,12 +863,12 @@
     "name": "Validation jeunesse",
     "squashId": 92,
     "uuid": "cb0ab205-83ef-469f-9347-87cf3f1bd73e",
-    "status": "pending",
-    "reason": "Playwright. Longueur maximale et règle de dépassement à fournir.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-067",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise."
   },
   {
     "number": 68,
@@ -993,12 +993,12 @@
     "name": "Historique",
     "squashId": 96,
     "uuid": "216f3715-3789-4f33-b7ee-eeb922f1d84b",
-    "status": "pending",
-    "reason": "Playwright. Schéma historique et règle de déduplication à fournir.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-077",
     "mode": "Playwright",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "Règle produit validée et scénario ajouté ; exécution Ubuntu requise."
   },
   {
     "number": 78,
@@ -1136,12 +1136,12 @@
     "name": "Petit écran",
     "squashId": 77,
     "uuid": "b2153265-afa4-431c-a8f6-c2ca88248fd7",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-088",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "98 profils/modes F12 codés, lancement via Squash et validation agent requis."
   },
   {
     "number": 89,
@@ -1162,12 +1162,12 @@
     "name": "Orientation tactile",
     "squashId": 79,
     "uuid": "b034a8cd-a239-4acc-8150-67791c796f90",
-    "status": "pending",
-    "reason": "Playwright et revue humaine. Contrôle non implémenté dans cette version. Aucun succès automatique attribué.",
+    "status": "implemented",
+    "reason": "",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-090",
     "mode": "Playwright et revue humaine",
-    "validation": "Premier essai Ubuntu : Ignoré"
+    "validation": "98 profils/modes F12 codés, lancement via Squash et validation agent requis."
   },
   {
     "number": 91,

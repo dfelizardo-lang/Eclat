@@ -49,3 +49,18 @@ test('every adult and child reader entry has a stable content-dependent audio id
  assert.equal(new Set(input.map(p=>p.id)).size,input.length);
  for(const p of input){assert.match(p.digest,/^[a-f0-9]{64}$/);assert.match(p.text,/Ce passage est extrait de/)}
 });
+test('a timed-out manifest cannot start late audio and a fresh retry succeeds',async()=>{
+ let resolve,loads=0;const states=[],audios=[];
+ class Audio{constructor(){audios.push(this)}addEventListener(){}async play(){}pause(){}removeAttribute(){}load(){}}
+ const manifest={passages:{p:{voices:{female:{url:'/p.wav'}}}}};
+ const audio=create({Audio,loadManifest:()=>++loads===1?new Promise(r=>resolve=r):Promise.resolve(manifest),resolveURL:x=>x,notify:s=>states.push(s),finish:()=>assert.fail('Timeout must not advance'),currentToken:()=>1,timeoutMs:10});
+ const pending=audio.start(1,{id:'p'},'female',1);
+ await new Promise(r=>setTimeout(r,25));assert.equal(states.at(-1),'error');assert.equal(audio.active,false);
+ resolve(manifest);await pending;assert.equal(audios.length,0);
+ await audio.start(1,{id:'p'},'female',1);assert.equal(states.at(-1),'playing');assert.equal(audios.length,1);audio.stop();
+});
+test('an audio stall fails with paused media and cannot advance after stop',async()=>{
+ const s=setup();await s.audio.start(1,{id:'p'},'female',1);s.audios[0].listeners.error();
+ assert.equal(s.audios[0].playing,false);assert.equal(s.audio.active,false);assert.equal(s.states.at(-1),'error');
+ s.audios[0].listeners.ended();assert.deepEqual(s.finished,[]);
+});

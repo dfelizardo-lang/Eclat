@@ -10,7 +10,7 @@
     "file": "accueil.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#accueil.spec.js#ECL-TC-001",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 2,
@@ -23,7 +23,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-002",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec"
   },
   {
     "number": 3,
@@ -36,7 +36,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-003",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec"
   },
   {
     "number": 4,
@@ -49,7 +49,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-004",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 5,
@@ -62,7 +62,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-005",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 6,
@@ -75,7 +75,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-006",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 7,
@@ -88,7 +88,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-007",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 8,
@@ -101,7 +101,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-008",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 9,
@@ -114,7 +114,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-009",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 10,
@@ -127,7 +127,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-010",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 11,
@@ -140,7 +140,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-011",
     "mode": "Contrôle de données / API avec outillage complémentaire",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 12,
@@ -153,7 +153,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-012",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 13,
@@ -166,7 +166,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-013",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 14,
@@ -179,7 +179,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-014",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 15,
@@ -192,7 +192,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-015",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 16,
@@ -205,7 +205,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-016",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 17,
@@ -218,7 +218,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-017",
     "mode": "Vérification humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 18,
@@ -231,7 +231,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-018",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 19,
@@ -244,7 +244,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-019",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 20,
@@ -257,7 +257,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-020",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 21,
@@ -270,7 +270,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-021",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 22,
@@ -283,7 +283,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-022",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 23,
@@ -296,7 +296,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-023",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 24,
@@ -309,7 +309,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-024",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 25,
@@ -322,7 +322,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-025",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
   },
   {
     "number": 26,
@@ -335,7 +335,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-026",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
   },
   {
     "number": 27,
@@ -348,7 +348,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-027",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 28,
@@ -357,11 +357,11 @@
     "squashId": 110,
     "uuid": "775c8236-2094-44d7-af7e-12ac011e61b2",
     "status": "partial",
-    "reason": "Précontrôle de fin média. Observation durable de l’absence d’enchaînement à compléter.",
+    "reason": "Précontrôle de fin naturelle du premier média et arrêt explicite du mode. Politique de continuation à confirmer.",
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-028",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
   },
   {
     "number": 29,
@@ -374,7 +374,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-029",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
   },
   {
     "number": 30,
@@ -387,7 +387,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-030",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 31,
@@ -400,7 +400,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-031",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 32,
@@ -413,7 +413,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-032",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 33,
@@ -426,7 +426,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-033",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 34,
@@ -439,7 +439,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-034",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 35,
@@ -452,7 +452,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-035",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 36,
@@ -465,7 +465,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-036",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 37,
@@ -478,7 +478,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-037",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 38,
@@ -491,7 +491,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-038",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 39,
@@ -504,7 +504,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-039",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec"
   },
   {
     "number": 40,
@@ -517,7 +517,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-040",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 41,
@@ -530,7 +530,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-041",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 42,
@@ -543,7 +543,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-042",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 43,
@@ -556,7 +556,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-043",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 44,
@@ -569,7 +569,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-044",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
   },
   {
     "number": 45,
@@ -582,7 +582,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-045",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 46,
@@ -595,7 +595,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-046",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
   },
   {
     "number": 47,
@@ -608,7 +608,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-047",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 48,
@@ -621,7 +621,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-048",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
   },
   {
     "number": 49,
@@ -634,7 +634,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-049",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 50,
@@ -647,7 +647,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-050",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec"
   },
   {
     "number": 51,
@@ -660,7 +660,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-051",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Échec. Script corrigé, nouvelle exécution requise."
   },
   {
     "number": 52,
@@ -673,7 +673,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-052",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 53,
@@ -686,7 +686,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-053",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 54,
@@ -699,7 +699,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-054",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 55,
@@ -712,7 +712,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-055",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 56,
@@ -725,7 +725,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-056",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 57,
@@ -738,7 +738,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-057",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 58,
@@ -751,7 +751,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-058",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 59,
@@ -764,7 +764,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-059",
     "mode": "Vérification humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 60,
@@ -777,7 +777,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-060",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 61,
@@ -790,7 +790,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-061",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 62,
@@ -803,7 +803,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-062",
     "mode": "Contrôle de données / API avec outillage complémentaire",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 63,
@@ -816,7 +816,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-063",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 64,
@@ -829,7 +829,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-064",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 65,
@@ -842,7 +842,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-065",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 66,
@@ -855,7 +855,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-066",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 67,
@@ -868,7 +868,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-067",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 68,
@@ -881,7 +881,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-068",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 69,
@@ -894,7 +894,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-069",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 70,
@@ -907,7 +907,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-070",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 71,
@@ -920,7 +920,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-071",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 72,
@@ -933,7 +933,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-072",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 73,
@@ -946,7 +946,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-073",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 74,
@@ -959,7 +959,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-074",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 75,
@@ -972,7 +972,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-075",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 76,
@@ -985,7 +985,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-076",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 77,
@@ -998,7 +998,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-077",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 78,
@@ -1011,7 +1011,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-078",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 79,
@@ -1024,7 +1024,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-079",
     "mode": "Contrôle de données / API avec outillage complémentaire",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 80,
@@ -1037,7 +1037,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-080",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 81,
@@ -1050,7 +1050,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-081",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 82,
@@ -1063,7 +1063,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-082",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 83,
@@ -1076,7 +1076,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-083",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 84,
@@ -1089,7 +1089,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-084",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 85,
@@ -1102,7 +1102,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-085",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 86,
@@ -1115,7 +1115,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-086",
     "mode": "Vérification humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 87,
@@ -1128,7 +1128,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-087",
     "mode": "Vérification humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 88,
@@ -1141,7 +1141,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-088",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 89,
@@ -1154,7 +1154,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-089",
     "mode": "Vérification humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 90,
@@ -1167,7 +1167,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-090",
     "mode": "Playwright et revue humaine",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 91,
@@ -1180,7 +1180,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-091",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 92,
@@ -1193,7 +1193,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-092",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Réussi"
   },
   {
     "number": 93,
@@ -1206,7 +1206,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-093",
     "mode": "Playwright",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 94,
@@ -1219,7 +1219,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-094",
     "mode": "Appium / appareil Android",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 95,
@@ -1232,7 +1232,7 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-095",
     "mode": "Appium / appareil Android",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   },
   {
     "number": 96,
@@ -1245,6 +1245,6 @@
     "file": "eclat.spec.js",
     "automatedReference": "Eclat/automation/playwright/tests#eclat.spec.js#ECL-TC-096",
     "mode": "Appium / appareil Android",
-    "validation": "Exécution navigateur non validée dans cet environnement"
+    "validation": "Premier essai Ubuntu : Ignoré"
   }
 ]

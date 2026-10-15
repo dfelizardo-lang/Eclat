@@ -113,21 +113,19 @@ function book(id = "ECL-A") {
   };
 }
 async function importBackup(page, data) {
-  await page
-    .locator("#importData")
-    .setInputFiles({
-      name: "test.json",
-      mimeType: "application/json",
-      buffer: Buffer.from(JSON.stringify(data)),
-    });
+  await page.locator("#importData").setInputFiles({
+    name: "test.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(data)),
+  });
   await expect(page.locator("#confirmImport")).toBeEnabled();
   await page.locator("#confirmImport").click();
   await expect(page.locator("#transferStatus")).toContainText(
     "entrées importées",
   );
 }
-function wav() {
-  const samples = 8000 * 12,
+function wav(seconds = 12) {
+  const samples = Math.round(8000 * seconds),
     b = Buffer.alloc(44 + samples * 2);
   b.write("RIFF");
   b.writeUInt32LE(b.length - 8, 4);
@@ -148,7 +146,7 @@ function wav() {
     );
   return b;
 }
-async function audioFixture(page, mode = "ok") {
+async function audioFixture(page, mode = "ok", seconds = 12) {
   await page.addInitScript(() => {
     window.__media = [];
     const Native = window.Audio;
@@ -183,7 +181,7 @@ async function audioFixture(page, mode = "ok") {
   await page.route("**/__eclat_test__/*.wav", async (route) => {
     if (mode === "slow") await gate;
     if (mode === "error") return route.fulfill({ status: 404, body: "" });
-    await route.fulfill({ contentType: "audio/wav", body: wav() });
+    await route.fulfill({ contentType: "audio/wav", body: wav(seconds) });
   });
   return release;
 }
@@ -191,7 +189,14 @@ async function playing(page) {
   await expect
     .poll(() =>
       page.evaluate(
-        () => window.__media.filter((a) => !a.paused && !a.ended).length,
+        () =>
+          window.__media.filter(
+            (a) =>
+              !a.paused &&
+              !a.ended &&
+              !a.error &&
+              a.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA,
+          ).length,
       ),
     )
     .toBe(1);
@@ -200,7 +205,14 @@ async function stopped(page) {
   await expect
     .poll(() =>
       page.evaluate(
-        () => window.__media.filter((a) => !a.paused && !a.ended).length,
+        () =>
+          window.__media.filter(
+            (a) =>
+              !a.paused &&
+              !a.ended &&
+              !a.error &&
+              a.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA,
+          ).length,
       ),
     )
     .toBe(0);

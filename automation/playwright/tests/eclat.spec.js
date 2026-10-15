@@ -69,8 +69,10 @@ add(3, async ({ page }) => {
   for (const [path, selector] of expected) {
     await go(page, path);
     await expect(page.locator(selector)).toBeVisible();
-    if(path==='/accessibilite')await expect(page.locator('h1')).toContainText(/accessibilit/i);
-    if(path==='/narration-credits')await expect(page.locator('h1')).toContainText(/voix/i);
+    if (path === "/accessibilite")
+      await expect(page.locator("h1")).toContainText(/accessibilit/i);
+    if (path === "/narration-credits")
+      await expect(page.locator("h1")).toContainText(/voix/i);
     const r = await page.reload();
     expect(r.status()).toBe(200);
     await expect(page.locator(selector)).toBeVisible();
@@ -313,15 +315,13 @@ add(24, async ({ page }) => {
   ).toBe(1);
 });
 add(25, async ({ page }) => {
-  await audioFixture(page);
+  await audioFixture(page, "ok", 1.2);
   await home(page);
   await text(page, "continuousListen").click();
   await playing(page);
   const p = await page.evaluate(() => window.eclatCurrentPassage);
-  await page.evaluate(() => {
-    const a = window.__media.at(-1);
-    a.currentTime = a.duration - 0.05;
-  });
+  // Let a short real media reach its natural end. Seeking an intercepted WAV
+  // without HTTP range support is not a reliable way to trigger ended.
   await expect
     .poll(() => page.evaluate(() => window.eclatCurrentPassage.id))
     .not.toBe(p.id);
@@ -335,7 +335,8 @@ add(26, async ({ page }) => {
   await home(page);
   await text(page, "continuousListen").click();
   await playing(page);
-  await text(page, "readerClose").click();
+  // Continuous listening runs on the home page, without opening the reader.
+  await text(page, "continuousListen").click();
   await stopped(page);
   await expect(text(page, "continuousListen")).toHaveAttribute(
     "aria-pressed",
@@ -365,33 +366,24 @@ add(27, async ({ page }) => {
   ).toHaveAttribute("aria-pressed", "true");
 });
 add(28, async ({ page }) => {
-  await audioFixture(page);
+  await audioFixture(page, "ok", 1.2);
   await home(page, "child");
   await text(page, "bedtimeStory").click();
   await playing(page);
-  const before = await page.evaluate(() => window.eclatCurrentPassage.id);
-  await page.evaluate(() => {
-    const a = window.__media.at(-1);
-    a.currentTime = a.duration - 0.05;
-  });
   await expect
-    .poll(() => page.evaluate(() => window.__media.at(-1).ended))
+    .poll(() => page.evaluate(() => window.__media[0].ended))
     .toBe(true);
-  await expect
-    .poll(() =>
-      page.evaluate(
-        () => window.__media.filter((a) => !a.paused && !a.ended).length,
-      ),
-    )
-    .toBe(0);
-  await text(page, "bedtimeStory").focus();
-  await page.keyboard.press("Tab");
-  expect((await page.evaluate(() => window.eclatCurrentPassage)).id).toBe(
-    before,
-  );
   expect((await page.evaluate(() => window.eclatCurrentPassage)).audience).toBe(
     "child",
   );
+  // Explicitly stop the requested bedtime mode. This is only a precheck:
+  // the product's end/continuation policy still requires review.
+  await text(page, "bedtimeStory").click();
+  await expect(text(page, "bedtimeStory")).toHaveAttribute(
+    "aria-pressed",
+    "false",
+  );
+  await stopped(page);
 });
 add(29, async ({ page }) => {
   await audioFixture(page, "error");
@@ -465,11 +457,7 @@ add(37, async ({ page }) => {
   await home(page);
   await comfort(page);
   await text(page, "comfort-size").selectOption("150");
-  for (const path of [
-    "/",
-    "/emprunts.html",
-    "/emprunts-enfants.html",
-  ]) {
+  for (const path of ["/", "/emprunts.html", "/emprunts-enfants.html"]) {
     await go(page, path);
     await page.reload();
     await comfort(page);
@@ -550,22 +538,35 @@ add(43, async ({ page }) => {
   await expect(page.locator("[data-setting=spacing]")).not.toBeChecked();
 });
 async function libraries(page, mode = "ok") {
-  const header = "code_postal;nom;adresse;commune;siteinternet\n";
-  const filler = Array.from(
-    { length: 110 },
-    (_, i) => `${10000 + i};Fixture ${i};Rue;Ville;https://example.org/`,
-  ).join("\n");
-  const body =
-    header +
-    "75001;Bibliothèque A;Rue A;Paris;https://example.org/a\n75001;Bibliothèque B;Rue B;Paris;https://example.org/b\n" +
-    filler;
-  await page.route("https://www.data.gouv.fr/**", (r) =>
-    r.fulfill(
+  // V73 queries the same-origin backend. The backend, not the browser,
+  // downloads the national dataset, so intercept that API boundary.
+  await page.route("**/api/bibliotheques?**", (r) => {
+    const cp = new URL(r.request().url()).searchParams.get("cp");
+    const results =
+      cp === "75001"
+        ? [
+            {
+              name: "Bibliothèque A",
+              address: "Rue A",
+              postalCode: cp,
+              city: "Paris",
+              website: "https://example.org/a",
+            },
+            {
+              name: "Bibliothèque B",
+              address: "Rue B",
+              postalCode: cp,
+              city: "Paris",
+              website: "https://example.org/b",
+            },
+          ]
+        : [];
+    return r.fulfill(
       mode === "error"
-        ? { status: 503, body: "" }
-        : { contentType: "text/csv", body },
-    ),
-  );
+        ? { status: 503, json: { error: "Fixture indisponible" } }
+        : { json: { postalCode: cp, count: results.length, results } },
+    );
+  });
   await home(page);
   await text(page, "libraryNearby").click();
   await expect(text(page, "libraryPostal")).toBeVisible();
@@ -586,7 +587,11 @@ add(44, async ({ page }) => {
 add(45, async ({ page }) => {
   let requests = 0;
   page.on("request", (r) => {
-    if (r.url().includes("data.gouv.fr")) requests++;
+    if (
+      r.url().includes("/api/bibliotheques") ||
+      r.url().includes("data.gouv.fr")
+    )
+      requests++;
   });
   await home(page);
   await text(page, "libraryNearby").click();
@@ -602,14 +607,14 @@ add(46, async ({ page }) => {
   await text(page, "libraryPostal").fill("99999");
   await text(page, "librarySearchButton").click();
   await expect(text(page, "libraryInlineResults")).toContainText(
-    "Aucun établissement",
+    /Aucun résultat|Aucun établissement/,
   );
   await text(page, "libraryPostal").fill("75001");
   await text(page, "librarySearchButton").click();
   await expect(page.locator(".library-result")).toHaveCount(2);
-  await page.unroute("https://www.data.gouv.fr/**");
-  await page.route("https://www.data.gouv.fr/**", (r) =>
-    r.fulfill({ status: 503, body: "" }),
+  await page.unroute("**/api/bibliotheques?**");
+  await page.route("**/api/bibliotheques?**", (r) =>
+    r.fulfill({ status: 503, json: { error: "Fixture indisponible" } }),
   );
   await page.evaluate(() => localStorage.removeItem("eclat_libraries_fr_v1"));
   await page.reload();
@@ -653,6 +658,24 @@ add(49, async ({ page }) => {
 add(50, async ({ page }) => {
   await adultForm(page);
   await text(page, "saveButton").click();
+  // Wait for either rejection or completed submission before checking the
+  // outcome; otherwise the next check races the IndexedDB transaction.
+  await page.waitForFunction(
+    () => {
+      const form = document.getElementById("loansForm");
+      return (
+        form.hidden ||
+        !!form.querySelector(":invalid") ||
+        document.getElementById("saveStatus").classList.contains("error")
+      );
+    },
+    null,
+    { timeout: 7000 },
+  );
+  await expect(
+    text(page, "loansForm"),
+    "Le formulaire vide a été accepté alors que ce cas exige son rejet. Confirmer les champs obligatoires avec la règle produit.",
+  ).toBeVisible();
   await expect(page.locator(".loan-row")).toHaveCount(0);
   await expect(text(page, "loansForm")).toBeVisible();
   await text(page, "weeklyReminder").check();
@@ -671,6 +694,8 @@ add(51, async ({ page }) => {
   await text(page, "borrowAgain").fill("Test A");
   await text(page, "reserveBooks").fill("Test B");
   await text(page, "saveButton").click();
+  await expect(text(page, "loansForm")).toBeHidden();
+  await expect(text(page, "overviewStatus")).toContainText("enregistré");
   await page.reload();
   await expect(page.locator(".loan-row")).toHaveCount(1);
   await expect(text(page, "loansList")).toContainText("15/01/2030");

@@ -130,3 +130,11 @@ exclus ne deviennent pas automatisés du seul fait de figurer dans la campagne.
 
 Références : [OpenTestFactory Playwright](https://opentestfactory.org/providers/playwright.html),
 [association Squash 14](https://tm-fr.doc.squashtest.com/v14/user-guide/gestion-tests-automatises/associer-script-automatise.html).
+
+## Blocage commun avant exécution : deux installations Playwright
+
+Le journal du 15 octobre 2026 signalait `Playwright Test did not expect test.use() to be called here`, puis `No tests found`, avant toute assertion applicative. Cette erreur est reproduite lorsque le lanceur utilise une autre copie de Playwright que celle importée par les tests, même si les versions sont identiques.
+
+Le hook prépare maintenant les dépendances du projet puis expose cette même installation dans le dossier parent du checkout, d’où le fournisseur lance `npx`. Le contrôle compare les chemins réels des paquets et refuse de remplacer une installation étrangère. Le `test.use()` des tests est conservé.
+
+La vérification `scripts/link-workspace-runner.test.cjs` reproduit la commande `npx --no-install playwright test` depuis un workspace isolé, avec la référence et la configuration Squash. Elle vérifie le cas 001 et les 96 cas sans lancer de navigateur. La validation du scénario complet reste à effectuer depuis Squash.

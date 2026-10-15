@@ -10,5 +10,8 @@ if [ ! -f node_modules/.eclat-lock.sha256 ] || [ "$(cat node_modules/.eclat-lock
   npm ci --no-audit --no-fund
   printf '%s\n' "$lock_hash" > node_modules/.eclat-lock.sha256
 fi
-# OS dependencies and the global Playwright CLI must be prepared once by the administrator.
-npx --no-install playwright install chromium firefox webkit
+# The provider invokes npx from the checkout parent, not this project directory.
+# Share this exact installation there to avoid a second Playwright runner.
+node "$script_dir/link-workspace-runner.cjs"
+# OS browser dependencies must be prepared once by the administrator.
+node node_modules/playwright/cli.js install chromium firefox webkit

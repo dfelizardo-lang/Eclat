@@ -35,7 +35,7 @@ Le fournisseur lance les tests depuis le parent du checkout. La configuration do
 
 6. Préparer le checkout réellement utilisé par l’agent à chaque clonage. Le fichier `playwright-provider-hooks.yaml` et le script `scripts/prepare-agent.sh` sont fournis pour cela. Monter le YAML dans le conteneur orchestrateur et définir **PLAYWRIGHT_PROVIDER_HOOKS** avec son chemin interne dans la configuration de déploiement existante. Ne pas recréer le conteneur sans reprendre ses volumes, ports et authentification. Ce branchement dépend du fichier Docker/Compose utilisé sur votre poste et reste à effectuer sur cette installation.
 
-Sur le compte système qui exécute l’agent, l’administrateur installe une fois le CLI Playwright et les dépendances Linux des navigateurs. Les dépendances npm du projet sont ensuite gérées par le hook. Le script de préparation ne lance pas les tests.
+Sur le compte système qui exécute l’agent, l’administrateur prépare Node, npm et les dépendances Linux des navigateurs. Le hook installe les dépendances npm du projet et expose la même copie de Playwright au lanceur dans le parent du checkout. Il évite ainsi le conflit entre une installation globale ou mise en cache et celle du projet. Le script de préparation ne lance pas les tests.
 
 ## Choisir l’application testée
 

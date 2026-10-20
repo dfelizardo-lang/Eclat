@@ -140,7 +140,7 @@
       const photo = await preparePhoto(input.files[0]);
       photos = [photo]; renderPhotos(); changed();
       message(photoStatus, 'Votre photo d’ensemble est prête à être enregistrée.');
-    } catch { message(photoStatus, 'Cette photo n’a pas pu être ouverte. Essayez une image JPEG ou PNG.', true); }
+    } catch { message(photoStatus, 'Cette photo n’a pas pu être ouverte. Essayez une image JPEG, PNG ou WebP.', true); }
     finally { input.value = ''; busy = false; saveButton.disabled = !db; enablePhotoControls(!!db); }
   }
   fileInput.addEventListener('change', addOverviewPhoto);

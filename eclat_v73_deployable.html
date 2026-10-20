@@ -1492,7 +1492,7 @@ function passageHistory(){
    Object.entries(raw).forEach(([id,ts])=>{
      if(Number.isFinite(ts) && now-ts<PASSAGE_EMBARGO_MS) clean[id]=ts;
    });
-   localStorage.setItem(passageHistoryKey(),JSON.stringify(clean));
+   // Conserver l'historique complet : seul le filtrage en mémoire expire après 30 jours.
    return clean;
  }catch(e){return{}}
 }

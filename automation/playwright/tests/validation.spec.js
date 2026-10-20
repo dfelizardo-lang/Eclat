@@ -26,11 +26,10 @@ test('ECL-VAL-JEUNESSE ouverture et saisie du formulaire', async ({ page }) => {
   await page.locator('#bookAuthor').fill('Antoine de Saint-Exupéry');
   await page.locator('#bookComment').fill('Validation Playwright du formulaire jeunesse.');
   await expect(page.locator('#saveBook')).toBeEnabled();
-
   await assertNoHorizontalOverflow(page);
 });
 
-test('ECL-VAL-ADULTE ouverture et fermeture du formulaire', async ({ page }) => {
+test('ECL-VAL-ADULTE création et enregistrement d’un emprunt', async ({ page }) => {
   const response = await page.goto('/emprunts.html', { waitUntil: 'domcontentloaded' });
   expect(response).not.toBeNull();
   expect(response.status()).toBe(200);
@@ -44,10 +43,18 @@ test('ECL-VAL-ADULTE ouverture et fermeture du formulaire', async ({ page }) => 
   await expect(page.locator('#loansOverview')).toBeHidden();
   await expect(page.locator('#loansForm')).toBeVisible();
 
-  await page.locator('#borrowAgain').fill('Validation Playwright');
-  await page.locator('#cancelLoan').click();
-  await expect(page.locator('#loansForm')).toBeHidden();
-  await expect(page.locator('#loansOverview')).toBeVisible();
+  await page.locator('#returnDate').fill('2030-01-15');
+  await page.locator('#galleryPhoto').setInputFiles({
+    name: 'loan.png',
+    mimeType: 'image/png',
+    buffer: Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4z8DwHwAFAAH/iZk9HQAAAABJRU5ErkJggg==','base64')
+  });
+  await expect(page.locator('#photoList img')).toBeVisible();
+  await expect(page.locator('#saveButton')).toBeEnabled();
 
+  await page.locator('#saveButton').click();
+  await expect(page.locator('#loansForm')).toBeHidden({timeout: 30000});
+  await expect(page.locator('#loansOverview')).toBeVisible();
+  await expect(page.locator('#loansList .loan-row')).toHaveCount(1);
   await assertNoHorizontalOverflow(page);
 });

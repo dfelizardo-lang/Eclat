@@ -57,3 +57,14 @@ header{height:auto!important;min-height:66px;flex-wrap:wrap;gap:12px;padding-blo
  .home-row{justify-content:stretch}.home-row>a{width:100%;text-align:center}
  .stars{gap:8px}.stars label{padding:8px}
 }
+
+/* Keep form controls usable at 200% zoom and narrow landscape viewports. */
+@media(max-width:760px){
+ #bookForm,#loansForm{max-width:100%;min-width:0}
+ .overview-heading>*,.save-row>*,.photo-actions>*,.library-url-row>*{min-width:0;max-width:100%}
+ .photo-actions{flex-wrap:wrap}
+ .photo-actions button{flex:1 1 180px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important;scroll-behavior:auto!important}
+}

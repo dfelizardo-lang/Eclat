@@ -1501,9 +1501,13 @@ function passageIsEmbargoed(id){
  return !!ts && (Date.now()-ts)<PASSAGE_EMBARGO_MS;
 }
 function rememberPassages(passages){
- const h=passageHistory(), now=Date.now();
- passages.forEach(p=>{if(p?.id)h[p.id]=now});
- try{localStorage.setItem(passageHistoryKey(),JSON.stringify(h))}catch(e){}
+ const now=Date.now();
+ try{
+   const previous=JSON.parse(localStorage.getItem(passageHistoryKey())||"{}");
+   const h=previous&&typeof previous==="object"&&!Array.isArray(previous)?previous:{};
+   passages.forEach(p=>{if(p?.id)h[p.id]=now});
+   localStorage.setItem(passageHistoryKey(),JSON.stringify(h));
+ }catch(e){}
 }
 function recentPassages(){return Object.keys(passageHistory())}
 

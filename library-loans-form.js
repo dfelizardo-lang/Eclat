@@ -36,7 +36,13 @@
     records.sort((a,b) => (b.createdAt || b.updatedAt || '').localeCompare(a.createdAt || a.updatedAt || '')).forEach(record => {
       const row = document.createElement('article'); row.className = 'loan-row form-card';
       const photo = record.photos && record.photos[0];
-      if (photo && photo.blob) { const img = document.createElement('img'); img.src = URL.createObjectURL(photo.blob); listUrls.push(img.src); img.alt = 'Photo d’ensemble des livres empruntés'; row.append(img); }
+      if (photo && (photo.dataUrl || photo.blob)) {
+        const img = document.createElement('img');
+        if (photo.dataUrl) img.src = photo.dataUrl;
+        else { img.src = URL.createObjectURL(photo.blob); listUrls.push(img.src); }
+        img.alt = 'Photo d’ensemble des livres empruntés';
+        row.append(img);
+      }
       const copy = document.createElement('div'); const title = document.createElement('h3');
       const date = record.createdAt || record.updatedAt;
       title.textContent = date ? 'Emprunt du ' + new Date(date).toLocaleDateString('fr-FR') : 'Emprunt enregistré'; copy.append(title);
@@ -114,7 +120,8 @@
     photos.slice(0,1).forEach(photo => {
       const card = document.createElement('figure'); card.className = 'photo-card';
       const img = document.createElement('img');
-      img.src = URL.createObjectURL(photo.blob); urls.push(img.src);
+      if (photo.dataUrl) img.src = photo.dataUrl;
+      else { img.src = URL.createObjectURL(photo.blob); urls.push(img.src); }
       img.alt = 'Photo d’ensemble de tous les livres empruntés';
       const remove = document.createElement('button'); remove.type = 'button'; remove.textContent = 'Retirer la photo';
       remove.setAttribute('aria-label', 'Retirer la photo d’ensemble');
@@ -131,11 +138,9 @@
       const canvas = document.createElement('canvas');
       canvas.width = Math.max(1, Math.round(img.naturalWidth * scale)); canvas.height = Math.max(1, Math.round(img.naturalHeight * scale));
       const context = canvas.getContext('2d'); context.fillStyle = '#ffffff'; context.fillRect(0, 0, canvas.width, canvas.height); context.drawImage(img, 0, 0, canvas.width, canvas.height);
-      const rendered = await new Promise((resolve, reject) => canvas.toBlob(result => result ? resolve(result) : reject(new Error('Image conversion failed')), 'image/jpeg', .85));
-      // Materialize canvas output before IndexedDB. This avoids WebKit keeping a
-      // transient canvas-backed Blob alive during a transaction.
-      const blob = new Blob([await rendered.arrayBuffer()], {type:'image/jpeg'});
-      return {id: crypto.randomUUID(), blob, originalName: file.name};
+      const dataUrl = canvas.toDataURL('image/jpeg', .85);
+      if (!dataUrl || !dataUrl.startsWith('data:image/jpeg')) throw new Error('Image conversion failed');
+      return {id: crypto.randomUUID(), dataUrl, originalName: file.name};
     } finally { URL.revokeObjectURL(url); }
   }
   function enablePhotoControls(enabled) {

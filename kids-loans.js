@@ -1,7 +1,7 @@
 (() => {
  const $=id=>document.getElementById(id),form=$('bookForm'),overview=$('bookOverview');let db,records=[],currentId=null,photos=[],photoUrls=[],listUrls=[],busy=false,revision=0;
  const message=(id,text,error=false)=>{$(id).textContent=text;$(id).classList.toggle('error',error);};
- const changed=()=>{revision++;message('bookSaveMessage','Pense à enregistrer tes changements.');};
+ const changed=()=>{revision++;const comment=$('bookComment');const limit=comment && [...comment.value].length>=2000;message('bookSaveMessage',limit?'Limite de 2 000 caractères atteinte.':'Pense à enregistrer tes changements.');};
  const localDate=date=>new Date(date).toLocaleDateString('fr-FR');
  function database(){return new Promise((resolve,reject)=>{const r=indexedDB.open('eclat-kids-reading',1);r.onupgradeneeded=()=>r.result.createObjectStore('books',{keyPath:'id'});r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);r.onblocked=()=>reject(new Error('Storage blocked'));});}
  function readBooks(){return new Promise((resolve,reject)=>{const r=db.transaction('books').objectStore('books').getAll();r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});}

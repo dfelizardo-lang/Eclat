@@ -12,8 +12,8 @@
  function notify(state){
   const icon=document.getElementById('listenIcon'),label=document.getElementById('listenLabel'),status=document.getElementById('listenStatus');
   if(icon)icon.textContent=state==='playing'?'Ⅱ':'▶';
-  if(label)label.textContent=state==='playing'?'Pause':state==='paused'||state==='ready'?'Continuer':child()?'Raconte-moi':'Écouter';
-  document.getElementById('listenToggle')?.setAttribute('aria-label',state==='playing'?'Mettre la lecture en pause':state==='paused'||state==='ready'?'Continuer la lecture':document.body.classList.contains('kids')?'Raconte-moi':'Écouter le texte');
+  if(label)label.textContent=state==='playing'?'Pause':state==='paused'||state==='ready'?'Continuer':state==='error'?'Réessayer':child()?'Raconte-moi':'Écouter';
+  document.getElementById('listenToggle')?.setAttribute('aria-label',state==='playing'?'Mettre la lecture en pause':state==='paused'||state==='ready'?'Continuer la lecture':state==='error'?'Réessayer la lecture':document.body.classList.contains('kids')?'Raconte-moi':'Écouter le texte');
   if(status)status.textContent=({loading:child()?'Ton histoire se prépare…':'Votre lecture se prépare…',playing:'Lecture en cours',paused:'Lecture en pause',ready:'Appuie sur Continuer pour écouter.',error:'Cette voix est momentanément indisponible. Réessaie.'})[state]||'';
   if(typeof bedtimeMode!=='undefined'&&bedtimeMode){
    bedtimeControls.hidden=false;bedtimeToggle.disabled=state==='loading';

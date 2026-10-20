@@ -2,7 +2,7 @@
 (function(root,factory){const create=factory();if(typeof module==='object'&&module.exports)module.exports=create;else root.createEclatChildAudio=create})(typeof window==='object'?window:globalThis,function(){
  return function create({Audio,loadManifest,resolveURL,notify,finish,currentToken}){
   let manifestPromise=null,session=null,generation=0;
-  function stop(){generation++;if(session){session.audio?.pause();if(session.audio){session.audio.removeAttribute('src');session.audio.load()}session=null}}
+  function stop(){generation++;const previous=session;session=null;if(previous?.audio){previous.audio.pause();previous.audio.removeAttribute('src');previous.audio.load()}}
   function valid(s){return session===s&&s.generation===generation&&s.token===currentToken()}
   async function play(s){
    if(!valid(s))return;

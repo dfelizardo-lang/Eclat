@@ -1,0 +1,20 @@
+name: Éclat - régressions des corrections Squash
+on:
+  push:
+    branches:
+      - main
+      - fix/squash-followup-20261020
+  pull_request:
+    branches:
+      - main
+jobs:
+  regressions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Vérifier l'historique, l'export et l'audio
+        run: node --test eclat-regressions.test.js child-audio.test.js

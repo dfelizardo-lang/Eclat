@@ -1492,7 +1492,7 @@ function passageHistory(){
    Object.entries(raw).forEach(([id,ts])=>{
      if(Number.isFinite(ts) && now-ts<PASSAGE_EMBARGO_MS) clean[id]=ts;
    });
-   localStorage.setItem(passageHistoryKey(),JSON.stringify(clean));
+   // Conserver l'historique complet : seul le filtrage en mémoire expire après 30 jours.
    return clean;
  }catch(e){return{}}
 }
@@ -1501,9 +1501,13 @@ function passageIsEmbargoed(id){
  return !!ts && (Date.now()-ts)<PASSAGE_EMBARGO_MS;
 }
 function rememberPassages(passages){
- const h=passageHistory(), now=Date.now();
- passages.forEach(p=>{if(p?.id)h[p.id]=now});
- try{localStorage.setItem(passageHistoryKey(),JSON.stringify(h))}catch(e){}
+ const now=Date.now();
+ try{
+   const previous=JSON.parse(localStorage.getItem(passageHistoryKey())||"{}");
+   const h=previous&&typeof previous==="object"&&!Array.isArray(previous)?previous:{};
+   passages.forEach(p=>{if(p?.id)h[p.id]=now});
+   localStorage.setItem(passageHistoryKey(),JSON.stringify(h));
+ }catch(e){}
 }
 function recentPassages(){return Object.keys(passageHistory())}
 
@@ -1948,7 +1952,17 @@ document.getElementById("listenToggle")?.addEventListener("click",()=>{
    document.getElementById("listenLabel").textContent=mode==="child"?"Continuer":"Reprendre";
  }
 });
-document.getElementById("listenStop")?.addEventListener("click",stopReading);
+document.getElementById("listenStop")?.addEventListener("click",()=>{
+ continuousMode=false;
+ const continuous=document.getElementById("continuousListen");
+ if(continuous){
+   continuous.setAttribute("aria-pressed","false");
+   const label=continuous.querySelector("strong"),help=continuous.querySelector("small");
+   if(label)label.textContent="Lecture libre";
+   if(help)help.textContent="Au hasard, en continu";
+ }
+ stopReading();
+});
 document.getElementById("listenVoice")?.addEventListener("change",applySpeechSettingLive);
 document.getElementById("listenRate")?.addEventListener("change",applySpeechSettingLive);
 if("speechSynthesis" in window){

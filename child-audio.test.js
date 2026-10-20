@@ -49,3 +49,13 @@ test('every adult and child reader entry has a stable content-dependent audio id
  assert.equal(new Set(input.map(p=>p.id)).size,input.length);
  for(const p of input){assert.match(p.digest,/^[a-f0-9]{64}$/);assert.match(p.text,/Ce passage est extrait de/)}
 });
+
+test('stopping narration clears the session before late audio events',async()=>{
+ const s=setup();await s.audio.start(1,{id:'p'},'female',1);
+ const previous=s.audios[0];s.audio.stop();
+ assert.equal(s.audio.active,false);
+ assert.equal(previous.playing,false);
+ previous.listeners.ended();previous.listeners.error();
+ assert.equal(s.audio.active,false);
+ assert.deepEqual(s.finished,[]);
+});

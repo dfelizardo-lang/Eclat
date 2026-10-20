@@ -53,7 +53,31 @@ test('ECL-VAL-ADULTE création et enregistrement d’un emprunt', async ({ page 
   await expect(page.locator('#saveButton')).toBeEnabled();
 
   await page.locator('#saveButton').click();
-  await expect(page.locator('#loansForm')).toBeHidden({timeout: 30000});
+  await page.waitForTimeout(2000);
+  const saveDiagnostic = await page.evaluate(async () => {
+    const records = await new Promise(resolve => {
+      const request = indexedDB.open('eclat-library-loans', 1);
+      request.onerror = () => resolve([]);
+      request.onsuccess = () => {
+        const db = request.result;
+        const tx = db.transaction('notebooks', 'readonly');
+        const get = tx.objectStore('notebooks').getAll();
+        get.onsuccess = () => resolve(get.result);
+        get.onerror = () => resolve([]);
+      };
+    });
+    return {
+      formHidden: document.getElementById('loansForm').hidden,
+      overviewHidden: document.getElementById('loansOverview').hidden,
+      saveStatus: document.getElementById('saveStatus').textContent,
+      saveDisabled: document.getElementById('saveButton').disabled,
+      loanRows: document.querySelectorAll('#loansList .loan-row').length,
+      storedRecords: records.length,
+      storedPhotoKeys: Object.keys(records[0]?.photos?.[0] || {})
+    };
+  });
+  console.log('ECLAT_SAVE_DIAGNOSTIC '+JSON.stringify(saveDiagnostic));
+  await expect(page.locator('#loansForm')).toBeHidden({timeout: 28000});
   await expect(page.locator('#loansOverview')).toBeVisible();
   await expect(page.locator('#loansList .loan-row')).toHaveCount(1);
   await assertNoHorizontalOverflow(page);

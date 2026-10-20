@@ -23,7 +23,7 @@ jobs:
           cache: npm
           cache-dependency-path: automation/playwright/package-lock.json
       - run: npm ci --no-audit --no-fund
-      - run: npx playwright install --with-deps chromium webkit
+      - run: npx playwright install --with-deps chromium firefox webkit
       - name: Valider formulaires, navigateurs et profils mobiles
         env:
           ECLAT_BASE_URL: https://eclatsclassiques.com

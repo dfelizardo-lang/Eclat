@@ -149,6 +149,11 @@
   form.addEventListener('submit', async event => {
     event.preventDefault();
     if (!db || busy) return;
+    const hasContent = photos.length > 0 || ['returnDate', 'borrowAgain', 'reserveBooks'].some(id => document.getElementById(id).value.trim() !== '');
+    if (!hasContent) {
+      message(status, 'Ajoutez une photo, une date de retour ou au moins un livre avant d’enregistrer.', true);
+      return;
+    }
     busy = true; saveButton.disabled = true; enablePhotoControls(false);
     message(status, 'Enregistrement…');
     const savedRevision = revision;

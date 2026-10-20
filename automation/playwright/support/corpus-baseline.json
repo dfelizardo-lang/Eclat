@@ -1,0 +1,4296 @@
+{
+  "date": "2026-10-20",
+  "source": "Published Sites source catalogue, commit b9181acfa91eedfb4cfa556d4bb60a2a9149192d",
+  "catalogueSha256": "ce894f537475d7534fec97938da178aec17226f41ba6045eb9a8a0e18ab8127d",
+  "editorialApproval": false,
+  "passages": [
+    {
+      "id": "Guy de Maupassant::Le Horla::0",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Le Horla",
+      "source": "https://fr.wikisource.org/wiki/Le_Horla_(nouvelle)",
+      "textHash": "240eb09e0acf8703d7d49278a905fb0cd44b2afa059c897afda183960cddb080"
+    },
+    {
+      "id": "Guy de Maupassant::Le Horla::1",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Le Horla",
+      "source": "https://fr.wikisource.org/wiki/Le_Horla_(nouvelle)",
+      "textHash": "0ae61ce29ebe20e3354b40f141809e88bebb0d657434fd940749f2505c107084"
+    },
+    {
+      "id": "Guy de Maupassant::Amour::0",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Amour",
+      "source": "https://fr.wikisource.org/wiki/Le_Horla_(recueil,_Ollendorff_1895)/Amour",
+      "textHash": "13b9c8e6369ec9ec9c05397f7c059ce9d58b6097dc280cade8c396b187d7f5f8"
+    },
+    {
+      "id": "Guy de Maupassant::Amour::1",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Amour",
+      "source": "https://fr.wikisource.org/wiki/Le_Horla_(recueil,_Ollendorff_1895)/Amour",
+      "textHash": "1021aa1bdc6b463e1827b2b42aa25bddde946b1853165b663a21b591455c8dd8"
+    },
+    {
+      "id": "Guy de Maupassant::Le Diable::0",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Le Diable",
+      "source": "https://fr.wikisource.org/wiki/Le_Diable_(Maupassant)",
+      "textHash": "c89e871306ade610b437f525038444232b3d813668fdcffaaab21f905f215031"
+    },
+    {
+      "id": "Guy de Maupassant::Le Diable::1",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Le Diable",
+      "source": "https://fr.wikisource.org/wiki/Le_Diable_(Maupassant)",
+      "textHash": "adf69077460b25e1391d80b51ff1e4facc9ee09897363d3b062c76f4d852337f"
+    },
+    {
+      "id": "Jules Verne::Vingt mille lieues sous les mers::0",
+      "audience": "adult",
+      "author": "Jules Verne",
+      "workTitle": "Vingt mille lieues sous les mers",
+      "source": "https://fr.wikisource.org/wiki/Vingt_mille_lieues_sous_les_mers/Partie_1/Chapitre_2",
+      "textHash": "3a252e1625b106058cbe7e4d1e822f2caf8a19f0d696e34052d49dc4c73816bd"
+    },
+    {
+      "id": "Jules Verne::Vingt mille lieues sous les mers::1",
+      "audience": "adult",
+      "author": "Jules Verne",
+      "workTitle": "Vingt mille lieues sous les mers",
+      "source": "https://fr.wikisource.org/wiki/Vingt_mille_lieues_sous_les_mers/Partie_1/Chapitre_2",
+      "textHash": "7dddc4a16c5555e618c0f6a0cda3ba911f6b6bdc098ad6adbf28f1d8da8f8ede"
+    },
+    {
+      "id": "Jules Verne::Vingt mille lieues sous les mers::2",
+      "audience": "adult",
+      "author": "Jules Verne",
+      "workTitle": "Vingt mille lieues sous les mers",
+      "source": "https://fr.wikisource.org/wiki/Vingt_mille_lieues_sous_les_mers/Partie_1/Chapitre_2",
+      "textHash": "6fda5ef1bd393648cf08ff4b7598bdb6b3fb78e0daab6d5d82c63be813cd3588"
+    },
+    {
+      "id": "Charles Perrault::Le Petit Chaperon rouge::0",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Le Petit Chaperon rouge",
+      "source": "https://fr.wikisource.org/wiki/Œuvres_choisies_de_Charles_Perrault,_édition_1826/Contes_de_ma_mère_l’Oye/Le_Petit_Chaperon_Rouge",
+      "textHash": "2523b96cf46d5c9924252bc276d79f16c7e8633e45d8f3dbb3ec94cbeea03d94"
+    },
+    {
+      "id": "Charles Perrault::Le Petit Chaperon rouge::1",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Le Petit Chaperon rouge",
+      "source": "https://fr.wikisource.org/wiki/Œuvres_choisies_de_Charles_Perrault,_édition_1826/Contes_de_ma_mère_l’Oye/Le_Petit_Chaperon_Rouge",
+      "textHash": "057bbe3040799d1285d0ce947b07d4d8a95fa131bdd95f5ee58bcbac4d658788"
+    },
+    {
+      "id": "Charles Perrault::Le Petit Chaperon rouge::2",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Le Petit Chaperon rouge",
+      "source": "https://fr.wikisource.org/wiki/Œuvres_choisies_de_Charles_Perrault,_édition_1826/Contes_de_ma_mère_l’Oye/Le_Petit_Chaperon_Rouge",
+      "textHash": "367e2349d4d215e37e1dd308335b75884275d08f713bbd95b3fca6f10e08ca32"
+    },
+    {
+      "id": "Charles Perrault::Le Petit Chaperon rouge::3",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Le Petit Chaperon rouge",
+      "source": "https://fr.wikisource.org/wiki/Œuvres_choisies_de_Charles_Perrault,_édition_1826/Contes_de_ma_mère_l’Oye/Le_Petit_Chaperon_Rouge",
+      "textHash": "09970f4988feb7a8679155237a3a6ad0824107043b7930081e79a93d696573a3"
+    },
+    {
+      "id": "Charles Deulin::L’Ourse::0",
+      "audience": "child",
+      "author": "Charles Deulin",
+      "workTitle": "L’Ourse",
+      "source": "https://fr.wikisource.org/wiki/L’Ourse",
+      "textHash": "7a7e7310c1bbbaed161545ae059e82585961b5143c6ab032b254d76ae57be966"
+    },
+    {
+      "id": "Charles Deulin::L’Ourse::1",
+      "audience": "child",
+      "author": "Charles Deulin",
+      "workTitle": "L’Ourse",
+      "source": "https://fr.wikisource.org/wiki/L’Ourse",
+      "textHash": "b1576060150acc59889d132bb8fdbcf951e0c2e7f352697108ee154d23fbca45"
+    },
+    {
+      "id": "Charles Deulin::L’Ourse::2",
+      "audience": "child",
+      "author": "Charles Deulin",
+      "workTitle": "L’Ourse",
+      "source": "https://fr.wikisource.org/wiki/L’Ourse",
+      "textHash": "b7225cd0336cdc12768c1e17ca3b16add98af6b19cfefe796bf35ec45f1ce5fe"
+    },
+    {
+      "id": "Charles Perrault::Cendrillon::0",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Cendrillon",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Cendrillon_ou_la_petite_Pantoufle_de_verre",
+      "textHash": "9909bbe79a655634fe2e785a6e922080e1a5875902d45f6cba7b27d4303d17c7"
+    },
+    {
+      "id": "Charles Perrault::Cendrillon::1",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Cendrillon",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Cendrillon_ou_la_petite_Pantoufle_de_verre",
+      "textHash": "10df2d67cd61868bbbf0937ad8df6d08dcc05eca5a059df96736c44d44d804d2"
+    },
+    {
+      "id": "Charles Perrault::Cendrillon::2",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Cendrillon",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Cendrillon_ou_la_petite_Pantoufle_de_verre",
+      "textHash": "4b8dc660758daaedb9da98dfefaa3dfd4e41d44fc17cf4f393a6e601d803de67"
+    },
+    {
+      "id": "Charles Perrault::Le Petit Poucet::0",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Le Petit Poucet",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Le_Petit_Poucet",
+      "textHash": "4353b15f9cdf12c16011abadbe2fcdb6d9c9f9d7005921c242de7ac7cebcf509"
+    },
+    {
+      "id": "Charles Perrault::Le Petit Poucet::1",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Le Petit Poucet",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Le_Petit_Poucet",
+      "textHash": "06c7a80d1900c7cc9a3e2c1c62cb28fcb06a7a96053ab2b47878b5b562b1a166"
+    },
+    {
+      "id": "Charles Perrault::Le Petit Poucet::2",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Le Petit Poucet",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Le_Petit_Poucet",
+      "textHash": "bb0743cb632357544295f0b6fc308fa6544755d3865f935d50d85e6e36537568"
+    },
+    {
+      "id": "Charles Perrault::La Belle au bois dormant::0",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "La Belle au bois dormant",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/La_Belle_au_Bois_dormant",
+      "textHash": "5796d4312215ca77b7ce26f1486dab4a0924caf9c060f2815778b581d1bf280f"
+    },
+    {
+      "id": "Charles Perrault::La Belle au bois dormant::1",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "La Belle au bois dormant",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/La_Belle_au_Bois_dormant",
+      "textHash": "00ec3cabdb5e3630535d568490933d6b99c2047908970eeb2d2f537ee5f7634b"
+    },
+    {
+      "id": "Charles Perrault::Les Fées::0",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Les Fées",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Les_Fées",
+      "textHash": "eb139c91fd73b46fe5086e9a78caf506ba7af9f27bc78bc1567d274a5feb430a"
+    },
+    {
+      "id": "Charles Perrault::Les Fées::1",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Les Fées",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Les_Fées",
+      "textHash": "26baaf14a4f9b657fe02a95656890fb5224530ae8109c0e18a96dae2cc9f10b1"
+    },
+    {
+      "id": "Charles Perrault::Les Fées::2",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Les Fées",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(éd._1902)/Les_Fées",
+      "textHash": "7dbc25c0f138d7b95b5e17a8464be5db3fe0de2076f62a3d81bdac5b07f091fc"
+    },
+    {
+      "id": "Théophile Gautier::La Cafetière::0",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "La Cafetière",
+      "source": "https://fr.wikisource.org/wiki/Contes_humoristiques/La_Cafetière",
+      "textHash": "51ac8afe0222549e89928292be8f87b6951a4945cc2095975354ac4913617967"
+    },
+    {
+      "id": "Théophile Gautier::La Cafetière::1",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "La Cafetière",
+      "source": "https://fr.wikisource.org/wiki/Contes_humoristiques/La_Cafetière",
+      "textHash": "77b991eca969c76140f03f306f79b2a5faece61071076503141b9e5c3991cf28"
+    },
+    {
+      "id": "Théophile Gautier::La Cafetière::2",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "La Cafetière",
+      "source": "https://fr.wikisource.org/wiki/Contes_humoristiques/La_Cafetière",
+      "textHash": "53c8317c99d0af491bf60e1e68cb43053a788ea22fc98afe46a3ebdf7cddaeb9"
+    },
+    {
+      "id": "Prosper Mérimée::Carmen::0",
+      "audience": "adult",
+      "author": "Prosper Mérimée",
+      "workTitle": "Carmen",
+      "source": "https://fr.wikisource.org/wiki/Carmen_(Mérimée)/Carmen",
+      "textHash": "a074acdd0254d26ff19d582fdab10df64daa8371dfcff03f6714b3cc21cf8f87"
+    },
+    {
+      "id": "Prosper Mérimée::Carmen::1",
+      "audience": "adult",
+      "author": "Prosper Mérimée",
+      "workTitle": "Carmen",
+      "source": "https://fr.wikisource.org/wiki/Carmen_(Mérimée)/Carmen",
+      "textHash": "f76ef377a8db493c75294710461da68793f99b3f8580647d2ec9a00e1d0b10c0"
+    },
+    {
+      "id": "daudet-lettres-moulin-p01",
+      "audience": "adult",
+      "author": "Alphonse Daudet",
+      "workTitle": "Lettres de mon moulin",
+      "source": "https://fr.wikisource.org/wiki/Lettres_de_mon_moulin/Les_%C3%A9toiles",
+      "textHash": "370a2d8b48a5c599ae8f159e530b43c0efd507f8054c767c09f654ea1f5cc138"
+    },
+    {
+      "id": "daudet-lettres-moulin-p02",
+      "audience": "adult",
+      "author": "Alphonse Daudet",
+      "workTitle": "Lettres de mon moulin",
+      "source": "https://fr.wikisource.org/wiki/Lettres_de_mon_moulin/Les_%C3%A9toiles",
+      "textHash": "e25fd907afbbffa671c12d6f929652e8986d467e1c31d7e9a630c267031a25d4"
+    },
+    {
+      "id": "daudet-lettres-moulin-p03",
+      "audience": "adult",
+      "author": "Alphonse Daudet",
+      "workTitle": "Lettres de mon moulin",
+      "source": "https://fr.wikisource.org/wiki/Lettres_de_mon_moulin/Les_%C3%A9toiles",
+      "textHash": "927a095bdf3f1cd4415d5d1ba0ccb02e3116a3ffca67623b7382246369133460"
+    },
+    {
+      "id": "flaubert-trois-contes-p01",
+      "audience": "adult",
+      "author": "Gustave Flaubert",
+      "workTitle": "Trois contes",
+      "source": "https://fr.wikisource.org/wiki/Trois_Contes_(Flaubert)/Un_C%C5%93ur_simple",
+      "textHash": "2bd8202d30ed98a6aebe9f17707de2990610ab5cddec90eacddeb75434f3113c"
+    },
+    {
+      "id": "flaubert-trois-contes-p02",
+      "audience": "adult",
+      "author": "Gustave Flaubert",
+      "workTitle": "Trois contes",
+      "source": "https://fr.wikisource.org/wiki/Trois_Contes_(Flaubert)/Un_C%C5%93ur_simple",
+      "textHash": "ba4e7f4259a136de149d9d9545f57eb30d1c7d9aa114bb349c0303f20e2541f4"
+    },
+    {
+      "id": "flaubert-trois-contes-p03",
+      "audience": "adult",
+      "author": "Gustave Flaubert",
+      "workTitle": "Trois contes",
+      "source": "https://fr.wikisource.org/wiki/Trois_Contes_(Flaubert)/Un_C%C5%93ur_simple",
+      "textHash": "c914aede4955c88f0011fce9a38033a3ffd2797ce5d84b295a276910c77c06e8"
+    },
+    {
+      "id": "gautier-roman-momie-p01",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "Le Roman de la momie",
+      "source": "https://fr.wikisource.org/wiki/Le_Roman_de_la_momie/Chapitre_7",
+      "textHash": "24a649fc1fa4bf68b7d06f7f518985ce45aa06a44fee50fec40c09b4498bad11"
+    },
+    {
+      "id": "gautier-roman-momie-p02",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "Le Roman de la momie",
+      "source": "https://fr.wikisource.org/wiki/Le_Roman_de_la_momie/Chapitre_7",
+      "textHash": "3353b2a992bbeadcdf46a1b7627c8275053d6b0238ec02417f3549afc281f1cd"
+    },
+    {
+      "id": "gautier-roman-momie-p03",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "Le Roman de la momie",
+      "source": "https://fr.wikisource.org/wiki/Le_Roman_de_la_momie/Chapitre_7",
+      "textHash": "368594514ab7fc6f36a7438abdab6fe275c8a2a134778e1eb5bb6f24b35994d7"
+    },
+    {
+      "id": "nerval-main-enchantee-p01",
+      "audience": "adult",
+      "author": "Gérard de Nerval",
+      "workTitle": "La Main enchantée",
+      "source": "https://fr.wikisource.org/wiki/%C5%92uvres_compl%C3%A8tes_de_G%C3%A9rard_de_Nerval_-_Tome_V/La_Main_enchant%C3%A9e",
+      "textHash": "8e2fd79e68a733b9456eb8ce952169bf15799bae60736d696077a36826f56c8d"
+    },
+    {
+      "id": "nerval-main-enchantee-p02",
+      "audience": "adult",
+      "author": "Gérard de Nerval",
+      "workTitle": "La Main enchantée",
+      "source": "https://fr.wikisource.org/wiki/%C5%92uvres_compl%C3%A8tes_de_G%C3%A9rard_de_Nerval_-_Tome_V/La_Main_enchant%C3%A9e",
+      "textHash": "256e1dedbe81dcbd244b34426044f6d785f7df08cedaf9a549da5a0011aa89b8"
+    },
+    {
+      "id": "nerval-main-enchantee-p03",
+      "audience": "adult",
+      "author": "Gérard de Nerval",
+      "workTitle": "La Main enchantée",
+      "source": "https://fr.wikisource.org/wiki/%C5%92uvres_compl%C3%A8tes_de_G%C3%A9rard_de_Nerval_-_Tome_V/La_Main_enchant%C3%A9e",
+      "textHash": "e4200b32c7016731a1985e4e2b4812a4c28b96b592b884fc0c3844014bf18ee2"
+    },
+    {
+      "id": "perrault-riquet-p01",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Riquet à la houppe",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(%C3%A9d._1902)/Riquet_%C3%A0_la_Houppe",
+      "textHash": "f4b99a9b2f5d7378192aa852ba82c464e303730fc03ecedccda7a24675f55147"
+    },
+    {
+      "id": "perrault-riquet-p02",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Riquet à la houppe",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(%C3%A9d._1902)/Riquet_%C3%A0_la_Houppe",
+      "textHash": "4ddee7ec2096954ad9e84424841cd00d6770279a787e82923c0ef0050f5f0c44"
+    },
+    {
+      "id": "perrault-riquet-p03",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Riquet à la houppe",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Perrault_(%C3%A9d._1902)/Riquet_%C3%A0_la_Houppe",
+      "textHash": "2ab43e4643ee3b12220cdf14b094fcf9c847446e4a5044847fb50f41583e2cb5"
+    },
+    {
+      "id": "verne-cinq-semaines-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Cinq Semaines en ballon",
+      "source": "https://fr.wikisource.org/wiki/Cinq_Semaines_en_ballon/Texte_entier",
+      "textHash": "ad9c13adbb4ac678099015eec7f847bed374812c3244b734a0b3cb472cce62e7"
+    },
+    {
+      "id": "verne-cinq-semaines-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Cinq Semaines en ballon",
+      "source": "https://fr.wikisource.org/wiki/Cinq_Semaines_en_ballon/Texte_entier",
+      "textHash": "b0aa89e8271673610a1efbe3a1348d2db2758381fb6187e050e44dea5b6e34b6"
+    },
+    {
+      "id": "verne-cinq-semaines-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Cinq Semaines en ballon",
+      "source": "https://fr.wikisource.org/wiki/Cinq_Semaines_en_ballon/Texte_entier",
+      "textHash": "8033117974f77947bc7654a592d8a7295f3f756297d781eca5c322471c7fe364"
+    },
+    {
+      "id": "verne-tour-monde-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Tour du monde en quatre-vingts jours",
+      "source": "https://fr.wikisource.org/wiki/Le_Tour_du_monde_en_quatre-vingts_jours/Texte_entier",
+      "textHash": "8d2d9a13a2bd4c897e96ae7fa89a4ebb6144edbc2b646888ade0bb37a38e1971"
+    },
+    {
+      "id": "verne-tour-monde-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Tour du monde en quatre-vingts jours",
+      "source": "https://fr.wikisource.org/wiki/Le_Tour_du_monde_en_quatre-vingts_jours/Texte_entier",
+      "textHash": "7ca4a257b02ebd851d24ca8a794d2d808649beb28864c96200658d51ce2eba79"
+    },
+    {
+      "id": "verne-tour-monde-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Tour du monde en quatre-vingts jours",
+      "source": "https://fr.wikisource.org/wiki/Le_Tour_du_monde_en_quatre-vingts_jours/Texte_entier",
+      "textHash": "82963f428b117ad37b25825dd0d8f3e0974e90b543cc1d90e083df33723188e5"
+    },
+    {
+      "id": "verne-voyage-centre-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Voyage au centre de la Terre",
+      "source": "https://fr.wikisource.org/wiki/Voyage_au_centre_de_la_Terre/Texte_entier",
+      "textHash": "04e46d72100e361b2f03519dcfd3bca66924835763a9a54bfb01bed12eea278c"
+    },
+    {
+      "id": "verne-voyage-centre-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Voyage au centre de la Terre",
+      "source": "https://fr.wikisource.org/wiki/Voyage_au_centre_de_la_Terre/Texte_entier",
+      "textHash": "09b3f43830be867e96f45d2bc7a04b1121fd07153538598b94f55832bac2110f"
+    },
+    {
+      "id": "verne-voyage-centre-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Voyage au centre de la Terre",
+      "source": "https://fr.wikisource.org/wiki/Voyage_au_centre_de_la_Terre/Texte_entier",
+      "textHash": "88b243848d0408bc4ef0a679b54e72fe0aae11c69c6a5952cb982c475a4b1217"
+    },
+    {
+      "id": "sand-mare-diable-p01",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "La Mare au diable",
+      "source": "https://fr.wikisource.org/wiki/La_Mare_au_diable/Texte_entier",
+      "textHash": "e581504f5191578c776204a979156d8de3032b602ed3da18961a6ecca6204a69"
+    },
+    {
+      "id": "sand-mare-diable-p02",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "La Mare au diable",
+      "source": "https://fr.wikisource.org/wiki/La_Mare_au_diable/Texte_entier",
+      "textHash": "574581c26a6f823539ad1fc57329841cee30f3ade613d7216f95a6a946898d4d"
+    },
+    {
+      "id": "sand-mare-diable-p03",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "La Mare au diable",
+      "source": "https://fr.wikisource.org/wiki/La_Mare_au_diable/Texte_entier",
+      "textHash": "6009ab14ac11115472433d147910c424f29d47aecd06a3d0bada94e9ad7790c3"
+    },
+    {
+      "id": "balzac-pere-goriot-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Père Goriot",
+      "source": "https://fr.wikisource.org/wiki/Le_P%C3%A8re_Goriot_(1855)",
+      "textHash": "cd47494f348577643ac6f51f6562671906f215d34a3f15172bb44a60149ac98c"
+    },
+    {
+      "id": "balzac-pere-goriot-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Père Goriot",
+      "source": "https://fr.wikisource.org/wiki/Le_P%C3%A8re_Goriot_(1855)",
+      "textHash": "a4b0ad5456d5aa9616b58e680f82cf7bb539f44da63e9bfb023bdc995132f982"
+    },
+    {
+      "id": "balzac-pere-goriot-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Père Goriot",
+      "source": "https://fr.wikisource.org/wiki/Le_P%C3%A8re_Goriot_(1855)",
+      "textHash": "14bd61ec3dddfa13c3814d0bc1c491270892d709ab0519d0f4c14a822e92b3e2"
+    },
+    {
+      "id": "zola-bonheur-dames-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Au Bonheur des Dames",
+      "source": "https://fr.wikisource.org/wiki/Au_bonheur_des_dames/Texte_entier",
+      "textHash": "79bbe5cc52118128887eab99331499b175d20e5de9c70f8c9f31867d01eadc14"
+    },
+    {
+      "id": "zola-bonheur-dames-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Au Bonheur des Dames",
+      "source": "https://fr.wikisource.org/wiki/Au_bonheur_des_dames/Texte_entier",
+      "textHash": "8555c62170fad7c2db680982e7fed7d48995f78e6184c53faaf97e936ac94983"
+    },
+    {
+      "id": "zola-bonheur-dames-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Au Bonheur des Dames",
+      "source": "https://fr.wikisource.org/wiki/Au_bonheur_des_dames/Texte_entier",
+      "textHash": "0c17d99633662c22ace6ec6e339133e9808cef2776d31565a948330031af379d"
+    },
+    {
+      "id": "hugo-miserables-p01",
+      "audience": "adult",
+      "author": "Victor Hugo",
+      "workTitle": "Les Misérables",
+      "source": "https://fr.wikisource.org/wiki/Les_Mis%C3%A9rables/Tome_1/Livre_1/01",
+      "textHash": "88d7c36869710ea66c4d6efb55eb8eb966d8d12cb96c6b34ff28d1ceed60ed39"
+    },
+    {
+      "id": "hugo-miserables-p02",
+      "audience": "adult",
+      "author": "Victor Hugo",
+      "workTitle": "Les Misérables",
+      "source": "https://fr.wikisource.org/wiki/Les_Mis%C3%A9rables/Tome_1/Livre_1/01",
+      "textHash": "d4ffe92b9d4d8df2cd5f6de23d120ac411dd6d0d97c9b9c4fbc3f636c40c61ae"
+    },
+    {
+      "id": "hugo-miserables-p03",
+      "audience": "adult",
+      "author": "Victor Hugo",
+      "workTitle": "Les Misérables",
+      "source": "https://fr.wikisource.org/wiki/Les_Mis%C3%A9rables/Tome_1/Livre_1/01",
+      "textHash": "5cf1e2849876add0ea116fde06098479d4454536d5541a36708437e28a75aa8d"
+    },
+    {
+      "id": "stendhal-rouge-noir-p01",
+      "audience": "adult",
+      "author": "Stendhal",
+      "workTitle": "Le Rouge et le Noir",
+      "source": "https://fr.wikisource.org/wiki/Le_Rouge_et_le_Noir/Texte_entier",
+      "textHash": "1489c99e349b263be6bbfb93e18814df51f0c09c296a289589e6f696543ea2cb"
+    },
+    {
+      "id": "stendhal-rouge-noir-p02",
+      "audience": "adult",
+      "author": "Stendhal",
+      "workTitle": "Le Rouge et le Noir",
+      "source": "https://fr.wikisource.org/wiki/Le_Rouge_et_le_Noir/Texte_entier",
+      "textHash": "4a2de06e5bbc98cef2d2a2a8e60b0f30039a2f62241bea7504c259f4b07f9356"
+    },
+    {
+      "id": "stendhal-rouge-noir-p03",
+      "audience": "adult",
+      "author": "Stendhal",
+      "workTitle": "Le Rouge et le Noir",
+      "source": "https://fr.wikisource.org/wiki/Le_Rouge_et_le_Noir/Texte_entier",
+      "textHash": "ed1169e025a410801ea2d0f0a8e971c1a0b0f0a982670166e38faa150bfadba8"
+    },
+    {
+      "id": "voltaire-candide-p01",
+      "audience": "adult",
+      "author": "Voltaire",
+      "workTitle": "Candide, ou l’Optimisme",
+      "source": "https://fr.wikisource.org/wiki/Candide,_ou_l%E2%80%99Optimisme/Garnier_1877/Chapitre_1",
+      "textHash": "c5e3a789b3ac26fb2a8f8184fd9c55738b6b08c015f6d06c0fc0d32b2c497076"
+    },
+    {
+      "id": "voltaire-candide-p02",
+      "audience": "adult",
+      "author": "Voltaire",
+      "workTitle": "Candide, ou l’Optimisme",
+      "source": "https://fr.wikisource.org/wiki/Candide,_ou_l%E2%80%99Optimisme/Garnier_1877/Chapitre_1",
+      "textHash": "a5caf29c9fc935800e730e837f79557fb4299b033e508e7354bdf1c286d55fa9"
+    },
+    {
+      "id": "voltaire-candide-p03",
+      "audience": "adult",
+      "author": "Voltaire",
+      "workTitle": "Candide, ou l’Optimisme",
+      "source": "https://fr.wikisource.org/wiki/Candide,_ou_l%E2%80%99Optimisme/Garnier_1877/Chapitre_1",
+      "textHash": "3fbfb0a0ea8df5a7373fa5d1a3c5aa6312552c01cb5d124b0f2324e9fbb1ddf5"
+    },
+    {
+      "id": "segur-malheurs-sophie-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Malheurs de Sophie",
+      "source": "https://fr.wikisource.org/wiki/Les_Malheurs_de_Sophie/Texte_entier",
+      "textHash": "2ceaa1649d042abba3f01fbb6ae7aa5f5ef6bd21ccd21e1ff9905c9fb5e0d841"
+    },
+    {
+      "id": "segur-malheurs-sophie-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Malheurs de Sophie",
+      "source": "https://fr.wikisource.org/wiki/Les_Malheurs_de_Sophie/Texte_entier",
+      "textHash": "9ceaf6677afde73a88219f79f66a25c48577eb1da65aa9110322e84fb15ad5d3"
+    },
+    {
+      "id": "segur-malheurs-sophie-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Malheurs de Sophie",
+      "source": "https://fr.wikisource.org/wiki/Les_Malheurs_de_Sophie/Texte_entier",
+      "textHash": "fca26222366e73ec70f4e99258779a6957e50e308ceee7edc3953661396f78e7"
+    },
+    {
+      "id": "segur-petites-filles-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Petites Filles modèles",
+      "source": "https://fr.wikisource.org/wiki/Les_Petites_Filles_mod%C3%A8les/Texte_entier",
+      "textHash": "1d090be4c4eba27e3523034feaa2c5fcae418ecf767bffa3dd7a506a17b4cd75"
+    },
+    {
+      "id": "segur-petites-filles-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Petites Filles modèles",
+      "source": "https://fr.wikisource.org/wiki/Les_Petites_Filles_mod%C3%A8les/Texte_entier",
+      "textHash": "81385a562d2478396e9f95b5b712869e5cc786f4f1d1e58f2551c2c580282472"
+    },
+    {
+      "id": "segur-petites-filles-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Petites Filles modèles",
+      "source": "https://fr.wikisource.org/wiki/Les_Petites_Filles_mod%C3%A8les/Texte_entier",
+      "textHash": "7f13b69f8e29a18aef9de03e9a7ec6143800c4b1c085ff7ce7125cbf60483fd9"
+    },
+    {
+      "id": "segur-bon-petit-diable-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Un bon petit diable",
+      "source": "https://fr.wikisource.org/wiki/Un_bon_petit_diable/1",
+      "textHash": "47332dcff10c24ce61a13ef1091c1df03ec1b80b6f70075e2e48f4b9c873fa33"
+    },
+    {
+      "id": "segur-bon-petit-diable-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Un bon petit diable",
+      "source": "https://fr.wikisource.org/wiki/Un_bon_petit_diable/1",
+      "textHash": "febffc95fb77c0f86889ef911ffe3b953ccdc35324b193f35d108c19238cec39"
+    },
+    {
+      "id": "segur-bon-petit-diable-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Un bon petit diable",
+      "source": "https://fr.wikisource.org/wiki/Un_bon_petit_diable/1",
+      "textHash": "fd72df7a05901c84cda4c9fbbfdff0c992b1716a4fd9b4aa09ce269c40d559c9"
+    },
+    {
+      "id": "aulnoy-oiseau-bleu-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "L’Oiseau bleu",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/L%E2%80%99Oiseau_bleu",
+      "textHash": "9814c24bd8c918301279313d299b4e42eb4e791a2c391dc3b37beb79f00d3f66"
+    },
+    {
+      "id": "aulnoy-oiseau-bleu-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "L’Oiseau bleu",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/L%E2%80%99Oiseau_bleu",
+      "textHash": "d84df9b389ce2a279a814bfbf89469f6db3db97d1ce889ad95e0b3af838306d8"
+    },
+    {
+      "id": "aulnoy-oiseau-bleu-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "L’Oiseau bleu",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/L%E2%80%99Oiseau_bleu",
+      "textHash": "3fe7be8cef7eb72f30806d0dc0dfc80e1f7c94fbfb0fd0d4276e906d1544182e"
+    },
+    {
+      "id": "aulnoy-belle-cheveux-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Belle aux cheveux d’or",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/La_Belle_aux_cheveux_d%E2%80%99or",
+      "textHash": "f112bead38c2a00c2367d5c96304711d7b86e5229f3efdee26a0b409305945f1"
+    },
+    {
+      "id": "aulnoy-belle-cheveux-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Belle aux cheveux d’or",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/La_Belle_aux_cheveux_d%E2%80%99or",
+      "textHash": "96c8a58748547bbe445187e6a03005ccc82703da82e2f4c4afec5b285abc96dc"
+    },
+    {
+      "id": "aulnoy-belle-cheveux-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Belle aux cheveux d’or",
+      "source": "https://fr.wikisource.org/wiki/Contes_de_Madame_d%E2%80%99Aulnoy/La_Belle_aux_cheveux_d%E2%80%99or",
+      "textHash": "7d55ed90cdc88b548d3057c4b2e275e9ca017c1d7d4df5796ea9d5d5a91f9d1e"
+    },
+    {
+      "id": "beaumont-belle-bete-p01",
+      "audience": "child",
+      "author": "Jeanne Marie Leprince de Beaumont",
+      "workTitle": "La Belle et la Bête",
+      "source": "https://fr.wikisource.org/wiki/Le_monde_enchant%C3%A9/La_Belle_et_la_B%C3%AAte",
+      "textHash": "71016696be162c2642a6ad80adf7c0e6b37c2ad5012ccc6b860eb7c997709e2d"
+    },
+    {
+      "id": "beaumont-belle-bete-p02",
+      "audience": "child",
+      "author": "Jeanne Marie Leprince de Beaumont",
+      "workTitle": "La Belle et la Bête",
+      "source": "https://fr.wikisource.org/wiki/Le_monde_enchant%C3%A9/La_Belle_et_la_B%C3%AAte",
+      "textHash": "3243f4dca7b0a3f055cbb20cca1e58cf5bb60352e3dbafbe25e46979d2cae353"
+    },
+    {
+      "id": "beaumont-belle-bete-p03",
+      "audience": "child",
+      "author": "Jeanne Marie Leprince de Beaumont",
+      "workTitle": "La Belle et la Bête",
+      "source": "https://fr.wikisource.org/wiki/Le_monde_enchant%C3%A9/La_Belle_et_la_B%C3%AAte",
+      "textHash": "565c1d8fd8a4ddcdec868163b121174a1d79c47bee83aff0bd39e9613bf5fc5a"
+    },
+    {
+      "id": "balzac-peau-chagrin-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "La Peau de chagrin",
+      "source": "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855/Chapitre_1",
+      "textHash": "282a6ae8c34b7257fb841b313e4151bfddf5c849acd628bf3a2da05a357809e2"
+    },
+    {
+      "id": "balzac-peau-chagrin-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "La Peau de chagrin",
+      "source": "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855/Chapitre_1",
+      "textHash": "0d63ee008028567a2dd346f762e380e004c87cdda74b29b21215e3616fa40fb7"
+    },
+    {
+      "id": "balzac-peau-chagrin-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "La Peau de chagrin",
+      "source": "https://fr.wikisource.org/wiki/La_Peau_de_chagrin/1855/Chapitre_1",
+      "textHash": "67b45ac19ebcfb5ad5bf270bb753172b9fe72c72ff1363f534e2bdae5f13e762"
+    },
+    {
+      "id": "daudet-contes-lundi-p01",
+      "audience": "child",
+      "author": "Alphonse Daudet",
+      "workTitle": "Contes du lundi",
+      "source": "https://fr.wikisource.org/wiki/Les_Contes_du_lundi/La_Derni%C3%A8re_classe",
+      "textHash": "cab4657b534e2cd1ee07c45b53761fbfae297d9349583aaa870ba503b083ba73"
+    },
+    {
+      "id": "daudet-contes-lundi-p02",
+      "audience": "child",
+      "author": "Alphonse Daudet",
+      "workTitle": "Contes du lundi",
+      "source": "https://fr.wikisource.org/wiki/Les_Contes_du_lundi/La_Derni%C3%A8re_classe",
+      "textHash": "07ad3a801788f3ffad4c8eee609211e3b7ed44ec1b74193daf82579a36009a69"
+    },
+    {
+      "id": "daudet-contes-lundi-p03",
+      "audience": "child",
+      "author": "Alphonse Daudet",
+      "workTitle": "Contes du lundi",
+      "source": "https://fr.wikisource.org/wiki/Les_Contes_du_lundi/La_Derni%C3%A8re_classe",
+      "textHash": "c59d7e1a8b6a9c65df118648a591bc8467f431750cdb4f465b7ebf8a494302f4"
+    },
+    {
+      "id": "dumas-monte-cristo-p01",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "Le Comte de Monte-Cristo",
+      "source": "https://fr.wikisource.org/wiki/Le_Comte_de_Monte-Cristo/Chapitre_1",
+      "textHash": "1a7ce2392c0fe342529f754f31444e817c68a9fe81e6201806b235b2e06364a1"
+    },
+    {
+      "id": "dumas-monte-cristo-p02",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "Le Comte de Monte-Cristo",
+      "source": "https://fr.wikisource.org/wiki/Le_Comte_de_Monte-Cristo/Chapitre_1",
+      "textHash": "a85c4249815d0e599c9cb4872221679c6400ad12680c930f80cea383470a842a"
+    },
+    {
+      "id": "dumas-monte-cristo-p03",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "Le Comte de Monte-Cristo",
+      "source": "https://fr.wikisource.org/wiki/Le_Comte_de_Monte-Cristo/Chapitre_1",
+      "textHash": "fe77e9c9977db388c8f944c48c49354197bea468e13349b0ccb0b20adc424a27"
+    },
+    {
+      "id": "dumas-trois-mousquetaires-p01",
+      "audience": "child",
+      "author": "Alexandre Dumas",
+      "workTitle": "Les Trois Mousquetaires",
+      "source": "https://fr.wikisource.org/wiki/Les_Trois_Mousquetaires/Chapitre_1",
+      "textHash": "ff0e433f148a2a8f69679f9d2a131e0e53bc33e6e82fcfcf271a5bb487c391d7"
+    },
+    {
+      "id": "dumas-trois-mousquetaires-p02",
+      "audience": "child",
+      "author": "Alexandre Dumas",
+      "workTitle": "Les Trois Mousquetaires",
+      "source": "https://fr.wikisource.org/wiki/Les_Trois_Mousquetaires/Chapitre_1",
+      "textHash": "a0cda54d8d9af46a3be9d4fa994cbac7b200745aa185b9fb4aa86097e98d5138"
+    },
+    {
+      "id": "dumas-trois-mousquetaires-p03",
+      "audience": "child",
+      "author": "Alexandre Dumas",
+      "workTitle": "Les Trois Mousquetaires",
+      "source": "https://fr.wikisource.org/wiki/Les_Trois_Mousquetaires/Chapitre_1",
+      "textHash": "aa879713f2e7a9f8395705797710bf6099488515cb96a2ce77729247c41bb5ce"
+    },
+    {
+      "id": "loti-pecheur-islande-p01",
+      "audience": "adult",
+      "author": "Pierre Loti",
+      "workTitle": "Pêcheur d’Islande",
+      "source": "https://fr.wikisource.org/wiki/P%C3%AAcheur_d%E2%80%99Islande,_1886/I",
+      "textHash": "75cf3a0ca0d89d8896d8f3bf20623baa19b76437cd0c5d07b11e0d668e9b86cd"
+    },
+    {
+      "id": "loti-pecheur-islande-p02",
+      "audience": "adult",
+      "author": "Pierre Loti",
+      "workTitle": "Pêcheur d’Islande",
+      "source": "https://fr.wikisource.org/wiki/P%C3%AAcheur_d%E2%80%99Islande,_1886/I",
+      "textHash": "4114baaf64fb366a4b7997e96364f6cfda76982d54792b753d86e4055ea6d77e"
+    },
+    {
+      "id": "loti-pecheur-islande-p03",
+      "audience": "adult",
+      "author": "Pierre Loti",
+      "workTitle": "Pêcheur d’Islande",
+      "source": "https://fr.wikisource.org/wiki/P%C3%AAcheur_d%E2%80%99Islande,_1886/I",
+      "textHash": "6a3905c1287c57999843c2c163a54f31e51c0e7cfcec952b40c29d429d1e267f"
+    },
+    {
+      "id": "malot-sans-famille-p01",
+      "audience": "child",
+      "author": "Hector Malot",
+      "workTitle": "Sans famille",
+      "source": "https://fr.wikisource.org/wiki/Sans_famille/Dentu,_1887/Premi%C3%A8re_partie/1",
+      "textHash": "4a9c7bf9a592c6c1b206d0a18ef4ef839970b96101733b5dab4b014c89457b3e"
+    },
+    {
+      "id": "malot-sans-famille-p02",
+      "audience": "child",
+      "author": "Hector Malot",
+      "workTitle": "Sans famille",
+      "source": "https://fr.wikisource.org/wiki/Sans_famille/Dentu,_1887/Premi%C3%A8re_partie/1",
+      "textHash": "4fc0c0975a37443e510601d93b96d9ccfbcfaf01999abf962a2df5ead104ba14"
+    },
+    {
+      "id": "malot-sans-famille-p03",
+      "audience": "child",
+      "author": "Hector Malot",
+      "workTitle": "Sans famille",
+      "source": "https://fr.wikisource.org/wiki/Sans_famille/Dentu,_1887/Premi%C3%A8re_partie/1",
+      "textHash": "000b2efaa28af8225534a0bf2e82d096274d4f1639ba15c4d87b826c5232fb2f"
+    },
+    {
+      "id": "sand-contes-grandmere-p01",
+      "audience": "child",
+      "author": "George Sand",
+      "workTitle": "Contes d’une grand’mère",
+      "source": "https://fr.wikisource.org/wiki/Le_Ch%C3%AAne_parlant",
+      "textHash": "b7bf01d951379853d2ec3f62c501cf81083e52c1e43f4c3b8797536d6c9c9b02"
+    },
+    {
+      "id": "sand-contes-grandmere-p02",
+      "audience": "child",
+      "author": "George Sand",
+      "workTitle": "Contes d’une grand’mère",
+      "source": "https://fr.wikisource.org/wiki/Le_Ch%C3%AAne_parlant",
+      "textHash": "c6d2ed7053ae8666fdb51530e4140a4b36fe637835165e2364b1d38f49574e40"
+    },
+    {
+      "id": "sand-contes-grandmere-p03",
+      "audience": "child",
+      "author": "George Sand",
+      "workTitle": "Contes d’une grand’mère",
+      "source": "https://fr.wikisource.org/wiki/Le_Ch%C3%AAne_parlant",
+      "textHash": "95fec323609e02a727369baf35fe0f8a0fa594cc170440109953e49a9a49332e"
+    },
+    {
+      "id": "sand-indiana-p01",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "Indiana",
+      "source": "https://fr.wikisource.org/wiki/Indiana/Texte_entier",
+      "textHash": "99a8d9fed0260101ab3bf1ab3f6099cd4c56c318c3fbc4790659fc81e53164d6"
+    },
+    {
+      "id": "sand-indiana-p02",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "Indiana",
+      "source": "https://fr.wikisource.org/wiki/Indiana/Texte_entier",
+      "textHash": "feed3b76af0a6512cc795806cc9b75465b465f02ec1a77209e7c7fa351fee9db"
+    },
+    {
+      "id": "sand-indiana-p03",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "Indiana",
+      "source": "https://fr.wikisource.org/wiki/Indiana/Texte_entier",
+      "textHash": "5966979ce19a72c3baa4d4b8be3bce20d8d04cf01502a2ed7ff53ce5fe235c07"
+    },
+    {
+      "id": "verne-ile-mysterieuse-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’Île mystérieuse",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%8Ele_myst%C3%A9rieuse/Partie_1/Chapitre_1",
+      "textHash": "da15b02a09528c8903c99fc90a39f151704f24eaef61730b3afc0d25cd437bd9"
+    },
+    {
+      "id": "verne-ile-mysterieuse-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’Île mystérieuse",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%8Ele_myst%C3%A9rieuse/Partie_1/Chapitre_1",
+      "textHash": "c2275c19b8460fff2ab7a1be1ad40508ec40fc1931694044d120eed1986ad883"
+    },
+    {
+      "id": "verne-ile-mysterieuse-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’Île mystérieuse",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%8Ele_myst%C3%A9rieuse/Partie_1/Chapitre_1",
+      "textHash": "c2d89224e6b89c9e29d3f17decfb56508a2a1fd4b2af986f5988fbd0f5d41cc5"
+    },
+    {
+      "id": "zola-germinal-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Germinal",
+      "source": "https://fr.wikisource.org/wiki/Germinal/Partie_I/Chapitre_1",
+      "textHash": "4bb683fe93dab89b897e71f7a6fa8ec3fe82c237972519748a87571ef0c8f109"
+    },
+    {
+      "id": "zola-germinal-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Germinal",
+      "source": "https://fr.wikisource.org/wiki/Germinal/Partie_I/Chapitre_1",
+      "textHash": "b9adf58fd1ce86c743a530a7d77a933e7f0af55d23da63dd64588da57b01b9d2"
+    },
+    {
+      "id": "zola-germinal-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Germinal",
+      "source": "https://fr.wikisource.org/wiki/Germinal/Partie_I/Chapitre_1",
+      "textHash": "be1af2bbed2c2daa06710d8590aca4808b6beb615184833e978550888b1eaa3d"
+    },
+    {
+      "id": "segur-vacances-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Vacances",
+      "source": "https://fr.wikisource.org/wiki/Les_Vacances/1",
+      "textHash": "84e27a840dd5bd2f1f92388ca19465812ae950778ecc7124d784933b64e9ea67"
+    },
+    {
+      "id": "segur-vacances-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Vacances",
+      "source": "https://fr.wikisource.org/wiki/Les_Vacances/1",
+      "textHash": "bb00bb26a1b9109bd7e9df79cbd2d659722b26d8ad2a4f820e2b5e90d5743c5d"
+    },
+    {
+      "id": "segur-vacances-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Vacances",
+      "source": "https://fr.wikisource.org/wiki/Les_Vacances/1",
+      "textHash": "2c1aa2a3fd99c6b5f7729f24c14298cbf637ada2e7811c54fc32598c142b279f"
+    },
+    {
+      "id": "segur-auberge-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "L’Auberge de l’Ange Gardien",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99Auberge_de_l%E2%80%99Ange_Gardien/1",
+      "textHash": "bc5aaff0e4c1147af3baca1587040ebdaa372d58b225f1f71ffad243a976c2f7"
+    },
+    {
+      "id": "segur-auberge-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "L’Auberge de l’Ange Gardien",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99Auberge_de_l%E2%80%99Ange_Gardien/1",
+      "textHash": "ce3838d8af49760e676ded94bebb24f3f3feb97ccad4e92141aa97c618c1782e"
+    },
+    {
+      "id": "segur-auberge-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "L’Auberge de l’Ange Gardien",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99Auberge_de_l%E2%80%99Ange_Gardien/1",
+      "textHash": "e8871a1be87f456ee43ac8479da1bea3714a4414d97e47f51d0c3a45a4b64902"
+    },
+    {
+      "id": "verne-terre-lune-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "De la Terre à la Lune",
+      "source": "https://fr.wikisource.org/wiki/De_la_Terre_%C3%A0_la_Lune/Chapitre_1",
+      "textHash": "139961eb127a42d84aa3862c26d83eab42b41accaec8e67f6921ea5459266397"
+    },
+    {
+      "id": "verne-terre-lune-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "De la Terre à la Lune",
+      "source": "https://fr.wikisource.org/wiki/De_la_Terre_%C3%A0_la_Lune/Chapitre_1",
+      "textHash": "e5a5eae80c447fc26267ffb6e1903294e94380a73da99895a551867bc5e301a2"
+    },
+    {
+      "id": "verne-terre-lune-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "De la Terre à la Lune",
+      "source": "https://fr.wikisource.org/wiki/De_la_Terre_%C3%A0_la_Lune/Chapitre_1",
+      "textHash": "34db9fe5a8124536a8e987ae0a45273e098166150fbfe5243993f7f5b14d7c88"
+    },
+    {
+      "id": "verne-strogoff-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Michel Strogoff",
+      "source": "https://fr.wikisource.org/wiki/Michel_Strogoff/Partie_1/Chapitre_1",
+      "textHash": "0e5e8e8d72c95508f90debecd7dba9387a2650aa13d12d94e9eaf124cbac495f"
+    },
+    {
+      "id": "verne-strogoff-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Michel Strogoff",
+      "source": "https://fr.wikisource.org/wiki/Michel_Strogoff/Partie_1/Chapitre_1",
+      "textHash": "fe1abd1547b5c0720eb1c0747d940bd66d9116988e7d208d677d3763eebff58f"
+    },
+    {
+      "id": "verne-strogoff-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Michel Strogoff",
+      "source": "https://fr.wikisource.org/wiki/Michel_Strogoff/Partie_1/Chapitre_1",
+      "textHash": "1067b6eb478057b8fba15a94b8f992541079aa70987d897d4dbee6d9fc4c416f"
+    },
+    {
+      "id": "flaubert-bovary-p01",
+      "audience": "adult",
+      "author": "Gustave Flaubert",
+      "workTitle": "Madame Bovary",
+      "source": "https://fr.wikisource.org/wiki/Madame_Bovary/Premi%C3%A8re_partie/1",
+      "textHash": "2163d6f56d25a357140c6c5c96de9370e79dbff1e4bcd29142bce84d89c947b9"
+    },
+    {
+      "id": "flaubert-bovary-p02",
+      "audience": "adult",
+      "author": "Gustave Flaubert",
+      "workTitle": "Madame Bovary",
+      "source": "https://fr.wikisource.org/wiki/Madame_Bovary/Premi%C3%A8re_partie/1",
+      "textHash": "c6f985269d660e44faa6ddf484b408ac5d15aa0a1791e8b259349cb8ecdd476d"
+    },
+    {
+      "id": "flaubert-bovary-p03",
+      "audience": "adult",
+      "author": "Gustave Flaubert",
+      "workTitle": "Madame Bovary",
+      "source": "https://fr.wikisource.org/wiki/Madame_Bovary/Premi%C3%A8re_partie/1",
+      "textHash": "854151050951848f5eddf8d5770c776907d905c000c495715164be87368d0f75"
+    },
+    {
+      "id": "flaubert-salammbo-p01",
+      "audience": "adult",
+      "author": "Gustave Flaubert",
+      "workTitle": "Salammbô",
+      "source": "https://fr.wikisource.org/wiki/Salammb%C3%B4/Le_Festin",
+      "textHash": "565ad007c7a9ffb5e39422c5491a522181cf81c63b2c4d34e0ee0a7cbbccce15"
+    },
+    {
+      "id": "flaubert-salammbo-p02",
+      "audience": "adult",
+      "author": "Gustave Flaubert",
+      "workTitle": "Salammbô",
+      "source": "https://fr.wikisource.org/wiki/Salammb%C3%B4/Le_Festin",
+      "textHash": "e4b9f1bd0d78df124ef4776ca7a9f0efdad7b5a6c7e7fd5f02a27abaf626dc2f"
+    },
+    {
+      "id": "flaubert-salammbo-p03",
+      "audience": "adult",
+      "author": "Gustave Flaubert",
+      "workTitle": "Salammbô",
+      "source": "https://fr.wikisource.org/wiki/Salammb%C3%B4/Le_Festin",
+      "textHash": "5fbbd796f53b6ff39123ba0f960f112aa7989b0f9123628bc3b7c80ef51d6d47"
+    },
+    {
+      "id": "sand-fadette-p01",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "La Petite Fadette",
+      "source": "https://fr.wikisource.org/wiki/La_Petite_Fadette/1",
+      "textHash": "fd9db6f4e7d6fe808787897dd39956178b77a2cf54370c232eb926ecf471749d"
+    },
+    {
+      "id": "sand-fadette-p02",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "La Petite Fadette",
+      "source": "https://fr.wikisource.org/wiki/La_Petite_Fadette/1",
+      "textHash": "dd3ea0e39d92def5a8bb7402fc5437b86bcc4a0d0ec13e0963651aee425a5ff3"
+    },
+    {
+      "id": "sand-fadette-p03",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "La Petite Fadette",
+      "source": "https://fr.wikisource.org/wiki/La_Petite_Fadette/1",
+      "textHash": "056497f0c591bb3a1f65a01d4f64423096fabc30b6132063f62496cac21e523a"
+    },
+    {
+      "id": "sand-champi-p01",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "François le Champi",
+      "source": "https://fr.wikisource.org/wiki/Fran%C3%A7ois_le_Champi/Chapitre_1",
+      "textHash": "0ecf053c4bf8fab02e32753ba2462343b1ec0a7d06628c7da4dca1585096d4f5"
+    },
+    {
+      "id": "sand-champi-p02",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "François le Champi",
+      "source": "https://fr.wikisource.org/wiki/Fran%C3%A7ois_le_Champi/Chapitre_1",
+      "textHash": "f703e5e30e4d2239833cadcb5c6c32dac9732b29dc0ee4e63c71f770f234e2d8"
+    },
+    {
+      "id": "sand-champi-p03",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "François le Champi",
+      "source": "https://fr.wikisource.org/wiki/Fran%C3%A7ois_le_Champi/Chapitre_1",
+      "textHash": "6ec1ba1f906e1eaa2a2c02acda6ddabc1362c3a6110a1c522069861529dbd72d"
+    },
+    {
+      "id": "merimee-colomba-p01",
+      "audience": "adult",
+      "author": "Prosper Mérimée",
+      "workTitle": "Colomba",
+      "source": "https://fr.wikisource.org/wiki/Colomba_et_autres_contes_et_nouvelles/Colomba",
+      "textHash": "6e79f1041cb7e317bce0600da7d7a17527f29e625c6d4bd8b3e452a996cb7241"
+    },
+    {
+      "id": "merimee-colomba-p02",
+      "audience": "adult",
+      "author": "Prosper Mérimée",
+      "workTitle": "Colomba",
+      "source": "https://fr.wikisource.org/wiki/Colomba_et_autres_contes_et_nouvelles/Colomba",
+      "textHash": "ed88275c21c3ee63f46a7afae5ca6bc0b4dd08171e89d1f3675959a4958b4c52"
+    },
+    {
+      "id": "merimee-colomba-p03",
+      "audience": "adult",
+      "author": "Prosper Mérimée",
+      "workTitle": "Colomba",
+      "source": "https://fr.wikisource.org/wiki/Colomba_et_autres_contes_et_nouvelles/Colomba",
+      "textHash": "001f5475411d690939ba4ce497f7a22b730974757f8c19217d37a00304e073c0"
+    },
+    {
+      "id": "balzac-eugenie-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Eugénie Grandet",
+      "source": "https://fr.wikisource.org/wiki/Eug%C3%A9nie_Grandet",
+      "textHash": "0c649d03180ecad1517eb69460c5337b6737bc1e6f0b97d7cf37bab9d14ee7ef"
+    },
+    {
+      "id": "balzac-eugenie-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Eugénie Grandet",
+      "source": "https://fr.wikisource.org/wiki/Eug%C3%A9nie_Grandet",
+      "textHash": "4e12ea1daaed510090a1d2cb2720567ae74d00612a38526099970b229475f83a"
+    },
+    {
+      "id": "balzac-eugenie-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Eugénie Grandet",
+      "source": "https://fr.wikisource.org/wiki/Eug%C3%A9nie_Grandet",
+      "textHash": "dcaad7dd42e7c6ef35490d4fc591322915a5dfeee45959ea75c6f7542eab584e"
+    },
+    {
+      "id": "zola-therese-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Thérèse Raquin",
+      "source": "https://fr.wikisource.org/wiki/Th%C3%A9r%C3%A8se_Raquin/1",
+      "textHash": "654feb88756d34d4f677603391d3970c12294fc444d2374442799cbf5003e055"
+    },
+    {
+      "id": "zola-therese-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Thérèse Raquin",
+      "source": "https://fr.wikisource.org/wiki/Th%C3%A9r%C3%A8se_Raquin/1",
+      "textHash": "3b4190d668bd4d97520016309b190894735575aea33105b4d6230a902276ec65"
+    },
+    {
+      "id": "zola-therese-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Thérèse Raquin",
+      "source": "https://fr.wikisource.org/wiki/Th%C3%A9r%C3%A8se_Raquin/1",
+      "textHash": "b946c46bb16e88523afe9f71b845352c162c3f804f18836d805e242fb5972b3f"
+    },
+    {
+      "id": "hugo-condamne-p01",
+      "audience": "adult",
+      "author": "Victor Hugo",
+      "workTitle": "Le Dernier Jour d’un condamné",
+      "source": "https://fr.wikisource.org/wiki/Le_Dernier_Jour_d%E2%80%99un_Condamn%C3%A9/%C3%A9d._1910/01",
+      "textHash": "743149fc9ad6caf62f69939d73bf9219a79844e1395cbfebe1e387ce289c9b63"
+    },
+    {
+      "id": "hugo-condamne-p02",
+      "audience": "adult",
+      "author": "Victor Hugo",
+      "workTitle": "Le Dernier Jour d’un condamné",
+      "source": "https://fr.wikisource.org/wiki/Le_Dernier_Jour_d%E2%80%99un_Condamn%C3%A9/%C3%A9d._1910/01",
+      "textHash": "bfa666df73b9558cfbe2aeb4a1c4fcd7ebc57564520b4e45faac687dcc047240"
+    },
+    {
+      "id": "hugo-condamne-p03",
+      "audience": "adult",
+      "author": "Victor Hugo",
+      "workTitle": "Le Dernier Jour d’un condamné",
+      "source": "https://fr.wikisource.org/wiki/Le_Dernier_Jour_d%E2%80%99un_Condamn%C3%A9/%C3%A9d._1910/01",
+      "textHash": "bea619ba6d803994b5715a7032c008a853c2e9922ec7f522b1e4c7fcf5e39eb9"
+    },
+    {
+      "id": "audoux-marie-claire-p01",
+      "audience": "adult",
+      "author": "Marguerite Audoux",
+      "workTitle": "Marie-Claire",
+      "source": "https://fr.wikisource.org/wiki/Marie-Claire/Texte_entier",
+      "textHash": "5e8f5577959890aa6a97d4f9c69268f1f6de99e62aa319412759a43f5d4ad05f"
+    },
+    {
+      "id": "audoux-marie-claire-p02",
+      "audience": "adult",
+      "author": "Marguerite Audoux",
+      "workTitle": "Marie-Claire",
+      "source": "https://fr.wikisource.org/wiki/Marie-Claire/Texte_entier",
+      "textHash": "aac3a6e0a3d45286ec3b2bd5daae5ede6d15915d361b04284b354aaff4f8b347"
+    },
+    {
+      "id": "audoux-marie-claire-p03",
+      "audience": "adult",
+      "author": "Marguerite Audoux",
+      "workTitle": "Marie-Claire",
+      "source": "https://fr.wikisource.org/wiki/Marie-Claire/Texte_entier",
+      "textHash": "ffb1782d66e958901b4eb85bfd1d6c6f799cab7595de6734bfb85feae1fbf0e5"
+    },
+    {
+      "id": "france-sylvestre-p01",
+      "audience": "adult",
+      "author": "Anatole France",
+      "workTitle": "Le Crime de Sylvestre Bonnard",
+      "source": "https://fr.wikisource.org/wiki/Le_Crime_de_Sylvestre_Bonnard_(%C3%A9ditions_Calmann-L%C3%A9vy,_1896)/La_B%C3%BBche",
+      "textHash": "5bb384634130cc8e52b0c4789187b56b2559765fb47a74719f675a51d77987c2"
+    },
+    {
+      "id": "france-sylvestre-p02",
+      "audience": "adult",
+      "author": "Anatole France",
+      "workTitle": "Le Crime de Sylvestre Bonnard",
+      "source": "https://fr.wikisource.org/wiki/Le_Crime_de_Sylvestre_Bonnard_(%C3%A9ditions_Calmann-L%C3%A9vy,_1896)/La_B%C3%BBche",
+      "textHash": "69da4ecc90098d0c7a490b6cd656042064d10ff2018692fa25c2cd37b8fce5b8"
+    },
+    {
+      "id": "france-sylvestre-p03",
+      "audience": "adult",
+      "author": "Anatole France",
+      "workTitle": "Le Crime de Sylvestre Bonnard",
+      "source": "https://fr.wikisource.org/wiki/Le_Crime_de_Sylvestre_Bonnard_(%C3%A9ditions_Calmann-L%C3%A9vy,_1896)/La_B%C3%BBche",
+      "textHash": "00316324dcd08c5896a2c34c1ba3cf72d4e97d4d22a047068fd266059276ff73"
+    },
+    {
+      "id": "segur-nouveaux-contes-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Nouveaux Contes de fées",
+      "source": "https://fr.wikisource.org/wiki/Nouveaux_Contes_de_f%C3%A9es/Le_Bon_Petit_Henri",
+      "textHash": "2d49623830736ea66526a1b23ace3e7e4d502f72c4fe3032350424a7e6e19de7"
+    },
+    {
+      "id": "segur-nouveaux-contes-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Nouveaux Contes de fées",
+      "source": "https://fr.wikisource.org/wiki/Nouveaux_Contes_de_f%C3%A9es/Le_Bon_Petit_Henri",
+      "textHash": "791401705b9395f29b72bab399cee04551ecd7f1b82cc4f81fb329322a99e583"
+    },
+    {
+      "id": "segur-nouveaux-contes-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Nouveaux Contes de fées",
+      "source": "https://fr.wikisource.org/wiki/Nouveaux_Contes_de_f%C3%A9es/Le_Bon_Petit_Henri",
+      "textHash": "1f67ad6bb19a3029bc7f7f9cc7b512514efad01b715f67c39d797e3f71117a89"
+    },
+    {
+      "id": "verne-deux-ans-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Deux Ans de vacances",
+      "source": "https://fr.wikisource.org/wiki/Deux_Ans_de_vacances/Chapitre_1",
+      "textHash": "bd52293ec56485892b78b65a5dc208f858fac89233b7a9dcfb8bae4233c6375a"
+    },
+    {
+      "id": "verne-deux-ans-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Deux Ans de vacances",
+      "source": "https://fr.wikisource.org/wiki/Deux_Ans_de_vacances/Chapitre_1",
+      "textHash": "6263003292887ae609fabb881bd3d0f62632cf544fb2527876393cd5404bdce9"
+    },
+    {
+      "id": "verne-deux-ans-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Deux Ans de vacances",
+      "source": "https://fr.wikisource.org/wiki/Deux_Ans_de_vacances/Chapitre_1",
+      "textHash": "2dc77ce2b58cbed598c2b7e9af11871edd9561b20afb17b6a112290940359d08"
+    },
+    {
+      "id": "malot-en-famille-p01",
+      "audience": "child",
+      "author": "Hector Malot",
+      "workTitle": "En famille",
+      "source": "https://fr.wikisource.org/wiki/En_famille/Chapitre_I",
+      "textHash": "c2d556bb1401d6b84c3b8bb0e6578f15a85d09ddf6ada92fcc49e2ec53865b4a"
+    },
+    {
+      "id": "malot-en-famille-p02",
+      "audience": "child",
+      "author": "Hector Malot",
+      "workTitle": "En famille",
+      "source": "https://fr.wikisource.org/wiki/En_famille/Chapitre_I",
+      "textHash": "1d5c6b3e043871a9c8b2b78fef0286ce410944fdbb428769840522baa11cdef1"
+    },
+    {
+      "id": "malot-en-famille-p03",
+      "audience": "child",
+      "author": "Hector Malot",
+      "workTitle": "En famille",
+      "source": "https://fr.wikisource.org/wiki/En_famille/Chapitre_I",
+      "textHash": "01e05578b659a9e0b171c3469b22315ea3835332c07efeb6cfdb73d0484c66a1"
+    },
+    {
+      "id": "aulnoy-chatte-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Chatte blanche",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Chatte_blanche",
+      "textHash": "228425dff2339a4a86febd41436a975399d1d74209887b8f9b09e6233e5c40bb"
+    },
+    {
+      "id": "aulnoy-chatte-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Chatte blanche",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Chatte_blanche",
+      "textHash": "ddb523e5fe7c262c02de37b8f99dbbf9ee91f3dfcd98e769317e713e8cb7e19b"
+    },
+    {
+      "id": "aulnoy-chatte-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Chatte blanche",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Chatte_blanche",
+      "textHash": "f7117877d0d6751bd50c29d8816ed54393ab19860e480f804faaf25f43f958ef"
+    },
+    {
+      "id": "nodier-feves-p01",
+      "audience": "child",
+      "author": "Charles Nodier",
+      "workTitle": "Trésor des Fèves et Fleur des Pois",
+      "source": "https://fr.wikisource.org/wiki/Tr%C3%A9sor_des_F%C3%A8ves_et_Fleur_des_Pois",
+      "textHash": "e2b9e748197f289584367901740ab08faa12bdd1887f2e016d0e446c9a09cf2b"
+    },
+    {
+      "id": "nodier-feves-p02",
+      "audience": "child",
+      "author": "Charles Nodier",
+      "workTitle": "Trésor des Fèves et Fleur des Pois",
+      "source": "https://fr.wikisource.org/wiki/Tr%C3%A9sor_des_F%C3%A8ves_et_Fleur_des_Pois",
+      "textHash": "2042d2334b258a9cf80e45d84a508cb67afc0323d12e09f5716b0543e8330a34"
+    },
+    {
+      "id": "nodier-feves-p03",
+      "audience": "child",
+      "author": "Charles Nodier",
+      "workTitle": "Trésor des Fèves et Fleur des Pois",
+      "source": "https://fr.wikisource.org/wiki/Tr%C3%A9sor_des_F%C3%A8ves_et_Fleur_des_Pois",
+      "textHash": "0c5eaa112d1433cbc2ef6683724599adafca4555d04a69540945c2dc307f5c82"
+    },
+    {
+      "id": "moreau-souliers-p01",
+      "audience": "child",
+      "author": "Hégésippe Moreau",
+      "workTitle": "Les Petits Souliers",
+      "source": "https://fr.wikisource.org/wiki/Les_Petits_Souliers_(Moreau)",
+      "textHash": "643b7ba952a35537c1e5380fba7e38da7b9c3a236011cc1f1c70025a7f1ed79f"
+    },
+    {
+      "id": "moreau-souliers-p02",
+      "audience": "child",
+      "author": "Hégésippe Moreau",
+      "workTitle": "Les Petits Souliers",
+      "source": "https://fr.wikisource.org/wiki/Les_Petits_Souliers_(Moreau)",
+      "textHash": "b534a10a425ac7a92bacce94dddc4fcc15bfdb4c094a5d31b2f809516871d216"
+    },
+    {
+      "id": "moreau-souliers-p03",
+      "audience": "child",
+      "author": "Hégésippe Moreau",
+      "workTitle": "Les Petits Souliers",
+      "source": "https://fr.wikisource.org/wiki/Les_Petits_Souliers_(Moreau)",
+      "textHash": "6be1f59de522674040a06bec2708b270f009bc32f9610e5e66cd3e553ba6cc32"
+    },
+    {
+      "id": "gautier-spirite-p01",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "Spirite",
+      "source": "https://fr.wikisource.org/wiki/Spirite/Texte_entier",
+      "textHash": "43bcdb47459b5a973fd0bcf0968aa47ec2d477278911b82f6fa614a32144273c"
+    },
+    {
+      "id": "gautier-spirite-p02",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "Spirite",
+      "source": "https://fr.wikisource.org/wiki/Spirite/Texte_entier",
+      "textHash": "7fd27e0a344affb9518b448cd97f2056d488bd9c8c822efb9aed5800ab06ba3f"
+    },
+    {
+      "id": "gautier-spirite-p03",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "Spirite",
+      "source": "https://fr.wikisource.org/wiki/Spirite/Texte_entier",
+      "textHash": "82592e9c6d04e72a3eb1c0310ff36c7ce63782f57cc067eacf44057488eb5e81"
+    },
+    {
+      "id": "lafayette-cleves-p01",
+      "audience": "adult",
+      "author": "Madame de La Fayette",
+      "workTitle": "La Princesse de Clèves",
+      "source": "https://fr.wikisource.org/wiki/La_Princesse_de_Cl%C3%A8ves,_%C3%A9dition_Lepetit,_1820/Premi%C3%A8re_partie",
+      "textHash": "7f65d5209fc529260a9d5209d2a1a867f2d44fd58a7e45193fd90568d5cf8505"
+    },
+    {
+      "id": "lafayette-cleves-p02",
+      "audience": "adult",
+      "author": "Madame de La Fayette",
+      "workTitle": "La Princesse de Clèves",
+      "source": "https://fr.wikisource.org/wiki/La_Princesse_de_Cl%C3%A8ves,_%C3%A9dition_Lepetit,_1820/Premi%C3%A8re_partie",
+      "textHash": "3e70b86ff0f46bd4a8ecdbeadd1e0152da88916744203fcb9775b3770b366758"
+    },
+    {
+      "id": "lafayette-cleves-p03",
+      "audience": "adult",
+      "author": "Madame de La Fayette",
+      "workTitle": "La Princesse de Clèves",
+      "source": "https://fr.wikisource.org/wiki/La_Princesse_de_Cl%C3%A8ves,_%C3%A9dition_Lepetit,_1820/Premi%C3%A8re_partie",
+      "textHash": "cd06a861f31e884f55122c393912139b0f3b97fa8db11642094ba1c95d9010d3"
+    },
+    {
+      "id": "constant-adolphe-p01",
+      "audience": "adult",
+      "author": "Benjamin Constant",
+      "workTitle": "Adolphe",
+      "source": "https://fr.wikisource.org/wiki/Adolphe/01",
+      "textHash": "ce0f08c7f235163301ac569f8547b876ea415c1113eaa756ac4f33984e5895e7"
+    },
+    {
+      "id": "constant-adolphe-p02",
+      "audience": "adult",
+      "author": "Benjamin Constant",
+      "workTitle": "Adolphe",
+      "source": "https://fr.wikisource.org/wiki/Adolphe/01",
+      "textHash": "c9224ae05212f94ced00a0a0cf1e488ed380cb2dab896ce7e756e855b29cf9ef"
+    },
+    {
+      "id": "constant-adolphe-p03",
+      "audience": "adult",
+      "author": "Benjamin Constant",
+      "workTitle": "Adolphe",
+      "source": "https://fr.wikisource.org/wiki/Adolphe/01",
+      "textHash": "fa26342515071f229bbb947d37a3c62dc0d940b5c411e5f2dacdfcbf45294730"
+    },
+    {
+      "id": "nerval-sylvie-p01",
+      "audience": "adult",
+      "author": "Gérard de Nerval",
+      "workTitle": "Sylvie",
+      "source": "https://fr.wikisource.org/wiki/Les_Filles_du_feu/Sylvie",
+      "textHash": "27545d34a9f4689ef9171e5f777b2042630449a0256c43b1ccb4d2e513d2c00f"
+    },
+    {
+      "id": "nerval-sylvie-p02",
+      "audience": "adult",
+      "author": "Gérard de Nerval",
+      "workTitle": "Sylvie",
+      "source": "https://fr.wikisource.org/wiki/Les_Filles_du_feu/Sylvie",
+      "textHash": "4445e093ad5a8f5d7096dca35a4c1c2a6acc83181c5d8c9be5c5d07e3ae1fbc8"
+    },
+    {
+      "id": "nerval-sylvie-p03",
+      "audience": "adult",
+      "author": "Gérard de Nerval",
+      "workTitle": "Sylvie",
+      "source": "https://fr.wikisource.org/wiki/Les_Filles_du_feu/Sylvie",
+      "textHash": "fa0d181ceb08bc043795bb2fa5192fd4007d05dc6bc6b1cc4e506b7848fb9ded"
+    },
+    {
+      "id": "aulnoy-gracieuse-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Gracieuse et Percinet",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Gracieuse_et_Percinet",
+      "textHash": "282e89d2247c5215292085b42b4b40ee7a5cd6c78ea4137a302dc3072dc17f59"
+    },
+    {
+      "id": "aulnoy-gracieuse-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Gracieuse et Percinet",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Gracieuse_et_Percinet",
+      "textHash": "2baaae15ebbee6fb49e89f676bddf3e8091cfd7212cbfd3e63d4b7a0ed51a165"
+    },
+    {
+      "id": "aulnoy-gracieuse-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Gracieuse et Percinet",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Gracieuse_et_Percinet",
+      "textHash": "8cd82db9649f7b35e66e3b211beba0c2a4bf401cc7193ff6b30d6b2d2bf7adf8"
+    },
+    {
+      "id": "aulnoy-souris-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Bonne Petite Souris",
+      "source": "https://fr.wikisource.org/wiki/Les_contes_choisis_(Aulnoy)/La_Bonne_Petite_Souris",
+      "textHash": "532f71a45f19511842f49723fc47070eee427d87ebbf2e9df16fc1abc0df9eec"
+    },
+    {
+      "id": "aulnoy-souris-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Bonne Petite Souris",
+      "source": "https://fr.wikisource.org/wiki/Les_contes_choisis_(Aulnoy)/La_Bonne_Petite_Souris",
+      "textHash": "a201725485acf1edba21194a67db3d411bf5fb68ae11ae8535f56f1ada2f2eb4"
+    },
+    {
+      "id": "aulnoy-souris-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Bonne Petite Souris",
+      "source": "https://fr.wikisource.org/wiki/Les_contes_choisis_(Aulnoy)/La_Bonne_Petite_Souris",
+      "textHash": "efff69fbac17212a59e3bb57cf7c1209b9001835fe9607072ac78d474d1f1ab4"
+    },
+    {
+      "id": "aulnoy-finette-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Finette Cendron",
+      "source": "https://fr.wikisource.org/wiki/Les_contes_choisis_(Aulnoy)/Finette_Cendron",
+      "textHash": "f78c7644e660d485bfc3b5758f760585ad41759f13676de40da6b1c4bec0ffc6"
+    },
+    {
+      "id": "aulnoy-finette-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Finette Cendron",
+      "source": "https://fr.wikisource.org/wiki/Les_contes_choisis_(Aulnoy)/Finette_Cendron",
+      "textHash": "efe9bb0882492f8794898dffb16a3031981b39f3a9cb1fd9ba3c5ffbb1c80eb4"
+    },
+    {
+      "id": "aulnoy-finette-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Finette Cendron",
+      "source": "https://fr.wikisource.org/wiki/Les_contes_choisis_(Aulnoy)/Finette_Cendron",
+      "textHash": "49c2e9684eb6734694537e71bcc6a2aa3506301e6eeadc44e3af6991a394d42b"
+    },
+    {
+      "id": "beaumont-cheri-p01",
+      "audience": "child",
+      "author": "Jeanne Marie Leprince de Beaumont",
+      "workTitle": "Le Prince Chéri",
+      "source": "https://fr.wikisource.org/wiki/Le_Prince_Ch%C3%A9ri",
+      "textHash": "01392fd20e8e84e77c8a750042322c4bb4c3daef9b173eb96c8cceba38fe4179"
+    },
+    {
+      "id": "beaumont-cheri-p02",
+      "audience": "child",
+      "author": "Jeanne Marie Leprince de Beaumont",
+      "workTitle": "Le Prince Chéri",
+      "source": "https://fr.wikisource.org/wiki/Le_Prince_Ch%C3%A9ri",
+      "textHash": "705fdae7d716e42bc8bf92d2f008066f88048e14a8de4d1c66ffb566f11db424"
+    },
+    {
+      "id": "beaumont-cheri-p03",
+      "audience": "child",
+      "author": "Jeanne Marie Leprince de Beaumont",
+      "workTitle": "Le Prince Chéri",
+      "source": "https://fr.wikisource.org/wiki/Le_Prince_Ch%C3%A9ri",
+      "textHash": "b0a751b16466a7042aad696b35e83be7f3d901ff8ed570aa63cfb02bee933e7c"
+    },
+    {
+      "id": "andersen-poucette-p01",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "La Petite Poucette",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/La_Petite_Poucette",
+      "textHash": "d25cbb51e9283c217bbe7c1b44e39eccd45d366ff40d9d9241156b444c5eae5c"
+    },
+    {
+      "id": "andersen-poucette-p02",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "La Petite Poucette",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/La_Petite_Poucette",
+      "textHash": "df5f216cacf5ce0ecd6f590357d3276d03c26e5f66da71a7209f1199da207ac1"
+    },
+    {
+      "id": "andersen-poucette-p03",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "La Petite Poucette",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/La_Petite_Poucette",
+      "textHash": "496d72d0c738997be465e35503f85dae421c0f86b18d6f80b2d8561d9307642b"
+    },
+    {
+      "id": "andersen-canard-p01",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Vilain Petit Canard",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Le_Vilain_Petit_Canard",
+      "textHash": "9e3fc9013243ab6cf3a5eea6bca9824db3f2b1d2b9cb12b34ccf55259005c774"
+    },
+    {
+      "id": "andersen-canard-p02",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Vilain Petit Canard",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Le_Vilain_Petit_Canard",
+      "textHash": "4379a430471fae1d7a13d40c74e08586658fba32fcbf32315c0a64c85eee4417"
+    },
+    {
+      "id": "andersen-canard-p03",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Vilain Petit Canard",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Le_Vilain_Petit_Canard",
+      "textHash": "1459b0d2e51f1ed6ebd05fed48e8febf00862fadac048614cc74cdfc97258e3d"
+    },
+    {
+      "id": "andersen-rossignol-p01",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Rossignol",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Le_Rossignol",
+      "textHash": "03b652b376ae9917e0400c6486b1569e7d3b4b6ca865b1574180c09502e0d259"
+    },
+    {
+      "id": "andersen-rossignol-p02",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Rossignol",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Le_Rossignol",
+      "textHash": "49bc61b31a43236d85887d30b264d12ca5332d9c33cadedf835b8cbe29028c87"
+    },
+    {
+      "id": "andersen-rossignol-p03",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Rossignol",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Le_Rossignol",
+      "textHash": "e8e945ef737e1a5b1937690bc911c844b79b7cd4cec1fa89ed36df3668ccc3cc"
+    },
+    {
+      "id": "andersen-habits-p01",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Les Habits neufs du Grand-Duc",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Les_Habits_neufs_du_Grand-Duc",
+      "textHash": "0fc413a80d3d2c260a716271e8ceb4e77ceeeac745bd5089a5b06654687f6335"
+    },
+    {
+      "id": "andersen-habits-p02",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Les Habits neufs du Grand-Duc",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Les_Habits_neufs_du_Grand-Duc",
+      "textHash": "d73bff51191eef5e84a4045a2ce3136e248e199fb24632db36faa90809ea6a8a"
+    },
+    {
+      "id": "andersen-habits-p03",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Les Habits neufs du Grand-Duc",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Les_Habits_neufs_du_Grand-Duc",
+      "textHash": "23833c64a8c4b7b61b095da496bffe0e9ea64291bfdcf1e499c4ef7abd9b80f3"
+    },
+    {
+      "id": "carroll-alice-p01",
+      "audience": "child",
+      "author": "Lewis Carroll",
+      "workTitle": "Alice au pays des merveilles",
+      "source": "https://fr.wikisource.org/wiki/Alice_au_pays_des_merveilles/1",
+      "textHash": "480c37bb3d3cd4aa12df62f900ba49c004ba912fc62833242e58efb2c42ec714"
+    },
+    {
+      "id": "carroll-alice-p02",
+      "audience": "child",
+      "author": "Lewis Carroll",
+      "workTitle": "Alice au pays des merveilles",
+      "source": "https://fr.wikisource.org/wiki/Alice_au_pays_des_merveilles/1",
+      "textHash": "c92a8dcd7d23ca6fe6abab7487960c52a01b2098b41eeae58102c03973bdea86"
+    },
+    {
+      "id": "carroll-alice-p03",
+      "audience": "child",
+      "author": "Lewis Carroll",
+      "workTitle": "Alice au pays des merveilles",
+      "source": "https://fr.wikisource.org/wiki/Alice_au_pays_des_merveilles/1",
+      "textHash": "045bfd8c72397039d02e4829d391cfc6e012e44042228ffe2f38c1bb64061d23"
+    },
+    {
+      "id": "stevenson-tresor-p01",
+      "audience": "child",
+      "author": "Robert Louis Stevenson",
+      "workTitle": "L’Île au trésor",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%8Ele_au_tr%C3%A9sor_(trad._Laurie)/Chapitre_7",
+      "textHash": "ef39916c9b50768668969e92edb2a93094817bc02b310800071c11adf1c5fa51"
+    },
+    {
+      "id": "stevenson-tresor-p02",
+      "audience": "child",
+      "author": "Robert Louis Stevenson",
+      "workTitle": "L’Île au trésor",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%8Ele_au_tr%C3%A9sor_(trad._Laurie)/Chapitre_7",
+      "textHash": "b8ef467797c26a0ef29a24675addcc06dcc2b1aeb0c7bb5e9757ad07c066ccf9"
+    },
+    {
+      "id": "stevenson-tresor-p03",
+      "audience": "child",
+      "author": "Robert Louis Stevenson",
+      "workTitle": "L’Île au trésor",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%8Ele_au_tr%C3%A9sor_(trad._Laurie)/Chapitre_7",
+      "textHash": "efa76a40c4243d15bd0a1c65e55b123d135096f6fa3b9b241573b295d5ccbc07"
+    },
+    {
+      "id": "verne-grant-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Enfants du capitaine Grant",
+      "source": "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_1/Chapitre_V",
+      "textHash": "94bcc1b1615250d23d315c06adc4d08fb956ad9ecf95ac77e2eae652e78cf002"
+    },
+    {
+      "id": "verne-grant-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Enfants du capitaine Grant",
+      "source": "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_1/Chapitre_V",
+      "textHash": "27923edaffec16fb25a762c41bf05f6456e15e11b490d10397cc79a3343c74d5"
+    },
+    {
+      "id": "verne-grant-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Enfants du capitaine Grant",
+      "source": "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_1/Chapitre_V",
+      "textHash": "89c1367ee047c3182bac15838fdf3d71c0cbfe91cfc44437f555db1089d05bfd"
+    },
+    {
+      "id": "verne-robur-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Robur le conquérant",
+      "source": "https://fr.wikisource.org/wiki/Robur_le_conqu%C3%A9rant/1",
+      "textHash": "4272e93809707208e4f2151fc41b082f7b5d48670820c6a58540bdf569e9095e"
+    },
+    {
+      "id": "verne-robur-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Robur le conquérant",
+      "source": "https://fr.wikisource.org/wiki/Robur_le_conqu%C3%A9rant/1",
+      "textHash": "28067c31194868a2d0308d31c9ff5e0639e693e0da6f3723dc573c345fa3d702"
+    },
+    {
+      "id": "verne-robur-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Robur le conquérant",
+      "source": "https://fr.wikisource.org/wiki/Robur_le_conqu%C3%A9rant/1",
+      "textHash": "ab709e6f57de9f11921e5f17d53d3c0d8cc1aebd0df3d1ad5d225a50643cfc8b"
+    },
+    {
+      "id": "verne-capitaine-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Un capitaine de quinze ans",
+      "source": "https://fr.wikisource.org/wiki/Un_capitaine_de_quinze_ans/I/2",
+      "textHash": "0603576e02269aac8096bc5eee0e9c18b167a7a6e83722db71141a0cd673ff39"
+    },
+    {
+      "id": "verne-capitaine-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Un capitaine de quinze ans",
+      "source": "https://fr.wikisource.org/wiki/Un_capitaine_de_quinze_ans/I/2",
+      "textHash": "d18fbfc0cf5f20c3e949479de91054be04780a6ad3d1dc51269f892dc6d5bf0e"
+    },
+    {
+      "id": "verne-capitaine-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Un capitaine de quinze ans",
+      "source": "https://fr.wikisource.org/wiki/Un_capitaine_de_quinze_ans/I/2",
+      "textHash": "a582a9e6a46bdb065a806a9af83b2e0767d638500611733fc3f66b7154ef4acf"
+    },
+    {
+      "id": "verne-hatteras-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Aventures du capitaine Hatteras",
+      "source": "https://fr.wikisource.org/wiki/Les_Aventures_du_capitaine_Hatteras/Premi%C3%A8re_partie/3",
+      "textHash": "3e40493c5fcbd8c0f545fd37bd5363031242e60294c7557c4387c86e52e96614"
+    },
+    {
+      "id": "verne-hatteras-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Aventures du capitaine Hatteras",
+      "source": "https://fr.wikisource.org/wiki/Les_Aventures_du_capitaine_Hatteras/Premi%C3%A8re_partie/3",
+      "textHash": "c76cb12261940ee35f1900f0e9544ec1637adc6f384057f51498bfa08a9b8a1d"
+    },
+    {
+      "id": "verne-hatteras-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Aventures du capitaine Hatteras",
+      "source": "https://fr.wikisource.org/wiki/Les_Aventures_du_capitaine_Hatteras/Premi%C3%A8re_partie/3",
+      "textHash": "d8e5a99702fd72f6dc432b10f7b4388ceb637fb6472c05362b9d0e6d5a8332ef"
+    },
+    {
+      "id": "verne-autour-lune-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Autour de la Lune",
+      "source": "https://fr.wikisource.org/wiki/Autour_de_la_Lune/3",
+      "textHash": "b556096473646acbfc5197151b3c2b4abac5e3291fb0934d4b10ed99f6a14bbe"
+    },
+    {
+      "id": "verne-autour-lune-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Autour de la Lune",
+      "source": "https://fr.wikisource.org/wiki/Autour_de_la_Lune/3",
+      "textHash": "eac52627fec43f94f3e852a79148a1826f842cbc4228876c1380fe9bb7dcdd57"
+    },
+    {
+      "id": "verne-autour-lune-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Autour de la Lune",
+      "source": "https://fr.wikisource.org/wiki/Autour_de_la_Lune/3",
+      "textHash": "e3b37ef5031956acf7393a211acea10e9d4a4a3fff31ce6c614befe59043c9d6"
+    },
+    {
+      "id": "segur-bons-enfants-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Bons Enfants",
+      "source": "https://fr.wikisource.org/wiki/Les_Bons_Enfants/La_campagne_%E2%80%94_Les_marrons",
+      "textHash": "986ed43c5e55d08a3d9063d45925dcae8204ebb88f31d706e8363f5466de1b19"
+    },
+    {
+      "id": "segur-bons-enfants-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Bons Enfants",
+      "source": "https://fr.wikisource.org/wiki/Les_Bons_Enfants/La_campagne_%E2%80%94_Les_marrons",
+      "textHash": "e79c83c4efa24475db35c02fc2609e6216762f9efd7793e788e2c9ddc2b8f85e"
+    },
+    {
+      "id": "segur-bons-enfants-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Bons Enfants",
+      "source": "https://fr.wikisource.org/wiki/Les_Bons_Enfants/La_campagne_%E2%80%94_Les_marrons",
+      "textHash": "d500cd7d5cbb77c0e86cbb26ca2d96ca7c6db5845a3efdd1ece8fe4bfd579233"
+    },
+    {
+      "id": "segur-diloy-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Diloy le chemineau",
+      "source": "https://fr.wikisource.org/wiki/Diloy_le_chemineau/2",
+      "textHash": "928b73a5cb7a413a2c7913c1c47444a21fa7715cdf451a0b3ea276c9dc124d8a"
+    },
+    {
+      "id": "segur-diloy-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Diloy le chemineau",
+      "source": "https://fr.wikisource.org/wiki/Diloy_le_chemineau/2",
+      "textHash": "c559f9b90ab4788301a9706ac9f61686f63102613606fb54dfd3d84fb8a423d8"
+    },
+    {
+      "id": "segur-diloy-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Diloy le chemineau",
+      "source": "https://fr.wikisource.org/wiki/Diloy_le_chemineau/2",
+      "textHash": "5c98e9c792d720888e8dd53b247965aaaa3645850fe1ae88282bd0f06d7a1d62"
+    },
+    {
+      "id": "segur-amour-enfant-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Quel amour d’enfant !",
+      "source": "https://fr.wikisource.org/wiki/Quel_amour_d%E2%80%99enfant_%21/I",
+      "textHash": "14e0aeabdfa335207ee8a4f4d261ad60e7d48e60a431c90b006fd0504d61ce5c"
+    },
+    {
+      "id": "segur-amour-enfant-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Quel amour d’enfant !",
+      "source": "https://fr.wikisource.org/wiki/Quel_amour_d%E2%80%99enfant_%21/I",
+      "textHash": "f1d449e93eb36ebd0fb8d29615ec28cca6d2e8a35ce61c140864e58c7efbc930"
+    },
+    {
+      "id": "segur-amour-enfant-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Quel amour d’enfant !",
+      "source": "https://fr.wikisource.org/wiki/Quel_amour_d%E2%80%99enfant_%21/I",
+      "textHash": "30c9fce941dd7b3414290ab76bbc5e171eb98036ac571df00f6eb741fac0906e"
+    },
+    {
+      "id": "sand-gribouille-p01",
+      "audience": "child",
+      "author": "George Sand",
+      "workTitle": "Histoire du véritable Gribouille",
+      "source": "https://fr.wikisource.org/wiki/Histoire_du_v%C3%A9ritable_Gribouille/1",
+      "textHash": "f91a22f9664790dd44a3dfa08feaec4df9e1193fdb63a650742fe6e5f0b6935e"
+    },
+    {
+      "id": "sand-gribouille-p02",
+      "audience": "child",
+      "author": "George Sand",
+      "workTitle": "Histoire du véritable Gribouille",
+      "source": "https://fr.wikisource.org/wiki/Histoire_du_v%C3%A9ritable_Gribouille/1",
+      "textHash": "3fbfffee77979e8e8a0f0569901ccb1fdb3eed1ff76d0fd18372e8e6c7471dc9"
+    },
+    {
+      "id": "sand-gribouille-p03",
+      "audience": "child",
+      "author": "George Sand",
+      "workTitle": "Histoire du véritable Gribouille",
+      "source": "https://fr.wikisource.org/wiki/Histoire_du_v%C3%A9ritable_Gribouille/1",
+      "textHash": "0a8fb88db635295e250fe303d887b9548e8305e9ce225365e8ba4fb92675d3ad"
+    },
+    {
+      "id": "fabre-ravageurs-p01",
+      "audience": "child",
+      "author": "Jean-Henri Fabre",
+      "workTitle": "Les Ravageurs",
+      "source": "https://fr.wikisource.org/wiki/Les_Ravageurs/I",
+      "textHash": "650a1011dd6914293568df342e1c9951b43c21094add7044e561d014bcec7734"
+    },
+    {
+      "id": "fabre-ravageurs-p02",
+      "audience": "child",
+      "author": "Jean-Henri Fabre",
+      "workTitle": "Les Ravageurs",
+      "source": "https://fr.wikisource.org/wiki/Les_Ravageurs/I",
+      "textHash": "04145cad24ab0373005d637ac7c6a59c3f115466e1cea792f8db378408dbc3c1"
+    },
+    {
+      "id": "fabre-ravageurs-p03",
+      "audience": "child",
+      "author": "Jean-Henri Fabre",
+      "workTitle": "Les Ravageurs",
+      "source": "https://fr.wikisource.org/wiki/Les_Ravageurs/I",
+      "textHash": "a3491dc6134b82663b345bb4a3c55011436a7f4118b9baa61e15515c66d1b35e"
+    },
+    {
+      "id": "souvestre-philosophe-p01",
+      "audience": "adult",
+      "author": "Émile Souvestre",
+      "workTitle": "Un philosophe sous les toits",
+      "source": "https://fr.wikisource.org/wiki/Un_philosophe_sous_les_toits/Chapitre_3",
+      "textHash": "0e85ee28970ff50e898d5c9b454dc6471f8d30609efd693b78ccd1deba009955"
+    },
+    {
+      "id": "souvestre-philosophe-p02",
+      "audience": "adult",
+      "author": "Émile Souvestre",
+      "workTitle": "Un philosophe sous les toits",
+      "source": "https://fr.wikisource.org/wiki/Un_philosophe_sous_les_toits/Chapitre_3",
+      "textHash": "d79ed4a896afd905f62cc4a21f143d77ae01019c4fd1baf21de5d4a4affdef40"
+    },
+    {
+      "id": "souvestre-philosophe-p03",
+      "audience": "adult",
+      "author": "Émile Souvestre",
+      "workTitle": "Un philosophe sous les toits",
+      "source": "https://fr.wikisource.org/wiki/Un_philosophe_sous_les_toits/Chapitre_3",
+      "textHash": "e36cf167a332df76d360fc50625495a7a3ea970c4c0605cc3b01826db7d1faee"
+    },
+    {
+      "id": "dickens-esperances-p01",
+      "audience": "adult",
+      "author": "Charles Dickens",
+      "workTitle": "Les Grandes Espérances",
+      "source": "https://fr.wikisource.org/wiki/Les_Grandes_Esp%C3%A9rances/I/1",
+      "textHash": "08bb5f8c06e5c454d0df6a70bebb1d18fb38a1d6fabdce9526bdda105e7abc5f"
+    },
+    {
+      "id": "dickens-esperances-p02",
+      "audience": "adult",
+      "author": "Charles Dickens",
+      "workTitle": "Les Grandes Espérances",
+      "source": "https://fr.wikisource.org/wiki/Les_Grandes_Esp%C3%A9rances/I/1",
+      "textHash": "31bebc6b944180e0975b7fdec91a14d9b7ab8a440aac7f8b0f1e37e776dc349c"
+    },
+    {
+      "id": "dickens-esperances-p03",
+      "audience": "adult",
+      "author": "Charles Dickens",
+      "workTitle": "Les Grandes Espérances",
+      "source": "https://fr.wikisource.org/wiki/Les_Grandes_Esp%C3%A9rances/I/1",
+      "textHash": "84b1e31edfd90a785d3560b0ef6b1bc3fc265ac737490f1ff6646f6d24c783fe"
+    },
+    {
+      "id": "dickens-antiquites-p01",
+      "audience": "adult",
+      "author": "Charles Dickens",
+      "workTitle": "Le Magasin d’antiquités",
+      "source": "https://fr.wikisource.org/wiki/Le_Magasin_d%E2%80%99antiquit%C3%A9s/Tome_1/1",
+      "textHash": "a692ebe29bed86fbf559842e98f0e2d0eb602485e9161392eb518e65589d4e8a"
+    },
+    {
+      "id": "dickens-antiquites-p02",
+      "audience": "adult",
+      "author": "Charles Dickens",
+      "workTitle": "Le Magasin d’antiquités",
+      "source": "https://fr.wikisource.org/wiki/Le_Magasin_d%E2%80%99antiquit%C3%A9s/Tome_1/1",
+      "textHash": "1f6f5eb08398269f5720dd0dbd0292061fe5d86a9ec8b0bf5303a9608e259472"
+    },
+    {
+      "id": "dickens-antiquites-p03",
+      "audience": "adult",
+      "author": "Charles Dickens",
+      "workTitle": "Le Magasin d’antiquités",
+      "source": "https://fr.wikisource.org/wiki/Le_Magasin_d%E2%80%99antiquit%C3%A9s/Tome_1/1",
+      "textHash": "0252a5b9b6c6fb1898f59424ac81a5daf892097e63d0b3f1a1cb474836956865"
+    },
+    {
+      "id": "stevenson-othon-p01",
+      "audience": "adult",
+      "author": "Robert Louis Stevenson",
+      "workTitle": "Le Roman du prince Othon",
+      "source": "https://fr.wikisource.org/wiki/Le_Roman_du_prince_Othon/Livre_premier/Chapitre_I",
+      "textHash": "075febb5f2ca1ab9854351fd8ae295d3251bb3de78bf9e255d8a3a65032d0680"
+    },
+    {
+      "id": "stevenson-othon-p02",
+      "audience": "adult",
+      "author": "Robert Louis Stevenson",
+      "workTitle": "Le Roman du prince Othon",
+      "source": "https://fr.wikisource.org/wiki/Le_Roman_du_prince_Othon/Livre_premier/Chapitre_I",
+      "textHash": "1f67caf5970d6eae38c9199a20564a09ddb4e7707c2aec4d89ff44fbb2868380"
+    },
+    {
+      "id": "stevenson-othon-p03",
+      "audience": "adult",
+      "author": "Robert Louis Stevenson",
+      "workTitle": "Le Roman du prince Othon",
+      "source": "https://fr.wikisource.org/wiki/Le_Roman_du_prince_Othon/Livre_premier/Chapitre_I",
+      "textHash": "bfc95c74af78b0eccfc9c2877547986d24db17216ed1a122a2515513d1c4c76b"
+    },
+    {
+      "id": "poe-histoires-p01",
+      "audience": "adult",
+      "author": "Edgar Allan Poe",
+      "workTitle": "Histoires extraordinaires",
+      "source": "https://fr.wikisource.org/wiki/Histoires_extraordinaires/La_Lettre_vol%C3%A9e",
+      "textHash": "1a7585c587417981139fa63918c3cd7a0e0658d20a667c0155e4b5122953aae5"
+    },
+    {
+      "id": "poe-histoires-p02",
+      "audience": "adult",
+      "author": "Edgar Allan Poe",
+      "workTitle": "Histoires extraordinaires",
+      "source": "https://fr.wikisource.org/wiki/Histoires_extraordinaires/La_Lettre_vol%C3%A9e",
+      "textHash": "c448e763e04e5b23a1dd1ec3681058f608cb8d978653475d79fec0f1c53a150d"
+    },
+    {
+      "id": "poe-histoires-p03",
+      "audience": "adult",
+      "author": "Edgar Allan Poe",
+      "workTitle": "Histoires extraordinaires",
+      "source": "https://fr.wikisource.org/wiki/Histoires_extraordinaires/La_Lettre_vol%C3%A9e",
+      "textHash": "9065d99babfd1732696abb9f6a2e0b1826fc6b78e28ae49fa4b02e24083e5bb0"
+    },
+    {
+      "id": "poe-nouvelles-p01",
+      "audience": "adult",
+      "author": "Edgar Allan Poe",
+      "workTitle": "Nouvelles Histoires extraordinaires",
+      "source": "https://fr.wikisource.org/wiki/Nouvelles_Histoires_extraordinaires/L%E2%80%99Homme_des_foules",
+      "textHash": "adfcb719c002c5ef37876ce56c3dac37ac34a4c9b67159b0e98a006727dd7734"
+    },
+    {
+      "id": "poe-nouvelles-p02",
+      "audience": "adult",
+      "author": "Edgar Allan Poe",
+      "workTitle": "Nouvelles Histoires extraordinaires",
+      "source": "https://fr.wikisource.org/wiki/Nouvelles_Histoires_extraordinaires/L%E2%80%99Homme_des_foules",
+      "textHash": "5ac696c4adf0c14a5a93b96acee935221de1740d0a212cc5cb107cdcf24f5f8d"
+    },
+    {
+      "id": "poe-nouvelles-p03",
+      "audience": "adult",
+      "author": "Edgar Allan Poe",
+      "workTitle": "Nouvelles Histoires extraordinaires",
+      "source": "https://fr.wikisource.org/wiki/Nouvelles_Histoires_extraordinaires/L%E2%80%99Homme_des_foules",
+      "textHash": "cefc38d1b462e44592ac614c1aad7af7db98d9f4a11e1dbbebad8eed57047a92"
+    },
+    {
+      "id": "diderot-jacques-p01",
+      "audience": "adult",
+      "author": "Denis Diderot",
+      "workTitle": "Jacques le fataliste et son maître",
+      "source": "https://fr.wikisource.org/wiki/Jacques_le_fataliste_et_son_ma%C3%AEtre",
+      "textHash": "13c3bf50d8982aac64299b3848657bbbbcce848ba2d5c373b038aed85047d654"
+    },
+    {
+      "id": "diderot-jacques-p02",
+      "audience": "adult",
+      "author": "Denis Diderot",
+      "workTitle": "Jacques le fataliste et son maître",
+      "source": "https://fr.wikisource.org/wiki/Jacques_le_fataliste_et_son_ma%C3%AEtre",
+      "textHash": "1eadee5709e4ee9d1003ae98fa744a0e351bc53b7c0f737e794f54b631bd0811"
+    },
+    {
+      "id": "diderot-jacques-p03",
+      "audience": "adult",
+      "author": "Denis Diderot",
+      "workTitle": "Jacques le fataliste et son maître",
+      "source": "https://fr.wikisource.org/wiki/Jacques_le_fataliste_et_son_ma%C3%AEtre",
+      "textHash": "48c735287852a155c505781554debc09358f953c1c251cb5de9f594a85ad4ec3"
+    },
+    {
+      "id": "diderot-robe-p01",
+      "audience": "adult",
+      "author": "Denis Diderot",
+      "workTitle": "Regrets sur ma vieille robe de chambre",
+      "source": "https://fr.wikisource.org/wiki/Regrets_sur_ma_vieille_robe_de_chambre",
+      "textHash": "4f2616b15bfbe86f35e1d2a24e4e2f86b03de966070d2c3f6c5a2d10aa9734d7"
+    },
+    {
+      "id": "diderot-robe-p02",
+      "audience": "adult",
+      "author": "Denis Diderot",
+      "workTitle": "Regrets sur ma vieille robe de chambre",
+      "source": "https://fr.wikisource.org/wiki/Regrets_sur_ma_vieille_robe_de_chambre",
+      "textHash": "2a7649d26b1530e9ea8b0e64308254cf3e016b576bdb967d69b7c4c0dfa03bc9"
+    },
+    {
+      "id": "diderot-robe-p03",
+      "audience": "adult",
+      "author": "Denis Diderot",
+      "workTitle": "Regrets sur ma vieille robe de chambre",
+      "source": "https://fr.wikisource.org/wiki/Regrets_sur_ma_vieille_robe_de_chambre",
+      "textHash": "6b9aaa0c83e470ee07c01080672142f75f93abf9af582f0d1a092ec91595b861"
+    },
+    {
+      "id": "descartes-discours-p01",
+      "audience": "adult",
+      "author": "René Descartes",
+      "workTitle": "Discours de la méthode",
+      "source": "https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode_(%C3%A9d._Cousin)/Premi%C3%A8re_partie",
+      "textHash": "59a19d84e906ba83784a29e3cff8390ced3dbe13ffc71f27230bae04a4aabd01"
+    },
+    {
+      "id": "descartes-discours-p02",
+      "audience": "adult",
+      "author": "René Descartes",
+      "workTitle": "Discours de la méthode",
+      "source": "https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode_(%C3%A9d._Cousin)/Premi%C3%A8re_partie",
+      "textHash": "2104f6a648c9b069443f83e5e7f29980f9da8f9ea21355a388117cddf46367aa"
+    },
+    {
+      "id": "descartes-discours-p03",
+      "audience": "adult",
+      "author": "René Descartes",
+      "workTitle": "Discours de la méthode",
+      "source": "https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode_(%C3%A9d._Cousin)/Premi%C3%A8re_partie",
+      "textHash": "b72ffe896398f167ee05da6f690d4e2304928cd937abc63c1d8ff3b5a4035f14"
+    },
+    {
+      "id": "rousseau-reveries-p01",
+      "audience": "adult",
+      "author": "Jean-Jacques Rousseau",
+      "workTitle": "Les Rêveries du promeneur solitaire",
+      "source": "https://fr.wikisource.org/wiki/Les_R%C3%AAveries_du_promeneur_solitaire/Texte_entier",
+      "textHash": "147b8dd17551b03275649f4316f31c06506a58aed85333a6faee795ef48b4464"
+    },
+    {
+      "id": "rousseau-reveries-p02",
+      "audience": "adult",
+      "author": "Jean-Jacques Rousseau",
+      "workTitle": "Les Rêveries du promeneur solitaire",
+      "source": "https://fr.wikisource.org/wiki/Les_R%C3%AAveries_du_promeneur_solitaire/Texte_entier",
+      "textHash": "5c12465e86e0db7638d9aa732671de1ab2fa85d6f43baebb62eda4bee74edc4b"
+    },
+    {
+      "id": "rousseau-reveries-p03",
+      "audience": "adult",
+      "author": "Jean-Jacques Rousseau",
+      "workTitle": "Les Rêveries du promeneur solitaire",
+      "source": "https://fr.wikisource.org/wiki/Les_R%C3%AAveries_du_promeneur_solitaire/Texte_entier",
+      "textHash": "29def2456939392bb94bc2131929717f69858c46d4f5c12ebacdacff1e791333"
+    },
+    {
+      "id": "rousseau-confessions-p01",
+      "audience": "adult",
+      "author": "Jean-Jacques Rousseau",
+      "workTitle": "Les Confessions",
+      "source": "https://fr.wikisource.org/wiki/Les_Confessions_(Rousseau)/Livre_I",
+      "textHash": "75c114ace37894e4ca955e962a0a73058bf91141e8bd03c6f16225628b6b699d"
+    },
+    {
+      "id": "rousseau-confessions-p02",
+      "audience": "adult",
+      "author": "Jean-Jacques Rousseau",
+      "workTitle": "Les Confessions",
+      "source": "https://fr.wikisource.org/wiki/Les_Confessions_(Rousseau)/Livre_I",
+      "textHash": "98e01442d2bd17bbb5dc4e6a942d0e1ef1d3a43dc4fe7831a1d66a39e05d9c8f"
+    },
+    {
+      "id": "rousseau-confessions-p03",
+      "audience": "adult",
+      "author": "Jean-Jacques Rousseau",
+      "workTitle": "Les Confessions",
+      "source": "https://fr.wikisource.org/wiki/Les_Confessions_(Rousseau)/Livre_I",
+      "textHash": "bdb43dc6e58922d686ee0c75e50a91748942ca80991159c7b0320441f527c3ab"
+    },
+    {
+      "id": "baudelaire-spleen-p01",
+      "audience": "adult",
+      "author": "Charles Baudelaire",
+      "workTitle": "Petits Poèmes en prose",
+      "source": "https://fr.wikisource.org/wiki/Petits_Po%C3%A8mes_en_prose/Texte_entier",
+      "textHash": "e5bb232db68f5269904cd096db3deb9164eee51ae2bb4c1ad955d6f6d6d3ff12"
+    },
+    {
+      "id": "baudelaire-spleen-p02",
+      "audience": "adult",
+      "author": "Charles Baudelaire",
+      "workTitle": "Petits Poèmes en prose",
+      "source": "https://fr.wikisource.org/wiki/Petits_Po%C3%A8mes_en_prose/Texte_entier",
+      "textHash": "a0afbe07b691cfd6ce08fb5328f6c71d1028d3d68a86bad693b8b8f72d1f79c0"
+    },
+    {
+      "id": "baudelaire-spleen-p03",
+      "audience": "adult",
+      "author": "Charles Baudelaire",
+      "workTitle": "Petits Poèmes en prose",
+      "source": "https://fr.wikisource.org/wiki/Petits_Po%C3%A8mes_en_prose/Texte_entier",
+      "textHash": "0faff36c82806026430b18ae0dbd0891338e33368c8f6dcaee04668787ca4500"
+    },
+    {
+      "id": "rimbaud-saison-p01",
+      "audience": "adult",
+      "author": "Arthur Rimbaud",
+      "workTitle": "Une saison en enfer",
+      "source": "https://fr.wikisource.org/wiki/Une_saison_en_enfer_(1873)/Mauvais_sang",
+      "textHash": "28c00682b8912f649f95479fdadaa0e5bbb4f0cc2a39c3754b77984e831d15cb"
+    },
+    {
+      "id": "rimbaud-saison-p02",
+      "audience": "adult",
+      "author": "Arthur Rimbaud",
+      "workTitle": "Une saison en enfer",
+      "source": "https://fr.wikisource.org/wiki/Une_saison_en_enfer_(1873)/Mauvais_sang",
+      "textHash": "de11d22c14a7e7010bae970737f16a272e483b0106e814f6b8dffecf63db2766"
+    },
+    {
+      "id": "rimbaud-saison-p03",
+      "audience": "adult",
+      "author": "Arthur Rimbaud",
+      "workTitle": "Une saison en enfer",
+      "source": "https://fr.wikisource.org/wiki/Une_saison_en_enfer_(1873)/Mauvais_sang",
+      "textHash": "1c6e0ad69ac5ffc04b2076b9a2709f04b3bfd610d74c8afd4789b5dab151e27c"
+    },
+    {
+      "id": "rimbaud-illuminations-p01",
+      "audience": "adult",
+      "author": "Arthur Rimbaud",
+      "workTitle": "Illuminations",
+      "source": "https://fr.wikisource.org/wiki/Illuminations_(%C3%A9d._1886)/Enfance",
+      "textHash": "715601299854913f580d4515b7c8772a80a979d2ca0a5d08c82f93f195f438f4"
+    },
+    {
+      "id": "rimbaud-illuminations-p02",
+      "audience": "adult",
+      "author": "Arthur Rimbaud",
+      "workTitle": "Illuminations",
+      "source": "https://fr.wikisource.org/wiki/Illuminations_(%C3%A9d._1886)/Enfance",
+      "textHash": "d42f02f4911c2b961c9c68bdc8de4fb8b6880ed846d957a3c6d792fb6631d5ab"
+    },
+    {
+      "id": "rimbaud-illuminations-p03",
+      "audience": "adult",
+      "author": "Arthur Rimbaud",
+      "workTitle": "Illuminations",
+      "source": "https://fr.wikisource.org/wiki/Illuminations_(%C3%A9d._1886)/Enfance",
+      "textHash": "d5ed4c0ebaa1fc7f2de12698180a6934293ac49d5cd719c34d011637abd938e9"
+    },
+    {
+      "id": "balzac-chabert-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Colonel Chabert",
+      "source": "https://fr.wikisource.org/wiki/Le_Colonel_Chabert",
+      "textHash": "b779c26fe4dc646e86e94b5a800a13f4aa6e5136b9685ae84751824f5ae1cc8c"
+    },
+    {
+      "id": "balzac-chabert-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Colonel Chabert",
+      "source": "https://fr.wikisource.org/wiki/Le_Colonel_Chabert",
+      "textHash": "c92c56b934a2d5ccea0bb055864058c39f37c6463e757458bff779b71eb3f0ca"
+    },
+    {
+      "id": "balzac-chabert-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Colonel Chabert",
+      "source": "https://fr.wikisource.org/wiki/Le_Colonel_Chabert",
+      "textHash": "94d1918e11f2646032d81c63b33c503f8b3b1e2833ba37184feba2d101df5296"
+    },
+    {
+      "id": "balzac-lys-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Lys dans la vallée",
+      "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+      "textHash": "d377f0ca596856e086f9af996a374c7853eae462bb99746a75f16146509bb826"
+    },
+    {
+      "id": "balzac-lys-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Lys dans la vallée",
+      "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+      "textHash": "b0143862a34997479930a09862ffa434e2fb456b039a20cc0aa7607cd2a63dc6"
+    },
+    {
+      "id": "balzac-lys-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Lys dans la vallée",
+      "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+      "textHash": "f56739ee43a2a9aaa239b98ee70a4ba12319159ca1c1eaa5d964e74b40ce5f76"
+    },
+    {
+      "id": "maupassant-vie-p01",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Une vie",
+      "source": "https://fr.wikisource.org/wiki/Une_vie/I",
+      "textHash": "109c93374e94dc8c9cfd35dee07757d227e73d7ad3d5c6c11855d5c5db8b14dc"
+    },
+    {
+      "id": "maupassant-vie-p02",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Une vie",
+      "source": "https://fr.wikisource.org/wiki/Une_vie/I",
+      "textHash": "af8cbdf7789fb0a7aa37851c198d1308cee48be7f23b2bb9f26c1fbb59ae1a6d"
+    },
+    {
+      "id": "maupassant-vie-p03",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Une vie",
+      "source": "https://fr.wikisource.org/wiki/Une_vie/I",
+      "textHash": "f92c412e98b8471fe7607acf5e5e17638cf1f9b3ee34aa25232c97ea18db6eaa"
+    },
+    {
+      "id": "maupassant-pierre-jean-p01",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Pierre et Jean",
+      "source": "https://fr.wikisource.org/wiki/Pierre_et_Jean/1",
+      "textHash": "1265e3a122748245bf94cd5d8ecf307837b8de138db26228573fa2523ce381b6"
+    },
+    {
+      "id": "maupassant-pierre-jean-p02",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Pierre et Jean",
+      "source": "https://fr.wikisource.org/wiki/Pierre_et_Jean/1",
+      "textHash": "87937cc635ffdabb88a8a78a8691d4374d4548108243f315484579d7e96d4b95"
+    },
+    {
+      "id": "maupassant-pierre-jean-p03",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Pierre et Jean",
+      "source": "https://fr.wikisource.org/wiki/Pierre_et_Jean/1",
+      "textHash": "f4c1cdcfa5b997542e3591582a31f895575507976aac6d4c7e9df0023821349e"
+    },
+    {
+      "id": "maupassant-belami-p01",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Bel-Ami",
+      "source": "https://fr.wikisource.org/wiki/Bel-Ami/%C3%89dition_Ollendorff,_1901/Premi%C3%A8re_Partie/I",
+      "textHash": "ae21c70ed92b378e1b763e8e061c9b2aced8da62e49a5898c72e3f7f30a96ff0"
+    },
+    {
+      "id": "maupassant-belami-p02",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Bel-Ami",
+      "source": "https://fr.wikisource.org/wiki/Bel-Ami/%C3%89dition_Ollendorff,_1901/Premi%C3%A8re_Partie/I",
+      "textHash": "bd2e91d09f4e2cbc9bfe7d6da40250b7cb4df1ca1771400b2aa8ab40106d274c"
+    },
+    {
+      "id": "maupassant-belami-p03",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Bel-Ami",
+      "source": "https://fr.wikisource.org/wiki/Bel-Ami/%C3%89dition_Ollendorff,_1901/Premi%C3%A8re_Partie/I",
+      "textHash": "1691b5c37de15a9141b3da012c67ea307161fbe0fcdb536e7590fa4f6cff297c"
+    },
+    {
+      "id": "zola-assommoir-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "L’Assommoir",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99Assommoir/Chapitre_I",
+      "textHash": "c3fadea53731cc1a6b4d0df3de2562a6fc692d6d855f43aa9a6606c9b5c16054"
+    },
+    {
+      "id": "zola-assommoir-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "L’Assommoir",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99Assommoir/Chapitre_I",
+      "textHash": "cca29f3af4ed267312103cbebb00b3e1442369b93cd4f576d40397493d4d5732"
+    },
+    {
+      "id": "zola-assommoir-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "L’Assommoir",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99Assommoir/Chapitre_I",
+      "textHash": "c33c941e93ba67f7d725e0332c0970d428d85a114080a2281f6c7f41d7705648"
+    },
+    {
+      "id": "souvestre-monde-p01",
+      "audience": "adult",
+      "author": "Émile Souvestre",
+      "workTitle": "Le Monde tel qu’il sera",
+      "source": "https://fr.wikisource.org/wiki/Le_Monde_tel_qu%E2%80%99il_sera_(1846)/Premi%C3%A8re_journ%C3%A9e",
+      "textHash": "a1f0ddb5f3e5ced5fb6a2dadb1a2b49d328474f8641d45afb6e586fe4c7f620e"
+    },
+    {
+      "id": "souvestre-monde-p02",
+      "audience": "adult",
+      "author": "Émile Souvestre",
+      "workTitle": "Le Monde tel qu’il sera",
+      "source": "https://fr.wikisource.org/wiki/Le_Monde_tel_qu%E2%80%99il_sera_(1846)/Premi%C3%A8re_journ%C3%A9e",
+      "textHash": "32c3eda4a65d5dd4a34352452f98b1c0f747416de5679888c00a0fd30e4501aa"
+    },
+    {
+      "id": "souvestre-monde-p03",
+      "audience": "adult",
+      "author": "Émile Souvestre",
+      "workTitle": "Le Monde tel qu’il sera",
+      "source": "https://fr.wikisource.org/wiki/Le_Monde_tel_qu%E2%80%99il_sera_(1846)/Premi%C3%A8re_journ%C3%A9e",
+      "textHash": "329bf46918f65fe3534f895e4ee9eeb8965840ab7fbd4a099dc92936ec67f6d0"
+    },
+    {
+      "id": "grimm-gnomes-p01",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "Les Présents des Gnomes",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/Les_Pr%C3%A9sents_des_Gnomes",
+      "textHash": "9a9a8bef353b9b307dcf2bcd62e0d21c83d9c7ca20eedea9e130ccefa958d628"
+    },
+    {
+      "id": "grimm-gnomes-p02",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "Les Présents des Gnomes",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/Les_Pr%C3%A9sents_des_Gnomes",
+      "textHash": "eba7b8f42d019dd5194b6dc1a69b31a5d80040a13096696a877efd133a62c9f2"
+    },
+    {
+      "id": "grimm-gnomes-p03",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "Les Présents des Gnomes",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/Les_Pr%C3%A9sents_des_Gnomes",
+      "textHash": "8269d634904ddf9abf7753981e8df841b682d99eafb37a01b5631e76304fc08d"
+    },
+    {
+      "id": "grimm-rougerose-p01",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "Blancheneige et Rougerose",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/Blancheneige_et_Rougerose",
+      "textHash": "1ed52629799784e2667fc4bb33d05f26144f3e5063bb37419f9c2069a6495e3d"
+    },
+    {
+      "id": "grimm-rougerose-p02",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "Blancheneige et Rougerose",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/Blancheneige_et_Rougerose",
+      "textHash": "073ffb20da90a9e3cd2e6185037639441daa8c44d59f2868f30077fe35b73a16"
+    },
+    {
+      "id": "grimm-rougerose-p03",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "Blancheneige et Rougerose",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/Blancheneige_et_Rougerose",
+      "textHash": "ccaf9ae612ff424f956e44c47276d8ec5f9fcf71a0c878e451c330188527861a"
+    },
+    {
+      "id": "grimm-abeilles-p01",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "La Reine des abeilles",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/La_reine_des_abeilles",
+      "textHash": "acc0bab8edd3e4f27f8c8efb9d189da8955a6e0bed0c9b57ddb013ae64336e62"
+    },
+    {
+      "id": "grimm-abeilles-p02",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "La Reine des abeilles",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/La_reine_des_abeilles",
+      "textHash": "7201483ea7db66b6b35dd9d4248775e1397cafa28876cff6d95268e5b9f7bb02"
+    },
+    {
+      "id": "grimm-abeilles-p03",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "La Reine des abeilles",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/La_reine_des_abeilles",
+      "textHash": "70701e625ccf8fe5b9e491fc483b8428f7431dd7b008c7a15a2d6ec6397e8a11"
+    },
+    {
+      "id": "grimm-musiciens-p01",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "Les Musiciens de la ville de Brème",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/Les_Musiciens_de_Br%C3%AAme",
+      "textHash": "23656685ce6278189f64e3d6054dd2ab2e1c70f266b454ed8dbe3dbba9baa9c1"
+    },
+    {
+      "id": "grimm-musiciens-p02",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "Les Musiciens de la ville de Brème",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/Les_Musiciens_de_Br%C3%AAme",
+      "textHash": "de22d82d62b978b68df66f2643a7be0a283f9675c12a799070278dd854ceb98a"
+    },
+    {
+      "id": "grimm-musiciens-p03",
+      "audience": "child",
+      "author": "Jacob et Wilhelm Grimm",
+      "workTitle": "Les Musiciens de la ville de Brème",
+      "source": "https://fr.wikisource.org/wiki/Contes_choisis_des_fr%C3%A8res_Grimm/Les_Musiciens_de_Br%C3%AAme",
+      "textHash": "d44e73138a53006f42288addee1155678d77eb0dea16cacc3c9ce3c2aaa8818a"
+    },
+    {
+      "id": "andersen-bergere-p01",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "La Bergère et le Ramoneur",
+      "source": "https://fr.wikisource.org/wiki/Contes_d’Andersen/La_Bergère_et_le_ramoneur",
+      "textHash": "57a2b130510749e2d8721a1d027d4d73eba7683faf87ad6666cd7d10ee5ed1b7"
+    },
+    {
+      "id": "andersen-bergere-p02",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "La Bergère et le Ramoneur",
+      "source": "https://fr.wikisource.org/wiki/Contes_d’Andersen/La_Bergère_et_le_ramoneur",
+      "textHash": "eaf3e8dc7a6cae5ec9f808909e5b1b4a092b0325c6327dcbe6e652a524bb7042"
+    },
+    {
+      "id": "andersen-bergere-p03",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "La Bergère et le Ramoneur",
+      "source": "https://fr.wikisource.org/wiki/Contes_d’Andersen/La_Bergère_et_le_ramoneur",
+      "textHash": "41b168aa688c7bc4c6571ceb8a3295a4c2bd07c0b4157c444261fe39b41b2238"
+    },
+    {
+      "id": "andersen-coffre-volant-p01",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Coffre volant",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Le_Coffre_volant",
+      "textHash": "5d0fd3870858357488cc993d4b17fb6c09ea927088c7bd360a6ddf34af99b2f9"
+    },
+    {
+      "id": "andersen-coffre-volant-p02",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Coffre volant",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Le_Coffre_volant",
+      "textHash": "130c3e03f7d1c55e7776cf11ba0f80b68fae06d46aa23047c11378eb68c0e8bf"
+    },
+    {
+      "id": "andersen-coffre-volant-p03",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Coffre volant",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Le_Coffre_volant",
+      "textHash": "b4807092bade8b22c7f7af5c48201c22d3f3a2676c2202680219395914c42276"
+    },
+    {
+      "id": "andersen-sapin-p01",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Sapin",
+      "source": "https://fr.wikisource.org/wiki/Nouveaux_Contes_d%E2%80%99Andersen/Le_Sapin",
+      "textHash": "560482ac3280f691fb763cb39345a7f74efa3c0937509ebe60e98741575658db"
+    },
+    {
+      "id": "andersen-sapin-p02",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Sapin",
+      "source": "https://fr.wikisource.org/wiki/Nouveaux_Contes_d%E2%80%99Andersen/Le_Sapin",
+      "textHash": "ab3eee77d2730b1c11036829dfb73b6f560253a4f768b0736f06d1faebcc9082"
+    },
+    {
+      "id": "andersen-sapin-p03",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Le Sapin",
+      "source": "https://fr.wikisource.org/wiki/Nouveaux_Contes_d%E2%80%99Andersen/Le_Sapin",
+      "textHash": "53bfa1ed68d847f8dafd0bcf794de74ef781586168c8450e9f6dbe01be71779c"
+    },
+    {
+      "id": "andersen-fleurs-ida-p01",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Les Fleurs de la petite Ida",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Les_Fleurs_de_la_petite_Ida",
+      "textHash": "f76f7dfcbbbb219cf03bcb5b0900d882ac6c92cd913a00fb4499727ac01dccfe"
+    },
+    {
+      "id": "andersen-fleurs-ida-p02",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Les Fleurs de la petite Ida",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Les_Fleurs_de_la_petite_Ida",
+      "textHash": "ec557686d7392162475c35ea900d98587e431ce5df23cc46166b2504ab74bc88"
+    },
+    {
+      "id": "andersen-fleurs-ida-p03",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Les Fleurs de la petite Ida",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Les_Fleurs_de_la_petite_Ida",
+      "textHash": "de58ec012b3fed314e3c0e6994f861203a891db4c12cfb962452cdea06b95b71"
+    },
+    {
+      "id": "andersen-cygnes-sauvages-p01",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Les Cygnes sauvages",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Les_Cygnes_sauvages",
+      "textHash": "1d5a0c42350861132b13ea3ff866cca6d24fa32183f53a229977aaefcf9a343e"
+    },
+    {
+      "id": "andersen-cygnes-sauvages-p02",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Les Cygnes sauvages",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Les_Cygnes_sauvages",
+      "textHash": "f69feab9e426ad91f1f2e48fa2ba35cc01b20d2e0409f712eea3cafd88afe3ae"
+    },
+    {
+      "id": "andersen-cygnes-sauvages-p03",
+      "audience": "child",
+      "author": "Hans Christian Andersen",
+      "workTitle": "Les Cygnes sauvages",
+      "source": "https://fr.wikisource.org/wiki/Contes_d%E2%80%99Andersen/Les_Cygnes_sauvages",
+      "textHash": "53fb45f24af3cfc378f41fa78ffb3bf8b751003501b9420bc35895e99bb817e4"
+    },
+    {
+      "id": "balzac-chef-oeuvre-inconnu-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Chef-d’œuvre inconnu",
+      "source": "https://fr.wikisource.org/wiki/%C5%92uvres_compl%C3%A8tes_de_H._de_Balzac/14/Le_Chef-d%E2%80%99%C5%93uvre_inconnu",
+      "textHash": "6cdaa0655fa1fcf7f5ae162a1c076f7909c4884bf4ebd426ab32894589f7d83d"
+    },
+    {
+      "id": "balzac-chef-oeuvre-inconnu-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Chef-d’œuvre inconnu",
+      "source": "https://fr.wikisource.org/wiki/%C5%92uvres_compl%C3%A8tes_de_H._de_Balzac/14/Le_Chef-d%E2%80%99%C5%93uvre_inconnu",
+      "textHash": "24631903781b758d5af905a06d0b8a1ecd1f03a535cdb85bb1b994da5fa9ed1a"
+    },
+    {
+      "id": "balzac-chef-oeuvre-inconnu-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Chef-d’œuvre inconnu",
+      "source": "https://fr.wikisource.org/wiki/%C5%92uvres_compl%C3%A8tes_de_H._de_Balzac/14/Le_Chef-d%E2%80%99%C5%93uvre_inconnu",
+      "textHash": "5529ecefa2d0353369d0c40d9dbe8ed8ee9d60b6df5501b11b7044e965c50c5a"
+    },
+    {
+      "id": "zola-nantas-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Nantas",
+      "source": "https://fr.wikisource.org/wiki/Na%C3%AFs_Micoulin_(Recueil)/Nantas",
+      "textHash": "b108a043905fa35cecc43d25133fcc64853f1d0ddd0312d91cd6d2a1a39989d5"
+    },
+    {
+      "id": "zola-nantas-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Nantas",
+      "source": "https://fr.wikisource.org/wiki/Na%C3%AFs_Micoulin_(Recueil)/Nantas",
+      "textHash": "57a52111ab3e578980270c90f521585051d3e4216ce59850c731f6699a53483f"
+    },
+    {
+      "id": "zola-nantas-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Nantas",
+      "source": "https://fr.wikisource.org/wiki/Na%C3%AFs_Micoulin_(Recueil)/Nantas",
+      "textHash": "be359070b6a290628b5f5c93290db076ca7e0b59e7f45e79c713b9f7a5b1ff35"
+    },
+    {
+      "id": "merimee-venus-ille-p01",
+      "audience": "adult",
+      "author": "Prosper Mérimée",
+      "workTitle": "La Vénus d’Ille",
+      "source": "https://fr.wikisource.org/wiki/Colomba_et_autres_contes_et_nouvelles/La_V%C3%A9nus_d%E2%80%99Ille",
+      "textHash": "06d2939dcbf687e480eb7d1391f3ad8aaf7f25a58a12c22bf62710ccfd20b267"
+    },
+    {
+      "id": "merimee-venus-ille-p02",
+      "audience": "adult",
+      "author": "Prosper Mérimée",
+      "workTitle": "La Vénus d’Ille",
+      "source": "https://fr.wikisource.org/wiki/Colomba_et_autres_contes_et_nouvelles/La_V%C3%A9nus_d%E2%80%99Ille",
+      "textHash": "0ff1892ba113812ee208a8fb95d58f7c3054a8eeb5896c1593d0beaee29594b2"
+    },
+    {
+      "id": "merimee-venus-ille-p03",
+      "audience": "adult",
+      "author": "Prosper Mérimée",
+      "workTitle": "La Vénus d’Ille",
+      "source": "https://fr.wikisource.org/wiki/Colomba_et_autres_contes_et_nouvelles/La_V%C3%A9nus_d%E2%80%99Ille",
+      "textHash": "dd1cd6d3b615f7f29d7f781f686946d1abf26d334cb4887ebf5e3cb2ac4ae685"
+    },
+    {
+      "id": "maupassant-boule-suif-p01",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Boule de suif",
+      "source": "https://fr.wikisource.org/wiki/Les_Soir%C3%A9es_de_M%C3%A9dan/Boule_de_suif",
+      "textHash": "314b42902228e4579b51b876a0b06b72921664363cf81c43f30760beb18eef19"
+    },
+    {
+      "id": "maupassant-boule-suif-p02",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Boule de suif",
+      "source": "https://fr.wikisource.org/wiki/Les_Soir%C3%A9es_de_M%C3%A9dan/Boule_de_suif",
+      "textHash": "34d9f94d24ac69c7b5b48350f5766ff9fe69e39d717d575e88cc2fbe32c6f715"
+    },
+    {
+      "id": "maupassant-boule-suif-p03",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Boule de suif",
+      "source": "https://fr.wikisource.org/wiki/Les_Soir%C3%A9es_de_M%C3%A9dan/Boule_de_suif",
+      "textHash": "2bde2a49d390f6f11d57ada342748f870fdf331cf5250e95f51ff72a1ae03556"
+    },
+    {
+      "id": "segur-memoires-ane-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Mémoires d’un âne",
+      "source": "https://fr.wikisource.org/wiki/M%C3%A9moires_d%E2%80%99un_%C3%A2ne/19",
+      "textHash": "5e6819efa9e6697a338e241f88867804d3aef7fba85e976d6546fd61b8e5e828"
+    },
+    {
+      "id": "segur-memoires-ane-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Mémoires d’un âne",
+      "source": "https://fr.wikisource.org/wiki/M%C3%A9moires_d%E2%80%99un_%C3%A2ne/19",
+      "textHash": "573dda441eb5dae04218118e235b5f1c07d4e0ab5a2e332fec86808d0df05b9b"
+    },
+    {
+      "id": "segur-memoires-ane-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Mémoires d’un âne",
+      "source": "https://fr.wikisource.org/wiki/M%C3%A9moires_d%E2%80%99un_%C3%A2ne/19",
+      "textHash": "72d896c4448122f119a807ed06cb71e0107d41f918f88e67eb7049ea4d542700"
+    },
+    {
+      "id": "verne-indes-noires-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Indes noires",
+      "source": "https://fr.wikisource.org/wiki/Les_Indes_noires/Chapitre_18",
+      "textHash": "32a60977b059db0207844a7d44f9a59c9af62470b399d5a0f5977036788c309c"
+    },
+    {
+      "id": "verne-indes-noires-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Indes noires",
+      "source": "https://fr.wikisource.org/wiki/Les_Indes_noires/Chapitre_18",
+      "textHash": "9a16ff4318690c583a6c0ef2b6d507e0cef7eb8f758b75f7912e538ade86ec91"
+    },
+    {
+      "id": "verne-indes-noires-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Indes noires",
+      "source": "https://fr.wikisource.org/wiki/Les_Indes_noires/Chapitre_18",
+      "textHash": "c574300daa7dc2c76ce2130f3d606ec3da87dd8c1e09345a567af448ee4eccb2"
+    },
+    {
+      "id": "fabre-auxiliaires-p01",
+      "audience": "child",
+      "author": "Jean-Henri Fabre",
+      "workTitle": "Les Auxiliaires",
+      "source": "https://fr.wikisource.org/wiki/Les_Auxiliaires/XXIX",
+      "textHash": "c90327de335799bee02f3e62cdf572e2de7e0994a0692423ba9ebe071e5cb3c0"
+    },
+    {
+      "id": "fabre-auxiliaires-p02",
+      "audience": "child",
+      "author": "Jean-Henri Fabre",
+      "workTitle": "Les Auxiliaires",
+      "source": "https://fr.wikisource.org/wiki/Les_Auxiliaires/XXIX",
+      "textHash": "859a6e1872fb7940bcb773220fa297d3eeea1c617fb0449413d51f9731a4e369"
+    },
+    {
+      "id": "fabre-auxiliaires-p03",
+      "audience": "child",
+      "author": "Jean-Henri Fabre",
+      "workTitle": "Les Auxiliaires",
+      "source": "https://fr.wikisource.org/wiki/Les_Auxiliaires/XXIX",
+      "textHash": "324b29bc698031aa2ccc9244f7b20332ac5bcc1845e8afe2d0ec8806ab87eb7f"
+    },
+    {
+      "id": "segur-general-dourakine-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Le Général Dourakine",
+      "source": "https://fr.wikisource.org/wiki/Le_G%C3%A9n%C3%A9ral_Dourakine/1",
+      "textHash": "e8968bff2824c20d715d60b7dfbb590048ca3bb817a307fa3d29df4c52ff5bd7"
+    },
+    {
+      "id": "segur-general-dourakine-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Le Général Dourakine",
+      "source": "https://fr.wikisource.org/wiki/Le_G%C3%A9n%C3%A9ral_Dourakine/1",
+      "textHash": "342b01adb15612e2879eea16d77a72f560be4c02f4142f5f98b06e70f480547e"
+    },
+    {
+      "id": "segur-general-dourakine-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Le Général Dourakine",
+      "source": "https://fr.wikisource.org/wiki/Le_G%C3%A9n%C3%A9ral_Dourakine/1",
+      "textHash": "8a3c4ecfe56867341559645f104ef74ad5f0122e7b9a83b4b194462b84474504"
+    },
+    {
+      "id": "sand-marquise-p01",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "La Marquise",
+      "source": "https://fr.wikisource.org/wiki/Nouvelles_(1869)/La_Marquise",
+      "textHash": "07c03e1380b2abc754fc8a033fd57fc4e1254146c8197953716ae1857a26281c"
+    },
+    {
+      "id": "sand-marquise-p02",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "La Marquise",
+      "source": "https://fr.wikisource.org/wiki/Nouvelles_(1869)/La_Marquise",
+      "textHash": "b4ad8fb7d2fc8b1d30d1029f87711b1233ce552c1fc691699434561446133257"
+    },
+    {
+      "id": "sand-marquise-p03",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "La Marquise",
+      "source": "https://fr.wikisource.org/wiki/Nouvelles_(1869)/La_Marquise",
+      "textHash": "b103aba97f100da10b419bda6680defac0433f789c137f7c0856b63d1afc927d"
+    },
+    {
+      "id": "stael-allemagne-p01",
+      "audience": "adult",
+      "author": "Madame de Staël",
+      "workTitle": "De l’Allemagne",
+      "source": "https://fr.wikisource.org/wiki/De_l%E2%80%99Allemagne/Seconde_partie/I",
+      "textHash": "b6fa49633dbe6d4404e4b6ca610f4b95aff38c75dff20163fa262ee251765047"
+    },
+    {
+      "id": "stael-allemagne-p02",
+      "audience": "adult",
+      "author": "Madame de Staël",
+      "workTitle": "De l’Allemagne",
+      "source": "https://fr.wikisource.org/wiki/De_l%E2%80%99Allemagne/Seconde_partie/I",
+      "textHash": "5099d81ec60564d1c0c185a6b7fc9c1dc6a0cf65ab8b445e4cdf623eb4507f75"
+    },
+    {
+      "id": "stael-allemagne-p03",
+      "audience": "adult",
+      "author": "Madame de Staël",
+      "workTitle": "De l’Allemagne",
+      "source": "https://fr.wikisource.org/wiki/De_l%E2%80%99Allemagne/Seconde_partie/I",
+      "textHash": "8543d58a87bdc9cc497cca46af8865b1d0b64a1ba9b8f4bda8e5d1ee35184e95"
+    },
+    {
+      "id": "france-livre-ami-p01",
+      "audience": "adult",
+      "author": "Anatole France",
+      "workTitle": "Le Livre de mon ami",
+      "source": "https://fr.wikisource.org/wiki/Le_Livre_de_mon_ami/Le_Livre_de_Pierre/Premi%C3%A8res_conqu%C3%AAtes",
+      "textHash": "c7c2b9b3a1c63b75abfce9e144b10718a78882553b3ce3be40ada51a4e1ea424"
+    },
+    {
+      "id": "france-livre-ami-p02",
+      "audience": "adult",
+      "author": "Anatole France",
+      "workTitle": "Le Livre de mon ami",
+      "source": "https://fr.wikisource.org/wiki/Le_Livre_de_mon_ami/Le_Livre_de_Pierre/Premi%C3%A8res_conqu%C3%AAtes",
+      "textHash": "04fa3d586603e50f7c94a8a2a3962f24ec764ca84e01e40f0cffa1c373ad8953"
+    },
+    {
+      "id": "france-livre-ami-p03",
+      "audience": "adult",
+      "author": "Anatole France",
+      "workTitle": "Le Livre de mon ami",
+      "source": "https://fr.wikisource.org/wiki/Le_Livre_de_mon_ami/Le_Livre_de_Pierre/Premi%C3%A8res_conqu%C3%AAtes",
+      "textHash": "f3fcf923cdae4d262e8824371ccd6af3acf61d842af949b1a4b3d3459df4969f"
+    },
+    {
+      "id": "dumas-dame-monsoreau-p01",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "La Dame de Monsoreau",
+      "source": "https://fr.wikisource.org/wiki/La_Dame_de_Monsoreau/01",
+      "textHash": "a74eaeec078b05bc0552abf0b5030a358a9d3889929659e853125f45b8a97075"
+    },
+    {
+      "id": "dumas-dame-monsoreau-p02",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "La Dame de Monsoreau",
+      "source": "https://fr.wikisource.org/wiki/La_Dame_de_Monsoreau/01",
+      "textHash": "410eb48e94bd12b0effc1617860cb5ec0ad13712e5ca173c1a3037acd72aff22"
+    },
+    {
+      "id": "dumas-dame-monsoreau-p03",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "La Dame de Monsoreau",
+      "source": "https://fr.wikisource.org/wiki/La_Dame_de_Monsoreau/01",
+      "textHash": "e1e82d40ce339c14bdf9e5c86f5e96d30ec61f49ae68e8ba77fc33ea22384c70"
+    },
+    {
+      "id": "maupassant-mont-oriol-p01",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Mont-Oriol",
+      "source": "https://fr.wikisource.org/wiki/Mont-Oriol/Premi%C3%A8re_Partie/I",
+      "textHash": "e13e7fbcd66969a20df54a56bea35a6b858049271b51ce673405c91f98ebcdc2"
+    },
+    {
+      "id": "maupassant-mont-oriol-p02",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Mont-Oriol",
+      "source": "https://fr.wikisource.org/wiki/Mont-Oriol/Premi%C3%A8re_Partie/I",
+      "textHash": "3b6b35f614c721a3aa4907bb767f3da06dc0cb1d7156a054313d6230930c967f"
+    },
+    {
+      "id": "maupassant-mont-oriol-p03",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Mont-Oriol",
+      "source": "https://fr.wikisource.org/wiki/Mont-Oriol/Premi%C3%A8re_Partie/I",
+      "textHash": "39e840e167080d7466f6e5d52dd9e1240727a649e1624f73242efd0662ac309c"
+    },
+    {
+      "id": "verne-rayon-vert-p01",
+      "audience": "adult",
+      "author": "Jules Verne",
+      "workTitle": "Le Rayon vert",
+      "source": "https://fr.wikisource.org/wiki/Le_Rayon_vert/Chapitre_II",
+      "textHash": "9a5319b3fce7b2d33039ef0d248188ecd9b854777f07df3efff245be0bb816a1"
+    },
+    {
+      "id": "verne-rayon-vert-p02",
+      "audience": "adult",
+      "author": "Jules Verne",
+      "workTitle": "Le Rayon vert",
+      "source": "https://fr.wikisource.org/wiki/Le_Rayon_vert/Chapitre_II",
+      "textHash": "f980c8a723b5c9e059faa8eb3c62fa181e7bd4ac0a0c84c49a5ed56a2e32d2fb"
+    },
+    {
+      "id": "verne-rayon-vert-p03",
+      "audience": "adult",
+      "author": "Jules Verne",
+      "workTitle": "Le Rayon vert",
+      "source": "https://fr.wikisource.org/wiki/Le_Rayon_vert/Chapitre_II",
+      "textHash": "4b6a89ef82631ff203c63f7631188dd49778ef3c40c27f23d7259f7b60a1fbe4"
+    },
+    {
+      "id": "balzac-ursule-mirouet-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Ursule Mirouët",
+      "source": "https://fr.wikisource.org/wiki/Ursule_Mirou%C3%ABt/1",
+      "textHash": "c5b4fefa3e06e892dbc7b13f86d57f7e307807ca35dcf41708c0e5b0e112f283"
+    },
+    {
+      "id": "balzac-ursule-mirouet-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Ursule Mirouët",
+      "source": "https://fr.wikisource.org/wiki/Ursule_Mirou%C3%ABt/1",
+      "textHash": "bf2b9b2bb50c4767ffedcbad18205a78f19fcd18f1da1e3256c36c9efbd1addb"
+    },
+    {
+      "id": "balzac-ursule-mirouet-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Ursule Mirouët",
+      "source": "https://fr.wikisource.org/wiki/Ursule_Mirou%C3%ABt/1",
+      "textHash": "38219d5d5e59a847922d1d3113e4df99fddbba3f223720519bb01fdace62c903"
+    },
+    {
+      "id": "france-rotisserie-pedauque-p01",
+      "audience": "adult",
+      "author": "Anatole France",
+      "workTitle": "La Rôtisserie de la reine Pédauque",
+      "source": "https://fr.wikisource.org/wiki/La_R%C3%B4tisserie_de_la_reine_P%C3%A9dauque/I",
+      "textHash": "a037371aa8a9443201895acfa0ecde4c636378804162ec26f12d18037c7fdfd1"
+    },
+    {
+      "id": "france-rotisserie-pedauque-p02",
+      "audience": "adult",
+      "author": "Anatole France",
+      "workTitle": "La Rôtisserie de la reine Pédauque",
+      "source": "https://fr.wikisource.org/wiki/La_R%C3%B4tisserie_de_la_reine_P%C3%A9dauque/I",
+      "textHash": "21ca4f685dffc5eb4da5d398d89a05769c9f9d4ee16e75bf167068143508cef8"
+    },
+    {
+      "id": "france-rotisserie-pedauque-p03",
+      "audience": "adult",
+      "author": "Anatole France",
+      "workTitle": "La Rôtisserie de la reine Pédauque",
+      "source": "https://fr.wikisource.org/wiki/La_R%C3%B4tisserie_de_la_reine_P%C3%A9dauque/I",
+      "textHash": "a084e9c72aecd81b7252ab67b84e58aacbf6afb1ad3de0e8a2acb0bd57586c31"
+    },
+    {
+      "id": "segur-pauvre-blaise-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Pauvre Blaise",
+      "source": "https://fr.wikisource.org/wiki/Pauvre_Blaise/1",
+      "textHash": "b72eab2cd4cd77e0f4ac8d1ddee5f53970c37f8f2b4d5aa3708f240f8d6db8df"
+    },
+    {
+      "id": "segur-pauvre-blaise-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Pauvre Blaise",
+      "source": "https://fr.wikisource.org/wiki/Pauvre_Blaise/1",
+      "textHash": "c5e536efddfb5d3ea2f53f7d51945b8092f0be6dc56f58e126166fb4101a7ceb"
+    },
+    {
+      "id": "segur-pauvre-blaise-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Pauvre Blaise",
+      "source": "https://fr.wikisource.org/wiki/Pauvre_Blaise/1",
+      "textHash": "f1d231a0a01ad6fe836f21c051d8ed808e88dee72913c7aa638952620fecb83b"
+    },
+    {
+      "id": "segur-soeur-gribouille-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "La Sœur de Gribouille",
+      "source": "https://fr.wikisource.org/wiki/La_S%C5%93ur_de_Gribouille/Texte_entier",
+      "textHash": "91b75bda84e0389574b41a08e681a9cd04f083f9cebb1ff1844ad628231afa9b"
+    },
+    {
+      "id": "segur-soeur-gribouille-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "La Sœur de Gribouille",
+      "source": "https://fr.wikisource.org/wiki/La_S%C5%93ur_de_Gribouille/Texte_entier",
+      "textHash": "babf28c73795a60c54788bc089fa503471eeaf1c5ba205c88d61e0689cafa2f3"
+    },
+    {
+      "id": "segur-soeur-gribouille-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "La Sœur de Gribouille",
+      "source": "https://fr.wikisource.org/wiki/La_S%C5%93ur_de_Gribouille/Texte_entier",
+      "textHash": "2aaa1d1266d3d4f00619c6853ef3da9f8e326a43ce47cac03866c452fa58fe50"
+    },
+    {
+      "id": "perrault-chat-botte-p01",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Le Chat botté",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Montr%C3%A9al,_1886)/Le_Chat_Bott%C3%A9",
+      "textHash": "14cdded5e8140cbfa9fb793b1afda2829917203c7c67546592ffc7de98366c03"
+    },
+    {
+      "id": "perrault-chat-botte-p02",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Le Chat botté",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Montr%C3%A9al,_1886)/Le_Chat_Bott%C3%A9",
+      "textHash": "a91f31feedd70b132626e7f5ba438ad97e6a240a46705ec102d12b2ead3470d4"
+    },
+    {
+      "id": "perrault-chat-botte-p03",
+      "audience": "child",
+      "author": "Charles Perrault",
+      "workTitle": "Le Chat botté",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Montr%C3%A9al,_1886)/Le_Chat_Bott%C3%A9",
+      "textHash": "2b876f92332e46085a7dd4d858b8f487559a24ea2f7bd52102a4bde591e7b10d"
+    },
+    {
+      "id": "verne-trois-russes-anglais-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Aventures de trois Russes et de trois Anglais",
+      "source": "https://fr.wikisource.org/wiki/Aventures_de_trois_Russes_et_de_trois_Anglais/Chapitre_1",
+      "textHash": "60597d6a8e94bfc8f9a3973e4b7abe2176fac0378d818349fcf1c39ec1cc1aad"
+    },
+    {
+      "id": "verne-trois-russes-anglais-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Aventures de trois Russes et de trois Anglais",
+      "source": "https://fr.wikisource.org/wiki/Aventures_de_trois_Russes_et_de_trois_Anglais/Chapitre_1",
+      "textHash": "39d6ba85d3dc797ebd6c492782fc8f000042901de2f7bb6c0c624878c30dd88f"
+    },
+    {
+      "id": "verne-trois-russes-anglais-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Aventures de trois Russes et de trois Anglais",
+      "source": "https://fr.wikisource.org/wiki/Aventures_de_trois_Russes_et_de_trois_Anglais/Chapitre_1",
+      "textHash": "2b9f971accfcad44a147961b297e19481c42c61c3f3c77a615197684a05b108e"
+    },
+    {
+      "id": "bernardin-paul-virginie-p01",
+      "audience": "adult",
+      "author": "Jacques-Henri Bernardin de Saint-Pierre",
+      "workTitle": "Paul et Virginie",
+      "source": "https://fr.wikisource.org/wiki/Paul_et_Virginie/Paul_et_Virginie",
+      "textHash": "5b6f93329bb978aa9045881740384f0dd6ec654eddc70b27fc1cbef4c3354da6"
+    },
+    {
+      "id": "bernardin-paul-virginie-p02",
+      "audience": "adult",
+      "author": "Jacques-Henri Bernardin de Saint-Pierre",
+      "workTitle": "Paul et Virginie",
+      "source": "https://fr.wikisource.org/wiki/Paul_et_Virginie/Paul_et_Virginie",
+      "textHash": "5faf72ef93683ab41d25a1af4078b9f460126dd23ef86bd89e7d2cb450ad0cee"
+    },
+    {
+      "id": "bernardin-paul-virginie-p03",
+      "audience": "adult",
+      "author": "Jacques-Henri Bernardin de Saint-Pierre",
+      "workTitle": "Paul et Virginie",
+      "source": "https://fr.wikisource.org/wiki/Paul_et_Virginie/Paul_et_Virginie",
+      "textHash": "ac094c9d32f9cf71d5b65b3ffa32a03f7c57d8e33ccc714714f97dbcb8f907a4"
+    },
+    {
+      "id": "chateaubriand-rene-p01",
+      "audience": "adult",
+      "author": "François-René de Chateaubriand",
+      "workTitle": "René",
+      "source": "https://fr.wikisource.org/wiki/Ren%C3%A9",
+      "textHash": "33a78ff4503c89bd1e77f7d5204300f5dd2ff481eeb48d71127ebe6c6b15c632"
+    },
+    {
+      "id": "chateaubriand-rene-p02",
+      "audience": "adult",
+      "author": "François-René de Chateaubriand",
+      "workTitle": "René",
+      "source": "https://fr.wikisource.org/wiki/Ren%C3%A9",
+      "textHash": "192851e06bf6b14a51d54da38cd778dd32a79844d6f5b70265d03e8020a64185"
+    },
+    {
+      "id": "chateaubriand-rene-p03",
+      "audience": "adult",
+      "author": "François-René de Chateaubriand",
+      "workTitle": "René",
+      "source": "https://fr.wikisource.org/wiki/Ren%C3%A9",
+      "textHash": "2d3bcd70312f2053203d74ddb232be7636283dff2419bcbe1d02b578e28fc502"
+    },
+    {
+      "id": "renan-souvenirs-enfance-p01",
+      "audience": "adult",
+      "author": "Ernest Renan",
+      "workTitle": "Souvenirs d’enfance et de jeunesse",
+      "source": "https://fr.wikisource.org/wiki/Souvenirs_d%E2%80%99enfance_et_de_jeunesse/I",
+      "textHash": "b63e4620be4f14e226ebb29df447093e9fbb6272e2f48971c30cef7eb4883e22"
+    },
+    {
+      "id": "renan-souvenirs-enfance-p02",
+      "audience": "adult",
+      "author": "Ernest Renan",
+      "workTitle": "Souvenirs d’enfance et de jeunesse",
+      "source": "https://fr.wikisource.org/wiki/Souvenirs_d%E2%80%99enfance_et_de_jeunesse/I",
+      "textHash": "a5e97edfab5e96a7eeb86995ab01f72f77127317a3072fe1b4e9f961cca5db38"
+    },
+    {
+      "id": "renan-souvenirs-enfance-p03",
+      "audience": "adult",
+      "author": "Ernest Renan",
+      "workTitle": "Souvenirs d’enfance et de jeunesse",
+      "source": "https://fr.wikisource.org/wiki/Souvenirs_d%E2%80%99enfance_et_de_jeunesse/I",
+      "textHash": "4743b478b01ceaabe1957c8d2d7e91bdf99a71dde7eb0eeeed5e3572e55a7988"
+    },
+    {
+      "id": "hugo-travailleurs-mer-p01",
+      "audience": "adult",
+      "author": "Victor Hugo",
+      "workTitle": "Les Travailleurs de la mer",
+      "source": "https://fr.wikisource.org/wiki/Les_Travailleurs_de_la_mer/Partie_1/Livre_1/1",
+      "textHash": "44cd7d52108d6c449d15c117119964765b7ea7d6a99ef84f7fc653c8e7ca8b2e"
+    },
+    {
+      "id": "hugo-travailleurs-mer-p02",
+      "audience": "adult",
+      "author": "Victor Hugo",
+      "workTitle": "Les Travailleurs de la mer",
+      "source": "https://fr.wikisource.org/wiki/Les_Travailleurs_de_la_mer/Partie_1/Livre_1/1",
+      "textHash": "8c77989f22b30373969ff9bcf1bed8701821eb8fd5355393d55415c92fc7c876"
+    },
+    {
+      "id": "hugo-travailleurs-mer-p03",
+      "audience": "adult",
+      "author": "Victor Hugo",
+      "workTitle": "Les Travailleurs de la mer",
+      "source": "https://fr.wikisource.org/wiki/Les_Travailleurs_de_la_mer/Partie_1/Livre_1/1",
+      "textHash": "abb6d56bb2dbc536e91a4ac2f593087f439335060fb68a22a314c751811950c8"
+    },
+    {
+      "id": "segur-deux-nigauds-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Deux Nigauds",
+      "source": "https://fr.wikisource.org/wiki/Les_Deux_Nigauds/I",
+      "textHash": "87ab9723b21e4b8887454f2555672340e3cf6adba6420d2e66174ad1eec90943"
+    },
+    {
+      "id": "segur-deux-nigauds-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Deux Nigauds",
+      "source": "https://fr.wikisource.org/wiki/Les_Deux_Nigauds/I",
+      "textHash": "c507d9c20dd28c5ec2f81a90b36554d15bba1fb82a6162ed3ed13aa65614cd3f"
+    },
+    {
+      "id": "segur-deux-nigauds-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Les Deux Nigauds",
+      "source": "https://fr.wikisource.org/wiki/Les_Deux_Nigauds/I",
+      "textHash": "27d298c6b571826c8302745411638e24cc4e4ea3a85d4ac5a1e1079e447dd2b9"
+    },
+    {
+      "id": "fenelon-telemaque-p01",
+      "audience": "child",
+      "author": "Fénelon",
+      "workTitle": "Les Aventures de Télémaque",
+      "source": "https://fr.wikisource.org/wiki/Les_Aventures_de_T%C3%A9l%C3%A9maque/Premier_livre",
+      "textHash": "32158f00fb48a9ddc05316b877a4f0665988be4da886454e6dc12a21aa50fc3d"
+    },
+    {
+      "id": "fenelon-telemaque-p02",
+      "audience": "child",
+      "author": "Fénelon",
+      "workTitle": "Les Aventures de Télémaque",
+      "source": "https://fr.wikisource.org/wiki/Les_Aventures_de_T%C3%A9l%C3%A9maque/Premier_livre",
+      "textHash": "73ff0a1c04804eaaf7dd8baf8b98af2e764c96ada26ee4b43be8afd58ee878ef"
+    },
+    {
+      "id": "fenelon-telemaque-p03",
+      "audience": "child",
+      "author": "Fénelon",
+      "workTitle": "Les Aventures de Télémaque",
+      "source": "https://fr.wikisource.org/wiki/Les_Aventures_de_T%C3%A9l%C3%A9maque/Premier_livre",
+      "textHash": "5e9a87e8ce1d63abb27736111de5669043cc50a33b30bf030f9a295ef9e427df"
+    },
+    {
+      "id": "verne-ecole-robinsons-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’École des Robinsons",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%89cole_des_Robinsons/10",
+      "textHash": "b6b3ff3b65af06d1752f7f16748628e727e01fd19a3b5933ae7f36e9f1ea3e9d"
+    },
+    {
+      "id": "verne-ecole-robinsons-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’École des Robinsons",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%89cole_des_Robinsons/10",
+      "textHash": "82b9a3312c3e176f23303236dd95633a01ec19179d7f1a2f9e1b4f47cc392e0c"
+    },
+    {
+      "id": "verne-ecole-robinsons-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’École des Robinsons",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%89cole_des_Robinsons/10",
+      "textHash": "1b1a155b60e6f1d06ce5fb80b54438d3a5b7dac784d6e29a979798ac187eddfe"
+    },
+    {
+      "id": "fabre-plante-p01",
+      "audience": "child",
+      "author": "Jean-Henri Fabre",
+      "workTitle": "La Plante",
+      "source": "https://fr.wikisource.org/wiki/La_Plante/Partie_I,_chapitre_III",
+      "textHash": "71ba3f01a6257a386c9a1c4b34093be4142ba4080ee4906ace519ac73ccdbc60"
+    },
+    {
+      "id": "fabre-plante-p02",
+      "audience": "child",
+      "author": "Jean-Henri Fabre",
+      "workTitle": "La Plante",
+      "source": "https://fr.wikisource.org/wiki/La_Plante/Partie_I,_chapitre_III",
+      "textHash": "ad4967faec904f9adfb2974eb1e7d777fa6731e75c2cce1cc5d4d0a08a55a0b4"
+    },
+    {
+      "id": "fabre-plante-p03",
+      "audience": "child",
+      "author": "Jean-Henri Fabre",
+      "workTitle": "La Plante",
+      "source": "https://fr.wikisource.org/wiki/La_Plante/Partie_I,_chapitre_III",
+      "textHash": "2fe3ba753f8dce7a95878a735b8301d55d95a6b93cb7456525af1e043ef60c31"
+    },
+    {
+      "id": "verne-chateau-carpathes-p01",
+      "audience": "adult",
+      "author": "Jules Verne",
+      "workTitle": "Le Château des Carpathes",
+      "source": "https://fr.wikisource.org/wiki/Le_Ch%C3%A2teau_des_Carpathes/1",
+      "textHash": "8d40c3861ded12a2a09ef759b284e95d598a3598734d929be5fba99972531c45"
+    },
+    {
+      "id": "verne-chateau-carpathes-p02",
+      "audience": "adult",
+      "author": "Jules Verne",
+      "workTitle": "Le Château des Carpathes",
+      "source": "https://fr.wikisource.org/wiki/Le_Ch%C3%A2teau_des_Carpathes/1",
+      "textHash": "e1c115c4b9d0bc02ae689f67ca9c6b233b17f1a3cc48ea939c8caa6e643d6d10"
+    },
+    {
+      "id": "verne-chateau-carpathes-p03",
+      "audience": "adult",
+      "author": "Jules Verne",
+      "workTitle": "Le Château des Carpathes",
+      "source": "https://fr.wikisource.org/wiki/Le_Ch%C3%A2teau_des_Carpathes/1",
+      "textHash": "28194bd1739ae1e39c53b708d715040c1161fd9ff840f0e4b3162ecc3fb28c82"
+    },
+    {
+      "id": "maupassant-sur-eau-p01",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Sur l’eau",
+      "source": "https://fr.wikisource.org/wiki/Sur_l%E2%80%99eau_(Maupassant)/01",
+      "textHash": "65489a2217c8db24a18d74c6f8d3d15de999d938821fdfc82f22431fa43bb585"
+    },
+    {
+      "id": "maupassant-sur-eau-p02",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Sur l’eau",
+      "source": "https://fr.wikisource.org/wiki/Sur_l%E2%80%99eau_(Maupassant)/01",
+      "textHash": "32f4e8909157d550644ba18c2d2b43f30890d5c0093ede30fa9d0c28ddf4c2c6"
+    },
+    {
+      "id": "maupassant-sur-eau-p03",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Sur l’eau",
+      "source": "https://fr.wikisource.org/wiki/Sur_l%E2%80%99eau_(Maupassant)/01",
+      "textHash": "0699b5af7e40cca48fc8bbacfb2fad796b68d7f4a6ec52d3725650c9a9efa6e1"
+    },
+    {
+      "id": "verne-pays-fourrures-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Pays des fourrures",
+      "source": "https://fr.wikisource.org/wiki/Le_Pays_des_fourrures/Partie_1/Chapitre_12",
+      "textHash": "24feb358f33e244b8d25b754c0ff25a158c7f46eb53d318b6541d28491d93acf"
+    },
+    {
+      "id": "verne-pays-fourrures-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Pays des fourrures",
+      "source": "https://fr.wikisource.org/wiki/Le_Pays_des_fourrures/Partie_1/Chapitre_12",
+      "textHash": "1cb631d383c40e35b233549b36f6f334faba6a70a293c23f0c8585b4a2d19c77"
+    },
+    {
+      "id": "verne-pays-fourrures-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Pays des fourrures",
+      "source": "https://fr.wikisource.org/wiki/Le_Pays_des_fourrures/Partie_1/Chapitre_12",
+      "textHash": "2556b7adcd1567366ff22c97cdb7c2aebc4b2a413aa5a1c40b6673543666db4c"
+    },
+    {
+      "id": "segur-apres-pluie-p01",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Après la pluie, le beau temps",
+      "source": "https://fr.wikisource.org/wiki/Apr%C3%A8s_la_pluie,_le_beau_temps/31",
+      "textHash": "084c71ce81693fd3c66ae48272bd41a14145ebc5e8db7c3d3882e5e2d2c09e54"
+    },
+    {
+      "id": "segur-apres-pluie-p02",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Après la pluie, le beau temps",
+      "source": "https://fr.wikisource.org/wiki/Apr%C3%A8s_la_pluie,_le_beau_temps/31",
+      "textHash": "3ad9a94a9e5085d330720a948294ac8c587143bb2940a3922701dcf19fba1a8a"
+    },
+    {
+      "id": "segur-apres-pluie-p03",
+      "audience": "child",
+      "author": "Comtesse de Ségur",
+      "workTitle": "Après la pluie, le beau temps",
+      "source": "https://fr.wikisource.org/wiki/Apr%C3%A8s_la_pluie,_le_beau_temps/31",
+      "textHash": "3476525c075664dbe9b3df21c2d2382ce8f039c1959919af0a1199c0a8ee7ba3"
+    },
+    {
+      "id": "zola-joie-vivre-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Joie de vivre",
+      "source": "https://fr.wikisource.org/wiki/La_Joie_de_vivre/1",
+      "textHash": "ef70f2b52ead157dabe909fafc5d25c0f2341abc83b03fd25d439712bc0ea836"
+    },
+    {
+      "id": "zola-joie-vivre-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Joie de vivre",
+      "source": "https://fr.wikisource.org/wiki/La_Joie_de_vivre/1",
+      "textHash": "dc466da0a88891caa42af57d1a665d998df5699bcdb4938a03d48c09d5250832"
+    },
+    {
+      "id": "zola-joie-vivre-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Joie de vivre",
+      "source": "https://fr.wikisource.org/wiki/La_Joie_de_vivre/1",
+      "textHash": "6ea0d897f214bfea570394ae41f75aa419db14434c79dc833c15904356a45bd3"
+    },
+    {
+      "id": "balzac-cure-tours-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Curé de Tours",
+      "source": "https://fr.wikisource.org/wiki/Le_Cur%C3%A9_de_Tours",
+      "textHash": "7af4faa5506a01ffa483adc1a38e5419f87be1fbf61f0e8f27a28a0674d3ebf3"
+    },
+    {
+      "id": "balzac-cure-tours-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Curé de Tours",
+      "source": "https://fr.wikisource.org/wiki/Le_Cur%C3%A9_de_Tours",
+      "textHash": "6c5962b6920ea3f433582157ec7a97c7c5d72e256552f34bab8498ab42b908a2"
+    },
+    {
+      "id": "balzac-cure-tours-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Curé de Tours",
+      "source": "https://fr.wikisource.org/wiki/Le_Cur%C3%A9_de_Tours",
+      "textHash": "9fb94e7894ae58852d73bcc14487d3c6bd367896c36f71375989a516b28a95ed"
+    },
+    {
+      "id": "verne-fantaisie-ox-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Une fantaisie du docteur Ox",
+      "source": "https://fr.wikisource.org/wiki/Une_fantaisie_du_docteur_Ox/Texte_entier",
+      "textHash": "4f0d487d59cfb997a24620a46eb591940892913ec4385e27f9b7304c0fc6ab40"
+    },
+    {
+      "id": "verne-fantaisie-ox-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Une fantaisie du docteur Ox",
+      "source": "https://fr.wikisource.org/wiki/Une_fantaisie_du_docteur_Ox/Texte_entier",
+      "textHash": "0b54ec0ad94f10fd3cb62fbc036e39746d9201f987238d2378cd2f5de110024b"
+    },
+    {
+      "id": "verne-fantaisie-ox-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Une fantaisie du docteur Ox",
+      "source": "https://fr.wikisource.org/wiki/Une_fantaisie_du_docteur_Ox/Texte_entier",
+      "textHash": "11f13495eb7d463c3679c9b7685964de7bec7383584f7dc2f8a6599785bb447d"
+    },
+    {
+      "id": "aulnoy-princesse-printaniere-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Princesse Printanière",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Princesse_Printani%C3%A8re",
+      "textHash": "68244c972bd1938f428264b40ab056bc7b0a973cbe7d29b45e3820a0c299942b"
+    },
+    {
+      "id": "aulnoy-princesse-printaniere-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Princesse Printanière",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Princesse_Printani%C3%A8re",
+      "textHash": "747312497a11d2f53fc3728b1d14f65d5a0fedd307c03b62198f3dc1d9a5d84e"
+    },
+    {
+      "id": "aulnoy-princesse-printaniere-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Princesse Printanière",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Princesse_Printani%C3%A8re",
+      "textHash": "77036a0fc368bfe45fe3f55586d08321bfbda8106423be6a93e2342d994a4a4f"
+    },
+    {
+      "id": "zola-bete-humaine-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Bête humaine",
+      "source": "https://fr.wikisource.org/wiki/La_B%C3%AAte_humaine/I",
+      "textHash": "6e13a8a2b83a195d41b884c29fd53375ce4526c29fe6ff519b03a3afa61e2488"
+    },
+    {
+      "id": "zola-bete-humaine-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Bête humaine",
+      "source": "https://fr.wikisource.org/wiki/La_B%C3%AAte_humaine/I",
+      "textHash": "16787f3c966d92d264d73528abbe63e81b578af7cb08c84ccff325b0467e45c1"
+    },
+    {
+      "id": "zola-bete-humaine-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Bête humaine",
+      "source": "https://fr.wikisource.org/wiki/La_B%C3%AAte_humaine/I",
+      "textHash": "069038bf923c3d0d723b02c3973d8d24b5ac110f258f1f6a4a14bef669a3067e"
+    },
+    {
+      "id": "balzac-cousin-pons-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Cousin Pons",
+      "source": "https://fr.wikisource.org/wiki/Le_Cousin_Pons",
+      "textHash": "ac3fa7eb58dd34bd4088290c515273fab57837280da3f2ff0e50ff78e15df117"
+    },
+    {
+      "id": "balzac-cousin-pons-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Cousin Pons",
+      "source": "https://fr.wikisource.org/wiki/Le_Cousin_Pons",
+      "textHash": "828d6f36db092e8b5cf8eab51e8e874634b65133cff0d98bc2985297e204246a"
+    },
+    {
+      "id": "balzac-cousin-pons-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Le Cousin Pons",
+      "source": "https://fr.wikisource.org/wiki/Le_Cousin_Pons",
+      "textHash": "c0b1646fab3989c14e1f899074e8821e6ef0239ea9230f7dc9f7db1f060bd835"
+    },
+    {
+      "id": "verne-ville-flottante-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Une ville flottante",
+      "source": "https://fr.wikisource.org/wiki/Une_ville_flottante/I",
+      "textHash": "96ab693990df7f6650dcd197b97d95d10f71549dfcc921d16627873a3d2047ab"
+    },
+    {
+      "id": "verne-ville-flottante-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Une ville flottante",
+      "source": "https://fr.wikisource.org/wiki/Une_ville_flottante/I",
+      "textHash": "972f48f23569ae73dbad54de26a5d8af1a87e34e1b79b5195fce283416883dea"
+    },
+    {
+      "id": "verne-ville-flottante-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Une ville flottante",
+      "source": "https://fr.wikisource.org/wiki/Une_ville_flottante/I",
+      "textHash": "94d83c5b153c2ef9f34438e0c0dac77a2c5d4b797054a5e7c8a776aa38606d6d"
+    },
+    {
+      "id": "aulnoy-princesse-rosette-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Princesse Rosette",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Princesse_Rosette",
+      "textHash": "8abb4c175a7d42cf439599785d146a3058291910e99bc1e2ddea7289f1ef18b8"
+    },
+    {
+      "id": "aulnoy-princesse-rosette-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Princesse Rosette",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Princesse_Rosette",
+      "textHash": "ac78fff7cec02641b3c0ee6194fdf00db15572ea6f5190d503244b849c3f98c2"
+    },
+    {
+      "id": "aulnoy-princesse-rosette-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Princesse Rosette",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Princesse_Rosette",
+      "textHash": "84af28d0c5a67f508d6d6e7afd130f45076be561f0f620ba31a775c3abf37371"
+    },
+    {
+      "id": "balzac-ferragus-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Ferragus",
+      "source": "https://fr.wikisource.org/wiki/Ferragus",
+      "textHash": "4c0348cf103befca6af41ad743cad9fa4c030957dc8cf02c81d99e226f3a32c5"
+    },
+    {
+      "id": "balzac-ferragus-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Ferragus",
+      "source": "https://fr.wikisource.org/wiki/Ferragus",
+      "textHash": "6ff48ddde00aab4ba829db76fea12d57af35ebfbefaad1179b52a8fcbcd56355"
+    },
+    {
+      "id": "balzac-ferragus-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "Ferragus",
+      "source": "https://fr.wikisource.org/wiki/Ferragus",
+      "textHash": "5f90e1f9a7c924476fb4a671bde1b9cb28476ccb200ce7439f4c8257374a0bd9"
+    },
+    {
+      "id": "balzac-duchesse-langeais-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "La Duchesse de Langeais",
+      "source": "https://fr.wikisource.org/wiki/La_Duchesse_de_Langeais",
+      "textHash": "175a1a60b24a9763cd9cb96cb2316320555589cff1bde767145c9f1da27f9c0b"
+    },
+    {
+      "id": "balzac-duchesse-langeais-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "La Duchesse de Langeais",
+      "source": "https://fr.wikisource.org/wiki/La_Duchesse_de_Langeais",
+      "textHash": "b88f863028a30b7fd32ffd992cd709cca717951f825a245e5f99104e09e4105a"
+    },
+    {
+      "id": "balzac-duchesse-langeais-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "La Duchesse de Langeais",
+      "source": "https://fr.wikisource.org/wiki/La_Duchesse_de_Langeais",
+      "textHash": "cf8abb70757702c42094b875c413771531db49bad38b66b98749a46dbaa9e247"
+    },
+    {
+      "id": "balzac-fille-yeux-or-p01",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "La Fille aux yeux d’or",
+      "source": "https://fr.wikisource.org/wiki/La_Fille_aux_yeux_d%E2%80%99or",
+      "textHash": "ccb934da239dbdb8e942eee71892e45b36b02c071add97c21dfba3377bcdfabe"
+    },
+    {
+      "id": "balzac-fille-yeux-or-p02",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "La Fille aux yeux d’or",
+      "source": "https://fr.wikisource.org/wiki/La_Fille_aux_yeux_d%E2%80%99or",
+      "textHash": "228c2ad1d474b97fc582a6f52b1708a5b28d36de3dcc007d6cb5397c19c12f0b"
+    },
+    {
+      "id": "balzac-fille-yeux-or-p03",
+      "audience": "adult",
+      "author": "Honoré de Balzac",
+      "workTitle": "La Fille aux yeux d’or",
+      "source": "https://fr.wikisource.org/wiki/La_Fille_aux_yeux_d%E2%80%99or",
+      "textHash": "b0b77584ab4a5e59930fb03e693171cea2915475f9fcae212ea99380dee10a3d"
+    },
+    {
+      "id": "zola-reve-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Le Rêve",
+      "source": "https://fr.wikisource.org/wiki/Le_R%C3%AAve/Chapitre_1",
+      "textHash": "7fd8105dd7ef3016fdbb1138e0afd901ca8e3b1d3edc85fda314425ca4d79ccc"
+    },
+    {
+      "id": "zola-reve-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Le Rêve",
+      "source": "https://fr.wikisource.org/wiki/Le_R%C3%AAve/Chapitre_1",
+      "textHash": "198733843a7d986d8b5d6f96d6cd9d4bab9880e3cec0f9f79482947e5e2c65d7"
+    },
+    {
+      "id": "zola-reve-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Le Rêve",
+      "source": "https://fr.wikisource.org/wiki/Le_R%C3%AAve/Chapitre_1",
+      "textHash": "4babdcddff637f95280a3f8cad4ec11f89510a8aebc489c2942d97942ecfcc55"
+    },
+    {
+      "id": "zola-fortune-rougon-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Fortune des Rougon",
+      "source": "https://fr.wikisource.org/wiki/La_Fortune_des_Rougon/I",
+      "textHash": "67f2a822d433e8fe1d50a66be929066a6a413189fe9aa98ca11b0ca8efebf16c"
+    },
+    {
+      "id": "zola-fortune-rougon-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Fortune des Rougon",
+      "source": "https://fr.wikisource.org/wiki/La_Fortune_des_Rougon/I",
+      "textHash": "bef68c40d6eeb147da68bfc7f5a30a33fcbdbe189efa535c68016df1f858f1c6"
+    },
+    {
+      "id": "zola-fortune-rougon-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Fortune des Rougon",
+      "source": "https://fr.wikisource.org/wiki/La_Fortune_des_Rougon/I",
+      "textHash": "c99e9c404fdc61542a8b31a513ac3edadce4ea9a785a53da4a3ef5dc5abacfd6"
+    },
+    {
+      "id": "zola-curee-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Curée",
+      "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+      "textHash": "e207f4dd2a86aea117a3fc0f69923699fc1c6e8e510b943ead66fe6f884b92e6"
+    },
+    {
+      "id": "zola-curee-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Curée",
+      "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+      "textHash": "02fc4df8dc231cac502deb94a7bc486686382926b7c89e738619f9a65321c347"
+    },
+    {
+      "id": "zola-curee-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "La Curée",
+      "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+      "textHash": "0a81ef5858d6bea7aadc23b7d34f04303abca31dfe0c1e2bc31aeca46300c4b8"
+    },
+    {
+      "id": "zola-ventre-paris-p01",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Le Ventre de Paris",
+      "source": "https://fr.wikisource.org/wiki/Le_Ventre_de_Paris/I",
+      "textHash": "e7825163e95d39e3f9567052ddc1aee5e0548c3285c2f9c743b0ba3ee45675e8"
+    },
+    {
+      "id": "zola-ventre-paris-p02",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Le Ventre de Paris",
+      "source": "https://fr.wikisource.org/wiki/Le_Ventre_de_Paris/I",
+      "textHash": "7eda00e9e3c6879e569db712c9bf3a410a302e3e7d5783f57e572f1013872148"
+    },
+    {
+      "id": "zola-ventre-paris-p03",
+      "audience": "adult",
+      "author": "Émile Zola",
+      "workTitle": "Le Ventre de Paris",
+      "source": "https://fr.wikisource.org/wiki/Le_Ventre_de_Paris/I",
+      "textHash": "836eb6d22ea238aeee4ae880222d130d0c15a591d3f4d8896d865b6ccedfbb37"
+    },
+    {
+      "id": "maupassant-fort-mort-p01",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Fort comme la mort",
+      "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/1/1",
+      "textHash": "c86dd3ae17e7a266f26fb97fa4cd5f373fd5f93183881b7c5e0a7ea97d19bd9e"
+    },
+    {
+      "id": "maupassant-fort-mort-p02",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Fort comme la mort",
+      "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/1/1",
+      "textHash": "e7eb57afc4df5aaf9c01702b2fec5ede933d0349fd5bd49611d4d1026b0b31da"
+    },
+    {
+      "id": "maupassant-fort-mort-p03",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Fort comme la mort",
+      "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/1/1",
+      "textHash": "e13d6797083ea19e4e1be6b68582a9d698bb40b324d94aa3f91d0fda9f8766b6"
+    },
+    {
+      "id": "maupassant-notre-coeur-p01",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Notre cœur",
+      "source": "https://fr.wikisource.org/wiki/Notre_C%C5%93ur/Premi%C3%A8re_Partie/I",
+      "textHash": "f905f9e5ed1564659b22013b3bfba72f827856ca803d4a4535880f0fc513f7ca"
+    },
+    {
+      "id": "maupassant-notre-coeur-p02",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Notre cœur",
+      "source": "https://fr.wikisource.org/wiki/Notre_C%C5%93ur/Premi%C3%A8re_Partie/I",
+      "textHash": "f8e296186ac48c488150952b281edb819eb26e98399000d5eedc4db718f89e96"
+    },
+    {
+      "id": "maupassant-notre-coeur-p03",
+      "audience": "adult",
+      "author": "Guy de Maupassant",
+      "workTitle": "Notre cœur",
+      "source": "https://fr.wikisource.org/wiki/Notre_C%C5%93ur/Premi%C3%A8re_Partie/I",
+      "textHash": "c9d16285a12de3d115b24174fc2bf3201878b9f22fd2e2743ffde42993c2fc99"
+    },
+    {
+      "id": "gautier-capitaine-fracasse-p01",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "Le Capitaine Fracasse",
+      "source": "https://fr.wikisource.org/wiki/Le_Capitaine_Fracasse/Chapitre_I",
+      "textHash": "0ca887bb2054ce4aab88cea0cc378233bb69f71440a67392b53de641a9664e7e"
+    },
+    {
+      "id": "gautier-capitaine-fracasse-p02",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "Le Capitaine Fracasse",
+      "source": "https://fr.wikisource.org/wiki/Le_Capitaine_Fracasse/Chapitre_I",
+      "textHash": "394529b9786c299dcf723279fe92046a8ad293dee2367c61e0c209e187ef0cd5"
+    },
+    {
+      "id": "gautier-capitaine-fracasse-p03",
+      "audience": "adult",
+      "author": "Théophile Gautier",
+      "workTitle": "Le Capitaine Fracasse",
+      "source": "https://fr.wikisource.org/wiki/Le_Capitaine_Fracasse/Chapitre_I",
+      "textHash": "6927f85a00ca8a6c7ef86f014eff8e4fed40e79913edf9e8725f2818718fc439"
+    },
+    {
+      "id": "sand-meunier-angibault-p01",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "Le Meunier d’Angibault",
+      "source": "https://fr.wikisource.org/wiki/Le_Meunier_d%E2%80%99Angibault/Chapitre_01",
+      "textHash": "9a538ed0159fbadc608d1e219ee806c2f8a5cfdea0e5b6676d8ce22f9197ac06"
+    },
+    {
+      "id": "sand-meunier-angibault-p02",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "Le Meunier d’Angibault",
+      "source": "https://fr.wikisource.org/wiki/Le_Meunier_d%E2%80%99Angibault/Chapitre_01",
+      "textHash": "991bdd6e08f039fa39e97c90b86c07ce2837411922c2b2ad3bba80368a1a5a70"
+    },
+    {
+      "id": "sand-meunier-angibault-p03",
+      "audience": "adult",
+      "author": "George Sand",
+      "workTitle": "Le Meunier d’Angibault",
+      "source": "https://fr.wikisource.org/wiki/Le_Meunier_d%E2%80%99Angibault/Chapitre_01",
+      "textHash": "58e88139d3f37bc6c136dafbc28f174286ef551ed3b9666e1c7bb05ddf2b581c"
+    },
+    {
+      "id": "dumas-reine-margot-p01",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "La Reine Margot",
+      "source": "https://fr.wikisource.org/wiki/La_Reine_Margot_(Dumas)/I/I",
+      "textHash": "c6fae7be4d9ac8ab8e865ee6860730594ca679bea218779a3e3ebce9a8079d38"
+    },
+    {
+      "id": "dumas-reine-margot-p02",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "La Reine Margot",
+      "source": "https://fr.wikisource.org/wiki/La_Reine_Margot_(Dumas)/I/I",
+      "textHash": "89a0dc765c5dd15a8a58ad36922ce82b8b7a106ca598a60daee12a7ef39ec2c7"
+    },
+    {
+      "id": "dumas-reine-margot-p03",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "La Reine Margot",
+      "source": "https://fr.wikisource.org/wiki/La_Reine_Margot_(Dumas)/I/I",
+      "textHash": "181650f04771906f375dddae2d9c939996b53df4f049e91519e88b4d8a3d7e10"
+    },
+    {
+      "id": "verne-keraban-tetu-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Kéraban-le-Têtu",
+      "source": "https://fr.wikisource.org/wiki/K%C3%A9raban-le-T%C3%AAtu/Premi%C3%A8re_partie/1",
+      "textHash": "cdcbd160a6973d130d2f159c65b4f5ce97da04d987e86b664b0bd22901f436de"
+    },
+    {
+      "id": "verne-keraban-tetu-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Kéraban-le-Têtu",
+      "source": "https://fr.wikisource.org/wiki/K%C3%A9raban-le-T%C3%AAtu/Premi%C3%A8re_partie/1",
+      "textHash": "c4fbbab2deec5f440c79c134bed43d8d400088e7e5f12f82ad8c59fb3678a46c"
+    },
+    {
+      "id": "verne-keraban-tetu-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Kéraban-le-Têtu",
+      "source": "https://fr.wikisource.org/wiki/K%C3%A9raban-le-T%C3%AAtu/Premi%C3%A8re_partie/1",
+      "textHash": "8507b4ebed6d9e7f85b05a404517865577ad2f6000a09afb450d146f4f8e1dad"
+    },
+    {
+      "id": "verne-cinq-cents-millions-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Cinq Cents Millions de la Bégum",
+      "source": "https://fr.wikisource.org/wiki/Les_Cinq_Cents_Millions_de_la_B%C3%A9gum/Chapitre_10",
+      "textHash": "42dcac92873ea5e24bea36096565d2cd342155cb6cc6f8b6480aa38a3c4dac7c"
+    },
+    {
+      "id": "verne-cinq-cents-millions-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Cinq Cents Millions de la Bégum",
+      "source": "https://fr.wikisource.org/wiki/Les_Cinq_Cents_Millions_de_la_B%C3%A9gum/Chapitre_10",
+      "textHash": "d686686147d27e84ea971d18aed3a4ae288cb7705ea29791b876c561ef892b72"
+    },
+    {
+      "id": "verne-cinq-cents-millions-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Les Cinq Cents Millions de la Bégum",
+      "source": "https://fr.wikisource.org/wiki/Les_Cinq_Cents_Millions_de_la_B%C3%A9gum/Chapitre_10",
+      "textHash": "9bbf209c890a6efa6307bf286bf4f0e0279f070df3503fc21c0a35a112b33f00"
+    },
+    {
+      "id": "verne-etoile-sud-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’Étoile du sud",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%89toile_du_sud/III",
+      "textHash": "3a2b6f5a10a0dafbcb9407b33602370fec6b69329191f0ce7d42b17976652274"
+    },
+    {
+      "id": "verne-etoile-sud-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’Étoile du sud",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%89toile_du_sud/III",
+      "textHash": "296f56db9abf8b1b33c32677fe3aa199af9a39088c3cc36ca632b78ab1f4b786"
+    },
+    {
+      "id": "verne-etoile-sud-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’Étoile du sud",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99%C3%89toile_du_sud/III",
+      "textHash": "77904b3820e952c5be6ff52b051f5b564ba0082485c96d214ae3d8c5878971ec"
+    },
+    {
+      "id": "verne-testament-excentrique-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Testament d’un excentrique",
+      "source": "https://fr.wikisource.org/wiki/Le_Testament_d%E2%80%99un_excentrique/I/1",
+      "textHash": "eda4e56b4c4cc6d578fcfceef58bfbb10dfdf1da7c498617a8dada7fd8e98eda"
+    },
+    {
+      "id": "verne-testament-excentrique-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Testament d’un excentrique",
+      "source": "https://fr.wikisource.org/wiki/Le_Testament_d%E2%80%99un_excentrique/I/1",
+      "textHash": "b8e094d1864a7d4dee35dae51a76ce842f35c11e4c31989ceba1485b751631a7"
+    },
+    {
+      "id": "verne-testament-excentrique-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Testament d’un excentrique",
+      "source": "https://fr.wikisource.org/wiki/Le_Testament_d%E2%80%99un_excentrique/I/1",
+      "textHash": "6b23ae64b29c163c53ab5d119176925be2d126f66888b11765dcb0de18cf8ba0"
+    },
+    {
+      "id": "verne-archipel-feu-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’Archipel en feu",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99Archipel_en_feu/I",
+      "textHash": "b23901dc9ab0cd5266de8fb230bb9391bfce7c075053315d32a7ba766e27ad15"
+    },
+    {
+      "id": "verne-archipel-feu-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’Archipel en feu",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99Archipel_en_feu/I",
+      "textHash": "364e276a4afe3fb4cbcdc14d54f7328858b640064070c32cd72e7e2d3a819d3f"
+    },
+    {
+      "id": "verne-archipel-feu-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "L’Archipel en feu",
+      "source": "https://fr.wikisource.org/wiki/L%E2%80%99Archipel_en_feu/I",
+      "textHash": "02988686d3d5752dc7fd5aca090020d0ced2d2735b83a4e7c9c0df027032a326"
+    },
+    {
+      "id": "verne-nord-sud-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Nord contre Sud",
+      "source": "https://fr.wikisource.org/wiki/Nord_contre_sud/Premi%C3%A8re_partie/1",
+      "textHash": "b089aaa44844f048e6b007e8d536b9a07aaa1a66acc86f66792eee82ef1faafd"
+    },
+    {
+      "id": "verne-nord-sud-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Nord contre Sud",
+      "source": "https://fr.wikisource.org/wiki/Nord_contre_sud/Premi%C3%A8re_partie/1",
+      "textHash": "be2a53da856ab15ccf09dcfec4d2562c0cc0558192205df8aff7966d84cb55fa"
+    },
+    {
+      "id": "verne-nord-sud-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Nord contre Sud",
+      "source": "https://fr.wikisource.org/wiki/Nord_contre_sud/Premi%C3%A8re_partie/1",
+      "textHash": "f4aae19c82cc85efdcce22c04f2f8c76bcf4280c303492b50dc264c6e3533b7f"
+    },
+    {
+      "id": "aulnoy-prince-lutin-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Le Prince lutin",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Le_Prince_lutin",
+      "textHash": "64204f73c6b9c5d06f0998717f8134a2d9e1aeef1aaa36c3d52cb0d1efcd9811"
+    },
+    {
+      "id": "aulnoy-prince-lutin-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Le Prince lutin",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Le_Prince_lutin",
+      "textHash": "014de0e4fae1dbaa2e63ef80baebec1a308b40118bfef325a9d4ef9011411f7c"
+    },
+    {
+      "id": "aulnoy-prince-lutin-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Le Prince lutin",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Le_Prince_lutin",
+      "textHash": "3d791ff2efa35f9fc4b34a505ef3d46945ae63671ac1f50b4d465d9eeee989b9"
+    },
+    {
+      "id": "aulnoy-biche-bois-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Biche au bois",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Biche_au_bois",
+      "textHash": "0bc58da38109cb77045051c831a06dd9c723bdea08638412f569be86a56fb5bf"
+    },
+    {
+      "id": "aulnoy-biche-bois-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Biche au bois",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Biche_au_bois",
+      "textHash": "3940e55d88d9b83a0a810f14d8a86f76292079369ae110efb4091e2d25838844"
+    },
+    {
+      "id": "aulnoy-biche-bois-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Biche au bois",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Biche_au_bois",
+      "textHash": "f9177404c590c1f1e8588a7c018ec2970cfd7a85d0636af12a2c692b6e27b702"
+    },
+    {
+      "id": "aulnoy-grenouille-bienfaisante-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Grenouille bienfaisante",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Grenouille_bienfaisante",
+      "textHash": "bc366161c31eae83f7b8568a6263431a9351a74da00d1b0cf936cca1dd86a0fd"
+    },
+    {
+      "id": "aulnoy-grenouille-bienfaisante-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Grenouille bienfaisante",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Grenouille_bienfaisante",
+      "textHash": "f261abd2b31f761a66b4f484c8b67919ec2b9f4f0a9cef4e6599c63f835e96f7"
+    },
+    {
+      "id": "aulnoy-grenouille-bienfaisante-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "La Grenouille bienfaisante",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/La_Grenouille_bienfaisante",
+      "textHash": "4a1af196d0e2590788dfaeb456b3950211ddaf452214e100fa49304b0fa75874"
+    },
+    {
+      "id": "aulnoy-mouton-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Le Mouton",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Le_Mouton",
+      "textHash": "0950aa040ea38d51541e52d062aea928441a67898022a739ec5e8dc758c406df"
+    },
+    {
+      "id": "aulnoy-mouton-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Le Mouton",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Le_Mouton",
+      "textHash": "613e69ed58952c783196515bd8ab7bb252e8b37aff8603f2abf7bd6e5538c068"
+    },
+    {
+      "id": "aulnoy-mouton-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Le Mouton",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Le_Mouton",
+      "textHash": "e7721f018b89d908eb8c427c8eac34f7155ad85650080317942cb06536a36d38"
+    },
+    {
+      "id": "aulnoy-nain-jaune-p01",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Le Nain jaune",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Le_Nain_jaune",
+      "textHash": "058fa32e6515fa15039b82eeafcdc6157987fce6c32245d8eacb84f0ff913f70"
+    },
+    {
+      "id": "aulnoy-nain-jaune-p02",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Le Nain jaune",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Le_Nain_jaune",
+      "textHash": "0380e6cd7af4a5f30a16b029439f6e0842083ee23950775723e298e8a14fc02c"
+    },
+    {
+      "id": "aulnoy-nain-jaune-p03",
+      "audience": "child",
+      "author": "Marie-Catherine d’Aulnoy",
+      "workTitle": "Le Nain jaune",
+      "source": "https://fr.wikisource.org/wiki/Contes_des_f%C3%A9es_(Aulnoy,_1825)/Le_Nain_jaune",
+      "textHash": "607949b3427e946b8fd9093588e03a527288868bb7f0ceb9866502ec775614bb"
+    },
+    {
+      "id": "verne-superbe-orenoque-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Superbe Orénoque",
+      "source": "https://fr.wikisource.org/wiki/Le_Superbe_Or%C3%A9noque/Premi%C3%A8re_partie/Chapitre_I",
+      "textHash": "9aef7437e84708d754300cbfaf427b523525bb2fb5847ebbcaeec6f461f9075d"
+    },
+    {
+      "id": "verne-superbe-orenoque-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Superbe Orénoque",
+      "source": "https://fr.wikisource.org/wiki/Le_Superbe_Or%C3%A9noque/Premi%C3%A8re_partie/Chapitre_I",
+      "textHash": "f7efc67532c1331632eadfb4a4ae771adf422938ab72270c04fdf8b7086bdf0b"
+    },
+    {
+      "id": "verne-superbe-orenoque-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Le Superbe Orénoque",
+      "source": "https://fr.wikisource.org/wiki/Le_Superbe_Or%C3%A9noque/Premi%C3%A8re_partie/Chapitre_I",
+      "textHash": "6c1400859cb37629209cb7411758e39117cad6903003242039b2d73583ca6045"
+    }
+  ]
+}

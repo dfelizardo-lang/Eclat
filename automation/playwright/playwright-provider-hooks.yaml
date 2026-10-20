@@ -1,0 +1,9 @@
+# Mount this file in the orchestrator and set PLAYWRIGHT_PROVIDER_HOOKS to its container path.
+hooks:
+  - name: Prepare Eclat checkout for Squash
+    events:
+      - categoryPrefix: playwright
+        category: execute
+    if: contains(inputs.test, 'Eclat/')
+    before:
+      - run: bash Eclat/automation/playwright/scripts/prepare-agent.sh

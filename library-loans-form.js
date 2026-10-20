@@ -93,10 +93,18 @@
   function writeNotebook(record) {
     return new Promise((resolve, reject) => {
       const transaction = db.transaction('notebooks', 'readwrite');
-      transaction.objectStore('notebooks').put(record);
-      transaction.oncomplete = resolve;
-      transaction.onerror = () => reject(transaction.error);
-      transaction.onabort = () => reject(transaction.error);
+      const request = transaction.objectStore('notebooks').put(record);
+      let settled = false, webkitFallback = 0;
+      const finish = () => { if (!settled) { settled = true; clearTimeout(webkitFallback); resolve(); } };
+      const fail = () => { if (!settled) { settled = true; clearTimeout(webkitFallback); reject(transaction.error || request.error || new Error('Database write failed')); } };
+      transaction.oncomplete = finish;
+      transaction.onerror = fail;
+      transaction.onabort = fail;
+      request.onerror = fail;
+      // WebKit can leave a blob-backed transaction without a completion event even
+      // after the put request succeeded. Prefer oncomplete, but do not leave the UI
+      // indefinitely on « Enregistrement… » once IndexedDB accepted the record.
+      request.onsuccess = () => { webkitFallback = setTimeout(finish, 250); };
     });
   }
   function renderPhotos() {
@@ -123,7 +131,10 @@
       const canvas = document.createElement('canvas');
       canvas.width = Math.max(1, Math.round(img.naturalWidth * scale)); canvas.height = Math.max(1, Math.round(img.naturalHeight * scale));
       const context = canvas.getContext('2d'); context.fillStyle = '#ffffff'; context.fillRect(0, 0, canvas.width, canvas.height); context.drawImage(img, 0, 0, canvas.width, canvas.height);
-      const blob = await new Promise((resolve, reject) => canvas.toBlob(result => result ? resolve(result) : reject(new Error('Image conversion failed')), 'image/jpeg', .85));
+      const rendered = await new Promise((resolve, reject) => canvas.toBlob(result => result ? resolve(result) : reject(new Error('Image conversion failed')), 'image/jpeg', .85));
+      // Materialize canvas output before IndexedDB. This avoids WebKit keeping a
+      // transient canvas-backed Blob alive during a transaction.
+      const blob = new Blob([await rendered.arrayBuffer()], {type:'image/jpeg'});
       return {id: crypto.randomUUID(), blob, originalName: file.name};
     } finally { URL.revokeObjectURL(url); }
   }

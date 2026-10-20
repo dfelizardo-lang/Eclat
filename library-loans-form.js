@@ -54,7 +54,7 @@
         if(!record.googleCalendar){
         const googleButton=document.createElement('a');googleButton.className='photo-button';googleButton.textContent='Ajouter à Google Agenda';googleButton.href=EclatLoanCalendar.googleCalendarUrl(record);googleButton.target='_blank';googleButton.rel='noopener noreferrer';googleButton.setAttribute('aria-label','Ajouter le rappel de cet emprunt à Google Agenda (nouvel onglet)');
         googleButton.addEventListener('click',()=>message(overviewStatus,'Dans Google Agenda, vérifiez la répétition chaque semaine et ajoutez une notification, puis cliquez sur Enregistrer. Ajoutez cette série une seule fois. Pour arrêter le rappel, supprimez toute la série dans Google Agenda.'));actions.append(googleButton);
-        const guidance=document.createElement('p');guidance.className='field-hint';guidance.textContent='Google Agenda : vérifiez la notification, puis Enregistrer. Le rappel reste actif jusqu’à la suppression de la série dans votre agenda.';copy.append(guidance);
+        const guidance=document.createElement('p');guidance.className='field-hint';guidance.textContent='Google Agenda : vérifiez la notification, puis Enregistrer. Pour arrêter les rappels, supprimez toute la série dans votre agenda.';copy.append(guidance);
         const calendarButton=document.createElement('button');calendarButton.type='button';calendarButton.className='photo-button';calendarButton.textContent='Autre calendrier (.ics)';
         calendarButton.addEventListener('click',()=>{try{const blob=new Blob([EclatLoanCalendar.calendar(record)],{type:'text/calendar;charset=utf-8'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='eclat-emprunt-'+record.id+'.ics';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);message(overviewStatus,'Rappel téléchargé. Ouvrez le fichier dans votre calendrier pour ajouter la série hebdomadaire. Importez-le une seule fois. Pour arrêter les alertes, supprimez toute la série dans votre calendrier.');}catch{message(overviewStatus,'Le rappel n’a pas pu être préparé.',true);}});actions.append(calendarButton);
         }
@@ -140,7 +140,7 @@
       const photo = await preparePhoto(input.files[0]);
       photos = [photo]; renderPhotos(); changed();
       message(photoStatus, 'Votre photo d’ensemble est prête à être enregistrée.');
-    } catch { message(photoStatus, 'Cette photo n’a pas pu être ouverte. Essayez une image JPEG ou PNG.', true); }
+    } catch { message(photoStatus, 'Cette photo n’a pas pu être ouverte. Essayez une image JPEG, PNG ou WebP.', true); }
     finally { input.value = ''; busy = false; saveButton.disabled = !db; enablePhotoControls(!!db); }
   }
   fileInput.addEventListener('change', addOverviewPhoto);
@@ -149,6 +149,11 @@
   form.addEventListener('submit', async event => {
     event.preventDefault();
     if (!db || busy) return;
+    const hasContent = photos.length > 0 || ['returnDate', 'borrowAgain', 'reserveBooks'].some(id => document.getElementById(id).value.trim() !== '');
+    if (!hasContent) {
+      message(status, 'Ajoutez une photo, une date de retour ou au moins un livre avant d’enregistrer.', true);
+      return;
+    }
     busy = true; saveButton.disabled = true; enablePhotoControls(false);
     message(status, 'Enregistrement…');
     const savedRevision = revision;

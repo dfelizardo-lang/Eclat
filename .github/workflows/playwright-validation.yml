@@ -1,0 +1,30 @@
+name: Validation Playwright navigateurs et mobiles
+
+on:
+  push:
+    branches:
+      - validation/playwright-youth-mobile-20261020
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: automation/playwright
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: automation/playwright/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium webkit
+      - name: Valider formulaires, navigateurs et profils mobiles
+        env:
+          ECLAT_BASE_URL: https://eclatsclassiques.com
+        run: npx playwright test -c playwright.validation.config.js

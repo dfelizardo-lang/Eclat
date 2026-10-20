@@ -1952,7 +1952,17 @@ document.getElementById("listenToggle")?.addEventListener("click",()=>{
    document.getElementById("listenLabel").textContent=mode==="child"?"Continuer":"Reprendre";
  }
 });
-document.getElementById("listenStop")?.addEventListener("click",stopReading);
+document.getElementById("listenStop")?.addEventListener("click",()=>{
+ continuousMode=false;
+ const continuous=document.getElementById("continuousListen");
+ if(continuous){
+   continuous.setAttribute("aria-pressed","false");
+   const label=continuous.querySelector("strong"),help=continuous.querySelector("small");
+   if(label)label.textContent="Lecture libre";
+   if(help)help.textContent="Au hasard, en continu";
+ }
+ stopReading();
+});
 document.getElementById("listenVoice")?.addEventListener("change",applySpeechSettingLive);
 document.getElementById("listenRate")?.addEventListener("change",applySpeechSettingLive);
 if("speechSynthesis" in window){

@@ -12,6 +12,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          echo "===== DNS eclatsclassiques.com ====="
+          dig +short A eclatsclassiques.com || true
+          dig +short AAAA eclatsclassiques.com || true
+          dig +short CNAME eclatsclassiques.com || true
+          dig +short NS eclatsclassiques.com || true
+          echo "===== HEADERS PUBLIC ====="
+          curl -sSI https://eclatsclassiques.com/ || true
           for base in             "https://eclatsclassiques.com"             "https://eclat-production-cd17.up.railway.app"             "https://eclat-v1-sync-production.up.railway.app"
           do
             echo "===== $base ====="

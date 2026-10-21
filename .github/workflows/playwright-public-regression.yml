@@ -3,6 +3,7 @@ name: Validation publique des 14 échecs Squash
 on:
   push:
     branches:
+      - main
       - codex/eclat-playwright-bulk
   workflow_dispatch:
 

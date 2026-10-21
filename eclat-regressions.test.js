@@ -38,7 +38,7 @@ test('historique : les passages expirés restent archivés mais ne sont plus exc
 test('export : les emprunts récents précèdent les anciens sans perte de données', () => {
   const js = source('migration.js');
   assert.match(js, /normalizeForExport\(spec,await read\(db,spec\.store\)\)/, 'L’export doit normaliser les enregistrements lus');
-  assert.match(js, /records\.sort\(\(a,b\)=>String\(b\.updatedAt\|\|b\.createdAt\|\|'')\.localeCompare\(String\(a\.updatedAt\|\|a\.createdAt\|\|''\)\)\)/, 'Les emprunts doivent être exportés du plus récent au plus ancien');
+  assert.ok(js.includes("records.sort((a,b)=>String(b.updatedAt||b.createdAt||'').localeCompare(String(a.updatedAt||a.createdAt||'')))"), 'Les emprunts doivent être exportés du plus récent au plus ancien');
 
   const helperStart = js.indexOf('function dataUrlBlob');
   const helperEnd = js.indexOf(' function merge(', helperStart);

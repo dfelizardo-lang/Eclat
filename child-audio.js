@@ -2,7 +2,8 @@
 (function(root,factory){const create=factory();if(typeof module==='object'&&module.exports)module.exports=create;else root.createEclatChildAudio=create})(typeof window==='object'?window:globalThis,function(){
  return function create({Audio,loadManifest,resolveURL,notify,finish,currentToken}){
   let manifestPromise=null,session=null,generation=0;
-  function stop(){generation++;const previous=session;session=null;if(previous?.audio){previous.audio.pause();previous.audio.removeAttribute('src');previous.audio.load()}}
+  function release(s){if(s?.audio){s.audio.pause();s.audio.removeAttribute('src');s.audio.load()}}
+  function stop(){generation++;const previous=session;session=null;release(previous)}
   function valid(s){return session===s&&s.generation===generation&&s.token===currentToken()}
   async function play(s){
    if(!valid(s))return;
@@ -17,10 +18,10 @@
     const record=manifest.passages[passage.id];const item=record?.voices[kind];
     if(!item)throw new Error('Audio absent');
     s.audio=new Audio(resolveURL(item.url));s.audio.preload='auto';s.audio.playbackRate=rate;
-    s.audio.addEventListener('ended',()=>{if(valid(s)){session=null;finish(token)}});
-    s.audio.addEventListener('error',()=>{if(valid(s)){manifestPromise=null;session=null;notify('error')}});
+    s.audio.addEventListener('ended',()=>{if(valid(s)){session=null;release(s);finish(token)}});
+    s.audio.addEventListener('error',()=>{if(valid(s)){manifestPromise=null;session=null;release(s);notify('error')}});
     if(startPaused)notify('paused');else await play(s);
-   }catch(e){if(valid(s)){session=null;notify('error')}}
+   }catch(e){if(valid(s)){session=null;release(s);notify('error')}}
   }
   function toggle(){if(!session)return false;const s=session;
    if(!s.audio)return true;

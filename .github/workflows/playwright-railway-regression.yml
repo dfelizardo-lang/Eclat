@@ -1,4 +1,4 @@
-name: Validation branche des 10 échecs Squash
+name: Validation finale des 2 échecs Squash
 on:
   push:
     branches: [fix/squash-final-20261021]
@@ -36,12 +36,12 @@ jobs:
       - name: Installer Chromium
         working-directory: automation/playwright
         run: npx playwright install --with-deps chromium
-      - name: Vérifier les 8 parcours fonctionnels restants
+      - name: Vérifier la limite de 50 photos
         working-directory: automation/playwright
         run: >
           npx playwright test tests/eclat.spec.js
           --config=playwright.config.js
-          --grep "ECL-TC-(026|031|050|055|067|068|077|085)"
+          --grep "ECL-TC-055"
       - name: Tests audio unitaires
         if: always()
         run: node --test child-audio.test.js
@@ -78,12 +78,12 @@ jobs:
       - name: Installer Chromium
         working-directory: automation/playwright
         run: npx playwright install --with-deps chromium
-      - name: Vérifier le zoom et les profils petits écrans
+      - name: Vérifier le zoom à 200 pour cent
         working-directory: automation/playwright
         run: >
           npx playwright test tests/eclat.spec.js
           --config=playwright.config.js
-          --grep "ECL-TC-(035|088)"
+          --grep "ECL-TC-035"
       - name: Journal serveur
         if: failure()
         run: cat /tmp/eclat-server.log || true

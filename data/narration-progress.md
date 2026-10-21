@@ -1,3 +1,11 @@
+# Narration SIWIS unifiée — 21 octobre 2026
+
+Le Narrateur / Conteur n'utilise plus le modèle Tom. Les deux choix partent maintenant du même modèle Piper `fr_FR-siwis-medium` et du même corpus SIWIS. La variante Narrateur / Conteur est créée à partir de l'enregistrement SIWIS d'origine avec une hauteur légèrement abaissée et une égalisation douce afin d'obtenir un timbre plus posé et moins nasal. Le modèle Piper n'est pas modifié et aucun nouveau fournisseur vocal n'est ajouté.
+
+Le modèle SIWIS Piper est mono-locuteur. La variante grave n'est donc pas présentée comme un second locuteur du corpus : c'est un traitement audio transparent de la même voix SIWIS. Les anciens fichiers féminins SIWIS peuvent être réutilisés au build ; les anciens fichiers Tom ne sont volontairement pas réutilisés.
+
+---
+
 # Narration enfants et adultes — 4 octobre 2026
 
 Deux voix françaises Piper : Siwis (choix initial) et Tom. Les adultes choisissent

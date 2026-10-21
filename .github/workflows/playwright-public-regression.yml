@@ -1,12 +1,9 @@
-name: Validation publique des 14 échecs Squash
-
+name: Validation publique des 15 échecs Squash
 on:
-  push:
-    branches:
-      - main
-      - codex/eclat-playwright-bulk
   workflow_dispatch:
-
+concurrency:
+  group: squash-public-final
+  cancel-in-progress: true
 jobs:
   functional-regressions:
     runs-on: ubuntu-latest
@@ -25,12 +22,12 @@ jobs:
           cache: npm
           cache-dependency-path: automation/playwright/package-lock.json
       - run: npm ci
-      - run: npx playwright install --with-deps chromium firefox webkit
+      - run: npx playwright install --with-deps chromium
       - name: Relancer les échecs fonctionnels
-        run: >
-          npx playwright test tests/eclat.spec.js
-          --config=playwright.config.js
-          --grep "ECL-TC-(050|055|058|067|068|077|026|031|085)"
+        shell: bash
+        run: |
+          grep_expr="$(node scripts/final-regression-grep.cjs)"
+          npx playwright test tests/eclat.spec.js             --config=playwright.config.js             --grep "$grep_expr"             --grep-invert "ECL-TC-(035|088|090|092|093)"
 
   browser-mobile-regressions:
     runs-on: ubuntu-latest

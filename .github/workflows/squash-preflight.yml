@@ -1,0 +1,41 @@
+name: Prévalidation locale avant Squash
+on:
+  workflow_dispatch:
+concurrency:
+  group: squash-local-preflight
+  cancel-in-progress: true
+jobs:
+  final-regressions-local:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    defaults:
+      run:
+        working-directory: automation/playwright
+    env:
+      ECLAT_LOCAL_TEST: "1"
+      ECLAT_LOCAL_PORT: "32173"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: automation/playwright/package-lock.json
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - name: Tester les 15 corrections depuis le checkout
+        shell: bash
+        run: |
+          grep_expr="$(node scripts/final-regression-grep.cjs)"
+          npx playwright test tests/eclat.spec.js             --config=playwright.config.js             --grep "$grep_expr"
+      - name: Conserver les rapports en cas d'échec
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: squash-preflight-reports
+          path: |
+            automation/playwright/playwright-report/
+            automation/playwright/test-results/
+            automation/playwright/pw_junit_report.xml
+          if-no-files-found: ignore
+          retention-days: 14

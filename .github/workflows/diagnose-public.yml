@@ -19,6 +19,13 @@ jobs:
           dig +short NS eclatsclassiques.com || true
           echo "===== HEADERS PUBLIC ====="
           curl -sSI https://eclatsclassiques.com/ || true
+          echo "===== CACHE BYPASS PUBLIC ====="
+          stamp="$(date +%s)"
+          curl -fsSL -D /tmp/h-bypass "https://eclatsclassiques.com/library-loans-form.js?diag=$stamp" -o /tmp/loans-bypass.js || true
+          grep -Ei '^(server|via|cf-|x-|etag|last-modified|cache-control):' /tmp/h-bypass || true
+          sha256sum /tmp/loans-bypass.js 2>/dev/null || true
+          grep -F "JPEG, PNG ou WebP" /tmp/loans-bypass.js >/dev/null 2>&1 && echo "BYPASS_IMAGE_TEXT=new" || echo "BYPASS_IMAGE_TEXT=old"
+          grep -F "Pour arrêter les rappels, supprimez toute la série" /tmp/loans-bypass.js >/dev/null 2>&1 && echo "BYPASS_REMINDER_TEXT=new" || echo "BYPASS_REMINDER_TEXT=old"
           for base in             "https://eclatsclassiques.com"             "https://eclat-production-cd17.up.railway.app"             "https://eclat-v1-sync-production.up.railway.app"
           do
             echo "===== $base ====="

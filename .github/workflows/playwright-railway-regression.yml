@@ -1,7 +1,7 @@
 name: Validation Railway des 14 échecs Squash
 on:
   push:
-    branches: [main]
+    branches: [main, fix/squash-final-20261021]
   workflow_dispatch:
 jobs:
   regression-origin:

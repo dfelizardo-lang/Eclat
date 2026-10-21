@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "url": "https://datashare.is.ed.ac.uk/handle/10283/2353"
+  },
+  {
+    "url": "https://huggingface.co/rhasspy/piper-voices/blob/c10ece1aade47bb51c153c893d14e5bf8e5b7117/fr/fr_FR/siwis/medium/MODEL_CARD"
+  },
+  {
+    "url": "https://git.bksp.space/Tjiho/French-tts-model-piper"
+  },
+  {
+    "url": "https://huggingface.co/rhasspy/piper-voices/blob/c10ece1aade47bb51c153c893d14e5bf8e5b7117/fr/fr_FR/tom/medium/MODEL_CARD"
+  },
+  {
+    "url": "https://github.com/rhasspy/piper/tree/2023.11.14-2"
+  },
+  {
+    "url": "https://github.com/espeak-ng/espeak-ng"
+  },
+  {
+    "url": "https://ffmpeg.org/legal.html"
+  },
+  {
+    "url": "https://github.com/dfelizardo-lang/Eclat/blob/main/scripts/build-narration.py"
+  }
+]

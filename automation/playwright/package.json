@@ -2,9 +2,15 @@
   "name": "eclat-playwright",
   "private": true,
   "scripts": {
-    "test": "playwright test tests/accueil.spec.js"
+    "test": "playwright test",
+    "test:list": "playwright test --list",
+    "squash:plan": "node scripts/link-squash.cjs",
+    "squash:apply": "node scripts/link-squash.cjs --apply",
+    "test:devices": "playwright test -c playwright.devices.config.js",
+    "squash:readiness": "node scripts/readiness.cjs"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
     "@playwright/test": "1.64.0"
   }
 }

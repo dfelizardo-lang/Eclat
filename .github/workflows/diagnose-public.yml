@@ -1,7 +1,5 @@
 name: Diagnostic routage production
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 jobs:
   compare-origins:

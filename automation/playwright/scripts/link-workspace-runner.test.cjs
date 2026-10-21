@@ -19,7 +19,7 @@ test('the Squash parent-directory npx runner discovers the selected test',()=>fi
  const run=spawnSync('npx',['--no-install','playwright','test','Eclat/automation/playwright/tests/accueil.spec.js','--config=Eclat/automation/playwright/playwright.config.js','--grep=ECL-TC-001','--list'],{cwd:workspace,encoding:'utf8',timeout:30000,env:{...process.env,npm_config_offline:'true',npm_config_cache:path.join(workspace,'npm-cache')}});
  assert.equal(run.status,0,run.stdout+run.stderr);assert.match(run.stdout,/ECL-TC-001/);assert.match(run.stdout,/Total: 1 test in 1 file/);
  const all=spawnSync(process.execPath,[cli,'test','--config=Eclat/automation/playwright/playwright.config.js','--list'],{cwd:workspace,encoding:'utf8',timeout:30000});
- assert.equal(all.status,0,all.stdout+all.stderr);assert.match(all.stdout,/Total: 96 tests in 2 files/);
+ assert.equal(all.status,0,all.stdout+all.stderr);assert.match(all.stdout,/Total: 99 tests in 4 files/);
 }));
 test('a foreign workspace runner is refused without overwriting its files',()=>fixture(async(workspace,project)=>{
  const dir=path.join(workspace,'node_modules/playwright');await fs.mkdir(dir,{recursive:true});const file=path.join(dir,'package.json');const content='{"name":"playwright","version":"0.0.0"}';await fs.writeFile(file,content);

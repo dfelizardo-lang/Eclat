@@ -22,8 +22,9 @@ test('historique : les passages expirés restent archivés mais ne sont plus exc
   const old = Date.now() - 32 * 86400000;
   const recent = Date.now() - 1000;
   values.set(key, JSON.stringify({old, recent}));
-  assert.equal(ctx.passageHistory().old, undefined, 'Un ancien passage ne doit plus être sous embargo');
+  assert.equal(ctx.passageHistory().old, old, 'L’historique complet doit rester consultable');
   assert.equal(ctx.passageHistory().recent, recent);
+  assert.deepEqual(Array.from(ctx.recentPassages()), ['recent']);
   assert.equal(JSON.parse(values.get(key)).old, old, 'Une simple lecture ne doit pas supprimer l’historique');
   assert.equal(ctx.passageIsEmbargoed('old'), false);
   assert.equal(ctx.passageIsEmbargoed('recent'), true);

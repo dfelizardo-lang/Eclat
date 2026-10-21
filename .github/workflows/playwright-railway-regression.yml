@@ -1,0 +1,29 @@
+name: Validation Railway des 14 échecs Squash
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  regression-origin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    defaults:
+      run:
+        working-directory: automation/playwright
+    env:
+      ECLAT_BASE_URL: https://eclat-production-cd17.up.railway.app
+      ECLAT_LOCAL_TEST: "0"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: automation/playwright/package-lock.json
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - name: Relancer les 14 échecs sur Railway
+        run: >
+          npx playwright test tests/eclat.spec.js
+          --config=playwright.config.js
+          --grep "ECL-TC-(026|031|035|050|055|058|067|068|077|085|088|090|092|093)"

@@ -13,6 +13,7 @@ jobs:
     env:
       ECLAT_BASE_URL: https://eclat-production-cd17.up.railway.app
       ECLAT_LOCAL_TEST: "0"
+      ECLAT_ALLOW_RAILWAY_ORIGIN: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

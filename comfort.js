@@ -15,6 +15,7 @@
   if(!['100','125','150','175','200'].includes(settings.size))settings.size='100';
   if(!['paper','light','dark'].includes(settings.theme))settings.theme='paper';
   document.documentElement.style.setProperty('--comfort-scale',Number(settings.size)/100);
+  document.body.dataset.comfortSize=settings.size;
   document.body.dataset.comfortTheme=settings.theme;
   ['spacing','simple','motion'].forEach(k=>document.body.classList.toggle('comfort-'+k,!!settings[k]));
   dialog.querySelector('#comfort-size').value=settings.size;dialog.querySelector('#comfort-theme').value=settings.theme;

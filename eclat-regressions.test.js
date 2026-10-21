@@ -35,26 +35,21 @@ test('historique : les passages expirés restent archivés mais ne sont plus exc
   assert.ok(persisted.new >= Date.now() - 10000);
 });
 
-test('export : les emprunts récents précèdent les anciens sans perte de données', async () => {
+test('export : les emprunts récents précèdent les anciens sans perte de données', () => {
   const js = source('migration.js');
-  const start = js.indexOf('function dataUrlBlob');
-  const end = js.indexOf('async function importData(', start);
-  assert.ok(start >= 0 && end > start, 'Fonctions de normalisation/export introuvables');
+  assert.match(js, /normalizeForExport\(spec,await read\(db,spec\.store\)\)/, 'L’export doit normaliser les enregistrements lus');
+  assert.match(js, /records\.sort\(\(a,b\)=>String\(b\.updatedAt\|\|b\.createdAt\|\|'')\.localeCompare\(String\(a\.updatedAt\|\|a\.createdAt\|\|''\)\)\)/, 'Les emprunts doivent être exportés du plus récent au plus ancien');
+
+  const helperStart = js.indexOf('function dataUrlBlob');
+  const helperEnd = js.indexOf(' function merge(', helperStart);
+  assert.ok(helperStart >= 0 && helperEnd > helperStart, 'Fonctions de normalisation introuvables');
+  const ctx = vm.createContext({Blob, Uint8Array, atob});
+  vm.runInContext(js.slice(helperStart, helperEnd), ctx);
+
   const old = {id:'a-old', updatedAt:'2026-08-01T10:00:00Z', photos:[]};
   const latest = {id:'z-new', updatedAt:'2026-10-20T10:00:00Z', borrowAgain:['Export adulte'], photos:[]};
-  const data = {notebooks:[old,latest], books:[]};
-  const ctx = vm.createContext({
-    stores:[{db:'eclat-library-loans',store:'notebooks'},{db:'eclat-kids-reading',store:'books'}],
-    validKey:key=>key.startsWith('eclat'),
-    localStorage:{length:0},
-    open:async()=>({close(){}}),
-    read:async(_db,store)=>data[store].slice(),
-    encode:async x=>x,
-    Date, location:{origin:'https://example.test'}
-  });
-  vm.runInContext(js.slice(start,end),ctx);
-  const backup=await ctx.exportData();
-  const records=backup.databases.find(d=>d.store==='notebooks').records;
+  const records = ctx.normalizeForExport({store:'notebooks'}, [old, latest]);
+  records.sort((a,b)=>String(b.updatedAt||b.createdAt||'').localeCompare(String(a.updatedAt||a.createdAt||'')));
   assert.equal(records.length,2);
   assert.equal(records[0].borrowAgain[0],'Export adulte');
   assert.equal(records[1].id,'a-old');

@@ -15,7 +15,7 @@
   const newLoan = document.getElementById('newLoan');
   function showOverview() { EclatLoanViews.show('list'); newLoan.focus(); }
   const reminderToggle = document.getElementById('weeklyReminder');
-  function toggleReminderFields(){const enabled=reminderToggle.checked;document.getElementById('reminderFields').hidden=!enabled;for(const id of ['returnDate','reminderTime'])document.getElementById(id).required=enabled;}
+  function toggleReminderFields(){const enabled=reminderToggle.checked;document.getElementById('reminderFields').hidden=!enabled;document.getElementById('returnDate').required=true;document.getElementById('reminderTime').required=enabled;}
   reminderToggle.addEventListener('change',()=>{toggleReminderFields();changed();});
   document.getElementById('reminderTime').addEventListener('input',changed);
   function openForm(record) {
@@ -165,9 +165,8 @@
   form.addEventListener('submit', async event => {
     event.preventDefault();
     if (!db || busy) return;
-    const hasContent = photos.length > 0 || ['returnDate', 'borrowAgain', 'reserveBooks'].some(id => document.getElementById(id).value.trim() !== '');
-    if (!hasContent) {
-      message(status, 'Ajoutez une photo, une date de retour ou au moins un livre avant d’enregistrer.', true);
+    if (!photos.length) {
+      message(status, 'Ajoutez une photo de tous les livres avant d’enregistrer.', true);
       return;
     }
     busy = true; saveButton.disabled = true; enablePhotoControls(false);

@@ -1488,11 +1488,8 @@ const PASSAGE_EMBARGO_MS=30*24*60*60*1000;
 function passageHistory(){
  try{
    const raw=JSON.parse(localStorage.getItem(passageHistoryKey())||"{}");
-   const now=Date.now(), clean={};
-   Object.entries(raw).forEach(([id,ts])=>{
-     if(Number.isFinite(ts) && now-ts<PASSAGE_EMBARGO_MS) clean[id]=ts;
-   });
-   // Conserver l'historique complet : seul le filtrage en mémoire expire après 30 jours.
+   const clean={};
+   Object.entries(raw).forEach(([id,ts])=>{if(Number.isFinite(ts))clean[id]=ts;});
    return clean;
  }catch(e){return{}}
 }
@@ -1509,16 +1506,16 @@ function rememberPassages(passages){
    localStorage.setItem(passageHistoryKey(),JSON.stringify(h));
  }catch(e){}
 }
-function recentPassages(){return Object.keys(passageHistory())}
+function recentPassages(){return Object.keys(passageHistory()).filter(passageIsEmbargoed)}
 
 function assignUniquePassages(desires){
  const audience=mode==="child"?"child":"adult";
- const history=passageHistory();
+ const recent=recentPassages();
  const pool=PASSAGES.filter(p=>
    p.audience===audience &&
    p.text &&
    p.text.length>=80 &&
-   !history[p.id]
+   !passageIsEmbargoed(p.id)
  );
  if(pool.length<6)return false;
 
@@ -1534,7 +1531,7 @@ function assignUniquePassages(desires){
        // Garde-fou supplémentaire : deux IDs différents contenant exactement
        // le même extrait sont considérés comme le même texte.
        const fingerprint=p.text.replace(/\s+/g," ").trim();
-       return {p,fingerprint,score:passageScore(p,desire,Object.keys(history))};
+       return {p,fingerprint,score:passageScore(p,desire,recent)};
      })
      .filter(x=>!usedTextFingerprints.has(x.fingerprint))
      .sort((x,y)=>y.score-x.score);
@@ -1693,9 +1690,8 @@ function pick6(){
 
 function buildGuaranteedBatch(){
  const audience=mode==="child"?"child":"adult";
- const history=passageHistory();
  const passages=PASSAGES
-   .filter(p=>p.audience===audience && p.text && p.text.length>=80 && !history[p.id])
+   .filter(p=>p.audience===audience && p.text && p.text.length>=80 && !passageIsEmbargoed(p.id))
    .sort(()=>Math.random()-.5);
 
  if(passages.length<6) return null;
@@ -2003,8 +1999,7 @@ function scheduleNextContinuous(){
 let continuousSeen=new Set();
 
 function randomAdultPassage(){
- const rawHistory=(typeof passageHistory==="function")?passageHistory():{};
- const history=new Set(Array.isArray(rawHistory)?rawHistory:Object.keys(rawHistory||{}));
+ const history=new Set((typeof recentPassages==="function")?recentPassages():[]);
  const all=PASSAGES.filter(p=>p.audience==="adult"&&p.text&&p.text.length>=80);
  let pool=all.filter(p=>!continuousSeen.has(p.id)&&!history.has(p.id));
  if(!pool.length)pool=all.filter(p=>!continuousSeen.has(p.id));

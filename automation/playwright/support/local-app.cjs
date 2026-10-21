@@ -10,7 +10,8 @@ async function startLocalApp({root=path.resolve(__dirname,'../../..'),env=proces
     try{require.resolve(name,{paths:[root]});}
     catch{await run('npm',['ci','--ignore-scripts','--no-audit','--no-fund'],{cwd:root,timeout:180000});break;}
   }
-  const child=fork(path.join(root,'server.js'),[],{cwd:root,env:{...env,PORT:'0'},stdio:['ignore','pipe','pipe','ipc']});
+  const port=Number(env.ECLAT_LOCAL_PORT||32173);
+  const child=fork(path.join(root,'server.js'),[],{cwd:root,env:{...env,PORT:String(port)},stdio:['ignore','pipe','pipe','ipc']});
   let output='';
   for(const stream of [child.stdout,child.stderr])stream.on('data',data=>{output=(output+data.toString()).slice(-5000);});
   async function stop(){
@@ -23,7 +24,9 @@ async function startLocalApp({root=path.resolve(__dirname,'../../..'),env=proces
       const timer=setTimeout(()=>reject(new Error('Le serveur du checkout ne démarre pas : '+output)),30000);
       child.once('error',e=>{clearTimeout(timer);reject(e);});
       child.once('exit',code=>{clearTimeout(timer);reject(new Error('Serveur interrompu ('+code+') : '+output));});
-      child.on('message',message=>{if(message?.type==='eclat-ready'&&Number.isInteger(message.port)){clearTimeout(timer);resolve(message);}});
+      const accept=message=>{if(message?.type==='eclat-ready'&&Number.isInteger(message.port)){clearTimeout(timer);resolve(message);}};
+      child.on('message',accept);
+      child.stdout.on('data',()=>{if(output.includes('http://localhost:'+port)){clearTimeout(timer);resolve({type:'eclat-ready',port});}});
     });
     const url='http://127.0.0.1:'+ready.port;
     const response=await fetch(url+'/migration.html',{signal:AbortSignal.timeout(15000)});

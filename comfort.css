@@ -6,8 +6,10 @@ body main{zoom:var(--comfort-scale,1)}
 body .reader-shell,body .saved-shell{zoom:var(--comfort-scale,1)}
 body.comfort-spacing main p,body.comfort-spacing .reader-text{line-height:2!important;letter-spacing:.04em!important;word-spacing:.12em!important}
 body.comfort-spacing main p{margin-block:1.5em!important}
-body.comfort-simple .hero-art,body.comfort-simple .art-orbit,body.comfort-simple .art-grain{display:none!important}
-body.comfort-simple .hero{grid-template-columns:minmax(0,1fr)!important;min-height:0!important}
+body.comfort-simple .hero-visual,body.comfort-simple .art-orbit,body.comfort-simple .art-grain{display:none!important}
+body.comfort-simple .hero{grid-template-columns:minmax(0,1fr)!important;min-height:0!important;overflow:visible!important}
+body.comfort-simple .hero-art{display:flex!important;height:auto!important;min-height:64px!important;justify-content:flex-start!important}
+body.comfort-simple .hero-library-cta{position:relative!important;inset:auto!important;top:auto!important;right:auto!important;margin:0!important}
 body.comfort-simple .desire{background:#173b48!important;border-radius:12px!important;box-shadow:none!important;transform:none!important}
 body.comfort-simple .desire:before,body.comfort-simple .desire:after{display:none!important}
 body.comfort-motion *,body.comfort-motion *::before,body.comfort-motion *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
@@ -44,3 +46,24 @@ body[data-comfort-theme] .shuffle :is(strong,small,span){color:#fff!important}
 .bedtime-audio-controls{margin:12px 0;display:flex;justify-content:center}
 .bedtime-audio-controls[hidden]{display:none}
 .bedtime-audio-controls button{min-height:48px;padding:10px 24px;border:2px solid #173b48;border-radius:999px;background:#173b48;color:#fff;font:700 1rem system-ui;cursor:pointer}
+
+/* 200 % must reflow without clipping the large home heading. */
+body[data-comfort-size="200"] .hero{overflow:visible!important}
+
+/* Reinforced dark mode: keep all interactive and textual surfaces at WCAG AA contrast. */
+body[data-comfort-theme=dark]{background:#171713!important;color:#fffdf8!important}
+body[data-comfort-theme=dark] :where(header,main,section,article,form,fieldset,footer,nav,dialog,.form-card,.reader-shell,.saved-shell,.library-panel-shell,.comfort-dialog,.child-narrator,.narrator-switch,.accessible-mobile-nav){background:#171713!important;color:#fffdf8!important;border-color:#aaa39a!important}
+body[data-comfort-theme=dark] :where(h1,h2,h3,h4,p,span,label,legend,em,strong,small,a,button,.reader-text,.reader-workline){color:#fffdf8!important}
+body[data-comfort-theme=dark] :where(button,a.photo-button,a.back,.photo-button,.save-button,.gallery-button,.library-loans-link,.comfort-open,input,select,textarea){background:#171713!important;color:#fffdf8!important;border-color:#fffdf8!important}
+body[data-comfort-theme=dark] :where(input,select,textarea)::placeholder{color:#ddd4c6!important}
+
+/* Final dark-theme overrides outrank the shared accessibility palette. */
+body[data-comfort-theme=dark] *{color:#fffdf8!important}
+body[data-comfort-theme=dark] :is(.photo-button,.save-button,.gallery-button,.back,.library-loans-link,.comfort-open,button,input,select,textarea){background:#171713!important;color:#fffdf8!important;border-color:#fffdf8!important}
+body[data-comfort-theme=dark] :is(.kicker,.comfort-kicker,.field-hint,.status,.empty,.save-hint,.reader-author,.reader-workline,.listen-status,.source-popover-kicker,.library-status,.library-data-note){color:#fffdf8!important}
+
+/* At 200 %, collapse decorative hero columns so zoomed text keeps a usable column. */
+body[data-comfort-size="200"] .hero{grid-template-columns:minmax(0,1fr)!important;overflow:visible!important}
+body[data-comfort-size="200"] .hero-visual{display:none!important}
+body[data-comfort-size="200"] .hero-art{display:flex!important;height:auto!important;min-height:64px!important;max-width:100%!important;justify-content:flex-start!important}
+body[data-comfort-size="200"] .hero-library-cta{position:relative!important;inset:auto!important;top:auto!important;right:auto!important;margin:0!important}

@@ -10,7 +10,7 @@ async function startLocalApp({root=path.resolve(__dirname,'../../..'),env=proces
     try{require.resolve(name,{paths:[root]});}
     catch{await run('npm',['ci','--ignore-scripts','--no-audit','--no-fund'],{cwd:root,timeout:180000});break;}
   }
-  const port=Number(env.ECLAT_LOCAL_PORT||32173);
+  const port=Number(env.ECLAT_LOCAL_PORT||0);
   const child=fork(path.join(root,'server.js'),[],{cwd:root,env:{...env,PORT:String(port)},stdio:['ignore','pipe','pipe','ipc']});
   let output='';
   for(const stream of [child.stdout,child.stderr])stream.on('data',data=>{output=(output+data.toString()).slice(-5000);});

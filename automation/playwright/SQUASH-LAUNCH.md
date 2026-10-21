@@ -5,12 +5,13 @@ Le lancement utilisateur se fait dans Squash. L’orchestrateur utilise Playwrig
 ## Préparer une fois
 
 1. Mettre à jour les cas existants avec le classeur `Eclat_96_cas_mise_a_jour_20261015.xlsx`. Choisir la mise à jour, conserver les identifiants et contrôler le bilan d’import.
-2. Dans le dépôt SCM **Eclat**, sélectionner la branche **codex/eclat-playwright-bulk**. La branche `main` ne contient pas encore ces changements.
+2. Dans le dépôt SCM **Eclat**, sélectionner la branche **main**, qui contient désormais la suite automatisée. Conserver le SHA du checkout dans le rapport.
 3. Lancer le script de rattachement en masse depuis le clone Ubuntu. Il préserve les références déjà conformes et s’arrête devant une référence différente :
 
 ```bash
 cd ~/eclat-automatisation/Eclat-suite
- git pull --ff-only origin codex/eclat-playwright-bulk
+ git switch main
+ git pull --ff-only origin main
 cd automation/playwright
 npm ci
 export SQUASH_URL=http://127.0.0.1:8090/squash
@@ -42,7 +43,7 @@ Sur le compte système qui exécute l’agent, l’administrateur prépare Node,
 En mode normal, le paramètre du jeu de données **BASE_URL** devient `DS_BASE_URL` et prime sur `ECLAT_BASE_URL`. Le mode local explicite ci-dessous permet de cibler toute la campagne sans modifier chaque jeu de données.
 
 - Pour l’application locale mise à jour : serveur Éclat lancé sur l’agent Ubuntu, variables projet **ECLAT_LOCAL_TEST=1** et **ECLAT_BASE_URL=http://127.0.0.1:3000**. Ce choix explicite prime sur les jeux de données `Site_public` et n’accepte que les adresses loopback.
-- Pour le site publié : jeu de données avec son adresse publique et secret **ECLAT_SITES_TOKEN** disponible sur l’agent. Les changements de cette branche doivent d’abord être déployés sur le site.
+- Pour le site publié : jeu de données **BASE_URL=https://eclatsclassiques.com** et **ECLAT_LOCAL_TEST=0**. Aucun jeton Sites n’est nécessaire pour ce domaine public. Le résultat concerne la version publiée, qui peut différer du checkout.
 
 `localhost` désigne la machine de l’agent, pas le conteneur Squash. Le secret Sites doit être injecté séparément, jamais dans le classeur.
 

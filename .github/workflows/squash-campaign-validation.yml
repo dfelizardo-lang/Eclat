@@ -1,0 +1,44 @@
+name: Vérification des 16 anomalies Squash
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regressions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        cases:
+          - '026|031|050|054|055|058|062|067|068|077|085'
+          - '035'
+          - '088|090'
+          - '092|093'
+    env:
+      ECLAT_LOCAL_TEST: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: node --test *.test.js
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+        working-directory: automation/playwright
+      - run: npx playwright install --with-deps chromium firefox webkit
+        working-directory: automation/playwright
+      - run: npx playwright test tests/eclat.spec.js --grep 'ECL-TC-(${{ matrix.cases }})'
+        working-directory: automation/playwright
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: squash-${{ strategy.job-index }}
+          path: |
+            automation/playwright/pw_junit_report.xml
+            automation/playwright/playwright-report/
+            automation/playwright/test-results/

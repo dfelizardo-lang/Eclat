@@ -105,4 +105,13 @@ app.get("/api/bibliotheques", async (req,res)=>{
 });
 const V1_PATCH = `<style>#eclat-version-v1{position:fixed;right:12px;bottom:8px;z-index:9999;font:600 11px/1 system-ui,sans-serif;letter-spacing:.04em;opacity:.38;pointer-events:none}</style><div id="eclat-version-v1" aria-label="Version 1.0">v1.0</div><script>(function(){function patch(){const i=document.getElementById('libraryPostal');if(i){i.value='';i.placeholder='Votre code postal';i.setAttribute('autocomplete','postal-code');i.setAttribute('inputmode','numeric');}}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',patch);else patch();})();<\/script>`;
 function sendApp(req,res){fs.readFile(V73,"utf8",(err,html)=>{if(err)return res.status(500).send("Éclat indisponible");html=html.replace(/<\/head>/i,'<link rel="stylesheet" href="/accessible-contrast.css"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#fff5df"></head>');const patch='<script src="/comfort.js"></script>'+V1_PATCH+'<script src="/daily-themes-client.js"></script><script src="/library-loans-client.js"></script>';const at=html.toLowerCase().lastIndexOf("</body>");res.type("html").send(at>=0?html.slice(0,at)+patch+html.slice(at):html+patch);});}
-app.get(["/","/index.html"],sendApp); app.use(express.static(__dirname,{index:false})); app.use((req,res,next)=>{if(req.method==="GET"&&req.accepts("html"))return sendApp(req,res);next();}); app.listen(PORT,()=>console.log(`Éclat v1.0 disponible sur http://localhost:${PORT}`));
+const pageRoutes = ['/emprunts', '/emprunts-enfants', '/migration', '/narration-credits'];
+app.use((req, res, next) => {
+  if (!['GET', 'HEAD'].includes(req.method)) return next();
+  const pathname = req.path;
+  const canonical = pathname === '/index.html' ? '/' : pageRoutes.find(route => [route+'/', route+'.html', route+'.html/'].includes(pathname));
+  if (canonical) return res.redirect(308, canonical + req.originalUrl.slice(pathname.length));
+  next();
+});
+for (const route of pageRoutes) app.get(route, (req, res) => res.sendFile(path.join(__dirname, route.slice(1)+'.html')));
+app.get(["/","/index.html"],sendApp); app.use(express.static(__dirname,{index:false})); app.use((req,res,next)=>{if(req.method==="GET"&&req.accepts("html"))return sendApp(req,res);next();}); const server = app.listen(PORT, () => { const port = server.address().port; console.log(`Éclat v1.0 disponible sur http://localhost:${port}`); if (process.send) process.send({type: "eclat-ready", port}); });

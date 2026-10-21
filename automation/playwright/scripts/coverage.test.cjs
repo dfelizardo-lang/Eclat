@@ -10,6 +10,6 @@ test('all 81 linkable Squash cases have registered executable implementations',(
  assert.equal(new Set(cases.map(c=>c.automatedReference)).size,96);
 });
 test('corpus and credits baselines are versioned technical references, without fabricated editorial approval',()=>{
- const baseline=require('../support/corpus-baseline.json');assert.equal(baseline.editorialApproval,false);assert.equal(baseline.passages.length,182);assert.equal(new Set(baseline.passages.map(p=>p.id)).size,182);for(const p of baseline.passages)assert.match(p.textHash,/^[a-f0-9]{64}$/);
+ const baseline=require('../support/corpus-baseline.json');assert.equal(baseline.editorialApproval,false);assert.equal(baseline.passages.length,536);assert.equal(new Set(baseline.passages.map(p=>p.id)).size,536);for(const p of baseline.passages)assert.match(p.textHash,/^[a-f0-9]{64}$/);
  const html=fs.readFileSync(path.resolve(root,'../../narration-credits.html'),'utf8');for(const {url} of require('../support/credits.json'))assert.ok(html.includes('href="'+url+'"'));
 });

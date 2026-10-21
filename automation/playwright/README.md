@@ -23,10 +23,16 @@ Depuis automation/playwright :
 npm install
 npx playwright install --with-deps chromium
 
-Fournir ECLAT_SITES_TOKEN à l'environnement via un canal sécurisé, puis :
-npm test
+Pour tester le checkout sans déploiement :
 
-Le script exige ce secret et échoue explicitement s'il est absent. Le secret est envoyé seulement au domaine Éclat ; aucun secret ne doit être ajouté dans Git. La session ChatGPT et le jeton Orchestrator ne sont pas ce jeton Sites.
+```bash
+ECLAT_LOCAL_TEST=1 npm test
+```
+
+Le global setup démarre et arrête le serveur du checkout sur l’agent.
+Pour tester la production publiée : `ECLAT_LOCAL_TEST=0 npm test`.
+Le jeton `ECLAT_SITES_TOKEN` concerne uniquement l’ancienne origine ChatGPT Sites ;
+il n’est pas requis pour le domaine public et ne doit jamais être ajouté dans Git.
 
 Le paramètre Squash DS_BASE_URL est pris en compte en mode normal. Pour toute une campagne locale, définir ECLAT_LOCAL_TEST=1 et ECLAT_BASE_URL=http://127.0.0.1:3000 sur le projet Squash. Cette sélection explicite prime sur les jeux de données publics, sans envoyer de jeton Sites.
 
@@ -34,7 +40,7 @@ Le paramètre Squash DS_BASE_URL est pris en compte en mode normal. Pour toute u
 
 L'agent doit disposer de Node, Chromium et @playwright/test accessibles au script dans le checkout de chaque exécution. L'installation dans un autre dossier local ne garantit pas cette disponibilité. Préparer les dépendances du checkout avant la première campagne.
 
-Ne pas modifier les emplacements des rapports html et junit attendus par le fournisseur Playwright Orchestrator. Le script n'a pas encore été exécuté sur l'agent Ubuntu via Squash.
+Ne pas modifier les emplacements des rapports html et junit attendus par le fournisseur Playwright Orchestrator. Vérifier les résultats de chaque campagne sur l’agent Ubuntu.
 
 Les traces sont désactivées pour ne pas enregistrer l'en-tête secret dans une trace réseau. Ne pas activer un journal des en-têtes ni diffuser les fichiers de session.
 

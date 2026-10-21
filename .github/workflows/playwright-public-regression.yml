@@ -1,11 +1,12 @@
 name: Validation publique des 14 échecs Squash
 
 on:
-  push:
-    branches:
-      - main
-      - codex/eclat-playwright-bulk
   workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   functional-regressions:
@@ -32,6 +33,18 @@ jobs:
           --config=playwright.config.js
           --grep "ECL-TC-(050|055|058|067|068|077|026|031|085)"
 
+      - name: Conserver les rapports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.job }}-${{ github.run_id }}
+          path: |
+            automation/playwright/pw_junit_report.xml
+            automation/playwright/playwright-report/
+            automation/playwright/test-results/
+          if-no-files-found: warn
+          retention-days: 14
+
   browser-mobile-regressions:
     runs-on: ubuntu-latest
     timeout-minutes: 50
@@ -55,3 +68,14 @@ jobs:
           npx playwright test tests/eclat.spec.js
           --config=playwright.config.js
           --grep "ECL-TC-(035|088|090|092|093)"
+      - name: Conserver les rapports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.job }}-${{ github.run_id }}
+          path: |
+            automation/playwright/pw_junit_report.xml
+            automation/playwright/playwright-report/
+            automation/playwright/test-results/
+          if-no-files-found: warn
+          retention-days: 14

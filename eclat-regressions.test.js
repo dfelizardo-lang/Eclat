@@ -37,9 +37,9 @@ test('historique : les passages expirés restent archivés mais ne sont plus exc
 
 test('export : les emprunts récents précèdent les anciens sans perte de données', async () => {
   const js = source('migration.js');
-  const start = js.indexOf('async function exportData()');
+  const start = js.indexOf('function dataUrlBlob');
   const end = js.indexOf('async function importData(', start);
-  assert.ok(start >= 0 && end > start, 'Fonction d’export introuvable');
+  assert.ok(start >= 0 && end > start, 'Fonctions de normalisation/export introuvables');
   const old = {id:'a-old', updatedAt:'2026-08-01T10:00:00Z', photos:[]};
   const latest = {id:'z-new', updatedAt:'2026-10-20T10:00:00Z', borrowAgain:['Export adulte'], photos:[]};
   const data = {notebooks:[old,latest], books:[]};

@@ -1,0 +1,21 @@
+{
+  "campaign": "Eclat_20/10/26",
+  "purpose": "Réexécuter uniquement les échecs initiaux avant la campagne complète Squash",
+  "references": [
+    "ECL-TC-026",
+    "ECL-TC-031",
+    "ECL-TC-035",
+    "ECL-TC-040",
+    "ECL-TC-050",
+    "ECL-TC-055",
+    "ECL-TC-058",
+    "ECL-TC-067",
+    "ECL-TC-068",
+    "ECL-TC-077",
+    "ECL-TC-085",
+    "ECL-TC-088",
+    "ECL-TC-090",
+    "ECL-TC-092",
+    "ECL-TC-093"
+  ]
+}

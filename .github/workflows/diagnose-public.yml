@@ -1,0 +1,29 @@
+name: Diagnostic routage production
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  compare-origins:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Comparer domaine public et Railway
+        shell: bash
+        run: |
+          set -euo pipefail
+          for base in             "https://eclatsclassiques.com"             "https://eclat-production-cd17.up.railway.app"             "https://eclat-v1-sync-production.up.railway.app"
+          do
+            echo "===== $base ====="
+            curl -fsSL -D /tmp/h "$base/library-loans-form.js" -o /tmp/loans.js || { echo "FETCH_FAIL"; continue; }
+            grep -Ei '^(server|via|cf-|x-|etag|last-modified|cache-control):' /tmp/h || true
+            sha256sum /tmp/loans.js
+            grep -F "JPEG, PNG ou WebP" /tmp/loans.js >/dev/null && echo "IMAGE_TEXT=new" || echo "IMAGE_TEXT=old"
+            grep -F "Pour arrêter les rappels, supprimez toute la série" /tmp/loans.js >/dev/null && echo "REMINDER_TEXT=new" || echo "REMINDER_TEXT=old"
+            curl -fsSL "$base/kids-loans.js" -o /tmp/kids.js
+            sha256sum /tmp/kids.js
+            grep -F "Limite de 2 000 caractères atteinte" /tmp/kids.js >/dev/null && echo "KIDS_LIMIT=new" || echo "KIDS_LIMIT=old"
+            curl -fsSL "$base/child-narrator.js" -o /tmp/narrator.js
+            sha256sum /tmp/narrator.js
+            grep -F "Réessayer" /tmp/narrator.js >/dev/null && echo "AUDIO_RETRY=new" || echo "AUDIO_RETRY=old"
+          done

@@ -56,3 +56,8 @@ body[data-comfort-theme=dark] :where(header,main,section,article,form,fieldset,f
 body[data-comfort-theme=dark] :where(h1,h2,h3,h4,p,span,label,legend,em,strong,small,a,button,.reader-text,.reader-workline){color:#fffdf8!important}
 body[data-comfort-theme=dark] :where(button,a.photo-button,a.back,.photo-button,.save-button,.gallery-button,.library-loans-link,.comfort-open,input,select,textarea){background:#171713!important;color:#fffdf8!important;border-color:#fffdf8!important}
 body[data-comfort-theme=dark] :where(input,select,textarea)::placeholder{color:#ddd4c6!important}
+
+/* Final dark-theme overrides outrank the shared accessibility palette. */
+body[data-comfort-theme=dark] *{color:#fffdf8!important}
+body[data-comfort-theme=dark] :is(.photo-button,.save-button,.gallery-button,.back,.library-loans-link,.comfort-open,button,input,select,textarea){background:#171713!important;color:#fffdf8!important;border-color:#fffdf8!important}
+body[data-comfort-theme=dark] :is(.kicker,.comfort-kicker,.field-hint,.status,.empty,.save-hint,.reader-author,.reader-workline,.listen-status,.source-popover-kicker,.library-status,.library-data-note){color:#fffdf8!important}

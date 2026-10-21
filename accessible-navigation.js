@@ -21,15 +21,22 @@
  }
  for(const p of panels){set(p.node,'role','dialog');set(p.node,'aria-modal','true');let title=p.title&&document.getElementById(p.title);if(!title){title=p.node.querySelector('h2');if(title&&!title.id)title.id=p.node.id+'-heading';p.title=title?.id}if(title)set(p.node,'aria-labelledby',title.id);else set(p.node,'aria-label',p.node.id==='savedPanel'?'Mes éclats':'Bibliothèques proches');}
  document.addEventListener('click',e=>{const t=e.target.closest('button,a,[role="button"]');if(t)lastTrigger=t},true);
+ function currentModal(){return document.querySelector('dialog[open]')||active?.node||null}
  document.addEventListener('keydown',e=>{
-  if(document.querySelector('dialog[open]')||!active)return;
-  if(e.key==='Escape'){e.preventDefault();e.stopImmediatePropagation();document.getElementById(active.close)?.click();return}
+  const modal=currentModal();if(!modal)return;
+  const nativeDialog=modal.tagName==='DIALOG';
+  if(e.key==='Escape'){
+   e.preventDefault();e.stopImmediatePropagation();
+   if(nativeDialog)modal.close();else document.getElementById(active.close)?.click();
+   return;
+  }
   if(e.key!=='Tab')return;
-  const items=[...active.node.querySelectorAll(focusable)].filter(visible),first=items[0],last=items.at(-1);if(!first){e.preventDefault();active.node.tabIndex=-1;active.node.focus();return}
+  const items=[...modal.querySelectorAll(focusable)].filter(visible),first=items[0],last=items.at(-1);
+  if(!first){e.preventDefault();modal.tabIndex=-1;modal.focus();return}
   if(e.shiftKey&&(document.activeElement===first||!items.includes(document.activeElement))){e.preventDefault();last.focus()}
   else if(!e.shiftKey&&(document.activeElement===last||!items.includes(document.activeElement))){e.preventDefault();first.focus()}
  },true);
- document.addEventListener('focusin',e=>{if(active&&!active.node.contains(e.target)&&!document.querySelector('dialog[open]'))active.node.querySelector(focusable)?.focus()});
+ document.addEventListener('focusin',e=>{const modal=currentModal();if(modal&&!modal.contains(e.target))modal.querySelector(focusable)?.focus()});
  new MutationObserver(sync).observe(document.body,{subtree:true,attributes:true,attributeFilter:['class','hidden']});
  const hero=document.querySelector('.hero-art');if(hero){hero.removeAttribute('aria-hidden');hero.querySelector('.hero-visual')?.setAttribute('aria-hidden','true')}
  for(const node of document.querySelectorAll('[role="status"],.status,.listen-status'))set(node,'aria-live','polite');

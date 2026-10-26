@@ -48,6 +48,7 @@ async function comfort(page) {
 }
 async function adultForm(page) {
   await go(page, "/emprunts.html");
+  await expect(page.locator("#newLoan")).toBeEnabled();
   await page.locator("#newLoan").click();
   await expect(page.locator("#loansForm")).toBeVisible();
 }

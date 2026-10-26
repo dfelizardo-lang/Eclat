@@ -104,7 +104,7 @@ function install(checks){
   if(!fs.existsSync(path.join(root,'node_modules/cheerio/package.json')))await run('npm',['ci','--ignore-scripts','--no-audit','--no-fund'],{cwd:root,timeout:120000});
   const result=await run(process.execPath,['--test','library-news-security.test.js'],{cwd:root,timeout:30000});
   await info.attach('securite-requetes-sortantes.txt',{body:Buffer.from(result.stdout),contentType:'text/plain'});
-  for(const url of ['https://localhost','https://127.0.0.1','https://10.0.0.1','file:///etc/passwd','javascript:alert(1)']){const response=await page.request.get(s.target()+'/api/library-news?url='+encodeURIComponent(url));expect(response.status(),url).toBe(400);expect((await response.json()).error).toBeTruthy();}
+  for(const url of ['https://localhost','https://127.0.0.1','https://10.0.0.1','file:///etc/passwd','javascript:alert(1)']){const response=await page.request.get(s.target()+'/api/library-news?url='+encodeURIComponent(url),{timeout:20000});expect(response.status(),url).toBe(400);expect((await response.json()).error).toBeTruthy();}
  });
  checks.set(93,async({browser},info)=>{
   info.setTimeout(1800000);const measurements=[],failures=[];
@@ -207,7 +207,7 @@ function install(checks){
   await reader(page);await id(page,'saveExcerpt').click();
   await go(page,'/emprunts.html');await createLoan(page,'Export adulte');await childForm(page);await id(page,'bookTitle').fill('Export enfant');await id(page,'bookAuthor').fill('Auteur');await id(page,'saveBook').click();await expect(id(page,'bookForm')).toBeHidden();await go(page,'/migration.html');
   const before=await page.evaluate(()=>EclatTransfer.exportData());const exported=await exportBackup(page);expect(exported.databases).toEqual(before.databases);expect(exported.localStorage).toEqual(before.localStorage);
-  const loan=exported.databases.find(d=>d.store==='notebooks').records[0];expect(loan.borrowAgain).toContain('Export adulte');expect(loan.photos[0].blob.data).toMatch(/^data:image\/jpeg;base64,/);expect(exported.databases.find(d=>d.store==='books').records.some(b=>b.title==='Export enfant')).toBe(true);
+  const loan=exported.databases.find(d=>d.store==='notebooks').records[0];expect(loan.returnDate).toBe('2030-01-15');expect(loan.photos).toHaveLength(1);expect(loan.photos[0].blob.data).toMatch(/^data:image\/jpeg;base64,/);expect(exported.databases.find(d=>d.store==='books').records.some(b=>b.title==='Export enfant')).toBe(true);
  });
  extend(71,async({page,browser})=>{
   const base=book('merge');base.updatedAt='2030-01-01T10:00:00Z';base.title='Existant';await importBackup(page,backup([base,book('preserved')]));

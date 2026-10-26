@@ -64,7 +64,8 @@ async function createLoan(page, label = "Livre A") {
   await expect(page.locator("#loansForm")).toBeVisible();
   await page.locator("#returnDate").fill(label === "Livre B" ? "2030-01-16" : "2030-01-15");
   await expect(page.locator("#returnDate")).toHaveValue(label === "Livre B" ? "2030-01-16" : "2030-01-15");
-  await page.locator("#borrowAgain").fill(label);
+  // Reading wish lists are independent of the photo/date loan record.
+  // Do not fill #borrowAgain: it may live in the closed library panel.
   await page.locator('#galleryPhoto').setInputFiles({name:'loan.png',mimeType:'image/png',buffer:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4z8DwHwAFAAH/iZk9HQAAAABJRU5ErkJggg==','base64')});
   await expect(page.locator('#photoList img')).toBeVisible();
   await expect(page.locator('#photoStatus')).toContainText('prête à être enregistrée');

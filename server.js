@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
+app.use(require('./statistics').createStatistics());
 app.get('/api/google-calendar/config',(req,res)=>{
   const clientId=process.env.GOOGLE_CALENDAR_CLIENT_ID || '';
   const enabled=/^[a-zA-Z0-9._-]+\.apps\.googleusercontent\.com$/.test(clientId);
@@ -124,10 +125,12 @@ app.get('/robots.txt', (req, res) => {
   res.type('text/plain').send(`User-agent: *
 Allow: /
 Disallow: /api/
+Disallow: /administration/
 
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /api/
+Disallow: /administration/
 
 Sitemap: ${SITE_URL}/sitemap.xml
 `);
@@ -140,7 +143,7 @@ app.get('/sitemap.xml', (req, res) => {
 });
 
 const V1_PATCH = `<style>#eclat-version-v1{position:fixed;right:12px;bottom:8px;z-index:9999;font:600 11px/1 system-ui,sans-serif;letter-spacing:.04em;opacity:.38;pointer-events:none}</style><div id="eclat-version-v1" aria-label="Version 1.0">v1.0</div><script>(function(){function patch(){const i=document.getElementById('libraryPostal');if(i){i.value='';i.placeholder='Votre code postal';i.setAttribute('autocomplete','postal-code');i.setAttribute('inputmode','numeric');}}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',patch);else patch();})();<\/script>`;
-function sendApp(req,res){fs.readFile(V73,"utf8",(err,html)=>{if(err)return res.status(500).send("Éclat indisponible");html=html.replace(/<title>[^<]*<\/title>/i, `<title>${SITE_TITLE}</title>`).replace(/<\/head>/i, SEARCH_METADATA+'</head>');html=html.replace(/<\/head>/i,'<link rel="stylesheet" href="/accessible-contrast.css"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#fff5df"></head>');const patch='<script src="/comfort.js"></script>'+V1_PATCH+'<script src="/daily-themes-client.js"></script><script src="/library-loans-client.js"></script>';const at=html.toLowerCase().lastIndexOf("</body>");res.type("html").send(at>=0?html.slice(0,at)+patch+html.slice(at):html+patch);});}
+function sendApp(req,res){fs.readFile(V73,"utf8",(err,html)=>{if(err)return res.status(500).send("Éclat indisponible");html=html.replace(/<title>[^<]*<\/title>/i, `<title>${SITE_TITLE}</title>`).replace(/<\/head>/i, SEARCH_METADATA+'</head>');html=html.replace(/<\/head>/i,'<link rel="stylesheet" href="/accessible-contrast.css"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#fff5df"></head>');const patch='<script src="/audience-client.js" defer></script><script src="/comfort.js"></script>'+V1_PATCH+'<script src="/daily-themes-client.js"></script><script src="/library-loans-client.js"></script>';const at=html.toLowerCase().lastIndexOf("</body>");res.type("html").send(at>=0?html.slice(0,at)+patch+html.slice(at):html+patch);});}
 const pageRoutes = ['/emprunts', '/emprunts-enfants', '/migration', '/narration-credits'];
 app.use((req, res, next) => {
   if (!['GET', 'HEAD'].includes(req.method)) return next();
@@ -149,5 +152,5 @@ app.use((req, res, next) => {
   if (canonical) return res.redirect(308, canonical + req.originalUrl.slice(pathname.length));
   next();
 });
-for (const route of pageRoutes) app.get(route, (req, res) => res.sendFile(path.join(__dirname, route.slice(1)+'.html')));
+for (const route of pageRoutes) app.get(route, (req, res) => fs.readFile(path.join(__dirname, route.slice(1)+'.html'),'utf8',(error,html)=>{if(error)return res.sendStatus(500);res.type('html').send(html.replace(/<\/body>/i,'<script src="/audience-client.js" defer></script></body>'));}));
 app.get(["/","/index.html"],sendApp); app.use(express.static(__dirname,{index:false})); app.use((req,res,next)=>{if(req.method==="GET"&&req.accepts("html"))return sendApp(req,res);next();}); const server = app.listen(PORT, () => { const port = server.address().port; console.log(`Éclat v1.0 disponible sur http://localhost:${port}`); if (process.send) process.send({type: "eclat-ready", port}); });

@@ -703,8 +703,8 @@ add(51, async ({ page }) => {
   await expect(text(page, "loansList")).toContainText("15/01/2030");
   await s.saveReadingLists(page,"Test A","Test B");
   await page.reload();await text(page,"libraryWatchOpen").click();
-  await expect(text(page,"borrowAgain")).toHaveValue("Test A");
-  await expect(text(page,"reserveBooks")).toHaveValue("Test B");
+  await expect(page.locator("#borrowAgainList .reading-saved-title")).toHaveText("Test A");
+  await expect(page.locator("#reserveBooksList .reading-saved-title")).toHaveText("Test B");
   await expect
     .poll(() =>
       page
@@ -1114,8 +1114,8 @@ add(91, async ({ page }) => {
   await go(page,"/emprunts.html");
   await s.saveReadingLists(page,value,value);
   await page.reload();await text(page,"libraryWatchOpen").click();
-  await expect(text(page,"borrowAgain")).toHaveValue(value);
-  await expect(text(page,"reserveBooks")).toHaveValue(value);
+  await expect(page.locator("#borrowAgainList .reading-saved-title")).toHaveText(value);
+  await expect(page.locator("#reserveBooksList .reading-saved-title")).toHaveText(value);
   await expect(page.locator("[data-ecl-test]")).toHaveCount(0);
 });
 add(92, async (_args, info) => {

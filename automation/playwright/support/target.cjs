@@ -1,5 +1,6 @@
 'use strict';
-const production='https://eclatsclassiques.com';
+const production='https://www.eclatsclassiques.com';
+const previousProduction='https://eclatsclassiques.com';
 const legacy='https://eclat-lecture.dfelizardo680502.chatgpt.site';
 function target(env=process.env){
  const localMode=env.ECLAT_LOCAL_TEST==='1';
@@ -9,7 +10,7 @@ function target(env=process.env){
  if(url.username||url.password||!['http:','https:'].includes(url.protocol))throw new Error('Adresse Éclat invalide : utiliser HTTP(S) sans identifiants.');
  if(localMode&&!loopback)throw new Error('Le mode local exige une adresse localhost ou 127.0.0.1 de l’agent.');
  const railwayAllowed=env.ECLAT_ALLOW_RAILWAY_ORIGIN==='1'&&/\.up\.railway\.app$/.test(url.hostname);
- if(![production,legacy].includes(url.origin)&&!(localMode&&loopback)&&!railwayAllowed)throw new Error('BASE_URL doit désigner https://eclatsclassiques.com, une origine Railway explicitement autorisée, ou un serveur local avec ECLAT_LOCAL_TEST=1.');
+ if(![production,previousProduction,legacy].includes(url.origin)&&!(localMode&&loopback)&&!railwayAllowed)throw new Error('BASE_URL doit désigner https://www.eclatsclassiques.com ou https://eclatsclassiques.com, une origine Railway explicitement autorisée, ou un serveur local avec ECLAT_LOCAL_TEST=1.');
  return url.origin;
 }
 function headersFor(requestUrl,headers,env=process.env){

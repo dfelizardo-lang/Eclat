@@ -23,3 +23,12 @@ test('no bypass token is required or sent to the public domain or third parties'
  for(const url of [production,'https://example.com','http://127.0.0.1:3000'])assert.deepEqual(headersFor(url,headers,{DS_BASE_URL:legacy,ECLAT_SITES_TOKEN:'test-only'}),{accept:'text/html'});
  assert.equal(headers['OAI-Sites-Authorization'],'old');
 });
+
+test('www production is accepted from Squash while lookalikes and unsafe schemes stay rejected',()=>{
+ assert.equal(production,'https://www.eclatsclassiques.com');
+ assert.equal(target({DS_BASE_URL:'https://www.eclatsclassiques.com',ECLAT_BASE_URL:'https://eclatsclassiques.com'}),production);
+ assert.equal(target({DS_BASE_URL:'https://eclatsclassiques.com'}),'https://eclatsclassiques.com');
+ for(const url of ['https://www.eclatsclassiques.com.evil.example','http://www.eclatsclassiques.com','https://user:secret@www.eclatsclassiques.com'])assert.throws(()=>target({DS_BASE_URL:url}));
+ const headers={'OAI-Sites-Authorization':'old',accept:'text/html'};
+ assert.deepEqual(headersFor(production,headers,{DS_BASE_URL:production,ECLAT_SITES_TOKEN:'test-only'}),{accept:'text/html'});
+});

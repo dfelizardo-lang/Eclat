@@ -103,8 +103,44 @@ app.get("/api/bibliotheques", async (req,res)=>{
     res.set("Cache-Control","public, max-age=300"); res.json({postalCode:cp,count:results.length,results,source:"Ministère de la Culture / data.gouv.fr"});
   }catch(e){ console.error(e); res.status(502).json({error:"La recherche des bibliothèques est momentanément indisponible."}); }
 });
+// Search metadata is served in the initial HTML, including without JavaScript.
+const SITE_URL = 'https://www.eclatsclassiques.com';
+const SITE_TITLE = 'Éclat — Donner envie de lire aux enfants et aux adultes';
+const SITE_DESCRIPTION = 'Découvrez des extraits de classiques du domaine public, sans réécriture et reliés à leur source. Éclat donne envie de lire aux enfants et aux adultes.';
+const SEARCH_METADATA = `<meta name="description" content="${SITE_DESCRIPTION}">
+<link rel="canonical" href="${SITE_URL}/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Éclat">
+<meta property="og:title" content="${SITE_TITLE}">
+<meta property="og:description" content="${SITE_DESCRIPTION}">
+<meta property="og:url" content="${SITE_URL}/">
+<script type="application/ld+json">${JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'WebSite',
+  name: 'Éclat', alternateName: 'Éclats Classiques', url: SITE_URL + '/',
+  description: SITE_DESCRIPTION, inLanguage: 'fr'
+})}</script>`;
+app.get('/robots.txt', (req, res) => {
+  res.type('text/plain').send(`User-agent: *
+Allow: /
+Disallow: /api/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+
+Sitemap: ${SITE_URL}/sitemap.xml
+`);
+});
+app.get('/sitemap.xml', (req, res) => {
+  const pages = ['/', '/emprunts', '/emprunts-enfants', '/narration-credits'];
+  res.type('application/xml').send('<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' +
+    pages.map(page => `<url><loc>${SITE_URL}${page}</loc></url>`).join('') + '</urlset>');
+});
+
 const V1_PATCH = `<style>#eclat-version-v1{position:fixed;right:12px;bottom:8px;z-index:9999;font:600 11px/1 system-ui,sans-serif;letter-spacing:.04em;opacity:.38;pointer-events:none}</style><div id="eclat-version-v1" aria-label="Version 1.0">v1.0</div><script>(function(){function patch(){const i=document.getElementById('libraryPostal');if(i){i.value='';i.placeholder='Votre code postal';i.setAttribute('autocomplete','postal-code');i.setAttribute('inputmode','numeric');}}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',patch);else patch();})();<\/script>`;
-function sendApp(req,res){fs.readFile(V73,"utf8",(err,html)=>{if(err)return res.status(500).send("Éclat indisponible");html=html.replace(/<\/head>/i,'<link rel="stylesheet" href="/accessible-contrast.css"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#fff5df"></head>');const patch='<script src="/comfort.js"></script>'+V1_PATCH+'<script src="/daily-themes-client.js"></script><script src="/library-loans-client.js"></script>';const at=html.toLowerCase().lastIndexOf("</body>");res.type("html").send(at>=0?html.slice(0,at)+patch+html.slice(at):html+patch);});}
+function sendApp(req,res){fs.readFile(V73,"utf8",(err,html)=>{if(err)return res.status(500).send("Éclat indisponible");html=html.replace(/<title>[^<]*<\/title>/i, `<title>${SITE_TITLE}</title>`).replace(/<\/head>/i, SEARCH_METADATA+'</head>');html=html.replace(/<\/head>/i,'<link rel="stylesheet" href="/accessible-contrast.css"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#fff5df"></head>');const patch='<script src="/comfort.js"></script>'+V1_PATCH+'<script src="/daily-themes-client.js"></script><script src="/library-loans-client.js"></script>';const at=html.toLowerCase().lastIndexOf("</body>");res.type("html").send(at>=0?html.slice(0,at)+patch+html.slice(at):html+patch);});}
 const pageRoutes = ['/emprunts', '/emprunts-enfants', '/migration', '/narration-credits'];
 app.use((req, res, next) => {
   if (!['GET', 'HEAD'].includes(req.method)) return next();

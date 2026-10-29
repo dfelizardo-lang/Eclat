@@ -12,3 +12,5 @@
 .library-new-badge{background:#34503e;color:#fff;border-radius:8px;padding:6px 9px;font-size:12px;font-weight:700;align-self:flex-start}
 
 .overview-tools button[aria-pressed=true]{outline:2px solid #80341f;outline-offset:3px}
+
+.reading-list-actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 10px}.library-panel .reading-list-heading{font:700 16px/1.4 Arial,Helvetica,sans-serif;margin:24px 0 12px}.reading-saved-list{list-style:none;margin:0;padding:0}.reading-saved-list li{padding:16px 0;border-top:1px solid #ddd4c6}.reading-saved-title{margin:0 0 10px;white-space:pre-wrap;overflow-wrap:anywhere}.reading-item-actions{display:flex;flex-wrap:wrap;gap:8px}.reading-item-actions button{white-space:normal;min-height:44px}.reading-list-actions .save-button{white-space:normal}

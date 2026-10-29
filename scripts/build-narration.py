@@ -1,7 +1,5 @@
 """Render the actual reader index once at build time; no inference API."""
-import hashlib, json, os, pathlib, re, subprocess, sys, wave
-from urllib.request import urlopen
-from concurrent.futures import ThreadPoolExecutor
+import hashlib, json, os, pathlib, subprocess, wave
 
 ROOT=pathlib.Path(__file__).resolve().parent.parent
 OUT=pathlib.Path(os.environ.get('NARRATION_OUTPUT',ROOT/'narration'))
@@ -10,36 +8,15 @@ MODELS=pathlib.Path(os.environ.get('PIPER_MODELS','/opt/piper-models'))
 REV='c10ece1aade47bb51c153c893d14e5bf8e5b7117'
 
 def seed(passages):
-    origin=os.environ.get('NARRATION_SEED_URL','').rstrip('/')
-    if not origin:return {}
+    if not os.environ.get('NARRATION_SEED_URL'):return {}
     try:
-        with urlopen(origin+'/api/narration',timeout=20) as response:previous=json.load(response)
-        if previous.get('modelRevision')!=REV or previous.get('engine')!='Piper 2023.11.14-2':return {}
-    except Exception as error:
+        env=dict(os.environ, NARRATION_OUTPUT=str(OUT))
+        result=json.loads(subprocess.check_output(['node',str(ROOT/'scripts/narration-cache.cjs')],env=env,text=True,timeout=600))
+        print('Enregistrements précédents vérifiés et réutilisés : '+str(sum(len(v) for v in result.values())),flush=True)
+        return result
+    except Exception:
         print('Cache de narration indisponible ; génération locale.',flush=True)
         return {}
-    tasks=[]
-    for p in passages:
-        cached=previous.get('passages',{}).get(p['id'],{})
-        if cached.get('digest')!=p['digest']:continue
-        for kind,a in cached.get('voices',{}).items():
-            if kind in ['female','male'] and re.fullmatch(r'/api/narration/audio/[a-f0-9]{64}/'+kind+r'\.mp3',a.get('url','')) and re.fullmatch('[a-f0-9]{64}',a.get('sha256','')):
-                tasks.append((p['id'],kind,a))
-    def retrieve(task):
-        pid,kind,a=task
-        try:
-            with urlopen(origin+a['url'],timeout=30) as response:binary=response.read(2000001)
-            if len(binary)!=a['bytes'] or len(binary)>2000000 or hashlib.sha256(binary).hexdigest()!=a['sha256']:return None
-            folder=OUT/a['sha256'];folder.mkdir(exist_ok=True)
-            (folder/(kind+'.mp3')).write_bytes(binary)
-            return pid,kind,a
-        except Exception:return None
-    result={}
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        for item in pool.map(retrieve,tasks):
-            if item:pid,kind,a=item;result.setdefault(pid,{})[kind]=a
-    print('Enregistrements précédents vérifiés et réutilisés : '+str(sum(len(v) for v in result.values())),flush=True)
-    return result
 
 def build():
     passages=json.loads(subprocess.check_output(['node',str(ROOT/'scripts/narration-input.cjs')]))

@@ -5,7 +5,7 @@
   const photoStatus = document.getElementById('photoStatus');
   const fileInput = document.getElementById('bookPhotos');
   const photoList = document.getElementById('photoList');
-  const fields = ['returnDate', 'borrowAgain', 'reserveBooks'];
+  const fields = ['returnDate'];
   const galleryInput = document.getElementById('galleryPhoto');
   const choosePhotoButton = document.getElementById('choosePhotoButton');
   choosePhotoButton.addEventListener('click', () => galleryInput.click());
@@ -172,9 +172,8 @@
     busy = true; saveButton.disabled = true; enablePhotoControls(false);
     message(status, 'Enregistrement…');
     const savedRevision = revision;
-    const list = id => document.getElementById(id).value.split('\n').map(line => line.trim()).filter(Boolean);
     // Versioned local record: dates, lists and stable photo IDs can be reused by a mobile client.
-    const record = {...records.find(item=>item.id===currentId), id: currentId, version: 4, closedAt:records.find(item=>item.id===currentId)?.closedAt || null, createdAt: records.find(item => item.id === currentId)?.createdAt || records.find(item => item.id === currentId)?.updatedAt || new Date().toISOString(), updatedAt: new Date().toISOString(), returnDate: document.getElementById('returnDate').value, borrowAgain: list('borrowAgain'), reserveBooks: list('reserveBooks'), reminder: {enabled:reminderToggle.checked,date:document.getElementById('returnDate').value,time:document.getElementById('reminderTime').value}, photos};
+    const record = {...records.find(item=>item.id===currentId), id: currentId, version: 4, closedAt:records.find(item=>item.id===currentId)?.closedAt || null, createdAt: records.find(item => item.id === currentId)?.createdAt || records.find(item => item.id === currentId)?.updatedAt || new Date().toISOString(), updatedAt: new Date().toISOString(), returnDate: document.getElementById('returnDate').value, reminder: {enabled:reminderToggle.checked,date:document.getElementById('returnDate').value,time:document.getElementById('reminderTime').value}, photos};
     try { if(record.googleCalendar){if(record.reminder.enabled && !record.closedAt)record.googleCalendar=await EclatLoanGoogle.save(record);else{await EclatLoanGoogle.remove(record);delete record.googleCalendar;}} await writeNotebook(record); const index = records.findIndex(item => item.id === record.id); if (index < 0) records.push(record); else records[index] = record; renderRecords(); if (revision === savedRevision) { showOverview(); message(overviewStatus, 'Votre emprunt est enregistré.'); } else message(status, 'Modifications à enregistrer.'); }
     catch (e) { message(status, e.message || 'Le carnet n’a pas pu être enregistré. Réessayez.', true); }
     finally { busy = false; saveButton.disabled = false; enablePhotoControls(true); }
@@ -183,6 +182,7 @@
     try {
       db = await openDatabase();
       records = await readNotebook();
+      EclatLibraryReadingLists.importRecords(records);
       EclatLoanGoogle.ready.then(()=>renderRecords());
       renderRecords(); renderPhotos(); saveButton.disabled = false; enablePhotoControls(true); newLoan.disabled = false;
       message(overviewStatus, records.length ? '' : 'Aucun emprunt pour le moment. Ajoutez votre premier emprunt.');

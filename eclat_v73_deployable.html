@@ -2100,7 +2100,7 @@ function updateSavedUI(){
 function directPassage(p,label){
  if(!p)return;stopReading();window.eclatCurrentPassage=p;syncSaveButtonForPassage(p);const acts=document.getElementById("readerDiscovery");if(acts){acts.style.pointerEvents="auto";acts.removeAttribute("aria-hidden")}const w=WORKS.find(x=>x.title===p.workTitle&&x.author===p.author)||WORKS.find(x=>x.title===p.workTitle);
  const t=document.getElementById("readerTitle"),a=document.getElementById("readerAuthor"),tx=document.getElementById("readerText"),src=document.getElementById("readerSource"),ov=document.getElementById("readerOverlay");
- if(t)t.textContent=label;if(a)a.textContent=[p.author,p.workTitle,w?.year||p.year].filter(Boolean).join(" · ");if(tx)tx.innerHTML=p.text.split(/\n\n+/).map(x=>`<p>${x.replace(/\n/g,"<br>")}</p>`).join("");if(src)src.href=p.source||w?.source||"#";if(ov){ov.classList.add("open");ov.setAttribute("aria-hidden","false");document.body.style.overflow="hidden"}updateSavedUI();
+ if(t)t.textContent=label;if(a)a.textContent=p.author||"";const work=document.getElementById("readerWork"),year=document.getElementById("readerYear");if(work)work.textContent=p.workTitle||"";if(year)year.textContent=w?.year||p.year||"";rememberPassages([p]);document.getElementById("workExhausted")?.remove();if(tx)tx.innerHTML=p.text.split(/\n\n+/).map(x=>`<p>${x.replace(/\n/g,"<br>")}</p>`).join("");if(src)src.href=p.source||w?.source||"#";if(ov){ov.classList.add("open");ov.setAttribute("aria-hidden","false");document.body.style.overflow="hidden"}updateSavedUI();
 
 document.getElementById("savedList")?.addEventListener("keydown",e=>{
  if(e.key!=="Enter"&&e.key!==" ")return;
@@ -2111,7 +2111,16 @@ document.getElementById("savedList")?.addEventListener("keydown",e=>{
 });
 
 }
-function alternate(kind){const p=window.eclatCurrentPassage;if(!p)return null;let q=PASSAGES.filter(x=>x.id!==p.id&&x.audience===p.audience&&x.text);q=q.filter(x=>kind==="work"?x.workTitle===p.workTitle:x.author===p.author);return q.length?q[Math.floor(Math.random()*q.length)]:null}
+function alternate(kind){const p=window.eclatCurrentPassage;if(!p)return null;const q=PASSAGES.filter(x=>x.id!==p.id&&x.audience===p.audience&&x.text&&!passageIsEmbargoed(x.id)).filter(x=>kind==="work"?x.workTitle===p.workTitle&&x.author===p.author:x.author===p.author);return q.length?q[Math.floor(Math.random()*q.length)]:null}
+function showWorkExhausted(){
+ document.getElementById("workExhausted")?.remove();
+ const panel=document.createElement("section");panel.id="workExhausted";panel.setAttribute("role","status");
+ const message=document.createElement("p");message.textContent="Tous les passages disponibles de cette œuvre ont été lus récemment.";
+ const button=document.createElement("button");button.type="button";button.className="reader-action";button.textContent="Découvrir une autre œuvre";
+ button.addEventListener("click",()=>{const current=window.eclatCurrentPassage;const pool=PASSAGES.filter(p=>p.audience===current.audience&&p.workTitle!==current.workTitle&&p.text&&!passageIsEmbargoed(p.id));if(pool.length)directPassage(pool[Math.floor(Math.random()*pool.length)],"Une autre œuvre à découvrir");else message.textContent="Tous les passages disponibles ont été lus récemment. Revenez plus tard pour de nouvelles découvertes.";});
+ panel.append(message,button);document.getElementById("readerDiscovery").append(panel);button.focus();
+}
+
 document.getElementById("saveExcerpt")?.addEventListener("click",()=>{const p=window.eclatCurrentPassage;if(!p)return;let a=savedIds();a=a.includes(p.id)?a.filter(x=>x!==p.id):[p.id,...a];localStorage.setItem(SAVED_KEY,JSON.stringify(a));updateSavedUI();syncSaveButtonForPassage(p)});
 
 
@@ -2177,7 +2186,7 @@ document.addEventListener("click",function(e){
  if(work){
    e.preventDefault(); e.stopPropagation();
    const p=alternate("work");
-   if(p)directPassage(p,"Encore un passage de cette œuvre");
+   if(p)directPassage(p,"Encore un passage de cette œuvre");else showWorkExhausted();
    return;
  }
  const author=e.target.closest("#sameAuthor");

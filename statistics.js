@@ -68,7 +68,7 @@ function createStatistics({env=process.env,now=Date.now}={}){
  }
  function protect(req,res,next){if(!enabled)return res.status(503).send('Administration non configurée.');const user=session(req);if(!user)return res.status(401).json({error:'Connexion administrateur requise.'});req.adminSession=user;next();}
  const {layout,login,dashboard,privacy}=require('./statistics-view');
- router.use(ADMIN,(req,res,next)=>{res.set({'Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow, noarchive','Referrer-Policy':'no-referrer','X-Content-Type-Options':'nosniff','X-Frame-Options':'DENY','Content-Security-Policy':"default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; form-action 'self'; frame-ancestors 'none'; base-uri 'none'"});next();});
+ router.use(ADMIN,(req,res,next)=>{res.set({'Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow, noarchive','Referrer-Policy':'same-origin','X-Content-Type-Options':'nosniff','X-Frame-Options':'DENY','Content-Security-Policy':"default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; form-action 'self'; frame-ancestors 'none'; base-uri 'none'"});next();});
  router.get(ADMIN,async(req,res)=>{
   if(!enabled)return res.status(503).type('html').send(layout('Administration', '<h1>Administration non configurée</h1>'));
   const user=session(req);if(!user)return res.type('html').send(login());

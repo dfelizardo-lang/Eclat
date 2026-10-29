@@ -73,3 +73,7 @@ html body .home-feedback a.feedback-button{background:#25231d!important;color:#f
 html body[data-comfort-theme=dark] .home-feedback a.feedback-button{background:#fffdf8!important;color:#171713!important}
 html body.comfort-motion #moodGrid .desire,html body.comfort-motion #moodGrid .desire *{transition:none!important;animation:none!important}
 @media(prefers-reduced-motion:reduce){html body #moodGrid .desire,html body #moodGrid .desire *{transition:none!important;animation:none!important}}
+
+/* Voice selection keeps explicit foreground/background pairs in both themes. */
+html body .child-narrator .narrator-switch button{background:#eee6d9!important;color:#173b48!important}
+html body .child-narrator .narrator-switch button[aria-pressed=true]{background:#173b48!important;color:#fffdf8!important}

@@ -84,11 +84,14 @@ async function readLoans(page) {
 }
 async function saveReadingLists(page,again,reserve) {
  await page.locator('#libraryWatchOpen').click();
- const form=page.locator('#libraryReadingListsForm');await expect(form).toBeVisible();
- await form.locator('#borrowAgain').fill(again);await form.locator('#reserveBooks').fill(reserve);
- await form.getByRole('button',{name:'Enregistrer mes listes'}).click();
- await expect(page.locator('#libraryReadingListsStatus')).toContainText('enregistrées');
+ for(const [field,value] of [['borrowAgain',again],['reserveBooks',reserve]]){
+  const form=page.locator('#'+field+'Form');await expect(form).toBeVisible();
+  await form.locator('#'+field).fill(value);await form.getByRole('button',{name:'Sauvegarder',exact:true}).click();
+  await expect(page.locator('#'+field+'Status')).toContainText('sauvegardée');
+  await expect(page.locator('#'+field+'List .reading-saved-title')).toContainText(value);
+ }
 }
+
 async function exportBackup(page) {
   const download = page.waitForEvent("download");
   await page.locator("#exportData").click();

@@ -10,9 +10,10 @@ async function fixture(run,enabled=true){
 }
 const login=(request,extra={})=>request(ADMIN+'/connexion',{method:'POST',headers:{Origin:ORIGIN,'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({user:'owner@example.org',password:'strong-test-password',...extra})});
 test('private page and data require a genuine session; logout, expiry and origin checks are enforced',async()=>fixture(async({request,advance})=>{
- let r=await request(ADMIN);assert.equal(r.status,200);assert.match(await r.text(),/Se connecter/);assert.equal(r.headers.get('cache-control'),'no-store');assert.match(r.headers.get('x-robots-tag'),/noindex/);
+ let r=await request(ADMIN);assert.equal(r.status,200);assert.match(await r.text(),/Se connecter/);assert.equal(r.headers.get('cache-control'),'no-store');assert.match(r.headers.get('x-robots-tag'),/noindex/);assert.equal(r.headers.get('referrer-policy'),'same-origin','HTML form posts must retain their same-site Origin');
  assert.equal((await request(ADMIN+'/donnees')).status,401);
  assert.equal((await login(request,{password:'wrong'})).status,401);
+ assert.equal((await request(ADMIN+'/connexion',{method:'POST',headers:{Origin:'null','Content-Type':'application/x-www-form-urlencoded'},body:'user=owner@example.org&password=strong-test-password'})).status,403);
  assert.equal((await request(ADMIN+'/connexion',{method:'POST',headers:{Origin:'https://other.example','Content-Type':'application/x-www-form-urlencoded'},body:'user=owner@example.org&password=strong-test-password'})).status,403);
  r=await login(request);assert.equal(r.status,303);const raw=r.headers.get('set-cookie');assert.match(raw,/HttpOnly; Secure; SameSite=Strict/);const cookie=raw.split(';')[0];
  r=await request(ADMIN,{headers:{Cookie:cookie}});const html=await r.text();assert.match(html,/La fréquentation/);assert.ok(!html.includes('strong-test-password'));
@@ -46,5 +47,6 @@ test('retention uses Paris calendar days and corrupt data is preserved rather th
 });
 test('unconfigured administration exposes no statistics and brute force is throttled',async()=>{
  await fixture(async({request})=>{assert.equal((await request(ADMIN)).status,503);assert.equal((await request(ADMIN+'/donnees')).status,503);},false);
- await fixture(async({request})=>{for(let n=0;n<8;n++)assert.equal((await login(request,{password:'wrong'})).status,401);assert.equal((await login(request)).status,429);});
+ await fixture(async({request})=>{for(let n=0;n<8;n++)assert.equal((await login(request,{password:'wrong'})).status,401);
+ assert.equal((await request(ADMIN+'/connexion',{method:'POST',headers:{Origin:'null','Content-Type':'application/x-www-form-urlencoded'},body:'user=owner@example.org&password=strong-test-password'})).status,403);assert.equal((await login(request)).status,429);});
 });

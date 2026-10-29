@@ -6,7 +6,7 @@ ARG VOICE_REV=c10ece1aade47bb51c153c893d14e5bf8e5b7117
 RUN for voice in siwis tom; do for ext in onnx onnx.json; do curl -fL --retry 3 "https://huggingface.co/rhasspy/piper-voices/resolve/${VOICE_REV}/fr/fr_FR/${voice}/medium/fr_FR-${voice}-medium.${ext}" -o "/opt/piper-models/${voice}.${ext}"; done; done
 RUN echo '641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99  /opt/piper-models/siwis.onnx\nbf65074ccdeeeeaa832e75edb1c0a513c01c9a972bdf085ff8a6e71ea234fd41  /opt/piper-models/tom.onnx' | sha256sum -c -
 WORKDIR /app
-COPY scripts/narration-input.cjs scripts/build-narration.py ./scripts/
+COPY scripts/narration-input.cjs scripts/narration-cache.cjs scripts/build-narration.py ./scripts/
 COPY data/reading-catalog.json ./data/reading-catalog.json
 COPY eclat_v73_deployable.html ./
 RUN NARRATION_SEED_URL=https://eclatsclassiques.com python3 scripts/build-narration.py

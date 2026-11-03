@@ -1,0 +1,1644 @@
+{
+  "baseCommit": "ae189d94d6c2a7f89d34c417a8618ef2690bfbbf",
+  "novels": 10,
+  "novelPassages": 150,
+  "complementaryConte": "Point de lendemain, 3 extraits existants conservés hors compteur",
+  "editorialReview": "Paragraphes sources relus ; extraits non graphiques ; notes et préfaces exclues ; genres littéraires explicités sans présenter tous les romans comme érotiques.",
+  "works": [
+    {
+      "workId": "laclos-liaisons-patrimoine",
+      "kind": "roman",
+      "passages": 15,
+      "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+      "revision": "12113656",
+      "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+      "selections": [
+        {
+          "id": "laclos-liaisons-patrimoine-p01",
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Lettre_37",
+          "sha256": "1acd4d497de8c78864cec6051035f9134462bdbba11d29d9ef6b16479f4cfb04",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/122"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p02",
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Lettre_37",
+          "sha256": "1dd19727f97e99ef88b5e4c731a288cb0678e25880bd5fc99865e3bc19043b54",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/122",
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/123"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p03",
+          "startParagraph": 2,
+          "endParagraph": 3,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Lettre_37",
+          "sha256": "80732aa63ca68086bda19b5e9a5d3d76d206eb2c6e4f88214ebe58aaa11aef37",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/123"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p04",
+          "startParagraph": 195,
+          "endParagraph": 195,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "60a2afc7e372fa4a09d900df02177f529562cc8fabd4ba02914a988c274c560a",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/119"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p05",
+          "startParagraph": 198,
+          "endParagraph": 198,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "a2b069574671f975ec706fc562de3045f771c1051fd0f695388e2b81c01d3715",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/120"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p06",
+          "startParagraph": 291,
+          "endParagraph": 291,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "868964f302e97f2565a6df3642e1342d1f20c33941bd60236aaaa9be26680063",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/159"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p07",
+          "startParagraph": 400,
+          "endParagraph": 400,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "fd65dfde4ed481b65bc4954f53495ac19a76f374469653652bd946320090c3c2",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/208"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p08",
+          "startParagraph": 499,
+          "endParagraph": 499,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "b77733b7d8b35c6eabf556147d5ff7fc158e921fef5a6c7b243a5a26adaa5053",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/244"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p09",
+          "startParagraph": 657,
+          "endParagraph": 657,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "9092d27a7635dcec8ee367ed59738852385209d104e1e134e058cc9c8ad305b4",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/14"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p10",
+          "startParagraph": 774,
+          "endParagraph": 774,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "093f13136ad004b51237aab65ca3fa6b044319d47536cb5347671819e387a03f",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/61"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p11",
+          "startParagraph": 874,
+          "endParagraph": 874,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "a69c00d8277753925f61ba3d40049cbda19c58656f591e98de19da765f956a44",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/102",
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/103"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p12",
+          "startParagraph": 966,
+          "endParagraph": 966,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "0cc3349b1cc6183e40502dc80d0042a1c9afb416903a401a6dc21111a2f9224b",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/143",
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/144"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p13",
+          "startParagraph": 1078,
+          "endParagraph": 1078,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "602d968a360f0ade97206655764909dbbcfba6ef899abed466978219ae14ea07",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/193"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p14",
+          "startParagraph": 1129,
+          "endParagraph": 1129,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "2242d46bdbb32f3c1233ba7fd955a0bca5ff4ee81550bbd77aba879e9eed648a",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/209",
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/210"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p15",
+          "startParagraph": 1257,
+          "endParagraph": 1257,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sha256": "df7cbe30ec2223c4960a3b3ad0c5be2f2af1d95cddebc02fa44871b942971506",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/259"
+          ]
+        }
+      ]
+    },
+    {
+      "workId": "diderot-bijoux-indiscrets",
+      "kind": "roman",
+      "passages": 15,
+      "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+      "revision": "7136658",
+      "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+      "selections": [
+        {
+          "id": "diderot-bijoux-indiscrets-p01",
+          "startParagraph": 93,
+          "endParagraph": 93,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "c7fffe71b254cc7438563a1f58dd41d82d6187cead7b8ad4a229aa8867387cf6",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/165"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p02",
+          "startParagraph": 199,
+          "endParagraph": 199,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "8ac6307d8c0ea864f462a70a971e43d45826ad8f4ec25d306583922602b01115",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/180"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p03",
+          "startParagraph": 264,
+          "endParagraph": 264,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "128baec82cc3087a34d78a72d678582316e0ed3f1ca459f2546c470df72f5f8a",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/192"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p04",
+          "startParagraph": 407,
+          "endParagraph": 407,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "a02c1e96cbd715ee99f718aa71f1b24327e7a31cc077c14e40f1ee1c91ce2694",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/210"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p05",
+          "startParagraph": 625,
+          "endParagraph": 625,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "aa1f98d10a4e946852de1d674846328434c59773432512af58568673e524d7ec",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/230"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p06",
+          "startParagraph": 641,
+          "endParagraph": 641,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "106202add6b5b3da8a1111fd5087efa3409f8d2ddfb57b1cba278b08a6daeadd",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/232",
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/233"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p07",
+          "startParagraph": 704,
+          "endParagraph": 704,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "d0ff7d6bbed2224b455ce71e19680247073156cec584cf0dea53275e364c78f2",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/242"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p08",
+          "startParagraph": 773,
+          "endParagraph": 773,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "517b1f6805edf720f1b545c8355e251ac8630ac18c521a0b62842ee42e828300",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/255"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p09",
+          "startParagraph": 875,
+          "endParagraph": 875,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "827ca3e926174e5cb0360af935e65c1025f4f12e9e4af2356af51603cafa1c1b",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/270"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p10",
+          "startParagraph": 1021,
+          "endParagraph": 1021,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "4e31a3c52a20bd70817d7935307c80e80d0dd9c76e91ee4435e5b737f773a265",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/288",
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/289"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p11",
+          "startParagraph": 1116,
+          "endParagraph": 1116,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "d6376be285c8e62bd1dd6c64341305b52ae372f5459ea709bc26bbb6907a9448",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/304"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p12",
+          "startParagraph": 1245,
+          "endParagraph": 1245,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "d526b63a0a0f832200900ea38579f6fbd0c05980b57eee30d552fa3c60f3dab6",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/319"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p13",
+          "startParagraph": 1474,
+          "endParagraph": 1474,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "2b1147175a715ad87dda9bca13358ac39bc82d94880887745c8cb98e83f0e80b",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/352"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p14",
+          "startParagraph": 1571,
+          "endParagraph": 1571,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "2d3e1faf4eed1b96b142c5d6073e817fa4e5d56cea20d0d44edee58fd8aae893",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/362"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p15",
+          "startParagraph": 1685,
+          "endParagraph": 1685,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sha256": "46b671d1df42028fe84e7f5d62bd42d09e9adc2898297af9e0db994715818734",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/377"
+          ]
+        }
+      ]
+    },
+    {
+      "workId": "duclos-confessions-comte",
+      "kind": "roman",
+      "passages": 15,
+      "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+      "revision": "13652159",
+      "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+      "selections": [
+        {
+          "id": "duclos-confessions-comte-p01",
+          "startParagraph": 31,
+          "endParagraph": 31,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "dfe8e892f71fd6bede26c13f5f7382c8dd0b77d1372288faabc36ec183e27eb5",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/38"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p02",
+          "startParagraph": 38,
+          "endParagraph": 38,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "4b6ce642f1f17ca4e43d112b50c8d0dce9a8e138e3344c46f7005e01a2b79653",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/44",
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/45"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p03",
+          "startParagraph": 49,
+          "endParagraph": 49,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "7b8b1b61e6acfee2e6d69650fea8b3ada53eaa45b79e45f858032ea8b8aded8d",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/56"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p04",
+          "startParagraph": 54,
+          "endParagraph": 54,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "b00b5269b3e2233533ba852a2349c667516686b0a1dd5f063b6c32538922e3f9",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/60"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p05",
+          "startParagraph": 73,
+          "endParagraph": 73,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "913edd92f6ec773806bb88d5e39d752b86c8ac6009c081e184dbbe93286f1d48",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/73"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p06",
+          "startParagraph": 94,
+          "endParagraph": 94,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "7dfcf5497032c2332bdc1c9a66030ebd701ed3493e7c539d5dfd4160a3578e72",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/92"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p07",
+          "startParagraph": 118,
+          "endParagraph": 118,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "b6367c21e946b8de8769c0944fd51cb11b0fd0d44a57eb4db8fa64a9ae8b95a9",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/115"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p08",
+          "startParagraph": 138,
+          "endParagraph": 138,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "08b67d7dc0380b91156d7cd46c0969b03355592e8cf381c7832b11311a33891a",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/131",
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/132"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p09",
+          "startParagraph": 152,
+          "endParagraph": 152,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "ca548ae9741d6a5f64e1f75c1f6aaf7281e22bb7325635042b71cbac86c054c0",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/138"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p10",
+          "startParagraph": 158,
+          "endParagraph": 158,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "d80e9aabf3a6ce3ee2dbd1a6fab02259830579ac48d708fdccd922e7af876dda",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/144"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p11",
+          "startParagraph": 176,
+          "endParagraph": 176,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "3e1eba1840c9837e628142d5f56c3c387bd80a304ac38ad3d992a7bb54709d8d",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/158"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p12",
+          "startParagraph": 180,
+          "endParagraph": 180,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "5d8a588e51c9e7bc18dc8e9eaf2193750de5cf4e6b74e142fc37ab2b01b89ada",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/162"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p13",
+          "startParagraph": 203,
+          "endParagraph": 203,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "fed47d8d9a3dba6c33ad4ee6267cecb0c13570b234cf4ab3c4af46db1b1d56c4",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/179"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p14",
+          "startParagraph": 212,
+          "endParagraph": 212,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "1534cd4fff45fb78097f43aa6b1e4d3925b72c05a345afb3386e3a6bcc6d1674",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/185"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p15",
+          "startParagraph": 228,
+          "endParagraph": 228,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sha256": "ef035cbb08e76df008691a83dbccb42083c548a0f55588c09a9dec1b5031e5e3",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/193"
+          ]
+        }
+      ]
+    },
+    {
+      "workId": "gautier-mademoiselle-maupin",
+      "kind": "roman",
+      "passages": 15,
+      "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+      "revision": "4898086",
+      "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+      "selections": [
+        {
+          "id": "gautier-mademoiselle-maupin-p01",
+          "startParagraph": 187,
+          "endParagraph": 187,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "29ca58dd899ee4a6e47dce0ee69274440b1652ead9a9674cfe3b5a7e0fd5357b",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/65",
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/66"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p02",
+          "startParagraph": 245,
+          "endParagraph": 245,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "872f67a0beb418c04c8348d0bf477249af8fd8298bf4d696cd616fedcb149608",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/88"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p03",
+          "startParagraph": 306,
+          "endParagraph": 306,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "691e391f436088e6570e719efbba3b11dc92ad96ba81a17efd60b9aa77ae4185",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/119",
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/120"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p04",
+          "startParagraph": 385,
+          "endParagraph": 385,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "2e8c33d76abe79fb22c58140afa70cb2c6e48d1658c4221f673b743dea415dc3",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/140"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p05",
+          "startParagraph": 464,
+          "endParagraph": 464,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "a6e23f48582798f8b0029ed3be074a08f0fe0abb5b51613acac3d435f66b56c8",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/173"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p06",
+          "startParagraph": 471,
+          "endParagraph": 471,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "2b1849c94a79a427ec308c3e7da2ce456f613a91f76fa9ccef2d3685fd9c3fc7",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/175",
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/176"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p07",
+          "startParagraph": 523,
+          "endParagraph": 523,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "55e7c6ef91126ceccff5ba4a4e1ffb6ef8116f9f982851166176b20989de544d",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/193"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p08",
+          "startParagraph": 597,
+          "endParagraph": 597,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "25bf2914f31e2ad360d5f88008a0548c7813f416b9fbb7022dabed8c4f01d696",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/218",
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/219"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p09",
+          "startParagraph": 756,
+          "endParagraph": 756,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "324df1e8dfb5bba1e7216cbff11c36e2c3634ddc42ff66b2f94ac71207edf1ef",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/273"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p10",
+          "startParagraph": 836,
+          "endParagraph": 836,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "4b270ed09a36f61763630092b0e0c9d4ee0551d91d6dc59986d11e7ec41d327c",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/297"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p11",
+          "startParagraph": 916,
+          "endParagraph": 916,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "0c00a43caf7e70bf1d644bd140d9d73c4e881dd798c6d58594c174ca9760488a",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/322"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p12",
+          "startParagraph": 980,
+          "endParagraph": 980,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "4da52bb7382e583aa541619f61f053a010738138de103401b8450791d008c778",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/342"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p13",
+          "startParagraph": 1055,
+          "endParagraph": 1055,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "be84d55564bf5bc0eeb239c8d4ad616814d1795c087270840798a710f1839b2d",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/370"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p14",
+          "startParagraph": 1125,
+          "endParagraph": 1125,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "74841b114fddf5de9c3a9c66ee3f5a153c9b9e69a0c38e23bd859f5f8f3ce9cb",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/394"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p15",
+          "startParagraph": 1193,
+          "endParagraph": 1193,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sha256": "77f264fd9ad0e6a01d57fa6877bd9c1d092f1ac260de3d42379bd15fb91247fc",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/414"
+          ]
+        }
+      ]
+    },
+    {
+      "workId": "balzac-lys-patrimoine",
+      "kind": "roman",
+      "passages": 15,
+      "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+      "revision": "13043532",
+      "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+      "selections": [
+        {
+          "id": "balzac-lys-patrimoine-p01",
+          "startParagraph": 56,
+          "endParagraph": 56,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "fc2480de97c8b8ae4771120fab52f909e04e54b50fe31982f30dbdfb2032d9f2",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/304"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p02",
+          "startParagraph": 134,
+          "endParagraph": 134,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "bfba291617acc78e9888846db510742958c0ff3f39c4436252e00fe0232c56c3",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/325"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p03",
+          "startParagraph": 159,
+          "endParagraph": 159,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "2f175e37ed5ce20bc1a9dc4cf0378db31cf32b505119c5a1f7804f28af70adfd",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/333",
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/334"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p04",
+          "startParagraph": 231,
+          "endParagraph": 231,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "86e2f21c421a0bd344496e6a06750a7f2291e8d76eeb869cca76bdf8463228e6",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/357",
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/358"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p05",
+          "startParagraph": 273,
+          "endParagraph": 273,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "66eb5f0c3b0a6dec3573c9b14d8f420005768e7ebcfec8c64c959f0c4f654c9d",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/371",
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/372"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p06",
+          "startParagraph": 327,
+          "endParagraph": 327,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "b2edfa6e727f39df6c5e47d353e6bb15d739b8b587e20e48f01847719e893991",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/391"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p07",
+          "startParagraph": 383,
+          "endParagraph": 383,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "e0f3c028236b7c34c6a4eaa5d82d751d0815cdf4caaf5fd300d7bc933bc31754",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/405"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p08",
+          "startParagraph": 427,
+          "endParagraph": 427,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "effbb2c92308cfb00e6434d6166c54e2f8c87b2761f171d0fb592dd5f0937a2f",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/414",
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/415"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p09",
+          "startParagraph": 504,
+          "endParagraph": 504,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "987721164238effc4f54f8adb389cc2bf05960bc17a8233396d267be157de19e",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/430"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p10",
+          "startParagraph": 541,
+          "endParagraph": 541,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "2f8bf54e89444d18d91d2c4d6c25ee3189d6a9e3e80c55efa8b7997e772f1b11",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/442",
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/443"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p11",
+          "startParagraph": 592,
+          "endParagraph": 592,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "2384304af1bc02c65974374fb8f1e4e50d6e2c5ec1facb17c3ae3b8198af93cb",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/450"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p12",
+          "startParagraph": 668,
+          "endParagraph": 668,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "eb2d0cc963a853c5cc58dd773675cb09fda4301994e50905e12bc092478afa7b",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/458"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p13",
+          "startParagraph": 718,
+          "endParagraph": 718,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "1f86f52e0ffb7b3e1d270bb1c4455adc848283dae688509e0961d695ab07c1c5",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/469"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p14",
+          "startParagraph": 766,
+          "endParagraph": 766,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "060d93dd7b511ab6598008bddca4e4a9d400b0b04eaa5ef361e921f7315bd886",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/485"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p15",
+          "startParagraph": 810,
+          "endParagraph": 810,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sha256": "58cd7d804b9beb6d3d436bf9b0537ad21f5549800546740d7e832e7d5e661336",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/494"
+          ]
+        }
+      ]
+    },
+    {
+      "workId": "zola-curee-patrimoine",
+      "kind": "roman",
+      "passages": 15,
+      "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+      "revision": "12380024",
+      "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+      "selections": [
+        {
+          "id": "zola-curee-patrimoine-p01",
+          "startParagraph": 24,
+          "endParagraph": 24,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "220123a1ded2bead312fd53d0f2a52a80512e13efa7e764be340d389d7b0b0a3",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/7"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p02",
+          "startParagraph": 39,
+          "endParagraph": 39,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "bb20e3ed84f710caae9e2fa32309de78e1c80e13b4784790e4bb563f473efbeb",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/8",
+            "Page:Emile Zola - La Curée.djvu/9"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p03",
+          "startParagraph": 46,
+          "endParagraph": 46,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "d6145e4219e74a71ee073d2760a97f86b2b33aff71c9c3dafe6eede0f258a621",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/9"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p04",
+          "startParagraph": 56,
+          "endParagraph": 56,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "6ec448f095bfc5194af4af1c8958067b4a3070ad088966e06706d44ef78a3369",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/11"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p05",
+          "startParagraph": 60,
+          "endParagraph": 60,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "538acd37a3ad6d07f011218225f20ac35426bb4b13e78bb00f024f43e6bf71a6",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/12"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p06",
+          "startParagraph": 66,
+          "endParagraph": 66,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "2b139695208f0cebf524f5b78ac1e652040b98e90e4623fb941844c39c2b7d7b",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/13"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p07",
+          "startParagraph": 68,
+          "endParagraph": 68,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "94fb1d8fd9127183e05057d1a51644e721a6e985f0c3ee017f2dea39b2f378d9",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/13"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p08",
+          "startParagraph": 107,
+          "endParagraph": 107,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "7db22f12f37e5460616996397ad8508b3a0d090cfd2629cf4ac7fd2f02a0f301",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/25"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p09",
+          "startParagraph": 112,
+          "endParagraph": 112,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "b373b1c6b1f8e6e58713eb292350109d3084f3b4e6f587162aeebb92bb8760e3",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/26"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p10",
+          "startParagraph": 155,
+          "endParagraph": 155,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "a8f72ee940274e7ac22b9db0368f547c49cc3540dd4973d3f00e4794380d92b1",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/34",
+            "Page:Emile Zola - La Curée.djvu/35"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p11",
+          "startParagraph": 160,
+          "endParagraph": 160,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "54e0f07f963922f92ad5046b0583b6829629eb36ebc9fa93cb647d0b74ce88f1",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/35"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p12",
+          "startParagraph": 188,
+          "endParagraph": 188,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "981bc62e036c1061b54b87be0a1c0692741d1a35ecbf122e4e4344845339f5e8",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/42"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p13",
+          "startParagraph": 197,
+          "endParagraph": 197,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "79f01239c9619c2f8a3e25e6f6a8231a62814abd1ec8a138ebe3db7cb0459bd9",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/44"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p14",
+          "startParagraph": 229,
+          "endParagraph": 229,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "88264c787f6f416868c6a5bd620e7b4fe25f869415adbe4ca4e2d8aa942b6160",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/51"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p15",
+          "startParagraph": 231,
+          "endParagraph": 231,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sha256": "3d947b7e0fbfc459f8d176b4997c2ff51e1cb5138a869a2665e304f57857647d",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/52"
+          ]
+        }
+      ]
+    },
+    {
+      "workId": "maupassant-notre-coeur-patrimoine",
+      "kind": "roman",
+      "passages": 15,
+      "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+      "revision": "14177472",
+      "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+      "selections": [
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p01",
+          "startParagraph": 78,
+          "endParagraph": 78,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "6e8b00c1d5ead962302de9236934e337f3f279e05035806009987a5da965c5ad",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/26",
+            "Page:Guy de Maupassant - Notre Cœur.djvu/27"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p02",
+          "startParagraph": 141,
+          "endParagraph": 141,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "c443a3785136301ccc38dc091a972f53cf2d1907989e75d1ba1f3aaa10e7c5cd",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/36"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p03",
+          "startParagraph": 255,
+          "endParagraph": 255,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "3197f22de6a5cb0556317c7fdcd0953882be0ea9c2c9892452b977cb77e48f6c",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/64"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p04",
+          "startParagraph": 353,
+          "endParagraph": 353,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "890d09033ed7ab1f06b414cfc522a4344baf17884538a8125bc3243726b2b20b",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/87",
+            "Page:Guy de Maupassant - Notre Cœur.djvu/88"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p05",
+          "startParagraph": 453,
+          "endParagraph": 454,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "1b212a2dcf5d7c85bcfd8d1241c26f773c069f2334f2e258e0618454647cb9c1",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/105",
+            "Page:Guy de Maupassant - Notre Cœur.djvu/106"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p06",
+          "startParagraph": 556,
+          "endParagraph": 557,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "e4b9a697e24e97e7115efbafe5df39f0763e2c98233a11253851c020321e4492",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/126"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p07",
+          "startParagraph": 661,
+          "endParagraph": 661,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "443190925d187c28f632275cf9ac51241f5d44dac01a11b5ad699a3df6c77d89",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/145"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p08",
+          "startParagraph": 760,
+          "endParagraph": 760,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "0640bcca76ad82ca5e7550211035243f1d2ae419c9eae3c4bb8c41f7d71fa4f1",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/169"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p09",
+          "startParagraph": 864,
+          "endParagraph": 864,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "0c3e8fde81e00ddd83514f675ca631205ae520d7aaaeb51ae3e49584336e269c",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/190"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p10",
+          "startParagraph": 964,
+          "endParagraph": 964,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "f3349aa0336bb0e6dce600e58199e281319f246c83ebede8a50b3be11daa34cd",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/209"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p11",
+          "startParagraph": 1060,
+          "endParagraph": 1060,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "7e52cc20023c9587e5452457fe2da88a7903be1858530bb767b9ed21609e652e",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/229",
+            "Page:Guy de Maupassant - Notre Cœur.djvu/230"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p12",
+          "startParagraph": 1154,
+          "endParagraph": 1154,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "3759c50d7b1e475a972ec05d4bf2ed79fc678c11e74b04d05eda65dc6418f3e4",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/255"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p13",
+          "startParagraph": 1311,
+          "endParagraph": 1311,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "5ef3c959c53f05414e7f0ee1db9c0c951322ea56f21b339075281b794b6900cc",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/281"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p14",
+          "startParagraph": 1354,
+          "endParagraph": 1354,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "7a6638f781f93a90dbe66da31ab3a20df24895e644b56ca3939f6c15491e6f01",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/291"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p15",
+          "startParagraph": 1454,
+          "endParagraph": 1454,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sha256": "514322132106d3abf1056142a57f927b2856fcc17ee7dd9dc840b78df83f95b3",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/301"
+          ]
+        }
+      ]
+    },
+    {
+      "workId": "maupassant-fort-mort-patrimoine",
+      "kind": "roman",
+      "passages": 15,
+      "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+      "revision": "4815640",
+      "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+      "selections": [
+        {
+          "id": "maupassant-fort-mort-patrimoine-p01",
+          "startParagraph": 108,
+          "endParagraph": 108,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "26b7e4e934e71e825fcd5fd73bbeb4a4b73e52f5b1a6c9513beefd7590350b5b",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/16"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p02",
+          "startParagraph": 173,
+          "endParagraph": 173,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "69f11368797f524b2136b4db8039896180a5d5dab7cb86d14f77c8597bd9d1cf",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/28"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p03",
+          "startParagraph": 175,
+          "endParagraph": 175,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "c9e90e5a173876816711beb18fd91a68ccaca31fe83dd2ea107a6a920b0baf29",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/28",
+            "Page:Maupassant - Fort comme la mort.djvu/29"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p04",
+          "startParagraph": 177,
+          "endParagraph": 177,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "7c97bc07352f400b4fd914f0117fd5e212ca7ac80adfd70d711468d596067bc4",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/29"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p05",
+          "startParagraph": 194,
+          "endParagraph": 194,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "fee0e18e38578e922e5e7f5c52c1acd185e6da7e51dcefc65dfcb79fafe48840",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/34"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p06",
+          "startParagraph": 225,
+          "endParagraph": 225,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "370e242b9a37376c7be1ba69d240c06815f93c404a5a9b5f8b5c95c048fb875e",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/37"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p07",
+          "startParagraph": 240,
+          "endParagraph": 240,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "b035342fe8c053d8684c6512ef077b9351a548b1432e1d843f48d75cf3b9a0d4",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/40"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p08",
+          "startParagraph": 272,
+          "endParagraph": 272,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "d48454e5cc9f2dddc7aee2ddbbdcbd675778670baec81abab50614dedda438be",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/45",
+            "Page:Maupassant - Fort comme la mort.djvu/46"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p09",
+          "startParagraph": 306,
+          "endParagraph": 306,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "abb603d08a4285b4ac27f71144cb08c83b2f317de3fe6c93035f6858099772fa",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/51",
+            "Page:Maupassant - Fort comme la mort.djvu/52"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p10",
+          "startParagraph": 315,
+          "endParagraph": 315,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "cfe06f7d16a20d65da83589ab1ad64cc521c9c53e533aa4abad416e900848d3b",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/54",
+            "Page:Maupassant - Fort comme la mort.djvu/55"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p11",
+          "startParagraph": 320,
+          "endParagraph": 320,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "ad84d84c73dbfe431bdc69dad2863c46fc99aec12fd0ddb30e33d1380c0e01a9",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/56"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p12",
+          "startParagraph": 322,
+          "endParagraph": 322,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "072e194e77597cf183b7fb72952d7d9be51d18889268705d6084c8399e973dff",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/56"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p13",
+          "startParagraph": 414,
+          "endParagraph": 414,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "3ff571d5af9ce378f93086a3e734fed806bd72fe2a8e5f357550d1fd6ce04893",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/73"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p14",
+          "startParagraph": 445,
+          "endParagraph": 445,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "10178f10da33eba4ebdbd3a849065a79a42daea1bc616acc8ca4fb87c18dba04",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/77",
+            "Page:Maupassant - Fort comme la mort.djvu/78"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p15",
+          "startParagraph": 486,
+          "endParagraph": 486,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sha256": "c9c05b670fe35e5ddf461deb9620d8d4f522435d074579303137e626edf39f08",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/88"
+          ]
+        }
+      ]
+    },
+    {
+      "workId": "daudet-sapho",
+      "kind": "roman",
+      "passages": 15,
+      "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+      "revision": "2735387",
+      "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+      "selections": [
+        {
+          "id": "daudet-sapho-p01",
+          "startParagraph": 41,
+          "endParagraph": 41,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "d61f614efd9acc388e8cdc1e748587788ee84399585a93b8d41b8f034b2eccb8",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/18",
+            "Page:Daudet - Sapho, 1884.djvu/19"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p02",
+          "startParagraph": 125,
+          "endParagraph": 125,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "f111ee759c247af660572380699b793c84b299f694d977fd23063786f599c562",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/38"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p03",
+          "startParagraph": 196,
+          "endParagraph": 196,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "89b8a7637eec6df9838d862b5bd32fad0874ed73a7104b2d9a170b97be5d6465",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/58"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p04",
+          "startParagraph": 303,
+          "endParagraph": 303,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "f8268968ba58b3916a4ce8de2d93cf0be61347ebd41e2e2625525d3a924650d7",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/87"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p05",
+          "startParagraph": 374,
+          "endParagraph": 374,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "17c417e1720585ceece4829c2fea34c67831266e798b16e7dcdb697be1c55698",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/113"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p06",
+          "startParagraph": 394,
+          "endParagraph": 394,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "d3568aedcee14dc01bd123deec5f89279869092193eaf618c0e537f89a6bc6e4",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/117"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p07",
+          "startParagraph": 466,
+          "endParagraph": 466,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "4b92ff5a22f832cf3708e91ec8b9f441fd61dbd52b7cf39ae7c7b8de252267f0",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/139"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p08",
+          "startParagraph": 554,
+          "endParagraph": 554,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "9220f6aaa1475adc103d8864864954f9e756b2972686b85f65ca09c9e0c9d49d",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/160"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p09",
+          "startParagraph": 645,
+          "endParagraph": 645,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "2803d3854e03229a38454a7fe8e490d2a22776e483fc3fa919cd4865c13ac164",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/182"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p10",
+          "startParagraph": 823,
+          "endParagraph": 823,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "7492a61d7baf68624baa5dd67aa486992d4066c684e5afaa90795cdd89bc447d",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/228"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p11",
+          "startParagraph": 888,
+          "endParagraph": 888,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "479c0011ef5c37e52e975073798b53ce7c75b2830251a9f88223701140dbbb9d",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/245"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p12",
+          "startParagraph": 944,
+          "endParagraph": 944,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "c32f4aa7d3da6435dec6e0e3d36d3322c84ced9c4eaa744dd66bebbc301418a3",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/261"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p13",
+          "startParagraph": 1051,
+          "endParagraph": 1052,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "c6b619a44b89675e69429c33781fb126b26fce9aa060cd4f477d1d6f95d1e302",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/282"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p14",
+          "startParagraph": 1123,
+          "endParagraph": 1123,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "62d99dfa326e604a7edb8b263548858ef268aeebe0b8b6d9d1929248c1b24b53",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/300",
+            "Page:Daudet - Sapho, 1884.djvu/301"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p15",
+          "startParagraph": 1224,
+          "endParagraph": 1224,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sha256": "552dcb5f10d525d528b76428ceb434779db752b3407daea75eabd8fd181c3c7e",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/326",
+            "Page:Daudet - Sapho, 1884.djvu/327"
+          ]
+        }
+      ]
+    },
+    {
+      "workId": "colette-vagabonde",
+      "kind": "roman",
+      "passages": 15,
+      "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+      "revision": "14828007",
+      "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+      "selections": [
+        {
+          "id": "colette-vagabonde-p01",
+          "startParagraph": 46,
+          "endParagraph": 46,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "768d7b676b5ebbae108f22072cb2f92d7580ff11ec761573c39306cbdae3b761",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/24",
+            "Page:Colette - La Vagabonde, 1910.djvu/25"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p02",
+          "startParagraph": 145,
+          "endParagraph": 145,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "56d3e2adf91f25d32d12dfc1b67b3321fcd8937fa447dbe568bbabfb6610592b",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/45"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p03",
+          "startParagraph": 239,
+          "endParagraph": 239,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "23304f2715066c40491dbc59e87b9631566e6dbcee1c2ced70b81ff6c620cc14",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/67"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p04",
+          "startParagraph": 320,
+          "endParagraph": 320,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "65646f8f4472183721c4015cca5b88a71f4ab20d740bb106775305e5c3aa0f27",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/79"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p05",
+          "startParagraph": 436,
+          "endParagraph": 436,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "e4b753e21fdb15b8f60e932a1b3d832e56085c02eae775f54888b71a84444ffa",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/101",
+            "Page:Colette - La Vagabonde, 1910.djvu/102"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p06",
+          "startParagraph": 524,
+          "endParagraph": 524,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "9bf0591a7d1ede0017b5de07a4167fa0b72b5a3065157df985afcdc6b62d9b03",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/124"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p07",
+          "startParagraph": 634,
+          "endParagraph": 634,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "72ec422c60efdd805784d9120d0e8a63916e42d3ff1f4b77d3600c4f1a9b0609",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/144",
+            "Page:Colette - La Vagabonde, 1910.djvu/145"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p08",
+          "startParagraph": 713,
+          "endParagraph": 713,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "3d2f75b0365cbd03490502f6796fabe085e8dcaef2eddd7632dd65312ce5b3bb",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/153"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p09",
+          "startParagraph": 819,
+          "endParagraph": 819,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "0d198c822613c05976e238123fed81231674974ae4b70067776e11aa65523b67",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/172"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p10",
+          "startParagraph": 952,
+          "endParagraph": 952,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "aa6c9e176bd0dab37808d6872c41a8cca384218ab6081db2f09ef6c4ba1b9d23",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/197"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p11",
+          "startParagraph": 1017,
+          "endParagraph": 1017,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "626381f99c8bb883a0499b1b92c521b04ca4a8d9906704929a2dec36e0f483bc",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/206"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p12",
+          "startParagraph": 1109,
+          "endParagraph": 1109,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "6600e80852cdf2cc7b0b1a16126f3e0ad5932d7da4af2aaed10efe8ecd2f9ad9",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/220"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p13",
+          "startParagraph": 1222,
+          "endParagraph": 1222,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "9bde41581f54512497a146e5056abd3e1a9905ba59151afa1597450781bfc650",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/235",
+            "Page:Colette - La Vagabonde, 1910.djvu/236"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p14",
+          "startParagraph": 1309,
+          "endParagraph": 1309,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "e3e890ebc7670127485115a42edbebb6eb1a7117ba32d05f56fbdbd37bc81db8",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/268"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p15",
+          "startParagraph": 1402,
+          "endParagraph": 1402,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sha256": "dc1ddc5167a2506f7368f9c357f6502d5f84bc59a58302b6d39545666d2556c7",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/302"
+          ]
+        }
+      ]
+    }
+  ]
+}

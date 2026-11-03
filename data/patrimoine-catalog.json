@@ -2,6 +2,9 @@
   "schemaVersion": 1,
   "audience": "adult",
   "collection": "patrimoine-libertin",
+  "novelCount": 10,
+  "novelPassageCount": 150,
+  "complementaryPassageCount": 3,
   "works": [
     {
       "id": "laclos-liaisons-patrimoine",
@@ -13,8 +16,8 @@
       "editionYear": 1869,
       "edition": "Livre:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu",
       "editionSource": "https://fr.wikisource.org/wiki/Livre%3AChoderlos_de_Laclos_-_Les_Liaisons_dangereuses,_1869,_Tome_1.djvu",
-      "genre": "roman épistolaire",
-      "context": "Au siècle des Lumières, Laclos fait de la lettre un instrument de séduction, de pouvoir et de dévoilement. Ces passages de la lettre XXXVII donnent la parole à la présidente de Tourvel, une femme mariée qui cherche à tenir Valmont à distance. Ils éclairent les tensions entre réputation, désir et liberté de décision.",
+      "genre": "roman épistolaire libertin",
+      "context": "La séduction se fait ici pouvoir, calcul et langage. Les extraits donnent principalement à entendre la présidente de Tourvel et les échanges entre adultes autour du désir, de la réputation et des limites que chacun tente de poser.",
       "language": "fr",
       "originalLanguage": "fr",
       "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Lettre_37",
@@ -66,6 +69,2598 @@
           "pageRefs": [
             "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/123"
           ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p04",
+          "label": "Le regard et la séduction",
+          "text": "J’étais bien éloigné, en arrivant chez madame de Rosemonde, de prévoir le sort qui m’y attendait. J’ignorais que vous y fussiez ; & j’ajouterai, avec la sincérité qui me caractérise, que quand je l’aurais su, ma sécurité n’en eût point été troublée : non que je rendisse à votre beauté la justice qu’on ne peut lui refuser ; mais accoutumé à n’éprouver que des désirs, à ne me livrer qu’à ceux que l’espoir encourageait, je ne connaissais pas les tourments de l’amour.",
+          "startParagraph": 195,
+          "endParagraph": 195,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre XXXVI.",
+          "sha256": "60a2afc7e372fa4a09d900df02177f529562cc8fabd4ba02914a988c274c560a",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/119"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p05",
+          "label": "Les mouvements du cœur",
+          "text": "Alors je connus l’amour. Mais que j’étais loin de m’en plaindre ! résolu de l’ensevelir dans un éternel silence, je me livrais sans crainte comme sans réserve à ce sentiment délicieux. Chaque jour augmentait son empire. Bientôt le plaisir de vous voir se changea en besoin. Vous absentiez-vous un moment, mon cœur se serrait de tristesse ; au bruit qui m’annonçait votre retour, il palpitait de joie. Je n’existais plus que par vous, & pour vous. Cependant c’est vous-même que j’adjure, jamais dans la gaieté des folâtres jeux, ou dans l’intérêt d’une conversation sérieuse, m’échappa-t-il un mot qui pût trahir le secret de mon cœur ?",
+          "startParagraph": 198,
+          "endParagraph": 198,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre XXXVI.",
+          "sha256": "a2b069574671f975ec706fc562de3045f771c1051fd0f695388e2b81c01d3715",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/120"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p06",
+          "label": "Les mouvements du cœur",
+          "text": "Au reste, si j’avais besoin de nouvelles raisons pour conserver cette crainte salutaire, il me semble que je pourrais les trouver dans votre dernière lettre. En effet, dans le moment même où vous croyez faire l’apologie de l’amour, que faites-vous au contraire, que m’en montrer les orages redoutables ? Qui peut vouloir d’un bonheur acheté au prix de la raison, & dont les plaisirs peu durables sont au moins suivis des regrets, quand ils ne le sont pas des remords ?",
+          "startParagraph": 291,
+          "endParagraph": 291,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre L.",
+          "sha256": "868964f302e97f2565a6df3642e1342d1f20c33941bd60236aaaa9be26680063",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/159"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p07",
+          "label": "Liberté et attachement",
+          "text": "En vous offrant mon amitié, Monsieur, je vous donne tout ce qui est à moi, tout ce dont je puis disposer. Que pouvez-vous désirer davantage ? Pour me livrer à ce sentiment si doux, si bien fait pour mon cœur, je n’attends que votre aveu, & la parole que j’exige de vous, que cette amitié suffira à votre bonheur. J’oublierai tout ce qu’on a pu me dire ; je me reposerai sur vous du soin de justifier mon choix.",
+          "startParagraph": 400,
+          "endParagraph": 400,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre LXVII.",
+          "sha256": "fd65dfde4ed481b65bc4954f53495ac19a76f374469653652bd946320090c3c2",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/208"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p08",
+          "label": "Le regard et la séduction",
+          "text": "Forcée ainsi par vous à l’immobilité et au silence, vous n’en continuez pas moins de me poursuivre ; je ne puis lever les yeux sans rencontrer les vôtres ; je suis sans cesse obligée de détourner mes regards ; &, par une inconséquence bien incompréhensible, vous fixez sur moi ceux du cercle, dans un moment où j’aurais voulu pouvoir même me dérober aux miens.",
+          "startParagraph": 499,
+          "endParagraph": 499,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre LXXVIII.",
+          "sha256": "b77733b7d8b35c6eabf556147d5ff7fc158e921fef5a6c7b243a5a26adaa5053",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/244"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p09",
+          "label": "Passions et vie sociale",
+          "text": "Ne craignez pas que votre absence altère jamais mes sentiments pour vous : comment parviendrais-je à les vaincre, quand je n’ai plus le courage de les combattre ? Vous le voyez, je vous dis tout ; je crains moins d’avouer ma faiblesse que d’y succomber : mais cet empire que j’ai perdu sur mes sentiments, je le conserverai sur mes actions ; oui, je le conserverai, j’y suis résolue, fût-ce aux dépens de ma vie.",
+          "startParagraph": 657,
+          "endParagraph": 657,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre XC",
+          "sha256": "9092d27a7635dcec8ee367ed59738852385209d104e1e134e058cc9c8ad305b4",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/14"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p10",
+          "label": "Les mouvements du cœur",
+          "text": "Dans peu de moments, je vais le fuir et l’affliger. Tandis qu’il se croira encore près de moi, je serai déjà loin de lui : à l’heure où j’avais coutume de le voir chaque jour, je serai dans des lieux où il n’est jamais venu, où je ne dois pas permettre qu’il vienne. Déjà tous mes préparatifs sont faits ; tout est là sous mes yeux ; je ne puis les reposer sur rien qui ne m’annonce ce cruel départ. Tout est prêt, excepté moi !... et plus mon cœur s’y refuse, plus il me prouve la nécessité de m’y soumettre.",
+          "startParagraph": 774,
+          "endParagraph": 774,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre CII.",
+          "sha256": "093f13136ad004b51237aab65ca3fa6b044319d47536cb5347671819e387a03f",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/61"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p11",
+          "label": "Liberté et attachement",
+          "text": "Aussitôt que mes douleurs me donneront un peu de relâche, je me promets bien de causer longuement avec vous. En attendant, sachez seulement que j’ai reçu vos deux lettres ; qu’elles auraient redoublé, s’il était possible, ma tendre amitié pour vous ; & que je ne cesserai jamais de prendre part, bien vivement, à tout ce qui vous intéresse.",
+          "startParagraph": 874,
+          "endParagraph": 874,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre CXII.",
+          "sha256": "a69c00d8277753925f61ba3d40049cbda19c58656f591e98de19da765f956a44",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/102",
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/103"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p12",
+          "label": "Liberté et attachement",
+          "text": "Si vous le permettez, mon aimable amie, ce sera auprès de vous que j’irai m’occuper de ce travail difficile. Si j’ai besoin de secours, peut-être même de consolation, je n’en veux recevoir que de vous. Vous seule savez m’entendre et parler à mon cœur. Votre précieuse amitié remplira toute mon existence. Rien ne me paraîtra difficile pour seconder les soins que vous voudrez bien vous donner. Je vous devrai ma tranquillité, mon bonheur, ma vertu, & le fruit de vos bontés pour moi sera de m’en avoir enfin rendue digne.",
+          "startParagraph": 966,
+          "endParagraph": 966,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre CXXIV.",
+          "sha256": "0cc3349b1cc6183e40502dc80d0042a1c9afb416903a401a6dc21111a2f9224b",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/143",
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/144"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p13",
+          "label": "Les mouvements du cœur",
+          "text": "Jusques-là, sans doute, je suis plus malheureux que coupable ; & ces torts, qui seraient ceux de tout le monde, & les seuls dont vous me parlez, ces torts n’existant pas, ne peuvent m’être reprochés. Mais vous vous taisez en vain sur ceux de l’amour : je ne garderai pas sur eux le même silence ; un trop grand intérêt m’oblige à le rompre.",
+          "startParagraph": 1078,
+          "endParagraph": 1078,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre CXXXVII.",
+          "sha256": "602d968a360f0ade97206655764909dbbcfba6ef899abed466978219ae14ea07",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/193"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p14",
+          "label": "Passions et vie sociale",
+          "text": "Le voile est déchiré, Madame, sur lequel était peinte l’illusion de mon bonheur. La funeste vérité m’éclaire, & ne me laisse voir qu’une mort assurée & prochaine, dont la route m’est tracée entre la honte & le remords. Je la suivrai..., je chérirai mes tourments s’ils abrègent mon existence. Je vous envoie la lettre que j’ai reçue hier ; je n’y joindrai aucune réflexion, elle les porte avec elle. Ce n’est plus le temps de se plaindre, il n’y a plus qu’à souffrir. Ce n’est pas de pitié dont j’ai besoin, c’est de force.",
+          "startParagraph": 1129,
+          "endParagraph": 1129,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre CXLIII.",
+          "sha256": "2242d46bdbb32f3c1233ba7fd955a0bca5ff4ee81550bbd77aba879e9eed648a",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/209",
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/210"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p15",
+          "label": "Les mouvements du cœur",
+          "text": "Laisse-moi donc, cruel ! quelle nouvelle fureur t’anime ? Crains-tu qu’un sentiment doux ne pénètre jusqu’à mon âme ? Tu redoubles mes tourments ; tu me forces de te haïr. Oh ! que la haine est douloureuse ! comme elle corrode le cœur qui la distille ! Pourquoi me persécutez-vous ? que pouvez-vous encore avoir à me dire ? ne m’avez-vous pas mise dans l’impossibilité de vous écouter comme de vous répondre ? N’attendez plus rien de moi. Adieu, monsieur.",
+          "startParagraph": 1257,
+          "endParagraph": 1257,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "sourceRevision": "12113656",
+          "sourceHtmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "sourceSection": "Lettre CLXI.",
+          "sha256": "df7cbe30ec2223c4960a3b3ad0c5be2f2af1d95cddebc02fa44871b942971506",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 2.djvu/259"
+          ]
+        }
+      ],
+      "kind": "roman",
+      "sourceDocuments": [
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Texte_complet",
+          "revision": "12113656",
+          "htmlSha256": "caa1c2debdab2ce7c6e1d350c105b051fc74ad5db4d88883e03ead5ae086c8f7",
+          "edition": "Livre:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu"
+        }
+      ]
+    },
+    {
+      "id": "diderot-bijoux-indiscrets",
+      "title": "Les Bijoux indiscrets",
+      "author": "Denis Diderot",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1748",
+      "editionYear": 1875,
+      "edition": "Livre:Diderot - Œuvres complètes, éd. Assézat, IV.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3ADiderot_-_%C5%92uvres_compl%C3%A8tes,_%C3%A9d._Ass%C3%A9zat,_IV.djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+      "sourceRevision": "7136658",
+      "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1784,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Denis_Diderot",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur et édition historiques identifiés ; texte seul, hors préfaces, notes et illustrations."
+      },
+      "passages": [
+        {
+          "id": "diderot-bijoux-indiscrets-p01",
+          "label": "Les mouvements du cœur",
+          "text": "Lorsque le cercle s’était séparé, Mangogul avait donné la main à la favorite, et l’avait remise dans son appartement. Il s’en manquait beaucoup qu’elle eût cet air vif et enjoué, qui ne l’abandonnait guère. Elle avait perdu considérablement au jeu, et l’effet du terrible anneau l’avait jetée dans une rêverie dont elle n’était pas encore bien revenue. Elle connaissait la curiosité du sultan, et elle ne comptait pas assez sur les promesses d’un homme moins amoureux que despotique, pour être libre de toute inquiétude. « Qu’avez-vous, délices de mon âme ? lui dit Mangogul ; je vous trouve rêveuse.",
+          "startParagraph": 93,
+          "endParagraph": 93,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE VI premier essai de l’anneau.alcine.",
+          "sha256": "c7fffe71b254cc7438563a1f58dd41d82d6187cead7b8ad4a229aa8867387cf6",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/165"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p02",
+          "label": "Le regard et la séduction",
+          "text": "La plupart des femmes qui faisaient la partie de la Manimonbanda jouaient avec acharnement ; et il ne fallait point avoir la sagacité de Mangogul pour s’en apercevoir. La passion du jeu est une des moins dissimulées ; elle se manifeste, soit dans le gain, soit dans la perte, par des symptômes frappants. « Mais d’où leur vient cette fureur ? se disait-il en lui-même ; comment peuvent-elles se résoudre à passer les nuits autour d’une table de pharaon, à trembler dans l’attente d’un as ou d’un sept ? cette frénésie altère leur santé et leur beauté, quand elles en ont, sans compter les désordres où je suis sûr qu’elle les précipite. »",
+          "startParagraph": 199,
+          "endParagraph": 199,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XII. cinquième essai de l’anneaule jeu.",
+          "sha256": "8ac6307d8c0ea864f462a70a971e43d45826ad8f4ec25d306583922602b01115",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/180"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p03",
+          "label": "Les mouvements du cœur",
+          "text": "« Mais qui les a attirés sur cette malheureuse contrée, ces fléaux ? Ne sont-ce pas tes injustices, homme avide et sans foi ! tes galanteries et tes folles amours, femme mondaine et sans pudeur ! tes excès et tes débordements honteux, voluptueux infâme ! ta dureté pour nos monastères, avare ! tes injustices, magistrat vendu à la faveur ! tes usures, négociant insatiable ! ta mollesse et ton irréligion, courtisan impie et efféminé !",
+          "startParagraph": 264,
+          "endParagraph": 264,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XV. les bramines.",
+          "sha256": "128baec82cc3087a34d78a72d678582316e0ed3f1ca459f2546c470df72f5f8a",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/192"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p04",
+          "label": "Passions et vie sociale",
+          "text": "En s’entretenant ainsi, il feuilletait négligemment son journal, et disait : « Il y a là dedans des usages tout à fait singuliers. Tenez, voilà un chapitre sur la configuration des habitants. Il n’y a rien que votre excellente pruderie ne puisse entendre. En voici un autre sur la toilette des femmes, qui est tout à fait de votre ressort, et dont peut-être vous pourrez tirer parti. Vous ne me répondez pas ! Vous vous méfiez toujours de moi.",
+          "startParagraph": 407,
+          "endParagraph": 407,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XVIII des voyageurs.",
+          "sha256": "a02c1e96cbd715ee99f718aa71f1b24327e7a31cc077c14e40f1ee1c91ce2694",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/210"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p05",
+          "label": "Passions et vie sociale",
+          "text": "« Je commençai donc par engloutir l’honneur et les services d’un officier qui pouvait attendre de sa bravoure et de son mérite les premiers emplois de la guerre, s’il n’eût jamais connu la femme de son général. Plus de trois mille hommes périrent en cette occasion. C’est encore autant de bons sujets que nous avons ravis à l’État. »",
+          "startParagraph": 625,
+          "endParagraph": 625,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XXIV. neuvième essai de l’anneau.des choses perdues et retrouvées.",
+          "sha256": "aa1f98d10a4e946852de1d674846328434c59773432512af58568673e524d7ec",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/230"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p06",
+          "label": "Le regard et la séduction",
+          "text": "Mangogul, impatient de revoir la favorite, dormit peu, se leva plus matin qu’à l’ordinaire, et parut chez elle au petit jour. Elle avait déjà sonné : on venait d’ouvrir ses rideaux ; et ses femmes se disposaient à la lever. Le sultan regarda beaucoup autour d’elle, et ne lui voyant point de chien, il lui demanda la raison de cette singularité.",
+          "startParagraph": 641,
+          "endParagraph": 641,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XXV. échantillon de la morale de mangogul.",
+          "sha256": "106202add6b5b3da8a1111fd5087efa3409f8d2ddfb57b1cba278b08a6daeadd",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/232",
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/233"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p07",
+          "label": "Passions et vie sociale",
+          "text": "Mirzoza craignait toujours pour le sien. Le discours de Mangogul la jeta dans un trouble qu’elle ne fut pas la maîtresse de lui dérober : mais le sultan qui s’était lié par un serment, et qui avait de la religion dans le fond de l’âme, la rassura de son mieux, lui donna quelques baisers fort tendres, et se rendit à son conseil, où des affaires de conséquence l’appelaient.",
+          "startParagraph": 704,
+          "endParagraph": 704,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XXVI. dixième essai de l’anneau.les gredins.",
+          "sha256": "d0ff7d6bbed2224b455ce71e19680247073156cec584cf0dea53275e364c78f2",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/242"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p08",
+          "label": "Passions et vie sociale",
+          "text": "— Oui, dans les pieds, reprit Mirzoza ; et ce sentiment, qui vous paraît si fou, n’a besoin que d’être approfondi pour devenir sensé, au contraire de tous ceux que vous admettez comme vrais et qu’on reconnaît pour faux en les approfondissant. Votre Hautesse convenait avec moi, tout à l’heure, que l’existence de notre âme n’était fondée que sur le témoignage intérieur qu’elle s’en rendait à elle-même ; et je vais lui démontrer que toutes les preuves imaginables de sentiment concourent à fixer l’âme dans le lieu que je lui assigne.",
+          "startParagraph": 773,
+          "endParagraph": 773,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XXIX. métaphysique de mirzoza.les âmes.",
+          "sha256": "517b1f6805edf720f1b545c8355e251ac8630ac18c521a0b62842ee42e828300",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/255"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p09",
+          "label": "Passions et vie sociale",
+          "text": "On croirait aisément qu’une femme en qui l’on n’avait peut-être à reprendre qu’un excès de bonté, ne devait point avoir d’ennemis. Cependant elle en eut, et de cruels. Les dévotes de Banza lui trouvèrent un air trop libre, je ne sais quoi de dissipé dans le maintien ; ne virent dans sa conduite que la fureur des plaisirs du siècle ; en conclurent que ses mœurs étaient au moins équivoques et le suggérèrent charitablement à qui voulut les entendre.",
+          "startParagraph": 875,
+          "endParagraph": 875,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XXXIII. quatorzième essai de l’anneau.le bijou muet.",
+          "sha256": "827ca3e926174e5cb0360af935e65c1025f4f12e9e4af2356af51603cafa1c1b",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/270"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p10",
+          "label": "Passions et vie sociale",
+          "text": "« Prince, que dites-vous ? s’écria-t-elle ; les femmes sont donc tombées dans le dernier degré de l’avilissement ! Un comédien ! l’esclave du public ! un baladin ! Encore, si ces gens-là n’avaient que leur état contre eux ; mais la plupart sont sans mœurs, sans sentiments ; et entre eux, cet Orgogli n’est qu’une machine. Il n’a jamais pensé ; et s’il n’eût point appris de rôles, peut-être ne parlerait-il pas…",
+          "startParagraph": 1021,
+          "endParagraph": 1021,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XXXVII. dix-septième essai de l’anneau.la comédie.",
+          "sha256": "4e31a3c52a20bd70817d7935307c80e80d0dd9c76e91ee4435e5b737f773a265",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/288",
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/289"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p11",
+          "label": "Le regard et la séduction",
+          "text": "« Je vis, en face de celui-ci, un buste qui m’intéressa ; il me semble que je le vois encore ; il avait l’air fin, le nez aquilin et pointu, le regard fixe et le ris malin. Les bas-reliefs dont on avait orné son piédestal étaient si chargés, que je ne finirais point si j’entreprenais de vous les décrire.",
+          "startParagraph": 1116,
+          "endParagraph": 1116,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XL. rêve de mirzoza.",
+          "sha256": "d6376be285c8e62bd1dd6c64341305b52ae372f5459ea709bc26bbb6907a9448",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/304"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p12",
+          "label": "Les mouvements du cœur",
+          "text": "« — Je n’entends rien à ces propos : tu brouilles tout, la réputation, l’amour, l’estime, et je ne sais quoi encore. Ne dirait-on pas que l’inconstance doive déshonorer ! Comment ! je prends un homme ; je m’en trouve mal : j’en prends un autre qui ne me convient pas : je change celui-ci pour un troisième qui ne me convient pas davantage ; et pour avoir eu le guignon de rencontrer mal une vingtaine de fois, au lieu de me plaindre, tu veux…",
+          "startParagraph": 1245,
+          "endParagraph": 1245,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XLIII. vingt-troisième essai de l’anneau.fanni.",
+          "sha256": "d526b63a0a0f832200900ea38579f6fbd0c05980b57eee30d552fa3c60f3dab6",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/319"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p13",
+          "label": "Passions et vie sociale",
+          "text": "— Prince, continua Sélim, ce fut dans une de ces tournées que je connus la femme d’un colonel de spahis, nommé Ostaluk, brave homme, bon officier, mais mari peu commode, jaloux comme un tigre, et qui avait en sa personne de quoi justifier cette rage ; car il était affreusement laid.",
+          "startParagraph": 1474,
+          "endParagraph": 1474,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XLVIII. cydalise.",
+          "sha256": "2b1147175a715ad87dda9bca13358ac39bc82d94880887745c8cb98e83f0e80b",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/352"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p14",
+          "label": "Passions et vie sociale",
+          "text": "— Comment, interrompit Fulvia, le sultan vous aurait-il marqué de la froideur ? aurait-on oublié vos services ? Sélim, vous êtes distrait ; vous ne me répondez pas… Ah ! si vous m’aimez, qu’importe à votre bonheur le bon ou le mauvais accueil du prince ? Ce n’est pas dans ses yeux, c’est dans les miens, c’est entre mes bras que vous le chercherez. »",
+          "startParagraph": 1571,
+          "endParagraph": 1571,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE XLIX. vingt-septième essai de l’anneau.fulvia.",
+          "sha256": "2d3e1faf4eed1b96b142c5d6073e817fa4e5d56cea20d0d44edee58fd8aae893",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/362"
+          ]
+        },
+        {
+          "id": "diderot-bijoux-indiscrets-p15",
+          "label": "Le regard et la séduction",
+          "text": "Mirzoza l’interrompit par quelques questions auxquelles il répondit des monosyllabes. Il refusa un piquet qu’elle lui proposa, se plaignit d’un mal de tête qu’il n’avait point, se retira dans son appartement, se coucha sans souper, ce qui ne lui était arrivé de sa vie, et ne dormit point. Les charmes et la tendresse de Zaïde, les qualités et le bonheur de Zuleïman le tourmentèrent toute la nuit.",
+          "startParagraph": 1685,
+          "endParagraph": 1685,
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "sourceRevision": "7136658",
+          "sourceHtmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "sourceSection": "CHAPITRE LII. vingt-neuvième essai de l’anneau.zuleïman et zaïde.",
+          "sha256": "46b671d1df42028fe84e7f5d62bd42d09e9adc2898297af9e0db994715818734",
+          "pageRefs": [
+            "Page:Diderot - Œuvres complètes, éd. Assézat, IV.djvu/377"
+          ]
+        }
+      ],
+      "kind": "roman",
+      "genre": "roman libertin et satirique",
+      "context": "Sous le décor d’une cour imaginaire, Diderot mêle fantaisie, satire du pouvoir et réflexion sur les passions. Cette sélection non graphique privilégie la conversation, l’hypocrisie sociale et les rapports entre curiosité, autorité et liberté.",
+      "sourceDocuments": [
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Bijoux_indiscrets/Texte_entier",
+          "revision": "7136658",
+          "htmlSha256": "0adeb0d89ae1ac653fbbb5b0957e49186472eecfed303a55f4ceba8260a64954",
+          "edition": "Livre:Diderot - Œuvres complètes, éd. Assézat, IV.djvu"
+        }
+      ]
+    },
+    {
+      "id": "duclos-confessions-comte",
+      "title": "Les Confessions du Comte de ***",
+      "author": "Charles Pinot Duclos",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1741",
+      "editionYear": 1806,
+      "edition": "Livre:Pinot Duclos - Œuvres complètes, tome 8.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3APinot_Duclos_-_%C5%92uvres_compl%C3%A8tes,_tome_8.djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+      "sourceRevision": "13652159",
+      "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1772,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Charles_Pinot_Duclos",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur et édition historiques identifiés ; texte seul, hors préfaces, notes et illustrations."
+      },
+      "passages": [
+        {
+          "id": "duclos-confessions-comte-p01",
+          "label": "Les mouvements du cœur",
+          "text": "Quelques jours après, je reçus ordre d’assembler le régiment, et de joindre l’armée : je le fis défiler devant l’abbaye ; je me flattois que mon départ feroit naître l’envie de me donner une dernière consolation, mais je n’aperçus rien, et fus obligé de partir le cœur pénétré de douleur.",
+          "startParagraph": 31,
+          "endParagraph": 31,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "dfe8e892f71fd6bede26c13f5f7382c8dd0b77d1372288faabc36ec183e27eb5",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/38"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p02",
+          "label": "Le regard et la séduction",
+          "text": "Les charmes de madame l’intendante ne furent pas capables de m’arrêter ; le commerce que j’avois avec elle n’étoit apparemment attaché qu’à la ville où je l’avois rencontrée ; car, l’ayant retrouvée l’année suivante à Paris, il ne fut jamais mention de rien qui eût rapport à ce qui s’étoit passe entre nous ; mais je remarquai combien la vanité d’un intendant a quelquefois à souffrir dans une ville qui sert si parfaitement à corriger les fatuités subalternes.",
+          "startParagraph": 38,
+          "endParagraph": 38,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "4b6ce642f1f17ca4e43d112b50c8d0dce9a8e138e3344c46f7005e01a2b79653",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/44",
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/45"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p03",
+          "label": "Le regard et la séduction",
+          "text": "Les femmes, à Paris, communiquent moins généralement entre elles que les hommes. Elles sont distinguées en différentes classes qui ont peu de commerce les unes avec les autres. Chacune de ces classes a ses détails de galanterie, ses décisions, sa bonne compagnie, ses usages et son ton particulier ; mais toutes ont le plaisir pour objet, et c’est là le charme du séjour de Paris. J’ai eu lieu de remarquer toutes ces différences.",
+          "startParagraph": 49,
+          "endParagraph": 49,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "7b8b1b61e6acfee2e6d69650fea8b3ada53eaa45b79e45f858032ea8b8aded8d",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/56"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p04",
+          "label": "Les mouvements du cœur",
+          "text": "Madame de Persigny m’avoit si parfaitement corrigé des fausses délicatesses dont j’avois tourmenté madame de Sezanne, que celle-ci, dont j’avois blâmé la coquetterie, m’auroit alors paru une prude. Il sembloit que l’amour eût entrepris de me faire l’humeur, en m’assujétissant aux caractères les plus opposés.",
+          "startParagraph": 54,
+          "endParagraph": 54,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "b00b5269b3e2233533ba852a2349c667516686b0a1dd5f063b6c32538922e3f9",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/60"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p05",
+          "label": "Liberté et attachement",
+          "text": "Ce qu’il y avoit de plus fâcheux pour moi, c’est que son cœur étoit toujours asservi à son esprit, dont il suivoit la bizarrerie et les écarts. Quelquefois elle m’accablait de caresses, et le moment d’après j’étois l’objet de ses mépris. Triste, gaie, étourdie, sérieuse, libre, réservée, madame d’Albi réunissoit en elle tous les caractères ; et celui qu’elle éprouvoit étoit toujours si marqué, qu’il eût paru être le sien propre à ceux qui ne l’auroient vue que dans cet instant. Un jour elle me chargea de lui trouver une petite maison, pour nous voir, disoit-elle, avec plus de liberté.",
+          "startParagraph": 73,
+          "endParagraph": 73,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "913edd92f6ec773806bb88d5e39d752b86c8ac6009c081e184dbbe93286f1d48",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/73"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p06",
+          "label": "Passions et vie sociale",
+          "text": "Nous vécûmes quelque temps sans la moindre altération dans notre commerce ; mais la jalousie vint le troubler. Une Françoise de mes parentes fut attirée à Londres pour quelques affaires ; elle devint pour milady un sujet de jalousie, dont l’effet mérite d’être rapporté.",
+          "startParagraph": 94,
+          "endParagraph": 94,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "7dfcf5497032c2332bdc1c9a66030ebd701ed3493e7c539d5dfd4160a3578e72",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/92"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p07",
+          "label": "Liberté et attachement",
+          "text": "Malgré l’extrême dissipation qui m’emportoit, je ne laissois pas de me faire des amis : j’en ai dû quelques-uns aux plaisirs ; mais je puis dire que je les ai conservés par mon caractère. Le goût pour des maîtresses doit être subordonné aux devoirs de l’amitié, on y doit être plus fidèle qu’en amour ; et, lorsque j’ai voulu juger du caractère d’un homme que je n’ai pas eu le temps d’étudier, je me suis toujours informé s’il avoit conservé ses anciens amis. Il est rare que cette règle-là nous trompe. Je n’en ai jamais perdu qu’un par une aventure assez singulière pour qu’elle mérite d’être rapportée.",
+          "startParagraph": 118,
+          "endParagraph": 118,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "b6367c21e946b8de8769c0944fd51cb11b0fd0d44a57eb4db8fa64a9ae8b95a9",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/115"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p08",
+          "label": "Le regard et la séduction",
+          "text": "J’ai compris par cette aventure qu’il est impossible de ramener un homme subjugué, et que la femme la plus méprisable est celle dont l’empire est le plus sûr. Si le charme de la vie est de la passer avec une femme qui justifie votre goût par ses sentimens, c’est le comble du malheur d’être dans un esclavage honteux, asservi aux caprices de ces femmes qui désunissent les amis, et portent le trouble dans les familles. Les exemples n’en sont que trop communs dans Paris.",
+          "startParagraph": 138,
+          "endParagraph": 138,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "08b67d7dc0380b91156d7cd46c0969b03355592e8cf381c7832b11311a33891a",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/131",
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/132"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p09",
+          "label": "Les mouvements du cœur",
+          "text": "Je me voyois l’objet des agaceries des coquettes, et des déclarations peu équivoques de plusieurs autres femmes. Ce manège, qui m’avoit amusé pendant quelque temps, me parut enfin ridicule. Je m’aperçus du mépris que les gens sensés, même ceux qui aiment le plaisir, font d’un homme à la mode, et je commençai à rougir d’un titre que je partageois avec des gens fort méprisables. L’idée d’une vie plus tranquille vint se présenter à mon esprit. Je jugeai qu’elle seroit plus conforme à mes véritables sentimens, et je résolus de vivre avec moins d’éclat. Une aventure qui m’arriva alors, acheva de me déterminer à céder au penchant de mon cœur.",
+          "startParagraph": 152,
+          "endParagraph": 152,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "ca548ae9741d6a5f64e1f75c1f6aaf7281e22bb7325635042b71cbac86c054c0",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/138"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p10",
+          "label": "Le regard et la séduction",
+          "text": "Je ne pouvois me lasser d’admirer la beauté de Julie. Je l’avouerai cependant, cette figure charmante ne m’inspira pas le moindre désir dont sa vertu eût pu être blessée. Un sentiment de respect pour son malheur et pour sa vertu, avoit fermé mon cœur à tous les autres.",
+          "startParagraph": 158,
+          "endParagraph": 158,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "d80e9aabf3a6ce3ee2dbd1a6fab02259830579ac48d708fdccd922e7af876dda",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/144"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p11",
+          "label": "Les mouvements du cœur",
+          "text": "Je n’osai combattre les raisons de madame de Selve : quand on les aperçoit, comme elle faisoit, on sait les soutenir, et la contradiction peut affermir dans un sentiment ; mais je me proposois de faire naître dans la suite des discours sur cette matière. Une femme qui parle souvent des dangers de l’amour, s’aguerrit sur les risques, et se familiarise avec la passion ; c’est toujours parler de l’amour, et l’on n’en parle guère impunément.",
+          "startParagraph": 176,
+          "endParagraph": 176,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "3e1eba1840c9837e628142d5f56c3c387bd80a304ac38ad3d992a7bb54709d8d",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/158"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p12",
+          "label": "Passions et vie sociale",
+          "text": "J’approuvai le parti que madame de Selve me proposoit, je consentis à tout ce qu’elle voulut. Quelques désirs que j’eusse de la posséder, je n’avois d’autre volonté que la sienne. Je vivois avec elle dans cette espérance, et, quoique je désirasse encore, j’étois dans une situation des plus heureuses que j’aie éprouvées de ma vie.",
+          "startParagraph": 180,
+          "endParagraph": 180,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "5d8a588e51c9e7bc18dc8e9eaf2193750de5cf4e6b74e142fc37ab2b01b89ada",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/162"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p13",
+          "label": "Liberté et attachement",
+          "text": "D’un autre côté, madame Dorsigny, plus vaine que jalouse, puisqu’il n’y avoit point de véritable amour entre elle et moi, prétendoit que ma liaison d’amitié avec madame de Selve lui étoit suspecte ; elle me défendoit de la voir, et j’avois la lâcheté de le lui promettre. J’étois dans la situation la plus cruelle. Le bonheur ou le malheur de la vie dépend plus de ces petits intérêts frivoles en apparence, que des affaires les plus importantes. Plus de sincérité ou d’équité m’auroit épargné bien des peines.",
+          "startParagraph": 203,
+          "endParagraph": 203,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "fed47d8d9a3dba6c33ad4ee6267cecb0c13570b234cf4ab3c4af46db1b1d56c4",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/179"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p14",
+          "label": "Passions et vie sociale",
+          "text": "J’employai toutes les raisons imaginables pour la calmer, quoique j’eusse besoin moi-même d’un pareil secours. Je la rassurai sur la probité de madame de Selve. En effet, je craignois son ressentiment contre moi ; mais j’étois sûr de sa discrétion. Je fis comprendre à madame Dorsigny que notre départ en feroit plus penser que madame de Selve n’en pourroit dire.",
+          "startParagraph": 212,
+          "endParagraph": 212,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "1534cd4fff45fb78097f43aa6b1e4d3925b72c05a345afb3386e3a6bcc6d1674",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/185"
+          ]
+        },
+        {
+          "id": "duclos-confessions-comte-p15",
+          "label": "Passions et vie sociale",
+          "text": "L’indulgence, lui disois-je, que vous avez pour toutes mes intrigues de passage, ne peut venir que de votre indifférence. Il est sans doute bien bizarre que ce soit moi qui sois jaloux ; mais enfin je ne puis me défendre d’un peu de jalousie, lorsque je vous en vois si peu. Si vous me jugez innocent, vous ne vous croiriez pas bien coupable vous-même d’écouter un autre amant. Madame de Selve ne pouvoit s’empêcher de rire de ma jalousie.",
+          "startParagraph": 228,
+          "endParagraph": 228,
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "sourceRevision": "13652159",
+          "sourceHtmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "sourceSection": "",
+          "sha256": "ef035cbb08e76df008691a83dbccb42083c548a0f55588c09a9dec1b5031e5e3",
+          "pageRefs": [
+            "Page:Pinot Duclos - Œuvres complètes, tome 8.djvu/193"
+          ]
+        }
+      ],
+      "kind": "roman",
+      "genre": "roman-mémoires libertin",
+      "context": "Un narrateur revenu de ses aventures observe les usages galants et les illusions de la vie mondaine. Les passages retenus éclairent les rivalités entre amour-propre, plaisir, amitié et sincérité ; leur jugement moral demeure celui d’une société du XVIIIe siècle.",
+      "sourceDocuments": [
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Confessions_du_Comte_de_%2A%2A%2A",
+          "revision": "13652159",
+          "htmlSha256": "5b48e9cc46e4b6faf49d85b25068091e784bb92c407a8c349e1b9de15ce6a96e",
+          "edition": "Livre:Pinot Duclos - Œuvres complètes, tome 8.djvu"
+        }
+      ]
+    },
+    {
+      "id": "gautier-mademoiselle-maupin",
+      "title": "Mademoiselle de Maupin",
+      "author": "Théophile Gautier",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1835",
+      "editionYear": 1880,
+      "edition": "Livre:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3AGautier_-_Mademoiselle_de_Maupin_(Charpentier_1880).djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+      "sourceRevision": "4898086",
+      "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1872,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Th%C3%A9ophile_Gautier",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur et édition historiques identifiés ; texte seul, hors préfaces, notes et illustrations."
+      },
+      "passages": [
+        {
+          "id": "gautier-mademoiselle-maupin-p01",
+          "label": "Passions et vie sociale",
+          "text": "Toi, — tu n’es pas aussi fou que moi, tu es heureux, toi ; — tu t’es laissé aller tout bonnement à ta vie sans te tourmenter à la faire, et tu as pris les choses comme elles se présentaient. Tu n’as pas cherché le bonheur, et il est venu te chercher ; tu es aimé, et tu aimes. — Je ne t’envie pas ; — ne va pas croire cela au moins : mais je me trouve moins joyeux en pensant à ta félicité que je ne devrais l’être, et je me dis, en soupirant, que je voudrais bien jouir d’une félicité pareille.",
+          "startParagraph": 187,
+          "endParagraph": 187,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "II",
+          "sha256": "29ca58dd899ee4a6e47dce0ee69274440b1652ead9a9674cfe3b5a7e0fd5357b",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/65",
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/66"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p02",
+          "label": "Passions et vie sociale",
+          "text": "À la fin je pris sur moi de la quitter, et, la soirée étant fort avancée, je m’en retournai chez moi très-perplexe, très-troublé et ne sachant trop ce que je devais faire. — J’hésitais entre la prude et la galante, — Je trouvais de la volupté dans l’une et du piquant dans l’autre ; et, après un examen de conscience très-détaillé et très-approfondi, je m’aperçus non que je les aimais toutes les deux, mais que je les désirais toutes les deux, l’une autant que l’autre, avec assez de vivacité pour en prendre de la rêverie et de la préoccupation.",
+          "startParagraph": 245,
+          "endParagraph": 245,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "II",
+          "sha256": "872f67a0beb418c04c8348d0bf477249af8fd8298bf4d696cd616fedcb149608",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/88"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p03",
+          "label": "Les mouvements du cœur",
+          "text": "Voilà où nous en sommes ; — la position est grave, — surtout quand il y en a un des deux qui est encore épris et qui s’attache désespérément aux restes de l’amour de l’autre. Je suis dans une perplexité grande. — Quoique je ne sois pas amoureux de Rosette, j’ai pour elle une très-grande affection, et je ne voudrais rien faire qui lui causât de la peine. — Je veux qu’elle croie, aussi longtemps que possible, que je l’aime.",
+          "startParagraph": 306,
+          "endParagraph": 306,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "IV",
+          "sha256": "691e391f436088e6570e719efbba3b11dc92ad96ba81a17efd60b9aa77ae4185",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/119",
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/120"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p04",
+          "label": "Le regard et la séduction",
+          "text": "Aussi mon regard satisfait et nonchalant allait, avec un plaisir égal, d’un magnifique pot tout semé de dragons et de mandarins, à la pantoufle de Rosette, et de là au coin de son épaule qui luisait sous la batiste ; il se suspendait aux tremblantes étoiles du jasmin et aux blonds cheveux des saules du rivage, passait l’eau et se promenait sur la colline, et puis revenait dans la chambre se fixer aux nœuds couleur de rose du long corset de quelque bergère.",
+          "startParagraph": 385,
+          "endParagraph": 385,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "IV",
+          "sha256": "2e8c33d76abe79fb22c58140afa70cb2c6e48d1658c4221f673b743dea415dc3",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/140"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p05",
+          "label": "Passions et vie sociale",
+          "text": "Je ne sais trop. — Il y a des moments où l’on croirait qu’il m’aime beaucoup ; mais au fond il ne m’aime pas, et il n’est pas loin de me haïr, car il m’en veut de ce qu’il ne peut m’aimer. — Il a fait comme plusieurs autres plus expérimentés que lui ; il a pris un goût vif pour de la passion, et s’est trouvé tout surpris et tout désappointé quand son désir a été assouvi. — C’est une erreur que, parce que l’on a couché ensemble, on se doit réciproquement adorer.",
+          "startParagraph": 464,
+          "endParagraph": 464,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "VI",
+          "sha256": "a6e23f48582798f8b0029ed3be074a08f0fe0abb5b51613acac3d435f66b56c8",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/173"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p06",
+          "label": "Passions et vie sociale",
+          "text": "Hélas ! hélas ! ce que vous dites là, Rosette, est l’histoire de tout le monde ; la meilleure partie de nous est celle qui reste en nous, et que nous ne pouvons produire. — Les poëtes sont ainsi. — Leur plus beau poëme est celui qu’ils n’ont pas écrit ; ils emportent plus de poëmes dans la bière qu’ils n’en laissent dans leur bibliothèque.",
+          "startParagraph": 471,
+          "endParagraph": 471,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "VI",
+          "sha256": "2b1849c94a79a427ec308c3e7da2ce456f613a91f76fa9ccef2d3685fd9c3fc7",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/175",
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/176"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p07",
+          "label": "Passions et vie sociale",
+          "text": "— J’aimerais peut-être autant me laisser couler dans le batelet au fil de la rivière que de galoper éperdument à la poursuite d’une pauvre bête ; mais où que vous alliez, j’irai ; il ne s’agit maintenant que de laisser madame Rosette se lever, et d’aller prendre un costume convenable. — Rosette fit un signe d’assentiment, et sonna pour qu’on la vînt lever. Les deux jeunes gens s’en allèrent bras dessus bras dessous, et il était facile de conjecturer, à les voir si bien ensemble, que l’un était l’amant en pied et l’autre l’amant aimé de la même\npersonne.",
+          "startParagraph": 523,
+          "endParagraph": 523,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "VII",
+          "sha256": "55e7c6ef91126ceccff5ba4a4e1ffb6ef8116f9f982851166176b20989de544d",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/193"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p08",
+          "label": "Le regard et la séduction",
+          "text": "J’ai toujours été ainsi. J’ai pour les femmes le regard d’un sculpteur et non celui d’un amant. Je me suis toute ma vie inquiété de la forme du flacon, jamais de la qualité du contenu. J’aurais eu la boîte de Pandore entre les mains, je crois que je ne l’eusse pas ouverte. Tout à l’heure je disais que le Christ n’était pas venu pour moi ; Marie, l’étoile du Ciel moderne, la douce mère du glorieux bambin, n’est pas venue non plus.",
+          "startParagraph": 597,
+          "endParagraph": 597,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "IX",
+          "sha256": "25bf2914f31e2ad360d5f88008a0548c7813f416b9fbb7022dabed8c4f01d696",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/218",
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/219"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p09",
+          "label": "Passions et vie sociale",
+          "text": "Ô jeune fils du brave chevalier Rowland des Bois, tant maltraité du sort ! je ne puis m’empêcher d’être jaloux de toi ; tu as encore un serviteur fidèle, le bon Adam, dont la vieillesse est si verte sous la neige de ses cheveux. — Tu es banni, mais au moins tu l’es après avoir lutté et triomphé ; ton méchant frère t’enlève tout ton bien, mais Rosalinde te donne la chaîne de son cou ; tu es pauvre, mais tu es aimé ; tu quittes ta patrie, mais la fille de ton persécuteur te suit au delà des mers.",
+          "startParagraph": 756,
+          "endParagraph": 756,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "XI",
+          "sha256": "324df1e8dfb5bba1e7216cbff11c36e2c3634ddc42ff66b2f94ac71207edf1ef",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/273"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p10",
+          "label": "Passions et vie sociale",
+          "text": "Aux moments où je me sentais entraîné avec le plus de violence\nvers Théodore, je me rejetais avec effroi dans les bras de\nRosette, quoiqu’elle me déplût infiniment ; je tâchais de\nl’interposer entre lui et moi comme une barrière et un bouclier, — et j’éprouvais une secrète satisfaction, lorsque j’étais couché auprès d’elle, à penser qu’au moins c’était une femme bien avérée, et que, si je ne l’aimais plus, j’en étais encore assez aimé pour que cette liaison ne dégénérât pas en intrigue et en débauche.",
+          "startParagraph": 836,
+          "endParagraph": 836,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "XI",
+          "sha256": "4b270ed09a36f61763630092b0e0c9d4ee0551d91d6dc59986d11e7ec41d327c",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/297"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p11",
+          "label": "Passions et vie sociale",
+          "text": "J’aime passionnément cette végétation imaginaire, ces fleurs et\nces plantes qui n’existent pas dans la réalité, ces forêts\nd’arbres inconnus où errent des licornes, des caprimules et des\ncerfs couleur de neige, avec un crucifix d’or entre leurs rameaux, habituellement poursuivis par des chasseurs à barbe rouge et en habits de Sarrasins.",
+          "startParagraph": 916,
+          "endParagraph": 916,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "XII",
+          "sha256": "0c00a43caf7e70bf1d644bd140d9d73c4e881dd798c6d58594c174ca9760488a",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/322"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p12",
+          "label": "Le regard et la séduction",
+          "text": "Par une conséquence toute naturelle, je me connais beaucoup mieux en tableaux qu’auparavant, et quoique je n’aie des maîtres qu’une teinture fort superficielle, il serait difficile de me faire passer un mauvais ouvrage pour bon ; je trouve à cette étude un charme singulier et profond ; car, comme toute chose au monde, la beauté morale ou physique veut être étudiée, et ne se laisse pas pénétrer tout d’abord.",
+          "startParagraph": 980,
+          "endParagraph": 980,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "XII",
+          "sha256": "4da52bb7382e583aa541619f61f053a010738138de103401b8450791d008c778",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/342"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p13",
+          "label": "Le regard et la séduction",
+          "text": "— Rosette, lui dis-je en m’efforçant de me dégager, je m’en vais tâcher de rallumer la lumière ; rien n’est triste comme l’obscurité dans une chambre ; et puis, c’est vraiment un meurtre de ne pas y voir clair quand vous êtes là et de se priver du spectacle de vos beautés. — Permettez qu’au moyen d’un morceau d’amadou et d’une allumette, je me fasse un petit soleil portatif qui mette en relief tout ce que la nuit jalouse efface sous ses ombres.",
+          "startParagraph": 1055,
+          "endParagraph": 1055,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "XIV",
+          "sha256": "be84d55564bf5bc0eeb239c8d4ad616814d1795c087270840798a710f1839b2d",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/370"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p14",
+          "label": "Le regard et la séduction",
+          "text": "Si j’avais été un jeune homme, comme j’eusse aimé Rosette ! quelle adoration c’eût été ! Nos âmes étaient vraiment faites l’une pour l’autre, deux perles destinées à se fondre ensemble et n’en plus faire qu’une seule ! Comme j’eusse parfaitement réalisé les idées qu’elle s’était faites de l’amour ! Son caractère me convenait on ne peut plus, et son genre de beauté me plaisait. Il est dommage que notre amour fût totalement condamné à un platonisme indispensable !",
+          "startParagraph": 1125,
+          "endParagraph": 1125,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "XV",
+          "sha256": "74841b114fddf5de9c3a9c66ee3f5a153c9b9e69a0c38e23bd859f5f8f3ce9cb",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/394"
+          ]
+        },
+        {
+          "id": "gautier-mademoiselle-maupin-p15",
+          "label": "Les mouvements du cœur",
+          "text": "— Eh bien ! Orlando, est-ce que vous ne reconnaissez pas votre\nRosalinde ? dit la belle avec le plus charmant sourire ; ou bien avez-vous laissé votre amour accroché avec vos sonnets à quelques buissons de la forêt des Ardennes ? Seriez-vous réellement guéri du mal pour lequel vous me demandiez un remède avec tant d’instance ? J’en ai bien peur.",
+          "startParagraph": 1193,
+          "endParagraph": 1193,
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "sourceRevision": "4898086",
+          "sourceHtmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "sourceSection": "XVI",
+          "sha256": "77f264fd9ad0e6a01d57fa6877bd9c1d092f1ac260de3d42379bd15fb91247fc",
+          "pageRefs": [
+            "Page:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu/414"
+          ]
+        }
+      ],
+      "kind": "roman",
+      "genre": "roman de la sensualité et des identités",
+      "context": "Gautier fait du désir une question de regard, de beauté et d’identité. Les échanges entre personnages adultes interrogent la différence entre aimer, désirer et vouloir être aimé, ainsi que les rôles que la société assigne aux femmes et aux hommes.",
+      "sourceDocuments": [
+        {
+          "source": "https://fr.wikisource.org/wiki/Mademoiselle_de_Maupin/%C3%89dition_1880/Texte_entier",
+          "revision": "4898086",
+          "htmlSha256": "f06d69b3241d08e03d58c2736da16dfc1f4025bda1f08d56f7cc47e52713c80a",
+          "edition": "Livre:Gautier - Mademoiselle de Maupin (Charpentier 1880).djvu"
+        }
+      ],
+      "bibliographySource": "https://catalogue.bnf.fr/ark:/12148/cb12389979j"
+    },
+    {
+      "id": "balzac-lys-patrimoine",
+      "title": "Le Lys dans la vallée",
+      "author": "Honoré de Balzac",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1836",
+      "editionYear": 1868,
+      "edition": "Livre:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3ABalzac_-_%C5%92uvres_compl%C3%A8tes,_%C3%A9d._Houssiaux,_1874,_tome_7.djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+      "sourceRevision": "13043532",
+      "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1850,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Honor%C3%A9_de_Balzac",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur et édition historiques identifiés ; texte seul, hors préfaces, notes et illustrations."
+      },
+      "passages": [
+        {
+          "id": "balzac-lys-patrimoine-p01",
+          "label": "Les mouvements du cœur",
+          "text": "— Eh ! bien, me dit monsieur de Chessel quand nous fûmes sans danger d’être écoutés, je n’ai pas besoin de vous demander si vous avez retrouvé vos belles épaules ; il faut vous féliciter de l’accueil que vous a fait monsieur de Mortsauf ! Diantre, vous êtes du premier coup au cœur de la place.",
+          "startParagraph": 56,
+          "endParagraph": 56,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "fc2480de97c8b8ae4771120fab52f909e04e54b50fe31982f30dbdfb2032d9f2",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/304"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p02",
+          "label": "Le regard et la séduction",
+          "text": "— Taisez-vous, me dit-elle vivement en me mettant sur les lèvres un doigt qu’elle ôta aussitôt. Elle me regarda fièrement comme une femme trop haut située pour que l’injure puisse l’atteindre, et me dit d’une voix troublée : — Je sais de quoi vous voulez parler. Il s’agit du premier, du dernier, du seul outrage que j’aurai reçu ! Ne parlez jamais de ce bal. Si la chrétienne vous a pardonné, la femme souffre encore.",
+          "startParagraph": 134,
+          "endParagraph": 134,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "bfba291617acc78e9888846db510742958c0ff3f39c4436252e00fe0232c56c3",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/325"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p03",
+          "label": "Les mouvements du cœur",
+          "text": "— Voici, lui dis-je, la première, la sainte communion de l’amour. Oui, je viens de participer à vos douleurs, de m’unir à votre âme, comme nous nous unissons au Christ en buvant sa divine substance. Aimer sans espoir est encore un bonheur. Ah ! quelle femme sur la terre pourrait me causer une joie aussi grande que celle d’avoir aspiré ces larmes ! J’accepte ce contrat qui doit se résoudre en souffrances pour moi. Je me donne à vous sans arrière-pensée et serai ce que vous voudrez que je sois.",
+          "startParagraph": 159,
+          "endParagraph": 159,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "2f175e37ed5ce20bc1a9dc4cf0378db31cf32b505119c5a1f7804f28af70adfd",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/333",
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/334"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p04",
+          "label": "Passions et vie sociale",
+          "text": "Ici, Natalie, rien n’est romanesque : pour y découvrir l’infini des sentiments profonds, il faut dans sa jeunesse avoir jeté la sonde dans ces grands lacs au bord desquels on a vécu. Si pour beaucoup d’êtres les passions ont été des torrents de lave écoulés entre des rives desséchées, n’est-il pas des âmes où la passion contenue par d’insurmontables difficultés a rempli d’une eau pure le cratère du volcan ?",
+          "startParagraph": 231,
+          "endParagraph": 231,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "86e2f21c421a0bd344496e6a06750a7f2291e8d76eeb869cca76bdf8463228e6",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/357",
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/358"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p05",
+          "label": "Passions et vie sociale",
+          "text": "Le lendemain, quand j’entrai dans le salon, elle y était seule ; elle me contempla pendant un instant en me tendant la main, et me dit : — L’ami sera donc toujours trop tendre ? Ses yeux devinrent humides, elle se leva, puis me dit avec un ton de supplication désespérée : — Ne m’écrivez plus ainsi !",
+          "startParagraph": 273,
+          "endParagraph": 273,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "66eb5f0c3b0a6dec3573c9b14d8f420005768e7ebcfec8c64c959f0c4f654c9d",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/371",
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/372"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p06",
+          "label": "Les mouvements du cœur",
+          "text": "Quand j’eus fini cette lettre, je sentais palpiter sous mes doigts un cœur maternel au moment où j’étais encore glacé par le sévère accueil de ma mère. Je devinai pourquoi la comtesse m’avait interdit en Touraine la lecture de cette lettre, elle craignait sans doute de voir tomber ma tête à ses pieds et de les sentir mouillés par mes pleurs.",
+          "startParagraph": 327,
+          "endParagraph": 327,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "b2edfa6e727f39df6c5e47d353e6bb15d739b8b587e20e48f01847719e893991",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/391"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p07",
+          "label": "Les mouvements du cœur",
+          "text": "— Henriette, idole dont le culte l’emporte sur celui de Dieu, lys, fleur de ma vie, comment ne savez-vous donc plus, vous qui êtes ma conscience, que je me suis si bien incarné à votre cœur que mon âme est ici quand ma personne est à Paris ? Faut-il donc vous dire que je suis venu en dix-sept heures, que chaque tour de roue emportait un monde de pensées et de désirs qui a éclaté comme une tempête aussitôt que je vous ai vue…",
+          "startParagraph": 383,
+          "endParagraph": 383,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "e0f3c028236b7c34c6a4eaa5d82d751d0815cdf4caaf5fd300d7bc933bc31754",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/405"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p08",
+          "label": "Les mouvements du cœur",
+          "text": "— Chère Henriette, lui dis-je alors en serrant son bras contre mon cœur, et m’arrêtant pour la contempler dans sa douleur, vous m’avez naguère dirigé savamment à travers les voies périlleuses du grand monde ; permettez-moi de vous donner quelques instructions pour vous aider à finir le duel sans témoins dans lequel vous succomberiez infailliblement, car vous ne vous battez point avec des armes égales. Ne luttez pas plus long-temps contre un fou…",
+          "startParagraph": 427,
+          "endParagraph": 427,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "effbb2c92308cfb00e6434d6166c54e2f8c87b2761f171d0fb592dd5f0937a2f",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/414",
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/415"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p09",
+          "label": "Le regard et la séduction",
+          "text": "Puis Henriette acheva de dissiper ces noires vapeurs et ces ténèbres par un regard de sollicitude qui rayonna dans mon âme comme le soleil. En ce moment, le vieux piqueur m’apporta de Tours une lettre dont la vue m’arracha je ne sais quel cri de surprise, et qui fit trembler madame de Mortsauf par contre-coup. Je voyais le cachet du cabinet, le roi me rappelait. Je lui tendis la lettre, elle la lut d’un regard.",
+          "startParagraph": 504,
+          "endParagraph": 504,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "987721164238effc4f54f8adb389cc2bf05960bc17a8233396d267be157de19e",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/430"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p10",
+          "label": "Liberté et attachement",
+          "text": "La froideur de sa femme fut une occasion de la contredire, il m’accabla de son amitié. Je connus la pesanteur de l’attachement d’un mari. Ne croyez pas que le moment où leurs attentions assassinent les âmes nobles soit le temps où leurs femmes prodiguent une affection qui semble leur être volée ; non ! ils sont odieux et insupportables le jour où cet amour s’envole. La bonne intelligence, condition essentielle aux attachements de ce genre, apparaît alors comme un moyen ; elle pèse alors, elle est horrible comme tout moyen que sa fin ne justifie plus.",
+          "startParagraph": 541,
+          "endParagraph": 541,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "2f8bf54e89444d18d91d2c4d6c25ee3189d6a9e3e80c55efa8b7997e772f1b11",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/442",
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/443"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p11",
+          "label": "Le regard et la séduction",
+          "text": "— Dites, dites, dites-moi donc cela, ô mon ami ! Elle alla s’asseoir sur un banc et fondit en larmes. La vertu, Félix, la sainteté de la vie, l’amour maternel, ne sont donc pas des erreurs. Oh ! jetez ce baume sur mes plaies ! Répétez une parole qui me rend aux cieux où je voulais tendre d’un vol égal avec vous ! Bénissez-moi par un regard, par un mot sacré, je vous pardonnerai les maux que j’ai soufferts depuis deux mois.",
+          "startParagraph": 592,
+          "endParagraph": 592,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "2384304af1bc02c65974374fb8f1e4e50d6e2c5ec1facb17c3ae3b8198af93cb",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/450"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p12",
+          "label": "Le regard et la séduction",
+          "text": "En entendant ces paroles, je regardai ma vie comme définitivement arrêtée. Je résolus en un moment de terminer par un complet mariage avec lady Dudley la lutte douloureuse qui menaçait d’épuiser ma sensibilité, d’enlever par tant de chocs répétés ces voluptueuses délicatesses qui ressemblent à la fleur des fruits. Mon silence farouche blessa la comtesse, dont toute la grandeur ne m’était pas connue.",
+          "startParagraph": 668,
+          "endParagraph": 668,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "eb2d0cc963a853c5cc58dd773675cb09fda4301994e50905e12bc092478afa7b",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/458"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p13",
+          "label": "Les mouvements du cœur",
+          "text": "— J’ai peur que mon extrême amour ne me nuise, répondit-elle. J’ai tout donné. Plus adroite que je ne le suis, cette femme possède quelque chose en elle que tu peux désirer. Si tu la préfères, ne pense plus à moi : je ne t’ennuierai point de mes douleurs, de mes remords, de mes souffrances ; non, j’irai mourir loin de toi, comme une plante sans son vivifiant soleil.",
+          "startParagraph": 718,
+          "endParagraph": 718,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "1f86f52e0ffb7b3e1d270bb1c4455adc848283dae688509e0961d695ab07c1c5",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/469"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p14",
+          "label": "Les mouvements du cœur",
+          "text": "Il me dit alors, en employant cette onctueuse éloquence qui tombe sur le cœur comme une rosée, que depuis six mois la comtesse avait chaque jour souffert davantage, malgré les soins de monsieur Origet. Le docteur était venu pendant deux mois, tous les soirs, à Clochegourde, voulant arracher cette proie à la mort, car la comtesse avait dit : — « Sauvez-moi ! » — « Mais, pour guérir le corps, il aurait fallu que le cœur fût guéri ! » s’était un jour écrié le vieux médecin.",
+          "startParagraph": 766,
+          "endParagraph": 766,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "060d93dd7b511ab6598008bddca4e4a9d400b0b04eaa5ef361e921f7315bd886",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/485"
+          ]
+        },
+        {
+          "id": "balzac-lys-patrimoine-p15",
+          "label": "Passions et vie sociale",
+          "text": "Dans ces affreux moments quoique chacun en sache l’inévitable fin, les affections vraies deviennent folles et s’attachent à de petits bonheurs. Les minutes sont des siècles que l’on voudrait rendre bienfaisants. On voudrait que les malades reposassent sur des roses, on voudrait prendre leurs souffrances, on voudrait que le dernier soupir fût pour eux inattendu.",
+          "startParagraph": 810,
+          "endParagraph": 810,
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "sourceRevision": "13043532",
+          "sourceHtmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "sourceSection": "LE LYS DANS LA VALLÉE.",
+          "sha256": "58cd7d804b9beb6d3d436bf9b0537ad21f5549800546740d7e832e7d5e661336",
+          "pageRefs": [
+            "Page:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu/494"
+          ]
+        }
+      ],
+      "kind": "roman",
+      "genre": "roman de la passion contenue",
+      "context": "La passion de Félix et d’Henriette se heurte au mariage, à la conscience et aux contraintes sociales. Ce roman de l’amour contenu donne une place essentielle aux silences, aux lettres et aux paysages. Il appartient à cette collection par son écriture du désir, sans être présenté comme un roman érotique.",
+      "sourceDocuments": [
+        {
+          "source": "https://fr.wikisource.org/wiki/Le_Lys_dans_la_vall%C3%A9e",
+          "revision": "13043532",
+          "htmlSha256": "73b9bfd9b637c8d9e4dea5fbe477ec31facf071bc105167dd7e4f228b5525c5d",
+          "edition": "Livre:Balzac - Œuvres complètes, éd. Houssiaux, 1874, tome 7.djvu"
+        }
+      ]
+    },
+    {
+      "id": "zola-curee-patrimoine",
+      "title": "La Curée",
+      "author": "Émile Zola",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1871",
+      "editionYear": 1895,
+      "edition": "Livre:Emile Zola - La Curée.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3AEmile_Zola_-_La_Cur%C3%A9e.djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+      "sourceRevision": "12380024",
+      "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1902,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:%C3%89mile_Zola",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur et édition historiques identifiés ; texte seul, hors préfaces, notes et illustrations."
+      },
+      "passages": [
+        {
+          "id": "zola-curee-patrimoine-p01",
+          "label": "Passions et vie sociale",
+          "text": "— Ah ! oui, la grosse Laure ! Je n’y pense guère, va. Si Aristide, comme vous voulez tous me le faire entendre, a payé les dettes de cette fille et lui a évité ainsi un voyage à l’étranger, c’est qu’il aime l’argent moins que je ne le croyais. Cela va le remettre en faveur auprès des dames… Le cher homme, je le laisse bien libre.",
+          "startParagraph": 24,
+          "endParagraph": 24,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "220123a1ded2bead312fd53d0f2a52a80512e13efa7e764be340d389d7b0b0a3",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/7"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p02",
+          "label": "Passions et vie sociale",
+          "text": "— Je te conseille de te plaindre, continua Maxime : tu dépenses plus de cent mille francs par an pour ta toilette, tu habites un hôtel splendide, tu as des chevaux superbes, tes caprices font loi, et les journaux parlent de chacune de tes robes nouvelles comme d’un événement de la dernière gravité ; les femmes te jalousent, les hommes donneraient dix ans de leur vie pour te baiser le bout des doigts… Est-ce vrai ?",
+          "startParagraph": 39,
+          "endParagraph": 39,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "bb20e3ed84f710caae9e2fa32309de78e1c80e13b4784790e4bb563f473efbeb",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/8",
+            "Page:Emile Zola - La Curée.djvu/9"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p03",
+          "label": "Le regard et la séduction",
+          "text": "Elle haussa les épaules, pour dire qu’elle ne savait pas. Bien qu’elle penchât la tête, Maxime la vit alors si sérieuse, si sombre, qu’il se tut. Il regarda la file des voitures qui, en arrivant au bout du lac, s’élargissait, emplissait le large carrefour. Les voitures, moins serrées, tournaient avec une grâce superbe ; le trot plus rapide des attelages sonnait hautement sur la terre dure.",
+          "startParagraph": 46,
+          "endParagraph": 46,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "d6145e4219e74a71ee073d2760a97f86b2b33aff71c9c3dafe6eede0f258a621",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/9"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p04",
+          "label": "Les mouvements du cœur",
+          "text": "Renée, dans ses satiétés, éprouva une singulière sensation de désirs inavouables, à voir ce paysage qu’elle ne reconnaissait plus, cette nature si artistement mondaine, et dont la grande nuit frissonnante faisait un bois sacré, une de ces clairières idéales au fond desquelles les anciens dieux cachaient leurs amours géantes, leurs adultères et leurs incestes divins. Et, à mesure que la calèche s’éloignait, il lui semblait que le crépuscule emportait derrière elle, dans ses voiles tremblants, la terre du rêve, l’alcôve honteuse et surhumaine où elle eût enfin assouvi son cœur malade, sa chair lassée.",
+          "startParagraph": 56,
+          "endParagraph": 56,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "6ec448f095bfc5194af4af1c8958067b4a3070ad088966e06706d44ef78a3369",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/11"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p05",
+          "label": "Passions et vie sociale",
+          "text": "— Certes, oui, vous êtes assommants… Je ne dis pas cela pour toi, Maxime, tu es trop jeune… Mais si je te contais combien Aristide m’a pesé dans les commencements ! Et les autres donc ! ceux qui m’ont aimée… Tu sais, nous sommes deux bons camarades, je ne me gêne pas avec toi ; eh bien ! vrai, il y a des jours où je suis tellement lasse de vivre ma vie de femme riche, adorée, saluée, que je voudrais être une Laure d’Aurigny, une de ces dames qui vivent en garçon.",
+          "startParagraph": 60,
+          "endParagraph": 60,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "538acd37a3ad6d07f011218225f20ac35426bb4b13e78bb00f024f43e6bf71a6",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/12"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p06",
+          "label": "Les mouvements du cœur",
+          "text": "Sans doute Maxime sentit tout le mauvais ton qu’il y avait à trouver la vie drôle. S’il était encore assez jeune pour se livrer à un élan d’heureuse admiration, il avait un égoïsme trop large, une indifférence trop railleuse, il éprouvait déjà trop de lassitude réelle, pour ne pas se déclarer écœuré, blasé, fini. D’ordinaire, il mettait quelque gloire à cet aveu.",
+          "startParagraph": 66,
+          "endParagraph": 66,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "2b139695208f0cebf524f5b78ac1e652040b98e90e4623fb941844c39c2b7d7b",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/13"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p07",
+          "label": "Passions et vie sociale",
+          "text": "— Tiens ! tu as raison, dit-il ; c’est crevant. Va, je ne m’amuse guère plus que toi ; j’ai souvent aussi rêvé autre chose… Rien n’est bête comme de voyager. Gagner de l’argent, j’aime encore mieux en manger, quoique ce ne soit pas toujours aussi amusant qu’on se l’imagine d’abord. Aimer, être aimé, on en a vite plein le dos, n’est-ce pas ?… Ah oui, on en a plein le dos !",
+          "startParagraph": 68,
+          "endParagraph": 68,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "94fb1d8fd9127183e05057d1a51644e721a6e985f0c3ee017f2dea39b2f378d9",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/13"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p08",
+          "label": "Le regard et la séduction",
+          "text": "Cependant, il y eut un grand mouvement, tous les convives vinrent saluer la belle Mme Saccard, comme on nommait Renée dans le monde. Elle toucha la main presque à tous les hommes. Puis elle embrassa Christine, en lui demandant des nouvelles de son père, qui ne venait jamais à l’hôtel du parc Monceaux. Et elle restait debout, souriante, saluant encore de la tête, les bras mollement arrondis, devant le cercle des dames qui regardaient curieusement la rivière et l’aigrette.",
+          "startParagraph": 107,
+          "endParagraph": 107,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "7db22f12f37e5460616996397ad8508b3a0d090cfd2629cf4ac7fd2f02a0f301",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/25"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p09",
+          "label": "Le regard et la séduction",
+          "text": "Aristide Saccard s’approcha, s’inclina, fit de la modestie. Mais son visage grimaçant trahissait une satisfaction vive. Et il regardait du coin de l’œil les deux entrepreneurs, les deux maçons enrichis, plantés à quelques pas, écoutant sonner les chiffres de quinze mille et de cinquante mille francs, avec un respect visible.",
+          "startParagraph": 112,
+          "endParagraph": 112,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "b373b1c6b1f8e6e58713eb292350109d3084f3b4e6f587162aeebb92bb8760e3",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/26"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p10",
+          "label": "Passions et vie sociale",
+          "text": "Un autre personnage était également resté muet, le baron Gouraud, qui mâchait lentement comme un bœuf aux paupières lourdes. Jusque-là, il avait paru absorbé dans le spectacle de son assiette. Renée, aux petits soins pour lui, n’en obtenait que de légers grognements de satisfaction. Aussi fut-on surpris de le voir lever la tête et de l’entendre dire, en essuyant ses lèvres grasses :",
+          "startParagraph": 155,
+          "endParagraph": 155,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "a8f72ee940274e7ac22b9db0368f547c49cc3540dd4973d3f00e4794380d92b1",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/34",
+            "Page:Emile Zola - La Curée.djvu/35"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p11",
+          "label": "Le regard et la séduction",
+          "text": "Ces dernières paroles glacèrent les hommes graves. La conversation tomba net, et chacun parut éviter de regarder son voisin. La phrase du maçon atteignait ces messieurs, roide comme le pavé de l’ours. Michelin, qui justement contemplait Saccard d’un air agréable, cessa de sourire, très effrayé d’avoir eu l’air un instant d’appliquer les paroles de l’entrepreneur au maître de la maison. Ce dernier lança un coup d’œil à Mme Sidonie, qui accapara de nouveau Mignon, en disant : « Vous aimez donc le rose, monsieur ?… » Puis Saccard fit un long compliment à Mme d’Espanet ; sa figure noirâtre, chafouine, touchait presque les épaules laiteuses de la jeune femme, qui se renversait avec de petits rires.",
+          "startParagraph": 160,
+          "endParagraph": 160,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "54e0f07f963922f92ad5046b0583b6829629eb36ebc9fa93cb647d0b74ce88f1",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/35"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p12",
+          "label": "Les mouvements du cœur",
+          "text": "Ils rentrèrent dans le fumoir, ils s’allongèrent dans de larges fauteuils-dormeuses. Là, pendant une grande demi-heure, M. de Mussy conta ses chagrins à Maxime ; il lui dit pour la dixième fois comment il était tombé amoureux de sa belle-mère, comment elle avait bien voulu le distinguer ; et Maxime, en attendant que son cigare fût achevé, lui donnait des conseils, lui expliquait Renée, lui indiquait de quelle façon il devait se conduire pour la dominer.",
+          "startParagraph": 188,
+          "endParagraph": 188,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "981bc62e036c1061b54b87be0a1c0692741d1a35ecbf122e4e4344845339f5e8",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/42"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p13",
+          "label": "Le regard et la séduction",
+          "text": "Renée aimait ce petit salon, dont une des portes-fenêtres s’ouvrait sur la magnifique serre chaude scellée au flanc de l’hôtel. Dans la journée, elle y passait ses heures d’oisiveté. Les tentures jaunes, au lieu d’éteindre sa chevelure pâle, la doraient de flammes étranges ; sa tête se détachait au milieu d’une lueur d’aurore, toute rose et blanche, comme celle d’une Diane blonde s’éveillant dans la lumière du matin ; et c’était pourquoi, sans doute, elle aimait cette pièce qui mettait sa beauté en relief.",
+          "startParagraph": 197,
+          "endParagraph": 197,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "79f01239c9619c2f8a3e25e6f6a8231a62814abd1ec8a138ebe3db7cb0459bd9",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/44"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p14",
+          "label": "Le regard et la séduction",
+          "text": "Mais ce qui, de tous les détours des allées, frappait les regards, c’était un grand Hibiscus de la Chine, dont l’immense nappe de verdure et de fleurs couvrait tout le flanc de l’hôtel, auquel la serre était scellée. Les larges fleurs pourpres de cette mauve gigantesque, sans cesse renaissantes, ne vivent que quelques heures. On eût dit des bouches sensuelles de femmes qui s’ouvraient, les lèvres rouges, molles et humides, de quelque Messaline géante, que des baisers meurtrissaient, et qui toujours renaissaient avec leur sourire avide et saignant.",
+          "startParagraph": 229,
+          "endParagraph": 229,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "88264c787f6f416868c6a5bd620e7b4fe25f869415adbe4ca4e2d8aa942b6160",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/51"
+          ]
+        },
+        {
+          "id": "zola-curee-patrimoine-p15",
+          "label": "Le regard et la séduction",
+          "text": "Et sous la lumière vive, Renée songeait, en regardant de loin Louise et Maxime. Ce n’était plus la rêverie flottante, la grise tentation du crépuscule, dans les allées fraîches du Bois. Ses pensées n’étaient plus bercées et endormies par le trot de ses chevaux, le long des gazons mondains, des taillis où les familles bourgeoises dînent le dimanche. Maintenant un désir net, aigu, l’emplissait.",
+          "startParagraph": 231,
+          "endParagraph": 231,
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "sourceRevision": "12380024",
+          "sourceHtmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "sourceSection": "I",
+          "sha256": "3d947b7e0fbfc459f8d176b4997c2ff51e1cb5138a869a2665e304f57857647d",
+          "pageRefs": [
+            "Page:Emile Zola - La Curée.djvu/52"
+          ]
+        }
+      ],
+      "kind": "roman",
+      "genre": "roman naturaliste des désirs et du pouvoir",
+      "context": "Dans le Paris du Second Empire, le luxe, l’ennui et la spéculation façonnent les désirs de Renée. Les extraits du premier chapitre montrent le regard critique du roman sur l’argent, les apparences et la possession. Les rapports de domination représentés ne constituent pas des modèles.",
+      "sourceDocuments": [
+        {
+          "source": "https://fr.wikisource.org/wiki/La_Cur%C3%A9e/I",
+          "revision": "12380024",
+          "htmlSha256": "f13ed7ac4f0d87a63e78032c43b1f3ee9a1ace1fb84c5ae74e54d087dd75c0af",
+          "edition": "Livre:Emile Zola - La Curée.djvu"
+        }
+      ]
+    },
+    {
+      "id": "maupassant-notre-coeur-patrimoine",
+      "title": "Notre cœur",
+      "author": "Guy de Maupassant",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1890",
+      "editionYear": 1902,
+      "edition": "Livre:Guy de Maupassant - Notre Cœur.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3AGuy_de_Maupassant_-_Notre_C%C5%93ur.djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+      "sourceRevision": "14177472",
+      "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1893,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Guy_de_Maupassant",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur et édition historiques identifiés ; texte seul, hors préfaces, notes et illustrations."
+      },
+      "passages": [
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p01",
+          "label": "Le regard et la séduction",
+          "text": "Le dîner fut annoncé, et Mme de Burne, prenant le bras d’André Mariolle, laissa passer ses convives. Puis, comme ils étaient demeurés tous deux les derniers au salon, au moment de se mettre en route elle jeta sur lui, obliquement, un regard rapide de son œil pâle à lentille noire, où il crut sentir une pensée de femme plus complexe et un intérêt plus chercheur que ne se donnent la peine d’en avoir ordinairement les jolies dames recevant à leur table un monsieur quelconque pour la première fois.",
+          "startParagraph": 78,
+          "endParagraph": 78,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "I",
+          "sha256": "6e8b00c1d5ead962302de9236934e337f3f279e05035806009987a5da965c5ad",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/26",
+            "Page:Guy de Maupassant - Notre Cœur.djvu/27"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p02",
+          "label": "Passions et vie sociale",
+          "text": "— Oui. Mais ce que je vous disais tout à l’heure est si vrai ! Certainement je ne l’aurais pas goûtée comme je la goûte, adorée comme je l’adore, sans cet ange de Massival. Toutes les œuvres des grands, que j’aimais déjà passionnément, eh bien ! il a mis leur âme dedans en me les faisant jouer. Quel dommage qu’il soit marié !",
+          "startParagraph": 141,
+          "endParagraph": 141,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "I",
+          "sha256": "c443a3785136301ccc38dc091a972f53cf2d1907989e75d1ba1f3aaa10e7c5cd",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/36"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p03",
+          "label": "Passions et vie sociale",
+          "text": "Non, elle n’avait aimé personne parmi ces paradeurs de la curiosité publique ; mais lui, qui n’était rien près d’eux, qui ne faisait pas se tourner les têtes et se fixer les yeux quand son nom passait dans une foule ou dans un salon, que serait-il pour elle ? Rien, rien, un comparse, un monsieur, celui qui, pour ces femmes recherchées, devient le familier vulgaire, utile et sans bouquet comme le vin qu’on boit avec l’eau.",
+          "startParagraph": 255,
+          "endParagraph": 255,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "III",
+          "sha256": "3197f22de6a5cb0556317c7fdcd0953882be0ea9c2c9892452b977cb77e48f6c",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/64"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p04",
+          "label": "Le regard et la séduction",
+          "text": "Il marchait à côté d’elle, sans trouver rien à lui dire ; et le frôlement de sa robe, le coudoiement, parfois, de son bras, la rencontre, si parlante, de leurs regards, l’anéantissaient complètement, comme s’ils eussent tué en lui sa personnalité d’homme. Il se sentait soudain détruit par le contact de cette femme, absorbé par elle jusqu’à n’être plus rien, rien qu’un désir, rien qu’un appel, rien qu’une adoration. Elle avait supprimé tout son être ancien comme on flambe une lettre.",
+          "startParagraph": 353,
+          "endParagraph": 353,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "I",
+          "sha256": "890d09033ed7ab1f06b414cfc522a4344baf17884538a8125bc3243726b2b20b",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/87",
+            "Page:Guy de Maupassant - Notre Cœur.djvu/88"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p05",
+          "label": "Les mouvements du cœur",
+          "text": "Tout le monde se sentait content, et deux cœurs se croyaient tout près d’être heureux. Vers le dessert, quand l’animation des vins bus et le plaisir des causeries eurent développé dans les corps ce bonheur de vivre qui nous anime parfois à la fin des bons repas et nous dispose à tout approuver, à tout accepter, Mariolle demanda :\n\n— Voulez-vous que nous restions ici jusqu’à demain ? Ce serait si beau de voir cela au clair de lune, et si agréable de dîner encore ensemble ce soir !",
+          "startParagraph": 453,
+          "endParagraph": 454,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "I",
+          "sha256": "1b212a2dcf5d7c85bcfd8d1241c26f773c069f2334f2e258e0618454647cb9c1",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/105",
+            "Page:Guy de Maupassant - Notre Cœur.djvu/106"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p06",
+          "label": "Le regard et la séduction",
+          "text": "Des voitures roulaient sur le quai à leurs pieds, sans qu’ils les vissent. Des pas sonnaient sur le trottoir tout proche, contre le mur qui portait la promenade, et, ne trouvant pas encore ce qu’ils allaient se dire, ils regardaient ensemble ce beau paysage parisien qui va de l’île Saint-Louis et des tours de Notre-Dame, aux coteaux de Meudon. Elle répéta :\n\n— C’est très joli tout de même, ceci.",
+          "startParagraph": 556,
+          "endParagraph": 557,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "I",
+          "sha256": "e4b9a697e24e97e7115efbafe5df39f0763e2c98233a11253851c020321e4492",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/126"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p07",
+          "label": "Les mouvements du cœur",
+          "text": "Une colère, une sorte de haine contre cette femme, s’éveilla brusquement au cœur de Mariolle, et une irritation subite contre tout ce monde, contre la vie de ces gens, leurs idées, leurs goûts, leurs penchants futiles, leurs amusements de pantins. Alors, profitant de ce que Lamarthe s’était penché pour parler bas à la jeune femme, il tourna le dos et s’éloigna.",
+          "startParagraph": 661,
+          "endParagraph": 661,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "III",
+          "sha256": "443190925d187c28f632275cf9ac51241f5d44dac01a11b5ad699a3df6c77d89",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/145"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p08",
+          "label": "Passions et vie sociale",
+          "text": "Et elle raconta un potin tout chaud dont elle était encore émue. On disait que Mme Massival, l’ancienne maîtresse épousée par l’artiste, exaspérée de jalousie, avait pénétré chez Mme de Bratiane au milieu d’une soirée, pendant que la marquise chantait, accompagnée par le compositeur, et avait fait une scène épouvantable : d’où fureur de l’Italienne, surprise et joie des invités.",
+          "startParagraph": 760,
+          "endParagraph": 760,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "IV",
+          "sha256": "0640bcca76ad82ca5e7550211035243f1d2ae419c9eae3c4bb8c41f7d71fa4f1",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/169"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p09",
+          "label": "Les mouvements du cœur",
+          "text": "— Et pourquoi ? oui pourquoi ? Du moment que vous avez eu le pressentiment de l’amour, que vous avez été effleurée par le soupçon de cet irréalisable et torturant espoir de mêler sa vie, son âme et sa chair avec celles d’un autre être, de disparaître en lui et de le prendre en soi, que vous avez senti la possibilité de cette inexprimable émotion, vous subirez cela un jour ou l’autre.",
+          "startParagraph": 864,
+          "endParagraph": 864,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "V",
+          "sha256": "0c3e8fde81e00ddd83514f675ca631205ae520d7aaaeb51ae3e49584336e269c",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/190"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p10",
+          "label": "Les mouvements du cœur",
+          "text": "Oh ! l’horrible amour celui auquel il est maintenant enchaîné ; amour sans issue, sans fin, sans joie et sans triomphe, qui énerve, exaspère et ronge de souci ; amour sans douceur et sans ivresses, faisant seulement pressentir et regretter, souffrir et pleurer, et ne révélant l’extase des caresses partagées que par l’intolérable regret des baisers impossibles à éveiller sur des lèvres froides, stériles et sèches comme des arbres morts.",
+          "startParagraph": 964,
+          "endParagraph": 964,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "VI",
+          "sha256": "f3349aa0336bb0e6dce600e58199e281319f246c83ebede8a50b3be11daa34cd",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/209"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p11",
+          "label": "Passions et vie sociale",
+          "text": "Le romancier aimait parler, la nuit, sur les trottoirs, en reconduisant quelqu’un. Sa voix brève, stridente, mordante, semblait s’accrocher et grimper aux murs des maisons. Il se sentait éloquent et clairvoyant, spirituel et imprévu en ces tête-à-tête nocturnes, où il monologuait plutôt qu’il ne causait. Il y obtenait pour lui-même des succès d’estime qui lui suffisaient, et il se préparait un bon sommeil par cette légère fatigue des poumons et des jambes.",
+          "startParagraph": 1060,
+          "endParagraph": 1060,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "VII",
+          "sha256": "7e52cc20023c9587e5452457fe2da88a7903be1858530bb767b9ed21609e652e",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/229",
+            "Page:Guy de Maupassant - Notre Cœur.djvu/230"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p12",
+          "label": "Passions et vie sociale",
+          "text": "Mais il se réveilla en pleines ténèbres, mal à l’aise, tourmenté comme si un cauchemar chassé pendant quelques heures avait reparu furtivement pour interrompre son sommeil. Elle était là, elle, Mme de Burne, revenue, rôdant encore autour de lui, toujours accompagnée de M. de Bernhaus. « Tiens ! se dit-il, je suis jaloux à présent ; pourquoi donc ? »",
+          "startParagraph": 1154,
+          "endParagraph": 1154,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "I",
+          "sha256": "3759c50d7b1e475a972ec05d4bf2ed79fc678c11e74b04d05eda65dc6418f3e4",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/255"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p13",
+          "label": "Les mouvements du cœur",
+          "text": "Il était bercé par la voix, séduit par la fable tant connue et toujours neuve, et il rêvait d’une maîtresse volage et séduisante comme celle de des Grieux, infidèle et constante, humaine et tentante jusqu’en ses infâmes défauts, créée pour faire sortir de l’homme tout ce qu’il a en lui de tendresse et de colère, d’attachement et de haine passionnée, de jalousie et de désir.",
+          "startParagraph": 1311,
+          "endParagraph": 1311,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "II",
+          "sha256": "5ef3c959c53f05414e7f0ee1db9c0c951322ea56f21b339075281b794b6900cc",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/281"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p14",
+          "label": "Les mouvements du cœur",
+          "text": "Des souvenirs l’assaillirent, cruels et délicieux, ceux de toutes les dépêches qu’il avait reçues d’elle, tantôt pour lui fixer le moment d’un rendez-vous, tantôt pour lui dire qu’elle ne viendrait pas. Jamais rien n’avait fait entrer en lui plus d’émotion, ne l’avait fait tressaillir plus violemment, n’avait arrêté plus net et fait rebondir plus fort son pauvre cœur que la vue de ces messagères enfiévrantes ou désespérantes.",
+          "startParagraph": 1354,
+          "endParagraph": 1354,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "II",
+          "sha256": "7a6638f781f93a90dbe66da31ab3a20df24895e644b56ca3939f6c15491e6f01",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/291"
+          ]
+        },
+        {
+          "id": "maupassant-notre-coeur-patrimoine-p15",
+          "label": "Passions et vie sociale",
+          "text": "De son sourire elle semblait lui dire : « Ayez donc un peu de confiance ; » et, comme elle le voyait palpitant de passion, elle sentait en tout son corps une sorte de bien-être, de contentement, qui la faisait heureuse à sa manière, comme est heureux un épervier dont le vol s’abat sur une proie fascinée.",
+          "startParagraph": 1454,
+          "endParagraph": 1454,
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "sourceRevision": "14177472",
+          "sourceHtmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "sourceSection": "II",
+          "sha256": "514322132106d3abf1056142a57f927b2856fcc17ee7dd9dc840b78df83f95b3",
+          "pageRefs": [
+            "Page:Guy de Maupassant - Notre Cœur.djvu/301"
+          ]
+        }
+      ],
+      "kind": "roman",
+      "genre": "roman psychologique du désir",
+      "context": "André Mariolle et Michèle de Burne n’attendent pas la même chose de l’amour. Le roman examine l’attachement, la jalousie et la difficulté de partager un sentiment. La collection retient cette analyse du désir, distincte de la fiction érotique explicite.",
+      "sourceDocuments": [
+        {
+          "source": "https://fr.wikisource.org/wiki/Notre_c%C5%93ur/Texte_entier",
+          "revision": "14177472",
+          "htmlSha256": "c348750bdf307adc60ac07ca6bcd095c0a84176b50e1b4ea7f6c8d9007637b45",
+          "edition": "Livre:Guy de Maupassant - Notre Cœur.djvu"
+        }
+      ]
+    },
+    {
+      "id": "maupassant-fort-mort-patrimoine",
+      "title": "Fort comme la mort",
+      "author": "Guy de Maupassant",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1889",
+      "editionYear": 1889,
+      "edition": "Livre:Maupassant - Fort comme la mort.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3AMaupassant_-_Fort_comme_la_mort.djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+      "sourceRevision": "4815640",
+      "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1893,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Guy_de_Maupassant",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur et édition historiques identifiés ; texte seul, hors préfaces, notes et illustrations."
+      },
+      "passages": [
+        {
+          "id": "maupassant-fort-mort-patrimoine-p01",
+          "label": "Le regard et la séduction",
+          "text": "Il se pencha, baisa le pied qui semblait flotter entre la robe et le tapis et qui ne remuait plus, un peu refroidi par l’air, puis il le chaussa ; et Mme de\nGuilleroy, s’étant levée, alla vers la table où traînaient des papiers, des lettres ouvertes, vieilles et\nrécentes, à côté d’un encrier de peintre où l’encre\nancienne était séchée. Elle regardait d’un œil curieux, touchait aux feuilles, les soulevait pour voir dessous.",
+          "startParagraph": 108,
+          "endParagraph": 108,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "26b7e4e934e71e825fcd5fd73bbeb4a4b73e52f5b1a6c9513beefd7590350b5b",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/16"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p02",
+          "label": "Le regard et la séduction",
+          "text": "Alors, sans aucun calcul, sans aucune détermination réfléchie, elle sentit croître en elle le désir\nnaturel de le séduire, et y céda. Elle n’avait rien\nprévu, rien combiné ; elle fut seulement coquette,\navec plus de grâce, comme on l’est par instinct envers un homme qui vous plaît davantage que les autres ; et elle mit dans toutes ses manières avec lui, dans ses regards et ses sourires, cette glu de séduction que répand autour d’elle la femme\nen qui s’éveille le besoin d’être aimée.",
+          "startParagraph": 173,
+          "endParagraph": 173,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "69f11368797f524b2136b4db8039896180a5d5dab7cb86d14f77c8597bd9d1cf",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/28"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p03",
+          "label": "Le regard et la séduction",
+          "text": "Elle s’amusait quand il était gai ; quand il était\nprofond, elle tâchait de le suivre en ses développements, sans y parvenir toujours ; et lorsqu’elle pensait à autre chose, elle semblait l’écouter avec des airs d’avoir si bien compris, de tant jouir de cette initiation, qu’il s’exaltait à la regarder l’entendre, ému d’avoir découvert une âme fine,  ouverte et docile, en qui la pensée tombait comme une graine.",
+          "startParagraph": 175,
+          "endParagraph": 175,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "c9e90e5a173876816711beb18fd91a68ccaca31fe83dd2ea107a6a920b0baf29",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/28",
+            "Page:Maupassant - Fort comme la mort.djvu/29"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p04",
+          "label": "Le regard et la séduction",
+          "text": "Penché vers elle, épiant tous les mouvements de sa figure, toutes les colorations de sa chair,\ntoutes les ombres de la peau, toutes les expressions\net les transparences des yeux, tous les secrets de\nsa physionomie, il s’était imprégné d’elle comme une éponge se gonfle d’eau ; et transportant sur sa toile cette émanation de charme troublant que son regard recueillait, et qui coulait, ainsi qu’une onde, de sa pensée à son pinceau, il en demeurait étourdi, grisé comme s’il avait bu de la grâce de femme.",
+          "startParagraph": 177,
+          "endParagraph": 177,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "7c97bc07352f400b4fd914f0117fd5e212ca7ac80adfd70d711468d596067bc4",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/29"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p05",
+          "label": "Les mouvements du cœur",
+          "text": "C’était vrai, il avait besoin de la voir, un besoin\nprofond, oppressant, harcelant. Qu’était cela ? de l’amour ? Mais il ne se sentait ni exaltation dans la\npensée, ni emportement dans les sens, ni rêverie dans l’âme, en constatant que, si elle ne venait pas ce jour-là, il souffrirait beaucoup.",
+          "startParagraph": 194,
+          "endParagraph": 194,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "fee0e18e38578e922e5e7f5c52c1acd185e6da7e51dcefc65dfcb79fafe48840",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/34"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p06",
+          "label": "Les mouvements du cœur",
+          "text": "Quand elle sortait de chez elle pour se rendre à\nl’atelier du peintre, une joie l’inondait, vive et\nchaude, la rendait légère et joyeuse. En posant sa main sur la sonnette de l’hôtel d’Olivier, son cœur battait d’impatience, et le tapis de l’escalier était le plus doux que ses pieds eussent jamais pressé.",
+          "startParagraph": 225,
+          "endParagraph": 225,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "370e242b9a37376c7be1ba69d240c06815f93c404a5a9b5f8b5c95c048fb875e",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/37"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p07",
+          "label": "Les mouvements du cœur",
+          "text": "Alors elle commença à se faire des reproches. Une colère s’élevait en elle, contre son aveuglement et sa faiblesse. Comment n’avait-elle pas prévu\ncela ? compris que l’heure de cette lutte devait venir ? que cet homme lui plaisait assez pour la rendre lâche ? et que dans les cœurs les plus droits le désir souffle parfois comme un coup de vent qui emporte la volonté.",
+          "startParagraph": 240,
+          "endParagraph": 240,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "b035342fe8c053d8684c6512ef077b9351a548b1432e1d843f48d75cf3b9a0d4",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/40"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p08",
+          "label": "Le regard et la séduction",
+          "text": "S’enfermant alors dans l’atelier, il s’exalta devant le portrait, les lèvres chatouillées de l’envie de se poser sur la peinture où quelque chose d’elle était fixé ; et de moment en moment, il regardait dans la rue par la fenêtre. Toutes les robes apparues au loin lui donnaient un battement de cœur. Vingt fois il crut la reconnaître, puis, quand la\nfemme aperçue était passée, il s’asseyait un moment, accablé comme après une déception.",
+          "startParagraph": 272,
+          "endParagraph": 272,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "d48454e5cc9f2dddc7aee2ddbbdcbd675778670baec81abab50614dedda438be",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/45",
+            "Page:Maupassant - Fort comme la mort.djvu/46"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p09",
+          "label": "Les mouvements du cœur",
+          "text": "Alors, elle n’eut plus de remords, mais le vague sentiment d’une déchéance, et pour répondre aux\nreproches de sa raison, elle crut à une fatalité. Entraînée vers lui par son cœur qui était vierge, et par son âme qui était vide, la chair conquise par la lente domination des caresses, elle s’attacha peu à peu, comme s’attache les femmes tendres, qui aiment pour la première fois.",
+          "startParagraph": 306,
+          "endParagraph": 306,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "abb603d08a4285b4ac27f71144cb08c83b2f317de3fe6c93035f6858099772fa",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/51",
+            "Page:Maupassant - Fort comme la mort.djvu/52"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p10",
+          "label": "Les mouvements du cœur",
+          "text": "Alors elle commençait à souffrir ; elle ne dormait plus que des sommeils troublés par les tortures du doute. Pour le surprendre, elle arrivait chez lui sans l’avoir prévenu, lui jetait des questions qui semblaient naïves, tâtait son cœur, écoutait sa pensée, comme on tâte, comme on écoute,\npour connaître le mal caché dans un être.",
+          "startParagraph": 315,
+          "endParagraph": 315,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "cfe06f7d16a20d65da83589ab1ad64cc521c9c53e533aa4abad416e900848d3b",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/54",
+            "Page:Maupassant - Fort comme la mort.djvu/55"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p11",
+          "label": "Liberté et attachement",
+          "text": "D’une façon discrète et continue, elle fit couler\nl’éloge sur lui ; elle le berça d’admiration et l’enveloppa de compliments, afin que, partout ailleurs,\nil trouvât l’amitié et même la tendresse un peu froides et incomplètes, afin que si, d’autres l’aimaient aussi, il finît par s’apercevoir qu’aucune ne le comprenait comme elle.",
+          "startParagraph": 320,
+          "endParagraph": 320,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "ad84d84c73dbfe431bdc69dad2863c46fc99aec12fd0ddb30e33d1380c0e01a9",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/56"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p12",
+          "label": "Passions et vie sociale",
+          "text": "Non seulement, elle apprit à découvrir tous ses goûts, afin de lui donner en les rassasiant chez elle, à\nune impression de bien-être que rien ne remplacerait, mais elle sut en faire naître de nouveaux, lui créer des gourmandises de toute sorte, matérielles ou sentimentales, des habitudes de petits soins, d’affection, d’adoration, de flatterie ! Elle s’efforça de séduire ses yeux par des élégances, son odorat par des parfums, son oreille par des compliments et sa bouche par des nourritures.",
+          "startParagraph": 322,
+          "endParagraph": 322,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "I",
+          "sha256": "072e194e77597cf183b7fb72952d7d9be51d18889268705d6084c8399e973dff",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/56"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p13",
+          "label": "Le regard et la séduction",
+          "text": "— Ils vivent, disait-il, à côté de tout, sans rien voir et rien pénétrer ; à côté de la science qu’ils ignorent ; à côté de la nature qu’ils ne savent pas regarder ; à côté du bonheur, car ils sont impuissants à jouir ardemment de rien ; à côté de la beauté du monde ou de la beauté de l’art, dont ils parlent sans l’avoir découverte, et même sans y croire, car ils ignorent l’ivresse de goûter aux joies de la vie et de l’intelligence. Ils sont incapables de s’attacher à une chose jusqu’à l’aimer uniquement, de s’intéresser à rien jusqu’à être illuminés par le bonheur de comprendre.",
+          "startParagraph": 414,
+          "endParagraph": 414,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "II",
+          "sha256": "3ff571d5af9ce378f93086a3e734fed806bd72fe2a8e5f357550d1fd6ce04893",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/73"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p14",
+          "label": "Passions et vie sociale",
+          "text": "Le comte de Guilleroy, chez qui l’habitude d’entendre vanter cette toile avait enraciné la conviction qu’il possédait un chef-d’œuvre, s’approcha pour renchérir, et, pendant une minute ou deux, ils  accumulèrent toutes les formules usitées et techniques pour célébrer les qualités apparentes et intentionnelles de ce tableau.",
+          "startParagraph": 445,
+          "endParagraph": 445,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "II",
+          "sha256": "10178f10da33eba4ebdbd3a849065a79a42daea1bc616acc8ca4fb87c18dba04",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/77",
+            "Page:Maupassant - Fort comme la mort.djvu/78"
+          ]
+        },
+        {
+          "id": "maupassant-fort-mort-patrimoine-p15",
+          "label": "Les mouvements du cœur",
+          "text": "Entre les fenêtres, le bureau de la comtesse,\nmeuble coquet du dernier siècle, sur lequel elle\nécrivait les réponses aux questions pressées apportées pendant les réceptions. Quelques ouvrages encore sur ce bureau, les livres familiers, enseigne\nde l’esprit et du cœur de la femme : Musset, Manon, Lescaut, Werther ; et, pour montrer qu’on n’était pas étranger aux sensations compliquées et aux mystères de la psychologie, les Fleurs du mal, le Rouge et le Noir, la Femme au XVIIIe siècle, Adolphe.",
+          "startParagraph": 486,
+          "endParagraph": 486,
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "sourceRevision": "4815640",
+          "sourceHtmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "sourceSection": "III",
+          "sha256": "c9c05b670fe35e5ddf461deb9620d8d4f522435d074579303137e626edf39f08",
+          "pageRefs": [
+            "Page:Maupassant - Fort comme la mort.djvu/88"
+          ]
+        }
+      ],
+      "kind": "roman",
+      "genre": "roman de la passion et du temps",
+      "context": "La relation du peintre Olivier Bertin et de la comtesse Anne de Guilleroy permet à Maupassant d’explorer le charme, la dépendance affective et le temps qui passe. Les quinze passages choisis se concentrent sur leurs rapports d’adultes et sur le regard de l’artiste.",
+      "sourceDocuments": [
+        {
+          "source": "https://fr.wikisource.org/wiki/Fort_comme_la_mort/Texte_entier",
+          "revision": "4815640",
+          "htmlSha256": "4d59905dc160f1866812382243981d23fecb5fe7a63fddf6b4641538db60ee9c",
+          "edition": "Livre:Maupassant - Fort comme la mort.djvu"
+        }
+      ]
+    },
+    {
+      "id": "daudet-sapho",
+      "title": "Sapho",
+      "author": "Alphonse Daudet",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1884",
+      "editionYear": 1884,
+      "edition": "Livre:Daudet - Sapho, 1884.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3ADaudet_-_Sapho,_1884.djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+      "sourceRevision": "2735387",
+      "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1897,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Alphonse_Daudet",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur et édition historiques identifiés ; texte seul, hors préfaces, notes et illustrations."
+      },
+      "passages": [
+        {
+          "id": "daudet-sapho-p01",
+          "label": "Le regard et la séduction",
+          "text": "Celle de tout à l’heure était là, tout contre lui, l’entraînant dehors, et il la suivit sans hésiter. Pourquoi ? Ce n’était pas l’attrait de cette femme ; il l’avait à peine regardée, et l’autre là-bas qui l’appelait, dressant les couteaux d’acier de sa chevelure, lui plaisait bien davantage. Mais il obéissait à une volonté supérieure à la sienne, à la violence impétueuse d’un désir.",
+          "startParagraph": 41,
+          "endParagraph": 41,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "d61f614efd9acc388e8cdc1e748587788ee84399585a93b8d41b8f034b2eccb8",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/18",
+            "Page:Daudet - Sapho, 1884.djvu/19"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p02",
+          "label": "Les mouvements du cœur",
+          "text": "Même à quoi bon se dégager ?… Il était si bien dans le dorlotement de cette chambre voluptueuse, si délicieusement étourdi par cette haleine en caresse sur ses paupières qui battaient, lourdes de sommeil, pleines de visions fuyantes, bois rouillés, prés, meules ruisselantes, toute leur journée d’amour à la campagne…",
+          "startParagraph": 125,
+          "endParagraph": 125,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "f111ee759c247af660572380699b793c84b299f694d977fd23063786f599c562",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/38"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p03",
+          "label": "Les mouvements du cœur",
+          "text": "Sur le même balcon, séparé d’eux par une grille en fer enguirlandée de fleurs grimpantes, un autre couple roucoulait, M. et Mme Hettéma, des gens mariés, très gros, dont les baisers claquaient comme des gifles. Merveilleusement appareillés, dans une conformité d’âge, de goût, de lourdes tournures, c’était touchant d’entendre ces amoureux à fin de jeunesse chanter en duo tout bas, en s’appuyant à la balustrade, de vieilles romances sentimentales…",
+          "startParagraph": 196,
+          "endParagraph": 196,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "89b8a7637eec6df9838d862b5bd32fad0874ed73a7104b2d9a170b97be5d6465",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/58"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p04",
+          "label": "Les mouvements du cœur",
+          "text": "Le sacrifice de Fanny ne devait servir à rien. De ces lettres disparues, brûlées, des phrases entières retenues par cœur hantaient la mémoire de l’amoureux, lui montaient au visage en coups de sang comme certains passages de mauvais livres. Et ces anciens amants de sa maîtresse étaient presque tous des hommes célèbres. Les morts se survivaient ; les vivants, on voyait leurs portraits et leurs noms partout, on parlait d’eux devant lui, et chaque fois il éprouvait une gêne, comme d’un lien de famille douloureusement rompu.",
+          "startParagraph": 303,
+          "endParagraph": 303,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "f8268968ba58b3916a4ce8de2d93cf0be61347ebd41e2e2625525d3a924650d7",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/87"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p05",
+          "label": "Passions et vie sociale",
+          "text": "On eût dit des amis de vingt ans. Le Fénat, devenu sentimental avec les vins de dessert, parlait de Castelet, de Divonne et aussi de son petit Jean ; il était heureux de le savoir avec elle, une femme sérieuse qui l’empêcherait de faire des sottises. Et sur le caractère un peu ombrageux du jeune homme, la façon de le prendre, il lui donnait des conseils comme à une jeune mariée en lui tapotant les bras, la langue épaisse, l’œil éteint et mouillé.",
+          "startParagraph": 374,
+          "endParagraph": 374,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "17c417e1720585ceece4829c2fea34c67831266e798b16e7dcdb697be1c55698",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/113"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p06",
+          "label": "Les mouvements du cœur",
+          "text": "Il essayait de se tranquilliser avec la devise amoureuse de l’ingénieur « pas de lendemain », et la façon méprisante dont il l’avait entendu parler de Sapho, comme d’une ancienne de la vie galante ; mais sa fierté d’amant se révoltait, et il aurait presque souhaité que Déchelette la trouvât encore belle et désirable. Ah ! ce vieux toqué de Césaire avait bien besoin de rouvrir ainsi toutes les plaies.",
+          "startParagraph": 394,
+          "endParagraph": 394,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "d3568aedcee14dc01bd123deec5f89279869092193eaf618c0e537f89a6bc6e4",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/117"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p07",
+          "label": "Liberté et attachement",
+          "text": "Elle n’avait donc pas reçu sa lettre ! Mais, reprise ligne à ligne et les larmes aux yeux, celle-ci était bien une réponse, disait bien que Fanny s’attendait depuis longtemps à cette mauvaise nouvelle, à la détresse de Castelet amenant l’inévitable séparation. Tout de suite elle s’était mise en quête d’une occupation pour ne plus rester à sa charge, et elle avait trouvé la gérance d’un hôtel meublé, avenue du Bois-de-Boulogne, au compte d’une dame très riche. Cent francs par mois, nourrie, logée et la liberté des dimanches…",
+          "startParagraph": 466,
+          "endParagraph": 466,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "4b92ff5a22f832cf3708e91ec8b9f441fd61dbd52b7cf39ae7c7b8de252267f0",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/139"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p08",
+          "label": "Le regard et la séduction",
+          "text": "Elle jeta son regard de patronne autour du petit salon, tenu, rangé, au meuble de velours frappé, souffla un peu de poussière sur le yucca du guéridon, constata un accroc dans la guipure des croisées ; après quoi, elle dit aux jeunes gens avec un œil entendu : « Vous savez, mes petits, pas de bêtises… la maison est très convenable… » et rejoignant la voiture qui l’attendait à la porte, elle s’en alla faire son tour de bois.",
+          "startParagraph": 554,
+          "endParagraph": 554,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "9220f6aaa1475adc103d8864864954f9e756b2972686b85f65ca09c9e0c9d49d",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/160"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p09",
+          "label": "Les mouvements du cœur",
+          "text": "Jean tenait les rames, le dos courbé, honteux et désolé qu’on pût le voir et lui attribuer quelque basse fonction dans cette sinistre barque allégorique. Heureusement qu’il avait en face de lui, pour rafraîchir son cœur et ses yeux, Fanny Legrand assise à l’arrière, près de la barre que tenait de Potter, Fanny dont le sourire ne lui avait jamais paru si jeune, sans doute par comparaison.",
+          "startParagraph": 645,
+          "endParagraph": 645,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "2803d3854e03229a38454a7fe8e490d2a22776e483fc3fa919cd4865c13ac164",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/182"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p10",
+          "label": "Le regard et la séduction",
+          "text": "Il restait entre ces deux anciens amis un ton agressif, une sourde antipathie qui ne les avait jamais séparés, mais éclatait dans leurs regards, leurs moindres paroles, et cela depuis vingt ans, du jour où le poète enlevait sa maîtresse au sculpteur. Fanny ne comptait plus pour eux, ils avaient l’un et l’autre couru d’autres joies, d’autres déboires, mais la rancune subsistait, creusée plus profonde avec les années.",
+          "startParagraph": 823,
+          "endParagraph": 823,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "7492a61d7baf68624baa5dd67aa486992d4066c684e5afaa90795cdd89bc447d",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/228"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p11",
+          "label": "Les mouvements du cœur",
+          "text": "Il y a dans certains mots que nous employons ordinairement un ressort caché qui tout à coup les ouvre jusqu’au fond, nous les explique dans leur intimité exceptionnelle ; puis le mot se replie, reprend sa forme banale et roule insignifiant, usé par l’habitude et le machinal. L’amour est un de ces mots-là ; ceux pour qui sa clarté s’est une fois traduite entière, comprendront l’angoisse délicieuse où vivait Jean depuis une heure, sans bien se rendre compte d’abord de ce qu’il éprouvait.",
+          "startParagraph": 888,
+          "endParagraph": 888,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "479c0011ef5c37e52e975073798b53ce7c75b2830251a9f88223701140dbbb9d",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/245"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p12",
+          "label": "Passions et vie sociale",
+          "text": "Et Jean se rattrapait avec bonheur à ce mot qui l’eût navré quelques mois auparavant. Au fond, l’oncle et son histoire comique le rassuraient un peu, mais ce qu’il n’admettait pas, c’était le mensonge en partie double pendant des mois, cette hypocrisie, ce partage, il ne pourrait jamais s’y résoudre et n’avait que trop attendu.",
+          "startParagraph": 944,
+          "endParagraph": 944,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "c32f4aa7d3da6435dec6e0e3d36d3322c84ced9c4eaa744dd66bebbc301418a3",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/261"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p13",
+          "label": "Les mouvements du cœur",
+          "text": "Le bourreau n’était guère plus vaillant que la victime. Sa colère, il ne la craignait pas plus que ses caresses ; mais il restait sans défense contre ce désespoir, cette bramée qui remplissait le bois, allait s’éteindre sur l’eau morte et fiévreuse où descendait un triste soleil rouge… Il pensait bien souffrir, mais pas à cette acuité ; et il lui fallait tout l’éblouissement du nouvel amour pour résister à la relever des deux mains, lui dire :\n\n— Je reste, tais-toi, je reste…",
+          "startParagraph": 1051,
+          "endParagraph": 1052,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "c6b619a44b89675e69429c33781fb126b26fce9aa060cd4f477d1d6f95d1e302",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/282"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p14",
+          "label": "Passions et vie sociale",
+          "text": "Un autre jour, un pâle rayon égayant la vitre, elle se réveillait toute joyeuse dans cette persuasion : il viendra aujourd’hui !… Pourquoi ?… rien, une idée… Tout de suite elle se mettait à faire la maison belle, et la femme coquette avec sa robe des dimanches et la coiffure qu’il aimait ; puis jusqu’au soir, jusqu’à la dernière goutte de lumière, elle comptait les trains à la fenêtre de la salle, l’écoutait venir par le Pavé des Gardes… Fallait-il être folle !",
+          "startParagraph": 1123,
+          "endParagraph": 1123,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "62d99dfa326e604a7edb8b263548858ef268aeebe0b8b6d9d1929248c1b24b53",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/300",
+            "Page:Daudet - Sapho, 1884.djvu/301"
+          ]
+        },
+        {
+          "id": "daudet-sapho-p15",
+          "label": "Le regard et la séduction",
+          "text": "La porte s’ouvrit. Fanny marchait tout doucement dans la chambre pour ne pas le réveiller. Entre ses paupières closes, il la regardait, alerte et forte, rajeunie, chauffant au foyer ses pieds trempés de la neige du jardin, et de temps en temps tournée vers lui avec le petit sourire qu’elle avait le matin, dans la dispute. Elle vint prendre le paquet de maryland à sa place habituelle, roula une cigarette et s’en allait, mais il la retint.",
+          "startParagraph": 1224,
+          "endParagraph": 1224,
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "sourceRevision": "2735387",
+          "sourceHtmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "sourceSection": "",
+          "sha256": "552dcb5f10d525d528b76428ceb434779db752b3407daea75eabd8fd181c3c7e",
+          "pageRefs": [
+            "Page:Daudet - Sapho, 1884.djvu/326",
+            "Page:Daudet - Sapho, 1884.djvu/327"
+          ]
+        }
+      ],
+      "kind": "roman",
+      "genre": "roman de la vie galante",
+      "context": "Jean Gaussin, vingt et un ans, rencontre Fanny Legrand, une femme plus âgée que lui. Daudet étudie le poids du passé, la jalousie et les attentes inégales au sein du couple. Cette lecture patrimoniale permet aussi d’interroger les préjugés et les violences des relations représentées.",
+      "sourceDocuments": [
+        {
+          "source": "https://fr.wikisource.org/wiki/Sapho_(Daudet)/Texte_entier",
+          "revision": "2735387",
+          "htmlSha256": "63fa58222e003d4e0fad201b2c0099630af93e5a70b6601b8ea2d7fb5e18c777",
+          "edition": "Livre:Daudet - Sapho, 1884.djvu"
+        }
+      ]
+    },
+    {
+      "id": "colette-vagabonde",
+      "title": "La Vagabonde",
+      "author": "Colette",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1910",
+      "editionYear": 1910,
+      "edition": "Livre:Colette - La Vagabonde, 1910.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3AColette_-_La_Vagabonde,_1910.djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+      "sourceRevision": "14828007",
+      "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1954,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Colette",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur et édition historiques identifiés ; texte seul, hors préfaces, notes et illustrations.",
+        "domainPublicSource": "https://www.bnf.fr/fr/mediatheque/colette-loeuvre-au-miroir-de-gallica"
+      },
+      "passages": [
+        {
+          "id": "colette-vagabonde-p01",
+          "label": "Passions et vie sociale",
+          "text": "Écrire ! plaisir et souffrance d’oisifs ! Écrire !… J’éprouve\nbien, de loin en loin, le besoin, — vif comme la soif en été, — de noter, de peindre… Je prends\nencore la plume, pour commencer le jeu périlleux et\ndécevant, pour saisir et fixer, sous la pointe double\net ployante, le chatoyant, le fugace, le passionnant\nadjectif… Ce n’est qu’une courte crise, — la démangeaison\nd’une cicatrice…",
+          "startParagraph": 46,
+          "endParagraph": 46,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "II",
+          "sha256": "768d7b676b5ebbae108f22072cb2f92d7580ff11ec761573c39306cbdae3b761",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/24",
+            "Page:Colette - La Vagabonde, 1910.djvu/25"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p02",
+          "label": "Passions et vie sociale",
+          "text": "On s’habitue à ne pas manger, à souffrir des dents\nou de l’estomac, on s’habitue même à l’absence d’un\nêtre aimé, — on ne prend pas l’habitude de la jalousie.\nEt il arriva ce qu’Adolphe Taillandy, qui pense à tout,\nn’avait pas prévu : un jour que, pour mieux recevoir\nMme Mothier sur le grand divan de l’atelier, il m’avait\nsans courtoisie mise à ma porte, je ne rentrai pas.",
+          "startParagraph": 145,
+          "endParagraph": 145,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "III",
+          "sha256": "56d3e2adf91f25d32d12dfc1b67b3321fcd8937fa447dbe568bbabfb6610592b",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/45"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p03",
+          "label": "Le regard et la séduction",
+          "text": "Elle est là, au premier rang. On a utilisé tout l’espace\ndisponible, et sa chaise est si près de l’estrade\nque je pourrais, d’une caresse ironique, effleurer ses\ncheveux, qu’elle teint en blond parce qu’ils blanchissent.\nElle a vieilli depuis quatre ans, et elle me regarde\navec terreur. Elle contemple à travers moi son péché,\nson désespoir, son amour qui a peut-être fini par mourir…",
+          "startParagraph": 239,
+          "endParagraph": 239,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "V",
+          "sha256": "23304f2715066c40491dbc59e87b9631566e6dbcee1c2ced70b81ff6c620cc14",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/67"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p04",
+          "label": "Le regard et la séduction",
+          "text": "Au premier rang des fauteuils d’orchestre, ma myopie\nne me défend pas d’apercevoir, raide et sérieux, —\navec ses cheveux noirs qui brillent comme la soie d’un\nhuit-reflets, — M. Dufferein-Chautel cadet. Heureux\nde mon regard qui l’a reconnu, il suit de la tête mes\nmouvements, mes allées et venues sur la scène, comme\nma chienne Fossette quand je m’habille pour sortir…",
+          "startParagraph": 320,
+          "endParagraph": 320,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "VI",
+          "sha256": "65646f8f4472183721c4015cca5b88a71f4ab20d740bb106775305e5c3aa0f27",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/79"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p05",
+          "label": "Les mouvements du cœur",
+          "text": "Ah ! pauvre petit Bouty, en qui l’amour souffrant\néveille une aristocratie soudaine, et le mépris de ce\npublic qui vous fête, vous cherchez et vous trouvez à Jadin une excuse, et vous inventez, tout seul, la\nthéorie de l’Influence des milieux… à laquelle je ne\ncrois pas !…",
+          "startParagraph": 436,
+          "endParagraph": 436,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "IX",
+          "sha256": "e4b753e21fdb15b8f60e932a1b3d832e56085c02eae775f54888b71a84444ffa",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/101",
+            "Page:Colette - La Vagabonde, 1910.djvu/102"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p06",
+          "label": "Passions et vie sociale",
+          "text": "— Eh ! il faut bien le dire ! Vous voulez que je fasse\ncomme tout le monde ? que je me décide ? Celui-là ou\nun autre, après tout !… Vous voulez troubler ma paix\nreconquise, orienter ma vie vers un autre souci que\ncelui, âpre, fortifiant, naturel, d’assurer moi-même\nma subsistance ? Ou bien vous me conseillez un\namant, par hygiène, comme un dépuratif ? Pourquoi\nfaire ? je me porte bien, et, Dieu merci ! je n’aime pas,\nje n’aime pas, je n’aimerai plus personne, personne, personne !",
+          "startParagraph": 524,
+          "endParagraph": 524,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "III",
+          "sha256": "9bf0591a7d1ede0017b5de07a4167fa0b72b5a3065157df985afcdc6b62d9b03",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/124"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p07",
+          "label": "Le regard et la séduction",
+          "text": "Fébrile, un peu grise, j’appuie sur mon amoureux un\nregard désarmé qu’il ne m’a jamais vu. Je ris tout\nhaut, d’un rire qu’il n’a jamais entendu, je rejette sur\nl’épaule la manche large du kimono, découvrant un\nbras plus clair que ma robe, un bras « couleur chair-de-banane »,\ndit-il… Je me sens prévenante, gentille,\n— pour deux sous, je lui tendrais ma joue : qu’est-ce\nque ça fait ? je pars ! je ne le verrai plus, ce garçon ! Quarante jours ? mais nous serons sans doute tous\nmorts, d’ici là !",
+          "startParagraph": 634,
+          "endParagraph": 634,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "V",
+          "sha256": "72ec422c60efdd805784d9120d0e8a63916e42d3ff1f4b77d3600c4f1a9b0609",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/144",
+            "Page:Colette - La Vagabonde, 1910.djvu/145"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p08",
+          "label": "Passions et vie sociale",
+          "text": "— Pourquoi donc ? Parce qu’une expérience personnelle\nm’a été néfaste ? Qu’est-ce que ça prouve !\nVous devriez vous marier, ça vous irait très bien.\nVous avez l’air déjà marié. Vous promenez votre célibat\ndans des vêtements de jeune père de famille, vous\nêtes épris du coin du feu, tendre, jaloux, têtu, paresseux\ncomme un époux gâté, et despote, au fond, et\nmonogame de naissance !",
+          "startParagraph": 713,
+          "endParagraph": 713,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "V",
+          "sha256": "3d2f75b0365cbd03490502f6796fabe085e8dcaef2eddd7632dd65312ce5b3bb",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/153"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p09",
+          "label": "Le regard et la séduction",
+          "text": "Il s’est redressé brusquement, en jetant sa cigarette.\nIl me prend les mains et me regarde de tout près,\nd’assez près pour que son visage me paraisse presque\ntrop grand, avec les détails accusés, le grain de la\npeau, le coin palpitant et humide de ses larges yeux…\nQu’il y a d’amour, oui, d’amour, dans ces yeux-là !\nHélas ! qu’ils sont parlants, et doux, et entièrement\népris ! Et ces grandes mains qui serrent les miennes\navec une force égale et communicative, comme je les\nsens convaincues !…",
+          "startParagraph": 819,
+          "endParagraph": 819,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "VII",
+          "sha256": "0d198c822613c05976e238123fed81231674974ae4b70067776e11aa65523b67",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/172"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p10",
+          "label": "Passions et vie sociale",
+          "text": "Il dit des choses bêtes, très heureux, renversé entre\ndes coussins écroulés. Une mèche de cheveux lui barre\nl’œil, il a ses yeux vagues des grandes crises de désir\net entr’ouvre la bouche pour respirer. Un beau gars\nde campagne, un bûcheron qui « sieste » sur l’herbe,\nvoilà ce qu’il redevient, — non pour me déplaire, — à\nchaque attitude abandonnée…",
+          "startParagraph": 952,
+          "endParagraph": 952,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "X",
+          "sha256": "aa6c9e176bd0dab37808d6872c41a8cca384218ab6081db2f09ef6c4ba1b9d23",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/197"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p11",
+          "label": "Les mouvements du cœur",
+          "text": "— Eh ! jette Hamond soulagé, au moins, vous\nvoilà sauvée de ce passé qui fermentait encore en\nvous ! J’en avais assez, vraiment, de vous voir assombrie,\ndéfiante, repliée dans le souvenir et la crainte de\nTaillandy ! Pardonnez-moi, Renée, mais j’aurais fait\nde bien vilaines choses pour vous doter d’un nouvel amour !",
+          "startParagraph": 1017,
+          "endParagraph": 1017,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "XI",
+          "sha256": "626381f99c8bb883a0499b1b92c521b04ca4a8d9906704929a2dec36e0f483bc",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/206"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p12",
+          "label": "Les mouvements du cœur",
+          "text": "Il est là, sur ma poitrine… Pourquoi lui, et non un\nautre ? Je ne sais pas. Je m’incline sur son front, je\nvoudrais le protéger contre moi-même, m’excuser de\nne lui donner qu’un cœur désaffecté, sinon purifié. Je\nvoudrais le garder contre le mal que je peux lui faire…\nAllons ! Margot l’avait prédit : je retourne à la chaudière…\nune chaudière de tout repos, celle-ci, et qui\nn’a rien d’infernal : elle ressemblerait plutôt à un familial coquemar…",
+          "startParagraph": 1109,
+          "endParagraph": 1109,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "XII",
+          "sha256": "6600e80852cdf2cc7b0b1a16126f3e0ad5932d7da4af2aaed10efe8ecd2f9ad9",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/220"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p13",
+          "label": "Les mouvements du cœur",
+          "text": "— Renée ! c’est monstrueux ! ce n’est pas possible !\nvous avez perdu la tête ! Vos chemises, vos chemises\nà vous, et vos petits pantalons trop courts, mon amour\nchéri, pêle-mêle avec les caleçons de cet individu ! Et\nvos bas avec ses chaussettes, peut-être ! Et tout ça\npour économiser cent sous par jour ! Quelle dérision\net quelle misère !",
+          "startParagraph": 1222,
+          "endParagraph": 1222,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "XIII",
+          "sha256": "9bde41581f54512497a146e5056abd3e1a9905ba59151afa1597450781bfc650",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/235",
+            "Page:Colette - La Vagabonde, 1910.djvu/236"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p14",
+          "label": "Passions et vie sociale",
+          "text": "Les premières roses, mon ami aimé ! Je les ai achetées\nà la gare d’Avignon, à peine entre-bâillées, d’un jaune\nde soufre rehaussé de carmin, transparentes au soleil\ncomme une oreille que teinte un sang vif, parées de\nfeuilles tendres, d’épines courbes en corail poli. Elles\nsont là sur ma table. Elles embaument l’abricot, la\nvanille, le très fin cigare, la brune soignée, — c’est\nl’odeur même, Max, de vos mains sèches et foncées…",
+          "startParagraph": 1309,
+          "endParagraph": 1309,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "VI",
+          "sha256": "e3e890ebc7670127485115a42edbebb6eb1a7117ba32d05f56fbdbd37bc81db8",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/268"
+          ]
+        },
+        {
+          "id": "colette-vagabonde-p15",
+          "label": "Passions et vie sociale",
+          "text": "Et Max ?… Depuis hier, je rôde autour de ce point\nd’interrogation. Et Max ? et Max ? Ce n’est plus une\npensée, c’est un refrain, un bruit, un petit croassement\nrythmé, qui fatalement amène une de mes « crises\nde grossièreté ». Quel ancêtre mal embouché aboie\nen moi avec cette virulence non seulement verbale,\nmais sentimentale ? Je viens de froisser la lettre\ncommencée pour mon ami, en jurant à mi-voix.",
+          "startParagraph": 1402,
+          "endParagraph": 1402,
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "sourceRevision": "14828007",
+          "sourceHtmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "sourceSection": "XI",
+          "sha256": "dc1ddc5167a2506f7368f9c357f6502d5f84bc59a58302b6d39545666d2556c7",
+          "pageRefs": [
+            "Page:Colette - La Vagabonde, 1910.djvu/302"
+          ]
+        }
+      ],
+      "kind": "roman",
+      "genre": "roman du désir et de l’indépendance",
+      "context": "Renée Néré, artiste de music-hall et femme séparée, hésite entre un nouvel attachement et l’indépendance qu’elle a reconquise. Colette donne au désir une voix féminine, attentive au corps, au travail et à la liberté. Le roman est présenté selon cette perspective, sans lui attribuer un genre érotique qu’il ne revendique pas.",
+      "sourceDocuments": [
+        {
+          "source": "https://fr.wikisource.org/wiki/La_Vagabonde/Texte_entier",
+          "revision": "14828007",
+          "htmlSha256": "ea7c401729fab19c0180e870bb32e99c5c1e20651cab1a0e99502ef2a7dc88e2",
+          "edition": "Livre:Colette - La Vagabonde, 1910.djvu"
         }
       ]
     },
@@ -137,7 +2732,9 @@
             "Page:Denon - Point de lendemain (Didot, 1812).djvu/29"
           ]
         }
-      ]
+      ],
+      "kind": "conte",
+      "complementary": true
     }
   ]
 }

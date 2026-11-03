@@ -6,14 +6,14 @@ test('patrimonial collection is source-linked, short, adult-only and excluded fr
  const frozen=require('./automation/playwright/support/corpus-baseline.json');
  const byId=new Map(all.map(p=>[p.id,p]));
  for(const p of frozen.passages)assert.equal(byId.get(p.id)?.textHash,p.textHash,p.id);
- for(const w of catalog.works){assert.equal(w.audience,'adult');assert.ok(!general.works.some(q=>q.id===w.id));assert.equal(w.passages.length,3);for(const p of w.passages){assert.ok(p.text.length<=2000);assert.equal(byId.get(p.id)?.textHash,p.sha256);assert.equal(crypto.createHash('sha256').update(p.text).digest('hex'),p.sha256);}}
+ for(const w of catalog.works){assert.equal(w.audience,'adult');assert.ok(!general.works.some(q=>q.id===w.id));assert.equal(w.passages.length,w.kind==='roman'?15:3);for(const p of w.passages){assert.ok(p.text.length<=2000);assert.equal(byId.get(p.id)?.textHash,p.sha256);assert.equal(crypto.createHash('sha256').update(p.text).digest('hex'),p.sha256);}}
  const {loadCatalog}=require('./daily-themes');const daily=loadCatalog(fs.readFileSync(__dirname+'/eclat_v73_deployable.html','utf8'));
  for(const w of catalog.works)assert.ok(!JSON.stringify(daily).includes(w.id));
- assert.equal(all.length,554);
+ assert.equal(catalog.works.filter(w=>w.kind==='roman').length,10);assert.equal(catalog.works.filter(w=>w.kind==='roman').reduce((n,w)=>n+w.passages.length,0),150);assert.equal(all.length,701);
 });
 test('collection requires voluntary opening and renders intact source paragraphs, labels and two on-demand audio voices',()=>{
  const manifest={passages:{}};for(const w of catalog.works)for(const p of w.passages)manifest.passages[p.id]={voices:{female:{url:'/api/narration/audio/'+'a'.repeat(64)+'/female.mp3'},male:{url:'/api/narration/audio/'+'b'.repeat(64)+'/male.mp3'}}};
- const $=cheerio.load(render(manifest));assert.equal($('details.entry[open]').length,0);assert.equal($('details.passage').length,6);assert.equal($('audio[autoplay]').length,0);assert.equal($('audio[preload="none"]').length,6);assert.equal($('select option').length,12);
+ const $=cheerio.load(render(manifest));assert.equal($('details.entry[open]').length,0);assert.equal($('details.passage').length,153);assert.equal($('audio[autoplay]').length,0);assert.equal($('audio[preload="none"]').length,153);assert.equal($('select option').length,306);
  for(const w of catalog.works)for(const p of w.passages)assert.ok($('blockquote').toArray().some(node=>$(node).text()===p.text));
  assert.equal($('h1').text(),'Érotisme etlittérature classique.');assert.equal($('link[rel="canonical"]').attr('href'),'https://www.eclatsclassiques.com/patrimoine-libertin');
  assert.ok(render().includes('audio momentanément indisponible'));assert.ok(!render().includes('<audio'));

@@ -7,7 +7,7 @@ RUN for voice in siwis tom; do for ext in onnx onnx.json; do curl -fL --retry 3 
 RUN echo '641d1ab097da2b81128c076810edb052b385decc8be3381814802a64a73baf99  /opt/piper-models/siwis.onnx\nbf65074ccdeeeeaa832e75edb1c0a513c01c9a972bdf085ff8a6e71ea234fd41  /opt/piper-models/tom.onnx' | sha256sum -c -
 WORKDIR /app
 COPY scripts/narration-input.cjs scripts/narration-cache.cjs scripts/build-narration.py ./scripts/
-COPY data/reading-catalog.json ./data/reading-catalog.json
+COPY data/reading-catalog.json data/patrimoine-catalog.json ./data/
 COPY eclat_v73_deployable.html ./
 RUN NARRATION_SEED_URL=https://www.eclatsclassiques.com python3 scripts/build-narration.py
 

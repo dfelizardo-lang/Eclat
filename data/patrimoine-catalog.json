@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "audience": "adult",
+  "collection": "patrimoine-libertin",
+  "works": [
+    {
+      "id": "laclos-liaisons-patrimoine",
+      "title": "Les Liaisons dangereuses",
+      "author": "Pierre Choderlos de Laclos",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1782",
+      "editionYear": 1869,
+      "edition": "Livre:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3AChoderlos_de_Laclos_-_Les_Liaisons_dangereuses,_1869,_Tome_1.djvu",
+      "genre": "roman épistolaire",
+      "context": "Au siècle des Lumières, Laclos fait de la lettre un instrument de séduction, de pouvoir et de dévoilement. Ces passages de la lettre XXXVII donnent la parole à la présidente de Tourvel, une femme mariée qui cherche à tenir Valmont à distance. Ils éclairent les tensions entre réputation, désir et liberté de décision.",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Lettre_37",
+      "sourceRevision": "4180546",
+      "sourceHtmlSha256": "479148234b1d9adc1f867393a553990d3e0a9733299476f7825360a1fe08102e",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1803,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Pierre_Choderlos_de_Laclos",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Original français ; auteur décédé au début du XIXe siècle ; édition historique identifiée. Texte seul, hors préfaces et illustrations."
+      },
+      "passages": [
+        {
+          "id": "laclos-liaisons-patrimoine-p01",
+          "label": "Se défier des apparences",
+          "text": "Je me soumets, madame, aux conseils que votre amitié me donne. Accoutumée à déférer en tout à vos avis, je le suis à croire qu’ils sont toujours fondés en raison. J’avouerai même que M. de Valmont doit être en effet infiniment dangereux, s’il peut à la fois feindre d’être ce qu’il paraît ici, & rester tel que vous le dépeignez. Quoi qu’il en soit, puisque vous l’exigez, je l’éloignerai de moi ; au moins j’y ferai mon possible : car souvent les choses qui dans le fond devraient être les plus simples, deviennent embarrassantes par la forme.",
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Lettre_37",
+          "sha256": "1acd4d497de8c78864cec6051035f9134462bdbba11d29d9ef6b16479f4cfb04",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/122"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p02",
+          "label": "Les convenances et la liberté",
+          "text": "Il me paraît toujours impraticable de faire cette demande à sa tante ; elle deviendrait également désobligeante, & pour elle & pour lui. Je ne prendrais pas non plus, sans quelque répugnance, le parti de m’éloigner moi-même : car outre les raisons que je vous ai déjà mandées relatives à M. de Tourvel, si mon départ contrariait M. de Valmont, comme il est possible, n’aurait-il pas la facilité de me suivre à Paris ? & son retour, dont je serais, dont au moins je paraîtrais être l’objet, ne semblerait-il pas plus étrange qu’une rencontre à la campagne, chez quelqu’un qu’on sait être sa parente et mon amie ?",
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Lettre_37",
+          "sha256": "1dd19727f97e99ef88b5e4c731a288cb0678e25880bd5fc99865e3bc19043b54",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/122",
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/123"
+          ]
+        },
+        {
+          "id": "laclos-liaisons-patrimoine-p03",
+          "label": "Poser ses limites",
+          "text": "Il ne me reste donc d’autre ressource que d’obtenir de lui-même qu’il veuille bien s’éloigner. Je sens que cette proposition est difficile à faire ; cependant, comme il paraît avoir à cœur de me prouver qu’il a en effet plus d’honnêteté qu’on ne lui en suppose, je ne désespère pas de réussir. Je ne serai pas même fâchée de le tenter, & d’avoir une occasion de juger si, comme il le dit souvent, les femmes vraiment honnêtes n’ont jamais eu, n’auront jamais à se plaindre de ses procédés. S’il part, comme je le désire, ce sera en effet par égard pour moi ; car je ne peux pas douter qu’il n’ait le projet de passer ici une grande partie de l’automne. S’il refuse ma demande & s’obstine à rester, je serai toujours à temps de partir moi-même, & je vous le promets.\n\nVoilà, je crois, Madame, tout ce que votre amitié exigeait de moi : je m’empresse d’y satisfaire, & de vous prouver que malgré la chaleur que j’ai pu mettre à défendre M. de Valmont, je n’en suis pas moins disposée, non seulement à écouter, mais même à suivre les conseils de mes amis.",
+          "startParagraph": 2,
+          "endParagraph": 3,
+          "source": "https://fr.wikisource.org/wiki/Les_Liaisons_dangereuses/Lettre_37",
+          "sha256": "80732aa63ca68086bda19b5e9a5d3d76d206eb2c6e4f88214ebe58aaa11aef37",
+          "pageRefs": [
+            "Page:Choderlos de Laclos - Les Liaisons dangereuses, 1869, Tome 1.djvu/123"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "denon-point-lendemain",
+      "title": "Point de lendemain",
+      "author": "Vivant Denon",
+      "audience": "adult",
+      "collection": "patrimoine-libertin",
+      "year": "1777",
+      "editionYear": 1812,
+      "edition": "Livre:Denon - Point de lendemain (Didot, 1812).djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3ADenon_-_Point_de_lendemain_(Didot,_1812).djvu",
+      "genre": "conte libertin",
+      "context": "Publié une première fois en 1777 puis remanié par Denon en 1812, ce conte libertin repose sur les sous-entendus, l’ironie et les conventions du monde aristocratique. Les extraits suivent un narrateur adulte de vingt ans et une femme mariée ; ils invitent à lire les ambiguïtés du récit plutôt qu’à prendre ses jeux de séduction pour modèles.",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "source": "https://fr.wikisource.org/wiki/Point_de_lendemain_(version_de_1812)",
+      "sourceRevision": "13423509",
+      "sourceHtmlSha256": "05435b925f0ad0325ed780f205d3c18586305de3ca14e2cc450611f72c1b9a2d",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1825,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Vivant_Denon",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Original français ; auteur décédé au début du XIXe siècle ; édition historique identifiée. Texte seul, hors préfaces et illustrations."
+      },
+      "passages": [
+        {
+          "id": "denon-point-lendemain-p01",
+          "label": "Un narrateur de vingt ans",
+          "text": "J’aimais éperdument la comtesse de *** ; j’avais vingt ans, et j’étais ingénu ; elle me trompa, je me fâchai, elle me quitta. J’étais ingénu, je la regrettai ; j’avais vingt ans, elle me pardonna : et comme j’avais vingt ans, que j’étais ingénu, toujours trompé, mais plus quitté, je me croyais l’amant le mieux aimé, partant le plus heureux des hommes. Elle était amie de madame de T…, qui semblait avoir quelques projets sur ma personne, mais sans que sa dignité fût compromise. Comme on le verra, madame de T… avait des principes de décence auxquels elle était scrupuleusement attachée.",
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "source": "https://fr.wikisource.org/wiki/Point_de_lendemain_(version_de_1812)",
+          "sha256": "3679b5e8fcf6f57a8583f7fd34009d9c5ba139db581290f16ba58202ca765f4c",
+          "pageRefs": [
+            "Page:Denon - Point de lendemain (Didot, 1812).djvu/17",
+            "Page:Denon - Point de lendemain (Didot, 1812).djvu/18"
+          ]
+        },
+        {
+          "id": "denon-point-lendemain-p02",
+          "label": "Le paysage et le trouble",
+          "text": "Nous avions changé une seconde fois\nde chevaux. Le flambeau mystérieux de\nla nuit éclairait un ciel pur et répandait\nun demi-jour très voluptueux. Nous\napprochions du lieu où allait finir le\ntête-à-tête. On me faisait, par intervalles,\nadmirer la beauté du paysage,\nle calme de la nuit, le silence touchant\nde la nature. Pour admirer ensemble,\ncomme de raison, nous nous penchions \nà la même portière ; le mouvement \nde la voiture faisait que le visage\nde madame de T… et le mien s’entre-touchaient. \nDans un choc imprévu,\nelle me serra la main ; et moi, par le plus grand hasard du monde, je la retins \nentre mes bras. Dans cette attitude,\nje ne sais ce que nous cherchions\nà voir. Ce qu’il y a de sûr, c’est que les\nobjets se brouillaient à mes yeux, lorsqu’on \nse débarrassa de moi brusquement,\net qu’on se rejeta au fond du\ncarrosse. Votre projet, dit-on après\nune rêverie assez profonde, est-il de\nme convaincre de l’imprudence de ma\ndémarche ? — Je fus embarrassé de la\nquestion. Des projets… avec vous…\nquelle duperie ! vous les verriez venir\nde trop loin : mais un hasard, une\nsurprise… cela se pardonne. — Vous\navez compté là-dessus, à ce qu’il me\nsemble. —",
+          "startParagraph": 5,
+          "endParagraph": 5,
+          "source": "https://fr.wikisource.org/wiki/Point_de_lendemain_(version_de_1812)",
+          "sha256": "17433a97b529dfe1626b6d1cd2e00cec033587554326606032c140ed6c6dc559",
+          "pageRefs": [
+            "Page:Denon - Point de lendemain (Didot, 1812).djvu/22",
+            "Page:Denon - Point de lendemain (Didot, 1812).djvu/23"
+          ]
+        },
+        {
+          "id": "denon-point-lendemain-p03",
+          "label": "Le langage de la séduction",
+          "text": "Ce fut sur la plus longue de ces terrasses \nque nous nous promenâmes d’abord :\nelle était couverte d’arbres épais.\nOn s’était remis de l’espèce de persifflage qu’on venait d’essuyer ; et tout\nen se promenant, on me fit quelques\nconfidences. Les confidences s’attirent,\nj’en faisais à mon tour, elles devenaient \ntoujours plus intimes et plus\nintéressantes. Il y avait long-temps\nque nous marchions. Elle m’avait d’abord \ndonné son bras, ensuite ce bras\ns’était entrelacé, je ne sais comment,\ntandis que le mien la soulevait et l’empêchait \npresque de poser à terre. L’attitude \nétait agréable, mais fatigante à\nla longue, et nous avions encore bien\ndes choses à nous dire. Un banc de\ngazon se présente ; on s’y assied sans\nchanger d’attitude. Ce fut dans cette\nposition que nous commençâmes à faire\nl’éloge de la confiance, de son charme,\nde ses douceurs. Eh ! me dit-elle, qui\npeut en jouir mieux que nous, avec\nmoins d’effroi ? Je sais trop combien vous tenez au lien que je vous connais,\npour avoir rien à redouter auprès de\nvous. — Peut-être voulait-elle être\ncontrariée, je n’en fis rien. Nous nous\npersuadâmes donc mutuellement qu’il\nétait impossible que nous pussions\njamais nous être autre chose que ce\nque nous nous étions alors. J’appréhendais \ncependant, lui dis-je, que la\nsurprise de tantôt n’eût effrayé votre\nesprit. — Je ne m’alarme pas si aisément. \n— Je crains cependant qu’elle\nne vous ait laissé quelques nuages. —\nQue faut-il pour vous rassurer ? —\nVous ne devinez pas ? — Je souhaite\nd’être éclaircie. — J’ai besoin d’être\nsûr que vous me pardonnez. — Et\npour cela il faudrait… ? — Que vous\nm’accordassiez ici ce baiser que le hasard… \n— Je le veux bien : vous\nseriez trop fier si je le refusais. Votre amour-propre vous ferait croire que je\nvous crains. — On voulut prévenir\nles illusions, et j’eus le baiser.",
+          "startParagraph": 9,
+          "endParagraph": 9,
+          "source": "https://fr.wikisource.org/wiki/Point_de_lendemain_(version_de_1812)",
+          "sha256": "5e5c2d96fc81fbfce92e6f00af40edaee4048fae8dacacdb9dc012cf1c80ce31",
+          "pageRefs": [
+            "Page:Denon - Point de lendemain (Didot, 1812).djvu/26",
+            "Page:Denon - Point de lendemain (Didot, 1812).djvu/27",
+            "Page:Denon - Point de lendemain (Didot, 1812).djvu/28",
+            "Page:Denon - Point de lendemain (Didot, 1812).djvu/29"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,8 +5,11 @@ const path = require("path");
 const app = express();
 const patrimoine=require('./patrimoine');
 app.get(/^\/patrimoine-libertin(?:\/|\.html)$/,(req,res)=>res.redirect(308,'/patrimoine-libertin'));
-app.get('/patrimoine-libertin',patrimoine.page);
-app.get('/api/patrimoine',(req,res)=>res.set('Cache-Control','public, max-age=3600').json(patrimoine.catalog));
+const patrimoineGate=require('./patrimoine-gate');
+app.get('/patrimoine-libertin',patrimoineGate.protectPage(patrimoine.page));
+app.post('/patrimoine-libertin/entrer',express.urlencoded({extended:false,limit:'4kb'}),patrimoineGate.enter);
+app.use('/data/patrimoine-catalog.json',patrimoineGate.protectApi);
+app.get('/api/patrimoine',patrimoineGate.protectApi,(req,res)=>res.json(patrimoine.catalog));
 app.use(require('./statistics').createStatistics());
 app.get('/api/google-calendar/config',(req,res)=>{
   const clientId=process.env.GOOGLE_CALENDAR_CLIENT_ID || '';
@@ -140,7 +143,7 @@ Sitemap: ${SITE_URL}/sitemap.xml
 `);
 });
 app.get('/sitemap.xml', (req, res) => {
-  const pages = ['/', '/emprunts', '/emprunts-enfants', '/narration-credits', '/patrimoine-libertin'];
+  const pages = ['/', '/emprunts', '/emprunts-enfants', '/narration-credits'];
   res.type('application/xml').send('<?xml version="1.0" encoding="UTF-8"?>\n' +
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' +
     pages.map(page => `<url><loc>${SITE_URL}${page}</loc></url>`).join('') + '</urlset>');

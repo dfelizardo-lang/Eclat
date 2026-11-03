@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-20",
-  "source": "Published Sites source catalogue, commit b9181acfa91eedfb4cfa556d4bb60a2a9149192d",
-  "catalogueSha256": "ce894f537475d7534fec97938da178aec17226f41ba6045eb9a8a0e18ab8127d",
+  "date": "2026-11-03",
+  "source": "Catalogue de production enrichi, commit bed3e1ae928be52a365f83fa56e6601790d01ba1 ; conservation intégrale du baseline du 20 octobre",
+  "catalogueSha256": "64401088eb99ac2714ee53f4bb383c98e222b5137528aa8f64c79a5a76f7d955",
   "editorialApproval": false,
   "passages": [
     {
@@ -4291,6 +4291,108 @@
       "workTitle": "Le Superbe Orénoque",
       "source": "https://fr.wikisource.org/wiki/Le_Superbe_Or%C3%A9noque/Premi%C3%A8re_partie/Chapitre_I",
       "textHash": "6c1400859cb37629209cb7411758e39117cad6903003242039b2d73583ca6045"
+    },
+    {
+      "id": "dumas-meneur-loups-p01",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "Le Meneur de loups",
+      "source": "https://fr.wikisource.org/wiki/Le_Meneur_de_loups/Texte_entier",
+      "textHash": "23299538e088511b93248ae3b35b8209c3a956b4ec204158aa3b19990f20e3db"
+    },
+    {
+      "id": "dumas-meneur-loups-p02",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "Le Meneur de loups",
+      "source": "https://fr.wikisource.org/wiki/Le_Meneur_de_loups/Texte_entier",
+      "textHash": "5638ba3f89442235a6dea0683e286d82933cfcbb8dbf7e394fa9f623631cff73"
+    },
+    {
+      "id": "dumas-meneur-loups-p03",
+      "audience": "adult",
+      "author": "Alexandre Dumas",
+      "workTitle": "Le Meneur de loups",
+      "source": "https://fr.wikisource.org/wiki/Le_Meneur_de_loups/Texte_entier",
+      "textHash": "363ab364aafcb752a3ffca1dbff60ae58bc386211699fb4aeb83454dc7b74ac8"
+    },
+    {
+      "id": "feval-ville-vampire-p01",
+      "audience": "adult",
+      "author": "Paul Féval",
+      "workTitle": "La Ville-Vampire",
+      "source": "https://fr.wikisource.org/wiki/La_Ville-Vampire/Journ%C3%A9e_3/VI",
+      "textHash": "d90e7ee62f2562af6f624285d546a87e07a31bbbfc83eedb2c7787e0f6c366ea"
+    },
+    {
+      "id": "feval-ville-vampire-p02",
+      "audience": "adult",
+      "author": "Paul Féval",
+      "workTitle": "La Ville-Vampire",
+      "source": "https://fr.wikisource.org/wiki/La_Ville-Vampire/Journ%C3%A9e_3/VI",
+      "textHash": "1335313778b97f115b140a8c5d90f435fdeb0c5a83f5ae5cd0c6c2442fc649d9"
+    },
+    {
+      "id": "feval-ville-vampire-p03",
+      "audience": "adult",
+      "author": "Paul Féval",
+      "workTitle": "La Ville-Vampire",
+      "source": "https://fr.wikisource.org/wiki/La_Ville-Vampire/Journ%C3%A9e_3/VI",
+      "textHash": "779f27f7c7c8a30ce5b5e32be4531759abf9824fbe0a38afa4f0409a95f1afc8"
+    },
+    {
+      "id": "assollant-capitaine-corcoran-p01",
+      "audience": "child",
+      "author": "Alfred Assollant",
+      "workTitle": "Aventures merveilleuses mais authentiques du capitaine Corcoran",
+      "source": "https://fr.wikisource.org/wiki/Aventures_merveilleuses_mais_authentiques_du_capitaine_Corcoran_(Assollant)/Texte_entier",
+      "textHash": "d9d6a5af5a95799ad48e7cc006ef61f5575d79cec9f7962a9d45479bfc1b340d"
+    },
+    {
+      "id": "assollant-capitaine-corcoran-p02",
+      "audience": "child",
+      "author": "Alfred Assollant",
+      "workTitle": "Aventures merveilleuses mais authentiques du capitaine Corcoran",
+      "source": "https://fr.wikisource.org/wiki/Aventures_merveilleuses_mais_authentiques_du_capitaine_Corcoran_(Assollant)/Texte_entier",
+      "textHash": "ef4e01dc25d6f897451323581d5a051a92f3acd816bb5c1ea783df6805a79a7d"
+    },
+    {
+      "id": "assollant-capitaine-corcoran-p03",
+      "audience": "child",
+      "author": "Alfred Assollant",
+      "workTitle": "Aventures merveilleuses mais authentiques du capitaine Corcoran",
+      "source": "https://fr.wikisource.org/wiki/Aventures_merveilleuses_mais_authentiques_du_capitaine_Corcoran_(Assollant)/Texte_entier",
+      "textHash": "91f05ec7d58055a69e28418ee389bb1035a596651fa5564ef5bd942b876e0066"
+    },
+    {
+      "id": "verne-bourses-voyage-p01",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Bourses de voyage",
+      "source": "https://fr.wikisource.org/wiki/Bourses_de_voyage_(1904)/Texte_entier",
+      "textHash": "04df23954ec24a5285948e5d08487befa59b551481de3f7dd2577b08ca2c1043"
+    },
+    {
+      "id": "verne-bourses-voyage-p02",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Bourses de voyage",
+      "source": "https://fr.wikisource.org/wiki/Bourses_de_voyage_(1904)/Texte_entier",
+      "textHash": "7a6b94ac879e2b286a625985df9beeb5b26a89b835224932f1ca9a1cbdae3866"
+    },
+    {
+      "id": "verne-bourses-voyage-p03",
+      "audience": "child",
+      "author": "Jules Verne",
+      "workTitle": "Bourses de voyage",
+      "source": "https://fr.wikisource.org/wiki/Bourses_de_voyage_(1904)/Texte_entier",
+      "textHash": "378a2b463fdbf2555004a9dfd1c599943d8c283bf345920089b9258e81cbc0a5"
     }
-  ]
+  ],
+  "previousSnapshot": {
+    "date": "2026-10-20",
+    "source": "Published Sites source catalogue, commit b9181acfa91eedfb4cfa556d4bb60a2a9149192d",
+    "catalogueSha256": "ce894f537475d7534fec97938da178aec17226f41ba6045eb9a8a0e18ab8127d",
+    "passageCount": 536
+  }
 }

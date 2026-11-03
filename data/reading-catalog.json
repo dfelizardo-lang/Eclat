@@ -10510,6 +10510,296 @@
         }
       ],
       "text": "Depuis déjà trois bonnes heures, ces deux entêtés savants disputaient, sans se rien céder, sur la question de l’Orénoque. Ce célèbre fleuve de l’Amérique méridionale, principale artère du Venezuela, se dirigeait-il, dans la première partie de son cours, de l’est à l’ouest, ainsi que l’établissaient les plus récentes cartes, ou ne venait-il pas du sud-ouest ? En ce cas, le Guaviare ou l’Atabapo n’étaient-ils pas considérés à tort comme des affluents ?"
+    },
+    {
+      "id": "dumas-meneur-loups",
+      "title": "Le Meneur de loups",
+      "author": "Alexandre Dumas",
+      "audience": "adult",
+      "year": "1857",
+      "editionYear": 1868,
+      "edition": "Livre:Dumas - Le Meneur de loups (1868).djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3ADumas_-_Le_Meneur_de_loups_(1868).djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "tags": [
+        "épouvante",
+        "fantastique",
+        "frisson",
+        "secret"
+      ],
+      "genre": "épouvante",
+      "source": "https://fr.wikisource.org/wiki/Le_Meneur_de_loups/Texte_entier",
+      "sourceRevision": "14174876",
+      "sourceHtmlSha256": "2aaa862a48f6267ee4a5887c76617b67c2b37d6c06241ce4bed8eafb4130f57a",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1870,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Alexandre_Dumas",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur décédé au XIXe ou au début du XXe siècle ; édition historique identifiée, sans traduction, préface ni illustrations."
+      },
+      "passages": [
+        {
+          "id": "dumas-meneur-loups-p01",
+          "text": "Arrivé au milieu de l’appartement, il s’assit à la manière des loups et regarda fixement le sabotier.\n\nThibault saisit une hache qui se trouvait à sa portée, afin de recevoir dignement l’étrange visiteur, et, pour l’effrayer, il brandit la hache au-dessus de sa tête.\n\nMais la physionomie du loup prit une singulière expression de raillerie.\n\nIl se mit à rire.\n\nC’était la première fois que Thibault entendait rire un loup.\n\nIl avait entendu dire souvent que les loups aboyaient comme des chiens.\n\nMais il n’avait jamais entendu dire que les loups riaient comme des hommes.\n\nEt de quel rire encore !\n\nUn homme qui eût ri comme ce loup eût fort effrayé Thibault.\n\nIl laissa retomber son bras déjà levé.\n\n— Par le seigneur au pied fourchu, dit le loup d’une voix pleine et sonore, voilà un gaillard auquel, sur sa demande, j’envoie le plus beau daim des forêts de Son Altesse Royale, et qui, pour ma récompense, veut me fendre la tête d’un coup de hache ; reconnaissance humaine bien digne de hurler avec la reconnaissance des loups.\n\nEn entendant une voix pareille à la sienne sortir du corps de l’animal, les genoux de Thibault commencèrent à flageoler, et la hache lui tomba des mains.\n\n— Voyons, continua le loup, soyons raisonnables et causons comme deux bons amis. Tu as désiré hier le daim du baron Jean, et je l’ai conduit moi-même dans ton étable ; et, de peur qu’il ne t’échappât, je l’ai attaché moi-même au râtelier ; cela vaut mieux qu’un coup de hache, il me semble.",
+          "startParagraph": 850,
+          "endParagraph": 862,
+          "source": "https://fr.wikisource.org/wiki/Le_Meneur_de_loups/Texte_entier",
+          "sha256": "23299538e088511b93248ae3b35b8209c3a956b4ec204158aa3b19990f20e3db",
+          "pageRefs": [
+            "Page:Dumas - Le Meneur de loups (1868).djvu/85",
+            "Page:Dumas - Le Meneur de loups (1868).djvu/86"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        },
+        {
+          "id": "dumas-meneur-loups-p02",
+          "text": "L’échange des anneaux se fit.\n\n— Bon ! dit le loup, nous voilà mariés.\n\n— Oh ! fit Thibault, fiancés, messire loup. Peste ! comme vous y allez !\n\n— C’est ce que nous verrons, maître Thibault. Et maintenant, retourne à ta besogne, je retourne à la mienne.\n\n— Adieu, seigneur loup.\n\n— Au revoir, maître Thibault.\n\nÀ peine le loup avait-il prononcé ces mots au revoir, sur lesquels il avait appuyé d’une sensible façon, qu’il disparut comme une pincée de poudre à laquelle on met le feu, et, comme une pincée de poudre, laissant une odeur de soufre. Thibault resta un instant abasourdi. Il ne pouvait s’habituer à cette manière de faire sa sortie, comme on dit en terme de théâtre ; il regarda de tous les côtés : plus de loup. Le sabotier crut un instant qu’il avait été le jouet d’une vision. Mais, en abaissant les yeux, il vit la bague diabolique à l’annulaire de sa main droite. Thibault la tira de son doigt et l’examina. Il lui sembla qu’il y avait un chiffre gravé dans l’intérieur de la bague, et il reconnut qu’il se composait de deux lettres, un T et un S.\n\n— Ah ! ah ! dit-il avec une sueur froide. Thibault et Satan, les noms de famille des deux parties contractantes. Ma foi, tant pis ! quand on se donne au diable, il faut s’y donner de bon cœur.",
+          "startParagraph": 945,
+          "endParagraph": 952,
+          "source": "https://fr.wikisource.org/wiki/Le_Meneur_de_loups/Texte_entier",
+          "sha256": "5638ba3f89442235a6dea0683e286d82933cfcbb8dbf7e394fa9f623631cff73",
+          "pageRefs": [
+            "Page:Dumas - Le Meneur de loups (1868).djvu/92",
+            "Page:Dumas - Le Meneur de loups (1868).djvu/93"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        },
+        {
+          "id": "dumas-meneur-loups-p03",
+          "text": "— En entrant hardiment dans le sentier où tu t’es engagé par raccroc, en voulant avec résolution ce que tu acceptais sournoisement ; autrement dit, en étant franchement des nôtres.\n\n— Et que faudrait-il faire ?\n\n— Prendre ma place.\n\n— Et en la prenant ?\n\n— Acquérir ma puissance ; alors, tu n’auras plus rien à désirer.\n\n— Si votre puissance est si étendue, si elle vous donne toutes les richesses que j’envie, comment y renoncez-vous ?\n\n— Ne t’inquiète pas de moi. Le maître auquel j’aurai conquis un serviteur me récompensera largement.\n\n— Et, en prenant votre place, prendrai-je votre forme ?\n\n— Oui, pendant la nuit ; mais, le jour, tu redeviendras homme.\n\n— Les nuits sont longues, obscures, pleines d’embûches ; je puis tomber sous la balle d’un garde, ou poser la patte sur un piège ; alors, adieu richesse, adieu grandeur.\n\n— Non ; car cette peau qui m’enveloppe est impénétrable au fer, au plomb et à l’acier… Tant qu’elle couvrira ton corps, tu seras non seulement invulnérable, mais immortel ; une seule fois par an, comme tous les loups-garous, tu redeviendras loup pour vingt-quatre heures, et, pendant ces vingt-quatre heures, tu auras la mort à craindre comme les autres. Lorsque nous nous sommes vus, il y aura juste un an aujourd’hui, j’étais dans mon jour fatal.",
+          "startParagraph": 3518,
+          "endParagraph": 3528,
+          "source": "https://fr.wikisource.org/wiki/Le_Meneur_de_loups/Texte_entier",
+          "sha256": "363ab364aafcb752a3ffca1dbff60ae58bc386211699fb4aeb83454dc7b74ac8",
+          "pageRefs": [
+            "Page:Dumas - Le Meneur de loups (1868).djvu/305",
+            "Page:Dumas - Le Meneur de loups (1868).djvu/306"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        }
+      ],
+      "text": "Arrivé au milieu de l’appartement, il s’assit à la manière des loups et regarda fixement le sabotier.\n\nThibault saisit une hache qui se trouvait à sa portée, afin de recevoir dignement l’étrange visiteur, et, pour l’effrayer, il brandit la hache au-dessus de sa tête.\n\nMais la physionomie du loup prit une singulière expression de raillerie.\n\nIl se mit à rire.\n\nC’était la première fois que Thibault entendait rire un loup.\n\nIl avait entendu dire souvent que les loups aboyaient comme des chiens.\n\nMais il n’avait jamais entendu dire que les loups riaient comme des hommes.\n\nEt de quel rire encore !\n\nUn homme qui eût ri comme ce loup eût fort effrayé Thibault.\n\nIl laissa retomber son bras déjà levé.\n\n— Par le seigneur au pied fourchu, dit le loup d’une voix pleine et sonore, voilà un gaillard auquel, sur sa demande, j’envoie le plus beau daim des forêts de Son Altesse Royale, et qui, pour ma récompense, veut me fendre la tête d’un coup de hache ; reconnaissance humaine bien digne de hurler avec la reconnaissance des loups.\n\nEn entendant une voix pareille à la sienne sortir du corps de l’animal, les genoux de Thibault commencèrent à flageoler, et la hache lui tomba des mains.\n\n— Voyons, continua le loup, soyons raisonnables et causons comme deux bons amis. Tu as désiré hier le daim du baron Jean, et je l’ai conduit moi-même dans ton étable ; et, de peur qu’il ne t’échappât, je l’ai attaché moi-même au râtelier ; cela vaut mieux qu’un coup de hache, il me semble."
+    },
+    {
+      "id": "feval-ville-vampire",
+      "title": "La Ville-Vampire",
+      "author": "Paul Féval",
+      "audience": "adult",
+      "year": "1875",
+      "editionYear": 1875,
+      "edition": "Livre:Féval - La Ville-Vampire (1875).djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3AF%C3%A9val_-_La_Ville-Vampire_(1875).djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "tags": [
+        "épouvante",
+        "fantastique",
+        "frisson",
+        "aventure"
+      ],
+      "genre": "épouvante",
+      "source": "https://fr.wikisource.org/wiki/La_Ville-Vampire/Journ%C3%A9e_3/VI",
+      "sourceRevision": "15233366",
+      "sourceHtmlSha256": "be3a1662a86f4619a2fb9099e1ec8ae19682e3a62c142c3960f3c9bc0ae62dfc",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1887,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Paul_F%C3%A9val",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur décédé au XIXe ou au début du XXe siècle ; édition historique identifiée, sans traduction, préface ni illustrations."
+      },
+      "passages": [
+        {
+          "id": "feval-ville-vampire-p01",
+          "text": "Nos compagnons allaient à pleine course dans les\nrues de Sélène, incessamment pressés par les exhortations\nde Polly, qui, du fond de son cercueil, s’essoufflait\nà crier comme des jockeys d’Epsom. Et\nvraiment, on pouvait voir déjà qu’elle n’avait pas\ntout à fait tort. Le murmure, épandu parmi le silence,\naugmentait ; les lueurs, colorées d’un rouge\nvague, croissaient en intensité, et le bruit des ailes\ndu grand coucou noir, qui planait au-dessus de la\ncaravane en décrivant des cercles, commençait à se\nfaire entendre.\n\nAu moment où nos amis arrivaient au passage\nmarqué par la statue du Serpent, cet animal de porphyre,\nmagnifique en ses proportions, se prit à onduler\navec lenteur, en même temps que ses anneaux demi diaphanes, et jusque-là décolorés, prenaient\nune teinte verte d’une indicible richesse.\n\nJuste à cette même seconde, un grondement\nvaste, partant du dôme principal, emplit l’espace\npar une série de vibrations balancées, et toutes ces\npâleurs immobiles, qui étageaient jusqu’à perte de\nvue les places de la ville trépassée, prirent vie :\n\nUne vie verte d une intensité crue et violente,\ndans laquelle les lignes précédemment noires marquant\nles jointures des pierres traçaient, en prenant\nune teinte écarlate, de longs zig-zags de feu…\n\nC’était superbe, mais horrible et ces grandeurs\nsinistres, assombrissant et réchauffant leurs horizons\nsans limites, submergeaient la pensée dans une\nmer d’épouvantements. Polly disait :\n\n— Pressez le pas ! courez ! fuyez votre mort qui\nva sonner ! Quelle heure avez-vous ?\n\n— Midi moins une minute.\n\n— Courez ! courez après votre vie !\n\nIls couraient, haletants, chancelants, baignés de\ncette sueur glacée que la fièvre fait ruisseler sur le\ncorps brûlant.",
+          "startParagraph": 2,
+          "endParagraph": 10,
+          "source": "https://fr.wikisource.org/wiki/La_Ville-Vampire/Journ%C3%A9e_3/VI",
+          "sha256": "d90e7ee62f2562af6f624285d546a87e07a31bbbfc83eedb2c7787e0f6c366ea",
+          "pageRefs": [
+            "Page:Féval - La Ville-Vampire (1875).djvu/300",
+            "Page:Féval - La Ville-Vampire (1875).djvu/301"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        },
+        {
+          "id": "feval-ville-vampire-p02",
+          "text": "Le sombre et le brillant, la nuit et le jour, le gracieux\net le terrible étaient mêlés là-dedans et confondus\nen d’infernales promiscuités. Ce n’était plus même un\nrêve ni un cauchemar, ni une hallucination : c’était\nla débauche de toutes ces choses réunies, leur bataille\net leur tempête. Et la cloche de cristal continuait\nde sonner. Et, après chaque coup, l’oiseau noir\njetait son cri, qui allait grandissant, à mesure que\nl’espace plus ardent couvrait de lueurs plus étranges\ntoutes ces architectures prodigieuses où le feu servait\nde ciment à des blocs d’émeraude.\n\nAu douzième coup, le paquet de flammes sculptées\nqui était dans la coupe terminale, au sommet du dôme, s’alluma, soufflé et attisé par l’oiseau noir\navec le vent de ses ailes.\n\nToutes les portes des mausolées s’ouvrirent…\n\nMais, vous l’ai-je dit ? Nos compagnons, courant\nà perdre haleine, ne savaient par où sortir de cette\nplace entourée d’issues uniformes, et Polly Bird,\naffolée par la terreur, leur criait toujours : « Courez !\nallez ! hâtez-vous ! » sans songer à leur donner les\nindications nécessaires. Ils tournaient à toute vitesse,\népuisés déjà et perdant haleine dans ce cercle fatal,\nne sachant pas qu’ils n’avançaient plus et foulant\ndix fois de suite la même trace circulaire.\n\n— Par la voie du Noctillion ! cria enfin Polly ; la\nporte est au bout ! Courez, par l’enfer et le ciel !\nvotre vie ne tient plus qu’à un fil !",
+          "startParagraph": 13,
+          "endParagraph": 17,
+          "source": "https://fr.wikisource.org/wiki/La_Ville-Vampire/Journ%C3%A9e_3/VI",
+          "sha256": "1335313778b97f115b140a8c5d90f435fdeb0c5a83f5ae5cd0c6c2442fc649d9",
+          "pageRefs": [
+            "Page:Féval - La Ville-Vampire (1875).djvu/302",
+            "Page:Féval - La Ville-Vampire (1875).djvu/303"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        },
+        {
+          "id": "feval-ville-vampire-p03",
+          "text": "C’était vrai. Nos fugitifs pouvaient voir déjà la\nhaute muraille de porphyre, ceinture merveilleuse\nde tant de merveilles, et la voûte profonde, étroite,\nbasse, qui seule donnait entrée dans l’immense cité.\nIls avaient dû passer sous cette voûte à leur arrivée,\nmais ils n’en gardaient point souvenir.\n\nEt comme ils avaient dépassé déjà les derniers\nmausolées, il n’y avait personne entre eux et la\nporte grande ouverte, au delà de laquelle était la nuit.\n\nMais les clameurs, les fanfares, la générale et le\ntocsin, mêlés à des bruits de toute sorte, se gonflaient\net montaient comme une marée  d’assourdissants fracas, et tout à coup une innombrable cohue\nd’hommes, de femmes, d’animaux à quatre pattes,\nde reptiles, d’oiseaux uniformément verts et rouges\navec des yeux jaunes, se rua dans la grande voie\npar toutes les issues et l’encombra en un clin d’œil.\n\n— À mort ! à mort ! concierge, fermez la porte !\nbaissez la herse, levez le pont ! lâchez les dogues !\nles lions ! les tigres ! les crocodiles et les serpents !\nViol de sépulture ! mort de vampire ! Il faut du sang,\ndu sang, du sang !\n\n— Begorra ! dit Merry Bones, nous voilà bien !\nOù diable les coquins prennent-ils toutes ces bêtes ?\nEnfin, nous allons voir !",
+          "startParagraph": 26,
+          "endParagraph": 30,
+          "source": "https://fr.wikisource.org/wiki/La_Ville-Vampire/Journ%C3%A9e_3/VI",
+          "sha256": "779f27f7c7c8a30ce5b5e32be4531759abf9824fbe0a38afa4f0409a95f1afc8",
+          "pageRefs": [
+            "Page:Féval - La Ville-Vampire (1875).djvu/306",
+            "Page:Féval - La Ville-Vampire (1875).djvu/307"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        }
+      ],
+      "text": "Nos compagnons allaient à pleine course dans les\nrues de Sélène, incessamment pressés par les exhortations\nde Polly, qui, du fond de son cercueil, s’essoufflait\nà crier comme des jockeys d’Epsom. Et\nvraiment, on pouvait voir déjà qu’elle n’avait pas\ntout à fait tort. Le murmure, épandu parmi le silence,\naugmentait ; les lueurs, colorées d’un rouge\nvague, croissaient en intensité, et le bruit des ailes\ndu grand coucou noir, qui planait au-dessus de la\ncaravane en décrivant des cercles, commençait à se\nfaire entendre.\n\nAu moment où nos amis arrivaient au passage\nmarqué par la statue du Serpent, cet animal de porphyre,\nmagnifique en ses proportions, se prit à onduler\navec lenteur, en même temps que ses anneaux demi diaphanes, et jusque-là décolorés, prenaient\nune teinte verte d’une indicible richesse.\n\nJuste à cette même seconde, un grondement\nvaste, partant du dôme principal, emplit l’espace\npar une série de vibrations balancées, et toutes ces\npâleurs immobiles, qui étageaient jusqu’à perte de\nvue les places de la ville trépassée, prirent vie :\n\nUne vie verte d une intensité crue et violente,\ndans laquelle les lignes précédemment noires marquant\nles jointures des pierres traçaient, en prenant\nune teinte écarlate, de longs zig-zags de feu…\n\nC’était superbe, mais horrible et ces grandeurs\nsinistres, assombrissant et réchauffant leurs horizons\nsans limites, submergeaient la pensée dans une\nmer d’épouvantements. Polly disait :\n\n— Pressez le pas ! courez ! fuyez votre mort qui\nva sonner ! Quelle heure avez-vous ?\n\n— Midi moins une minute.\n\n— Courez ! courez après votre vie !\n\nIls couraient, haletants, chancelants, baignés de\ncette sueur glacée que la fièvre fait ruisseler sur le\ncorps brûlant."
+    },
+    {
+      "id": "assollant-capitaine-corcoran",
+      "title": "Aventures merveilleuses mais authentiques du capitaine Corcoran",
+      "author": "Alfred Assollant",
+      "audience": "child",
+      "year": "1867",
+      "editionYear": 1898,
+      "edition": "Livre:Assollant - Aventures merveilleuses mais authentiques du capitaine Corcoran, I.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3AAssollant_-_Aventures_merveilleuses_mais_authentiques_du_capitaine_Corcoran,_I.djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "tags": [
+        "aventure",
+        "voyage",
+        "courage",
+        "exploration"
+      ],
+      "genre": "aventure",
+      "source": "https://fr.wikisource.org/wiki/Aventures_merveilleuses_mais_authentiques_du_capitaine_Corcoran_(Assollant)/Texte_entier",
+      "sourceRevision": "15965582",
+      "sourceHtmlSha256": "a08ee9d8d32d0f22266d4fc2be40ce9ac320ac5face04ad5ec5d374302690fe5",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1886,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Alfred_Assollant",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur décédé au XIXe ou au début du XXe siècle ; édition historique identifiée, sans traduction, préface ni illustrations."
+      },
+      "passages": [
+        {
+          "id": "assollant-capitaine-corcoran-p01",
+          "text": "De moi-même j’ai peu de chose à dire. Je suis \nné une ligne de pêche à la main. Je montais seul \ndans la barque de mon père à l’âge où les autres \nenfants connaissent à peine l’alphabet, et quand \nmon père eut péri en portant secours à un bateau \npêcheur en détresse, je m’embarquai sur la Chaste Suzanne, de Saint-Malo, qui allait pêcher la baleine vers le détroit de Behring ; après trois ans \nde courses vers le pôle nord et le pôle sud, je \npassai de la Chaste Suzanne sur la Belle-Émilie, de \nla Belle-Émilie sur le Fier-Artaban et du Fier-Artaban sur le Fils de la Tempête, un brick ailé qui \nfile ses dix-huit nœuds à l’heure, toutes voiles \ndehors.\n\n— Monsieur, interrompit le secrétaire perpétuel \nde l’Académie, vous nous avez promis l’histoire \nde Louison.\n\n— Prenez patience, répliqua Corcoran, la voici. »",
+          "startParagraph": 135,
+          "endParagraph": 137,
+          "source": "https://fr.wikisource.org/wiki/Aventures_merveilleuses_mais_authentiques_du_capitaine_Corcoran_(Assollant)/Texte_entier",
+          "sha256": "d9d6a5af5a95799ad48e7cc006ef61f5575d79cec9f7962a9d45479bfc1b340d",
+          "pageRefs": [
+            "Page:Assollant - Aventures merveilleuses mais authentiques du capitaine Corcoran, I.djvu/31"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        },
+        {
+          "id": "assollant-capitaine-corcoran-p02",
+          "text": "Le lendemain, le capitaine Corcoran arriva à \nMarseille, et attendit les instructions de l’Académie \ndes sciences de Lyon. Ces instructions, rédigées \npar le secrétaire perpétuel lui-même, étaient dignes \nde passer à la postérité la plus reculée ; mais un \nmalheureux accident obligea plus tard le capitaine \nà les jeter au feu, de sorte qu’on est réduit à en \ndeviner le contenu par le récit même des actions \ndu célèbre Malouin. Au reste, il suffira de dire \nqu’elles étaient dignes de la savante Académie qui \nles avait envoyées et de l’illustre voyageur à qui \nelles étaient destinées.",
+          "startParagraph": 254,
+          "endParagraph": 254,
+          "source": "https://fr.wikisource.org/wiki/Aventures_merveilleuses_mais_authentiques_du_capitaine_Corcoran_(Assollant)/Texte_entier",
+          "sha256": "ef4e01dc25d6f897451323581d5a051a92f3acd816bb5c1ea783df6805a79a7d",
+          "pageRefs": [
+            "Page:Assollant - Aventures merveilleuses mais authentiques du capitaine Corcoran, I.djvu/56"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        },
+        {
+          "id": "assollant-capitaine-corcoran-p03",
+          "text": "Le plan de Corcoran était très-simple. De la route \noù il était, il apercevait à quelque distance une \npetite pagode indienne abandonnée, à laquelle paraissait aboutir un sentier assez large tracé dans la jungle. C’est là qu’il voulait chercher un asile. \nEntrer dans la pagode, en refermer la porte sur \neux, et barricader l’entrée avec des poutres qui \nse trouvaient par hasard dans le voisinage et percer \nles meurtrières à travers la porte, ce fut pour les \nfugitifs l’affaire d’un instant.\n\nLouison regardait ces préparatifs avec étonnement. Elle était même un peu mécontente. Cela se \ncomprend ; elle adorait le grand air, les prairies, \nles vastes forêts, les hautes montagnes ; elle n’aimait pas à être enfermée, et surtout elle ne comprenait pas qu’on prit tant de peine pour s’enfermer soi-même. Aussi Corcoran prit soin de lui expliquer les raisons de sa conduite.",
+          "startParagraph": 825,
+          "endParagraph": 826,
+          "source": "https://fr.wikisource.org/wiki/Aventures_merveilleuses_mais_authentiques_du_capitaine_Corcoran_(Assollant)/Texte_entier",
+          "sha256": "91f05ec7d58055a69e28418ee389bb1035a596651fa5564ef5bd942b876e0066",
+          "pageRefs": [
+            "Page:Assollant - Aventures merveilleuses mais authentiques du capitaine Corcoran, I.djvu/166",
+            "Page:Assollant - Aventures merveilleuses mais authentiques du capitaine Corcoran, I.djvu/167"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        }
+      ],
+      "text": "De moi-même j’ai peu de chose à dire. Je suis \nné une ligne de pêche à la main. Je montais seul \ndans la barque de mon père à l’âge où les autres \nenfants connaissent à peine l’alphabet, et quand \nmon père eut péri en portant secours à un bateau \npêcheur en détresse, je m’embarquai sur la Chaste Suzanne, de Saint-Malo, qui allait pêcher la baleine vers le détroit de Behring ; après trois ans \nde courses vers le pôle nord et le pôle sud, je \npassai de la Chaste Suzanne sur la Belle-Émilie, de \nla Belle-Émilie sur le Fier-Artaban et du Fier-Artaban sur le Fils de la Tempête, un brick ailé qui \nfile ses dix-huit nœuds à l’heure, toutes voiles \ndehors.\n\n— Monsieur, interrompit le secrétaire perpétuel \nde l’Académie, vous nous avez promis l’histoire \nde Louison.\n\n— Prenez patience, répliqua Corcoran, la voici. »"
+    },
+    {
+      "id": "verne-bourses-voyage",
+      "title": "Bourses de voyage",
+      "author": "Jules Verne",
+      "audience": "child",
+      "year": "1903",
+      "editionYear": 1904,
+      "edition": "Livre:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu",
+      "editionSource": "https://fr.wikisource.org/wiki/Livre%3AVerne_-_Bourses_de_voyage,_Hetzel,_1904,_tome_1.djvu",
+      "language": "fr",
+      "originalLanguage": "fr",
+      "tags": [
+        "aventure",
+        "voyage",
+        "amitié",
+        "courage"
+      ],
+      "genre": "aventure",
+      "source": "https://fr.wikisource.org/wiki/Bourses_de_voyage_(1904)/Texte_entier",
+      "sourceRevision": "10416266",
+      "sourceHtmlSha256": "9ac78191c3b9505ea4cf6bbc5c91fc4c2c9c3d0834d12d14e274c7c9066e11aa",
+      "rights": {
+        "status": "public-domain",
+        "territory": "France",
+        "authorDeathYear": 1905,
+        "authorSource": "https://fr.wikisource.org/wiki/Auteur:Jules_Verne",
+        "verifiedAt": "2026-11-03",
+        "legalSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278937",
+        "basis": "Texte français original ; auteur décédé au XIXe ou au début du XXe siècle ; édition historique identifiée, sans traduction, préface ni illustrations."
+      },
+      "passages": [
+        {
+          "id": "verne-bourses-voyage-p01",
+          "text": "— Eh ! eh ! dit Tony Renault, en le regardant d’un œil ironique, ne faut-il pas compter avec le mal de mer !…\n\n— Peuh !… fit John Howard, on en est quitte pour quelques nausées.\n\n— D’ailleurs, observa Albertus Leuwen, on ne sait encore si le meilleur moyen, pour le braver, est d’avoir l’estomac plein ou vide…\n\n— Vide… assura Hubert Perkins.\n\n— Plein… assura Axel Wickborn.\n\n— Mes jeunes amis, intervint M. Horatio Patterson, croyez-en ma vieille expérience, le mieux est de s’accoutumer aux mouvements alternatifs du navire. Comme nous l’avons pu faire pendant le trajet de Bristol à Queenstown, il est probable que nous n’avons plus à craindre ce mal !… Rien de tel que de s’habituer, et tout est habitude en ce bas monde ! »",
+          "startParagraph": 880,
+          "endParagraph": 885,
+          "source": "https://fr.wikisource.org/wiki/Bourses_de_voyage_(1904)/Texte_entier",
+          "sha256": "04df23954ec24a5285948e5d08487befa59b551481de3f7dd2577b08ca2c1043",
+          "pageRefs": [
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/209",
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/210"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        },
+        {
+          "id": "verne-bourses-voyage-p02",
+          "text": "Déjà quatre hommes étaient au cabestan, prêts à virer, et les passagers se placèrent aux barres pour leur venir en aide. De son côté, John Carpenter et plusieurs matelots s’occupaient à larguer les huniers, les perroquets, les focs, les basses voiles, puis à hisser les vergues, afin de les amurer et les border dès que l’on serait à pic.\n\n« Dérapez », ordonna un moment après Harry Markel.\n\nLes derniers tours du cabestan firent remonter l’ancre à son bossoir, où elle fut traversée.\n\n« Amurez et bordez partout, commanda Harry Markel, puis cap au sud-ouest. »\n\nL’Alert, ayant pris de l’erre, commença à s’éloigner de Roberts-Cove, tandis que les jeunes garçons arboraient le pavillon britannique en le saluant de leurs hurras.\n\nM. Horatio Patterson se trouvait alors près de Harry Markel devant l’habitacle. Et, après avoir déclaré qu’il était enfin commencé, le grand voyage, il ajouta :\n\n« Grand et fructueux, capitaine Paxton !… Grâce à la générosité princière de Mrs Kethlen Seymour, il assure à chacun de nous une prime de sept cents livres à notre départ de la Barbade ! »",
+          "startParagraph": 900,
+          "endParagraph": 906,
+          "source": "https://fr.wikisource.org/wiki/Bourses_de_voyage_(1904)/Texte_entier",
+          "sha256": "7a6b94ac879e2b286a625985df9beeb5b26a89b835224932f1ca9a1cbdae3866",
+          "pageRefs": [
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/212",
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/213"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        },
+        {
+          "id": "verne-bourses-voyage-p03",
+          "text": "En effet, avant le coucher du soleil, des masses arrondies se dessinèrent assez confuses vers le couchant, et, le lendemain, l’Alert passait en vue de l’île Saint-David, la plus orientale de l’archipel.\n\nDu reste, il fallut tenir tête à de violents grains. Certaines rafales, entremêlées d’éclairs, qui tombaient du sud-est, contraignirent l’Alert à prendre la cape. Toute la journée et la nuit suivante, la mer fut démontée. Sous ses huniers au bas ris, le trois-mâts dut faire la route contraire ; il n’aurait pu s’exposer sans danger aux lames qui l’eussent couvert en grand.\n\nPeut-être Harry Markel eût-il fait acte de marin prudent et sage, en cherchant refuge dans quelque port de l’archipel, et, plus particulièrement, à Saint-George. Mais, on le comprend, plutôt compromettre son navire que de rallier une colonie anglaise, où le capitaine Paxton pouvait être connu. Il garda donc le large, manœuvrant d’ailleurs avec une extrême habileté. L’Alert ne subit que des avaries sans importance, quelques voiles déchirées, un coup de mer qui faillit enlever l’embarcation de tribord.\n\nSi M. Patterson supporta mieux que l’on ne devait l’espérer ces soixante heures de mauvais temps, plusieurs de ses jeunes compagnons, sans avoir passé par toutes les phases du terrible mal dont il avait été victime, furent cependant assez éprouvés : John Howard, Niels Harboe, Albertus Leuwen. Mais Louis Clodion, Roger Hinsdale, Hubert Perkins, Axel Wickborn résistèrent et purent admirer, en toute sa magnifique horreur, cette lutte des éléments déchaînés pendant deux jours de tempête.",
+          "startParagraph": 1051,
+          "endParagraph": 1054,
+          "source": "https://fr.wikisource.org/wiki/Bourses_de_voyage_(1904)/Texte_entier",
+          "sha256": "378a2b463fdbf2555004a9dfd1c599943d8c283bf345920089b9258e81cbc0a5",
+          "pageRefs": [
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/244",
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/245"
+          ],
+          "sourceComparison": "Paragraphes sources entiers et consécutifs, texte inchangé ; illustrations et notes exclues."
+        }
+      ],
+      "text": "— Eh ! eh ! dit Tony Renault, en le regardant d’un œil ironique, ne faut-il pas compter avec le mal de mer !…\n\n— Peuh !… fit John Howard, on en est quitte pour quelques nausées.\n\n— D’ailleurs, observa Albertus Leuwen, on ne sait encore si le meilleur moyen, pour le braver, est d’avoir l’estomac plein ou vide…\n\n— Vide… assura Hubert Perkins.\n\n— Plein… assura Axel Wickborn.\n\n— Mes jeunes amis, intervint M. Horatio Patterson, croyez-en ma vieille expérience, le mieux est de s’accoutumer aux mouvements alternatifs du navire. Comme nous l’avons pu faire pendant le trajet de Bristol à Queenstown, il est probable que nous n’avons plus à craindre ce mal !… Rien de tel que de s’habituer, et tout est habitude en ce bas monde ! »"
     }
   ]
 }

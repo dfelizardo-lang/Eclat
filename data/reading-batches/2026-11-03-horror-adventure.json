@@ -1,0 +1,227 @@
+{
+  "baseCommit": "be9d13841d6f9685be62a68538b0e9ab66c14b18",
+  "previousCatalogueSha256": "ce894f537475d7534fec97938da178aec17226f41ba6045eb9a8a0e18ab8127d",
+  "addedWorks": 4,
+  "addedPassages": 12,
+  "maxPassageCharacters": 2000,
+  "works": [
+    {
+      "id": "dumas-meneur-loups",
+      "source": "https://fr.wikisource.org/wiki/Le_Meneur_de_loups/Texte_entier",
+      "revision": "14174876",
+      "sourceHtmlSha256": "2aaa862a48f6267ee4a5887c76617b67c2b37d6c06241ce4bed8eafb4130f57a",
+      "edition": "Livre:Dumas - Le Meneur de loups (1868).djvu",
+      "editionYear": 1868,
+      "paragraphSelections": [
+        [
+          850,
+          862
+        ],
+        [
+          945,
+          952
+        ],
+        [
+          3518,
+          3528
+        ]
+      ],
+      "passages": [
+        {
+          "id": "dumas-meneur-loups-p01",
+          "startParagraph": 850,
+          "endParagraph": 862,
+          "sha256": "23299538e088511b93248ae3b35b8209c3a956b4ec204158aa3b19990f20e3db",
+          "pageRefs": [
+            "Page:Dumas - Le Meneur de loups (1868).djvu/85",
+            "Page:Dumas - Le Meneur de loups (1868).djvu/86"
+          ]
+        },
+        {
+          "id": "dumas-meneur-loups-p02",
+          "startParagraph": 945,
+          "endParagraph": 952,
+          "sha256": "5638ba3f89442235a6dea0683e286d82933cfcbb8dbf7e394fa9f623631cff73",
+          "pageRefs": [
+            "Page:Dumas - Le Meneur de loups (1868).djvu/92",
+            "Page:Dumas - Le Meneur de loups (1868).djvu/93"
+          ]
+        },
+        {
+          "id": "dumas-meneur-loups-p03",
+          "startParagraph": 3518,
+          "endParagraph": 3528,
+          "sha256": "363ab364aafcb752a3ffca1dbff60ae58bc386211699fb4aeb83454dc7b74ac8",
+          "pageRefs": [
+            "Page:Dumas - Le Meneur de loups (1868).djvu/305",
+            "Page:Dumas - Le Meneur de loups (1868).djvu/306"
+          ]
+        }
+      ],
+      "editorialReview": "Extraits relus ; scènes fantastiques réservées aux adultes ; départ en voyage, navigation, entraide et refuge pour les enfants."
+    },
+    {
+      "id": "feval-ville-vampire",
+      "source": "https://fr.wikisource.org/wiki/La_Ville-Vampire/Journ%C3%A9e_3/VI",
+      "revision": "15233366",
+      "sourceHtmlSha256": "be3a1662a86f4619a2fb9099e1ec8ae19682e3a62c142c3960f3c9bc0ae62dfc",
+      "edition": "Livre:Féval - La Ville-Vampire (1875).djvu",
+      "editionYear": 1875,
+      "paragraphSelections": [
+        [
+          2,
+          10
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          26,
+          30
+        ]
+      ],
+      "passages": [
+        {
+          "id": "feval-ville-vampire-p01",
+          "startParagraph": 2,
+          "endParagraph": 10,
+          "sha256": "d90e7ee62f2562af6f624285d546a87e07a31bbbfc83eedb2c7787e0f6c366ea",
+          "pageRefs": [
+            "Page:Féval - La Ville-Vampire (1875).djvu/300",
+            "Page:Féval - La Ville-Vampire (1875).djvu/301"
+          ]
+        },
+        {
+          "id": "feval-ville-vampire-p02",
+          "startParagraph": 13,
+          "endParagraph": 17,
+          "sha256": "1335313778b97f115b140a8c5d90f435fdeb0c5a83f5ae5cd0c6c2442fc649d9",
+          "pageRefs": [
+            "Page:Féval - La Ville-Vampire (1875).djvu/302",
+            "Page:Féval - La Ville-Vampire (1875).djvu/303"
+          ]
+        },
+        {
+          "id": "feval-ville-vampire-p03",
+          "startParagraph": 26,
+          "endParagraph": 30,
+          "sha256": "779f27f7c7c8a30ce5b5e32be4531759abf9824fbe0a38afa4f0409a95f1afc8",
+          "pageRefs": [
+            "Page:Féval - La Ville-Vampire (1875).djvu/306",
+            "Page:Féval - La Ville-Vampire (1875).djvu/307"
+          ]
+        }
+      ],
+      "editorialReview": "Extraits relus ; scènes fantastiques réservées aux adultes ; départ en voyage, navigation, entraide et refuge pour les enfants."
+    },
+    {
+      "id": "assollant-capitaine-corcoran",
+      "source": "https://fr.wikisource.org/wiki/Aventures_merveilleuses_mais_authentiques_du_capitaine_Corcoran_(Assollant)/Texte_entier",
+      "revision": "15965582",
+      "sourceHtmlSha256": "a08ee9d8d32d0f22266d4fc2be40ce9ac320ac5face04ad5ec5d374302690fe5",
+      "edition": "Livre:Assollant - Aventures merveilleuses mais authentiques du capitaine Corcoran, I.djvu",
+      "editionYear": 1898,
+      "paragraphSelections": [
+        [
+          135,
+          137
+        ],
+        [
+          254,
+          254
+        ],
+        [
+          825,
+          826
+        ]
+      ],
+      "passages": [
+        {
+          "id": "assollant-capitaine-corcoran-p01",
+          "startParagraph": 135,
+          "endParagraph": 137,
+          "sha256": "d9d6a5af5a95799ad48e7cc006ef61f5575d79cec9f7962a9d45479bfc1b340d",
+          "pageRefs": [
+            "Page:Assollant - Aventures merveilleuses mais authentiques du capitaine Corcoran, I.djvu/31"
+          ]
+        },
+        {
+          "id": "assollant-capitaine-corcoran-p02",
+          "startParagraph": 254,
+          "endParagraph": 254,
+          "sha256": "ef4e01dc25d6f897451323581d5a051a92f3acd816bb5c1ea783df6805a79a7d",
+          "pageRefs": [
+            "Page:Assollant - Aventures merveilleuses mais authentiques du capitaine Corcoran, I.djvu/56"
+          ]
+        },
+        {
+          "id": "assollant-capitaine-corcoran-p03",
+          "startParagraph": 825,
+          "endParagraph": 826,
+          "sha256": "91f05ec7d58055a69e28418ee389bb1035a596651fa5564ef5bd942b876e0066",
+          "pageRefs": [
+            "Page:Assollant - Aventures merveilleuses mais authentiques du capitaine Corcoran, I.djvu/166",
+            "Page:Assollant - Aventures merveilleuses mais authentiques du capitaine Corcoran, I.djvu/167"
+          ]
+        }
+      ],
+      "editorialReview": "Extraits relus ; scènes fantastiques réservées aux adultes ; départ en voyage, navigation, entraide et refuge pour les enfants."
+    },
+    {
+      "id": "verne-bourses-voyage",
+      "source": "https://fr.wikisource.org/wiki/Bourses_de_voyage_(1904)/Texte_entier",
+      "revision": "10416266",
+      "sourceHtmlSha256": "9ac78191c3b9505ea4cf6bbc5c91fc4c2c9c3d0834d12d14e274c7c9066e11aa",
+      "edition": "Livre:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu",
+      "editionYear": 1904,
+      "paragraphSelections": [
+        [
+          880,
+          885
+        ],
+        [
+          900,
+          906
+        ],
+        [
+          1051,
+          1054
+        ]
+      ],
+      "passages": [
+        {
+          "id": "verne-bourses-voyage-p01",
+          "startParagraph": 880,
+          "endParagraph": 885,
+          "sha256": "04df23954ec24a5285948e5d08487befa59b551481de3f7dd2577b08ca2c1043",
+          "pageRefs": [
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/209",
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/210"
+          ]
+        },
+        {
+          "id": "verne-bourses-voyage-p02",
+          "startParagraph": 900,
+          "endParagraph": 906,
+          "sha256": "7a6b94ac879e2b286a625985df9beeb5b26a89b835224932f1ca9a1cbdae3866",
+          "pageRefs": [
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/212",
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/213"
+          ]
+        },
+        {
+          "id": "verne-bourses-voyage-p03",
+          "startParagraph": 1051,
+          "endParagraph": 1054,
+          "sha256": "378a2b463fdbf2555004a9dfd1c599943d8c283bf345920089b9258e81cbc0a5",
+          "pageRefs": [
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/244",
+            "Page:Verne - Bourses de voyage, Hetzel, 1904, tome 1.djvu/245"
+          ]
+        }
+      ],
+      "editorialReview": "Extraits relus ; scènes fantastiques réservées aux adultes ; départ en voyage, navigation, entraide et refuge pour les enfants."
+    }
+  ]
+}

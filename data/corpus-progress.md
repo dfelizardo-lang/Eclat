@@ -107,3 +107,17 @@ Validation locale : 15 tests Node (catalogue, API HTTP, rotation, identifiants h
 | Les Petits Souliers | Hégésippe Moreau | Enfants | 1864 | 3 |
 
 Contrôle de production du 4 octobre 2026 : déploiement f9d53f98-0757-4177-8327-2c955cb3da5a, commit 9f0889b6fb9459c7de3eff296de5404f6ddbaf23, SUCCESS. Le catalogue public est strictement identique au JSON intégré ; le HTML et le bundle réellement servis chargent 62 œuvres et 182 entrées lecteur, dont 150 extraits éditoriaux vérifiés (75 par public). Les 36 nouveaux endpoints /api/passages/:id restituent exactement les textes et empreintes attendus. Le manifeste audio correspond aux 182 entrées actives ; les 364 fichiers MP3 ont été contrôlés par taille, SHA-256 et durée décodable. Les 292 enregistrements antérieurs gardent leur empreinte ; 72 nouveaux audios ont été ajoutés. Aucun blocage technique constaté pour ce lot. Les 12 titres historiques restent à auditer ; objectif 200 titres / 600 extraits non atteint.
+
+
+## Lot épouvante adultes / aventure enfants — 3 novembre 2026
+
+Base production : be9d13841d6f9685be62a68538b0e9ab66c14b18, 180 œuvres / 536 entrées lecteur.
+Ajout : 4 romans distincts, 2 par public, 12 extraits (3 par œuvre), 589 à 1 715 caractères espaces et séparateurs compris. Le plafond du dépôt, plus strict que les 3 000 demandés, reste à 2 000.
+
+Adultes : Le Meneur de loups (Alexandre Dumas, œuvre 1857, édition 1868) ; La Ville-Vampire (Paul Féval, édition 1875).
+Enfants : Aventures merveilleuses mais authentiques du capitaine Corcoran (Alfred Assollant, œuvre 1867, édition 1898) ; Bourses de voyage (Jules Verne, œuvre 1903, édition 1904).
+
+Paragraphes entiers, consécutifs dans chaque extrait et disjoints entre extraits, sans réécriture. Sources Wikisource, fac-similés, révisions et SHA-256 conservés dans le lot JSON et le catalogue. Les auteurs, originaux français, sont décédés en 1870, 1887, 1886 et 1905. Exclusion des préfaces, notes et illustrations. Les scènes fantastiques sont réservées aux adultes ; les extraits jeunesse retiennent navigation, voyage et refuge, sans importer les passages discriminatoires du roman historique.
+
+Catalogue attendu : 184 œuvres / 548 entrées lecteur. Les 180 œuvres précédentes sont strictement conservées ; le corpus historique et ses compteurs ne sont pas requalifiés. Le baseline gelé reste intact : son test contrôle désormais sa conservation intégrale au sein du catalogue enrichi. Le cache audio utilise le domaine www de production, afin de réutiliser les 536 lectures déjà disponibles avant de générer les 24 nouveaux fichiers des deux voix.
+Validation : 64 tests Node réussis (catalogue, API HTTP, conservation du corpus, audio et régressions). Contrôle supplémentaire : les 180 objets œuvres préexistants sont strictement inchangés. Publication de ce lot à vérifier en production.

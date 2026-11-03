@@ -1,13 +1,15 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const html=fs.readFileSync(__dirname+'/eclat_v73_deployable.html','utf8');
-test('restored catalogue matches every frozen passage hash and identity',()=>{
+test('catalogue preserves every frozen passage hash and identity after editorial additions',()=>{
  const catalog=require('./reading-catalog'),baseline=require('./automation/playwright/support/corpus-baseline.json');
  const ctx={window:{ECLAT_READING_CATALOG:catalog}};
  const start=html.indexOf('const WORKS='),end=html.indexOf('const PASSAGES=buildPassageIndex();',start)+'const PASSAGES=buildPassageIndex();'.length;
  vm.runInNewContext(html.slice(start,end)+';window.passages=PASSAGES;',ctx);
  const expected=new Map(baseline.passages.map(p=>[p.id,p]));
- assert.equal(ctx.window.passages.length,baseline.passages.length);
- for(const p of ctx.window.passages){const e=expected.get(p.id);assert.ok(e,p.id);for(const field of ['author','audience','workTitle','source'])assert.equal(p[field],e[field],p.id+' '+field);assert.equal(require('node:crypto').createHash('sha256').update(p.text).digest('hex'),e.textHash,p.id);expected.delete(p.id);}
+ assert.ok(ctx.window.passages.length>=baseline.passages.length);
+ const current=new Map(ctx.window.passages.map(p=>[p.id,p]));
+ assert.equal(current.size,ctx.window.passages.length,'duplicate reader IDs');
+ for(const e of baseline.passages){const p=current.get(e.id);assert.ok(p,e.id);for(const field of ['author','audience','workTitle','source'])assert.equal(p[field],e[field],p.id+' '+field);assert.equal(require('node:crypto').createHash('sha256').update(p.text).digest('hex'),e.textHash,p.id);expected.delete(p.id);}
  assert.equal(expected.size,0);
 });
 function node(){return {textContent:'',children:[],classList:{add(){},toggle(){}},style:{},append(...v){this.children.push(...v)},replaceChildren(){this.children=[]},setAttribute(){},removeAttribute(){},addEventListener(n,f){this[n]=f},focus(){},remove(){}};}
